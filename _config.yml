@@ -45,7 +45,7 @@ paginate_path: blog/page:num
 navigation_header:
 - title: Home
   url: /
-- title: Blog
+- title: All
   url: /blog/
 - title: Search
   url: /search/
