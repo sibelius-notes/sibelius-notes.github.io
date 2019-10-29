@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="{{asset 'css/style.css'}}"/>
+    <link type="text/css" rel="stylesheet" href="{{asset 'css/pilcrow.css'}}"/>
+    <link type="text/css" rel="stylesheet" href="{{asset 'css/hljs-github.min.css'}}"/>
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script type="text/javascript" src="{{asset 'js/jquery-1.8.3.min.js'}}"></script>
+    <script src="https://vexflow.com/releases/vextab-div.js"></script>
+    <div class="container">
+    {% include site-logo.html %}
+    {% include nav-header.html %}
+    </div>
+    {% include site-feature.html %}
+
+</head>
+<body>
+
+
+
+{{ content }}
+
+{% include site-footer.html %}
+
+<script>
+    function resize(){
+        $(".vex-canvas").width($(".content").width());
+    }
+    $(document).ready(function(){
+        resize();
+        $(window).on("resize", function(){
+            resize();
+        });
+    });
+</script>
+
+</body>
+</html>
