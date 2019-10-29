@@ -68,8 +68,10 @@ collections:
     output: true
     description: "My thoughts and ideas"
   term:
+    title: Terms
     output: true
   subject:
+    title: Subjects
     output: true
 
 
@@ -82,13 +84,13 @@ defaults:
       path: ""
       type: "term"
     values:
-      layout: "termsss"
+      layout: termsss
   -
     scope:
       path: ""
       type: "subject" # previously `page` in Jekyll 2.2.
     values:
-      layout: "subjectsss" # overrides previous default layout
+      layout: subjectsss
 
 
 
