@@ -79,18 +79,16 @@ collections:
 
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "term"
     values:
-      layout: termsss
-  -
-    scope:
+      layout: home
+  - scope:
       path: ""
-      type: "subject" # previously `page` in Jekyll 2.2.
+      type: "subject" 
     values:
-      layout: subjectsss
+      layout: home
 
 
 
