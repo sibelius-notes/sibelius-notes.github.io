@@ -1,5 +1,5 @@
 #!/bin/bash
-generate-md --layout ./my-layout --input ./1199 --output ./1199
+generate-md --layout ./my-layout --input ./1199md --output ./1199
 
 echo -e "\033[31m----------------------分割线--------------------\033[0m"
 
