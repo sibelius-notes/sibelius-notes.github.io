@@ -1,0 +1,108 @@
+# Set theme
+remote_theme: daviddarnes/alembic
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+gems:
+  - jekyll-last-modified-at
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+- jekyll-remote-theme
+
+# Site settings
+url: ''
+baseurl: ''
+title: 'Sibelius Peng'
+description: 'SP Fantasy'
+permalink: pretty
+logo: "/logo.jpg"
+email: "plc1101@163.com"
+author: Sibelius Peng
+
+contact:
+  email:      plc1101@163.com
+  github:     https://github.com/Sibelius-6
+  linkedin:   https://www.linkedin.com/in/sibelius-peng-595b27163/
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Header nav
+navigation_header:
+- title: Home
+  url: /
+- title: Blog
+  url: /blog/
+- title: Search
+  url: /search/
+- title: Subject
+  url: /subject/
+- title: Term
+  url: /term/
+- title: About
+  url: /about/
+
+# Footer nav
+navigation_footer:
+- title: Back to top
+  url: "./#top"
+
+
+defaults:
+- scope:
+    path: ""
+    type: tag
+  values:
+    layout: tag
+- scope:
+    path: ""
+    type: term
+  values:
+    layout: term
+- scope:
+    path: ""
+    type: subject
+  values:
+    layout: subject
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: "My thoughts and ideas"
+  tag:
+    output: true
+  term:
+    output: true
+  subject:
+    output: true
+
+
+
+# Site favicons
+favicons:
+  16: '/favicon.png'
+  32: '/favicon.png'
+  48: '/favicon.png'
+  64: '/favicon.png'
+  96: '/favicon.png'
+  120: '/favicon.png'
+  144: '/favicon.png'
+  180: '/favicon.png'
+  512: '/favicon.png'
+  1024: '/favicon.png'

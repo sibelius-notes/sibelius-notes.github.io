@@ -1,0 +1,96 @@
+#!/usr/bin/env python
+
+import glob
+import os
+import pandas as pd
+import numpy as np
+
+class Course:
+    def __init__(self, subject, num, term, audit):
+        self.subject = subject
+        self.num = num
+        self.term = term
+        # by default, the blog date is the start of that month
+        self.year = int(str(term)[:3]) + 1900
+        self.month = int(str(term)[-1:])
+        self.day = 1
+        self.audit = audit
+
+    def get_date(self):
+        return str(self.year) + '-' + str(self.month).zfill(2) + '-' + str(self.day).zfill(2)
+
+    def get_course_name(self, space=True):
+        if space: return str(self.subject.upper()) + ' ' + str(self.num)
+        return str(self.subject.upper()) + '_' + str(self.num)
+
+
+def term_to_str(term):
+    year = int(str(term)[:3]) + 1900
+    month = int(str(term)[-1:])
+    if month == 1: result = 'Winter '
+    elif month == 5: result = 'Spring '
+    else: result = 'Fall '
+    return result + str(year)
+
+###############################################################################################
+
+courses = []
+
+df = pd.read_csv('courses.csv')
+
+for index, row in df.iterrows():
+    courses.append(Course(row['subject'], row['cournum'], row['term'], row['audit']))
+
+
+terms = df['term'].unique()
+subjects = df['subject'].unique()
+
+for term in terms:
+    term_filename = '_term/' + str(term) + '.md'
+    f = open(term_filename, 'w')
+    write_str = """---\nterm: {}
+feature_text: |
+    <h2>{}</h2>
+---
+""".format(term, term_to_str(term))
+    f.write(write_str)
+    f.close()
+
+for subject in subjects:
+    subject_filename = '_subject/' + subject + '.md'
+    f = open(subject_filename, 'w')
+    write_str = """---\nsubject: {}
+feature_text: |
+    <h2>{}</h2>
+---
+""".format(subject, subject)
+    f.write(write_str)
+    f.close()
+
+
+
+
+old_posts = glob.glob('_posts/*.md')
+
+
+for c in courses:
+    course_filename = '_posts/' + c.get_date() + '-' + c.get_course_name(space=False) + ".md"
+    if course_filename in old_posts:
+        continue
+    f = open(course_filename, 'w')
+    write_str = """---\nlayout: post
+title: {}
+term: {}
+subject: {}
+feature_image: "https://picsum.photos/2560/600?image=875"
+---
+# Partial notes coming soon...
+""".format(c.get_course_name(), c.term, c.subject)
+    if c.audit:
+        write_str = write_str + "\n > I was auditing this course during this term.\n"
+    f.write(write_str)
+    f.close()
+    print('NEW: ', c.get_course_name())
+
+
+# Partial notes coming soon
