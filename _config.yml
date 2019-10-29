@@ -86,9 +86,9 @@ defaults:
       layout: home
   - scope:
       path: ""
-      type: "subject" 
+      type: "subject"
     values:
-      layout: home
+      layout: subjectsss
 
 
 
