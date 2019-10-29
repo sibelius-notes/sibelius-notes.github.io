@@ -22,7 +22,13 @@
   function findResults(termToMatch, pages) {
     return pages.filter(item => {
       const regex = new RegExp(termToMatch, 'gi');
-      return item.title.match(regex) || item.content.match(regex);
+      try {
+        return item.title.match(regex) || item.content.match(regex);
+      }
+      catch {
+        console.log(item);
+        return [];
+      }
     });
   }
 
