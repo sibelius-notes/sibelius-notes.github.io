@@ -74,27 +74,22 @@ collections:
 
 
 
+
+
 defaults:
   -
     scope:
-        path: ""
-        type: tag
+      path: ""
+      type: "pages"
     values:
-        layout: tag
+      layout: "my-site"
   -
     scope:
-        path: ""
-        type: term
+      path: "projects"
+      type: "pages" # previously `page` in Jekyll 2.2.
     values:
-        layout: term
-  -
-    scope:
-        path: ""
-        type: subject
-    values:
-        layout: subject
-
-
+      layout: "project" # overrides previous default layout
+      author: "Mr. Hyde"
 
 
 
