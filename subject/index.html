@@ -9,14 +9,14 @@ feature_image: "https://picsum.photos/1300/400?image=989"
         <!-- my code -->
         {% assign all_subjects = site.posts | map: "subject" | uniq %}
 
-        <ul>
+        <ul class="list list--posts">
         {% for item in all_subjects %}
-            <li>
+            <li class="item item--post">
                 <div class="typeset">
                     <h4><a href="/subject/{{ item }}">{{ item | upcase }}</a></h4>
                 </div>
             </li>
-        </ul>
         {% endfor %}
+        </ul>
     </div>
 </main>
