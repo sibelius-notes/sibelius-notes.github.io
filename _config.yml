@@ -26,7 +26,7 @@ plugins:
 url: ''
 baseurl: ''
 title: 'Sibelius Peng'
-description: 'SP Fantasy'
+description: 'Lecture Notes'
 permalink: pretty
 logo: "/logo.jpg"
 email: "plc1101@163.com"
@@ -75,13 +75,24 @@ collections:
 
 
 defaults:
--
+  -
     scope:
         path: ""
         type: tag
     values:
         layout: tag
-
+  -
+    scope:
+        path: ""
+        type: term
+    values:
+        layout: term
+  -
+    scope:
+        path: ""
+        type: subject
+    values:
+        layout: subject
 
 
 
