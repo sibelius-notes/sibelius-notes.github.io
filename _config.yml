@@ -68,16 +68,7 @@ defaults:
     type: tag
   values:
     layout: tag
-- scope:
-    path: ""
-    type: term
-  values:
-    layout: term
-- scope:
-    path: ""
-    type: subject
-  values:
-    layout: subject
+
 
 # Collections
 collections:
@@ -87,10 +78,7 @@ collections:
     description: "My thoughts and ideas"
   tag:
     output: true
-  term:
-    output: true
-  subject:
-    output: true
+
 
 
 
