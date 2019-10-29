@@ -82,13 +82,13 @@ defaults:
       path: ""
       type: "term"
     values:
-      layout: "term"
+      layout: "termsss"
   -
     scope:
       path: ""
       type: "subject" # previously `page` in Jekyll 2.2.
     values:
-      layout: "subject" # overrides previous default layout
+      layout: "subjectsss" # overrides previous default layout
 
 
 
