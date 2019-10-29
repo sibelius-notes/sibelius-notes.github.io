@@ -51,6 +51,7 @@ for term in terms:
     write_str = """---\nterm: {}
 feature_text: |
     <h2>{}</h2>
+feature_image: "https://picsum.photos/1300/400?image=989"
 ---
 """.format(term, term_to_str(term))
     f.write(write_str)
@@ -62,6 +63,7 @@ for subject in subjects:
     write_str = """---\nsubject: {}
 feature_text: |
     <h2>{}</h2>
+feature_image: "https://picsum.photos/1300/400?image=989"
 ---
 """.format(subject, subject)
     f.write(write_str)
