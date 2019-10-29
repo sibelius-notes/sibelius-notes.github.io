@@ -74,20 +74,21 @@ collections:
 
 
 
+
+
 defaults:
   -
     scope:
-        path: ""
-        type: "term"
+      path: ""
+      type: "term"
     values:
-        layout: "term"
+      layout: "term"
   -
     scope:
-        path: ""
-        type: "subject"
+      path: ""
+      type: "subject" # previously `page` in Jekyll 2.2.
     values:
-        layout: "subject"
-
+      layout: "subject" # overrides previous default layout
 
 
 
