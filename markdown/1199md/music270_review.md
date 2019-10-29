@@ -85,15 +85,15 @@ voice of any texture. A figured bass has two components:
 1. A bass note.
 2. Numbers, or "figures" -- listed under the bass -- that indicate the generic intervals formed by the bass and each of the other voices. The numbers are typically listed one below another, from largest to smallest.
 
-<img src="../pics/music270/figured_bass.png" alt="figured bass example" width="100%">
+<img src="/markdown/pics/music270/figured_bass.png" alt="figured bass example" width="100%">
 
 ### Figured Bass Realization
 
-<img src="../pics/music270/fig_bass_realization.png" alt="fig_bass_realization" width="100%">
+<img src="/markdown/pics/music270/fig_bass_realization.png" alt="fig_bass_realization" width="100%">
 
 ### Figured Bass Abbreviations
 
-<img src="../pics/music270/fig_bass_abbr.png" alt="fig_bass_abbr" width="100%">
+<img src="/markdown/pics/music270/fig_bass_abbr.png" alt="fig_bass_abbr" width="100%">
 
 ### Figured Bass Chromaticism
 
@@ -109,7 +109,7 @@ number 3 is omitted and only the accidental is written.
 * If the bass note is chromatically altered, nothing changes in the figure,
 since the figure indicates only intervals above the bass.
 
-<img src="../pics/music270/fig_bass_chromaticism.png" alt="fig_bass_chromaticism" width="60%">
+<img src="/markdown/pics/music270/fig_bass_chromaticism.png" alt="fig_bass_chromaticism" width="60%">
 
 ### Figured Bass and Melodic Motion
 
@@ -117,7 +117,7 @@ Figured bass can also show the melodic motion of individual voices,
 especially voices that move by step. A dash between numbers
 shows motion in the same voice, as viewed from the bass.
 
-<img src="../pics/music270/fig_bass_melodic_motion.png" alt="fig_bass_melodic_motion" width="50%">
+<img src="/markdown/pics/music270/fig_bass_melodic_motion.png" alt="fig_bass_melodic_motion" width="50%">
 
 ## Triads and the Scale: Harmonic Analysis
 
@@ -131,11 +131,11 @@ sign.
 
 ### Scale Degree Triads Types in Major
 
-<img src="../pics/music270/scale_in_major.png" alt="scale in major" width="100%">
+<img src="/markdown/pics/music270/scale_in_major.png" alt="scale in major" width="100%">
 
 ### Scale Degree Triads Types in Minor
 
-<img src="../pics/music270/scale_in_minor.png" alt="scale in minor" width="100%">
+<img src="/markdown/pics/music270/scale_in_minor.png" alt="scale in minor" width="100%">
 
 ### Complete Harmonic Analysis
 
@@ -145,7 +145,7 @@ triad, and a figure identifies root position or inversion. Finally, recall
 that figured bass can also identify melodic motion by individual voices
 above the bass (such as 5-6 or 4-3).
 
-<img src="../pics/music270/complete_harmonic_analysis.png" alt="complete Harmonic Analysis" width="50%">
+<img src="/markdown/pics/music270/complete_harmonic_analysis.png" alt="complete Harmonic Analysis" width="50%">
 
 ## Harmony and the Keyboard
 
@@ -162,7 +162,7 @@ progression I-V-I in both keyboard style and chorale style.
 
 ### Four-Voice Styles
 
-<img src="../pics/music270/4-voices-style.png" alt="four-voice-style" width="50%">
+<img src="/markdown/pics/music270/4-voices-style.png" alt="four-voice-style" width="50%">
 
 
 ## Seventh Chords
@@ -180,11 +180,11 @@ Example 3.12 shows the following qualities of chords, built on the root C:
 * half-diminished seventh chord (dm7)
 * diminished, or fully diminished, seventh chord (dd7)
 
-<img src="../pics/music270/seven_chord.png" alt="seven_chord" width="70%">
+<img src="/markdown/pics/music270/seven_chord.png" alt="seven_chord" width="70%">
 
 ### Inversion of Seventh Chords
 
-<img src="../pics/music270/seven_inversion.png" alt="seven_inversion" width="70%">
+<img src="/markdown/pics/music270/seven_inversion.png" alt="seven_inversion" width="70%">
 
 When we analyze seventh chords with roman numerals, we use the following to show the chord qualities:
 
@@ -195,11 +195,11 @@ When we analyze seventh chords with roman numerals, we use the following to show
 
 ### Scale Degree Seventh-Chord Types in Major and Minor
 
-<img src="../pics/music270/7-in-major-minor.png" alt="7-in-major-minor" width="100%">
+<img src="/markdown/pics/music270/7-in-major-minor.png" alt="7-in-major-minor" width="100%">
 
 ### A Complete Harmonic Analysis of Triads and Seventh Chords
 
-<img src="../pics/music270/complete-triads-7-chords.png" alt="complete-triads-7-chords" width="100%">
+<img src="/markdown/pics/music270/complete-triads-7-chords.png" alt="complete-triads-7-chords" width="100%">
 
 ## Musical Texture
 
@@ -951,4 +951,4 @@ The octave (or compound octave) will always occupy the music's final beat, and i
 
 Finally, two fifths or two octaves may not sound in direct succession, whether the motion between the voices is parallel or contrary.
 
-### Initial Beat 
+### Initial Beat
