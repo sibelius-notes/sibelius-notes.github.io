@@ -1,0 +1,8 @@
+#!/bin/bash
+generate-md --layout ./my-layout --input ./1199 --output ./1199
+
+echo -e "\033[31m----------------------分割线--------------------\033[0m"
+
+git add ..
+git commit -m "${1:-'generate md'}"
+git push
