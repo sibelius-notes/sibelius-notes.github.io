@@ -1,7 +1,7 @@
 <aside class="aside typeset">
     {% unless paginator.posts or page.collection == "tag" %}
         {% if page.collection == "posts"%}
-            <h4>Related Posts</h4>
+            <h4>Related Courses</h4>
             {% assign related_posts = site.related_posts | slice: 0, 3 %}
             {% include post-related.html %}
         {% else %}
@@ -9,7 +9,7 @@
         {% endif %}
     {% endunless%}
 
-    
+
 
     {% include nav-social.html %}
 </aside>

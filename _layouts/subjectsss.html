@@ -1,9 +1,10 @@
 ---
 layout: default
+feature_image: "https://picsum.photos/1300/400?image=989"
 ---
 <main class="main container">
     <div class="content">
-        <% assign target = page.subject %}
+        {% assign target = page.subject %}
         <ul class="list list--posts">
         {% for page in site.posts %}
             {% if page.subject == target %}

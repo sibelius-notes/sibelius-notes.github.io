@@ -1,17 +1,12 @@
 <small class="small post-meta">
     {% unless related %}
-        {% if page.tags %}
             <span class="label label--category">
-            {% for tag in page.tags %}
-                <a href="/tag/{{ tag }}" class="post-tag">&#35;{{ tag }} &nbsp;</a>
-            {% endfor %}
+                <a href="/term/{{ page.term }}" class="post-tag">term:{{ page.term }} &nbsp;</a>
             </span>
-        {% endif %}
+            <span class="label label--category">
+                <a href="/subject/{{ page.subject }}" class="post-tag">#{{ page.subject }} &nbsp;</a>
+            </span>
     {% endunless %}
 
-    {% if page.date %}
-        <time datetime="{{ page.date | date_to_xmlschema }}" class="time">
-            {{ page.date | date_to_string }}
-        </time>
-    {% endif %}
+
 </small>
