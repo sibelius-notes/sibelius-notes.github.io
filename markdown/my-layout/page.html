@@ -13,7 +13,11 @@
     <script type="text/javascript" src="{{asset 'js/jquery-1.8.3.min.js'}}"></script>
     <!--link href="http://vexflow.com/releases/vextab.css" media="screen" rel="Stylesheet" type="text/css" /-->
     <script src="https://vexflow.com/releases/vextab-div.js"></script>
-
+    <div class="container">
+    {% include site-logo.html %}
+    {% include nav-header.html %}
+    </div>
+    {% include site-feature.html %}
 
 </head>
 <body>
@@ -41,6 +45,7 @@
     {{~> content}}
 </div>
 
+{% include site-footer.html %}
 
 <script>
     function resize(){
