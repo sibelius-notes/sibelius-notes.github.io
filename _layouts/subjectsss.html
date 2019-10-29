@@ -3,7 +3,8 @@ layout: default
 ---
 <main class="main container">
     <div class="content">
-        {% assign target = page.subject %}
+        <!-->
+        <% assign target = page.subject %}
         <ul class="list list--posts">
         {% for page in site.posts %}
             {% if page.subject = target %}
@@ -15,6 +16,7 @@ layout: default
                 </li>
             {% endif %}
         {% endfor %}
-        </ul>
+        </ul -->
+        <h1>testinggg: { page.subject }</h1>
     </div>
 </main>
