@@ -62,10 +62,7 @@ for subject in subjects:
     f = open(subject_filename, 'w')
     write_str = """---\nsubject: {}
 feature_text: |
-    <h2 style="background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  padding: 10px;">{}</h2>
+    <h2 style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: #f1f1f1; padding: 10px;">{}</h2>
 feature_image: "/back_pic/{}.jpg"
 ---
 """.format(subject, subject.upper(), subject)
