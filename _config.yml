@@ -53,8 +53,8 @@ navigation_header:
   url: /subject/
 - title: Term
   url: /term/
-- title: About
-  url: /about/
+- title: Contact
+  url: /contact/
 
 # Footer nav
 navigation_footer:

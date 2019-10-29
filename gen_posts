@@ -63,9 +63,9 @@ for subject in subjects:
     write_str = """---\nsubject: {}
 feature_text: |
     <h2>{}</h2>
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "/back_pic/{}.jpg"
 ---
-""".format(subject, subject)
+""".format(subject, subject, subject)
     f.write(write_str)
     f.close()
 

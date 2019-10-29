@@ -5,14 +5,12 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 feature_text: |
   ## Check My Lecture Notes!
 ---
-## My Program
+## About
 
-- Institution - University of Waterloo
-  - Career - Undergraduate
-    - Program - Mathematics HCO
-      - Honours Co-op - Computer Science Honours Co-op
-      - Honours Co-op - Combinatorics & Optimization Honours Co-op
-      - Minor - Pure Mathematics Minor
-      - Minor - Applied Mathematics Minor
-      - Minor - Statistics Minor
-      - Minor - Music Minor
+This website contains Lecture Notes only.
+
+Also, check my [blogs](https://sibelius-old.github.io/), check my [blogspot](https://sibeliuspeng.blogspot.ca), check my [old home page](https://sibelius-6.github.io) (which have most of my lecture notes prior to Fall 2019 and it will be archived after Fall 2019). 
+
+## Contact
+
+If you spot a typo or have any questions, contact me via the tab in navbar.
