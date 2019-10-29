@@ -6,9 +6,9 @@ exclude:
 - README.md
 - Gemfile
 - Gemfile.lock
+- markdown/my-layout/page.html
 
-gems:
-  - jekyll-last-modified-at
+
 
 # Set plugins
 plugins:
