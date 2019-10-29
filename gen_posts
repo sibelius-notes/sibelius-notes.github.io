@@ -86,7 +86,8 @@ term: {}
 subject: {}
 feature_image: "https://picsum.photos/2560/600?image=875"
 ---
-# Partial notes coming soon...
+
+Partial notes coming soon...
 """.format(c.get_course_name(), c.term, c.subject)
     if c.audit:
         write_str = write_str + "\n > I was auditing this course during this term.\n"
