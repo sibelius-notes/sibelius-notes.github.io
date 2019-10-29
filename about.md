@@ -3,7 +3,7 @@ layout: home
 title: About
 ---
 ## About
-Learning notes, review notes, book review and so on...
+Lecture Notes only..
 
-## Send me a message
+### Spot a typo?
 {% include site-form.html %}

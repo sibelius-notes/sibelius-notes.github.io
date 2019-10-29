@@ -61,23 +61,40 @@ navigation_footer:
 - title: Back to top
   url: "./#top"
 
-
-defaults:
-- scope:
-    path: ""
-    type: tag
-  values:
-    layout: tag
-
-
 # Collections
 collections:
   posts:
     title: Posts
     output: true
     description: "My thoughts and ideas"
-  tag:
+  term:
     output: true
+  subject:
+    output: true
+
+
+
+defaults:
+-
+    scope:
+        path: ""
+        type: tag
+    values:
+        layout: tag
+-
+    scope:
+        path: ""
+        type: term
+    values:
+        layout: term
+-
+    scope:
+        path: ""
+        type: subject
+    values:
+        layout: subject
+
+
 
 
 
