@@ -83,7 +83,7 @@ defaults:
       path: ""
       type: "term"
     values:
-      layout: home
+      layout: termsss
   - scope:
       path: ""
       type: "subject"
