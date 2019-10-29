@@ -9,9 +9,9 @@ feature_image: "https://picsum.photos/1300/400?image=989"
         <!-- my code -->
         {% assign all_terms = site.posts | map: "term" | uniq %}
 
-        <ul class="list list--posts">
+        <ul>
         {% for item in all_terms %}
-            <li class="item item--post">
+            <li>
                 <div class="typeset">
                     <h4><a href="/term/{{ item }}">{{ item | upcase }}</a></h4>
                 </div>
