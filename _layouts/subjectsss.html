@@ -7,7 +7,7 @@ layout: default
         <% assign target = page.subject %}
         <ul class="list list--posts">
         {% for page in site.posts %}
-            {% if page.subject = target %}
+            {% if page.subject == target %}
                 <li class="item item--post">
                     <div class="typeset">
                         <h5><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h5>
