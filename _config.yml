@@ -78,12 +78,6 @@ defaults:
   -
     scope:
         path: ""
-        type: tag
-    values:
-        layout: tag
-  -
-    scope:
-        path: ""
         type: "term"
     values:
         layout: "term"
