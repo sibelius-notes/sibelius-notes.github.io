@@ -81,18 +81,7 @@ defaults:
         type: tag
     values:
         layout: tag
--
-    scope:
-        path: ""
-        type: term
-    values:
-        layout: term
--
-    scope:
-        path: ""
-        type: subject
-    values:
-        layout: subject
+
 
 
 
