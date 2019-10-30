@@ -7,7 +7,7 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 <main class="main container">
     <div class="content">
         <!-- my code -->
-        {% assign all_subjects = site.posts | map: "subject" | uniq %}
+        {% assign all_subjects = site.subject | map: "subject" | uniq %}
 
         <ul>
         {% for item in all_subjects %}
