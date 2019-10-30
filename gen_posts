@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 class Course:
-    def __init__(self, subject, num, term, audit):
+    def __init__(self, subject, num, term, audit, name):
         self.subject = subject
         self.num = num
         self.term = term
@@ -15,6 +15,7 @@ class Course:
         self.month = int(str(term)[-1:])
         self.day = 1
         self.audit = audit
+        self.name = name
 
     def get_date(self):
         return str(self.year) + '-' + str(self.month).zfill(2) + '-' + str(self.day).zfill(2)
@@ -36,10 +37,12 @@ def term_to_str(term):
 
 courses = []
 
-df = pd.read_csv('courses.csv')
+df = pd.read_csv('courses.csv',
+                names=["subject","cournum","term","audit","name"],
+                delimiter=",")
 
 for index, row in df.iterrows():
-    courses.append(Course(row['subject'], row['cournum'], row['term'], row['audit']))
+    courses.append(Course(row['subject'], row['cournum'], row['term'], row['audit'], row['name']))
 
 
 terms = df['term'].unique()
@@ -74,10 +77,11 @@ feature_image: "/back_pic/{}.jpg"
 
 old_posts = glob.glob('_posts/*.md')
 
+not_overwrite = True
 
 for c in courses:
     course_filename = '_posts/' + c.get_date() + '-' + c.get_course_name(space=False) + ".md"
-    if course_filename in old_posts:
+    if not_overwrite and (course_filename in old_posts):
         continue
     f = open(course_filename, 'w')
     write_str = """---\nlayout: post
@@ -85,10 +89,12 @@ title: {}
 term: {}
 subject: {}
 feature_image: "https://picsum.photos/2560/600?image=875"
+feature_text: |
+    ## {}
 ---
 
 Partial notes coming soon...
-""".format(c.get_course_name(), c.term, c.subject)
+""".format(c.get_course_name(), c.term, c.subject, c.name)
     if c.audit:
         write_str = write_str + "\n > I was auditing this course during this term.\n"
     f.write(write_str)
