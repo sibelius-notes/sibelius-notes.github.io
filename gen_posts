@@ -79,6 +79,8 @@ old_posts = glob.glob('_posts/*.md')
 
 not_overwrite = True
 
+i = 1
+
 for c in courses:
     course_filename = '_posts/' + c.get_date() + '-' + c.get_course_name(space=False) + ".md"
     if not_overwrite and (course_filename in old_posts):
@@ -90,7 +92,7 @@ term: {}
 subject: {}
 feature_image: "https://picsum.photos/2560/600?image=875"
 feature_text: |
-    ## {}
+    <h2 style="color:white;"> {} </h2>
 ---
 
 Partial notes coming soon...
@@ -99,7 +101,8 @@ Partial notes coming soon...
         write_str = write_str + "\n > I was auditing this course during this term.\n"
     f.write(write_str)
     f.close()
-    print('NEW: ', c.get_course_name())
+    print(i, ', NEW: ', c.get_course_name())
+    i = i + 1
 
 
 # Partial notes coming soon
