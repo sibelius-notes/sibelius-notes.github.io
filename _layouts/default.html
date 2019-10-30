@@ -33,6 +33,14 @@
     {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
 
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
+    <style>
+        /* overwriting cs, ne, se style */
+        .cs .ne .se {
+            color: inherit !important;
+            font-weight: inherit !important;
+            font-style: inherit !important;
+        }
+    </style>
 
 {% include site-before-start.html %}
 </head>
