@@ -5,6 +5,7 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 <main class="main container">
     <div class="content">
         {% assign target = page.subject %}
+        {% assign counter = 0 %}
         <ul class="list list--posts">
         {% for page in site.posts %}
             {% if page.subject == target %}
@@ -14,8 +15,12 @@ feature_image: "https://picsum.photos/1300/400?image=989"
                         {% include post-meta.html %}
                     </div>
                 </li>
+            {% assign counter=counter | plus:1 %}
             {% endif %}
         {% endfor %}
         </ul>
+        {% if counter == 0 %}
+            <p>Sorry, I haven't taken any {{ target | upcase }} courses yet. </p>
+        {% endif %}
     </div>
 </main>

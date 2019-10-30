@@ -33,6 +33,9 @@ def term_to_str(term):
     else: result = 'Fall '
     return result + str(year)
 
+def get_sub(path):
+    return os.path.splitext(os.path.basename(path))[0]
+
 ###############################################################################################
 
 courses = []
@@ -46,7 +49,8 @@ for index, row in df.iterrows():
 
 
 terms = df['term'].unique()
-subjects = df['subject'].unique()
+subjects = set(list(df['subject']) + list(map(get_sub, glob.glob('back_pic/*'))))
+
 
 for term in terms:
     term_filename = '_term/' + str(term) + '.md'
