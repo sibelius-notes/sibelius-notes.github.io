@@ -7,7 +7,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - markdown/my-layout/page.html
-
+- markdown/*/*.md
 
 
 # Set plugins
