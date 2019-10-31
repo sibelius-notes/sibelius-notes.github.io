@@ -8,12 +8,15 @@ feature_image: "https://picsum.photos/1300/400?image=989"
     <div class="content">
         <!-- my code -->
         {% assign all_subjects = site.subject | map: "subject" | uniq %}
-
+        {% assign taken_subjects = posts.subject | map: "subject" | uniq %}
         <ul>
         {% for item in all_subjects %}
             <li>
                 <div class="typeset">
-                    <h4><a href="/subject/{{ item }}">{{ item | upcase }}</a></h4>
+                    <h4><a href="/subject/{{ item }}"
+                            {% unless taken_subjects contains item %}
+                                style="color: #e8fff8;"
+                            {% endunless %}>{{ item | upcase }}</a></h4>
                 </div>
             </li>
             <br>
