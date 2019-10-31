@@ -23,7 +23,7 @@ class Course:
 
     def get_course_name(self, space=True):
         if space: return str(self.subject.upper()) + ' ' + str(self.num)
-        return str(self.subject.upper()) + '_' + str(self.num)
+        return str(self.subject.upper()) + str(self.num)
 
 
 def term_to_str(term):
