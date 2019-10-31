@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 class Course:
-    def __init__(self, subject, num, term, audit, name):
+    def __init__(self, subject, num, term, audit, name, other):
         self.subject = subject
         self.num = num
         self.term = term
@@ -16,6 +16,7 @@ class Course:
         self.day = 1
         self.audit = audit
         self.name = name
+        self.other = other
 
     def get_date(self):
         return str(self.year) + '-' + str(self.month).zfill(2) + '-' + str(self.day).zfill(2)
@@ -41,11 +42,12 @@ def get_sub(path):
 courses = []
 
 df = pd.read_csv('courses.csv',
-                names=["subject","cournum","term","audit","name"],
+                names=["subject","cournum","term","audit","name", "other"],
                 delimiter=",")
 
 for index, row in df.iterrows():
-    courses.append(Course(row['subject'], row['cournum'], row['term'], row['audit'], row['name']))
+    courses.append(Course(row['subject'], row['cournum'],
+                    row['term'], row['audit'], row['name'], row['other']))
 
 
 terms = df['term'].unique()
@@ -101,8 +103,11 @@ feature_text: |
 
 Partial notes coming soon...
 """.format(c.get_course_name(), c.term, c.subject, c.name)
-    if c.audit:
-        write_str = write_str + "\n > I was auditing this course during this term.\n"
+    if not (c.other == 'me'):
+        write_str = write_str + "\n > These notes are contributed by one of my friends: {}.\n".format(c.other)
+    else:
+        if c.audit:
+            write_str = write_str + "\n > I was auditing this course during this term.\n"
     f.write(write_str)
     f.close()
     print(i, ', NEW: ', c.get_course_name())
