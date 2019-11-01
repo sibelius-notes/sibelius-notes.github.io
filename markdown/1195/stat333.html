@@ -64,7 +64,7 @@ layout: markdown
         <a class="md-toc-inner" href="#exponential-rv:-$\exp(\lambda)$">Exponential rv: $\exp(\lambda)$</a>
     </span>
     <span class="md-toc-item md-toc-h2">
-        <a class="md-toc-inner" href="#expectation-&amp;-variance">Expectation &amp; Variance</a>
+        <a class="md-toc-inner" href="#expectation-&amp;-variance">Expectation &amp; variance</a>
     </span>
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#lec-6">Lec 6</a>
@@ -305,7 +305,7 @@ $$
 <p>​                 (b) tail prob: $P(X &gt;t) = e^{-\lambda t}\qquad t&gt;0$  (at time t, we don&#39;t observe the event)</p>
 <p>​                    (c) No-memory property: missing pic</p>
 <p><strong>No memory property meaning</strong> : As long as we don&#39;t observe the event, Remaining time $k$ original time both $\sim \exp(\lambda)$</p>
-<h2 id="expectation-&-variance"><a class="header-link" href="#expectation-&-variance"></a>Expectation &amp; Variance</h2>
+<h2 id="expectation-&-variance"><a class="header-link" href="#expectation-&-variance"></a>Expectation &amp; variance</h2>
 <p><strong>Discrete rv</strong>: $X$ with range ${x_0, x_1,\ldots, x_n, \ldots}$
 Then $E(x)= \sum_{i=0}^\infty \underbrace{x_i}_{value} \times P(X=x_i)$</p>
 <p><strong>Continous rv</strong>: $X$ with pdf f(x), then $\displaystyle E(x)= \int_{-\infty}^\infty x f(x)dx$</p>
@@ -531,7 +531,7 @@ $$</p>
 <p><strong>Method1</strong> By defn</p>
 <p>Recall
 $$
-Var(X)=E(X^2)-[E(X)]^2\
+var(X)=E(X^2)-[E(X)]^2\
 E(X^2)=E[E(X^2|Y)]\
 E(X)=E[E(X|Y)]
 $$
@@ -539,18 +539,18 @@ This method has been covered before.</p>
 <p><strong>Method2</strong> Conditional variance.</p>
 <p>Given $Y=y$, the coditional variance of $X$ is given as
 $$
-Var(X|Y=y)=E(X^2|Y=y)-[E(X|Y=y)]^2
+var(X|Y=y)=E(X^2|Y=y)-[E(X|Y=y)]^2
 $$
-<strong>Note</strong> $Var(X|Y=y)$ depends on $y$ and is a function $y$, say
+<strong>Note</strong> $var(X|Y=y)$ depends on $y$ and is a function $y$, say
 $$
-Var(X|Y=y)=h(y)
+var(X|Y=y)=h(y)
 $$
-<strong>EG</strong> $X|Y=y \sim pois(y) \implies Var(X|Y=y)=y \implies h(y)=y$
-Then, apply $h(y)$ to $Y$, we get a r.v. This rv is denoted as $Var(X|Y)=h(Y)$</p>
-<p>Basically: $Var(X|Y)=h(Y)=E(X^2|Y)-[E(X|Y)]^2$ conditional variance variance of $X$ given $Y$.</p>
-<p>Two steps to find $Var(X|Y)$</p>
+<strong>EG</strong> $X|Y=y \sim pois(y) \implies var(X|Y=y)=y \implies h(y)=y$
+Then, apply $h(y)$ to $Y$, we get a r.v. This rv is denoted as $var(X|Y)=h(Y)$</p>
+<p>Basically: $var(X|Y)=h(Y)=E(X^2|Y)-[E(X|Y)]^2$ conditional variance variance of $X$ given $Y$.</p>
+<p>Two steps to find $var(X|Y)$</p>
 <ul class="list">
-<li>Step1: find $h(y)=Var(X|Y=y)$</li>
+<li>Step1: find $h(y)=var(X|Y=y)$</li>
 <li>Step 2: apply $h(y)$ to $Y$ to get $var(X|Y)=h(Y)$</li>
 </ul>
 <p>Comments:</p>
@@ -560,13 +560,13 @@ Then, apply $h(y)$ to $Y$, we get a r.v. This rv is denoted as $Var(X|Y)=h(Y)$</
 </ol>
 <p><strong>THEOREM</strong>
 $$
-Var(X)=E[\underbrace{var(X|Y)}_{\ge 0}]+var[E(X|Y)]
+var(X)=E[\underbrace{var(X|Y)}_{\ge 0}]+var[E(X|Y)]
 $$
 From $X$ to $E(X|Y)$</p>
 <p>1st $E(X)=E(E(X|Y))$</p>
-<p>2nd $Var(X)\ge Var(E(X|Y))$</p>
+<p>2nd $var(X)\ge var(E(X|Y))$</p>
 <p><strong>PROOF</strong></p>
-<p><em>LHS</em> $Var(X)=E(X^2)-[E(X)]^2$
+<p><em>LHS</em> $var(X)=E(X^2)-[E(X)]^2$
 $$
 \begin{split}
 RHS =&amp; E(var(X|Y)) + var[E(X|Y)]\
@@ -593,12 +593,12 @@ $$</p>
 <p>$$
 \implies E(W|N)=N<em>E(X_1)\
 \implies E(W)=E(E(W|N))=E(N</em>E(X_1))=E(N)<em>E(X_1)\
-Var(W)=E[Var(W|N)]+Var[\underbrace{E(W|N)}_{N</em>E(X_1)}]
+var(W)=E[var(W|N)]+var[\underbrace{E(W|N)}_{N</em>E(X_1)}]
 $$</p>
-<p>$Var(W|N)?$
+<p>$var(W|N)?$
 $$
 \begin{aligned}
-Var(W|N=n)&amp;= var\left(\sum_{i=1}^N X_i |N=n\right) \
+var(W|N=n)&amp;= var\left(\sum_{i=1}^N X_i |N=n\right) \
 &amp;= var\left(\sum_{i=1}^n X_i |N=n\right) \
 &amp;= var\left( \sum_{i=1}^n X_i\right) \quad X_1,\ldots, X_n\&amp;N~indepdent \
 &amp;= \sum_{i=1}^n var(X_i) \qquad X_1,\ldots, X_n~are~i.i.d\
@@ -606,12 +606,12 @@ Var(W|N=n)&amp;= var\left(\sum_{i=1}^N X_i |N=n\right) \
 \end{aligned}
 $$</p>
 <p>$$
-\implies Var(W|N)=N*var(X_1)
+\implies var(W|N)=N*var(X_1)
 $$</p>
 <p><strong>Next</strong>
 $$
 \begin{split}
-Var(W)&amp;=E[var(W|N)]+var[E(W|N)]\
+var(W)&amp;=E[var(W|N)]+var[E(W|N)]\
 &amp;=E[N<em>var(X_1)]+var(N</em>E(X_1))\
 &amp;=E(N)<em>var(X_1)+var(N)</em>[E(X_1)]^2
 \end{split}
