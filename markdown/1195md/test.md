@@ -13,7 +13,7 @@ $$
 # equation
 $$
 \begin{aligned}
-y &=x \\
-x &=y \\
+y &=x \\\\
+x &=y \\\\
 \end{aligned}
 $$
