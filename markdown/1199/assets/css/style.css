@@ -112,10 +112,11 @@ ul {
 	margin: 2em auto;
 }
 
-.content > h1:first-child {
+h1:first-child {
     font-family: "Indie Flower" !important;
 	text-align: center;
 	display: block;
+	font-size: 150%;
 }
 
 /* Article Body */
