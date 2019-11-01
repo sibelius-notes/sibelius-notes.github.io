@@ -1,5 +1,5 @@
-# A Gentle Review to MUSIC 270
-
+title: A Gentle Review to MUSIC 270
+---
 These notes are created during Fall 2019. Here is a VexTab example:
 
 <div class="vex-tabdiv"
