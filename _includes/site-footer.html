@@ -1,6 +1,8 @@
 <footer class="footer">
   <div class="container">
+    {% unless page.layout == markdown %}
     {% include nav-footer.html %}
+    {% endunless %}
     <!--div class="typeset" style="text-align:center">
         Last modified on {{ page.last_modified_at %d-%b-%Y}}
         doesn't work in github page
