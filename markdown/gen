@@ -1,5 +1,11 @@
 #!/bin/bash
-generate-md --layout ./my-layout --input ./1199md --output ./1199
+
+for mdfolder in $( ls -d *md )
+do
+    folder=${mdfolder%??}
+    echo -e "\033[31m--$folder---\033[0m"
+    generate-md --layout ./my-layout --input ./$mdfolder --output ./$folder
+done
 
 echo -e "\033[31m----------------------分割线--------------------\033[0m"
 

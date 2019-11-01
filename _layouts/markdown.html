@@ -18,6 +18,15 @@
     {% include site-icons.svg %}
     {% include site-header.html %}
 
+    <script>
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+    </script>
+
 
 
 {{ content }}
