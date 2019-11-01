@@ -434,6 +434,17 @@ a img {
 	color: #a8adac
 }
 
+button, .button {
+	padding: .6rem 1.2rem;
+	margin-bottom: .6rem;
+	transition: color .1s, background-color .1s, border .1s;
+	line-height: inherit;
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+	-webkit-appearance: none
+}
+
 .button--nav {
 	background: none;
 	color: #05bf85;
@@ -451,7 +462,7 @@ a img {
 .button--nav:hover,
 .button--nav:focus {
 	box-shadow: none;
-	color: green
+	color: #a00;
 }
 
 .nav a {
@@ -459,4 +470,9 @@ a img {
 	padding-right: 0;
 	margin-left: .2rem;
 	margin-right: .2rem
+}
+
+a {
+	text-decoration: none;
+	transition: color .1s, background-color .1s
 }
