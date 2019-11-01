@@ -164,8 +164,7 @@
     	text-align: right
     }
 
-    .header .logo,
-    .footer .logo {
+    .header .logo, .footer .logo {
     	-webkit-box-flex: 0;
     	-webkit-flex: 0 0 auto;
     	-moz-box-flex: 0;
@@ -213,6 +212,17 @@
     	justify-content: flex-end;
     	overflow: hidden
     }
+    @media screen and (min-width: 40em) {
+    	.item--nav {
+    		margin-left: .4rem;
+    		display: inline-block
+    	}
+    }
+
+    .item--nav:first-of-type {
+    	margin-left: 0
+    }
+
     </style>
 </head>
 <body>
