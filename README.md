@@ -9,7 +9,7 @@ You will need to
     * `cd markdown`
     * call `./gen` to convert.
 
-Note that you `shouldn't` use markdown to do math often since the conversion is weird. You will need to `\\(x+y\\)` or `\\[\sum_x^y\\]` in original markdown files. Also for equations, you will need to do
+Note that you **shouldn't** use markdown to do math often since the conversion is weird. You will need to `\\(x+y\\)` or `\\[\sum_x^y\\]` in original markdown files. Also for equations, you will need to do
 
 ```latex
 $$
