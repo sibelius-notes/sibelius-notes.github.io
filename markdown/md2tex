@@ -10,4 +10,6 @@
 
 file=$1
 ./debuck $file
+# later: change <em> </em> to _ ... werid generate md.
+# also, avoid the usage of {{ }}, which are liquid variables
 #perl -i -pe 's/\\\(/\\\\\(/g; s/\\\)/\\\\\)/g; s/\\\[/\\\\\[/g; s/\\\]/\\\\\]/g;' $file

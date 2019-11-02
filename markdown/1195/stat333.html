@@ -214,14 +214,14 @@ P(F_i)&gt;0
 \]
 Then
 \[
-\begin{equation<em>}
+\begin{equation_}
 \begin{split}
 P(E) &amp;=\sum_iP(E\cap F_i) \\
 &amp;=\sum_i P(E|F_i)P(F_i) \\
 \end{split}
 \implies
 P(E)=\sum_iP(E|F_i) P(F_i)
-\end{equation</em>}
+\end{equation_}
 \]
 Law of total prob. [divide and conquer method]</p>
 <p>Next:
@@ -261,7 +261,7 @@ Then \(Pr(I_i=1)=p\) &amp; \(P_r(I_i=0)=q\)  &amp; \(I_1,I_2,\ldots,I_n,\ldots\)
 <p>Notation \(Bin(n,p)\)</p>
 <p>\(X=\)# of &quot;S&quot; in \(n\) Bernoullli trials \(\sim Bin(n,p)\)
 n = # of Bernoulli trials [fixed]          p is prob of &quot;S&quot;</p>
-<p><strong>Range</strong> \({0,1,\ldots,n}\)         \(P(X=k)=\underbrace{\binom{n}{k}p^k(1-p)^{n-k}}_{\text{prob mass function}}\)     \(k=0,1,2,\ldots, n\)</p>
+<p><strong>Range</strong> \({0,1,\ldots,n}\)         \(P(X=k)=\underbrace{\binom{n}{k}p^k(1-p)^{n-k} }_{\text{prob mass function} }\)     \(k=0,1,2,\ldots, n\)</p>
 <ul class="list">
 <li>Result 1:\(X=\sum_{i=1}^n I_i\) where \(I_1,\ldots, I_n\) are iid Bernoulli rvs, \(X\) is binomial</li>
 <li>Result 2: If \(X_1\sim Bin(n_1,p), X_2\sim Bin(n_2,p)\) and they are independent, then \(X_1+X_2 \sim Bin(n_1+n+2,p)\)</li>
@@ -273,7 +273,7 @@ n = # of Bernoulli trials [fixed]          p is prob of &quot;S&quot;</p>
 <h2 id="geometric-rv"><a class="header-link" href="#geometric-rv"></a>Geometric rv</h2>
 <p>Geo(p)</p>
 <p>First waiting time rv</p>
-<p>\(X=\) # of <strong><em>trials</em></strong> to get first &quot;S&quot; in the sequence of Bernoulli trials</p>
+<p>\(X=\) # of <strong>_trials_</strong> to get first &quot;S&quot; in the sequence of Bernoulli trials</p>
 <p>Range of \(X={1,2,\ldots}\)       \(E[X]={1\over p}\)</p>
 <p>prob mas function \(P(X=k)=(1-p)^{k-1} p\)      \(k=1,2,3,\ldots\)</p>
 <p><strong>property</strong> No-memory property</p>
@@ -347,7 +347,7 @@ Let \(P(A)=p \implies P(I_A=1)= p \qquad \&amp; \qquad P(I_A=0)=q=1-p\)</p>
 <h2 id="chapter-2-waiting-time-rcs"><a class="header-link" href="#chapter-2-waiting-time-rcs"></a>chapter 2 waiting time rcs</h2>
 <p>Suppose we have a sequence of trials &amp; we are interested in observing event E based on trials.</p>
 <p>\(T_E\) = # of trials or waiting time to observe first E.</p>
-<p>Range of \(T_E=\underbrace{{1,2,\ldots}}<em>{we~can~observe~E}\cup \underbrace{{\infty}}</em>{we~can&#39;t}\)</p>
+<p>Range of \(T_E=\underbrace{ {1,2,\ldots} }_{we~can~observe~E}\cup \underbrace{ {\infty} }_{we~can&#39;t}\)</p>
 <p>We are intersted in</p>
 <ol class="list">
 <li>If \(P(T_E &lt; \infty) &lt; 1\) or \(P(T_E=\infty)&gt;0\)</li>
@@ -366,7 +366,7 @@ Let \(P(A)=p \implies P(I_A=1)= p \qquad \&amp; \qquad P(I_A=0)=q=1-p\)</p>
 <ol class="list">
 <li><p>If \(T_E\) is improper, then \(E(T_E)=\infty\)  . since
 \[
-E(T_E) = \1<em>P(T_E=1)+2</em>P(T_E=2)+\ldots+\underbrace{\infty*P(T_E=\infty)}_{=\infty} = \infty
+E(T_E) = \1_P(T_E=1)+2_P(T_E=2)+\ldots+\underbrace{\infty*P(T_E=\infty)}_{=\infty} = \infty
 \]</p>
 </li>
 <li><p>If \(E(T_E)&lt;\infty\), then \(T_E\) is short proper, we do not need to verify \(P(T_E&lt;\infty)=1\)</p>
@@ -450,18 +450,18 @@ f_{X|Y}(x|y)={f_{X,Y}(x,y)\over f_Y(y)}={Joint\over marginal} \quad f_Y(y)&gt;0
 \]</p>
 </li>
 <li><p>Property: \(f_{X|Y}(x|y)\) is a pmf
-<em>That is</em> (1) \(f_{X|Y}(x|y)\ge 0\),  (2) \(\sum_x f_{X|Y}(x|y) = 1\)</p>
+_That is_ (1) \(f_{X|Y}(x|y)\ge 0\),  (2) \(\sum_x f_{X|Y}(x|y) = 1\)</p>
 </li>
 </ul>
 <p>Proof is trivial</p>
 <p><strong>Conditional Expectation</strong></p>
 <p>The conditional expectation of \(x\) given \(Y=y\) is
 \[
-E(X|Y=y)=\sum_x<em>f_{X|Y}(x|y)
+E(X|Y=y)=\sum_x_f_{X|Y}(x|y)
 \]
 The conditional expectation of \(g(x)\) given \(Y=y\) is
 \[
-E[g(x)|Y=y]=\sum_x g(x)</em>f_{X|Y}(x|y)
+E[g(x)|Y=y]=\sum_x g(x)_f_{X|Y}(x|y)
 \]</p>
 <h1 id="lec-9"><a class="header-link" href="#lec-9"></a>Lec 9</h1>
 <h3 id="properties-of-conditional-expectation"><a class="header-link" href="#properties-of-conditional-expectation"></a>properties of conditional expectation</h3>
@@ -473,9 +473,9 @@ E(\sum_{i=1}^na_iX_i|Y)=\sum_{i=1}^na_iE(X_i|Y)
 </li>
 <li><p>Substitution rule
 \[
-E[X<em>g(Y)|Y=y]=E[X</em>g(y)|Y=y]\=g(y)<em>E(X|Y=y)
+E[X_g(Y)|Y=y]=E[X_g(y)|Y=y]\=g(y)_E(X|Y=y)
 \]
-Eg: \(E(X</em>Y|Y=y)=y*E(X|Y=y)\)</p>
+Eg: \(E(X_Y|Y=y)=y*E(X|Y=y)\)</p>
 <p>In general: \(E(h(X,Y)|Y=y)=E(h(X,y)|Y=y)\)</p>
 </li>
 <li><p>Independence property. If X &amp; Y are independent, then
@@ -492,7 +492,7 @@ f_{X|Y}(x|y)={f_{X,Y}(x,y)\over f_Y(y)}={f_X(x)f_Y(y)\over f_Y(y)}=f_X(x)
 <p>​                Law of total expectation/double expectation</p>
 <p><strong>step 1</strong> what is \(E(X|Y)?\)</p>
 <p>(a) \(E(X|Y)\) is a rv &amp; dependents on \(Y\). say \(E(X|Y)=g(Y)\to\) \(E(X|Y)\) depends on \(Y\).</p>
-<p>(b) given \(Y=y\), the function of \(g(Y)\), \(\underbrace{g(y)=E(X|Y=y)}_{\text{in section 3.2}}\)</p>
+<p>(b) given \(Y=y\), the function of \(g(Y)\), \(\underbrace{g(y)=E(X|Y=y)}_{\text{in section 3.2} }\)</p>
 <p>​    <strong>eg</strong> eg3.1: \(E(X|Y=y)=y{\lambda_1\over \lambda_1+\lambda_2}\implies g(y)=y{\lambda_1\over \lambda_1+\lambda_2}\)</p>
 <p>​          eg3.2: \(E(X|Y=y)={2\over y}\implies g(y)={2\over y}\)</p>
 <p><strong>step2</strong> How to get \(E(X|Y)\)?</p>
@@ -502,8 +502,8 @@ f_{X|Y}(x|y)={f_{X,Y}(x,y)\over f_Y(y)}={f_X(x)f_Y(y)\over f_Y(y)}=f_X(x)
 \[
 E(X)=E(E(X|Y))=E[g(Y)]\\
 =\begin{cases}
-\sum_y g(y)<em>f_Y(y) &amp; discrete~case\\
-\int_{-\infty}^\infty g(y)</em>f_Y(y)dy &amp; continuous~case
+\sum_y g(y)_f_Y(y) &amp; discrete~case\\
+\int_{-\infty}^\infty g(y)_f_Y(y)dy &amp; continuous~case
 \end{cases}
 \\
 =\begin{cases}
@@ -566,11 +566,11 @@ From \(X\) to \(E(X|Y)\)</p>
 <p>1st \(E(X)=E(E(X|Y))\)</p>
 <p>2nd \(Var(X)\ge Var(E(X|Y))\)</p>
 <p><strong>PROOF</strong></p>
-<p><em>LHS</em> \(Var(X)=E(X^2)-[E(X)]^2\)
+<p>_LHS_ \(Var(X)=E(X^2)-[E(X)]^2\)
 \[
 \begin{split}
 RHS =&amp; E(var(X|Y)) + var[E(X|Y)]\\
-=&amp; E[E(X^2|Y) - \cancel{ {E(X|Y}^2}] \&amp;+ E[\cancel{{E(X|Y}^2}}]-{E[E(X|Y)]}^2 \\
+=&amp; E[E(X^2|Y) - \cancel{ {E(X|Y)}^2}] \&amp;+ E[\cancel{ {E(X|Y)}^2} }]-{E[E(X|Y)]}^2 \\
 =&amp; E(X^2)-[E(X)]^2=LHS
 \end{split}
 \]</p>
@@ -579,7 +579,7 @@ RHS =&amp; E(var(X|Y)) + var[E(X|Y)]\\
 <p>N: a rv only takes non-negative integers.</p>
 <p><strong>Further</strong> N &amp; \(X_1, \ldots\) are independent.</p>
 <p>Then \(W=\sum_{i=1}^N X_i\): compound rv.  [If \(N=0\), then \(W=0\)]</p>
-<p><strong>Thm</strong>: \(E(W)=E(N)<em> E(X_1) \quad \&amp; \quad var(W)=E(N)</em> var(X_1)+var(N)*[E(X_1)]^2\)</p>
+<p><strong>Thm</strong>: \(E(W)=E(N)_ E(X_1) \quad \&amp; \quad var(W)=E(N)_ var(X_1)+var(N)*[E(X_1)]^2\)</p>
 <p><strong>PROOF</strong>
 \[
 E(W)=E(E(W|N))\\
@@ -591,9 +591,9 @@ E(W|N=n)&amp;= E\left(\sum_{i=1}^NX_i|N=n\right)\\
 \end{split}
 \]</p>
 <p>\[
-\implies E(W|N)=N<em>E(X_1)\\
-\implies E(W)=E(E(W|N))=E(N</em>E(X_1))=E(N)<em>E(X_1)\\
-Var(W)=E[Var(W|N)]+Var[\underbrace{E(W|N)}_{N</em>E(X_1)}]
+\implies E(W|N)=N_E(X_1)\\
+\implies E(W)=E(E(W|N))=E(N_E(X_1))=E(N)_E(X_1)\\
+Var(W)=E[Var(W|N)]+Var[\underbrace{E(W|N)}_{N_E(X_1)}]
 \]</p>
 <p>\(Var(W|N)?\)
 \[
@@ -612,17 +612,17 @@ Var(W|N=n)&amp;= var\left(\sum_{i=1}^N X_i |N=n\right) \\
 \[
 \begin{split}
 Var(W)&amp;=E[var(W|N)]+var[E(W|N)]\\
-&amp;=E[N<em>var(X_1)]+var(N</em>E(X_1))\\
-&amp;=E(N)<em>var(X_1)+var(N)</em>[E(X_1)]^2
+&amp;=E[N_var(X_1)]+var(N_E(X_1))\\
+&amp;=E(N)_var(X_1)+var(N)_[E(X_1)]^2
 \end{split}
 \]</p>
 <h1 id="lec-13"><a class="header-link" href="#lec-13"></a>Lec 13</h1>
 <p>examples &amp; advice on midterm1</p>
 <h2 id="ch-4-probability-generating-function-(pgf)"><a class="header-link" href="#ch-4-probability-generating-function-(pgf)"></a>ch 4 probability generating function (pgf)</h2>
 <h3 id="4.1-generating-function-(gf)"><a class="header-link" href="#4.1-generating-function-(gf)"></a>4.1 generating function (gf)</h3>
-<p><strong>defn</strong> given a sequence of real # \(s\) \({a_n}<em>{n=0}^\infty\), define
+<p><strong>defn</strong> given a sequence of real # \(s\) \({a_n}_{n=0}^\infty\), define
 \[
-A(s)=\sum</em>{n=0}^\infty a_n s^n
+A(s)=\sum_{n=0}^\infty a_n s^n
 \]</p>
 <h3 id="power-series"><a class="header-link" href="#power-series"></a>power series</h3>
 <p>According to values of \({a_n}_{n=0}^\infty\), we have 3 situations:</p>
@@ -674,7 +674,7 @@ C(s)=A(s)-B(s)=\sum_{n=0}^\infty(a_n-b_n)s^n
 \[
 C(s)=A(s)*B(s)=\sum_{n=0}^\infty c_ns^n
 \]
-\(c_n=\underbrace{\sum_{k=0}^n a_kb_{n-k}}_{n+1~terms} \ne a_nb_n\)</p>
+\(c_n=\underbrace{\sum_{k=0}^n a_kb_{n-k} }_{n+1~terms} \ne a_nb_n\)</p>
 <p>\(R_C=\min (R_A,R_B)\)</p>
 <p>That is
 \[
@@ -710,7 +710,7 @@ then \(B(s)=A(s)=\sum_{n=0}^\infty s^n, \quad a_n=b_n=1, R_A=R_B=1, n\ge 0\)</p>
 \begin{split}
 c_n &amp;= (-1)^n\binom{-2}{n}, \quad R_C=1\\
 &amp;= (-1)^n {(-2)(-2-1)\ldots(-2-n+1)\over n!}\\
-&amp;=(-1)^n(-1)^n {2<em>3</em>\ldots*(n+1)\over n!}=n+1
+&amp;=(-1)^n(-1)^n {2_3_\ldots*(n+1)\over n!}=n+1
 \end{split}
 \]</p>
 </li>
@@ -766,9 +766,9 @@ If X and Y are independent with ranges = {0, 1, 2, …} \(\cup {\infty}\)</p>
 \[
 \begin{aligned}
 G_{X+Y}(s)&amp;\stackrel{proper}{=}E[s^{X+Y}]\\
-&amp;=E[s^X<em>s^Y]\\
+&amp;=E[s^X_s^Y]\\
 &amp;\stackrel{indepdent}{=}E[s^X]E[s^Y] \\
-&amp;= G_X(s)</em>G_Y(s)
+&amp;= G_X(s)_G_Y(s)
 \end{aligned}
 \]</p>
 </li>
@@ -815,7 +815,7 @@ Preparation: 1st for \(k&gt;0\), positive integer \(k\)</p>
 <p><strong>Claim</strong> \(T_{0,1}, T_{1,2},\ldots, T_{k-1,k}\) are \(k\) iid rvs since all mean moving to right by 1 unit.</p>
 <p><strong>That is</strong> \(T_{0,k}=\sum_{i=1}^k T_{i-1,i}\)             all \(T_{i-1,i}\) are iid &amp; have same distribution as \(T_{0,1}\).
 \[
-\implies G_{0,k}(s)=pgf~of~T_{0,k} = \prod_{i=1}^k \underbrace{G_{T_{i-1,i}}(s)}<em>{pgf~of~T</em>{i-1,i}} \\
+\implies G_{0,k}(s)=pgf~of~T_{0,k} = \prod_{i=1}^k \underbrace{G_{T_{i-1,i} }(s)}_{pgf~of~T_{i-1,i} } \\
 \implies G_{0,k}(s)=[G_{0,1}(s)]^k \qquad \text{for \(k&gt;0\)}
 \]
 2nd: In general:</p>
@@ -830,14 +830,14 @@ Preparation: 1st for \(k&gt;0\), positive integer \(k\)</p>
 <p>For \(n\ge 2\)
 \[
 \begin{aligned}
-P(T_{0,1}=n) &amp;\stackrel{\substack{\text{condition on}\\text{1st argument}}}{=}\\
-&amp;\underbrace{P(T_{0,1}=n|\text{1st stop = right})}_0 <em>
-\underbrace{P(\text{1st stop = right})}<em>p \\
-&amp;+\underbrace{P(T</em>{0,1}=n|\text{1st stop = left})}_0 </em>
+P(T_{0,1}=n) &amp;\stackrel{\substack{\text{condition on}\\text{1st argument} } }{=}\\
+&amp;\underbrace{P(T_{0,1}=n|\text{1st stop = right})}_0 _
+\underbrace{P(\text{1st stop = right})}_p \\
+&amp;+\underbrace{P(T_{0,1}=n|\text{1st stop = left})}_0 _
 \underbrace{P(\text{1st stop = left})}_1
 \end{aligned}
 \]</p>
 <p>1st stop = right \(\implies T_{0,1}=1\ne n\)  for \(n\ge 2\)
 1st stop = left \(\implies\) we are in position &quot;-1&quot; &amp; \(T_{0,1}=n\) means \(T_{-1,1}=n-1\)</p>
-<p>Hence \(P(T_{0,1}=n)=P(T_{-1,1}=n-1)<em>q = P(T_{0,2}=n-1)</em>q\)</p>
+<p>Hence \(P(T_{0,1}=n)=P(T_{-1,1}=n-1)_q = P(T_{0,2}=n-1)_q\)</p>
 </div>
