@@ -39,7 +39,7 @@ contact:
   linkedin:   https://www.linkedin.com/in/sibelius-peng-595b27163/
 
 # Pagination
-paginate: 5
+paginate: 8
 paginate_path: blog/page:num
 
 # Header nav
