@@ -1,0 +1,6 @@
+#!/bin/bash
+
+file=$1
+./debuck $file 
+perl -i -pe 's/\\\(/\\\\\(/g; s/\\\)/\\\\\)/g; s/\\\[/\\\\\[/g; s/\\\]/\\\\\]/g;' $file
+

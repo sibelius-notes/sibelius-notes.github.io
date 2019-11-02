@@ -43,7 +43,7 @@ feature_text: |
 
  ### some random things Carmen wrote on the board
 
- For an integer  \\(x, x>5\\) , is this a proposition?
+ For an integer  \(x, x>5\) , is this a proposition?
 
  * The whole thing is.
 
@@ -65,12 +65,12 @@ feature_text: |
 
  ps: sorry, I didn't learn how to type out logic signs...
 
- Oh, I found that. What he wrote on the board is \\((c\ \wedge\ (\lnot \ h))\\) . I am clever...
+ Oh, I found that. What he wrote on the board is \((c\ \wedge\ (\lnot \ h))\) . I am clever...
 
-\\[\begin{aligned}
+\[\begin{aligned}
 x&=y \\
 y&=z \\
-\\]
+\]
 
 
  ## lec end...

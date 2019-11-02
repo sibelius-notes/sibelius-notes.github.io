@@ -8,6 +8,7 @@ exclude:
 - Gemfile.lock
 - markdown/my-layout/page.html
 - markdown/*/*.md
+- *.bak
 #- google*
 
 # Set plugins
