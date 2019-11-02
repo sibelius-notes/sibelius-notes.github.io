@@ -3,13 +3,13 @@ title: ''
 layout: home
 feature_image: "https://picsum.photos/1300/400?image=989"
 feature_text: |
-  ## Check My Lecture Notes!
+  ## Sibelius Peng's Lecture Notes
 ---
 ## About
 
 This website contains Lecture Notes only.
 
-Also, check my [blogs](blog.sibeliusp.com), check my [blogspot](https://sibeliuspeng.blogspot.ca), check my [old home page](www.sibeliusp.com). 
+Also, check my [blogs](blog.sibeliusp.com), check my [blogspot](https://sibeliuspeng.blogspot.ca), check my [old home page](www.sibeliusp.com).
 
 ## Disclaimer
 
