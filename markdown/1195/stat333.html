@@ -224,12 +224,10 @@ P(E)=\sum_iP(E|F_i) P(F_i)
 Law of total prob. [divide and conquer method]</p>
 <p>Next:
 \[
-\begin{equation}
-\begin{split}
+\begin{aligned}
 P(F_k|E) &amp;= {P(E\cap F_k) \over P(E)} \\
 &amp;= {P(E|F_k) P(F_k) \over \sum_i P(E|F_i)P(F_i)}
-\end{split}
-\end{equation}
+\end{aligned}
 \]</p>
 <h2 id="random-variables"><a class="header-link" href="#random-variables"></a>random variables</h2>
 <p><strong>Def</strong>: A rv is a function defined on sample space to real time</p>
@@ -566,11 +564,11 @@ From \(X\) to \(E(X|Y)\)</p>
 <p><strong>PROOF</strong></p>
 <p>_LHS_ \(Var(X)=E(X^2)-[E(X)]^2\)
 \[
-\begin{split}
+\begin{aligned}
 RHS =&amp; E(var(X|Y)) + var[E(X|Y)]\\
 =&amp; E[E(X^2|Y) - \cancel{ {E(X|Y)}^2}] \&amp;+ E[\cancel{ {E(X|Y)}^2} }]-{E[E(X|Y)]}^2 \\
 =&amp; E(X^2)-[E(X)]^2=LHS
-\end{split}
+\end{aligned}
 \]</p>
 <p><strong>Method3</strong> Compound rv formula: [random sum of iid rvs]</p>
 <p>Suppose \(X_1, X_2,\ldots, X_n, \ldots\) are a sequence of iid res.</p>
@@ -581,12 +579,12 @@ RHS =&amp; E(var(X|Y)) + var[E(X|Y)]\\
 <p><strong>PROOF</strong>
 \[
 E(W)=E(E(W|N))\\
-\begin{split}
+\begin{aligned}
 E(W|N=n)&amp;= E\left(\sum_{i=1}^NX_i|N=n\right)\\
 &amp;=E\left(\sum_{i=1}^nX_i|N=n\right)\\
 &amp;=E\left(\sum_{i=1}^nX_i\right)\\
 &amp;= n*E(X_1)
-\end{split}
+\end{aligned}
 \]</p>
 <p>\[
 \implies E(W|N)=N_E(X_1)\\
@@ -608,11 +606,11 @@ Var(W|N=n)&amp;= var\left(\sum_{i=1}^N X_i |N=n\right) \\
 \]</p>
 <p><strong>Next</strong>
 \[
-\begin{split}
+\begin{aligned}
 Var(W)&amp;=E[var(W|N)]+var[E(W|N)]\\
 &amp;=E[N_var(X_1)]+var(N_E(X_1))\\
 &amp;=E(N)_var(X_1)+var(N)_[E(X_1)]^2
-\end{split}
+\end{aligned}
 \]</p>
 <h1 id="lec-13"><a class="header-link" href="#lec-13"></a>Lec 13</h1>
 <p>examples &amp; advice on midterm1</p>
@@ -705,11 +703,11 @@ then \(B(s)=A(s)=\sum_{n=0}^\infty s^n, \quad a_n=b_n=1, R_A=R_B=1, n\ge 0\)</p>
 </li>
 <li><p>Method2: \(C(s)=(1+(-s))^{-2} = \sum_{n=0}^\infty (-1)^n\binom{-2}{n}s^n\)
 \[
-\begin{split}
+\begin{aligned}
 c_n &amp;= (-1)^n\binom{-2}{n}, \quad R_C=1\\
 &amp;= (-1)^n {(-2)(-2-1)\ldots(-2-n+1)\over n!}\\
 &amp;=(-1)^n(-1)^n {2_3_\ldots*(n+1)\over n!}=n+1
-\end{split}
+\end{aligned}
 \]</p>
 </li>
 </ul>
