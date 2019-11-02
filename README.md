@@ -22,6 +22,8 @@ $$
 
 Also, if you really want to do math inside the markdown, you can "steal" the style sheet and use pandoc with extra options. I believe, at the end, you can achieve almost the same result with pandoc. But why doing so many LaTeX with markdown? Using LaTeX!
 
+After using some conversion, I found that the `generate-md` will break so many LaTeX commands, so does the jekyll markdown parser. One final note: if you really want to make this work, using pandoc, or just use pure LaTeX. Markdown is just for arts courses...
+
 
 # Starter kit for [Alembic](https://alembic.darn.es/)
 
