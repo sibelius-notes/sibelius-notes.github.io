@@ -9,7 +9,7 @@ feature_text: |
 
 This website contains Lecture Notes only.
 
-Also, check my [blogs](https://sibelius-old.github.io/), check my [blogspot](https://sibeliuspeng.blogspot.ca), check my [old home page](https://sibelius-6.github.io) (which have most of my [lecture notes](https://sibelius-6.github.io/courses/) prior to Fall 2019 (inclusive) and it will be archived after Fall 2019). 
+Also, check my [blogs](blog.sibeliusp.com), check my [blogspot](https://sibeliuspeng.blogspot.ca), check my [old home page](www.sibeliusp.com). 
 
 ## Disclaimer
 
