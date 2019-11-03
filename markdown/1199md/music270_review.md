@@ -467,9 +467,9 @@ Medieval musicians considered the tritone (the augmented fourth and diminished f
 We call the highest internal tone the **apogee**. We call the lowest internal tone the **perigee**.
 
 
-# Chapter 6 - Duple Paraphrase
+# Chapter 6 - Duple Paraphrase &#9834;
 
-<mark>Note that this chapter is marked **important** to review.</mark>
+<mark>&#9834; Note that this chapter is marked **important** to review.</mark>
 
 ## Introduction
 
@@ -925,9 +925,9 @@ Compose a phrase at a time.
 The ultimate test of a melodic paraphrase is its singability. When you identify a problem, correct it in the larger context of the phrase, not in isolation.
 
 
-# Chapter 7 - Harmonic Framework
+# Chapter 7 - Harmonic Framework &#9834;
 
-<mark>Note that this chapter is marked **important** to review.</mark>
+<mark>&#9834; Note that this chapter is marked **important** to review.</mark>
 
 When we sing or play two melodies together, we call their relationship **counterpoint**. The term derives from the Latin phrase *punctus contra punctum*, or "note (punctus) against note," and by extension, "melody against melody."
 
@@ -953,3 +953,31 @@ Finally, two fifths or two octaves may not sound in direct succession, whether t
 
 ### Initial Beat
 To establish the mode at the music's outset, the bass will **always** begin on the **tonic**, whether the soprano begins on \\(\hat 1, \hat 3, \hat 5\\).
+
+### Cadence
+**Clausula vera**: true close: \\(\hat 2-\hat 1\\) and \\(\hat 7 -\hat 8\\)
+
+**Harmonic candence**: \\(\hat 5 -\hat 1\\) bass candence
+
+### Cross-Relation
+When a *chromatic* pitch in one melodic line sounds in succession with its *natural* counterpart in a second line, the jarring effect is called a **cross-relation**.
+
+### Designing the bass
+* Singable melody
+* freer introduction and treatment of lepas. Large leaps in the bass must be prepared and resolved
+* A sixth or an octave can occur as the bass line's opening event. A leap of fourth or a fifth is less sensitive.
+* If prepared, no need to be resolved. If resolved, no need to be prepared.
+
+<img src="/markdown/pics/music270/pre_unre.png" alt="prepared unresolved" width="100%">
+
+## Creating a Soprano-Bass Framework
+### Opening Bass Gambits
+Plot and sing each bass gambit before notating: use your ear and eye before your pencil. Plan linearly and check vertically. Identify the harmonic intervals by number between the staves.
+
+
+
+# Chapter 12 - Tonic Confirmation &#9834;
+<mark>&#9834; Note that this chapter is marked **important** to review.</mark>
+
+# Chapter 13 - Suspensions
+<mark>&#9834; Note that this chapter is marked **important** to review.</mark>
