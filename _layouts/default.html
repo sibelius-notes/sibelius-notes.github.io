@@ -34,8 +34,11 @@
 
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
     <style>
+    ul.course-list {
+        list-style-type: none;
+    }
     li.course-item {
-      display:inline;
+        display:inline;
     }
     li.course-item :not(:last-child):after {
         content: ' // ';
