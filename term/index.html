@@ -18,7 +18,7 @@ first three digits, added to 1900, give the year.</p>
                     <h1 align="center" style="font-size:2em"><a href="/term/{{ item }}">{{ item | upcase }}</a></h1>
                     <ul class='course-list'>
                         {% for c in courses %}
-                        <li class='course-item'><span class="label label--category"><a href="{{ c.url }}" class="post-tag">{{ c.title }}</a></span> </li>
+                        <li class='course-item label label--category'><a href="{{ c.url }}" class="post-tag">{{ c.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
