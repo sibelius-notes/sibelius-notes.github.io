@@ -467,9 +467,9 @@ Medieval musicians considered the tritone (the augmented fourth and diminished f
 We call the highest internal tone the **apogee**. We call the lowest internal tone the **perigee**.
 
 
-# Chapter 6 - Duple Paraphrase &#9834;
+# Chapter 6 - Duple Paraphrase &#x266A;
 
-<mark>&#9834; Note that this chapter is marked **important** to review.</mark>
+<mark>&#x266A; Note that this chapter is marked **important** to review.</mark>
 
 ## Introduction
 
@@ -925,9 +925,9 @@ Compose a phrase at a time.
 The ultimate test of a melodic paraphrase is its singability. When you identify a problem, correct it in the larger context of the phrase, not in isolation.
 
 
-# Chapter 7 - Harmonic Framework &#9834;
+# Chapter 7 - Harmonic Framework &#x266A;
 
-<mark>&#9834; Note that this chapter is marked **important** to review.</mark>
+<mark>&#x266A; Note that this chapter is marked **important** to review.</mark>
 
 When we sing or play two melodies together, we call their relationship **counterpoint**. The term derives from the Latin phrase *punctus contra punctum*, or "note (punctus) against note," and by extension, "melody against melody."
 
@@ -976,8 +976,8 @@ Plot and sing each bass gambit before notating: use your ear and eye before your
 
 
 
-# Chapter 12 - Tonic Confirmation &#9834;
-<mark>&#9834; Note that this chapter is marked **important** to review.</mark>
+# Chapter 12 - Tonic Confirmation &#x266A;
+<mark>&#x266A; Note that this chapter is marked **important** to review.</mark>
 
-# Chapter 13 - Suspensions
-<mark>&#9834; Note that this chapter is marked **important** to review.</mark>
+# Chapter 13 - Suspensions &#x266A;
+<mark>&#x266A; Note that this chapter is marked **important** to review.</mark>
