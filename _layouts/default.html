@@ -33,18 +33,7 @@
     {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
 
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
-    <style>
-    .course-list ul {
-        list-style-type: none;
-    }
-    .course-item li {
-        display:inline;
-    }
-    .course-item li:not(:last-child):after {
-        content: ' // ';
-    }
-    </style>
-
+    
 {% include site-before-start.html %}
 </head>
 <body class="layout-{{ page.layout }}">
