@@ -13,7 +13,7 @@ Also, check my [blogs](blog.sibeliusp.com), check my [blogspot](https://sibelius
 
 ## Disclaimer
 
-These notes are written in their entirety by me, Sibelius Peng, while attending lectures at the University of Waterloo. I have no intentions of violating any UW policies and will gladly honour takedown notices produced by an authorized UW representative. They are by no means authoritative so use at your own peril.
+Most (while some are contributed by my friends) of these notes are written in their entirety by me, Sibelius Peng, while attending lectures at the University of Waterloo. I have no intentions of violating any UW policies and will gladly honour takedown notices produced by an authorized UW representative. They are by no means authoritative so use at your own peril.
 
 
 ## Contact
