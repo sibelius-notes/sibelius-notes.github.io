@@ -15,10 +15,10 @@ first three digits, added to 1900, give the year.</p>
         {% for item in all_terms %}
         {% assign courses = site.posts | where: "term", item %}
                 <div class="typeset" style="border: 1px solid #EEEEEE; padding: 1em; border-radius: 0.3em;">
-                    <h1 align="center" style="font-size:4em"><a href="/term/{{ item }}">{{ item | upcase }}</a></h1>
+                    <h1 align="center" style="font-size:2em"><a href="/term/{{ item }}">{{ item | upcase }}</a></h1>
                     <ul>
                         {% for c in courses %}
-                            <li><a href="{{ c.url }}"">{{ c.title }}</a></li>
+                        <span class="label label--category"><a href="{{ c.url }}" class="post-tag">{{ c.title }}</a></span> &nbsp;
                         {% endfor %}
                     </ul>
                 </div>
@@ -26,7 +26,3 @@ first three digits, added to 1900, give the year.</p>
         {% endfor %}
     </div>
 </main>
-
-<span class="label label--category">
-    <a href="/subject/{{ page.subject }}" class="post-tag">#{{ page.subject }} &nbsp;</a>
-</span>
