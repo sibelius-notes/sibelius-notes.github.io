@@ -1004,7 +1004,11 @@ Two voices in *parallel* motion should not be sound the same perfect interval in
 Numbers are employed below the bass to indicate the intervals formed between bass and each of the upper voices.
 
 ## The Authentic Cadence
+* Soprano: 2 - 1 or 7 - 8
+* Tenor or alto sounds the other
+* The remaining voice, tenor or alto, sounds a falling 5 - 3 close, doubling the bass dominant and supplying the third or the final triad.
 
+Note that 
 
 # Chapter 12 - Tonic Confirmation '
 <mark>' Note that this chapter is marked **important** to review.</mark>
