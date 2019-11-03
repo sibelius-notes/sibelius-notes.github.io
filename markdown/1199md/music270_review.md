@@ -817,7 +817,7 @@ options space=20  width=750
 </div>
 
 
-Four phrase candences are available to duple paraphrase. A phrase can close on an undecorated cantus tone by notating it as a whole note followed by a luftpause,
+Four phrase cadences are available to duple paraphrase. A phrase can close on an undecorated cantus tone by notating it as a whole note followed by a luftpause,
 
 <div class="vex-tabdiv">
 
@@ -945,7 +945,7 @@ The relationship of these melodies is described in terms of four [relative motio
 
 The harmonic intervals available to this framework are the six historical consonances (and their compounds): **the perfect octave and fifth and the major and minor sixth and tenth**. Because of their relative instability -- and consequent mobility -- sixths and tenth will best promote the harmonic motion of your soprano-bass dialogue. Because of their stability and static weight, the octave and fifth should occur infrequently and will require special treatment.
 
-The fifth (or compound fifth) will occur on penultimate beat of the music when the soprano carries a \\(\hat 2 - \hat 1\\) candence. The static weight of this fifth is minimized when approached by contrary motion. When this candential fifth is approached by similar motion (called a **direct fifth**), the soprano will move by step. The fifth can approach by contrary motion, or by similar motion when soprano moves by step.
+The fifth (or compound fifth) will occur on penultimate beat of the music when the soprano carries a \\(\hat 2 - \hat 1\\) cadence. The static weight of this fifth is minimized when approached by contrary motion. When this cadential fifth is approached by similar motion (called a **direct fifth**), the soprano will move by step. The fifth can approach by contrary motion, or by similar motion when soprano moves by step.
 
 The octave (or compound octave) will always occupy the music's final beat, and it will occur on the opening beat when the soprano carries the tonic. Like the fifth, the octave can be approached by similar motion (called a **direct octave**) when soprano moves by step. The octave can be introduced by contrary motion within the three-beat stepwise pattern called **tone exchange**.
 
@@ -957,7 +957,7 @@ To establish the mode at the music's outset, the bass will **always** begin on t
 ### Cadence
 **Clausula vera**: true close: \\(\hat 2-\hat 1\\) and \\(\hat 7 -\hat 8\\)
 
-**Harmonic candence**: \\(\hat 5 -\hat 1\\) bass candence
+**Harmonic cadence**: \\(\hat 5 -\hat 1\\) bass cadence
 
 ### Cross-Relation
 When a *chromatic* pitch in one melodic line sounds in succession with its *natural* counterpart in a second line, the jarring effect is called a **cross-relation**.
@@ -974,6 +974,36 @@ When a *chromatic* pitch in one melodic line sounds in succession with its *natu
 ### Opening Bass Gambits
 Plot and sing each bass gambit before notating: use your ear and eye before your pencil. Plan linearly and check vertically. Identify the harmonic intervals by number between the staves.
 
+# Chapter 8 - Chordal Succession
+## Chords
+Refer to the first supplementary chapter...
+
+## Tenor and Alto
+The normal vocal ranges of both inner voices span compound fifth:
+- tenor: from an octave below middle C to a fifth above
+- alto: from a fourth below middle C to a ninth above
+
+However, in homophony, their ranges rarely exceed a sixth.
+
+### Voice Spacing
+When SAT sound adjacent chord tones, **closed postion**. When one (sometimes 2) chord tones are skipped between soprano and alto or alto and tenor, **open position**.
+
+### Voice Crossing and Voice Overlap
+
+**Voice crossing**: When two voices momentarily trade positions, the higher voice becoming the lower.
+
+**Voice overlap**: When the higher of two voices moves to a tone lower than the preceding tone of the lower voice; or conversely, when the lower voice moves to a tone higher than the preceding tone of the higher voice.
+
+### Chord Doubling
+Any chord tone can be doubled, however, as each chord of our homophony must be complete. The cadential tonic is exceptional; see **The Authentic Cadence**.
+
+### Consecutive Perfect Intervals
+Two voices in *parallel* motion should not be sound the same perfect interval in direct succession, whether it be a unison, a fifth, or an octave.
+
+### Figured Bass
+Numbers are employed below the bass to indicate the intervals formed between bass and each of the upper voices.
+
+## The Authentic Cadence
 
 
 # Chapter 12 - Tonic Confirmation '
