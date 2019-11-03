@@ -1008,7 +1008,15 @@ Numbers are employed below the bass to indicate the intervals formed between bas
 * Tenor or alto sounds the other
 * The remaining voice, tenor or alto, sounds a falling 5 - 3 close, doubling the bass dominant and supplying the third or the final triad.
 
-Note that 
+Note that the final triad lacks its fifth.
+
+### Picardy Third
+
+Minor-mode music from the late Renaissance through the Baroque typically cadences on a major triad by rasing the final chord's third.
+
+## Composing a Modal Homophony
+Two "rules of thumb":
+1. When a tone 
 
 # Chapter 12 - Tonic Confirmation '
 <mark>' Note that this chapter is marked **important** to review.</mark>

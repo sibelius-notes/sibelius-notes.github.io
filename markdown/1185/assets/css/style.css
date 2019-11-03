@@ -412,7 +412,7 @@ a img {
 }
 
 .list {
-	list-style: none
+	/*list-style: none*/
 }
 
 .list--nav {

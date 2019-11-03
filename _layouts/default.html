@@ -33,6 +33,14 @@
     {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
 
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
+    <style>
+    li.course-item {
+      display:inline;
+    }
+    li.course-item :not(:last-child):after {
+        content: ' // ';
+    }
+    </style>
 
 {% include site-before-start.html %}
 </head>
