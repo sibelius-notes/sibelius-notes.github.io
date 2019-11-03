@@ -952,4 +952,4 @@ The octave (or compound octave) will always occupy the music's final beat, and i
 Finally, two fifths or two octaves may not sound in direct succession, whether the motion between the voices is parallel or contrary.
 
 ### Initial Beat
-testing
+testing2
