@@ -952,4 +952,4 @@ The octave (or compound octave) will always occupy the music's final beat, and i
 Finally, two fifths or two octaves may not sound in direct succession, whether the motion between the voices is parallel or contrary.
 
 ### Initial Beat
-testing2
+To establish the mode at the music's outset, the bass will **always** begin on the **tonic**, whether the soprano begins on \\(\hat 1, \hat 3, \hat 5\\).
