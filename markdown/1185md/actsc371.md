@@ -32,11 +32,13 @@ Equity:
 
 # Chapter 3: Trading on Securities Markets
 ## Markets and orders
+### Markets
 - Direct market
 - Brokered market
 - Dealer market
 - Auction market
 
+### Orders
 - Market order
 - Limit order
 
