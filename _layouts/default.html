@@ -34,13 +34,13 @@
 
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
     <style>
-    ul.course-list {
+    .course-list ul {
         list-style-type: none;
     }
-    li.course-item {
+    .course-item li {
         display:inline;
     }
-    li.course-item :not(:last-child):after {
+    .course-item li:not(:last-child):after {
         content: ' // ';
     }
     </style>
