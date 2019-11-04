@@ -710,7 +710,7 @@ options space=20  width=750
 
 **Arpeggigation** and the **skip-step** elaborate the interval of a fifth. **Arpeggigation** elaborates the interval of a sixth.
 
-Two additional figures availabel to our paraphrasing are the **anticipation** and the **repetition**. Their usefulness in the elementary rhythm of duple paraphrase is slight because they do not enhance the melody's contounr. We will limit the repetition to one or two occurences within the line and hold the anticipation to a possible apperance at the final cadence.
+Two additional figures available to our paraphrasing are the **anticipation** and the **repetition**. Their usefulness in the elementary rhythm of duple paraphrase is slight because they do not enhance the melody's contounr. We will limit the repetition to one or two occurences within the line and hold the anticipation to a possible apperance at the final cadence.
 
 Arpeggigation (ARP):
 
@@ -1015,8 +1015,11 @@ Note that the final triad lacks its fifth.
 Minor-mode music from the late Renaissance through the Baroque typically cadences on a major triad by rasing the final chord's third.
 
 ## Composing a Modal Homophony
-Two "rules of thumb":
-1. When a tone 
+Two "rules of thumb" (tenor and alto):
+1. When a tone is common to two or more successive chords, retain it in the same voice.
+2. Otherwise, move each voice to the nearest available chord tone.
+
+
 
 # Chapter 12 - Tonic Confirmation '
 <mark>' Note that this chapter is marked **important** to review.</mark>

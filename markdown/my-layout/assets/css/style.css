@@ -411,8 +411,8 @@ a img {
 	flex: 0 0 auto
 }
 
-.list {
-	/*list-style: none*/
+nav .list {
+	list-style: none;
 }
 
 .list--nav {
