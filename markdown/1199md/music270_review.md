@@ -710,7 +710,7 @@ options space=20  width=750
 
 **Arpeggigation** and the **skip-step** elaborate the interval of a fifth. **Arpeggigation** elaborates the interval of a sixth.
 
-Two additional figures available to our paraphrasing are the **anticipation** and the **repetition**. Their usefulness in the elementary rhythm of duple paraphrase is slight because they do not enhance the melody's contounr. We will limit the repetition to one or two occurences within the line and hold the anticipation to a possible apperance at the final cadence.
+Two additional figures available to our paraphrasing are the **anticipation** and the **repetition**. Their usefulness in the elementary rhythm of duple paraphrase is slight because they do not enhance the melody's contour. We will limit the repetition to one or two occurences within the line and hold the anticipation to a possible apperance at the final cadence.
 
 Arpeggigation (ARP):
 
@@ -1023,10 +1023,50 @@ Two "rules of thumb" (tenor and alto):
 *Use your ear and your eye before your pencil*.
 
 # Chapter 9 - Melodic Dialogue
+Polyphony: two melodies, each distinctive in tonal contour and rhythmic profile, relating in a counterpoint of simple consonances, sparingly seasoned with dissonance.
 
+## Melodic Rhythm
+**Rhythmic patterns** characterize the rhythmic modes.
+
+Each rhythmic pattern begins on a measure's downbeat, is complete within the measure, and repeats. In this regard, it resembles the repeating pattern of syllables in poetry called a **foot**.
+
+Trochaic rhythm: 3/2 measure with a whole note followed by a half note. Tribrachic: 3/2, 3 half notes. (don't think we covered this in music 270 with Laitz book...)
+
+## The Lower Voice
+A cantus will sere as the lower voice. 3/2, Trochaic.
+
+## The Upper Voice
+3/2, tribrachic.
+
+## The Counterpoint
+对位法
+
+Because of their (similar, parallel and oblique motions) static weight and duplicating effect, perfect intervals require careful treatment in the light texture of two-part polyphony. So limit its apperance to the measure's second beat.
+
+## Four Dissonant Melodic Figures
+
+- Perfect fourth
+- major and minor seconds, seventh, and ninth
+- tritones (aug fourths and dim fifths)
+
+### Initial Measure
+opening harmonic interval: unison, third, fifth, octave, tenth. When the upper voice enters on the second beat of the measure, the first two tones constitute an anacrusis.
+
+### Cadence
+clausula verta: 2 - 1 and 7 - 8. This polyphonic cadence creates the harmonic motion of major sixth-to-perfect octave.
+
+### Cross-Relations
+Chromatic within the music need to be introduced with care to avoid possible cross-relations.
+
+## Composing a Melodic Dialogue
+Begin by choosing a cantus and deciding its voice: bass, tenor or alto.
+
+# Chapter 10 - Triple Paraphrase
+
+# Chapter 11 - Vocal Duet
 
 # Chapter 12 - Tonic Confirmation '
 <mark>' Note that this chapter is marked **important** to review.</mark>
 
-# Chapter 13 - Suspensions '
+# Chapter 13 - Suspensions & Syncopations '
 <mark>' Note that this chapter is marked **important** to review.</mark>
