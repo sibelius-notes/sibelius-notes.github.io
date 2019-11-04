@@ -1019,6 +1019,10 @@ Two "rules of thumb" (tenor and alto):
 1. When a tone is common to two or more successive chords, retain it in the same voice.
 2. Otherwise, move each voice to the nearest available chord tone.
 
+### Completing the Homophony
+*Use your ear and your eye before your pencil*.
+
+# Chapter 9 - Melodic Dialogue
 
 
 # Chapter 12 - Tonic Confirmation '
