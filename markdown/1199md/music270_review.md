@@ -1062,6 +1062,20 @@ Chromatic within the music need to be introduced with care to avoid possible cro
 Begin by choosing a cantus and deciding its voice: bass, tenor or alto.
 
 # Chapter 10 - Triple Paraphrase
+Through rhythmic figures we enter each measure of the line and articulate its temporal potential. These patterns of pitch and rhythm combine to form the compose figures called **motives**; these motives associative to convey the melody's vital form.
+
+## Paraphrase in Triple Meter
+### Rhythmic Patterns
+Four are available:
+- trochaic and tribrachic.
+- The trochaic ordering of whole note-half is reversed in **iambic rhythm**.
+- **Dactylic rhythm** offers a buoyant alternative to tribrachic rhythm. The first half note is dotted, agogic sound. The succeeding quarter note counteracts this agogic, propelling the line forward to the upbeat half note.
+
+From wiki greensleeves,
+
+<img src="https://upload.wikimedia.org/score/f/w/fwgn6erx9khoyxblj9sylqwr5gm8jl5/fwgn6erx.png" alt="greensleeves" width="100%">
+
+All these rhythmic patterns can be found in **augmentation** (longer note values) or **diminution** (shorter note values).
 
 # Chapter 11 - Vocal Duet
 
