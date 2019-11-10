@@ -96,13 +96,14 @@ for c in courses:
 title: {}
 term: {}
 subject: {}
+audit: {}
 feature_image: "https://picsum.photos/2560/600?image=875"
 feature_text: |
     <h2 style="color:white;"> {} </h2>
 ---
 
 Partial notes coming soon...
-""".format(c.get_course_name(), c.term, c.subject, c.name)
+""".format(c.get_course_name(), c.term, c.subject, c.audit, c.name)
     if not (c.other == 'me'):
         write_str = write_str + "\n > These notes are contributed by one of my friends: {}.\n".format(c.other)
     else:
