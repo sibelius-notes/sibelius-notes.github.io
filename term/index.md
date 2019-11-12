@@ -6,11 +6,11 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 ---
 <main class="main container">
     <div class="content">
-        **Parenthetical note** (from CS 246 A0): 1179 is Quest-speak for Fall 2017. The last digit is the month, and the
-first three digits, added to 1900, give the year.
-        <br>
+        <p><mark>Parenthetical note</mark> (from CS 246 A0): 1179 is Quest-speak for Fall 2017. The last digit is the month, and the
+first three digits, added to 1900, give the year.</p>
+        <br><br>
 
-        *You can click the <b>term heading</b> to view other courses I have audited, which may have incomplete notes and some remarks.*
+        <p>You can click the <mark>term heading</mark> to view other courses I have audited, which may have incomplete notes and some remarks.</p>
 
         <br><br><br>
         <!-- my code -->
