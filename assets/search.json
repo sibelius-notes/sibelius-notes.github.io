@@ -28,8 +28,8 @@ sitemap: false
     "feature_text": "",
     "url": {{ site.baseurl | append: page.url | jsonify }}
   }
-  {% endunless %}
   {% unless forloop.last %},{% endunless %}
+  {% endunless %}
   {% endfor %}
 ]
 {% endcapture %}
