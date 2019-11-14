@@ -23,7 +23,7 @@
     return pages.filter(item => {
       const regex = new RegExp(termToMatch, 'gi');
       try {
-        return item.title.match(regex) || item.content.match(regex);
+        return item.title.match(regex) || item.content.match(regex) || item.feature_text.match(regex);
       }
       catch {
         console.log(item);
