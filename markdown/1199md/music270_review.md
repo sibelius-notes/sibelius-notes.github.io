@@ -1076,11 +1076,62 @@ From wiki greensleeves,
 <img src="https://upload.wikimedia.org/score/f/w/fwgn6erx9khoyxblj9sylqwr5gm8jl5/fwgn6erx.png" alt="greensleeves" width="100%">
 
 All these rhythmic patterns can be found in **augmentation** (longer note values) or **diminution** (shorter note values).
+### Melodic Figures
+Any one of the three-note melodic figures can be combined with either the trochaic or iambic rhythmic patterns.
+
+... Finally, one melodic figure can be developed through elision by overlapping upper and lower neighbor motions and eliding the common one. This four-note figure is called **double neghbor**.
+
+## Formal Design
+Motives link to form a phrase, and phrases join to form a **period**, the name given to a complete musical sentence.
+- Antecedent-consequence period is the most common. Avoids strong resolution, then closes on the tonic.
+- Symmetricial phrasing.
+- Bar form, when a repeat sign is placed at the end of the antecedent phrase.
+
+### Phase Cadences
+- whole note followed by a half rest
+- a dotted whole note followed by a luftpause
+- whole note followed by a luftpause
+
+The asymmetrical **phase group** contrasts with the symmetry (or near symmetry) of the antecedent-consequent and bar-form types.
+
+### Displacing The Cantus Tone
+- Does the "new" downbeat encourage the line's primary contour?
+- Have you inadvertently created a downbeat-to-downbeat tritone?
+- Does the melodic figure gained justify the displacement?
+
+## Melodic Design
+Purpose: enlarge upon the cantus through articulation of its measures by rhythimic patterns.
+
 
 # Chapter 11 - Vocal Duet
+Lively conversation between two voices.
+
+## The Text
+
+## The Upper Voice
+Unlike paraphrasing, the upper voice of the vocal duet is not based on a cantus.
+
+## Composing a Vocal Duet
+
 
 # Chapter 12 - Tonic Confirmation '
 <mark>' Note that this chapter is marked **important** to review.</mark>
+
+Music's *harmonia*, the "fitting together" of its linear parts, came to be heard not simply as a by-product melodic interaction, but more importantly, as a significant propulsive force in its own right.
+
+## Chords of Dominant Function
+### Passing 6/4
+This 6/4 chord is dissonant because it sets a fourth against the bass.
+
+Two types:
+- passing \\(P_4^6\\) (See page 167)
+- cadential 6/4
+
+### V<sup>7</sup> Chord
+Dominant seventh.
+
+### VII<sup>6</sup> Chord
+When the bass carries scale degree \\(\hat2\\), however, VII<sup>6</sup> can stand in place of \\(V_3^4\\).
 
 # Chapter 13 - Suspensions & Syncopations '
 <mark>' Note that this chapter is marked **important** to review.</mark>
