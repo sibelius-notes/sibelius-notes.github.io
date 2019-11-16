@@ -1133,5 +1133,17 @@ Dominant seventh.
 ### VII<sup>6</sup> Chord
 When the bass carries scale degree \\(\hat2\\), however, VII<sup>6</sup> can stand in place of \\(V_3^4\\).
 
+As a chord of dominant function, VII<sup>6</sup> in a minor key must include the leading tone (raise \\(\hat 7\\)).
+
+### Role of 7 and 4
+
+In whatever voice, 7 will regularly resolve to 8 in our tonal harmony when any chord of dominant function relates to I. The cadential treatment of 7 is exceptional.
+
+In whatever voice, 4 will regularly resolve to 3 in V<sup>7</sup> and its inversions.
+
+## Prolonging the Tonic
+
+
+
 # Chapter 13 - Suspensions & Syncopations '
 <mark>' Note that this chapter is marked **important** to review.</mark>
