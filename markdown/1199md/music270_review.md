@@ -1186,6 +1186,19 @@ This objective of complete chordal sonority restricts the use of V<sup>7</sup>.
 
 ## The Cadence
 ### Role of 2 and 7
+The resolution of 2 and 7 will in some cases be avoided, however, to gain a complete and stable chordal sonority for the final I: doubled root, third, and fifth. At the cadence, when 2 is carried by an inner voice, it can rise to 3; when 7 is carried by an inner voice, it can either rise to 3 or fall to 5. Because both 2 and 7 are consonant with the bass, when they are carried by inner voices in the authentic cadence they are freed of their normal tendencies. Here the V - I harmonic event takes precedence over the 2-1 and 7-8 melodic events. *The bass of the cadential V is regularly doubled*.
+
+### V - V<sup>7</sup> Extension
+In tonal harmony, the force of the authentic cadence expands to include the *third-from-last* beat. In four instances, 2-2-1, 7-9-8, 9-7-8, and 5-7-8, the soprano can be harmonized with the V - V<sup>7</sup> extension.
+
+### Cadential 6/4
+In two instances, 8-7-8 and 3-2-1, the cadential dominant can be decorated by a proceding 6/4 chord. This chord is called **cadential 6/4** (\\(\mathbf_4^6\\)).
+
+
+
+
+
+
 
 
 # Chapter 13 - Suspensions & Syncopations '
