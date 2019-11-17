@@ -1204,9 +1204,21 @@ In a minor key, three pre-dominant chords are available for harmonizing a sopran
 ### Extending the Cadential Predominant
 The pre-dominant function can be enlarged to include two beats, and on occation, three beats. A pre-dominant chord can appear in double statement; two different pre-dominant chords can be paired; or a pre-dominant chord in double statement can be preceded or followed by a different pre-dominant chord.
 
+Because they have three tones in common, IV<sup>6</sup> and II<sub>5</sub><sup>6</sup> often form a pre-dominant pair. They are often linked by a diatonic passing 6/4.
 
 
+### Completing the Homophony
 
+...
+
+### Notations for Analysis
+I, IV, etc: indicates chord root by scale degree
+
+D: indicates deceptive resolution
+
+\\(\underline{\phantom{This text will be invisible}}\\): indicates chordal extension
+
+\\(\underbrace{\phantom{This text will be invisible}}\\): indicates tonic prolongation
 
 
 
