@@ -1201,6 +1201,9 @@ Frequently, the cadential dominant is introduced by a nondominant chord. These c
 
 In a minor key, three pre-dominant chords are available for harmonizing a soprano \#6 - \#7 - \#8 close: IV, II</sup>6</sup, and II; these chords carry the same qualities as in a major key.
 
+### Extending the Cadential Predominant
+The pre-dominant function can be enlarged to include two beats, and on occation, three beats. A pre-dominant chord can appear in double statement; two different pre-dominant chords can be paired; or a pre-dominant chord in double statement can be preceded or followed by a different pre-dominant chord.
+
 
 
 
