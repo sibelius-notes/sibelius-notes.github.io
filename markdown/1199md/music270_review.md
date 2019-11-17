@@ -1194,6 +1194,11 @@ In tonal harmony, the force of the authentic cadence expands to include the *thi
 ### Cadential 6/4
 In two instances, 8-7-8 and 3-2-1, the cadential dominant can be decorated by a proceding 6/4 chord. This chord is called **cadential 6/4** (\\(\mathbf C_4^6\\)).
 
+[More explanation](https://www.harmony.org.uk/book/voice_leading/cadential_6_4.htm) and [more](https://medium.com/@michaelkaulkin/name-that-chord-the-confusing-world-of-the-cadential-6-4-df58dd6a86cc).
+
+### Cadential Pre-dominants
+Frequently, the cadential dominant is introduced by a nondominant chord. These chords are termed **pre-dominants**. Six chords are available here as pre-dominants: II (only in major), II<sup>6</sup>, II<sub>5</sub><sup>6</sup>, IV, IV<sup>6</sup>, and VI.
+
 
 
 
