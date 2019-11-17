@@ -1192,7 +1192,7 @@ The resolution of 2 and 7 will in some cases be avoided, however, to gain a comp
 In tonal harmony, the force of the authentic cadence expands to include the *third-from-last* beat. In four instances, 2-2-1, 7-9-8, 9-7-8, and 5-7-8, the soprano can be harmonized with the V - V<sup>7</sup> extension.
 
 ### Cadential 6/4
-In two instances, 8-7-8 and 3-2-1, the cadential dominant can be decorated by a proceding 6/4 chord. This chord is called **cadential 6/4** (\\(\mathbf_4^6\\)).
+In two instances, 8-7-8 and 3-2-1, the cadential dominant can be decorated by a proceding 6/4 chord. This chord is called **cadential 6/4** (\\(\mathbf C_4^6\\)).
 
 
 
