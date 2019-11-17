@@ -1143,7 +1143,21 @@ In whatever voice, 4 will regularly resolve to 3 in V<sup>7</sup> and its invers
 
 ## Prolonging the Tonic
 
+The opening gambit:
+- the analyzed soprano
+- sketched bass
+- introducing appropriate melodic figures
+- complete by adding the tenor and alto voices
 
+The counterpoint of the soprano-bass framework effectively *horizontalizes* the tonic chord: the chord unfolds in time. This important and fundamental process is called **prolongation**.
+
+### Tonic-Dominant Prolongations
+Various **elaborative chords** can stand on beat two of four-beat prolongation. Any diatonic, nondominant triad or sixth chord can perform this function, including diatonic V and VII in a minor key.
+
+### Tonic-Subdominant Prolongations
+Composers often confirm and emphasize the tonic triad at a music's close by following the V - I authentic cadence with the IV - I **plagal cadence**.
+
+<iframe src="https://trinket.io/embed/music/676136457f" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 # Chapter 13 - Suspensions & Syncopations '
 <mark>' Note that this chapter is marked **important** to review.</mark>
