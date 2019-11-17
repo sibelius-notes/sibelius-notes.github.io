@@ -1142,6 +1142,7 @@ In whatever voice, 7 will regularly resolve to 8 in our tonal harmony when any c
 In whatever voice, 4 will regularly resolve to 3 in V<sup>7</sup> and its inversions.
 
 ## Prolonging the Tonic
+> [Extra Resources](http://openmusictheory.com/harmonicSyntax2.html)
 
 The opening gambit:
 - the analyzed soprano
@@ -1157,7 +1158,35 @@ Various **elaborative chords** can stand on beat two of four-beat prolongation. 
 ### Tonic-Subdominant Prolongations
 Composers often confirm and emphasize the tonic triad at a music's close by following the V - I authentic cadence with the IV - I **plagal cadence**.
 
-<iframe src="https://trinket.io/embed/music/676136457f" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+### Tonic Extension
+
+Principal tones in both S and B occur in direct succession, a double statement of the chord is indicated: 5/3 - 6/3  or  6/3 - 5/3. This simple yet effective emphasis of I is called a **tonic extension**.
+
+### Deceptive Resolution
+Where the soprano melodic figure permits, for variety and contrast VI can be substituted for I following V or V<sup>7</sup> in a tonic-dominant prolongation. This V - VI progression is called a **deceptive resolution** since the listner expects to hear a confirming I after the V (or V<sup>7</sup>).
+
+## Composing a Tonal Homophony
+### Designing the bass
+Major and minor tenth and sixth (and their compounds) should be predominate in the S-B framework. Fifth and octaves should be introduced with care because of their static quality.
+
+### Opening Bass Gambits
+When planning a tonic-dominant prolongation, ensure that both soprano and bass melodic figures will accommodate a chord of dominant function.
+
+When planning a tonic-subdominant prolongation, ensure that both ... subdominant chord.
+
+### Continuing the Bass to the Cadence
+Figure the bass and provide a harmonic analysis.
+
+### Adding the Tenor and Alto
+The melodic-harmonic formations of tonal homophony are expressed most clearly by providing complete chordal sonority on every beat.
+*Note that the leading tone is never doubled in a dominant-function chord.*
+
+This objective of complete chordal sonority restricts the use of V<sup>7</sup>.
+
+
+## The Cadence
+### Role of 2 and 7
+
 
 # Chapter 13 - Suspensions & Syncopations '
 <mark>' Note that this chapter is marked **important** to review.</mark>
