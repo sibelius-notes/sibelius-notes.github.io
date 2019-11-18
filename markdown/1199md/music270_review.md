@@ -1252,3 +1252,38 @@ Five are available:
 - Dactylic: 𝅗𝅥 𝅘𝅥 𝅘𝅥
 - Anapestic: 𝅘𝅥 𝅘𝅥 𝅗𝅥
 - Amphibrachic: 𝅘𝅥 𝅗𝅥 𝅘𝅥
+
+## The Upper Voice
+The three-note melodic figures: spondaic, trochaic. Four-note: dactylic, anapestic, amphibrachic.
+
+Though it employs different rhythms and is set in duple meter, the upper voice exhibits the same design principles applied to the upper voice in a vocal duet (Chapter 11):
+1. Its apogee should not be repeated or isolated by leaps.
+2. Unidirectional motion should not exceed by the span of an octave.
+3. Immediate repetition of melodic figures, rhythmic patterns, and suspensions should not exceed triple statement.
+4. Downbeat-to-downbeat tritones should not occur.
+5. Conjunct and disjunct motions should interchange frequently.
+
+### Initial Measure
+### Counterpoint
+Treatment of perfect intervals is consistent with that in the vocal duet: unisons should not occur on a measure's downbeat; two fifths or two octave should not sound successive downbeats or on adjacent beats; nor should a fifth or an octave be approached in similar motion.
+
+The four-note melodic figures can be expressed in spondaic and trochaic rhythms: *in both rhythms, the measure's upbeat will carry consonance*.
+### Cadence
+The music will cadence in a clausula vera decorated with a 7 - 6 suspension.
+
+## Composing a Melodic Dialogue
+### Opening Gambits
+### Completing the Upper Voice
+### Paraphrasing the Cantus
+### Counterpoint
+The individuality of the dialoguing voices will be maintained by
+1. employing contrasting rhythmic patterns and melodic figures in the paraphrased cantus, and
+2. by ensuring that the apogees do not coincide or share the same measure.
+
+Passing or neighbor dissonance in the paraphrased cantus can be introduced on a measure's second or fourth quater. When the upper voice carries a suspension, the lower voice will respond with a three-note melodic figure in trochaic rhythm.
+
+## Suspensions in Diminution
+
+
+---
+End of 270. In music 271, it will review chapter 12, then move to chapter 14.
