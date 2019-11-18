@@ -1248,7 +1248,7 @@ The suspension-resolution step of 7-6 and 4-3 suspensions can be elaborated by a
 ## Rhythmic Patterns
 Five are available:
 - Spondaic: 𝅗𝅥 𝅗𝅥
-- Trochaic: 𝅗𝅥. 𝅘𝅥
+- Trochaic: &#119134; . &#119135;
 - Dactylic: 𝅗𝅥 𝅘𝅥 𝅘𝅥
 - Anapestic: 𝅘𝅥 𝅘𝅥 𝅗𝅥
 - Amphibrachic: 𝅘𝅥 𝅗𝅥 𝅘𝅥
