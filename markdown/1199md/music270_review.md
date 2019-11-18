@@ -1199,7 +1199,7 @@ In two instances, 8-7-8 and 3-2-1, the cadential dominant can be decorated by a 
 ### Cadential Pre-dominants
 Frequently, the cadential dominant is introduced by a nondominant chord. These chords are termed **pre-dominants**. Six chords are available here as pre-dominants: II (only in major), II<sup>6</sup>, II<sub>5</sub><sup>6</sup>, IV, IV<sup>6</sup>, and VI.
 
-In a minor key, three pre-dominant chords are available for harmonizing a soprano \#6 - \#7 - \#8 close: IV, II</sup>6</sup>, and II; these chords carry the same qualities as in a major key.
+In a minor key, three pre-dominant chords are available for harmonizing a soprano \#6 - \#7 - \#8 close: IV, II</sup>6</sup>81, and II; these chords carry the same qualities as in a major key.
 
 ### Extending the Cadential Predominant
 The pre-dominant function can be enlarged to include two beats, and on occation, three beats. A pre-dominant chord can appear in double statement; two different pre-dominant chords can be paired; or a pre-dominant chord in double statement can be preceded or followed by a different pre-dominant chord.
@@ -1224,3 +1224,31 @@ D: indicates deceptive resolution
 
 # Chapter 13 - Suspensions & Syncopations '
 <mark>' Note that this chapter is marked **important** to review.</mark>
+
+> [Extra Resources](https://www.musical-u.com/learn/rhythm-training-101-study-syncopation/)
+
+Rhythm's recurring beat is music's vital pulse, the primary and essential regulator of melodic movement and growth.
+
+Meter bases its organizing principle on the fundamental pairing of downbeat and upbeat. Metric beats and agogic accents will normally agree; when they are in conflict, *syncopation* results.
+
+We will construct this melodic dialogue by composing an elaborated upper voice against a cantus that will then be paraphrased.
+
+## The Suspensions
+One particular use of the agogic accent will introduce harmonic dissonance on a measure's downbeat. This important device is called a **suspension figure**. The consonant tone on beat one is rhythmically displaced to beat two, and its former downbeat position is taken over by the preceding measure's upbeat tone, tied across the bar as an agogic.
+
+A suspension figure involves three tones: the consonant **preparation** on a measure's upbeat; the dissonant **suspension** on the following downbeat, tied over from the preparation; and the consonant **resolution** on the following upbeat, which will always enter by stepwise descent.
+
+The 7 - 6 and 4 - 3 suspensions are available here.
+
+The 6 - 5 and 5 - 6 **syncopation** figures closely resemble the suspension rhythmically in their use of half notes and ties; unlike the suspension, however, they do not introduce a harmonic dissonance.
+
+### Decorating the Suspension
+The suspension-resolution step of 7-6 and 4-3 suspensions can be elaborated by an echappee, and anticipation, or a skip-step.
+
+## Rhythmic Patterns
+Five are available:
+- Spondaic: 𝅗𝅥 𝅗𝅥
+- Trochaic: 𝅗𝅥. 𝅘𝅥
+- Dactylic: 𝅗𝅥 𝅘𝅥 𝅘𝅥
+- Anapestic: 𝅘𝅥 𝅘𝅥 𝅗𝅥
+- Amphibrachic: 𝅘𝅥 𝅗𝅥 𝅘𝅥
