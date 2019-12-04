@@ -7,6 +7,11 @@
         Last modified on {{ page.last_modified_at %d-%b-%Y}}
         doesn't work in github page
     </div-->
+    {% if page.layout == 'termsss' %}
+    <div class="typeset">
+        Backpic Src: <a href='https://uwaterloo.ca/graduate-studies-academic-calendar/'>Grad Calendar</a>
+    </div>
+    {% endif %}
     <div class="copyright  typeset">
       <small style="color:white;">Copyright &copy; <a href="/">{{ site.author }}</a> {{ site.time | date: '%Y' }}</small>
     </div>
