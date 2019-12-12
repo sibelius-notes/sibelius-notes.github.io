@@ -15,7 +15,7 @@
   ],
   "links": [
     { "source":  0,  "target":  6,  "value":  1, "type": "needs"   },
-    { "source":  1,  "target":  7,  "value":  5, "type": "needs"   },
+    { "source":  1,  "target":  7,  "value":  10, "type": "needs"   },
     { "source":  3,  "target":  8,  "value":  1, "type": "needs"   }
   ]
 }
