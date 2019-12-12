@@ -11,13 +11,35 @@
     { "name": "CS 136",                 "group":  2, "class": "bmath"   },
     { "name": "MUSIC 255",              "group":  2, "class": "music"   },
     { "name": "MUSIC 270",              "group":  2, "class": "music"   },
-    { "name": "MUSIC 117",              "group":  2, "class": "music"  }
+    { "name": "MUSIC 117",              "group":  2, "class": "music"  },
+    { "name": "PHYS 111",               "group":  2, "class": "cs" },
+    { "name": "CS 246",                 "group":  3, "class": "cs" },
+    { "name": "EASIA 202R",             "group":  3, "class": "useless"},
+    { "name": "MATH 235",               "group":  3, "class": "bmath"},
+    { "name": "MATH 237",               "group":  3, "class": "bmath"},
+    { "name": "PHYS 112",               "group":  3, "class": "cs"},
+    { "name": "STAT 230",               "group":  3, "class": "bmath"},
+    { "name": "STAT 231",               "group":  4, "class": "bmath"},
+    { "name": "MATH 249",               "group":  4, "class": "bmath"},
+    { "name": "AMATH 251",              "group":  4, "class": "amath"},
+    { "name": "AMATH 231",              "group":  4, "class": "amath"}
+
   ],
   "links": [
     { "source":  0,  "target":  6,  "value":  1, "type": "needs"   },
     { "source":  1,  "target":  7,  "value":  2, "type": "needs"  },
     { "source":  5,  "target":  11,  "value": 3, "type": "needs"  },
     { "source":  3,  "target":  8,  "value":  4, "type": "needs"   },
-    { "source":  4,  "target":  10,  "value":  5, "type": "needs"   }
+    { "source":  4,  "target":  10,  "value":  5, "type": "needs"   },
+    { "source":  8, "target": 13, "value": 6, "type": "needs"},
+    { "source":  6, "target": 15, "value": 7, "type": "needs"},
+    { "source":  7, "target": 16, "value": 8, "type": "needs"},
+    { "source":  12, "target": 17, "value": 9, "type": "needs"},
+    { "source": 18, "target": 19, "value": 10, "type": "needs"},
+    { "source": 0, "target": 20, "value": 11, "type": "needs"},
+    { "source": 6, "target": 20, "value": 12, "type": "needs"},
+    { "source": 16, "target": 22, "value": 13, "type": "needs"},
+    { "source": 6, "target": 21, "value": 14, "type": "needs"},
+    { "source": 7, "target": 21, "value": 15, "type": "needs"}
   ]
 }
