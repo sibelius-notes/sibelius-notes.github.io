@@ -14,8 +14,8 @@
     { "name": "MUSIC 117",              "group":  2, "class": "mount"  }
   ],
   "links": [
-    { "source":  6,  "target":  0,  "value":  1, "type": "depends"   },
-    { "source":  7,  "target":  1,  "value":  5, "type": "depends"   },
-    { "source":  8,  "target":  3,  "value":  1, "type": "depends"   }
+    { "source":  0,  "target":  6,  "value":  1, "type": "depends"   },
+    { "source":  1,  "target":  7,  "value":  5, "type": "depends"   },
+    { "source":  3,  "target":  8,  "value":  1, "type": "depends"   }
   ]
 }
