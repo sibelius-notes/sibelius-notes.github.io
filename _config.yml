@@ -48,6 +48,8 @@ navigation_header:
   url: /
 - title: All
   url: /blog/
+- title: Dependency
+  url: /courses_dependency/
 - title: Search
   url: /search/
 - title: Subject
