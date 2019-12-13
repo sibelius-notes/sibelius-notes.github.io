@@ -116,8 +116,8 @@
     { "source": 16, "target": 48, "value": 1, "type": "needs"},
     { "source": 18, "target": 48, "value": 1, "type": "needs"},
     { "source": 19, "target": 48, "value": 1, "type": "needs"},
-    { "source": 19, "target": 48, "value": 1, "type": "needs"},
-    { "source": 15, "target": 48, "value": 1, "type": "needs"},
+    { "source": 19, "target": 49, "value": 1, "type": "needs"},
+    { "source": 15, "target": 49, "value": 1, "type": "needs"},
     { "source": 25, "target": 50, "value": 1, "type": "needs"}
   ]
 }
