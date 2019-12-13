@@ -173,7 +173,7 @@
         .attr('text-anchor', 'left');
 
       // Some caption
-      const my_cap = $("body").find('#my_cap');
+      const my_cap = document.getElementById("my_cap");
       this.selections.caption = my_cap.append('g');
       this.selections.caption.append('rect')
         .attr('width', '200')
