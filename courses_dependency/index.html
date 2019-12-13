@@ -9,10 +9,11 @@
 <body>
   <div id="app">
     <dependency-graph :data="data"></dependency-graph>
-    <div style="padding-top: 10px; text-align: center" @click="changeData()">
+    <svg id='my_cap'></svg>
+    <!--div style="padding-top: 10px; text-align: center" @click="changeData()">
       <button>Change Data</button>
-    </div>
-    <p><a href="https://bl.ocks.org/agnjunio/fd86583e176ecd94d37f3d2de3a56814">Ref</a></p>
+  </div-->
+    <p><a href="https://bl.ocks.org/agnjunio/fd86583e176ecd94d37f3d2de3a56814">Reference</a></p>
   </div>
   <script>
   Vue.config.devtools = true
@@ -172,13 +173,14 @@
         .attr('text-anchor', 'left');
 
       // Some caption
-      /*this.selections.caption = svg.append('g');
+      const my_cap = $("body").find('#my_cap');
+      this.selections.caption = my_cap.append('g');
       this.selections.caption.append('rect')
         .attr('width', '200')
         .attr('height', '0')
         .attr('rx', '10')
         .attr('ry', '10')
-        .attr('class', 'caption');*/
+        .attr('class', 'caption');
     },
     methods: {
       tick() {
