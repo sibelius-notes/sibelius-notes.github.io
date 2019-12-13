@@ -9,7 +9,6 @@
 <body>
   <div id="app">
     <dependency-graph :data="data"></dependency-graph>
-    <svg id='my_cap'></svg>
     <!--div style="padding-top: 10px; text-align: center" @click="changeData()">
       <button>Change Data</button>
   </div-->
@@ -173,14 +172,13 @@
         .attr('text-anchor', 'left');
 
       // Some caption
-      const my_cap = document.getElementById("my_cap");
-      this.selections.caption = my_cap.append('g');
+      /*this.selections.caption = svg.append('g');
       this.selections.caption.append('rect')
         .attr('width', '200')
         .attr('height', '0')
         .attr('rx', '10')
         .attr('ry', '10')
-        .attr('class', 'caption');
+        .attr('class', 'caption');*/
     },
     methods: {
       tick() {
