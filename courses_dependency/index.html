@@ -248,6 +248,7 @@
           .attr("x", 0)
           .attr("y", ".31em")
           .attr("text-anchor", "middle")
+          .attr("id", d => d.name.replace(' ', '_'))
           .text(d => d.name)
 
         // Add 'marker-end' attribute to each path
@@ -508,10 +509,11 @@
 
   function resetAll() {
       $("#app *").removeClass('faded');
-      $("#app *").removeClass('hightlight');
+      $("#app *").removeClass('highlight');
   }
 
   function fade() {
+      resetAll();
       $("#app path").addClass('faded');
       $("#app text").addClass('faded');
       $("#app circle").addClass('faded');
@@ -520,7 +522,10 @@
   function hilight(subj) {
       fade();
       allNodes.filter(a => a.used_for.includes(subj))
-              .forEach(a => $('#'.concat(a.name.replace(' ', ''))).addClass('hightlight'));
+              .forEach(a => {
+                  $('#'.concat(a.name.replace(' ', ''))).addClass('highlight');
+                  $('#'.concat(a.name.replace(' ', '_'))).addClass('highlight');
+              });
 
   }
   </script>
