@@ -16,6 +16,15 @@
     <!--div style="padding-top: 10px; text-align: center" @click="changeData()">
       <button>Change Data</button>
   </div-->
+    <p>
+        <circle r="10" cx="26" cy="80" class="bmath"></circle> Bachelor of Mathematics <br>
+        <circle r="10" cx="26" cy="80" class="cs"></circle> Computer Science<br>
+        <circle r="10" cx="26" cy="80" class="co"></circle> Combinatorics & Optimization <br>
+        <circle r="10" cx="26" cy="80" class="pmath"></circle> Pure Mathematics <br>
+        <circle r="10" cx="26" cy="80" class="amath"></circle> Applied Mathematics <br>
+        <circle r="10" cx="26" cy="80" class="stat"></circle> Statistics <br>
+        <circle r="10" cx="26" cy="80" class="music"></circle>  Music <br>
+    </p>
     <p><a href="https://bl.ocks.org/agnjunio/fd86583e176ecd94d37f3d2de3a56814">Reference</a></p>
   </div>
   <script>
@@ -508,15 +517,15 @@
   var allNodes = JSON.parse(request.responseText).nodes;
 
   function resetAll() {
-      $("#app *").removeClass('faded');
-      $("#app *").removeClass('highlight');
+      $("#mycanvas *").removeClass('faded');
+      $("#mycanvas *").removeClass('highlight');
   }
 
   function fade() {
       resetAll();
-      $("#app path").addClass('faded');
-      $("#app text").addClass('faded');
-      $("#app circle").addClass('faded');
+      $("#mycanvas path").addClass('faded');
+      $("#mycanvas text").addClass('faded');
+      $("#mycanvas circle").addClass('faded');
   }
 
   function hilight(subj) {
