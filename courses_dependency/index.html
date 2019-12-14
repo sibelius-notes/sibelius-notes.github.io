@@ -20,13 +20,20 @@
     <svg id='caption_' width="300" height="220">
         <g>
             <rect width="300" height="220" rx="10" ry="10" class="caption"></rect>
-            <circle r="10" cx="26" cy="20" class="bmath" id='bmath_cap'></circle> <text x="48" y="25" class="caption">Bachelor of Mathematics  </text>
-            <circle r="10" cx="26" cy="50" class="cs" id='cs_cap'></circle> <text x="48" y="55" class="caption">Computer Science </text>
-            <circle r="10" cx="26" cy="80" class="co" id='co_cap'></circle> <text x="48" y="85" class="caption">Combinatorics & Optimization  </text>
-            <circle r="10" cx="26" cy="110" class="pmath" id='pmath_cap'></circle> <text x="48" y="115" class="caption">Pure Mathematics  </text>
-            <circle r="10" cx="26" cy="140" class="amath" id='amath_cap'></circle> <text x="48" y="145" class="caption">Applied Mathematics  </text>
-            <circle r="10" cx="26" cy="170" class="stat" id='stat_cap'></circle> <text x="48" y="175" class="caption">Statistics  </text>
-            <circle r="10" cx="26" cy="200" class="music" id='music_cap'></circle>  <text x="48" y="205" class="caption">Music  </text>
+            <circle r="10" cx="26" cy="20" class="bmath" mouseover="hilight('bmath')" mouseout='resetAll()'></circle>
+            <text x="48" y="25" class="caption">Bachelor of Mathematics  </text>
+            <circle r="10" cx="26" cy="50" class="cs" mouseover="hilight('cs')" mouseout='resetAll()'></circle>
+            <text x="48" y="55" class="caption">Computer Science </text>
+            <circle r="10" cx="26" cy="80" class="co" mouseover="hilight('co')" mouseout='resetAll()'></circle>
+            <text x="48" y="85" class="caption">Combinatorics & Optimization  </text>
+            <circle r="10" cx="26" cy="110" class="pmath" mouseover="hilight('pmath')" mouseout='resetAll()'></circle>
+            <text x="48" y="115" class="caption">Pure Mathematics  </text>
+            <circle r="10" cx="26" cy="140" class="amath" mouseover="hilight('amath')" mouseout='resetAll()'></circle>
+            <text x="48" y="145" class="caption">Applied Mathematics  </text>
+            <circle r="10" cx="26" cy="170" class="stat" mouseover="hilight('stat')" mouseout='resetAll()'></circle>
+            <text x="48" y="175" class="caption">Statistics  </text>
+            <circle r="10" cx="26" cy="200" class="music" mouseover="hilight('music')" mouseout='resetAll()'></circle>
+            <text x="48" y="205" class="caption">Music  </text>
         </g>
     </svg>
     <p><a href="https://bl.ocks.org/agnjunio/fd86583e176ecd94d37f3d2de3a56814">Reference</a></p>
