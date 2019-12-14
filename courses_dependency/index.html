@@ -228,6 +228,7 @@
         .enter().append("circle")
           .attr("r", 30)
           .attr("class", d => d.class)
+          .attr("id", d => d.name) // I added
           .call(d3.drag()
             .on('start', this.nodeDragStarted)
             .on('drag', this.nodeDragged)
