@@ -497,6 +497,32 @@
       }
     }
   })
+
+
+
+  // my own function starts here
+  var request = new XMLHttpRequest();
+  request.open("GET","mine.json", false);
+  request.send(null);
+  var allNodes = JSON.parse(request.responseText).nodes;
+
+  function resetAll() {
+      $("#app *").removeClass('faded');
+      $("#app *").removeClass('hightlight');
+  }
+
+  function fade() {
+      $("#app path").addClass('faded');
+      $("#app text").addClass('faded');
+      $("#app circle").addClass('faded');
+  }
+
+  function hilight(subj) {
+      fade();
+      allNodes.filter(a => a.used_for.includes(subj))
+              .forEach(a => $('#'.concat(a.name.replace(' ', ''))).addClass('hightlight'));
+
+  }
   </script>
   <style>
   .faded {
