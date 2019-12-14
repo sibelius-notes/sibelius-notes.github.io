@@ -16,15 +16,17 @@
     <!--div style="padding-top: 10px; text-align: center" @click="changeData()">
       <button>Change Data</button>
   </div-->
-    <p>
-        <circle r="10" cx="26" cy="80" class="bmath"></circle> Bachelor of Mathematics <br>
-        <circle r="10" cx="26" cy="80" class="cs"></circle> Computer Science<br>
-        <circle r="10" cx="26" cy="80" class="co"></circle> Combinatorics & Optimization <br>
-        <circle r="10" cx="26" cy="80" class="pmath"></circle> Pure Mathematics <br>
-        <circle r="10" cx="26" cy="80" class="amath"></circle> Applied Mathematics <br>
-        <circle r="10" cx="26" cy="80" class="stat"></circle> Statistics <br>
-        <circle r="10" cx="26" cy="80" class="music"></circle>  Music <br>
-    </p>
+    <svg id='caption_'>
+        <g>
+            <circle r="10" cx="26" cy="80" class="bmath"></circle> <text x="48" y="85" class="caption">Bachelor of Mathematics  </text>
+            <circle r="10" cx="26" cy="110" class="cs"></circle> <text x="48" y="115" class="caption">Computer Science </text>
+            <circle r="10" cx="26" cy="140" class="co"></circle> <text x="48" y="145" class="caption">Combinatorics & Optimization  </text>
+            <circle r="10" cx="26" cy="170" class="pmath"></circle> <text x="48" y="175" class="caption">Pure Mathematics  </text>
+            <circle r="10" cx="26" cy="200" class="amath"></circle> <text x="48" y="205" class="caption">Applied Mathematics  </text>
+            <circle r="10" cx="26" cy="230" class="stat"></circle> <text x="48" y="235" class="caption">Statistics  </text>
+            <circle r="10" cx="26" cy="260" class="music"></circle>  <text x="48" y="265" class="caption">Music  </text>
+        </g>
+    </svg>
     <p><a href="https://bl.ocks.org/agnjunio/fd86583e176ecd94d37f3d2de3a56814">Reference</a></p>
   </div>
   <script>
