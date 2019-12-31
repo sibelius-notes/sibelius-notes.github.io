@@ -9,7 +9,7 @@ feature_text: |
 
 This website contains Lecture Notes only.
 
-Also, check my [blogs](https://blog.sibeliusp.com) and check my [home page](https://www.sibeliusp.com).
+Also, check my [blogs](https://blog.sibeliusp.com) and check my [home page](https://sibeliusp.com).
 
 ## Disclaimer
 
