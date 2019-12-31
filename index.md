@@ -21,3 +21,6 @@ These notes are provided *as-is*, and may be incomplete or contain errors.
 ## Contact
 
 If you spot a typo or have any questions, contact me via the tab in navbar.
+
+## Other
+Some other notes you might find useful: [Iris Jiang](http://www.iris-jiang.com/notes.html) (PMATH, ACTSC, STAT).
