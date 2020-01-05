@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  5 JAN 2020 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  5 JAN 2020 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,8 +1172,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 tum.aux) ) 
 Here is how much of TeX's memory you used:
  26546 strings out of 492649
- 584247 string characters out of 6129622
- 604406 words of memory out of 5000000
+ 584245 string characters out of 6129622
+ 603406 words of memory out of 5000000
  30013 multiletter control sequences out of 15000+600000
  533777 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1181,7 +1181,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
 .pfb>
-Output written on quantum.pdf (1 page, 28482 bytes).
+Output written on quantum.pdf (1 page, 28465 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
