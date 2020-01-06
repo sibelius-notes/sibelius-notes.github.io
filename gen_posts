@@ -105,14 +105,14 @@ feature_image: "https://picsum.photos/2560/600?image=875"
 feature_text: |
     <h2 style="color:white;"> {} </h2>
 ---
-
-Partial notes coming soon...
 """.format(c.get_course_name(), c.term, c.subject, str(c.audit).lower(), c.name) # by default, hide the audit courses
     if not (c.other == 'me'):
         write_str = write_str + "\n > These notes are contributed by one of my friends: {}.\n".format(c.other)
     else:
         if c.audit:
             write_str = write_str + "\n > I was auditing this course during this term.\n"
+
+    write_str = write_str + "\n Partial notes coming soon. \n"
     f.write(write_str)
     f.close()
     print(i, ', NEW: ', c.get_course_name())
