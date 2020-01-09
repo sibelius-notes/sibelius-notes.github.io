@@ -1,4 +1,4 @@
-title: EARTH 471: Mineral Deposits
+title: EARTH 471 - Mineral Deposits
 ---
 Taught by [Chris Yakymchuk](https://uwaterloo.ca/earth-environmental-sciences/people-profiles/chris-yakymchuk).
 
