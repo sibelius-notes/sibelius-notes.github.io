@@ -1,4 +1,4 @@
-title: Introduction to investment
+title: Actsc 371 - Introduction to investment
 ---
 These notes are contributed by Fannie.
 
