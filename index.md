@@ -11,8 +11,8 @@ This website contains Lecture Notes only, as well as my thoughts regarding the c
 
 The courses are categorized in nav bar as follows:
 - **All**: All courses
-- **Subject**: Grouped by subjects
-- **Term**: Grouped by terms
+- **Subject**: Grouped by subject
+- **Term**: Grouped by term
 
 Also, check my [blogs](https://blog.sibeliusp.com) and check my [home page](https://sibeliusp.com).
 
