@@ -13,7 +13,7 @@ sitemap: false
         "title": {{ doc.title | jsonify }},
         "excerpt": {{ doc.excerpt | markdownify | strip_html | jsonify }},
         "content": {{ doc.content | markdownify | strip_html | jsonify }},
-        "feature_text": {{ doc.feature_text | markdownify | strip_html | truncatewords:100 | jsonify }},
+        "feature_text": {{ doc.feature_text | markdownify | strip_html | truncatewords: 50 | jsonify }},
         "url": {{ site.baseurl | append: doc.url | jsonify }}
       },
     {% endfor %}
@@ -23,7 +23,7 @@ sitemap: false
   {
     "title": {{ page.title | jsonify }},
     "excerpt": {{ page.excerpt | markdownify | strip_html | jsonify }},
-    "content": {{ page.content | markdownify | strip_html | truncatewords:100 | jsonify }},
+    "content": {{ page.content | markdownify | strip_html | truncatewords: 50 | jsonify }},
     "feature_text": "",
     "url": {{ site.baseurl | append: page.url | jsonify }}
   }
