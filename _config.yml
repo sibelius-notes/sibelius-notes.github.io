@@ -65,9 +65,9 @@ navigation_footer:
   url: "./#top"
 
 sharing_links:
-    Twitter: "#1DA1F2"
+    twitter: "#1DA1F2"
     facebook: "#3B5998"
-    LinkedIn: "#0077B5"
+    linkedIn: "#0077B5"
     Email: true
 
 
