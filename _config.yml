@@ -63,7 +63,7 @@ navigation_header:
 # Footer nav
 navigation_footer:
 - title: Back to home
-  url: "{{ page.url }}/#top"
+  url: "/"
 
 
 
