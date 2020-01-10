@@ -21,9 +21,10 @@ sitemap: false
   {% assign pages = site.html_pages | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.title != null' | where_exp:'doc', 'doc.url contains "markdown" ' %}
   {% for page in pages %}
   {
+      {% assign myContent = page.content | split: "<!--start-->" | last %}
     "title": {{ page.title | jsonify }},
-    "excerpt": {{ page.content | markdownify | strip_html | truncatewords: 50 | jsonify }},
-    "content": {{ page.content | markdownify | strip_html | jsonify }},
+    "excerpt": {{ myContent | markdownify | strip_html | truncatewords: 50 | jsonify }},
+    "content": {{ myContent | markdownify | strip_html | jsonify }},
     "feature_text": "",
     "url": {{ site.baseurl | append: page.url | jsonify }}
   }
