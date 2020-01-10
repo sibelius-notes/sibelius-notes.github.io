@@ -22,7 +22,7 @@ sitemap: false
   {% for page in pages %}
   {
     "title": {{ page.title | jsonify }},
-    "excerpt": {{ page.excerpt | markdownify | strip_html | truncatewords: 50 | jsonify }},
+    "excerpt": {{ page.content | markdownify | strip_html | truncatewords: 50 | jsonify }},
     "content": {{ page.content | markdownify | strip_html | jsonify }},
     "feature_text": "",
     "url": {{ site.baseurl | append: page.url | jsonify }}
