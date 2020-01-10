@@ -14,7 +14,7 @@ Dictionary => "the act or state of knowing" -> intelligence = knowledge.
 
 *Understanding what? How does understanding happen? Where does understanding happen?*
 
--> intelligence = learning **NOT =** knowledge acquisition
+-> intelligence = learning &ne; knowledge acquisition
 
 Knowledge is stored in "memory". [Static]
 
