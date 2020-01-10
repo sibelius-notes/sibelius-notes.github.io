@@ -1,4 +1,4 @@
-title: MUSIC 254
+title: MUSIC 254 - Baroque and Classical music 
 ---
 # Lec 1 - Jan 7
 ## Baroque Era

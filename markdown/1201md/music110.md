@@ -1,4 +1,4 @@
-title: MUSIC 110
+title: MUSIC 110 - Music in Cultural Contexts
 ---
 # Introductions
 ## Calendar
