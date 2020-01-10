@@ -28,7 +28,8 @@ url: ''
 baseurl: ''
 title: 'Sibelius Peng'
 description: 'Lecture Notes'
-permalink: pretty
+#permalink: pretty
+permalink: /:term/:title/
 logo: "/logo.jpg"
 email: "plc1101@163.com"
 author: Sibelius Peng
