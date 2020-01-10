@@ -64,6 +64,13 @@ navigation_footer:
 - title: Back to home
   url: "./#top"
 
+sharing_links:
+    Twitter: "#1DA1F2"
+    facebook: "#3B5998"
+    LinkedIn: "#0077B5"
+    Email: true
+
+
 # Collections
 collections:
   posts:
