@@ -1,4 +1,4 @@
-title: MUSIC 254 - Baroque and Classical music 
+title: MUSIC 254 - Baroque and Classical music
 ---
 # Lec 1 - Jan 7
 ## Baroque Era
@@ -28,4 +28,7 @@ Bernini, David: motion, emotion
 
 
 
-CLASS CANCELED THIS THURS JAN 9!
+CLASS CANCELLED THIS THURS JAN 9!
+
+# Lec 2 - Jan 9
+As said last time, the class is cancelled.

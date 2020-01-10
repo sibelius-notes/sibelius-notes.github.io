@@ -11,3 +11,8 @@ The concert program must be handed with the assignment
 [Tiki-toki](www.tiki-toki.com)
 
 ## Group activity
+
+# Lec 2
+Gamelan Workshop.
+
+Gong
