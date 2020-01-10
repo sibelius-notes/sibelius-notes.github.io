@@ -122,5 +122,6 @@ feature_text: |
     print(i, ', NEW: ', c.get_course_name())
     i = i + 1
 
-
+if i == 1:
+    print('\033[93m--- No courses generated ---\033[0m')
 # Partial notes coming soon
