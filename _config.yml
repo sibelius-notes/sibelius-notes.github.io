@@ -22,6 +22,7 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-remote-theme
+- custom_permalink
 
 # Site settings
 url: ''
@@ -29,7 +30,7 @@ baseurl: ''
 title: 'Sibelius Peng'
 description: 'Lecture Notes'
 #permalink: pretty
-permalink: /:short_year-:month/:title/
+#permalink: /:short_year-:month/:title/
 logo: "/logo.jpg"
 email: "plc1101@163.com"
 author: Sibelius Peng
