@@ -5,7 +5,7 @@ sitemap: false
 
 {% capture json %}
 [
-  {% assign collections = site.collections | where_exp:'collection','collection.output != false' %}
+  {% assign collections = site.collections | where_exp:'collection','collection.title == "Posts"' %}
   {% for collection in collections %}
     {% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' %}
     {% for doc in docs %}
