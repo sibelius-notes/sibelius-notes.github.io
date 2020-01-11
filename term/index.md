@@ -6,15 +6,12 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 ---
 <main class="main container">
     <div class="content">
-        <p><mark>Parenthetical note</mark> (from CS 246 A0): 1179 is Quest-speak for Fall 2017. The last digit is the month, and the
-first three digits, added to 1900, give the year.</p>
-        <br>
 
-        <p>You can click the <mark>term heading</mark> (e.g. <a href="#">1199</a>) to view other courses I have audited, which may have incomplete notes and some remarks.</p>
+        <p>You can click the <mark>term heading</mark> (e.g. <a href="#">Fall 2017</a>) to view other courses I have audited, which may have incomplete notes and some remarks.</p>
 
         <br><br><br>
         <!-- my code -->
-        {% assign all_terms = site.term %}
+        {% assign all_terms = site.term | reverse %}
 
         {% for item in all_terms %}
         {% assign courses = site.posts | where: "term", item.term | where: "hide", false %}
