@@ -14,12 +14,12 @@ first three digits, added to 1900, give the year.</p>
 
         <br><br><br>
         <!-- my code -->
-        {% assign all_terms = site.term %}
+        {% assign all_terms = site.posts | map: "term" | uniq %}
 
         {% for item in all_terms %}
-        {% assign courses = site.posts | where: "term", item.term | where: "hide", false %}
+        {% assign courses = site.posts | where: "term", item | where: "hide", false %}
                 <div class="typeset" style="border: 1px solid #EEEEEE; padding: 1em; border-radius: 0.3em;">
-                    <h1 align="center" style="font-size:2em"><a href="{{ item.url }}">{{ item.feature_text | split: "|" | last | strip_html }}</a></h1>
+                    <h1 align="center" style="font-size:2em"><a href="/term/{{ item }}">{{ item | upcase }}</a></h1>
                     <ul>
                         {% for c in courses %}
                         <span class="label label--category"><a href="{{ c.url }}" class="post-tag" style="white-space: nowrap">{{ c.title }}</a></span> &nbsp;&nbsp;
