@@ -8,7 +8,7 @@ feature_image: "https://picsum.photos/1300/400?image=989"
     <div class="content">
         <!-- my code -->
         {% assign all_subjects = site.subject | map: "subject" | uniq %}
-        {% assign taken_subjects = site.posts | map: "subject" | uniq %}
+        {% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
         <ul>
         {% for item in taken_subjects %}
             <li>
