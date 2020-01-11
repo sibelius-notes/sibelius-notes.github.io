@@ -7,7 +7,7 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 <main class="main container">
     <div class="content">
 
-        <p>You can click the <mark>term heading</mark> (e.g. <a href="#">Fall 2017</a>) to view other courses I have audited, which may have incomplete notes and some remarks.</p>
+        <p>You can click the <i>term heading</i> (e.g. <a href="#">Fall 2017</a>) to view other courses I have audited, which may have incomplete notes and some remarks.</p>
 
         <br><br><br>
         <!-- my code -->
