@@ -1,7 +1,6 @@
 title: MUSIC 254 - Baroque and Classical music
 ---
-# Lec 1 - Jan 7
-## Baroque Era
+# Baroque Era
 * end of 16c to mid 18c
 * Baroque: Negative connotations
     * Barocco
@@ -32,3 +31,22 @@ CLASS CANCELLED THIS THURS JAN 9!
 
 # Lec 2 - Jan 9
 As said last time, the class is cancelled.
+
+# Music of the early Baroque: Characteristics of a New Era
+
+## 3 streams in Baroque & 3 streams in Classical eras
+a) Vocal music
+
+b) rise of the violin family: foundation of orchstra
+
+c) keyboard music
+
+## General Characteristics of Baroque Music
+1. Texture
+- treble-bass polarity: two different threads
+- basso continuo: emphasize bass part, foundation of music.
+- combining voices and intruments: colors. New thing.
+
+2. Harmony
+3. Rhythm
+4. Emotion 
