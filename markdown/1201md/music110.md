@@ -38,6 +38,8 @@ Music: the entire phenomenon of human intentional sound production,  the whole h
 To love music is to affirm your place in the world, to feel confident and connected within it. To love Music is to try to experience this through others, and thus get perspective on both ourselves and our fellow humans.
 
 ## A Triparitite Model for Musical Study
+Venn diagram:
+
 - Concept: how people think about music
 - Behaviour and Context: tangible activities associated with a performance
 - Sound: the music "itself"
@@ -61,3 +63,5 @@ WILL BE ON TESTS!
 **Melody**: the "tune" in music; comprises a sequence of notes muving in a particular shape
 
 **Musical Form**: the structural orgnization of a piece of music; involves repetition, variation, and contrast
+
+See listening response worksheet, which requires to be filled when listening the music. So we are required to memorize, understand and apply.
