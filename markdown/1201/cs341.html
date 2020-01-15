@@ -39,6 +39,12 @@ layout: markdown
     <span class="md-toc-item md-toc-h3">
         <a class="md-toc-inner" href="#recursion-tree-method">Recursion tree method</a>
     </span>
+    <span class="md-toc-item md-toc-h4">
+        <a class="md-toc-inner" href="#recursion-tree-method-formalized">Recursion tree method formalized</a>
+    </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#guess-and-check-method">Guess-and-check method</a>
+    </span>
     </p>
 </div>
 
@@ -81,5 +87,16 @@ of recursion.</p>
 <p>top call does \(cn\). Second level: Each mergesort call does \(2(cn/2)=cn\). The bottom level does \(n(c)=cn\).
 Now the question is how much in total? If we sum up them all, we have \(\log n\) levels. Thus total is \(cn\log n\), which is
 \(O(n\log n)\).</p>
+<p>Or you could do this with table, more analytically. Fill it in and sum them up in total runtime column.</p>
+<h4 id="recursion-tree-method-formalized"><a class="header-link" href="#recursion-tree-method-formalized"></a>Recursion tree method formalized</h4>
+<p>When n is power of 2, we can solve the problem easily.</p>
+<ul class="list">
+<li>Start with one node tree.</li>
+<li>Grow two children.</li>
+<li>Repeat this process recursively, until you hit the base case.</li>
+<li>Sum up the costs over all nodes.</li>
+</ul>
+<h3 id="guess-and-check-method"><a class="header-link" href="#guess-and-check-method"></a>Guess-and-check method</h3>
+<p>first substitute T(n-1) with T(n-2)+... (by defn). Now we unroll this recurrence by one level.</p>
 <!--end-->
 </div>

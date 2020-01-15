@@ -43,32 +43,32 @@ c) keyboard music
 
 ## General Characteristics of Baroque Music
 1. Texture
-- treble-bass polarity: two different threads
-- basso continuo: emphasize bass part, foundation of music.
-    - only bass line.
-    - improvised. They would understand and then improvise.
-    - figured bass notation. Up to performer to fill it up.
-    - Later Baroque often 2 instruments:
-        - bass line + chords: keyboard or plucked instrument  like organ, lute, theorbo (long extension to have bass sound.)
-        - bass line: reinforced by bassoon...
-- combining voices and intruments: colors. New thing.
-    - Different instrument has different tuning system. String instruments can be adjusted easily, but not the case with keyboard.
-    - independent tuning systems:
-        - mean-tone for keyboard.
-    - equal temperament (compromise). Take the octave and divide it by 12 equal semitones.
+    - treble-bass polarity: two different threads
+    - basso continuo: emphasize bass part, foundation of music.
+        - only bass line.
+        - improvised. They would understand and then improvise.
+        - figured bass notation. Up to performer to fill it up.
+        - Later Baroque often 2 instruments:
+            - bass line + chords: keyboard or plucked instrument  like organ, lute, theorbo (long extension to have bass sound.)
+            - bass line: reinforced by bassoon...
+    - combining voices and intruments: colors. New thing.
+        - Different instrument has different tuning system. String instruments can be adjusted easily, but not the case with keyboard.
+        - independent tuning systems:
+            - mean-tone for keyboard.
+        - equal temperament (compromise). Take the octave and divide it by 12 equal semitones.
 2. Harmony
 
 They are not thinking major minor, instead, modal music previously. Bass oriented and build it up. More types of dissonances (clashes) were permitted.
 
 3. Rhythm
-- bar lines and time signatures.
-- contrast and pairing: improvised rhythm in prelude, but strict in fugue.
+    - bar lines and time signatures.
+    - contrast and pairing: improvised rhythm in prelude, but strict in fugue.
 
 4. Emotion
-- Affections: states of mind, such as sadness, joy.
-- Relatively stable. Cause body fluids in bounds.
-- arouse affections
-- embellishment: emotional impact. Not written in.
+    - Affections: states of mind, such as sadness, joy.
+    - Relatively stable. Cause body fluids in bounds.
+    - arouse affections
+    - embellishment: emotional impact. Not written in.
 
 
 ### Gramatic Shift in Musical Practice
