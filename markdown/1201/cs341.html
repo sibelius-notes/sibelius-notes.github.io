@@ -45,6 +45,12 @@ layout: markdown
     <span class="md-toc-item md-toc-h3">
         <a class="md-toc-inner" href="#guess-and-check-method">Guess-and-check method</a>
     </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#another-approach">Another Approach</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#master-theorem-for-recurrences">Master Theorem for Recurrences</a>
+    </span>
     </p>
 </div>
 
@@ -104,5 +110,24 @@ unroll by one further level.</p>
 <p>\[T(n)=\ldots=guess(n)\]</p>
 <p>Plug the initial value then get a closed form.</p>
 <p>This is an <strong>educated guess</strong>. Here is enough for this course. To prove it, prove by induction (base case and induction step).</p>
+<h3 id="another-approach"><a class="header-link" href="#another-approach"></a>Another Approach</h3>
+<p>with some experience, you might guess it&#39;s quadratic. You should have the form \(an^2+bn+c\) for some unknown constants a,b,c.
+So just carry the unknown constants into the proof!</p>
+<p>We set T(n+1) = guess(n+1), equalize the coefficients.</p>
+<p><em>Time Permitting</em> might not get here...</p>
+<h2 id="master-theorem-for-recurrences"><a class="header-link" href="#master-theorem-for-recurrences"></a>Master Theorem for Recurrences</h2>
+<p>We start with a simplified version. \(a\ge 1, b&gt; 1\). Consider the recurrence
+\[T(n)=aT\left({n\over b}\right) + \Theta(n^y)\]
+where n is a power of b.</p>
+<p>Denote \(x=\log_b a\). Then
+\[
+T(n)\in
+\begin{cases}
+\Theta(n^x) \&amp; if~y<x \\\\
+\\Theta(n^x\\log n) \& if ~y=x \\\\
+\\Theta(n^y) \& if~y>x. \\
+\end{cases}
+\]</p>
+<p>You can prove it by kinda recursion tree methods.</p>
 <!--end-->
 </div>
