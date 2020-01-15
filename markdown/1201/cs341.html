@@ -1,11 +1,11 @@
 ---
-title: Lec 4
+title: CS 341 - Algorithms
 layout: markdown
 ---
 
 <div class="content">
 
-<h1>Lec 4</h1>
+<h1>CS 341 - Algorithms</h1>
 
 <div class="md-toc content">
     <p class="md-toc-content">
@@ -81,7 +81,7 @@ of recursion.</p>
 <p>divide takes linear time. Conquering takes T(ceil n/2) + T(floor n/2). combine linear.</p>
 <p>When n=1, then it&#39;s easy. When n&gt;1, then we use the expression in slide (just add expressions above together).</p>
 <p>T(n) is a function, which is a recurrence relation. How can we solve for T(n)?</p>
-<p>To make it easier, let n=2^k.</p>
+<p>To make it easier, let \(n=2^k\).</p>
 <p>It&#39;s not so useful if we have T(n), T(n-1), ...</p>
 <h3 id="recursion-tree-method"><a class="header-link" href="#recursion-tree-method"></a>Recursion tree method</h3>
 <p>top call does \(cn\). Second level: Each mergesort call does \(2(cn/2)=cn\). The bottom level does \(n(c)=cn\).
@@ -97,6 +97,12 @@ Now the question is how much in total? If we sum up them all, we have \(\log n\)
 <li>Sum up the costs over all nodes.</li>
 </ul>
 <h3 id="guess-and-check-method"><a class="header-link" href="#guess-and-check-method"></a>Guess-and-check method</h3>
-<p>first substitute T(n-1) with T(n-2)+... (by defn). Now we unroll this recurrence by one level.</p>
+<p>First substitute T(n-1) with T(n-2)+... (by defn). We unroll this recurrence by one level.
+Simplify it a little bit. We preserve the patterns when simplifying. If haven&#39;t see the pattern yet,
+unroll by one further level.</p>
+<p>Identify the patern and guess what happens in the limit. Then we get</p>
+<p>\[T(n)=\ldots=guess(n)\]</p>
+<p>Plug the initial value then get a closed form.</p>
+<p>This is an <strong>educated guess</strong>. Here is enough for this course. To prove it, prove by induction (base case and induction step).</p>
 <!--end-->
 </div>
