@@ -65,3 +65,28 @@ WILL BE ON TESTS!
 **Musical Form**: the structural orgnization of a piece of music; involves repetition, variation, and contrast
 
 See listening response worksheet, which requires to be filled when listening the music. So we are required to memorize, understand and apply.
+
+# Lec 4 - Jan 16th
+**HW - Listening**: twinkle twinkle little star
+
+truncate the phrase and find the beat.
+
+## Rhythm
+How can we know about time? That's how it's different from other arts.
+
+defn: change in time that we measure.
+
+- Unmeasured rhythm: approximately mearsure, change the sound without beat, according the the breath
+of the performer. Rely on the rest/feeling of the person. Up to musician to feel that piece. Not too surprisingly,
+if we listen to them several times, we might feel it is *measured* since our body have the tendency to
+feel the beat of it and measure it.
+- Measured rhythm: we can measure changing sounds more precisely when we **entrain** them. In entrainment we
+synchronize with puslations.
+
+## Instrument Classification
+if we classify them based on the *primary sound-producing medium*:
+* Chordophone: like guitar. Sound produced by bowing or plucking. Involving chords, strings.
+* Aerophone: like flute, harmonica. Sounds produced by blowing.
+* Membranophone: like drum. Sound produced by striking a stretched material over a hollow object.
+* Idiophone: Sound produced by striking, shaking, waving a solid object. An idiophone is any musical instrument that creates sound primarily by the instrument as a whole vibrating—without the use of strings or membranes.
+* Electrophone: sound involving electricity.
