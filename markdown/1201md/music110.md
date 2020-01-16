@@ -90,3 +90,31 @@ if we classify them based on the *primary sound-producing medium*:
 * Membranophone: like drum. Sound produced by striking a stretched material over a hollow object.
 * Idiophone: Sound produced by striking, shaking, waving a solid object. An idiophone is any musical instrument that creates sound primarily by the instrument as a whole vibrating—without the use of strings or membranes.
 * Electrophone: sound involving electricity.
+
+We start from Bali in essence.
+
+## Aural Analysis - Balinese Gamelan
+Idiophone, Membranophone, Aerophone. Makes the sound more dense, thick textures.
+
+shimmering effect. The entire gamelan is tuned to the same beating. If not, then they need to be tuned.
+
+Key Aesthetic: Ombak (wave)
+- paired-tuning
+- gong
+
+Five-Tone Selisir Tuning
+- nIng 1
+- nOng 2
+- nEng 3
+- nUng 5
+- nAng 6
+
+Gong marks the essential structural of the piece.
+
+### Key Features
+1. Gong cycle: use gong to mark the beginning and important points
+2. Stratification: layering of instrumental parts in increasing density. Usually in ratio, 2:1, 4:1.
+3. Interlocking: Rhythmically complementary parts played by pairs of musicians that combine to form a single pattern.
+One melody line shared by two people.
+    - like one in upbeat, one in downbeat.
+    - sometimes it's hard for one person to play due to its complex patterns.

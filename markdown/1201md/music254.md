@@ -71,7 +71,7 @@ They are not thinking major minor, instead, modal music previously. Bass oriente
     - embellishment: emotional impact. Not written in.
 
 
-### Gramatic Shift in Musical Practice
+### Dramatic Shift in Musical Practice
 Claudio Monteverdi
 - 5th book of Madrigals
 - 5-voices madrigal: polyphonic setting of a 16C Italian poem
@@ -81,7 +81,51 @@ Claudio Monteverdi
         - cruda (cruel)
         - jeering laughter
 
+#### Bitter Debate: Artusi vs Monteverdi
+Monteverdi: build on the previous foundation
+
 First Practice: Monteverdi's term.
 - Zarlino & Artusi
 - rules: dissonances. Carefully prepared and resolved.
 - Palestrina: benchmark
+
+Second Practice: more modern. Cruda (cruel)
+
+# The Birth of Opera
+## Camerata
+Caccini, singer in the group
+
+1570s & 80s.
+- discussed literature, science & arts
+- Members: V. Galilei (father of Gallieo Galilei)...
+- Greek tragedy as model. really move people
+- speculated on role of music in ancient theatre
+- Criticized current vocal polyphony. can't understand the word. Somewhere between song and speech.
+- Developed Monody: accompanied solo singing.
+    - texture? solo song + 1 instrument. bass continuo
+
+## Caccini I'll see my sun
+style is very different, example of monody. Prototype of recitative(宣叙调): made opera possible.
+
+repetition not happened in recitatives. but you have time to pause in opera.
+
+## Opera & its antecendents
+opera = italian for work = drama with music
+
+## antecendents
+1. pastroal drama (1471, Florence: on Orfeo)
+2. madrigals: emotion, dramatizing poetry
+3. Intermedio: interesting invention: musical interlude on a pastroal, allegorical or myyhological subjects before, after between acts of play
+
+Most famous one: Florence, 1589 for a wedding of Grand Duke...
+
+Orpheus: musician. rock beat. not a happy guy.
+
+## Recitative
+
+halfway between singing and speaking (speech). no repetition, through composed. Words are clear, and vocal line are written to reflect the words.
+
+Caccini: lots of repetition of text, ornamations. but this is different.
+
+## 2 exerpts
+more strict rhythm since dance music.
