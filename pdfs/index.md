@@ -6,14 +6,15 @@ feature_text: |
     ## PDF
 ---
 
-
+{% assign dict = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | group_by_exp: "a", "a.path | truncate: 5, ''" %}
 
 This page contains all pdf files on this site.
 
-<ul>
-{% for file in site.static_files %}
-  {% if file.extname contains 'pdf' %}
-    <li><a href="{{ file.path }}">{{ file.name }}</a></li>
-  {% endif %}
+{% for group in dict %}
+    <h1>{{ group.name }}...</h1>
+    <ul>
+        {% for file in group.items %}
+            <li><a href="{{ file.path }}">{{ file.name }}</a></li>
+        {% endfor %}
+    <ul>
 {% endfor %}
-</ul>
