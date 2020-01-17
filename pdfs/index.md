@@ -16,5 +16,5 @@ This page contains all pdf files on this site.
         {% for file in group.items %}
             <li><a href="{{ file.path }}">{{ file.name }}</a></li>
         {% endfor %}
-    <ul>
+    </ul>
 {% endfor %}
