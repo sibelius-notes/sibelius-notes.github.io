@@ -6,7 +6,7 @@ feature_text: |
     ## PDF
 ---
 
-{% assign dict = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | group_by_exp: "a", "a.path | truncate: 10, ''" %}
+{% assign dict = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | group_by_exp: "a", "a.path | truncate: 5, ''" %}
 
 This page contains all pdf files on this site.
 
