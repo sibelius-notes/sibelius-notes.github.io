@@ -13,9 +13,9 @@ This page contains all pdf files on this site.
 {% for group in dict %}
 {% if group.name contains "cour" %}
 <h1>Courses Routine</h1>
-{% elif group.name contains "pdfs" %}
+{% elsif group.name contains "pdfs" %}
 <h1>Course Materials</h1>
-{% elif group.name contains "term" %}
+{% elsif group.name contains "term" %}
 <h1>Class Schedule</h1>
 {% else %}
 <h1>Other</h1>
