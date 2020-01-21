@@ -122,10 +122,91 @@ Most famous one: Florence, 1589 for a wedding of Grand Duke...
 Orpheus: musician. rock beat. not a happy guy.
 
 ## Recitative
+Peri's recitative style (see textbook source reading)
 
 halfway between singing and speaking (speech). no repetition, through composed. Words are clear, and vocal line are written to reflect the words.
 
-Caccini: lots of repetition of text, ornamations. but this is different.
+stressed syllables: consonant with bass.
 
-## 2 exerpts
-more strict rhythm since dance music.
+Caccini: lots of repetition of text, ornamations. but this is different. has own opera. Published before Peri's (rival...)
+
+aria or recitative, are mostly accompanied by bass continuo.
+
+## 2 exerpts: 2 styles of monody used in Peri's opera, L'Euridice
+a) Tirsi's song "Nel pur ardor"
+- aira = "air" or song
+- more strict rhythm because of dance music, dance rhythm
+- very charming...
+- Introduced by Sinfonia.
+- pastroal style
+    - compoound lilting meter (6/4)
+    - drone
+    - 2 recorders with lilting
+    - Parallel 3rds motion
+
+b) Dafne (new style)
+* employs bass continuo
+* mirrors speech
+* syllabic setting: one note per syllable
+
+Lots of repeated notes. In the score, only bass line and voice. Lots of words are in B-flat, which is similar to
+our speech, monotone. Candence, end of phrase. Sheppard is coming after her.
+
+- Dafne
+- Orfeo's reaction: breathless then grief (unprepared dissonances, hold over notes, unexpected harmonic progressions)
+
+this expressive recitative: ability to melt the words, emotitions.
+
+## Monteverdi - L'Orfeo
+Monteverdi did sth different. 40 when coming to opera. Great gig, works for Italian family (rich powerful).
+Grew up in very difficult time when getting the gig.
+
+- first opera
+- libretto: Allssandro Striggio
+- first performance: Mantua
+- private entertainment: room in apartments of Gonzaga family
+- modelled on Peri but musically & dramatically more effective
+    - expanded Rinuccini's 5 scences to prologue + 5 acts. Grab the same story.
+    - recitative: more varied than Peri's. More variations.
+    - Orchestra: larger, more variety, specific instrument.
+- story based on Orpheus legend.
+- Characters:
+    - allegorical
+    - pastroal
+    - underworld
+    - Euridice, Orfeo, Sylvia (messenger)
+    - Chorus: empathizes the character. very important function
+    - Orchestra
+
+### Act II excerpt
+a) Orfeo's aria
+
+Music:
+- regular dance rhythm
+- strophic
+- only voice + bass continuo
+
+He is just so happy. Strong rhythm. Joy.
+
+- ritornello: "refrain"
+    - 5 parts
+
+b) short shepherd's song
+
+c) Messenger's recitative
+- Dialogues: horrorable expression on her face. Back and forth. When messenger arrives... Another shepherd wants to interject, bring to his understanding.
+    - basso continuo: switch to wooden pipe organ & theorbo
+- Messenger narrates death of Euridice.
+    - varied style: straight narration -> highly emotive.
+    - Music: more chromatic, jarring.
+
+d) Orfeo's lament (哀叹)
+- barely speak
+- basso continuo: wooden pipe organ & theorbo, again... specify this specific dialogue.
+- chromatic, dissonant, jarring.
+- word painting: "goodbye earth.."
+    - sudden plunge
+
+e) Chorus: Greek chorus
+* Part I: share grief. bassline takes the initial melody, share the grief.
+* Part II: moral of drama.
