@@ -116,5 +116,65 @@ Gong marks the essential structural of the piece.
 2. Stratification: layering of instrumental parts in increasing density. Usually in ratio, 2:1, 4:1.
 3. Interlocking: Rhythmically complementary parts played by pairs of musicians that combine to form a single pattern.
 One melody line shared by two people.
-    - like one in upbeat, one in downbeat.
+    - like one in upbeat, one in downbeat (onbeat).
     - sometimes it's hard for one person to play due to its complex patterns.
+
+# Lec 5
+Review: Instrument Classification
+
+Leon Theremin: invented Theremin in 1920
+
+The dancing cockatoo is demonstrating an example of measured rhythm since the music
+is measured and it is trying to keep the beat... This has some relation with neuroscience...
+
+We ended talking about stratification: idea of layering.
+
+## Interlocking - Kotekan (continued)
+**Gangsa**: polos, sangsih: basic, main one, the key (onbeat); the one that follows (upbeat).
+(note here the beat pattern here is not always the case.)
+
+**Reyong**: upbeat, downbeat.
+
+The texture is polyphony or herophony (different ways, but we don't need to go into details, lots of debate on this).
+
+## Concept - how people think about music
+**Uses** are practical and experimental: to put a baby to sleep, to teach children the alphabet and ... slowly engrained in
+our bodies. Use the music for particular reason.
+
+Red Ant Medicineway Ceremony: use music for healing.
+
+There's a time and a place for each use... For most uses music seems to be a force for good but it has a darker side, too.
+(to torture (one course here PAC, music and torture, in wars.))
+
+## Merriam's ten functions of music
+Memorize them ..
+>
+1. Emotional Expression (can convey feelings or ideas - for example in a horror movie the music will follow certain characteristics to intensify the "fear")
+2. Communication (music has specific rules like language that follow things like syntax. in our theory class when constructing phrases we referred to them as questions and answers)
+3. Symbolic Representation
+4. Enforcing Conformity to Social Norms
+5. Validation of Social Institutions and Religious Rituals (many cultures of institutions have a song that embodies part of their individaul culture -fight song)
+6. Contributes to the continuity and stability of culture
+7. contribution to the integration of society
+8. aesthetic enjoyment
+9. entertainment
+10. physical response (listening to fast-paced, upbeat music helps runners to run at a quicker pace)
+Src: [quizlet](https://quizlet.com/8622409/merriams-10-functions-of-music-flash-cards/) the order is slightly different from the one in the lecture.
+
+To consider the use and what is trying to fulfil. Functions are symbolic by nature.
+
+* Indonesia is the largest Islamic nation in the world, both geographically and in terms of population
+* Bali is the only province in which Hinduism is  the major region (85% - 90%)
+
+Some regions are not tight with rituals.
+
+Balinese Hindu cosmology conceives of the universe as having three worlds:
+- Upper World: gods and ancestors
+- Middle World: humans and earthly creature
+- Lower World: malevolent spirits
+
+Calendar is also fancy. each month 35 days, different cycles. Sometimes, certain days are aligned
+with these type of worlds above. Complex tradition. The music is also categorized in this way.
+
+## Typical Village Temple
+Every village has a temple. Each temple has an annivery date which needs celebrating. Also, human activities can take place here.
