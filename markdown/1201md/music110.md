@@ -119,7 +119,7 @@ One melody line shared by two people.
     - like one in upbeat, one in downbeat (onbeat).
     - sometimes it's hard for one person to play due to its complex patterns.
 
-# Lec 5
+# Lec 5 - Jan 21st
 Review: Instrument Classification
 
 Leon Theremin: invented Theremin in 1920
@@ -177,4 +177,42 @@ Calendar is also fancy. each month 35 days, different cycles. Sometimes, certain
 with these type of worlds above. Complex tradition. The music is also categorized in this way.
 
 ## Typical Village Temple
-Every village has a temple. Each temple has an annivery date which needs celebrating. Also, human activities can take place here.
+Every village has a temple. Each temple has an anniversary date which needs celebrating, honoring. Also, human activities can take place here.
+
+Kaja - north. Kelod - south.
+
+Foot of sacred mountain has a big tempo.
+
+Also, family temple. A piece of land, outer gate. E
+
+Some examples:
+- Constructing a taring (a make-shift shelter)
+- making satay sticks under the taring
+- women making offerings
+
+People do these things in groups, typically not alone.
+
+**suka duka**: happy together, sad together
+
+**gotong royong**: the pratice of mutual help
+
+Last month is the most intensive, lots of work. Family temple anniversary. When you have a group of people coming to help,
+you provide food and materials (like bamboos).
+
+*Overlapping sonorities at Temple Anniversary*: short video. Quite interesting for tourists.
+
+### Use of Music
+During a Balinese Hindu Ceremony
+* to generate energy and strength for activities
+* to set and adjust the mood and energy flow
+* to contribute to the overall sense of rame
+* to signify the progression of events -> specific music heard at each stage
+* as an offering to the gods and spirits (i.e., music mediates between the three worlds)
+
+## Art for Art's Sake
+*President opens a Bali arts festival*
+
+## Gong Kebyar Competition
+Each group represents a particular region. Clap for sth good, boo (or throw tomatoes) for sth bad. You need to have strong performance. They practice about 3-4 months...
+
+The spirit of community and interction are highly valued in Bali. Ritual and musical activities are symbols of communal interdependence.
