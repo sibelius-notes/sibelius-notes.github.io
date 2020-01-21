@@ -148,7 +148,6 @@ There's a time and a place for each use... For most uses music seems to be a for
 
 ## Merriam's ten functions of music
 Memorize them ..
->
 1. Emotional Expression (can convey feelings or ideas - for example in a horror movie the music will follow certain characteristics to intensify the "fear")
 2. Communication (music has specific rules like language that follow things like syntax. in our theory class when constructing phrases we referred to them as questions and answers)
 3. Symbolic Representation
@@ -159,7 +158,8 @@ Memorize them ..
 8. aesthetic enjoyment
 9. entertainment
 10. physical response (listening to fast-paced, upbeat music helps runners to run at a quicker pace)
-Src: [quizlet](https://quizlet.com/8622409/merriams-10-functions-of-music-flash-cards/) the order is slightly different from the one in the lecture.
+
+> Src: [quizlet](https://quizlet.com/8622409/merriams-10-functions-of-music-flash-cards/) the order is slightly different from the one in the lecture.
 
 To consider the use and what is trying to fulfil. Functions are symbolic by nature.
 
