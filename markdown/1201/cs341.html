@@ -66,6 +66,27 @@ layout: markdown
     <span class="md-toc-item md-toc-h3">
         <a class="md-toc-inner" href="#divide-and-conquer-approach">Divide and Conquer Approach</a>
     </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-6">Lec 6</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#revisiting-the-recursion-tree-method">Revisiting the recursion tree method</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#fast-matrix-multiplication">Fast Matrix Multiplication</a>
+    </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#attemping-a-better-soln">Attemping a better soln</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#strassen-matrix-multiplication">Strassen Matrix Multiplication</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#the-selection-problem">The selection problem</a>
+    </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#quickselect">QuickSelect</a>
+    </span>
     </p>
 </div>
 
@@ -165,5 +186,33 @@ X Y=2^{k} X_{L} Y_{L}+2^{k / 2}\left(X_{L} Y_{R}+X_{R} Y_{L}\right)+X_{R} Y_{R}
 <p><em>Karastuba&#39;s algorithm</em> reduces the number of subproblems from 4 to 3.</p>
 <p>Then we have 3 recursive calls. So by Master Theorem, then complexity is \(\Theta(k^{1.59})\).</p>
 <p>There are several further improvements known.</p>
+<h1 id="lec-6"><a class="header-link" href="#lec-6"></a>Lec 6</h1>
+<h2 id="revisiting-the-recursion-tree-method"><a class="header-link" href="#revisiting-the-recursion-tree-method"></a>Revisiting the recursion tree method</h2>
+<p>certainly on assigments... probably on tests.</p>
+<h2 id="fast-matrix-multiplication"><a class="header-link" href="#fast-matrix-multiplication"></a>Fast Matrix Multiplication</h2>
+<p>\[
+C_{ij} = DotProd(row_i(A),col_j(B))=\sum_{i=1}^n A_{ik}B_{kj}
+\]
+Running time: \(O(n^3)\).</p>
+<h3 id="attemping-a-better-soln"><a class="header-link" href="#attemping-a-better-soln"></a>Attemping a better soln</h3>
+<ul class="list">
+<li>partition -&gt; submatrics</li>
+<li>div &amp; conquer</li>
+</ul>
+<p>Deriving a recurrence: \(T(n)= 8 T(n/2)+\Theta(n^2)\)</p>
+<h2 id="strassen-matrix-multiplication"><a class="header-link" href="#strassen-matrix-multiplication"></a>Strassen Matrix Multiplication</h2>
+<p>7 multiplications of n/2 by n/2 matrices.</p>
+<p>\[
+T(k)\in\Theta(k^{\log_2 7}) = \Theta(n^{2.81})
+\]</p>
+<h2 id="the-selection-problem"><a class="header-link" href="#the-selection-problem"></a>The selection problem</h2>
+<ul class="list">
+<li>A: n distinct integer values. k between 1 and n.</li>
+<li>k smallest integer in A</li>
+</ul>
+<h3 id="quickselect"><a class="header-link" href="#quickselect"></a>QuickSelect</h3>
+<p>Recursion.</p>
+<p><code>QuickSelect</code> and <code>Restructure</code>.</p>
+<p>Good pivot, reducing fraction of n. Prob of pivot being good is 1/2.</p>
 <!--end-->
 </div>
