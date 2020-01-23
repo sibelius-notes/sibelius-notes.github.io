@@ -257,7 +257,7 @@ Giacomo Carissimi (1605-1674): 1629: Master of the chapel & teacher at Jesuit co
 
 not performed in church.
 
-### oratorio
+### Oratorio
 - ORATORIO: “oratorio” (Italian) = prayer hall (named for where performed & groups met)
 - religious dramatic music for outside church: incl. narrative, dialogue & commentary
 - Only musical performances allowed during Lent (religious event)
@@ -268,3 +268,17 @@ but how is it different from opera?
 - sacred subject matter
 - not staged: nattared (sung): describe action
 - greater role to chorus
+
+Particular work
+### NAWM 80: Carissimi, Historia di Jephte (Story of Jephte, ca. 1648)
+- Latin: paraphrased biblically based story (from Judges)
+
+first person come sacrifices, but it's his daughter singing happily.
+
+a) solo recitative [+ echo]: daughter (filia), “Plorate colles” (Weep, Hills), from final scene
+- Basso continuo: theorbo
+- Echo: 2 singers (2 friends) biting harmonies
+- lament: long recitative + arioso passages
+- repeated words/phrases
+- flatten melodic pitches: pathos
+- harmony: expressive dissonances
