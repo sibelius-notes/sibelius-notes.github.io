@@ -112,7 +112,7 @@ Five-Tone Selisir Tuning
 Gong marks the essential structural of the piece.
 
 ### Key Features
-1. Gong cycle: use gong to mark the beginning and important points
+1. Gong cycle/pattern: use gong to mark the beginning and important points. Bring the music together.
 2. Stratification: layering of instrumental parts in increasing density. Usually in ratio, 2:1, 4:1.
 3. Interlocking: Rhythmically complementary parts played by pairs of musicians that combine to form a single pattern.
 One melody line shared by two people.
@@ -133,7 +133,7 @@ We ended talking about stratification: idea of layering.
 **Gangsa**: polos, sangsih: basic, main one, the key (onbeat); the one that follows (upbeat).
 (note here the beat pattern here is not always the case.)
 
-**Reyong**: upbeat, downbeat.
+**Reyong**: plays on upbeat, downbeat.
 
 The texture is polyphony or herophony (different ways, but we don't need to go into details, lots of debate on this).
 
@@ -216,3 +216,40 @@ During a Balinese Hindu Ceremony
 Each group represents a particular region. Clap for sth good, boo (or throw tomatoes) for sth bad. You need to have strong performance. They practice about 3-4 months...
 
 The spirit of community and interction are highly valued in Bali. Ritual and musical activities are symbols of communal interdependence.
+
+# Lec 6 - Jan 23rd
+## Gamelan Performaces
+- Time: don't last all 7 days. last for an hour - 2 (tour performance). Live performance is changing now due to TV and social media.
+- Setting: always outdours. Dressed nicely, dressed in the same way.
+- Sponsors. Hotel, village.
+- Program: depend on context, like tour performance, more exciting, fast tempo. E.g. welcome dance. Typical opening pieces. Also sending off piece. Usually, gong cycle. Sometimes, it's improvised to some circumstances.
+- Participants: women, men, children. Separated by ages, gender.
+- Audiences: like villagers.
+
+Still thriving. Women are also participating.
+
+## Transmission Process
+BALI
+- No private study: watch learn, imitate, memorize, assimilate.
+- Anyone may study if they have access to instruments (e.g. village gamelan). Not all have access. In fact, they are kept in community hall: open, one wall, pillars. There's stage.
+- Some competition to join village ensemble; to join collectives; all members have access to teachers/composers.
+- Intensive collective practice; rote imitation, vaisual or aural (mallet as teacher). You watch, learn, then correct themselves.
+- Learn by doing: procedural, passive knowledge -> no formal school and minimal theory.
+- Benifits: Artistic standard. cultural refinement, socialization, achivement, religious and civic pride.
+
+West
+- Private study from young age
+- Anyone with means may study; those with talent succeed
+- Competition for limite places in teachers' studios
+- Intensive practise regimen
+- Formalized system of declarative knowledge; teacher encourages student's individuality
+- Benifits; Artistic standard, cultural refinement, personal achivement. Similar to Bali.
+
+## Musical Roles
+Lead drummer. Lots of communication happening between instruments.
+
+Goal: to contribute a sense of oneness. Sounds like one instrument.
+
+unified musical expression.
+
+unison (not pitches): "The music and musicians must breathe together; they must *menjiwai gending*: feel the soul of the music as one" (Tenzer).
