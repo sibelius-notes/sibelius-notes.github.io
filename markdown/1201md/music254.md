@@ -210,3 +210,61 @@ d) Orfeo's lament (哀叹)
 e) Chorus: Greek chorus
 * Part I: share grief. bassline takes the initial melody, share the grief.
 * Part II: moral of drama.
+
+# Early Baroque Vocal Music for Church and Chamber: Strozzi, Carissimi, Schutz
+Babara Strozzi (1619-1677): interesting character. early 17C. Probably natural daughter of Giulio Strozzi. Only women to the groups (literature arts science and so on). Sing beautifully. Amazing women. One of most prolific composers of vocal chamber music.
+
+Venice
+## Strozzi
+
+Her Cantata (Lagrime mie)
+- Cantata: piece to be sung (Italian)
+- secular, not meant for church
+- one voice with basso continuo
+- private. For her all amazing singing, no opera or public.
+- poetry: free form. male perspective.
+- several secions of recitative, arioso (somewhere between aira and recitative), aria ~ narrative & lyrical poetry
+- softened recitative style
+
+### Form:
+- mm1-22: lament: recitative, long melismas (“tears”, “pain”, “heart”)
+- mm23-48: narration about Lidia:
+    - arioso: style of singing that approaches the lyricism of aria but is freer in form
+- mm49-62: descending bass line, triple meter, long melisma (“weep”)
+- mm63-70: opening lament returns
+- mm71-87: strophic aria (4X 8-syllable lines)
+- mm 88-96: recitative
+- mm97-end: triple meter, descending bass line (repeated)
+- [+ mm 1-22: repeats opening lament]
+
+every single section, she's applying techniques from early opera.
+
+- word-painting/text depiction: opening lament (conventional devices: opening recitative: weeping, sobbing)
+    - long melisma on “La-grime”
+    - minor mode: E minor
+    - dissonances: D♯ F♯ over E
+    - augmented intervals: D♯-C♮: notes of harmonic minor scale
+    - descending line on 'La': falling tears. In Baroque, it usually means death, sad.
+
+
+Now go to Rome.
+
+## Carissimi
+Giacomo Carissimi (1605-1674): 1629: Master of the chapel & teacher at Jesuit college in Rome
+- described as "musical orator"; patron; musical works protected by decree of Popes
+- Archives destroyed in 1773 crackdown on Jesuits & Napoleon's raids
+- Oratorios written for the Archoconfraternita del SS Concifrisso
+
+not performed in church.
+
+### oratorio
+- ORATORIO: “oratorio” (Italian) = prayer hall (named for where performed & groups met)
+- religious dramatic music for outside church: incl. narrative, dialogue & commentary
+- Only musical performances allowed during Lent (religious event)
+- text: Latin or Italian
+- operatic: recitatives, arias, instrumental preludes & ritornellos.
+
+but how is it different from opera?
+- sacred subject matter
+- not staged: nattared (sung): describe action
+- greater role to chorus
