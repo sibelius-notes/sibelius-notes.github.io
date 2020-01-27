@@ -87,6 +87,12 @@ layout: markdown
     <span class="md-toc-item md-toc-h3">
         <a class="md-toc-inner" href="#quickselect">QuickSelect</a>
     </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-7">Lec 7</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#median-of-medians-quickselect">Median-of-medians QuickSelect</a>
+    </span>
     </p>
 </div>
 
@@ -214,5 +220,19 @@ T(k)\in\Theta(k^{\log_2 7}) = \Theta(n^{2.81})
 <p>Recursion.</p>
 <p><code>QuickSelect</code> and <code>Restructure</code>.</p>
 <p>Good pivot, reducing fraction of n. Prob of pivot being good is 1/2.</p>
+<h1 id="lec-7"><a class="header-link" href="#lec-7"></a>Lec 7</h1>
+<h2 id="median-of-medians-quickselect"><a class="header-link" href="#median-of-medians-quickselect"></a>Median-of-medians QuickSelect</h2>
+<p>Always picking a good pivot</p>
+<p>Take a look at example: example input A[1...50]</p>
+<ul class="list">
+<li>group into rows of 5</li>
+<li>find median of each row</li>
+<li>build array of medians</li>
+<li>recursively find median of this smaller array</li>
+</ul>
+<p>How good is that?</p>
+<ul class="list">
+<li>at least 3/10 is bigger/smaller</li>
+</ul>
 <!--end-->
 </div>
