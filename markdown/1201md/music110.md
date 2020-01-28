@@ -1,6 +1,7 @@
 title: MUSIC 110 - Music in Cultural Contexts
 ---
-# Introductions
+# Lec 1 - Jan 7th
+Introductions
 ## Calendar
 * IC: in class
 * AC: after class
@@ -12,7 +13,7 @@ The concert program must be handed with the assignment
 
 ## Group activity
 
-# Lec 2
+# Lec 2 - Jan 9th
 Gamelan Workshop.
 
 Gong
@@ -253,3 +254,58 @@ Goal: to contribute a sense of oneness. Sounds like one instrument.
 unified musical expression.
 
 unison (not pitches): "The music and musicians must breathe together; they must *menjiwai gending*: feel the soul of the music as one" (Tenzer).
+
+# Lec 7 - Jan 28th
+Now let's take a look at an example.
+
+*Ndraje Balendro, Initiation Song*. Horn Ensemble
+- Antelope horn and tree-trunk orchestra of the Banda-Linda people
+- Central African Republic
+- Recorded by ethnomusicologist Simha Arom, ca. 1970
+
+What can we say about it?
+**multiple parts**
+- polyphonic
+- polyrhymic
+
+sounds irregular. In fact, it's very systematic. Every person knows what they need to play.
+
+Overall, they are improvised. They learn from childhood. They are learning stock patterns in their childhood but they are not memorizing it. Deeply engrained, learn from this gradual process. Sth not declared, but pick these things up learning from the people.
+
+**Encultruration**: is the process by which people learn the dynamics of their surrounding culture and acquire values and norms appropriate or necessary in that culture and worldviews. (from wiki)
+
+**Improvised**: as mentioned above
+
+**Measured**: details below
+
+**12 pulses or beats**: always grouped into 3 or 4. Since you have polyrhymic, you can easily group them by 3 or 4.
+
+**Multi-track recordings**: He recorded whole thing. Then ask one person to sing his part. Now one melody line. Then ask another person sing based on previous melodic lines. By doing this, music is not chaotic. Though sounds irregular. This is actually a fascinating project.
+
+This is kinda intro to everything.
+
+## CASE STUDY I - Music of the BaAka People
+"Makala" BaAka People, Central African Republic
+
+Forest people. Pygmy. Sounds of nature, crickets, washing their clothes, echoes. Uniting these sounds.
+Hunt together as part of their culture. African music, you can see lots of drums, since these materials are all available to them.
+
+An album: CAMEROON - Baka Pygmy Music (Field Recordings by Siha Arom and Patrick Renaud)
+
+**uses** and **functions**: What's the use, how to fulfil the function? Uses here are pratical reasons, purposes. However, functions are very symbolic.
+
+
+### Concept and Social Context for BaAka Music
+1. Pleasure. E.g. "The Humming of Bees". Water drum is also an example.
+2. Moral and spiritual education, guidance. Learn through education, guidance through life. E.g. "Orycterope and Pangolin"
+3. Ritual contexts. Someone is ill, then there's ceremony for that.
+
+### Behaviour and Context for "Makala"
+* Who? Everyone has access to making music. All BaAka people. Drums often for men.
+* Where? Villages, outdoors. refer to the readings *Locke, “The BaAka People Singing
+‘Makala’,” 134–144*.
+* How? sit around, and particular procedure.
+* When? Evening time.
+
+### Learning Makala (with Michele Kisliuk)
+Seize the Dance
