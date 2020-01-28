@@ -273,7 +273,7 @@ Particular work
 ### NAWM 80: Carissimi, Historia di Jephte (Story of Jephte, ca. 1648)
 - Latin: paraphrased biblically based story (from Judges)
 
-first person come sacrifices, but it's his daughter singing happily.
+Promise: if wins the war, first person come sacrifices, but it's his daughter singing happily.
 
 a) solo recitative [+ echo]: daughter (filia), “Plorate colles” (Weep, Hills), from final scene
 - Basso continuo: theorbo
@@ -282,3 +282,53 @@ a) solo recitative [+ echo]: daughter (filia), “Plorate colles” (Weep, Hills
 - repeated words/phrases
 - flatten melodic pitches: pathos
 - harmony: expressive dissonances
+
+b) Chorus: “Plorate filii Israel” (Weep, Sons of Israe)
+- 6-voice chorus
+- Repeats last 4 lines of daughter's lament
+- Opening: bass line descends twice through 4ths
+    - gesture of lament
+- downward movement all voices, lots of tension.
+- dissonances: suspensions: pile up at end of section
+
+new invention of 17th century. Operatic someways, not staged, but ok for that time.
+
+## Heinrich Schütz
+Wealthy. German composers, very influenced. Influenced by two different composers, Gabrieli and Monteverdi (in 1628).
+- Studied with G. Gabrieli in Venice, 1609-1612.
+- (1585-1672): 1615-72: master of chapel of Elector of Saxony, Dresden
+- 1618-48: 30 Years War
+
+### NAWM81: Saul, was verfolgst du mich? (ca. 1650) (Saul, why do you persecute me?)
+- Post-war collection of Symphoniae sacreae
+    - used full force of Dresden chapel
+- **Sacred Concerto** = grand concerto in Gabrieli's Venetian style:
+    - large-scale work, mixing voices & instruments
+    - style: merges Gabrieli’s polychoral style with Monteverdi’s expressiveness
+        - e.g. Gabrieli *In Ecclesiis*: 4 solos, 4-part chorus, 6 part instrumental ensemble, organs. Many styles: modern aira, late 16C polyphony.
+- based on Paul (Saul)'s conversation
+- Schutz's score:
+    - 2 violins
+    - 6 solo voices (SSATBB)
+    - 2 X 4-voice choirs (doubled by instruments)
+    - bass continuo (organ + cello/theorbo for recitative sections)
+
+* form:
+    - sectional: exploits forces & dramatizes text:
+    - mm1-16: "Saul, Why do you persecute me?”
+        - 4 pairs of solos rise from depths
+        - D minor - A minor - F major - D major
+        - “persecute” (“verfolgst”): intense dissonance. Not bright.
+    - mm 17-23: chorus & solos: grand concerto style
+        - echoes: dynamics (f - mp - pp). Want to sound like echo via dynamics.
+        - D major
+    - mm21-23: Short 6/8 meter & G major/minor: distortion of echoes?
+    - m.24: recitative style:
+        - solo voice + basso continuo (“it will be difficult for you”)
+        - Passed from Tenor – Alto
+        - "Kick": ornamental turn
+    - m.34: choral refrain “Saul...”
+    - m. 39: recitative material in imitation
+        - “kick”: now a long melisma. lots of notes.
+    - m.60: recitative & polychoral styles combined
+        - grows in intensity and ends in pianissimo echo
