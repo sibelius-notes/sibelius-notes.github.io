@@ -332,3 +332,32 @@ Wealthy. German composers, very influenced. Influenced by two different composer
         - “kick”: now a long melisma. lots of notes.
     - m.60: recitative & polychoral styles combined
         - grows in intensity and ends in pianissimo echo
+* Musical figures:
+    - In Baroque, melodic pattern or contrapuntal effect conventionally employed to convey the meaning of a text
+    - Codified by Schutz's text
+    - break old rules, but give a name what gestures mean. 2 examples. Not accidentals.
+        - harsh cadential notes
+        - harsh leap
+
+# Baroque Instrumental Music I: the Violin Family – Marini, Corelli, Vivaldi
+## 2 main string families in Baroque:
+Viol family
+- Viola da gambda (=viola of the leg)
+    - invented in Spain, late 15C
+    - 6 strings
+    - frets, like guitar
+    - bowed underhand, creates different sound
+    - different size
+    - violone (big viol) by 1600 - persisted as continuo instrument
+    - used in court & chamber music
+
+Violin Family
+- Viola "da braccio" (=arm): violin & viola
+    * violin, viola, violoncello
+    * emerged independent of viols
+    * 4 strings (tuned in 5th) - ca. 1550
+    * no frets
+    * overhand bow
+    * early use for dancing
+
+Note the difference between Baroque violin and modern Violin.
