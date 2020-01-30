@@ -309,3 +309,69 @@ An album: CAMEROON - Baka Pygmy Music (Field Recordings by Siha Arom and Patrick
 
 ### Learning Makala (with Michele Kisliuk)
 Seize the Dance
+
+# Lec 8 - Jan 30th
+## Review
+1. The BaAka people consitute one of many groups of:
+    - Hunter and gatherers of the equatorial African forest
+2. Which statement is true about music among the Forest people in Central Africa like BaAka?
+    - Being a musician is open to all
+3. What aspects of BaAka people singing make it challenging to study?
+    - There are multiple parts, interwoven rhythms, continuous improvised variation
+4. What concepts are associated with BaAka music, in particular singing? Name three social contexts discussed in class.
+    - Music is made for pleasure and leisure, to teach moral and spiritual education and provide guidance, for specific ritual occasions.
+
+## CASE STUDY II - Brazilian Capoeira
+Martial arts. Musician standing around the circle.  Participants: mostly male. There are different schools there. The uniforms (t-shirts) are identity of who they are, where they belong to. They are loyal to their masters.
+
+**History:** where the music comes from: people from Africa. group of people who are not treated as humans, colonizers want to get powers/lands. European powers split into different parts in world. They came to this land, they learnt land is good for agriculture. Initially, it was indigenous people. However, people die from some diseases. So they need some people from Africa. So they bring different music tradition. These Brazil colonizers are Portugueses. Runaway slaves. People come from different African culture.
+
+**Example:** Capoeira (clip from slave to the Rhythm). martial arts is used to defend themselves. The tempo increases slightly. Intensify with the dancing. The moves become more dramatic. Interactions between music and dance. There's leader who control/maintain the intensity of the music.
+
+What do they do before going to the circle? They bow. Formality before combat. You recognized each other. Also, there are different phases.
+
+### Instruement
+berimbau: 1 string. You can change the sound by hitting/striking.
+
+Three berimbau in an ensemble
+- low: basic pattern
+- middle: complementary pattern
+- high: ornamentation, improv
+
+Atabaque
+- 1--&3-4- (low- -low low- slap)
+
+Other instruments - steady groove
+
+Voice - primary melody (Portugueses)
+
+### Key features
+- call-and-response
+- polyrhymic texture
+- dynamic level typically constant
+- gradual increase in tempo
+- rhythmic complexity and density increase with increasing intensity
+
+Be familiar with the listening guide.
+
+### Performance Process
+- space: Context in gym. Can be in school. You can find Capoeira competition everywhere.
+- participants: Men and women can both participate. Things changed in last decade.
+- formality: bow before
+- 3 section
+- music-dance interaction
+> refer to the readings...
+
+**Example:** Ginga - Capoeira. Move you leg back, move arm and ... don't cover eyes, remain eye contacts, look at each other.
+
+> People/music/tradition is not frozen. In this class, we are going to think question in different ways. As a musician, you might carry these ideas from you.
+
+## katajja & Tanya Tagaq
+
+The sounds are artefact of culture. The concepts behind that is not changed.
+
+### Concept and Context for katajja
+men hunt. women stay at home. They play this together: throat singing. People also do this as lullaby. There could also be some meaning tied to that. Also, sounds of snow blowing.
+
+- Traditional performance
+- new performance: modernized. Politically motivated.
