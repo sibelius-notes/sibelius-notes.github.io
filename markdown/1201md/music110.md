@@ -377,4 +377,8 @@ men hunt. women stay at home. They play this together: throat singing. People al
 - new performance: modernized. Politically motivated.
 
 # Lec 9 - Feb 4th
-talking
+continue from last class... Tanya Tagaq, her music is not traditional. Her music is open possiblities to ask about: where does the sound come from? So, she says that this is the way that people can learn more. Let's listen to *Demo by Inuit sisters Karin and Kathy Kettler (Northern Quebec, Canada)*.
+> From AlakskaDispatch.com. They are Inuit throat singner and drum dancer. Competition between girls while men in hunting. Half second off each other. Comes from voices, throats, breathing. Part of culture they from, very unique. Oral tradition, cannot learn from written down notes.
+
+Another video: [*The sounds of Throat Singing (Tangya Tagaq)*](https://www.youtube.com/watch?v=KNb2ZDjeiU4).
+> small examples. Deep part from exhalation. Difficult, you need to learn how to displace the notes from high to low. Make deep sounds going in. Hard to teach yourself, you need to learn for a while.
