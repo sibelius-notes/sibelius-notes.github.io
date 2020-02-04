@@ -433,7 +433,7 @@ fear, people not understand this music. They ban lots of things that they don't 
 1. Which culture is katajja from? Inuit.
 2. The sounds of katajja imitate every below except
     - icy sleds on snow
-    - the wiind
+    - the wind
     - *the forest*
     - animals
 3. The traditional style of katajja is based on rules. TRUE.
@@ -444,7 +444,23 @@ and for Capoeira...
 2. Name three parts of the instrument.
     - shape like music bows
     - string, coin, gourd, stick, rattle
-![](/pics/three_parts.PNG)
+
+![pics...](/pics/three_parts.PNG)
+
 3. According to your text, what is the origin of Capoeira?
     - A dance form that enslaved Africans brought with tme to Brazil. (They evolved to a martial arts, want to disguise the martial art for European. So it's not true.)
     - A martial arts form created by enslaved Africans for protection. Initial origin.
+
+## Music in Everyday life
+new topic.
+
+Examples:
+- night sounds (Bali)
+- Pounding rice - Manobo Women, Phillippines
+- Muezzin call, Marrakesh
+
+### Music associated with "life's periodicities"
+- hours of the day: work song, reveille, lullabies
+- seasons: from rain dances to surfing and sledding songs
+- religious calendars: rits, holidays and festivals
+- stages of growth/life cycle: childhood, becoming an adult (initiation), marriage, death
