@@ -382,3 +382,59 @@ continue from last class... Tanya Tagaq, her music is not traditional. Her music
 
 Another video: [*The sounds of Throat Singing (Tangya Tagaq)*](https://www.youtube.com/watch?v=KNb2ZDjeiU4).
 > small examples. Deep part from exhalation. Difficult, you need to learn how to displace the notes from high to low. Make deep sounds going in. Hard to teach yourself, you need to learn for a while.
+
+Another video: *Polaris Prize 2014*. Canadian prize, best album. She won this prize by this album: *Animism*. You can get a sense of her performance style.
+
+## Comparison between katajja and Tanya
+### Sound
+katajja
+- dynamic range narrow
+    - steady
+- low range
+    - voice
+         - deep/high
+         - raspy (harsh, grating)
+         - guttural (喉音)
+         - growl
+         - sighs
+         - breathing
+- rhythm
+    - controal by breath
+    - inhale/exhale + lips
+- interaction: call-and-response
+
+Tanya
+- pitch ranger - wider
+- dynamic range - wider
+- voices + strings
+    - choir support
+    - drums
+
+## Other uses for katajja
+except for games (base on rules) ...
+- used it as a way for women to pass time: men went hunting. *To provide entertainment, for enjoyment*
+- tell stories.
+- as a lullaby. sing babies to sleep.
+
+## Social Context
+**Disapproval**
+- concerns with loss
+- desire to preserve traditional elements
+> not surprising from a group of people who are still struggling against assimilation.
+
+fear, people not understand this music. They ban lots of things that they don't understand.
+
+**Approval**
+- embodiment of cultural empowerment. Attract people to dig further in this culture.
+- an evolving art
+- way (for youth) to connect with roots.
+
+## Hey, this is a set of review questions.
+1. Which culture is katajja from? Inuit.
+2. The sounds of katajja imitate every below except
+    - icy sleds on snow
+    - the wiind
+    - *the forest*
+    - animals
+3. The traditional style of katajja is based on rules. TRUE.
+4. katajja was preserved early European priests who settled in Northern Canada. FALSE. (since it is banned)
