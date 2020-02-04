@@ -375,3 +375,6 @@ men hunt. women stay at home. They play this together: throat singing. People al
 
 - Traditional performance
 - new performance: modernized. Politically motivated.
+
+# Lec 9 - Feb 4th
+talking
