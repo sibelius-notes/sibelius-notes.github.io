@@ -436,7 +436,13 @@ fear, people not understand this music. They ban lots of things that they don't 
     - the wind
     - *the forest*
     - animals
-3. The traditional style of katajja is based on rules. TRUE.
+3. The traditional style of katajja is based on rules. TRUE. (should be in the previous notes... I'll add them later.) So this is similar to staring contest: both should stare each other's eye for a long time, the person who blink first fails. The rules here is one starts first, and the other one comes later, holding one note. One who gets his breath broken fails.
+
+Extra Src Reading: [Inuit Folk Music Traditions in Greenland](http://worldhitz4u.blogspot.com/2014/01/inuit-folk-music-traditions-in-greenland.html)
+> Several Inuit traditional games revolve around song as well, including hide-and-seek, string game, juggling and rhymes and riddles. The katajjaq tradition is also popular; this is a vocal competition between two women, standing facing each other. They sing song, using throat-singing and reproducing animal cries or other sounds. Katajja is a game, but is often banned because both women begin laughing.
+
+> In addition to the drum dance and game song, Greenlandic Inuit have a tradition of piseq (piserk, personal song) songs. These are expressive, superstitious, spiritual or narrative and may be composed for drum dances. Piseq and other vocal traditions aside from songs games include a series of patterns and tones, which vary depending on the social setting of the performance. For instance, a soft vocal tone is used both for character demonstration in a narrative song and for personal songs in private settings. Many songs use only a few real words, scattered among series vocals, or non-lexical syllables like ai-ya-yainga. Inuit songs are strophic and mostly use six distinct pitches; written and melodic themes are common. A song’s word length and prominence determines the rhythm, giving the songs a recitative-like pattern.
+
 4. katajja was preserved early European priests who settled in Northern Canada. FALSE. (since it is banned)
 
 and for Capoeira...
@@ -445,7 +451,8 @@ and for Capoeira...
     - shape like music bows
     - string, coin, gourd, stick, rattle
 
-![pics...](/pics/three_parts.PNG)
+<img src="/pics/three_parts.PNG" alt="Pictures from Emily Gao" width="100%">
+
 
 3. According to your text, what is the origin of Capoeira?
     - A dance form that enslaved Africans brought with tme to Brazil. (They evolved to a martial arts, want to disguise the martial art for European. So it's not true.)
@@ -464,3 +471,13 @@ Examples:
 - seasons: from rain dances to surfing and sledding songs
 - religious calendars: rits, holidays and festivals
 - stages of growth/life cycle: childhood, becoming an adult (initiation), marriage, death
+
+### Music in life cycle
+- Birth or early life
+- Initiation
+- Marriage music
+- Death Rites
+
+## CASE STUDY I: Early life & Childhood - Lullabies
+What are soem cross-cultural features of lullabies?
+- slow, calm, repetitive
