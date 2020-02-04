@@ -438,3 +438,13 @@ fear, people not understand this music. They ban lots of things that they don't 
     - animals
 3. The traditional style of katajja is based on rules. TRUE.
 4. katajja was preserved early European priests who settled in Northern Canada. FALSE. (since it is banned)
+
+and for Capoeira...
+1. which is the primary instrument of Capoeira? - berimbau
+2. Name three parts of the instrument.
+    - shape like music bows
+    - string, coin, gourd, stick, rattle
+![](/pics/three_parts.PNG)
+3. According to your text, what is the origin of Capoeira?
+    - A dance form that enslaved Africans brought with tme to Brazil. (They evolved to a martial arts, want to disguise the martial art for European. So it's not true.)
+    - A martial arts form created by enslaved Africans for protection. Initial origin.
