@@ -360,4 +360,35 @@ Violin Family
     * overhand bow
     * early use for dancing
 
-Note the difference between Baroque violin and modern Violin.
+Note the difference between Baroque Violin and modern Violin.
+
+and then on Jan 30th, guest lecture on Baroque Violin and modern Violin.
+> Guest Lecture/Demonstration: [Elizabeth Loewen Andrews](https://omfa.ca/adjudicators/elizabeth-loewen-andrews/), violin (on Baroque and Classical performance practice)
+
+---
+missed due to shit interview... To be filled later
+
+## Antonio Vivaldi (1678-1741)
+- son of St Mark's violinist (Venice)
+- conductor, composer, priest, teacher: Ospedale della Pieta, Venice (1703-40)
+- 1737: censured for behaviour; died pauper
+- He wrote a lot of instrumental music, but he also write 49 operas, and direct by himself.
+
+## Concerto
+= composition in which one or more solo instruments (or instrumental group) contrast with an orchestral ensemble
+- concerto grosso: contrast between group of soloist (concertino) (as opposed to one)  & whole orchestra
+- solo concerto: contrast between a single soloist & whole orchestra
+
+### Example
+Concerto for Violin in A Minor, Op.3, no.6
+**Solo Concerto**:
+- 3 movements: fast - slow - fast
+- fast movements: Ritornello Form
+    - standard form for fast movements in concertos
+    - featuring a ritornello (refrain) for full orchestra
+    - alternates with episodes characterized by virtuosic material played by one or more soloist
+
+**Ritornello** = refrains
+- is a recurring passage in Baroque music for orchestra or chorus. (from wiki)
+
+**Episodes** = passages featuring soloist between ritornellos
