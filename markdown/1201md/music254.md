@@ -366,7 +366,7 @@ and then on Jan 30th, guest lecture on Baroque Violin and modern Violin.
 > Guest Lecture/Demonstration: [Elizabeth Loewen Andrews](https://omfa.ca/adjudicators/elizabeth-loewen-andrews/), violin (on Baroque and Classical performance practice)
 
 ---
-missed due to shit interview... To be filled later
+missed due to the <s>**shit**</s> interview... To be filled later
 
 ## Antonio Vivaldi (1678-1741)
 - son of St Mark's violinist (Venice)
@@ -379,8 +379,7 @@ missed due to shit interview... To be filled later
 - concerto grosso: contrast between group of soloist (concertino) (as opposed to one)  & whole orchestra
 - solo concerto: contrast between a single soloist & whole orchestra
 
-### Example
-Concerto for Violin in A Minor, Op.3, no.6
+### Example: Concerto for Violin in A Minor, Op.3, no.6
 **Solo Concerto**:
 - 3 movements: fast - slow - fast
 - fast movements: Ritornello Form
@@ -392,3 +391,92 @@ Concerto for Violin in A Minor, Op.3, no.6
 - is a recurring passage in Baroque music for orchestra or chorus. (from wiki)
 
 **Episodes** = passages featuring soloist between ritornellos
+
+Middle movement is different.
+1. Allegro: A minor
+2. Largo cantabile: D minor
+3. Presto: A minor
+
+# Baroque Instrumental Music: Keyboard Music: Instruments, Composers, Forms & Styles
+## Keyboard Instruments
+- Harpsichord: keyboard instruement popular 15C - 18C; strings plucked by quill. Doesn't have wide range but you can combine two to create different sounds.
+- Clavichord:
+    - popular 15C - 18C
+    - brass tangent strikes string
+    - stays in contact as long as key depressed
+    - loudness controlled by player
+    - unlike piano or harpsichord, it has tangent. you can control the sound quality of the string.
+    - quite small in 17th C. Not for a big group of people, maybe at home.
+    - more like a lute, guitar, since plucke the string. Mechanically by a keyboard.
+
+**Girolamo Frescobaldi**: popular, well-known during his life time. But he is also organist. Teach Harpsichord. He also wrote some Toccata.
+
+## Italian Keyboard Toccata
+**Toccata**: Italian "touched"
+- for keyboard or lute. Sounds like improvised
+- may contain imitative sections (repeating melodic material in another part or parts)
+- style: improvisatory, exploratory, virtuosic, free-sounding
+    - player explores a range of harmonies & figurations
+    - often played as preludes to other pieces
+    - clearly defined the mode/key of following piece.
+
+*1615: Toccatas and Partitas Intabulated for Harpsichord, Book I*
+* 1st conceived exclusively for keyboard
+* Idiomatically suited to harpsichord
+    * fits easily under 2 hands
+    * avoided long sustained sounds
+
+### Frescobaldi, *Toccata No.3*
+* harpsichord
+* maintains forward momentum: from constant motion, evaded candences; restless character
+* Typical: series of brief phrases or sections
+    - each closed with a cadence, distinct figuration
+* Style shifts frequently
+    * Opening: like recitative
+    * m.5: like Arioso: chains of suspensions over walking bass
+    * mm.8-11: imitative passage
+    * rest of the piece: shifts every 2 or 3 bars
+    * Improvised sound
+    * Also improvised ornaments
+
+## French Baroque Suite
+**Elisabeth-Claude Jacquet de la Guerre** (1665-1729)
+- French
+- harpsichordist & composer
+- 1687: 1st publication – works for harpsichord
+- chlid prodigy: age 5 sang & performed at court of Louis XIV
+- Paris: gave lessons & concerts
+- very accomplished women
+
+### Suite No. 3 in A Minor, *Pièces de clavecin* [Pieces for Harpsichord], Book I (ca 1687)
+* Suite
+    - collection of stylized dances
+    - from trend of pairing dance types
+    - contrasting tempos & character
+    - NOT danced: psychological states
+* Form: most dances in binary ||: A :||: B :||
+
+prelude:
+- improvisatory
+- slurs...: sustained notes, phrase groupings
+- no bar lines, no time signature
+- explores key
+
+allemande: "German"
+- moderate 4/4 meter; begins with upbeat
+- 8th & 16th note
+- picardy third at the end  
+
+courante:
+- Moderate 3 or compound meter; begins with upbeat
+- Hemiola: shifts between 3/2 & 6/4
+
+sarabande
+- slow
+- dignified
+- triple meter, emphasis on 2nd beat
+
+gigue (jig)
+- (England/Ireland)
+- fast, compound meter 6/4
+- bach has been doing this

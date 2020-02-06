@@ -481,3 +481,109 @@ Examples:
 ## CASE STUDY I: Early life & Childhood - Lullabies
 What are soem cross-cultural features of lullabies?
 - slow, calm, repetitive
+
+# Lec 10 - Feb 6th
+## CASE STUDY I: Early life & Childhood - Lullabies
+What are soem cross-cultural features of lullabies? (recall from last class)
+- slow, calming, repetitive
+
+Example: *"Arao Ariraro"* south Indian lullaby
+
+We can think of how melody descend. How do we use lullabies? form of communication, sth specific: stop crying... It might have specific meaning to words. Does the lyrics mean anything? No, they are vocables. Often, physical motion is associated to that.
+
+From slides:
+- higher range than other songs
+- greater internal repetition
+- incorporate vocables within texts
+- slow tempo
+- sung in combination with rocking motion
+- lullabies and rocking provide a good example of musical entrainment (i.e., alignment of body motion during musical experience)
+- Entrainment can help regularize motion and modify a person's physical state
+
+Everyone has sth to contribute to the music or dance. Social binding.
+
+Another ex: *"Amba Nilambari"* (19th C). This piece is composed using same scales.
+*Sound*:
+- tambura
+- then flute comes in.
+- often accompanied with mridangam
+always has a melodic line instrument.
+
+*Behaviour & Context*: On what occasions or situations and in what spaces is Arao Ariraro or Raga Nilambari sung or played?
+
+Melody that is capable to put children to sleep. In that sense, if you hear that, you will associate it with that particular culture. Another piece has similar correlation: put gods to sleep.
+
+This is another instrument: nagasvaram: played in temple.
+
+*Concept*: What are some uses of *Araro Ariraro*? What functions do the uses fulfill?
+- if you look at the translation of the text (in the listening guide), there are some connections/communications happening.
+
+### Sound: Key Elements - Raga and Tala
+raga
+- collection of pitches or notes (like a melodic scale) and more (i.e. contour, mood, associations with situations, ornamentation, phrase: certain pitches are played together, in a group).
+
+Sargam notation: sa ri ga ma pa dha ni sa
+
+Raga Nilambari: ascending/descending patterns (details omitted)
+
+There are some rules associated to ascending/descending patterns when ornamentating, or improvising, like skipping some pitches.
+
+tala
+- rhythms and time cycle used in South Indian music
+
+Adi tala (8-beat cycle subdivided into: 4+2+2)
+```
+1   2       3       4       5   6   7   8
+C   pinky   ring    middle  C   W   C   W
+```
+
+See video on learn how people keep timing: *Amba Nilambari*. Keeping Tala.
+
+## Music in Daily Life - the Workday
+### Case Study II: Postal Workers Cancelling Stamps
+Ghana: Map indicates distinct cultural groups
+
+They have categorized into 6 different groups or six musical clusters.
+
+*Sound*:
+- created from work sounds: cancelling
+- sounds not related to the work (done for rhthymic interest)
+    - several slaps
+    - repeated thuds
+    - multiple cancellations
+
+Example: Postal Workers Canceling Stamps
+
+some backgrounds:
+- they have interaction with European people...
+
+*Behaviour and Context*
+
+*Concept*:
+- maintain a workflow, keeps going, make things enjoyable.
+
+Finally...
+
+Musical analysis.
+
+What's the point?
+
+*toward participation and understanding*. Sometimes it sounds chaotic, since we don't know where it begins. If we slow down, we the know the structure of it. But the people from the culture know these. Participate into music making, then you understand the structure it.
+
+According to Locke, the significance of musical analysis
+- effective path toward active involvement for an outsider
+- bridge into the musical style of another culture
+
+**Caveat**: use analytical tools with caution, music not a lifeless object - for many Africans music is (Amoaku 1985:37)
+> a living thing ensouled by the spiritual energy that travels through it
+
+### Summary: Generalizations of African Music Culture
+*How do the postal workers' music exemplify widely shared characteristicss of African music culture?*
+1. Beliefs and Values
+2. Music-making events
+3. Expression in many media
+4. History
+5. Musical Style (e.g., "cencelling stamps")
+6. Participation
+7. Training
+8. Intercultural Misunderstanding
