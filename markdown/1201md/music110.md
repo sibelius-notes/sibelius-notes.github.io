@@ -616,8 +616,24 @@ It's clearly gamelan.
 
         They don't come in the same order.
 
-[Extra Source](https://www.stringbassonline.com/unit6_7.html)
->
-1. The melodic layer. This layer is comprised of a melodic soloist, and melodic accompanist. Although the voice is often used for the melody, other melodic instruments frequently used include the violin, vina (a large plucked lute), bansuri (a bamboo flute), nagasvaram (an oboe), and saxophone.
+[Src](https://www.stringbassonline.com/unit6_7.html)
+>1. The melodic layer. This layer is comprised of a melodic soloist, and melodic accompanist. Although the voice is often used for the melody, other melodic instruments frequently used include the violin, vina (a large plucked lute), bansuri (a bamboo flute), nagasvaram (an oboe), and saxophone.
 2. A percussion layer. The most frequently used percussion instrument is a double-headed drum called the mridangam. Other percussion instruments include the tavil (a drum), a tambourine (kanjira), mouth harp (morsang) and a clay pot (the ghatam).
 3. The drone or sruti layer. The sruti layer is often played by a specialized instrument such as the tambura, a four-stringed plucked instrument with a buzzing timbre.
+
+
+* **Title**: Uja
+* **Country/Region/Culture of origin**: Inuit
+* **Makers/creators/composer**: Tanya Tagaq
+* **Context in which it was written/performed/use**:
+* **function + explanation**:
+* **identifying musical feature + instrument**:
+
+
+
+* **Title**: Uja
+* **Country/Region/Culture of origin**: Inuit
+* **Makers/creators/composer**: Tanya Tagaq
+* **Context in which it was written/performed/use**:
+* **function + explanation**:
+* **identifying musical feature + instrument**:
