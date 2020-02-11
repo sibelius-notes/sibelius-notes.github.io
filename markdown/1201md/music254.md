@@ -480,3 +480,74 @@ gigue (jig)
 - (England/Ireland)
 - fast, compound meter 6/4
 - bach has been doing this
+
+### Ornamentation (argrements)
+* Harpsichord imitating lute (style luthe): Borrowed figuration & practice
+* Pratical reasions for ornaments on harpsichord?
+    - sound only has short period of time. So to compensate for decaying sound of plucked strings
+    - emphasizes notes.
+* Artistic reasons?
+    - Aesthetic
+    - taste
+    - Performer can add ornaments (acc. to taste)
+* notes inegales: "uneven notes": 17C French convention of performing passages of short notes of even duration by alternating longer and shorter notes to create a lilting rhythm
+
+Some common French ornaments: Pince. Tremblement. Double. Port de voix.
+
+## GERMANY: ORGAN PRELUDE
+**Organ**
+instrument consisting of a number of pipes that sound tones when supplied with pressurized air & a keyboard that operates a mechanism controlling the flow of air to the pipes
+- Ranks of pipes engaged by stops; one pitch/pipe
+- One or more manuals & pedal board
+- Pre-electricity: one person operated bellows.
+- continuously supply of wind, so long sustained notes possible
+
+You can hold a note for years...
+
+1650-1750: Golden age of Lutheran German organ music
+
+### Dietrich Buxtehude
+- 1668-1707: Organist, St Mary’s Church in Lübeck (N. Germany)
+- didn't publish his works; found after his death
+- Abendmusiken (free evening concerts during Advent)
+    - 1705-6: JS Bach visited, walked 378 kms
+- Liturgical Function: Sunday services:
+    - started with large Prelude for organ, as well as preludes for other portions of the service
+    - BuxWV141: probably prelude to service; challenge for organ students
+
+#### NAWM 97: Praeludium in E major, BuxWV 141
+- late 17th century
+- organ (2 manuals + pedal)
+- Praeludium (Latin = Prelude)
+    - = Toccata: free & imitative/fugal sections alternate
+    - = Series of short sections in free style alternating with longer ones in imitative counterpoint
+- virtuosic: keyboards & pedals
+- suggest improvisation
+- imitative/fugal sections have related themes
+- 4 imitative/fugal sections preceded by free sections
+- Free Fugue Free Fugal/Figurative Fugal Trans Fugue Coda
+
+actual music is half step higher than the score
+
+# J.S. Bach I: Instrumental Music
+**J S Bach**: church gigues. didn't write opera...
+
+## Review of Fugue
+* **FUGUE**: a musical genre based on the systematic imitation of a theme
+* **IMITATION**: texture of independent musical lines (as opposed to homophonic)
+* **VOICES**: independent musical lines representing different ranges
+    * usually no more than 4 (SATB)
+    * ranges on a keyboard or in an orchestra
+* **EXPOSITION**: opening section of a fugue where each voice states the entire theme *once*
+    * **SUBJECT**: the main theme of a fugue, the musical “idea”
+    * **ANSWER**: a statement of the subject in the exposition starting on a different note
+        * usually the 2nd and 4th statement of the subject
+    * **COUNTERSUBJECT**: a theme that is played/sung at the same time as the subject
+        * usually stated by a voice that has already stated the subject
+    * The exposition ends once all the voices have stated the subject once only
+
+*WHAT FOLLOWS THE EXPOSITION?*
+* Alternation of
+    * **EPISODES**: sections without statements of the subject
+    * **STATEMENTS OF THE SUBJECT**: one or two voices state the subject
+    * **MODULATIONS**: go through many different keys before returning to the tonic
