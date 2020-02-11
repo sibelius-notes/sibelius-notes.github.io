@@ -503,6 +503,7 @@ From slides:
 Everyone has sth to contribute to the music or dance. Social binding.
 
 Another ex: *"Amba Nilambari"* (19th C). This piece is composed using same scales.
+
 *Sound*:
 - tambura
 - then flute comes in.
@@ -578,7 +579,7 @@ According to Locke, the significance of musical analysis
 > a living thing ensouled by the spiritual energy that travels through it
 
 ### Summary: Generalizations of African Music Culture
-*How do the postal workers' music exemplify widely shared characteristicss of African music culture?*
+*How do the postal workers' music exemplify widely shared characteristics of African music culture?*
 1. Beliefs and Values
 2. Music-making events
 3. Expression in many media
@@ -587,3 +588,36 @@ According to Locke, the significance of musical analysis
 6. Participation
 7. Training
 8. Intercultural Misunderstanding
+
+# Lec 11 - Feb 11st
+## Review, part 2
+
+*Mystery excerpts (not on Playlist) will be played.*
+
+It's clearly gamelan.
+- distinct timbre of bronze instruments.
+- stratification: layer of instruments in increasing density. (lower pitch instrument has less dense rate, say 2 beat, higher pitch plays 4 times every beat)
+- gong cycle: recurring deep low pitched sound, and it's very round sound.
+- interlocking - we hear higher pitched instruments play at high tempo.
+
+## Review, part 1
+* **Title**: Amba Nilambari
+* **Country/Region/Culture of origin**: India (South)
+* **Makers/creators/composer**: Pillai
+* **Context in which it was written/performed/use**: lullaby. raga (required more details here instead of just saying 'scale').
+* **function + explanation**: memorize the 10. Then apply those to these uses.
+* **identifying musical feature + instrument**:
+    - starts with tambura, the drone layer
+    - then flute comes in, which is the soloist.
+    - typical of south Indian music (three layers):
+        - soloist, melodic layer.
+        - drone layer
+        - drum, rhthymic layer
+
+        They don't come in the same order.
+
+[Extra Source](https://www.stringbassonline.com/unit6_7.html)
+>
+1. The melodic layer. This layer is comprised of a melodic soloist, and melodic accompanist. Although the voice is often used for the melody, other melodic instruments frequently used include the violin, vina (a large plucked lute), bansuri (a bamboo flute), nagasvaram (an oboe), and saxophone.
+2. A percussion layer. The most frequently used percussion instrument is a double-headed drum called the mridangam. Other percussion instruments include the tavil (a drum), a tambourine (kanjira), mouth harp (morsang) and a clay pot (the ghatam).
+3. The drone or sruti layer. The sruti layer is often played by a specialized instrument such as the tambura, a four-stringed plucked instrument with a buzzing timbre.
