@@ -613,8 +613,7 @@ It's clearly gamelan.
         - soloist, melodic layer.
         - drone layer
         - drum, rhthymic layer
-
-        They don't come in the same order.
+        - They don't come in the same order.
 
 [Src](https://www.stringbassonline.com/unit6_7.html)
 >1. The melodic layer. This layer is comprised of a melodic soloist, and melodic accompanist. Although the voice is often used for the melody, other melodic instruments frequently used include the violin, vina (a large plucked lute), bansuri (a bamboo flute), nagasvaram (an oboe), and saxophone.
@@ -623,17 +622,24 @@ It's clearly gamelan.
 
 
 * **Title**: Uja
-* **Country/Region/Culture of origin**: Inuit
+* **Country/Region/Culture of origin**: Inuit, Canada
 * **Makers/creators/composer**: Tanya Tagaq
+* **Context in which it was written/performed/use**: concert, creativity
+* **function + explanation**: political statement, contribute to the culture
+* **identifying musical feature + instrument**: throat singing (exhaling and inhaling)
+
+
+
+* **Title**: Postal Workers Cancelling Stamps
+* **Country/Region/Culture of origin**: Ghana, West Africa
+* **Makers/creators/composer**: Postal Workers at the University of Ghana
 * **Context in which it was written/performed/use**:
+    - passing the time
+    - help with the workflow
 * **function + explanation**:
+    - entertainment
+    - ...
 * **identifying musical feature + instrument**:
-
-
-
-* **Title**: Uja
-* **Country/Region/Culture of origin**: Inuit
-* **Makers/creators/composer**: Tanya Tagaq
-* **Context in which it was written/performed/use**:
-* **function + explanation**:
-* **identifying musical feature + instrument**:
+    - whistle
+    - stamping sound (work sounds)
+    - polyrhythm
