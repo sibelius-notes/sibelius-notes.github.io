@@ -552,7 +552,7 @@ actual music is half step higher than the score
     * **STATEMENTS OF THE SUBJECT**: one or two voices state the subject
     * **MODULATIONS**: go through many different keys before returning to the tonic
 
-## NAWM 100: Bach, Prelude & Fugue in A Minor
+## NAWM 102: Bach, Prelude & Fugue in A Minor
 - for organ
 - ca. 1715: Weimar
 **Main points:**
@@ -691,3 +691,17 @@ b) OLD: Cantus-firmus\*: soprano & horn present chorale tune in long notes (m. 2
     - m.17, etc: Alto Tenor Bass sing imitation based on chorale
 
 \* Cantus firmus: “fixed melody”: existing melody on which a new polyphonic work is based; melody presented in long notes
+
+### Summary
+where does the chorale show up?
+
+Instrumental Ritornello:
+- mm.3-6 & mm.48-51: bassline: long notes
+- mm. 15-17, 31-33, 54-56: oboes, right before imitation
+
+Choral Verses:
+- sopranos (doubled by horns): long notes (4 lines of verse 1)
+
+Adapted:
+- ritornello theme derived from chorale
+- imitation of ATB: derived from chorale
