@@ -555,7 +555,7 @@ actual music is half step higher than the score
 ## NAWM 100: Bach, Prelude & Fugue in A Minor
 - for organ
 - ca. 1715: Weimar
-Main points:
+**Main points:**
 1. pair of pieces
     * free & fugal: no more alternating sections
 2. idomatic writing borrowed from another genre/instruement
@@ -563,3 +563,104 @@ Main points:
     - Prelude: violinsitic figuration
     - fugue subject: like ritornello form of concertos
         - episodes like solo sections; return of subject like ritornellos
+
+### Prelude
+- A minor
+- mm 1-24: violin-like figuration; descends choramatically
+- mm 37-8: chains of suspensions (like Corelli!)
+
+### Fugue
+Exposition
+- violin-like subject
+- 4 voices
+- order of voices: soprano alto tenor bass
+
+Episodes
+
+1st Episode
+- structure
+    - like 1st movement of concerto
+- elaborate cadenza (like concerto)
+- other things Bach does with fugue:
+    - Fugue subject in subsequence statements:
+        - use stretto: when one voice enters with fugue subject before a previous voice is done
+    - varies the fugue subject
+    - only states part of subject (e.g., 2nd half)
+    - starts in one voices, complete in another
+
+## Bach's Music for Harpsichord
+- Well-tempered Clavier (German: das wohltemperierte Clavier): WTC Book 1: 1722 & WTC Book 2: 1740
+- Pairs of Preludes & Fugues for keyboard
+    - All 24 keys (major followed by parallel minor from C to B)
+- Tuning system
+    - near-equal temperament vs. mean-tone
+    - made it possible to play in every key
+
+## NAWM 104: Bach, Prelude & Fugue No. 8, Well-Tempered Clavier Book I
+- Demonstrates new tuning system well:
+    - Prelude: E♭ minor (6 flats)
+    - Fugue: D♯ minor (6 sharps)
+    - Enharmonic equivalents: entire spectrum of notes in WTC
+- Both adapted from previous work
+
+### Pedagogical aims in Well-Tempered Clavier Book I
+
+- Prelude
+    - Specific techniques, like etude
+    - Performance conventions & compositional practices:
+    - No. 8: Italian concerto slow movement or French sarabande?
+        - repeated chords on almost every beat
+        - large leaps
+        - Ornamentation, like french: dotted
+        - **cosmopolitan mixture: typical of Bach**
+- Fugue
+    - Various techniques of fugal writing & treatment of subject:
+        - Almost omnipresent fugue subject
+        - Very few episodes & short
+        - constant variation of subject
+        - augmentation, inversion, stretto (overlapping entrances of subject)
+        - coda
+    - Fugue subject & exposition:
+        - Subject: “old-fashioned”: narrow range
+        - 3-voice fugue: Alto, Soprano, Bass (m.8). Instead of 4.
+        - starting at middle
+
+# Bach’s Vocal Music
+## NAWM 105: Bach, Cantata BWV 62, Nun Komm, der Heiden Heiland, 1st movement
+(Now Come, Saviour of the Heathens/Gentiles)
+
+### Liturgical Function & Text:
+- 1st performance: Dec. 3, 1724 [1st Sunday of Advent: before Xmas]
+- between Gospel reading & sermon
+- chorale text by Martin Luther:
+    - uses 1st & last of 8 stanzas in choruses
+    - Luther adapted Catholic Latin chants
+- text for rest of cantata (recitatives & arias): unknown author – paraphrased stanzas 2-7
+
+[Texts of all movements](http://www.bach-cantatas.com/Texts/BWV62-Eng3P.htm)
+
+### Genre: Chorale cantata
+= sacred setting of a Lutheran hymn (& related poetry) incorporating chorus, orchestra, soloists
+- chorale = a Lutheran hymn; congregation familiar with hymn
+- Drew on wide range of styles & genres (Bach's ablility to assimilate)
+- Wrote in every genre BUT opera!
+    - but he uses the components of Italian opera:
+        - arias, recitatives (accompanied & dry), choruses, orchestra
+- cantata provides maximum variety:
+    - solos: feature song types of contemporary opera
+    - moving from complex to simple
+- Instruments used in the cantata:
+    - horn, 2 oboes, violin 1, violin 2, viola + basso continuo (organ & violone)
+
+### Overall Form of the Cantata
+quite typical form
+
+1. Chorale Motet (chorus): b minor1st verse of Luther’s hymn (see next page)
+    (*you will only be tested on movement 1*)
+2. Da capo aria (ABA) with orchestra (tenor): G major
+3. Recitative with continuo only (bass)
+4. Da capo aria (ABA) with continuo & unison orchestra (bass): D major
+    B: contrast, minor mode (b & f#)
+5. Accompanied Recitative (soprano & alto): modulates through keys to b minor
+6. Chorale harmonization (chorus): b minor -- Last verse (8) of Luther’s hymn
+    4-part harmony (SATB): doubled by instruments
