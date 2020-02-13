@@ -551,3 +551,15 @@ actual music is half step higher than the score
     * **EPISODES**: sections without statements of the subject
     * **STATEMENTS OF THE SUBJECT**: one or two voices state the subject
     * **MODULATIONS**: go through many different keys before returning to the tonic
+
+## NAWM 100: Bach, Prelude & Fugue in A Minor
+- for organ
+- ca. 1715: Weimar
+Main points:
+1. pair of pieces
+    * free & fugal: no more alternating sections
+2. idomatic writing borrowed from another genre/instruement
+    - influence of Italian concerto composers: like Vivaldi
+    - Prelude: violinsitic figuration
+    - fugue subject: like ritornello form of concertos
+        - episodes like solo sections; return of subject like ritornellos
