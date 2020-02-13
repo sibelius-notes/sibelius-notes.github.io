@@ -637,7 +637,7 @@ Episodes
     - Luther adapted Catholic Latin chants
 - text for rest of cantata (recitatives & arias): unknown author – paraphrased stanzas 2-7
 
-[Texts of all movements](http://www.bach-cantatas.com/Texts/BWV62-Eng3P.htm)
+Extra src: [Texts of all movements](http://www.bach-cantatas.com/Texts/BWV62-Eng3P.htm)
 
 ### Genre: Chorale cantata
 = sacred setting of a Lutheran hymn (& related poetry) incorporating chorus, orchestra, soloists
@@ -656,11 +656,38 @@ Episodes
 quite typical form
 
 1. Chorale Motet (chorus): b minor1st verse of Luther’s hymn (see next page)
-    (*you will only be tested on movement 1*)
+    - (*you will only be tested on movement 1*)
 2. Da capo aria (ABA) with orchestra (tenor): G major
+    - style of a minuet
+    - B: contrast, minor mode
+    - long melismas (as long as 20 bars)
 3. Recitative with continuo only (bass)
+    - Angular, wide leaps
+    - Text painting: "run" displays a 16th-note run; "fallen" - large leap down
 4. Da capo aria (ABA) with continuo & unison orchestra (bass): D major
-    B: contrast, minor mode (b & f#)
+    - violins & violas play same as bassline but octave higher
+    - B: contrast, minor mode (b & f#)
 5. Accompanied Recitative (soprano & alto): modulates through keys to b minor
 6. Chorale harmonization (chorus): b minor -- Last verse (8) of Luther’s hymn
-    4-part harmony (SATB): doubled by instruments
+    - 4-part harmony (SATB): doubled by instruments
+    - last verse (8) of the Luther's hymn
+
+## No. 1: opening chorus
+most complex & weightiest movement of the cantata
+
+= CHORALE MOTET: setting of a chorale in the style of a 16C motet (polyphonic vocal piece)
+
+Combines: a) new & b) old techniques
+
+
+a) NEW: ritornello structure & instrumental concerto style (like Vivaldi)
+- mm1-16: opening instrumental ritornello – repeated at end
+- ritornellos: frame 4 phrases of chorale (like solo episode)
+- ritornello: derived from chorale
+    - also includes some statements of chorale (mm 3-5: bass, 15-17: oboes)
+
+b) OLD: Cantus-firmus\*: soprano & horn present chorale tune in long notes (m. 22, etc)
+- Alto, Tenor & Bass: imitative counterpoint beneath soprano line
+    - m.17, etc: Alto Tenor Bass sing imitation based on chorale
+
+\* Cantus firmus: “fixed melody”: existing melody on which a new polyphonic work is based; melody presented in long notes
