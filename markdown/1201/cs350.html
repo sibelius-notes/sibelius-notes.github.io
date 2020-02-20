@@ -1,0 +1,42 @@
+---
+title: CS 350 - Operating Systems
+layout: markdown
+---
+
+<div class="content">
+
+<h1>CS 350 - Operating Systems</h1>
+
+<div class="md-toc content">
+    <p class="md-toc-content">
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#execv">execv</a>
+    </span>
+    </p>
+</div>
+
+
+<!--start--><p>miscellaneous notes...</p>
+<h1 id="execv"><a class="header-link" href="#execv"></a>execv</h1>
+<p>Now, the last of the five system calls: execv. It does not create a new process.</p>
+<p>It changes the program and a existing process is running. Process structure is same, but the address space has changed.</p>
+<p><code>Hello world</code> program, and call <code>execv matlab</code>.</p>
+<p>Create a new address space, and load the program into the new address space.</p>
+<p>Parent child relationship: If you go home tonight, and dye your hair in green, your parent may not like it. But they cannot change genetically they are your parents. The same is true for processes: you can change the program that you are running but you cannot change parent-child relationship.</p>
+<p>Example from slides:</p>
+<pre class="hljs"><code><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">int</span> rc = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">char</span> *args[<span class="hljs-number">4</span>];
+
+    args[<span class="hljs-number">0</span>] = (<span class="hljs-keyword">char</span> *) <span class="hljs-string">"/testbin/argtest"</span>;
+    args[<span class="hljs-number">1</span>] = (<span class="hljs-keyword">char</span> *) <span class="hljs-string">"first"</span>;
+    args[<span class="hljs-number">2</span>] = (<span class="hljs-keyword">char</span> *) <span class="hljs-string">"second"</span>;
+    args[<span class="hljs-number">3</span>] = <span class="hljs-number">0</span>;
+    rc = execv(<span class="hljs-string">"/testbin/argtest"</span>, args); <span class="hljs-comment">// takes two parameters</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"If you see this execv failed\n"</span>);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"rc = %d errno = %d\n"</span>, rc, errno);
+    <span class="hljs-built_in">exit</span>(<span class="hljs-number">0</span>);
+}</code></pre><p>takes two parameters.</p>
+<!--end-->
+</div>
