@@ -15,6 +15,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#system-calls">System Calls</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#user-and-kernel-stacks">User and Kernel Stacks</a>
+    </span>
     </p>
 </div>
 
@@ -92,5 +95,19 @@ kernel, how does a program make a system call such as <code>fork</code>?</p>
 </ol>
 <p><strong>Key Question</strong>: There is only one <code>syscall</code> exception, <code>EX_SYS</code>. So how does the OS distinguish between a <code>fork</code> and <code>getpid</code> system call?</p>
 <p>system call codes</p>
+<h2 id="user-and-kernel-stacks"><a class="header-link" href="#user-and-kernel-stacks"></a>User and Kernel Stacks</h2>
+<p>Every OS/161 process thread has two stacks, although it only uses one at a time.</p>
+<ol class="list">
+<li>The User (Application) Stack is used while the thread is executing application code.<ul class="list">
+<li>Saw this in <a href="/19-05/CS241/">CS 241</a>.</li>
+<li>The kernel creates this stack when it sets up the virtual address space for the process (or thread if the OS supports multi-threaded code).</li>
+</ul>
+</li>
+<li>The Kernel Stack is used while the thread is executing kernel code, i.e. after an exception or interrupt.<ul class="list">
+<li>This stack is a kernel structure (i.e. it is located in the kernel’s address space).</li>
+<li>It also holds trap frames and switch frames (because it is the kernel that creates trap frames and switch frames)</li>
+</ul>
+</li>
+</ol>
 <!--end-->
 </div>
