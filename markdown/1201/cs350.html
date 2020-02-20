@@ -27,17 +27,38 @@ layout: markdown
 <pre class="hljs"><code><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
 </span>{
     <span class="hljs-keyword">int</span> rc = <span class="hljs-number">0</span>;
-    <span class="hljs-keyword">char</span> \*args[<span class="hljs-number">4</span>];
+    <span class="hljs-keyword">char</span> *args[<span class="hljs-number">4</span>];
 
-    args[<span class="hljs-number">0</span>] = (<span class="hljs-keyword">char</span> \*) <span class="hljs-string">"/testbin/argtest"</span>;
-    args[<span class="hljs-number">1</span>] = (<span class="hljs-keyword">char</span> \*) <span class="hljs-string">"first"</span>;
-    args[<span class="hljs-number">2</span>] = (<span class="hljs-keyword">char</span> \*) <span class="hljs-string">"second"</span>;
-    args[<span class="hljs-number">3</span>] = <span class="hljs-number">0</span>;
+    args[<span class="hljs-number">0</span>] = (<span class="hljs-keyword">char</span> *) <span class="hljs-string">"/testbin/argtest"</span>;
+    args[<span class="hljs-number">1</span>] = (<span class="hljs-keyword">char</span> *) <span class="hljs-string">"first"</span>;
+    args[<span class="hljs-number">2</span>] = (<span class="hljs-keyword">char</span> *) <span class="hljs-string">"second"</span>;
+    args[<span class="hljs-number">3</span>] = <span class="hljs-number">0</span>; <span class="hljs-comment">// null terminator</span>
 
     rc = execv(<span class="hljs-string">"/testbin/argtest"</span>, args); <span class="hljs-comment">// takes two parameters</span>
     <span class="hljs-built_in">printf</span>(<span class="hljs-string">"If you see this execv failed\n"</span>);
     <span class="hljs-built_in">printf</span>(<span class="hljs-string">"rc = %d errno = %d\n"</span>, rc, errno);
     <span class="hljs-built_in">exit</span>(<span class="hljs-number">0</span>);
-}</code></pre><p>takes two parameters.</p>
+}</code></pre><p>takes two parameters. Many times you need command line arguments. Array of pointers.</p>
+<p><code>execv</code> if it succeeds, does not return. Because it successfully created the new address space and new program. We successfully loaded the program into it. The calling program will not exist if <code>execv</code> succeeded. The only time it returns is when it fails. Why would it fail? 30mb ram then run Matlab. It&#39;s possible that there&#39;s no memory left or you call the program wrongly. When you write your <code>execv</code>, you need to test for these error cases and return appropriate error codes. (but cs350 stuff don&#39;t have such tests on these).</p>
+<p>You notice that we can&#39;t tell how many arguments there are automatically. So we use null terminator array and you are responsible for counting.</p>
+<p>Another example. This time with fork.</p>
+<pre class="hljs"><code>main()
+{
+    <span class="hljs-keyword">char</span> *args[<span class="hljs-number">4</span>];
+    <span class="hljs-comment">/* set args here */</span>
+    rc = fork(); <span class="hljs-comment">/* returns 0 to child, pid to parent */</span>
+    <span class="hljs-keyword">if</span> (rc == <span class="hljs-number">0</span>) {
+        status = execv(<span class="hljs-string">"/testbin/argtest"</span>,args);
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"If you see this execv failed\n"</span>);
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"status = %d errno = %d\n"</span>, status, errno);
+        <span class="hljs-built_in">exit</span>(<span class="hljs-number">0</span>);
+    } <span class="hljs-keyword">else</span> {
+        child_pid = rc;
+        parent_code();
+        p = waitpid(child_pid,&amp;child_exit,<span class="hljs-number">0</span>);
+    }
+}</code></pre><p>Now I have two processes. Even though they are separate, but their contents are identical with the exception of value of <code>rc</code>. 0 for child, pid for parent.</p>
+<p>If child, <code>execv</code>. Child is running different process. Parent can still wait for child to terminate. Parent child relationship is not impacted by <code>execv</code> which stays forever.</p>
+<p>Go home and write thread fork bomb.</p>
 <!--end-->
 </div>
