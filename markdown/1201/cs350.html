@@ -12,6 +12,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#execv">execv</a>
     </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#system-calls">System Calls</a>
+    </span>
     </p>
 </div>
 
@@ -60,5 +63,34 @@ layout: markdown
 }</code></pre><p>Now I have two processes. Even though they are separate, but their contents are identical with the exception of value of <code>rc</code>. 0 for child, pid for parent.</p>
 <p>If child, <code>execv</code>. Child is running different process. Parent can still wait for child to terminate. Parent child relationship is not impacted by <code>execv</code> which stays forever.</p>
 <p>Go home and write thread fork bomb.</p>
+<h1 id="system-calls"><a class="header-link" href="#system-calls"></a>System Calls</h1>
+<ul class="list">
+<li>Process management calls, e.g., fork, are called by user programms. They are also system calls.</li>
+<li><strong>System calls</strong> are the interface between user processes and the kernel.</li>
+<li>The kernel code runs at the highest privilege level, where any CPU instructions can be executed.</li>
+<li>Program in user space cannot execute code or instructions belonging to a higher-level of privilege.</li>
+</ul>
+<p><strong>Key Question</strong>: Since application programs cannot directly call the
+kernel, how does a program make a system call such as <code>fork</code>?</p>
+<ol class="list">
+<li>Interrupts<ul class="list">
+<li>Interrupts are raised by devices (hardware)</li>
+<li>An interrupt causes the CPU to transfer control to a fixed location in memory (specified by the designers of the CPU) where an interrupt handler must be located.</li>
+<li>Interrupt handlers are part of the kernel.</li>
+</ul>
+</li>
+<li>Exceptions<ul class="list">
+<li>conditions that occur during the execution of a program instruction.</li>
+<li>The CPU handles exceptions like it handles interrupts:<ul class="list">
+<li>Control is transferred to a fixed location, where an exception handler is located.</li>
+<li>The processor switches to privileged execution mode.</li>
+</ul>
+</li>
+<li>In OS/161 <em>the same routine is used to handle exceptions and interrupts</em>.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Key Question</strong>: There is only one <code>syscall</code> exception, <code>EX_SYS</code>. So how does the OS distinguish between a <code>fork</code> and <code>getpid</code> system call?</p>
+<p>system call codes</p>
 <!--end-->
 </div>
