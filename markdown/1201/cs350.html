@@ -27,12 +27,13 @@ layout: markdown
 <pre class="hljs"><code><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
 </span>{
     <span class="hljs-keyword">int</span> rc = <span class="hljs-number">0</span>;
-    <span class="hljs-keyword">char</span> *args[<span class="hljs-number">4</span>];
+    <span class="hljs-keyword">char</span> \*args[<span class="hljs-number">4</span>];
 
-    args[<span class="hljs-number">0</span>] = (<span class="hljs-keyword">char</span> *) <span class="hljs-string">"/testbin/argtest"</span>;
-    args[<span class="hljs-number">1</span>] = (<span class="hljs-keyword">char</span> *) <span class="hljs-string">"first"</span>;
-    args[<span class="hljs-number">2</span>] = (<span class="hljs-keyword">char</span> *) <span class="hljs-string">"second"</span>;
+    args[<span class="hljs-number">0</span>] = (<span class="hljs-keyword">char</span> \*) <span class="hljs-string">"/testbin/argtest"</span>;
+    args[<span class="hljs-number">1</span>] = (<span class="hljs-keyword">char</span> \*) <span class="hljs-string">"first"</span>;
+    args[<span class="hljs-number">2</span>] = (<span class="hljs-keyword">char</span> \*) <span class="hljs-string">"second"</span>;
     args[<span class="hljs-number">3</span>] = <span class="hljs-number">0</span>;
+
     rc = execv(<span class="hljs-string">"/testbin/argtest"</span>, args); <span class="hljs-comment">// takes two parameters</span>
     <span class="hljs-built_in">printf</span>(<span class="hljs-string">"If you see this execv failed\n"</span>);
     <span class="hljs-built_in">printf</span>(<span class="hljs-string">"rc = %d errno = %d\n"</span>, rc, errno);
