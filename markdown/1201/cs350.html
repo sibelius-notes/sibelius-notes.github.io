@@ -30,6 +30,12 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#multiprocessing">Multiprocessing</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#stack-diagrams">Stack Diagrams</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#inter-process-communication-(ipc)">Inter-Process Communication (IPC)</a>
+    </span>
     </p>
 </div>
 
@@ -149,7 +155,35 @@ kernel, how does a program make a system call such as <code>fork</code>?</p>
 </ul>
 <h2 id="multiprocessing"><a class="header-link" href="#multiprocessing"></a>Multiprocessing</h2>
 <ul class="list">
-<li>The OS ensures that <em>processes are isolated from one another</em>. </li>
+<li>The OS ensures that <em>processes are isolated from one another</em>.</li>
+<li>Interprocess communication should be possible.</li>
 </ul>
+<p>Keep in mind, it&#39;s not processes that run. Threads execute. Process has to have a thread in order to execute, so we really are talking about multithreads. Now we have a pool of threads, which belong to different processes. Only when quantum expires, we do context switch. (Timer interrupt)</p>
+<h2 id="stack-diagrams"><a class="header-link" href="#stack-diagrams"></a>Stack Diagrams</h2>
+<p>In the next few minutes, I&#39;m gonna show you stack diagrams because you&#39;d better bet they are going to show up on your exams.</p>
+<p><code>mips_trap</code>&#39;s job is to figure out what kind of exception that actually raised. Then call the handler that is specific to this exception. Now we are going to execute <code>mips_trap</code>. Now after we check that if it&#39;s an interrupt or not, then it realizes that it is not an interrupt, then <code>mips_trap</code> will turn exceptions and interrupts back on. It means that while we are executing our sys call, we CAN be interrupted. KEEP THAT IN MIND.</p>
+<p>Look at <code>v0</code> and that&#39;s going to tell you which syscal we actually want to run (a great big old <code>switch</code> statement). We want <code>sys_fork</code>. Now interrupts are on which means you can be preempted while executed this fork.</p>
+<p>So now what happens to our stack: If we have a timer interrupt. First thing you see is trap frame (produced by <code>common_exception</code>). Push a trapframe onto the kernel stack. Since we are already in privilege mode and on kernel stack, you actually know the <code>common_exception</code> code. If we are on kernel stack, we don&#39;t do anything but just save the trapframe right. Then call <code>mips_trap</code> to figure out what just happened. It&#39;s <code>mainbus_interrupt</code>. It&#39;s hardware interrupt. While they are handling interrupts from hardware, we don&#39;t want to handle other hardware interrupts because this is the behaviour that is outside the control that thread is running and we don&#39;t to disrupt it for too long so generally leave it off.</p>
+<p>In <code>mainbus_interrupt</code>, we discover it&#39;s the clock. Call interrupt handler for the clock: exceed schedule quantum, I&#39;d better preempt you. So call <code>thread_yield</code> -&gt; <code>thread_switch</code> -&gt; <code>switch_frame</code>. Context switch occurs. Popping off the stack, then returns to ... Then go back to <code>common_exception</code> where we restore the trapframe. Btw, we are turning the interrupts back on. Then back to user stack, reset the CPU back to unprivileged mode and now we go back to have a process to thread running its regular user mode. Similar to multithreads, but we have two stacks.</p>
+<p>Now suppose we don&#39;t have interrupt. Return to syscall. At the very end of syscall, set return value and success/failure values for that system. Zero: success; One: failure. The last thing in syscall dispatcher（调度）, <strong>increment program counter</strong> because when the exception is raised we didn&#39;t actually increment it.</p>
+<pre class="hljs"><code><span class="hljs-keyword">if</span> (err) { <span class="hljs-comment">/* err */</span>
+    tf-&gt;tf_v0 = err;
+    tf-&gt;tf_a3 = <span class="hljs-number">1</span>;
+} <span class="hljs-keyword">else</span> { <span class="hljs-comment">/* no err */</span>
+    tf-&gt;tf_v0 = retval;
+    tf-&gt;tf_a3 = <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-comment">/* advance PC */</span>
+tf-&gt;tf_epc += <span class="hljs-number">4</span>;</code></pre><p><code>mips_trap</code> returns to <code>common_exception</code>. The trapframe data is
+restored. Switch from kernel to user stack. Switch to unprivileged
+mode (<code>rfe</code>: magical instruction). User code continues execution.</p>
+<ul class="list">
+<li>These diagrams are always on either midterm or final.</li>
+<li>It is not possible for you to have two track frames back-to-back in OS/161. Reason for that is because when the exception is raised at the CPU, interrupts are turned off and they do not come back on again until at least halfway through <code>mips_trap</code> which means that each trapframe must be separated by at least <code>mips_trap</code>.</li>
+</ul>
+<h2 id="inter-process-communication-(ipc)"><a class="header-link" href="#inter-process-communication-(ipc)"></a>Inter-Process Communication (IPC)</h2>
+<p>Processes can talk to each other. IPC is a family of methods used to send data between processes.</p>
+<p>File, Socket, Pipe, Shared Memory, Message Passing/Queue.</p>
 <!--end-->
 </div>
