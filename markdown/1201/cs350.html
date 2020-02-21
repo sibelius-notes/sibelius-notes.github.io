@@ -13,6 +13,15 @@ layout: markdown
         <a class="md-toc-inner" href="#process">Process</a>
     </span>
     <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#fork">fork</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#_exit">_exit</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#waitpid">waitpid</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#execv">execv</a>
     </span>
     <span class="md-toc-item md-toc-h1">
@@ -42,6 +51,24 @@ layout: markdown
 
 <!--start--><p>miscellaneous notes...</p>
 <h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
+<p>is an is an environment in which an application program runs.</p>
+<p>includes virtualized resources that its program can use: one (or more) threads</p>
+<p>each program’s process <em>isolates</em> it from other programs in other processes</p>
+<h2 id="fork"><a class="header-link" href="#fork"></a>fork</h2>
+<p>creates a brand new process (the child) that is a clone of the original (the parent)</p>
+<ul class="list">
+<li>new process structure</li>
+<li>new address space</li>
+<li>new thread array</li>
+<li>new PID
+clone</li>
+<li>content of address space</li>
+</ul>
+<h2 id="_exit"><a class="header-link" href="#_exit"></a>_exit</h2>
+<p>terminate the calling process. Not necessarily disappear: stop executing, address space get cleaned, but if it has parents, that parent is alive. Parents want to figure out why child dies. Leave behind a msg for parent.</p>
+<h2 id="waitpid"><a class="header-link" href="#waitpid"></a>waitpid</h2>
+<p>offer synchronization between processes. Cause the caller to wait for the PID process to terminate. Restricted to: parent can only wait for their children to die.</p>
+<p>Children cannot wait for their parents. If they die, they are old.</p>
 <h2 id="execv"><a class="header-link" href="#execv"></a>execv</h2>
 <p>Now, the last of the five system calls: execv. It does not create a new process.</p>
 <p>It changes the program and a existing process is running. Process structure is same, but the address space has changed.</p>
