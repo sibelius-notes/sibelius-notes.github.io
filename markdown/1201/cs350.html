@@ -10,6 +10,9 @@ layout: markdown
 <div class="md-toc content">
     <p class="md-toc-content">
     <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#process">Process</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#execv">execv</a>
     </span>
     <span class="md-toc-item md-toc-h1">
@@ -18,12 +21,22 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#user-and-kernel-stacks">User and Kernel Stacks</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#exception-handling">Exception Handling</a>
+    </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#mips_trap">mips_trap</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#multiprocessing">Multiprocessing</a>
+    </span>
     </p>
 </div>
 
 
 <!--start--><p>miscellaneous notes...</p>
-<h1 id="execv"><a class="header-link" href="#execv"></a>execv</h1>
+<h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
+<h2 id="execv"><a class="header-link" href="#execv"></a>execv</h2>
 <p>Now, the last of the five system calls: execv. It does not create a new process.</p>
 <p>It changes the program and a existing process is running. Process structure is same, but the address space has changed.</p>
 <p><code>Hello world</code> program, and call <code>execv matlab</code>.</p>
@@ -48,8 +61,8 @@ layout: markdown
 <p><code>execv</code> if it succeeds, does not return. Because it successfully created the new address space and new program. We successfully loaded the program into it. The calling program will not exist if <code>execv</code> succeeded. The only time it returns is when it fails. Why would it fail? 30mb ram then run Matlab. It&#39;s possible that there&#39;s no memory left or you call the program wrongly. When you write your <code>execv</code>, you need to test for these error cases and return appropriate error codes. (but cs350 stuff don&#39;t have such tests on these).</p>
 <p>You notice that we can&#39;t tell how many arguments there are automatically. So we use null terminator array and you are responsible for counting.</p>
 <p>Another example. This time with fork.</p>
-<pre class="hljs"><code>main()
-{
+<pre class="hljs"><code><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
     <span class="hljs-keyword">char</span> *args[<span class="hljs-number">4</span>];
     <span class="hljs-comment">/* set args here */</span>
     rc = fork(); <span class="hljs-comment">/* returns 0 to child, pid to parent */</span>
@@ -109,5 +122,34 @@ kernel, how does a program make a system call such as <code>fork</code>?</p>
 </ul>
 </li>
 </ol>
+<h2 id="exception-handling"><a class="header-link" href="#exception-handling"></a>Exception Handling</h2>
+<ul class="list">
+<li>first to run assembly code, <code>common_exception</code><ul class="list">
+<li>save stack pointer</li>
+<li>switches SP to point to the thread&#39;s kernel stack,</li>
+<li>carefully saves app state and address of the instruction,</li>
+<li>calls <code>mips_trap</code>, passing a pointer to the trap frame as an arg.</li>
+</ul>
+</li>
+<li>After <code>mips_trap</code> is finished, the <code>common_exception</code> handler will<ul class="list">
+<li>restore application&#39;s state</li>
+<li>jump back to application instruction that was interrupted and switch back to unprivileged execution mode.</li>
+</ul>
+</li>
+<li>See <code>kern/arch/mips/locore/exception-mips1.S</code></li>
+</ul>
+<h3 id="mips_trap"><a class="header-link" href="#mips_trap"></a>mips_trap</h3>
+<p>determines what type of exception it is by looking at the exception code.</p>
+<p>there is a separate handler in the kernel for each type of exception.</p>
+<p>Kernel is just a program, a sequence of instructions.</p>
+<p>Two type of calls:</p>
+<ul class="list">
+<li>procedure calls: used by apps to execute other application code,</li>
+<li>sys calls: exec kernel code.</li>
+</ul>
+<h2 id="multiprocessing"><a class="header-link" href="#multiprocessing"></a>Multiprocessing</h2>
+<ul class="list">
+<li>The OS ensures that <em>processes are isolated from one another</em>. </li>
+</ul>
 <!--end-->
 </div>
