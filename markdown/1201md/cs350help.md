@@ -148,5 +148,10 @@ Credit to Kevin Lancot on piazza.
 
 **A** from *Anonymous Beaker*:
 > I had the same issue; check the proc_bootstrap function and more specifically the order the different things are being initiated. For me, I couldn't use any protection before the kernel proc has been initiated. Hope this helps.
+<br>
+~ An instructor (Kevin Lanctot) endorsed this answer  ~
 
-> ~ An instructor (Kevin Lanctot) endorsed this answer  ~
+**A** from Kevin Lancot:
+> 2) A work around, what I actually did, is to detect if you are in bootstrap (kproc is initialize early in proc_bootstrap) and avoid using the lock to assign a pid there because there is just one process at this point in time.
+
+ 

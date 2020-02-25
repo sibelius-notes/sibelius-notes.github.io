@@ -159,10 +159,13 @@ grep -IR --exclude-dir=compile <span class="hljs-variable">$msg</span></code></p
 <p><strong>Q</strong>: <em>Deadlock when initializing a spinlock</em></p>
 <p><strong>A</strong> from <em>Anonymous Beaker</em>:</p>
 <blockquote>
-<p>I had the same issue; check the proc_bootstrap function and more specifically the order the different things are being initiated. For me, I couldn&#39;t use any protection before the kernel proc has been initiated. Hope this helps.</p>
+<p>I had the same issue; check the proc_bootstrap function and more specifically the order the different things are being initiated. For me, I couldn&#39;t use any protection before the kernel proc has been initiated. Hope this helps.
+<br>
+~ An instructor (Kevin Lanctot) endorsed this answer  ~</p>
 </blockquote>
+<p><strong>A</strong> from Kevin Lancot:</p>
 <blockquote>
-<p>~ An instructor (Kevin Lanctot) endorsed this answer  ~</p>
+<p>2) A work around, what I actually did, is to detect if you are in bootstrap (kproc is initialize early in proc_bootstrap) and avoid using the lock to assign a pid there because there is just one process at this point in time.</p>
 </blockquote>
 <!--end-->
 </div>
