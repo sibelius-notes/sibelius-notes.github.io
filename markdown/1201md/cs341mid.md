@@ -170,3 +170,40 @@ Rational Knapsack: \\(x_i\in \mathbb Q\\) and \\(0\le x_i\le 1,1\le i \le n\\).
 See [CO 342](https://notes.sibeliusp.com/pdfs/1195/co342.pdf#page=47).
 
 # Dynamic Programming
+**Optimal Structure**:
+Examine the structure of an optimal solution to a problem
+instance I, and determine if an optimal solution for I can be
+expressed in terms of optimal solutions to certain
+subproblems of I.
+
+**Define Subproblems**:
+Define a set of subproblems S(I) of the instance I, the
+solution of which enables the optimal solution of I to be
+computed. I will be the last or largest instance in the set
+S(I).
+
+**Recurrence Relation**: Derive a recurrence relation on the optimal solutions to the
+instances in S(I). This recurrence relation should be
+completely specied in terms of optimal solutions to
+(smaller) instances in S(I) and/or base cases.
+
+**Compute Optimal Solutions**: Compute the optimal solutions to all the instances in S(I).
+Compute these solutions using the recurrence relation in a
+bottom-up fashion, filling in a table of values containing
+these optimal solutions. Whenever a particular table entry is
+lled in using the recurrence relation, the optimal solutions
+of relevant subproblems can be looked up in the table (they
+have been computed already). Thenal table entry is the
+solution to I.
+
+
+## 0-1 Knapsack
+We will need to develop a recurrence relation.
+
+Other cases omitted. One case if \\(i\ge 2, m\ge w_i\\), then
+
+\\[P[i,m] = \max\\\\{P[i-1,m], p_i+P[i-1,m-w_i]\\\\}\\]
+
+where \\(m\in [0,M]\\) is the capacity.
+
+The final answer is \\(P[n,M]\\).

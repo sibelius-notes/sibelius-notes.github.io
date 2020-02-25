@@ -57,6 +57,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#dynamic-programming">Dynamic Programming</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#0-1-knapsack">0-1 Knapsack</a>
+    </span>
     </p>
 </div>
 
@@ -189,5 +192,33 @@ problem instances, denoted \(I_1, \ldots I_a\) (these are called subproblems).</
 <h2 id="stable-matching"><a class="header-link" href="#stable-matching"></a>Stable Matching</h2>
 <p>See <a href="https://notes.sibeliusp.com/pdfs/1195/co342.pdf#page=47">CO 342</a>.</p>
 <h1 id="dynamic-programming"><a class="header-link" href="#dynamic-programming"></a>Dynamic Programming</h1>
+<p><strong>Optimal Structure</strong>:
+Examine the structure of an optimal solution to a problem
+instance I, and determine if an optimal solution for I can be
+expressed in terms of optimal solutions to certain
+subproblems of I.</p>
+<p><strong>Define Subproblems</strong>:
+Define a set of subproblems S(I) of the instance I, the
+solution of which enables the optimal solution of I to be
+computed. I will be the last or largest instance in the set
+S(I).</p>
+<p><strong>Recurrence Relation</strong>: Derive a recurrence relation on the optimal solutions to the
+instances in S(I). This recurrence relation should be
+completely specied in terms of optimal solutions to
+(smaller) instances in S(I) and/or base cases.</p>
+<p><strong>Compute Optimal Solutions</strong>: Compute the optimal solutions to all the instances in S(I).
+Compute these solutions using the recurrence relation in a
+bottom-up fashion, filling in a table of values containing
+these optimal solutions. Whenever a particular table entry is
+lled in using the recurrence relation, the optimal solutions
+of relevant subproblems can be looked up in the table (they
+have been computed already). Thenal table entry is the
+solution to I.</p>
+<h2 id="0-1-knapsack"><a class="header-link" href="#0-1-knapsack"></a>0-1 Knapsack</h2>
+<p>We will need to develop a recurrence relation.</p>
+<p>Other cases omitted. One case if \(i\ge 2, m\ge w_i\), then</p>
+<p>\[P[i,m] = \max\{P[i-1,m], p_i+P[i-1,m-w_i]\}\]</p>
+<p>where \(m\in [0,M]\) is the capacity.</p>
+<p>The final answer is \(P[n,M]\).</p>
 <!--end-->
 </div>
