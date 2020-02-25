@@ -12,6 +12,18 @@ layout: markdown
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#pre">Pre</a>
     </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#reduction">Reduction</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#3-sum">3-sum</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#target3sum">target3sum</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#3array3sum">3array3SUM</a>
+    </span>
     </p>
 </div>
 
@@ -33,9 +45,40 @@ in which for an algorithm run on an input of size \(n\),</p>
 in memory takes 1 time step.</li>
 </ul>
 <p>Big \(O, \Omega, \Theta\) notation.</p>
-<p>little-\(o\).
+<p>little-\(o,\omega\).
 \[
 \lim_{n\to\infty} {f(n)\over g(n)}=0 \implies f=o(g)
+\]</p>
+<h1 id="reduction"><a class="header-link" href="#reduction"></a>Reduction</h1>
+<p><strong>Idea</strong>: Use known algs to solve new problems.</p>
+<h2 id="3-sum"><a class="header-link" href="#3-sum"></a>3-sum</h2>
+<p>sum 3 distinct = 0</p>
+<p>Trivial3Sum \(O(n^3)\)</p>
+<p>Improved3Sum: sort, then binary search \(-B_i-B_j\). \(O(n\log n+n^2\log n)=O(n^2\log n)\).</p>
+<p>Quadratic3Sum:</p>
+<ul class="list">
+<li>sort</li>
+<li>given \(B[i]\), simultaneously scan from both ends of \(A\) looking for \(B[j] + B[k] = -B[i]\).</li>
+<li>start wit \(j=i+1\) and \(k=n\)</li>
+<li>\(O(n\log n+n^2)=O(n^2)\)</li>
+</ul>
+<p>Recursion is a special type of reduction, where we reduce the original problem to the same problem, but on a smaller input.</p>
+<h2 id="target3sum"><a class="header-link" href="#target3sum"></a>target3sum</h2>
+<p>sum 3 distinct = T</p>
+<p>\[
+(A[i]-T/3)+(A[j]-T/3)+(A[k]-T/3)=0
+\]</p>
+<p>Then let \(B[i]=A[i]-T/3\).</p>
+<h2 id="3array3sum"><a class="header-link" href="#3array3sum"></a>3array3SUM</h2>
+<p>three arrays of \(n\) distinct integers, one from each \(A,B,C\) whose sum equals 0.</p>
+<p>color them:
+\[
+\left{
+\begin{array}{l}
+D[i]\gets 10A[i]+1\\
+E[i]\gets 10B[i]+2\\
+F[i]\gets 10C[i]-3
+\end{array}\right.
 \]</p>
 <!--end-->
 </div>
