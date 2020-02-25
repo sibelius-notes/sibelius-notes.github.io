@@ -42,6 +42,15 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#examples">Examples</a>
     </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#greedy-alg">Greedy alg</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#interval-colouring">Interval Colouring</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#knapsack">Knapsack</a>
+    </span>
     </p>
 </div>
 
@@ -149,5 +158,25 @@ problem instances, denoted \(I_1, \ldots I_a\) (these are called subproblems).</
 <p>Non-dominated Points: Find all the points that are not dominated by any other point</p>
 <p>Closest Pair: Euclidean distance of two points is minimized. Using strip area: \(\delta=\min\{\delta_L,\delta_R\}\). And search in rectangle of \(2\delta\times\delta\).</p>
 <p>Fase Matrix Multiplication.</p>
+<p>Quick-Select and Median of median select.</p>
+<h1 id="greedy-alg"><a class="header-link" href="#greedy-alg"></a>Greedy alg</h1>
+<p>is one</p>
+<ol class="list">
+<li>Break down a problem into a sequence of decisions that need to be made, then</li>
+<li>Make the decisions one at a time, each time choosing the option that is optimal at the moment (and not worrying about later decisions).</li>
+</ol>
+<p>Interval Selection, Coin Change.</p>
+<h2 id="interval-colouring"><a class="header-link" href="#interval-colouring"></a>Interval Colouring</h2>
+<p>A set \(\mathcal A=\{A_1,\ldots,A_n\}\) of intervals. For \(1\le i\le n, A_i=[s_i,f_i)\) (start and finish time).</p>
+<p>Any two intervals receiving the same colour are always disjoint. We want to minimize the number of colours.</p>
+<p><strong>Alg</strong>: Sort by starting time.</p>
+<h2 id="knapsack"><a class="header-link" href="#knapsack"></a>Knapsack</h2>
+<p>Profits \(P=[p_1,\ldots,p_n]\); weights \(W=[w_1\ldots,w_n]\); and a capacity, \(M\). \
+\[
+\begin{array}{ll}
+\max &amp; \sum_{i=1}^n p_ix_i \\
+\mathrm{s.t.} &amp; \sum_{i=1}^n w_ix_i\le M
+\end{array}
+\]</p>
 <!--end-->
 </div>

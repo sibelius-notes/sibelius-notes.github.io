@@ -136,3 +136,28 @@ Non-dominated Points: Find all the points that are not dominated by any other po
 Closest Pair: Euclidean distance of two points is minimized. Using strip area: \\(\delta=\min\\\\{\delta_L,\delta_R\\\\}\\). And search in rectangle of \\(2\delta\times\delta\\).
 
 Fase Matrix Multiplication.
+
+Quick-Select and Median of median select.
+
+# Greedy alg  
+is one
+1. Break down a problem into a sequence of decisions that need to be made, then
+2. Make the decisions one at a time, each time choosing the option that is optimal at the moment (and not worrying about later decisions).
+
+Interval Selection, Coin Change.
+
+## Interval Colouring
+A set \\(\mathcal A=\\\\{A_1,\ldots,A_n\\\\}\\) of intervals. For \\(1\le i\le n, A_i=[s_i,f_i)\\) (start and finish time).
+
+Any two intervals receiving the same colour are always disjoint. We want to minimize the number of colours.
+
+**Alg**: Sort by starting time.
+
+## Knapsack
+Profits \\(P=[p_1,\ldots,p_n]\\); weights \\(W=[w_1\ldots,w_n]\\); and a capacity, \\(M\\). \
+\\[
+\begin{array}{ll}
+\max & \sum_{i=1}^n p_ix_i \\\\
+\mathrm{s.t.} & \sum_{i=1}^n w_ix_i\le M
+\end{array}
+\\]
