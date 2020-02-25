@@ -646,3 +646,40 @@ It's clearly gamelan.
 
 # Lec 12 - Feb 13rd
 Test 1. Check my [review notes](https://notes.sibeliusp.com/pdfs/1201/mus110_unit1.pdf).
+
+# Lec 13 - Feb 25th
+Classical music is dead. ?
+
+**Defn**:
+- usually defined in opposition to sth else
+- classical era refers to a specific Western music era 1730-1800
+- "Classic" connotes trend setting, universal appeal.
+
+Think about classic literature. It must have some foundation aspect to some extent.
+
+*Pop Music or Classical Music?*
+- Radiohead: Everything in its right place
+- Beethoven: Eroica
+
+## Western European Music
+### Pythagorean theory
+Ancient mathematician (c. 570 - c. 495 BC)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Gaffurio_Pythagoras.png/800px-Gaffurio_Pythagoras.png" alt="pythagoras exploring harmony and ratio with various musical instrument" width="100%">
+
+- discover the ratios that govern harmony
+- creates the system of scale in the West
+- But the ratios don't add up, requiring "equal-tempered" instrument
+
+### Metrical Rhythm
+- Based on the concept of the meter
+    - A repeating pattern of equal length beats, usually with the emphasis on the first beat
+- Developed from the division of a single long note into two or three shorter notes of equal length
+
+### Notation
+- Determines pitches and harmonies
+- Allows for complex combo of different instrument
+- Transmits across generations
+- Developed as a memory aid for chant
+
+Return back to question: *What is at stake with the terms "pop" and "classical"?*

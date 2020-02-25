@@ -207,3 +207,15 @@ Other cases omitted. One case if \\(i\ge 2, m\ge w_i\\), then
 where \\(m\in [0,M]\\) is the capacity.
 
 The final answer is \\(P[n,M]\\).
+
+## Coin Changing
+A list of coin denominations, \\(1=d_1,d_2,\ldots,d_n\\) and a
+positive integer \\(T\\), which is called the target sum.
+
+We want to find \\(A=[a_1,\ldots,a_n]\\):
+\\[
+\begin{array}{ll}
+\min & N = \sum_{i=1}^n a_i \\\\
+\mathrm{s.t.} & T= \sum_{i=1}^n a_id_i
+\end{array}
+\\]

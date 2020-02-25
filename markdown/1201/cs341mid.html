@@ -60,6 +60,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#0-1-knapsack">0-1 Knapsack</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#coin-changing">Coin Changing</a>
+    </span>
     </p>
 </div>
 
@@ -220,5 +223,15 @@ solution to I.</p>
 <p>\[P[i,m] = \max\{P[i-1,m], p_i+P[i-1,m-w_i]\}\]</p>
 <p>where \(m\in [0,M]\) is the capacity.</p>
 <p>The final answer is \(P[n,M]\).</p>
+<h2 id="coin-changing"><a class="header-link" href="#coin-changing"></a>Coin Changing</h2>
+<p>A list of coin denominations, \(1=d_1,d_2,\ldots,d_n\) and a
+positive integer \(T\), which is called the target sum.</p>
+<p>We want to find \(A=[a_1,\ldots,a_n]\):
+\[
+\begin{array}{ll}
+\min &amp; N = \sum_{i=1}^n a_i \\
+\mathrm{s.t.} &amp; T= \sum_{i=1}^n a_id_i
+\end{array}
+\]</p>
 <!--end-->
 </div>
