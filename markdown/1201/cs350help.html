@@ -1,0 +1,168 @@
+---
+title: CS 350 - Operating Systems (help page)
+layout: markdown
+---
+
+<div class="content">
+
+<h1>CS 350 - Operating Systems (help page)</h1>
+
+<div class="md-toc content">
+    <p class="md-toc-content">
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#basics">Basics</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#installing-and-configuring-os/161">Installing and Configuring OS/161</a>
+    </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#step-3:-configure-os/161-and-build-the-os/161-kernel">Step 3: Configure OS/161 and Build the OS/161 Kernel</a>
+    </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#step-4:-build-the-os/161-user-level-programs">Step 4: Build the OS/161 User-level Programs</a>
+    </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#step-5:-try-running-os/161">Step 5: Try Running OS/161</a>
+    </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#submitting">Submitting</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#350-gdb">350-gdb</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#&quot;useful&quot;-scripts">&quot;Useful&quot; Scripts</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#keep-awake">keep awake</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#350-git">350 git</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#350-find">350 find</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#assignments">Assignments</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#a2a">A2a</a>
+    </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#deadlock">Deadlock</a>
+    </span>
+    </p>
+</div>
+
+
+<!--start--><p>... Also, check my <a href="../cs350/">miscellaneous notes</a></p>
+<h1 id="basics"><a class="header-link" href="#basics"></a>Basics</h1>
+<h2 id="installing-and-configuring-os/161"><a class="header-link" href="#installing-and-configuring-os/161"></a>Installing and Configuring OS/161</h2>
+<p>From <a href="https://www.student.cs.uwaterloo.ca/~cs350/common/Install161.html"><em>Installing OS/161 in the student.cs Computing Environment</em></a>.</p>
+<p>Previous steps...</p>
+<ul class="list">
+<li>Step 0: Which Machine to Use?</li>
+<li>Step 1: Setting Up Your Environment</li>
+<li>Step 2: Obtain a Copy of the OS/161 Source Code<h3 id="step-3:-configure-os/161-and-build-the-os/161-kernel"><a class="header-link" href="#step-3:-configure-os/161-and-build-the-os/161-kernel"></a>Step 3: Configure OS/161 and Build the OS/161 Kernel</h3>
+</li>
+</ul>
+<p>In <code>cs350-os161</code>,</p>
+<pre class="hljs"><code><span class="hljs-built_in">cd</span> os161-1.99
+./configure --ostree=<span class="hljs-variable">$HOME</span>/cs350-os161/root --toolprefix=cs350-
+<span class="hljs-built_in">cd</span> kern/conf
+./config ASST0
+<span class="hljs-built_in">cd</span> ../compile/ASST0
+<span class="hljs-comment"># only need to do configuration once.</span>
+bmake depend
+bmake
+bmake install</code></pre><h3 id="step-4:-build-the-os/161-user-level-programs"><a class="header-link" href="#step-4:-build-the-os/161-user-level-programs"></a>Step 4: Build the OS/161 User-level Programs</h3>
+<p>user level, no need to do it every time, but to be safe...</p>
+<pre class="hljs"><code><span class="hljs-symbol">cd</span> $HOME/cs350-os161/os161-<span class="hljs-number">1</span>.<span class="hljs-number">99</span>
+<span class="hljs-keyword">bmake
+</span><span class="hljs-keyword">bmake </span>install</code></pre><blockquote>
+<p>You could also make it simple: <code>bmake &amp;&amp; bmake install</code>. The second cmd only run provided the first succeeded.</p>
+</blockquote>
+<h3 id="step-5:-try-running-os/161"><a class="header-link" href="#step-5:-try-running-os/161"></a>Step 5: Try Running OS/161</h3>
+<pre class="hljs"><code><span class="hljs-built_in">cd</span> <span class="hljs-variable">$HOME</span>/cs350-os161/root
+cp /u/cs350/sys161/sys161.conf sys161.conf</code></pre><p>Still, don&#39;t need to do it every time.</p>
+<p>To run the os, <code>sys161 kernel-ASST0</code> or simply <code>sys161 kernel</code>.</p>
+<h3 id="submitting"><a class="header-link" href="#submitting"></a>Submitting</h3>
+<p>In <code>cs350-os161</code> directory: <code>/u/cs350/bin/cs350_submit 0</code>.</p>
+<h2 id="350-gdb"><a class="header-link" href="#350-gdb"></a>350-gdb</h2>
+<p>Source: <a href="https://www.student.cs.uwaterloo.ca/~cs350/common/gdb.html">Debugging with GDB</a></p>
+<p>Two windows open, and both in <code>root</code> dir. Note that you need to have one <code>ssh userid@linux...</code> and the other one <code>ssh -Y userid@linux...</code>. Otherwise you will get msg: <code>Connection refused</code>.</p>
+<p>One window (main): <code>sys161 -w kernel</code>.</p>
+<p>The other one (debugger): <code>cs350-gdb kernel</code> and then,</p>
+<pre class="hljs"><code>(gdb) dir ../os161-1.99/kern/compile/ASST0
+(gdb) target remote unix:.sockets/gdb</code></pre><p>Then in debugger window:</p>
+<pre class="hljs"><code>(gdb) <span class="hljs-built_in">break</span> panic
+(gdb) c
+<span class="hljs-comment"># type commands in main window</span>
+<span class="hljs-comment"># Then it will break on panic msg</span>
+(gdb) <span class="hljs-built_in">where</span>
+(gdb) bt
+(gdb) list</code></pre><h1 id=""useful"-scripts"><a class="header-link" href="#"useful"-scripts"></a>&quot;Useful&quot; Scripts</h1>
+<h2 id="keep-awake"><a class="header-link" href="#keep-awake"></a>keep awake</h2>
+<p>Keep the connection to <code>linux.student.cs</code> environment.</p>
+<pre class="hljs"><code><span class="hljs-meta">#!/bin/bash</span>
+secs=0
+<span class="hljs-keyword">while</span> :
+<span class="hljs-keyword">do</span>
+    s=$(( secs%60 ))
+    m=$(( secs/60 ))
+    <span class="hljs-built_in">echo</span> <span class="hljs-_">-ne</span> <span class="hljs-string">" \033[31m<span class="hljs-variable">$m</span> mins <span class="hljs-variable">$s</span> secs have passed\033[0m\033[0K\r"</span>
+    sleep 1
+    : $((secs++))
+<span class="hljs-keyword">done</span></code></pre><p>Press <code>ctrl+c</code> or <code>ctrl+z</code> to terminate.</p>
+<h2 id="350-git"><a class="header-link" href="#350-git"></a>350 git</h2>
+<p>git version control. Better to store the credentials locally.</p>
+<pre class="hljs"><code><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-_">-e</span> <span class="hljs-string">"\033[31mEnter the commit message\033[0m"</span>
+<span class="hljs-built_in">printf</span> <span class="hljs-string">"&gt; "</span>
+<span class="hljs-built_in">read</span> msg
+
+<span class="hljs-built_in">echo</span> <span class="hljs-_">-e</span> <span class="hljs-string">"\033[31m************************\033[0m"</span>
+
+git add *
+git commit --allow-empty -m <span class="hljs-string">"<span class="hljs-variable">$msg</span>"</span>
+
+
+git push -u origin master</code></pre><h2 id="350-find"><a class="header-link" href="#350-find"></a>350 find</h2>
+<p>Find a function/variable. Where is it defined?!?</p>
+<pre class="hljs"><code><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-_">-e</span> <span class="hljs-string">"\033[31mEnter the key word\033[0m"</span>
+<span class="hljs-built_in">printf</span> <span class="hljs-string">"&gt; "</span>
+<span class="hljs-built_in">read</span> msg
+
+grep -IR --exclude-dir=compile <span class="hljs-variable">$msg</span></code></pre><p>credit to Kevin Lancot on piazza.</p>
+<h1 id="assignments"><a class="header-link" href="#assignments"></a>Assignments</h1>
+<h2 id="a2a"><a class="header-link" href="#a2a"></a>A2a</h2>
+<h3 id="deadlock"><a class="header-link" href="#deadlock"></a>Deadlock</h3>
+<p>After <code>sys161 kernel</code>, the OS stucks at</p>
+<pre class="hljs"><code>sys161: System/161 release 1.99.06, compiled Aug 23 2013 10:23:34
+<span class="hljs-comment"># cursor blinking here...</span></code></pre><p><strong>Q</strong>: <em>Cannot acquire lock in proc_bootstrap</em></p>
+<p><strong>A</strong>:</p>
+<blockquote>
+<p>Spinlocks are available in boot up before locks, so you might consider using a spinlock. If you are just doing something short (e.g. incrementing a count or initializing a value) in the OS, a spinlock actually would be more efficient.</p>
+</blockquote>
+<p>and look at <code>boot in startup/main.c</code>:</p>
+<pre class="hljs"><code><span class="hljs-function"><span class="hljs-keyword">void</span>
+<span class="hljs-title">boot</span><span class="hljs-params">(<span class="hljs-keyword">void</span>)</span>
+</span>{   ...
+    ram_bootstrap();
+    proc_bootstrap();
+    thread_bootstrap();
+    hardclock_bootstrap();
+    vfs_bootstrap();
+    ...
+}</code></pre><p>Credit to Kevin Lancot on piazza.</p>
+<p><strong>Q</strong>: <em>Deadlock when initializing a spinlock</em></p>
+<p><strong>A</strong> from <em>Anonymous Beaker</em>:</p>
+<blockquote>
+<p>I had the same issue; check the proc_bootstrap function and more specifically the order the different things are being initiated. For me, I couldn&#39;t use any protection before the kernel proc has been initiated. Hope this helps.</p>
+</blockquote>
+<blockquote>
+<p>~ An instructor (Kevin Lanctot) endorsed this answer  ~</p>
+</blockquote>
+<!--end-->
+</div>
