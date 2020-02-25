@@ -66,6 +66,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#longest-common-subsequence">Longest Common Subsequence</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#memoization">Memoization</a>
+    </span>
     </p>
 </div>
 
@@ -250,5 +253,8 @@ positive integer \(T\), which is called the target sum.</p>
 <li>If \(x_m=y_n\), then \(LCS(X,Y)=1+LCS(X&#39;,Y&#39;)\)</li>
 <li>Otherwise, \(LCS(X,Y)= \max \{LCS(X,Y&#39;), LCS(X&#39;,Y)\}\).</li>
 </ol>
+<p>With this info (2d array), we can print the LCS, starting from bottom right.</p>
+<h2 id="memoization"><a class="header-link" href="#memoization"></a>Memoization</h2>
+<p>Remeber which subproblems have been solved; if same subproblem is encountered more than once during the recursion, the solution will be <em>looked up in a table</em> rather than being recalculated.</p>
 <!--end-->
 </div>

@@ -234,3 +234,8 @@ Find a maximum length sequence \\(Z\\) that is a subsequence of both \\(X\\) and
 Consider \\(X'=(x_1,\ldots,x_{m-1})\\) and \\(Y'=(y_1,\ldots,y_{n-1})\\).
 1. If \\(x_m=y_n\\), then \\(LCS(X,Y)=1+LCS(X',Y')\\)
 2. Otherwise, \\(LCS(X,Y)= \max \\\\{LCS(X,Y'), LCS(X',Y)\\\\}\\).
+
+With this info (2d array), we can print the LCS, starting from bottom right.
+
+## Memoization
+Remeber which subproblems have been solved; if same subproblem is encountered more than once during the recursion, the solution will be *looked up in a table* rather than being recalculated.
