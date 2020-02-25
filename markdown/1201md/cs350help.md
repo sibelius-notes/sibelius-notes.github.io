@@ -116,8 +116,7 @@ grep -IR --exclude-dir=compile $msg
 credit to Kevin Lancot on piazza.
 
 # Assignments
-## A2a
-### Deadlock
+## A2a - Deadlock
 After `sys161 kernel`, the OS stucks at
 ```bash
 sys161: System/161 release 1.99.06, compiled Aug 23 2013 10:23:34
@@ -153,5 +152,3 @@ Credit to Kevin Lancot on piazza.
 
 **A** from Kevin Lancot:
 > 2) A work around, what I actually did, is to detect if you are in bootstrap (kproc is initialize early in proc_bootstrap) and avoid using the lock to assign a pid there because there is just one process at this point in time.
-
- 
