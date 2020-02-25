@@ -59,10 +59,12 @@ three arrays of \\(n\\) distinct integers, one from each \\(A,B,C\\) whose sum e
 
 color them:
 \\[
-\left\\{
+\left \\{
 \begin{array}{l}
 D[i]\gets 10A[i]+1\\\\
 E[i]\gets 10B[i]+2\\\\
 F[i]\gets 10C[i]-3
 \end{array}\right.
 \\]
+
+To show ... is a reduction, we show that \\(\alpha\\) is a solution to instance
