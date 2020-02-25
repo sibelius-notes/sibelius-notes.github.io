@@ -133,6 +133,6 @@ sloppy and exact recurrence.
 ## Examples
 Non-dominated Points: Find all the points that are not dominated by any other point
 
-Closest Pair: Euclidean distance of two points is minimized. Using strip area: \\(\delta=\min\\{\delta_L,\delta_R\\}\\). And search in rectangle of \\(2\delta\times\delta\\).
+Closest Pair: Euclidean distance of two points is minimized. Using strip area: \\(\delta=\min\\\\{\delta_L,\delta_R\\\\}\\). And search in rectangle of \\(2\delta\times\delta\\).
 
 Fase Matrix Multiplication.
