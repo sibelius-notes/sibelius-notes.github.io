@@ -154,10 +154,19 @@ Any two intervals receiving the same colour are always disjoint. We want to mini
 **Alg**: Sort by starting time.
 
 ## Knapsack
-Profits \\(P=[p_1,\ldots,p_n]\\); weights \\(W=[w_1\ldots,w_n]\\); and a capacity, \\(M\\). \
+Profits \\(P=[p_1,\ldots,p_n]\\); weights \\(W=[w_1\ldots,w_n]\\); and a capacity, \\(M\\).
 \\[
 \begin{array}{ll}
 \max & \sum_{i=1}^n p_ix_i \\\\
 \mathrm{s.t.} & \sum_{i=1}^n w_ix_i\le M
 \end{array}
 \\]
+
+0-1 Knapsack: \\(x_i\in \\\\{0,1\\\\}, 1\le i \le n\\).
+
+Rational Knapsack: \\(x_i\in \mathbb Q\\) and \\(0\le x_i\le 1,1\le i \le n\\).
+
+## Stable Matching
+See [CO 342](https://notes.sibeliusp.com/pdfs/1195/co342.pdf#page=47).
+
+# Dynamic Programming

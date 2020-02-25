@@ -643,3 +643,6 @@ It's clearly gamelan.
     - whistle
     - stamping sound (work sounds)
     - polyrhythm
+
+# Lec 12 - Feb 13rd
+Test 1. Check my [review notes](https://notes.sibeliusp.com/pdfs/1201/mus110_unit1.pdf).

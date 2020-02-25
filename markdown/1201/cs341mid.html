@@ -51,6 +51,12 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#knapsack">Knapsack</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#stable-matching">Stable Matching</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#dynamic-programming">Dynamic Programming</a>
+    </span>
     </p>
 </div>
 
@@ -171,12 +177,17 @@ problem instances, denoted \(I_1, \ldots I_a\) (these are called subproblems).</
 <p>Any two intervals receiving the same colour are always disjoint. We want to minimize the number of colours.</p>
 <p><strong>Alg</strong>: Sort by starting time.</p>
 <h2 id="knapsack"><a class="header-link" href="#knapsack"></a>Knapsack</h2>
-<p>Profits \(P=[p_1,\ldots,p_n]\); weights \(W=[w_1\ldots,w_n]\); and a capacity, \(M\). \
+<p>Profits \(P=[p_1,\ldots,p_n]\); weights \(W=[w_1\ldots,w_n]\); and a capacity, \(M\).
 \[
 \begin{array}{ll}
 \max &amp; \sum_{i=1}^n p_ix_i \\
 \mathrm{s.t.} &amp; \sum_{i=1}^n w_ix_i\le M
 \end{array}
 \]</p>
+<p>0-1 Knapsack: \(x_i\in \{0,1\}, 1\le i \le n\).</p>
+<p>Rational Knapsack: \(x_i\in \mathbb Q\) and \(0\le x_i\le 1,1\le i \le n\).</p>
+<h2 id="stable-matching"><a class="header-link" href="#stable-matching"></a>Stable Matching</h2>
+<p>See <a href="https://notes.sibeliusp.com/pdfs/1195/co342.pdf#page=47">CO 342</a>.</p>
+<h1 id="dynamic-programming"><a class="header-link" href="#dynamic-programming"></a>Dynamic Programming</h1>
 <!--end-->
 </div>
