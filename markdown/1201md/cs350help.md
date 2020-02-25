@@ -9,6 +9,7 @@ Previous steps...
 - Step 0: Which Machine to Use?
 - Step 1: Setting Up Your Environment
 - Step 2: Obtain a Copy of the OS/161 Source Code
+
 ### Step 3: Configure OS/161 and Build the OS/161 Kernel
 
 In `cs350-os161`,
