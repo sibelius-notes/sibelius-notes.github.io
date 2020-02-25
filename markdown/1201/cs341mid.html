@@ -36,6 +36,12 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#recursion">Recursion</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#the-d&amp;c-design-strategy">The D&amp;C design strategy</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#examples">Examples</a>
+    </span>
     </p>
 </div>
 
@@ -127,11 +133,21 @@ T(n)\in
 \Theta(n^y) &amp; \text{if}~y&gt;x.
 \end{cases}
 \]</p>
-<p>\(y&lt;x\): heavy leaves: the value of the recursion tree is dominated by
+<p>\(y&lt;x\): <strong>heavy leaves</strong>: the value of the recursion tree is dominated by
 the values of the leaf nodes.</p>
-<p>balanced: the values of the levels of the recursion tree are
+<p><strong>balanced</strong>: the values of the levels of the recursion tree are
 constant (except for the last level).</p>
-<p>heavy top: the value of the recursion tree is dominated by the
+<p><strong>heavy top</strong>: the value of the recursion tree is dominated by the
 value of the root node.</p>
+<h2 id="the-d&c-design-strategy"><a class="header-link" href="#the-d&c-design-strategy"></a>The D&amp;C design strategy</h2>
+<p><strong>divide</strong>: Given a problem instance \(I\), construct one or more smaller
+problem instances, denoted \(I_1, \ldots I_a\) (these are called subproblems).</p>
+<p><strong>conquer</strong>: For \(1\le j \le a\), solve instance \(I_j\) recursively, obtain solutions \(S_1,\ldots,S_a\).</p>
+<p><strong>combine</strong>: Given \(S_1,\ldots,S_a\), use an appropriate combining function to find the solution \(S\) to the problem instance \(I\).</p>
+<p>sloppy and exact recurrence.</p>
+<h2 id="examples"><a class="header-link" href="#examples"></a>Examples</h2>
+<p>Non-dominated Points: Find all the points that are not dominated by any other point</p>
+<p>Closest Pair: Euclidean distance of two points is minimized. Using strip area: \(\delta=\min{\delta_L,\delta_R}\). And search in rectangle of \(2\delta\times\delta\).</p>
+<p>Fase Matrix Multiplication.</p>
 <!--end-->
 </div>

@@ -111,11 +111,28 @@ T(n)\\in
 \\end{cases}
 \\]
 
-\\(y<x\\): heavy leaves: the value of the recursion tree is dominated by
+\\(y<x\\): **heavy leaves**: the value of the recursion tree is dominated by
 the values of the leaf nodes.
 
-balanced: the values of the levels of the recursion tree are
+**balanced**: the values of the levels of the recursion tree are
 constant (except for the last level).
 
-heavy top: the value of the recursion tree is dominated by the
+**heavy top**: the value of the recursion tree is dominated by the
 value of the root node.
+
+## The D&C design strategy
+**divide**: Given a problem instance \\(I\\), construct one or more smaller
+problem instances, denoted \\(I_1, \ldots I_a\\) (these are called subproblems).
+
+**conquer**: For \\(1\le j \le a\\), solve instance \\(I_j\\) recursively, obtain solutions \\(S_1,\ldots,S_a\\).
+
+**combine**: Given \\(S_1,\ldots,S_a\\), use an appropriate combining function to find the solution \\(S\\) to the problem instance \\(I\\).
+
+sloppy and exact recurrence.
+
+## Examples
+Non-dominated Points: Find all the points that are not dominated by any other point
+
+Closest Pair: Euclidean distance of two points is minimized. Using strip area: \\(\delta=\min\\{\delta_L,\delta_R\\}\\). And search in rectangle of \\(2\delta\times\delta\\).
+
+Fase Matrix Multiplication.
