@@ -63,6 +63,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#coin-changing">Coin Changing</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#longest-common-subsequence">Longest Common Subsequence</a>
+    </span>
     </p>
 </div>
 
@@ -213,9 +216,9 @@ completely specied in terms of optimal solutions to
 Compute these solutions using the recurrence relation in a
 bottom-up fashion, filling in a table of values containing
 these optimal solutions. Whenever a particular table entry is
-lled in using the recurrence relation, the optimal solutions
+filled in using the recurrence relation, the optimal solutions
 of relevant subproblems can be looked up in the table (they
-have been computed already). Thenal table entry is the
+have been computed already). The final table entry is the
 solution to I.</p>
 <h2 id="0-1-knapsack"><a class="header-link" href="#0-1-knapsack"></a>0-1 Knapsack</h2>
 <p>We will need to develop a recurrence relation.</p>
@@ -233,5 +236,19 @@ positive integer \(T\), which is called the target sum.</p>
 \mathrm{s.t.} &amp; T= \sum_{i=1}^n a_id_i
 \end{array}
 \]</p>
+<p>Here we use two things to store:</p>
+<ul class="list">
+<li>\(N[i,t]\): optimal soln to the subproblem consisting of the first \(i\) coin denominations \(d_1,\ldots,d_i\) and target sum \(t\).</li>
+<li>\(A[i,t]\): number of coins of type \(d_i\) used in \(N[i,t]\).</li>
+</ul>
+<p>Complexity: \(O(DT^2)\). Large <em>n</em> and small <em>T</em> is where this DP solution shines!</p>
+<h2 id="longest-common-subsequence"><a class="header-link" href="#longest-common-subsequence"></a>Longest Common Subsequence</h2>
+<p>Two sequences \(X=(x_1,\ldots,x_m)\) and \(Y=(y_1,\ldots,y_n)\) over finite alphabet \(\Gamma\).</p>
+<p>Find a maximum length sequence \(Z\) that is a subsequence of both \(X\) and \(Y\).</p>
+<p>Consider \(X&#39;=(x_1,\ldots,x_{m-1})\) and \(Y&#39;=(y_1,\ldots,y_{n-1})\).</p>
+<ol class="list">
+<li>If \(x_m=y_n\), then \(LCS(X,Y)=1+LCS(X&#39;,Y&#39;)\)</li>
+<li>Otherwise, \(LCS(X,Y)= \max \{LCS(X,Y&#39;), LCS(X&#39;,Y)\}\).</li>
+</ol>
 <!--end-->
 </div>

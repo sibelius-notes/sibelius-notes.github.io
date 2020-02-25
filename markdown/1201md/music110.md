@@ -683,3 +683,53 @@ Ancient mathematician (c. 570 - c. 495 BC)
 - Developed as a memory aid for chant
 
 Return back to question: *What is at stake with the terms "pop" and "classical"?*
+
+Some inclass discussions...
+
+Christoph Willibald Gluck, *Orfeo ed Euridice* 1774
+
+Then fill the listening response sheet according to this recording.
+
+## Is Music a Universal Language?
+Look up in these two articles on Learn:
+[Is Music a Universal Language?](https://notanothermusichistorycliche.blogspot.com/2018/01/is-music-universal-language.html)
+
+[A classical kid learns to love pop-and wonders why he has to make a choice](https://www.newyorker.com/magazine/2004/02/16/listen-to-this?fbclid=IwAR04adsxcLHtYF4Qilz_Y-SWJa6t7064ivrgEJHgdz6RsyDytr7FWi72Hpw) by Alex Ross.
+
+* Linda Shaver-Gleason says no
+    - On two fronts: universal and language
+- language
+    - language has specific semantic content: words have fixed meanings
+- universal
+    - melody: Pythagorean theorem doesn't solve
+    - harmony: major and minor not straightforward
+
+Geeting behind the claim: universal
+- common humanity
+- Innate Value to certain music
+- one system by which to evaluate music
+
+Universals in Music
+- human body is musically inclined
+- All music utterances share basic traits
+    - beginning and end, repetition and so on
+- Found in all societies
+
+"Classical" Music has context
+- If music is not, then all music needs a text
+
+Ross, "A classical kid...": If you don't know the ritual, then even paying the ticket, still not belong to here.
+
+Concert Hall Ritual
+- Knowledge of the ritial allows you to belong to art society
+- Personal expression is avoided to allow the music to speak for itself
+- Formal attire gives respect to the event
+- Money is exchanged, but never seen
+
+"Stab of intrusive otherness": Eroica
+
+Ross, "A classical kid..."
+- Classical music is dead, but music is alive to those who would listen
+- Classical music is created in a particular cultural context, but a little knowledge of the context can open the classical music world
+- Classical music maintains a distinct conversation that spans across generations and places
+- The invention of notation allows for the creation and transmission of long and complex music across centuries and continents

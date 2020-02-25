@@ -191,9 +191,9 @@ completely specied in terms of optimal solutions to
 Compute these solutions using the recurrence relation in a
 bottom-up fashion, filling in a table of values containing
 these optimal solutions. Whenever a particular table entry is
-lled in using the recurrence relation, the optimal solutions
+filled in using the recurrence relation, the optimal solutions
 of relevant subproblems can be looked up in the table (they
-have been computed already). Thenal table entry is the
+have been computed already). The final table entry is the
 solution to I.
 
 
@@ -219,3 +219,18 @@ We want to find \\(A=[a_1,\ldots,a_n]\\):
 \mathrm{s.t.} & T= \sum_{i=1}^n a_id_i
 \end{array}
 \\]
+
+Here we use two things to store:
+- \\(N[i,t]\\): optimal soln to the subproblem consisting of the first \\(i\\) coin denominations \\(d_1,\ldots,d_i\\) and target sum \\(t\\).
+- \\(A[i,t]\\): number of coins of type \\(d_i\\) used in \\(N[i,t]\\).
+
+Complexity: \\(O(DT^2)\\). Large *n* and small *T* is where this DP solution shines!
+
+## Longest Common Subsequence
+Two sequences \\(X=(x_1,\ldots,x_m)\\) and \\(Y=(y_1,\ldots,y_n)\\) over finite alphabet \\(\Gamma\\).
+
+Find a maximum length sequence \\(Z\\) that is a subsequence of both \\(X\\) and \\(Y\\).
+
+Consider \\(X'=(x_1,\ldots,x_{m-1})\\) and \\(Y'=(y_1,\ldots,y_{n-1})\\).
+1. If \\(x_m=y_n\\), then \\(LCS(X,Y)=1+LCS(X',Y')\\)
+2. Otherwise, \\(LCS(X,Y)= \max \\\\{LCS(X,Y'), LCS(X',Y)\\\\}\\).

@@ -705,3 +705,129 @@ Choral Verses:
 Adapted:
 - ritornello theme derived from chorale
 - imitation of ATB: derived from chorale
+
+# Late Baroque Opera
+in France & England: Lully & Purcell
+
+## Baroque Opera in France
+- under Louis XIV: dominated by Lully & Quinault
+- resisted following Italy. love hate relationship with Italy.
+- national French Opera Style: influenced by 2 strong Fren traditions:
+    - court ballet: "passacaille"
+    - theatre: classical tragedy
+- poetry & drama given priority on stage
+- opera = *tragédie en musique –> tragédie lyrique*
+
+**Jean-Baptiste Lully (1632-87)**
+- king was impressed by his dance, then play a role in his court. Then become more involved.
+- exclusive right to write operas.
+
+### tragédie lyrique
+:(lyric tragedy) = French 17C & 18C form of opera, pioneered by Lully, combining French classical drama & ballet with music, dance and spectacle
+
+**features**:
+- classical French drama, ballet, French song tradition & new recitative
+- dramatic structure:  prologue + 5 acts
+- plots: mythology, gods
+- orchestra: all strings (24 violins): 5 parts, some winds & long ritornello
+- dramatic eloquence over vocal brilliance
+- static monologue airs (arias)
+- spectacular choruses & dancing
+
+### Lully, Armide, 1686
+Armide: Princess of Damascus, sorceress
+
+Renaud: crusader knight, put into magic sleep
+- Armide puts spell on him to fall in love with here & abandon his crusade
+- saved by 2 fellow knights (diamond shield)
+- resumes his quest & she destroyes her realm
+
+ActII/sc5: intends to kill him but finds herself unable
+
+Let's examine some components.
+
+a) **Overture** = (opening) an orchestral piece introducing an opera or other long work
+- typical French overture:
+- in 2 parts: &nbsp;&nbsp;&nbsp; ||: A:||: B :||
+
+A:
+- slow, duple meter, majestic quality
+- homophonic
+- 2 performance pratices:
+    - dotted rhythms (overdotting): dotted note held longer than written, while short one is shortened
+    - notes inegales (unequal notes)
+
+B:
+- faster tempo, compound triple meter (6/4)
+- imitative entrances
+- end of B: slower tempo & duple meter, majestic
+
+Divertissement (diversion) at center of every act:
+- extended episodes: songs, chorues, instrumental dances. aimed at pleasing audience
+
+b) **Act II, sc 4: Divertissement (conclusion):** Laissons au tendre amour (Let tender love)
+- long interlude of ballet, solo airs, choral singing, &spectacle, intended as entertainment
+- Form: prelude -> chorus
+
+**importance of recitative**: adapting recitative to French language . Note that it's always connected to the language, speech. French is really different from Italian.
+
+*Features of Lully's recitative:*
+- scored for solo voice & bass continuo
+- alternates freely between bars of 2,3,4 beats
+- natural declamation of text; as speechlike as possible:
+    - modeled on French actors' declamation
+    - some sections: more regular metrical style & active bass
+
+
+
+
+c) **Act II/v: prelude, recitative & aria:** “Enfin il est en ma puissance” [Finally he is in my power]
+- prelude: tense, some characteristics of overture
+- recitative:
+    - shifting meter
+    - accompanied only by bass continuo
+    - dramatic use of rests
+    - m.66: more regular meter recitative
+        - end of recitative before aria
+- air (aria)
+    - introduced by orchestra
+	- Aria: accompanied only by basso continuo
+	- style & meter: minuet style (triple meter)
+	- text-setting: syllabic
+	- simpler than contemporary Italian arias
+
+## Opera in England:
+At the same time, not too long afterwards, 3 years later, we have the only? English opera in Baroque.
+
+Henry Purcell (1659-1695), Dido and Aeneas (1689 not sure...)
+- Purcell's only all-sung opera
+- 3 acts, 2 sc in Acts II and III
+- libretto: Nahum Tate (derived from Virgil's Aeneid): significantly altered
+- date & venue of premiere disputed:
+    - Josiah Priest’s Boarding School for Young Girls, Chelsea (1689): first known performance
+    - political allegory (托寓)?
+- sung in English
+
+### NAWM 90a-c: from end of opera, Act III
+3 parts: a) recitative -> b) aria -> c) chorus
+
+a) **Recitative, Dido: “Thy hand Belinda”**
+- word-painting:
+    - melisma on “darkness”;
+    - sighing figures on “death”, etc;
+    - stepwise ➘ : 7th  (C-D)
+
+b) **Dido’s lament (aria), "When I am laid in Earth"**
+
+**ground bass (basso ostinato)**: “persistent bass”:
+
+= a pattern in the bass that repeats while the melody above it changes
+- repeating bass line: heard **11** times
+- ➘ G - F♯ -  F♮ -  E♮ -  E♭ -  D - G
+- ground bass: string orchestra + basso continuo
+
+* melody: dissonant against bass line.
+
+c) **Chorus (repeats), Cupids: "With drooping wings"**  ➘ ➘ ➘
+- Ends opera: like Greek chorus
+- Word painting
