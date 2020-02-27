@@ -733,3 +733,43 @@ Ross, "A classical kid..."
 - Classical music is created in a particular cultural context, but a little knowledge of the context can open the classical music world
 - Classical music maintains a distinct conversation that spans across generations and places
 - The invention of notation allows for the creation and transmission of long and complex music across centuries and continents
+
+# Lec 14 - Feb 27th
+
+## Ritual
+- Audience actions
+- Space
+- All wear formal attire  
+
+## Classical Era Style (1730 - 1800)
+played by instrument, you don't view it as a song, but piece.
+
+dance music.
+
+shift dramatically: interllectural developments.
+
+Enlightenment.
+
+Rousseau: Universalism. Understand the orgin. If universal language, it should be universally understandable to everyone.
+
+Texture:
+- monophony: all singing same melody
+- homophony: memory with very basic accompany underneath
+- polyphony
+
+- Accessible, easy listening highly valued
+    - Accessible: balanced, symmetrical phrases
+    - Simply harmonies with clear dominant-tonic progressions
+    - Simpler, primarily homophonic texture
+- Light, optimistic about the future, blurring of class distinctions
+- Focus on instrumental genres
+
+*Is Tonal Harmony a Language?*
+- Each harmony has a function V->I. I is your home: begin and end at home in Classical era.
+- The changes are regular and predictable.
+
+Subversion of Functional Harmony
+- Lizzo, "Good as Hell"
+- I-V-vi
+
+*How is Classical Music Learned?*

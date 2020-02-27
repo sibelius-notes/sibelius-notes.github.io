@@ -831,3 +831,93 @@ b) **Dido’s lament (aria), "When I am laid in Earth"**
 c) **Chorus (repeats), Cupids: "With drooping wings"**  ➘ ➘ ➘
 - Ends opera: like Greek chorus
 - Word painting
+
+## Handel, Giulio Cesare [Julius Caesar]
+Bach worked harder but paid less than Handel.
+
+George Frideric Handel (1685-1759):
+begin of opera in Harmwork. Also wrote for public. London public.
+
+One of his famous works is *Giulio Cesare [Julius Caesar]*.
+- Libretto: Nicola Haym (1679-1729): in Italian! Fine with London audience...
+- premiere: Londone (King's Theatre), 1724
+- Setting: Egypt, 47-48 BCE
+- 3 acts
+- Story: historical plot
+    - Characters
+    - Composer as dramatist: How does the music tell the story?
+
+**Opera Seria**
+= Italian serious opera based on classical mythology or history
+
+**Recitative-Aria pairs**: kinetic-static (stop & start)
+- very little action on stage: reported in recitative
+- 29 arias in *Julius Caesar*: arrival points!
+- uses **da capo aria** almost exclusively:
+    - “da capo”
+        - = Italian for “from the top”
+        - = Instructions in score: sing from the beginning again
+    - aria form with 2 sections:
+        - 1st section (A) repeated after 2nd (B)
+        - ABA’ form – A’: singer improvises embellishments. (If they sing exactly same, will be booted off the stage by the audience)
+
+**Castrato** = male soprano/alto through medical procedure
+- high (pitch) voice
+- Castrato roles: Nero, Caesar & Ptolemy
+- leading parts played by treble voices
+- projected virility & range of voice
+- now sung by countertenor (or women)
+- popular esp in Italy, Varican; opera until 1830
+
+An example: *Alessandro Moreschi, Castrato, Ave Maria*. Old audio... (last surviving castrato)
+
+### Act II, sc. 1-2
+What is happening in this scene?
+- Cleopatra (disguised as Lidia) puts on a spectacle for Caesar:
+    - in costume as “Virtue” on throne surrounded by 9 muses (9 musicians on stage)
+    - Caesar is overcome with the beauty (sights & sounds!)
+
+sc. 1: Recitative: “Eseguisti”:
+- setting the stage
+- *dialogue*: Nireno & Cleopatra -> Cl leaves; Caesar arrives
+- *Recitative*: secco (dry): recitative accompanied only by basso continuo
+
+sc: 2: Recitative with Sinfonia:
+- *Recitative*: short dialogue between Caesar & Niren
+    - Caesar interjects: reacts to music <br> overlaps with
+- *Opening of Sinfonia*: introduces Cleopatra’s aria
+
+
+"V’adoro, pupille"[I adore you, eyes]: DA CAPO ARIA: A B A’:
+
+| sinfonia  | Caesar | A    | B     |  [Caesar interrupts] | A’|
+| :----- | :----- | :--- | :---- | :----------------- | :-----|
+| instrumental introduction| interrupts| aria | |recitative secco for dramatic effect | aria da capo|
+
+**A**: F major, Largo tempo
+- Sarabande rhythm (triple meter)
+- 4-note, dotted-rhythm motive (from sinfonia)
+- accompanied by soloists on stage*
+- sparse accompaniment by orchestra
+- \*group of soloists on stage: integrated into plot
+
+**B**: keys: d - g - a minor
+- constant ♪ rhythm
+- Orchestra drops out (only soloists on stage)
+- Cleopatra comes to a stop<br>[Caesar interrupts]
+
+**A’**: “da capo”
+- singer improvises added embellishments
+
+seemingly strict form. Handel keeps music move forward with Caesar reacting.
+
+### Messaih (oratorio), 1742 original Dublin version
+- Opening Sinfonia
+    - modelled on French overtures
+        - in 2 parts
+        - slow opening; stately
+        - fast 2nd part in imitation
+- "Rejoice Greatly" (aira)
+    - original version in 12/8 meter
+    - manuscript: 12/8 but 4/4 (C) in bass
+- more common version 4/4 (~1749)
