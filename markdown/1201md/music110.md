@@ -773,3 +773,5 @@ Subversion of Functional Harmony
 - I-V-vi
 
 *How is Classical Music Learned?*
+
+ notes will be added later in the weekend.
