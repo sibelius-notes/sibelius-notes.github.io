@@ -648,7 +648,7 @@ It's clearly gamelan.
 Test 1. Check my [review notes](https://notes.sibeliusp.com/pdfs/1201/mus110_unit1.pdf).
 
 # Lec 13 - Feb 25th
-Classical music is dead. ?
+Classical music is dead. ? The limit.
 
 **Defn**:
 - usually defined in opposition to sth else
@@ -735,10 +735,29 @@ Ross, "A classical kid..."
 - The invention of notation allows for the creation and transmission of long and complex music across centuries and continents
 
 # Lec 14 - Feb 27th
+## Classical Music Image Search
+- Dead white male composers
+- Music notation
+- String instruments
+- Ancient history
+## Methods of Defining Classical Music Cultrually
+- Recording industry marketing
+- Ritual of performance
+- Historical Era
+- Social Function
+- Means of Transmission
+- The Canon
 
 ## Ritual
 - Audience actions
+    - Sitting
+    - Clapping (but not whooping) for musicians as they enter
+    - Silence before and during the music
+    - Silence between movements or sets
+    - Clapping afterwards
 - Space
+    - Physical divider between listener and performer
+    - All visual focus on performer
 - All wear formal attire  
 
 ## Classical Era Style (1730 - 1800)
@@ -763,15 +782,43 @@ Texture:
     - Simpler, primarily homophonic texture
 - Light, optimistic about the future, blurring of class distinctions
 - Focus on instrumental genres
+    - Four movement symphony with clear forms
+    - Four movement string quartet
 
 *Is Tonal Harmony a Language?*
 - Each harmony has a function V->I. I is your home: begin and end at home in Classical era.
 - The changes are regular and predictable.
+- The beginning and ending is the same
+
 
 Subversion of Functional Harmony
 - Lizzo, "Good as Hell"
 - I-V-vi
 
-*How is Classical Music Learned?*
+## Haydn, String Quartet Op. 33 No. 2, finale (The “Joke”)
+Listen to this piece and analyze the music elements: timbre, dynamics and so on. (in class discussions)
 
- notes will be added later in the weekend.
+Side note: Opus, number is a way to number the piece. Look it up.
+
+- Rondo Form (ABACA form)
+- Harmonic language is tonal
+    - Slow and clear harmonic changes
+    - Dominant-tonic move is most important
+- Melody in the top part (violin)
+    - Homophony: other strings accompany
+- Metre is very clear and regular
+    - Rhythms clearly articulate the metre
+- Regular, predictable phrase lengths
+
+Now let's consider Merriam’s ten functions of music. We kinda could not get a clear distincition between  aesthetic enjoyment and entertainment, they might happen at the same time.
+
+*How is Classical Music Learned?*
+Notation, Formal training. Private instruction
+
+Other Terms for “Classical Music”
+- Western Art Music
+- Notated Music
+- Music of the Western European Tradition
+- Conservatory Music
+- Concert Hall Music
+- ?
