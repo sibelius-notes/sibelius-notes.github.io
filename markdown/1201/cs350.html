@@ -197,7 +197,7 @@ func2 {
 <p>If you can&#39;t acq a lock, you can&#39;t fall asleep. Special implementation of acq.</p>
 <pre class="hljs"><code><span class="hljs-comment">// true if you get the lock</span>
 <span class="hljs-comment">// false if cannot, but do not go to sleep.</span>
-<span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">try_acq</span><span class="hljs-params">()</span> </span>{
+<span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">try_acq</span><span class="hljs-params">(lk)</span> </span>{
     acq(lk-&gt;spin)
         <span class="hljs-keyword">if</span> (lk-&gt;held) {
             release(lk-&gt;spin)
@@ -216,6 +216,27 @@ func2 {
     acq(A)
 }</code></pre><p>But it&#39;s nasty if we want acq lots of things, also it&#39;s spinning.</p>
 <p><strong>Resource ordering</strong>: assign every single resource a single number. Acquire them only in strictly increasing order. There&#39;s problem if different programmers have different rules.</p>
+<p><em>In class problem: queuexfer</em></p>
+<blockquote>
+<p>Suppose that a threaded program has N queues of items. The program needs to support an operation called <code>Transfer(i,j)</code>. Each call to <code>Transfer</code> will transfer a single item from the i-th queue to the jth queue,
+unless there is nothing in the i-th queue, in which case the call will not affect the queues.
+<br>The program will have multiple concurrent threads, each of which may call <code>Transfer</code> zero or more times.
+<br>How would you use locks to ensure that <code>Transfer</code> operations are atomic? Specifically, how many locks
+would you use, what would each lock protect, and when would the locks be acquired and released to ensure
+that transfers are atomic?</p>
+</blockquote>
+<p>One way: no hold and wait. Downside: cannot both lock at the same time, busy wait: spin.</p>
+<p>Alternate: resource ordering.</p>
+<pre class="hljs"><code>Transfer(Q_a, Q_b) {
+    <span class="hljs-comment">// check resource number</span>
+    <span class="hljs-keyword">if</span> (a &lt; b) {
+        acq(qa)
+        acq(qb)
+    } <span class="hljs-keyword">else</span> {
+        acq(qb)
+        acq(qa)
+    }
+}</code></pre><p>Downside: you need to sort if you acq all resources \(\Theta(n\log n)\).</p>
 <h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
 <p>is an is an environment in which an application program runs.</p>
 <p>includes virtualized resources that its program can use: one (or more) threads</p>
