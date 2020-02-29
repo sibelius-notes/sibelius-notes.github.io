@@ -97,26 +97,31 @@ Most of the type we are using: when we are woken back up, we need to recheck the
 <tbody>
 <tr>
 <td>
-<code>c++
-struct semaphore *sa, *sb, *sc;</code>
+<pre>
+struct semaphore <em>sa;
+struct semaphore </em>sb;
+struct semaphore *sc;
+</pre>
 </td>
 <td>
-<code>c++
+<pre>
 sa = sem_create(&quot;A&quot;, 1);
 sb = sem_create(&quot;B&quot;, 1);
-sc = sem_create(&quot;C&quot;, 0);</code>
+sc = sem_create(&quot;C&quot;, 0);
+</pre>
 </td>
 <td>
-<code>c++
+<pre>
 void func1() {
     P(sa);
     funcA();
     V(sa);
     P(sc);
-}</code>
+}
+</pre>
 </td>
 <td>
-<pre lang="c++">
+<pre>
 void func2() {
     P(sb);
     funcB();
