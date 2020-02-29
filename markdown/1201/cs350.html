@@ -10,6 +10,12 @@ layout: markdown
 <div class="md-toc content">
     <p class="md-toc-content">
     <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#intro">Intro</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#threads">Threads</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#synchronization">Synchronization</a>
     </span>
     <span class="md-toc-item md-toc-h2">
@@ -63,8 +69,70 @@ layout: markdown
 
 <!--start--><p>miscellaneous notes... Also, check my <a href="../cs350help/">help page</a></p>
 <p>Lesley&#39;s lectures recording starts from lec 7.</p>
+<h1 id="intro"><a class="header-link" href="#intro"></a>Intro</h1>
+<p>OS:</p>
+<ul class="list">
+<li>manages resource</li>
+<li>creates execution environments.</li>
+</ul>
+<p>Three views:</p>
+<ol class="list">
+<li>Application view: provide services<ul class="list">
+<li>part cop: provides protection from program errors. part facilitator: abstract interface to underlying system</li>
+<li>What services?<ul class="list">
+<li>resources</li>
+<li>interfaces</li>
+<li>isolates running programs</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>System view: solve problems<ul class="list">
+<li>manages the hardware resources</li>
+<li>allocates resources</li>
+<li>controls the access to or sharing of resources among programs.</li>
+</ul>
+</li>
+<li>Implementation view: how is it built?<ul class="list">
+<li><strong>concurrent</strong>: multi progs or seqs of instrs <em>running, or appearing to run, at the same time</em>.</li>
+<li><strong>real-time</strong>: must respond to an event in a specific amount of time.</li>
+</ul>
+</li>
+</ol>
+<p><strong>kernel</strong>: The operating system kernel is the part of the operating system that responds to system calls, interrupts and exceptions.</p>
+<p><strong>operation system</strong>: The operating system as a whole includes the kernel, and may include other related programs that provide servicesfor applications.  This may include things like:</p>
+<ul class="list">
+<li>utility programs (e.g. disk defragmenter, task manager)</li>
+<li>command interpreters (e.g. cmd.exe in Windows, bash in Linux)</li>
+<li>programming libraries (e.g. POSIX threads in Linux)</li>
+</ul>
+<p><strong>monolithic kernel</strong>: the entire operating system (which includes the device drivers, file system, and the application IPC) is working in kernel space. &quot;everything and the kitchen sink&quot; is a part of the
+kernel. This includes device drivers, file system, virtual memory, etc.</p>
+<p><strong>microkernel</strong>: only absolutely necessary components are a part of the
+kernel. All other elements are user programs.</p>
+<p><strong>real-time OS</strong>: an OS with stringent event response times,
+guarantees, and preemptive scheduling.</p>
+<p>The <strong>execution environment</strong> provided by the OS includes a variety of
+<strong>abstract entities</strong> that can be manipulated by a running program.</p>
+<h1 id="threads"><a class="header-link" href="#threads"></a>Threads</h1>
+<p>seq of instructions.</p>
+<p>a single program can have</p>
+<ul class="list">
+<li>diff threads responsible for different roles</li>
+<li>multi threads --- same roles</li>
+</ul>
+<p>Reasons we use threads:</p>
+<ul class="list">
+<li>Efficient Use of Resource</li>
+<li>parallelism</li>
+<li>responsiveness</li>
+<li>priority</li>
+<li>modularization</li>
+</ul>
 <h1 id="synchronization"><a class="header-link" href="#synchronization"></a>Synchronization</h1>
-<hr>
+<blockquote>
+<p>Lesley&#39;s recordings start here.</p>
+</blockquote>
 <p>We left last class: semaphores and CV. Different primitives for concurrency problem.</p>
 <ul class="list">
 <li>Semaphore:<ul class="list">
