@@ -86,23 +86,49 @@ Most of the type we are using: when we are woken back up, we need to recheck the
 <p><strong>CPU</strong>: fetch the program counter, decode it, execute it and move on. But it&#39;s more complex: pipeline, branch prediction, reorder instrs... It also has memory model and so that you can notify the CPU: multi-threaded code is going on here. Barrier or fence instrs to entry gate: CPU stops rearranging. And until end gate, turn on opt back on. Don&#39;t need to worry in OS161.</p>
 <p><em>In class problem: semaphore to CV</em></p>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Global Vars</th>
-<th style="text-align:left">Initialization</th>
-<th style="text-align:left">Function <code>func1</code></th>
-<th style="text-align:left">Function <code>func2</code></th>
-</tr>
-</thead>
+    <thead>
+        <tr>
+            <th>Global Vars</th>
+            <th>Initialization</th>
+            <th>Function <code>func1</code></th>
+            <th>Function <code>func2</code></th>
+        </tr>
+    </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><code>c++</code></td>
-</tr>
-<tr>
-<td style="text-align:left"><code>struct semaphore *sa, *sb, *sc;</code></td>
+<td>
+<code>c++
+struct semaphore *sa, *sb, *sc;</code>
+</td>
+<td>
+<code>c++
+sa = sem_create(&quot;A&quot;, 1);
+sb = sem_create(&quot;B&quot;, 1);
+sc = sem_create(&quot;C&quot;, 0);</code>
+</td>
+<td>
+<code>c++
+void func1() {
+    P(sa);
+    funcA();
+    V(sa);
+    P(sc);
+}</code>
+</td>
+<td>
+<code>c++
+void func2() {
+    P(sb);
+    funcB();
+    V(sb);
+    P(sc);
+}</code>
+</td>
 </tr>
 </tbody>
 </table>
+
+
 <h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
 <p>is an is an environment in which an application program runs.</p>
 <p>includes virtualized resources that its program can use: one (or more) threads</p>
