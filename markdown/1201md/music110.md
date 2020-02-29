@@ -740,6 +740,7 @@ Ross, "A classical kid..."
 - Music notation
 - String instruments
 - Ancient history
+
 ## Methods of Defining Classical Music Cultrually
 - Recording industry marketing
 - Ritual of performance
@@ -799,6 +800,9 @@ Subversion of Functional Harmony
 Listen to this piece and analyze the music elements: timbre, dynamics and so on. (in class discussions)
 
 Side note: Opus, number is a way to number the piece. Look it up.
+
+The reason why other people named it "Joke" is because its cadence: Make people feel it's the end but it continues playing and so on so forth...
+
 
 - Rondo Form (ABACA form)
 - Harmonic language is tonal

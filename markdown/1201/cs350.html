@@ -10,6 +10,12 @@ layout: markdown
 <div class="md-toc content">
     <p class="md-toc-content">
     <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#synchronization">Synchronization</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#other-sources-of-race-conditions">Other sources of Race conditions</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#process">Process</a>
     </span>
     <span class="md-toc-item md-toc-h2">
@@ -50,6 +56,53 @@ layout: markdown
 
 
 <!--start--><p>miscellaneous notes... Also, check my <a href="../cs350help/">help page</a></p>
+<p>Lesley&#39;s lectures recording starts from lec 7.</p>
+<h1 id="synchronization"><a class="header-link" href="#synchronization"></a>Synchronization</h1>
+<hr>
+<p>We left last class: semaphores and CV. Different primitives for concurrency problem.</p>
+<ul class="list">
+<li>Semaphore:<ul class="list">
+<li>any number of resources. <code>P</code> acquire, <code>V</code> release. Use as a lock. Keep in mind it&#39;s not lock. There&#39;s no built-in protection for it, no track of ownership: someone else tries to release <strong>binary</strong> semaphore on me, they can, and we have race condition.</li>
+<li><strong>counting</strong>: keep counting # of resources</li>
+<li><strong>barrier</strong>: force one thread to wait for others to complete before we proceed. Not separate implementation.</li>
+<li>keep in mind do not touch the counter directly. It&#39;s a shared resource.</li>
+</ul>
+</li>
+<li>CV: you are inside critical section. You really need condition to be true to proceed. But the lock you own it the lock you are using to protect the shared variable that has unique value. CV lets us do simultaneously safely let go of the lock and fall asleep so that another thread can modify the condition and wake us back up.<br>
+Most of the type we are using: when we are woken back up, we need to recheck the condition.</li>
+</ul>
+<h2 id="other-sources-of-race-conditions"><a class="header-link" href="#other-sources-of-race-conditions"></a>Other sources of Race conditions</h2>
+<p>The previous RC is because of the code you wrote.</p>
+<p><strong>memory models</strong> describe how thread access to memory in shared regions behave. a memory model tells the compiler and CPU which optimizations can be performed</p>
+<p><strong>compiler</strong>: it does optimization. Reduce the # of assembly instrs: load and stores.</p>
+<pre class="hljs"><code><span class="hljs-keyword">int</span> sharedTotal = <span class="hljs-number">0</span>;
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">FuncA</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-comment">//... code that uses sharedTotal ...</span>
+}
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">FuncB</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-comment">//... code that uses sharedTotal ...</span>
+}</code></pre><p>Instead of go to RAM, much more efficient to keep it in register: register allocation. Here&#39;s the problem: It doesn&#39;t know if A and B run at the same time. If one put in <code>$3</code> one in <code>$8</code>. Big race condtion. There are also others optimization.</p>
+<p>Always load/store var from RAM, not reordering: <code>volatile</code>. Disable compiler optimizations, but not solve race conditions in your codes.</p>
+<p><strong>CPU</strong>: fetch the program counter, decode it, execute it and move on. But it&#39;s more complex: pipeline, branch prediction, reorder instrs... It also has memory model and so that you can notify the CPU: multi-threaded code is going on here. Barrier or fence instrs to entry gate: CPU stops rearranging. And until end gate, turn on opt back on. Don&#39;t need to worry in OS161.</p>
+<p><em>In class problem: semaphore to CV</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Global Vars</th>
+<th style="text-align:left">Initialization</th>
+<th style="text-align:left">Function <code>func1</code></th>
+<th style="text-align:left">Function <code>func2</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>c++</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>struct semaphore *sa, *sb, *sc;</code></td>
+</tr>
+</tbody>
+</table>
 <h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
 <p>is an is an environment in which an application program runs.</p>
 <p>includes virtualized resources that its program can use: one (or more) threads</p>
