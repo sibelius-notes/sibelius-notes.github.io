@@ -15,6 +15,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#other-sources-of-race-conditions">Other sources of Race conditions</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#deadlocks">Deadlocks</a>
+    </span>
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#process">Process</a>
     </span>
@@ -142,23 +145,78 @@ count = <span class="hljs-number">0</span>;
 
 func1 {
     lock_acq(A)
-    funcA()
+        funcA()
     lock_rel(A)
+
     lock_acq(C)
-    count--
-    <span class="hljs-keyword">if</span> (count &lt; <span class="hljs-number">0</span>) cv_wait(cv, C)
+        count--
+        <span class="hljs-keyword">if</span> (count &lt; <span class="hljs-number">0</span>) cv_wait(cv, C)
     lock_rel(C)        
 }
 
 func2 {
     lock_acq(B)
-    funcB()
+        funcB()
     lock_rel(B)
+
     lock_acq(C)
-    <span class="hljs-keyword">if</span> (count &lt; <span class="hljs-number">0</span>) cv_signal(cv, C)
-    count++
+        <span class="hljs-keyword">if</span> (count &lt; <span class="hljs-number">0</span>) cv_signal(cv, C)
+        count++
     lock_rel(C)
-}</code></pre><h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
+}</code></pre><h2 id="deadlocks"><a class="header-link" href="#deadlocks"></a>Deadlocks</h2>
+<pre class="hljs"><code>lock lockA, lockB;
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">FuncA</span><span class="hljs-params">()</span> </span>{
+    lock_acquire(lockA)
+    lock_acquire(lockB)
+    ...
+    lock_release(lockA)
+    lock_release(lockB)
+}
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">FuncB</span><span class="hljs-params">()</span> </span>{
+    lock_acquire(lockB)
+    lock_acquire(lockA)
+    ...
+    lock_release(lockB)
+    lock_release(lockA)
+}</code></pre><ul class="list">
+<li>Thread 1 executes <code>lock_acquire(lockA)</code></li>
+<li>Thread 2 executes <code>lock_acquire(lockB)</code></li>
+<li>Thread 1 executes <code>lock_acquire(lockB)</code></li>
+<li>Thread 2 executes <code>lock_acquire(lockA)</code></li>
+</ul>
+<p>Deadlock only shows up under certain order of thread execution. It is very difficult to detect: between problematic wait and wait on purpose.</p>
+<p>Generally, it happens when multiple threads, each acquire multiple resources.</p>
+<ol class="list">
+<li>don&#39;t try to aquire a lock if you have already owned.</li>
+<li>Two strategies</li>
+</ol>
+<p><strong>No hold and wait</strong>: while you own the resources, no wait (no block, no spin).
+<br> Being able to aquire all resources at once. We need special implementation of lock to support.</p>
+<p>If you can&#39;t acq a lock, you can&#39;t fall asleep. Special implementation of acq.</p>
+<pre class="hljs"><code><span class="hljs-comment">// true if you get the lock</span>
+<span class="hljs-comment">// false if cannot, but do not go to sleep.</span>
+<span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">try_acq</span><span class="hljs-params">()</span> </span>{
+    acq(lk-&gt;spin)
+        <span class="hljs-keyword">if</span> (lk-&gt;held) {
+            release(lk-&gt;spin)
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+        }
+        lk-&gt;held =  <span class="hljs-literal">true</span>
+        lk-&gt;owner = me
+    release(lk-&gt;spin)
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+}</code></pre><p>Solution to previous deadlock:</p>
+<pre class="hljs"><code>acq(A) <span class="hljs-comment">// I own nothing and safely acquire</span>
+
+<span class="hljs-keyword">while</span> (!try_acq(B)) {
+    release(A)
+    <span class="hljs-comment">// if you want to improve the performance, put yield here</span>
+    acq(A)
+}</code></pre><p>But it&#39;s nasty if we want acq lots of things, also it&#39;s spinning.</p>
+<p><strong>Resource ordering</strong>: assign every single resource a single number. Acquire them only in strictly increasing order. There&#39;s problem if different programmers have different rules.</p>
+<h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
 <p>is an is an environment in which an application program runs.</p>
 <p>includes virtualized resources that its program can use: one (or more) threads</p>
 <p>each program’s process <em>isolates</em> it from other programs in other processes</p>
