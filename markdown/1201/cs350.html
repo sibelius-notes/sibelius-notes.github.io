@@ -37,6 +37,9 @@ layout: markdown
         <a class="md-toc-inner" href="#system-calls">System Calls</a>
     </span>
     <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#kernel-privilege">Kernel Privilege</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#user-and-kernel-stacks">User and Kernel Stacks</a>
     </span>
     <span class="md-toc-item md-toc-h2">
@@ -151,7 +154,7 @@ func1 {
     lock_acq(C)
         count--
         <span class="hljs-keyword">if</span> (count &lt; <span class="hljs-number">0</span>) cv_wait(cv, C)
-    lock_rel(C)        
+    lock_rel(C)
 }
 
 func2 {
@@ -306,6 +309,9 @@ clone</li>
 <li>The kernel code runs at the highest privilege level, where any CPU instructions can be executed.</li>
 <li>Program in user space cannot execute code or instructions belonging to a higher-level of privilege.</li>
 </ul>
+<h2 id="kernel-privilege"><a class="header-link" href="#kernel-privilege"></a>Kernel Privilege</h2>
+<p>The CPU implements different levels (or rings) of execution
+privilege as a security and isolation mechanism. Kernel code at highest level.</p>
 <p><strong>Key Question</strong>: Since application programs cannot directly call the
 kernel, how does a program make a system call such as <code>fork</code>?</p>
 <ol class="list">
@@ -326,10 +332,29 @@ kernel, how does a program make a system call such as <code>fork</code>?</p>
 </ul>
 </li>
 </ol>
+<p>When CPU receives interrupt or exception, your program stops executing and exception/interrupt handler is called, part of kernel code. Then CPU switches from unprivileged mode to privileged mode, so now we can execute kernel&#39;s code. Produces the trapframe: storing every single reg value (including special ones) so we can return to the exact point of program execution after we handle.</p>
+<p>Extra: <a href="https://meltdownattack.com/">Spectre and Meltdown Papers</a>.</p>
 <p><strong>Key Question</strong>: There is only one <code>syscall</code> exception, <code>EX_SYS</code>. So how does the OS distinguish between a <code>fork</code> and <code>getpid</code> system call?</p>
-<p>system call codes</p>
+<p><em>system call codes</em></p>
+<ul class="list">
+<li>The kernel expects the code to be placed in a specified location before executing <code>syscall</code> (for OS/161 on MIPS, reg <code>v0</code>)</li>
+<li>the codes and code location are part of the kernal ABI (Application Binary Interface)</li>
+</ul>
+<p>ABI is not secret because we need user land to know that info and it absolutely tells nothing what&#39;s happening in the kernel -- blackbox.</p>
+<p>Example:</p>
+<ul class="list">
+<li><code>li v0, 0</code> where 0 is the syscall code for <code>fork</code>.</li>
+<li>Syscall parameters: load into regs <code>a0</code> to <code>a3</code>. If more, put into stack or heap, and put the address here.</li>
+<li>Use <code>syscall</code> to raise exception.</li>
+</ul>
+<p>Return two values:</p>
+<ul class="list">
+<li>reg <code>a3</code>: success/fail</li>
+<li>reg <code>v0</code>: return value/error code</li>
+</ul>
 <h2 id="user-and-kernel-stacks"><a class="header-link" href="#user-and-kernel-stacks"></a>User and Kernel Stacks</h2>
-<p>Every OS/161 process thread has two stacks, although it only uses one at a time.</p>
+<p>Every OS/161 process thread has <strong>two</strong> stacks, although it only uses one at a time.</p>
+<p>The only thing that goes into user stack us the user application stack. But before we save the trapframe, we must change the stack pointer from user stack to kernel stack.</p>
 <ol class="list">
 <li>The User (Application) Stack is used while the thread is executing application code.<ul class="list">
 <li>Saw this in <a href="/19-05/CS241/">CS 241</a>.</li>
@@ -356,11 +381,25 @@ kernel, how does a program make a system call such as <code>fork</code>?</p>
 <li>jump back to application instruction that was interrupted and switch back to unprivileged execution mode.</li>
 </ul>
 </li>
-<li>See <code>kern/arch/mips/locore/exception-mips1.S</code></li>
+<li>See <code>kern/arch/mips/locore/exception-mips1.S</code> (assembly file)</li>
 </ul>
 <h3 id="mips_trap"><a class="header-link" href="#mips_trap"></a>mips_trap</h3>
 <p>determines what type of exception it is by looking at the exception code.</p>
-<p>there is a separate handler in the kernel for each type of exception.</p>
+<p>(there is a separate handler in the kernel for each type of exception.) Based on that exception code, call appropriate handler.</p>
+<ul class="list">
+<li>interrupt? call <code>mainbus_interrupt</code></li>
+<li>address translation exception? <code>vm_fault</code></li>
+<li>system call? call <code>syscall</code> (kernel function), passing it the trap
+frame pointer</li>
+<li><code>kern/arch/mips/syscall/syscall.c</code></li>
+</ul>
+<p>See <code>kern/arch/mips/locore/trap.c</code></p>
+<p><strong>One important thing</strong>: when exception raised, one of the first thing <code>common_exception</code> does it to disable the interrupt on CPU. When we call <code>mips_trap</code>, interrupt exceptions are off for now.</p>
+<ul class="list">
+<li>If it was actually an interrupt, they stay off until  the hardware has been handled.</li>
+<li>If not, don&#39;t have to call <code>mainbus_interrupt</code> to handle it, then we are ok to be interrupted again. It is not hardware interrupt, then we take interrupt exceptions back on.</li>
+</ul>
+<p><strong>increase program counter</strong>: if we don&#39;t do this, the system call exception will be raised over and over again. We are halting execution and doing sth else, thus we need manully. 4 byte.</p>
 <p>Kernel is just a program, a sequence of instructions.</p>
 <p>Two type of calls:</p>
 <ul class="list">
@@ -399,5 +438,7 @@ mode (<code>rfe</code>: magical instruction). User code continues execution.</p>
 <h2 id="inter-process-communication-(ipc)"><a class="header-link" href="#inter-process-communication-(ipc)"></a>Inter-Process Communication (IPC)</h2>
 <p>Processes can talk to each other. IPC is a family of methods used to send data between processes.</p>
 <p>File, Socket, Pipe, Shared Memory, Message Passing/Queue.</p>
+<hr>
+<p>Lec 11 ...</p>
 <!--end-->
 </div>
