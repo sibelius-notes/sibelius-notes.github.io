@@ -98,8 +98,8 @@ Most of the type we are using: when we are woken back up, we need to recheck the
 <tr>
 <td>
 <pre>
-struct semaphore <em>sa;
-struct semaphore </em>sb;
+struct semaphore *sa;
+struct semaphore *sb;
 struct semaphore *sc;
 </pre>
 </td>
@@ -134,8 +134,31 @@ void func2() {
 </tbody>
 </table>
 
+<p>Re-implement <code>func1</code> and <code>func2</code> using lock and cv.</p>
+<p><strong>Solution</strong>: func1 is consumer, func2 is producer.</p>
+<pre class="hljs"><code>lock A, B, C;
+CV cv;
+count = <span class="hljs-number">0</span>;
 
-<h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
+func1 {
+    lock_acq(A)
+    funcA()
+    lock_rel(A)
+    lock_acq(C)
+    count--
+    <span class="hljs-keyword">if</span> (count &lt; <span class="hljs-number">0</span>) cv_wait(cv, C)
+    lock_rel(C)        
+}
+
+func2 {
+    lock_acq(B)
+    funcB()
+    lock_rel(B)
+    lock_acq(C)
+    <span class="hljs-keyword">if</span> (count &lt; <span class="hljs-number">0</span>) cv_signal(cv, C)
+    count++
+    lock_rel(C)
+}</code></pre><h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
 <p>is an is an environment in which an application program runs.</p>
 <p>includes virtualized resources that its program can use: one (or more) threads</p>
 <p>each program’s process <em>isolates</em> it from other programs in other processes</p>
