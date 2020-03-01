@@ -456,7 +456,7 @@ variable (or more generally, a shared resource) and must not be
 concurrently executed by more than one thread.</p>
 </blockquote>
 <pre class="hljs"><code>Acquire(<span class="hljs-keyword">bool</span> *lock) {
-<span class="hljs-keyword">while</span> (*lock == <span class="hljs-literal">true</span>) ; <span class="hljs-comment">// spin until lock is free</span>
+<span class="hljs-keyword">while</span> (*lock == <span class="hljs-literal">true</span>) {}; <span class="hljs-comment">// spin until lock is free</span>
     *lock = <span class="hljs-literal">true</span>;       <span class="hljs-comment">// grab the lock</span>
 }
 
@@ -484,6 +484,68 @@ Release(<span class="hljs-keyword">bool</span> *lock) {
 <li>ARM’s <code>LDREX</code> and <code>STREX</code></li>
 <li>MIPS’s <code>ll</code> and <code>sc</code></li>
 </ol>
+<p>More on MIPS Synchronization Instructions</p>
+<ul class="list">
+<li><code>ll</code> (load linked): load value at address addr.</li>
+<li><code>sc</code> (store conditional): store new value at addr if the value at addr has not changed since the instruction <code>ll</code> was executed.</li>
+<li><code>sc</code> returns SUCCESS if the value stored at the address has not changed since <code>ll</code> was executed.</li>
+<li><code>sc</code> does not check what that value at the address is. It only checks if it has changed.</li>
+</ul>
+<pre class="hljs"><code>MIPSTestAndSet(addr, <span class="hljs-keyword">new</span> val) {
+    old val = ll addr           <span class="hljs-comment">// test</span>
+    status = sc addr, <span class="hljs-keyword">new</span> val   <span class="hljs-comment">// set</span>
+    <span class="hljs-keyword">if</span> ( status == SUCCEED ) <span class="hljs-keyword">return</span> old val
+    <span class="hljs-keyword">else</span> <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>            <span class="hljs-comment">// lock is being held</span>
+}
+
+Acquire(<span class="hljs-keyword">bool</span> *lock) {           <span class="hljs-comment">// spin until hold lock</span>
+    <span class="hljs-keyword">while</span>( MIPSTestAndSet(lock, <span class="hljs-literal">true</span>) == <span class="hljs-literal">true</span> ) {};
+}</code></pre><table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:center">lock value at <code>ll</code></th>
+<th style="text-align:center">lock value before <code>sc</code></th>
+<th style="text-align:center">lock value after <code>sc</code></th>
+<th style="text-align:center">status</th>
+<th style="text-align:left">Lock State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1.</td>
+<td style="text-align:center">false</td>
+<td style="text-align:center">false</td>
+<td style="text-align:center">true</td>
+<td style="text-align:center">succeed</td>
+<td style="text-align:left"><strong>lock acquired</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">2.</td>
+<td style="text-align:center">true</td>
+<td style="text-align:center">true</td>
+<td style="text-align:center">true</td>
+<td style="text-align:center">succeed</td>
+<td style="text-align:left"><strong>keep spinning, no lock</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">3.</td>
+<td style="text-align:center">false</td>
+<td style="text-align:center">true</td>
+<td style="text-align:center">true</td>
+<td style="text-align:center">fail</td>
+<td style="text-align:left"><strong>keep spinning, no lock</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">4.</td>
+<td style="text-align:center">true</td>
+<td style="text-align:center">false</td>
+<td style="text-align:center">false</td>
+<td style="text-align:center">fail</td>
+<td style="text-align:left"><strong>keep spinning, no lock</strong></td>
+</tr>
+</tbody>
+</table>
 <h2 id="spinlocks-in-os/161"><a class="header-link" href="#spinlocks-in-os/161"></a>Spinlocks in OS/161</h2>
 <p>A <strong>spinlock</strong> is a lock that spins, i.e. it repeatedly tests the lock’s availability in a loop until the lock is obtained.</p>
 <p>When threads uses a spinlock they <strong>busy-wait</strong> i.e. it uses the CPU while they wait for the lock.</p>
@@ -495,7 +557,7 @@ Release(<span class="hljs-keyword">bool</span> *lock) {
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_init</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> spinlock *lk)</span></span>;
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_acquire</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> spinlock *lk)</span></span>;
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_release</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> spinlock *lk)</span></span>;</code></pre><p><code>spinlock_acquire</code> calls <code>spinlock_data_testandset</code> in a loop until the lock is acquired.</p>
-<p>OS/161 uses ll and sc to implement test-and-set</p>
+<p>OS/161 uses <code>ll</code> and <code>sc</code> to implement test-and-set.</p>
 <blockquote>
 <p>Lesley&#39;s recordings start here.</p>
 </blockquote>
