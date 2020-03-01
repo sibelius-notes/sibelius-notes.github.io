@@ -37,6 +37,24 @@ layout: markdown
         <a class="md-toc-inner" href="#spinlocks-in-os/161">Spinlocks in OS/161</a>
     </span>
     <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#os/161-locks">OS/161 Locks</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#spinlocks-and-locks:-similarities-and-difference">Spinlocks and Locks: Similarities and Difference</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#wait-channels">Wait Channels</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#semaphore">Semaphore</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#semaphore-implementation">Semaphore Implementation</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#condition-variables">Condition Variables</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#other-sources-of-race-conditions">Other sources of Race conditions</a>
     </span>
     <span class="md-toc-item md-toc-h2">
@@ -491,10 +509,10 @@ Release(<span class="hljs-keyword">bool</span> *lock) {
 <li><code>sc</code> returns SUCCESS if the value stored at the address has not changed since <code>ll</code> was executed.</li>
 <li><code>sc</code> does not check what that value at the address is. It only checks if it has changed.</li>
 </ul>
-<pre class="hljs"><code>MIPSTestAndSet(addr, <span class="hljs-keyword">new</span> val) {
+<pre class="hljs"><code>MIPSTestAndSet(addr, new_val) {
     old val = ll addr           <span class="hljs-comment">// test</span>
-    status = sc addr, <span class="hljs-keyword">new</span> val   <span class="hljs-comment">// set</span>
-    <span class="hljs-keyword">if</span> ( status == SUCCEED ) <span class="hljs-keyword">return</span> old val
+    status = sc addr, new_val   <span class="hljs-comment">// set</span>
+    <span class="hljs-keyword">if</span> ( status == SUCCEED ) <span class="hljs-keyword">return</span> old_val
     <span class="hljs-keyword">else</span> <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>            <span class="hljs-comment">// lock is being held</span>
 }
 
@@ -558,7 +576,148 @@ Acquire(<span class="hljs-keyword">bool</span> *lock) {           <span class="h
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_acquire</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> spinlock *lk)</span></span>;
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_release</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> spinlock *lk)</span></span>;</code></pre><p><code>spinlock_acquire</code> calls <code>spinlock_data_testandset</code> in a loop until the lock is acquired.</p>
 <p>OS/161 uses <code>ll</code> and <code>sc</code> to implement test-and-set.</p>
-<blockquote>
+<h2 id="os/161-locks"><a class="header-link" href="#os/161-locks"></a>OS/161 Locks</h2>
+<p>In addition to spinlocks, OS/161 also has <strong>locks</strong>.</p>
+<p>Like spinlocks, locks are used to enforce mutual exclusion, i.e. they
+are a type of mutex.</p>
+<pre class="hljs"><code><span class="hljs-keyword">struct</span> lock *mylock = lock_create(<span class="hljs-string">"LockName"</span>);
+
+lock_acquire(mylock);
+    <span class="hljs-comment">// critical section</span>
+lock_release(mylock);</code></pre><p>Spinlocks spin whereas locks block:</p>
+<ul class="list">
+<li><code>spinlock_acquire</code> spins until the lock can be acq</li>
+<li><code>lock_acquire</code> blcoks until the lock can be acq</li>
+</ul>
+<p>Locks can be used to protect larger critical sections without being a burden on the CPU.</p>
+<h2 id="spinlocks-and-locks:-similarities-and-difference"><a class="header-link" href="#spinlocks-and-locks:-similarities-and-difference"></a>Spinlocks and Locks: Similarities and Difference</h2>
+<p>For both you would</p>
+<ul class="list">
+<li>acquire it, access the critical section, then</li>
+<li>release it when you have finished accessing the critical section.</li>
+</ul>
+<p>Both have owners and can only be released by their owner.</p>
+<ul class="list">
+<li>A spinlock is owned by a CPU.</li>
+<li>A lock is owned by a thread.</li>
+</ul>
+<p>In OS/161, and most modern OSs, interrupts are disabled on the CPU that holds the spinlock. Preemption is disabled on that CPU (hence, owned by that CPU) but not other CPUs, which minimizes spinning. So don&#39;t use spinlocks to protect large critical sections.</p>
+<p>Spin Locks</p>
+<ul class="list">
+<li><code>void spinlock_init(struct spinlock *lk)</code></li>
+<li><code>void spinlock_acquire(struct spinlock *lk)</code></li>
+<li><code>void spinlock_release(struct spinlock *lk)</code></li>
+<li><code>bool spinlock_do_i_hold(struct spinlock *lk)</code></li>
+<li><code>void spinlock_cleanup(struct spinlock *lk)</code>
+Locks</li>
+<li><code>struct lock *lock_create(const char *name)</code></li>
+<li><code>void lock_acquire(struct lock *lk)</code></li>
+<li><code>void lock_release(struct lock *lk)</code></li>
+<li><code>bool lock_do_i_hold(struct lock *lk)</code></li>
+<li><code>void lock_destroy(struct lock *lk)</code></li>
+</ul>
+<h2 id="wait-channels"><a class="header-link" href="#wait-channels"></a>Wait Channels</h2>
+<p>When a thread blocks, it stops running, i.e. stops using the processor.</p>
+<pre class="hljs"><code><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">wchan_sleep</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> wchan *wc)</span></span>;     <span class="hljs-comment">// blocks calling thread on wait channel wc</span>
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">wchan_wakeall</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> wchan *wc)</span></span>;   <span class="hljs-comment">// unblock all threads sleeping on wait channel wc</span>
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">wchan_wakeone</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> wchan *wc)</span></span>;   <span class="hljs-comment">// unblock one thread sleeping on wait channel wc</span>
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">wchan_lock</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> wchan *wc)</span></span>;      <span class="hljs-comment">// prevent operations on wait channel wc</span></code></pre><h2 id="semaphore"><a class="header-link" href="#semaphore"></a>Semaphore</h2>
+<p>is a synchronization primitive that can be used to enforce mutual exclusion requirements. It can also be used to solve other kinds of synchronization problems.</p>
+<p>It&#39;s an object has an integer value which supports two operations:</p>
+<ul class="list">
+<li><strong>P</strong>: if the semaphore value is greater than 0, decrement it. Otherwise, wait until the value is greater than 0 and then decrement it.</li>
+<li><strong>V</strong>: : increment the value of the semaphore</li>
+</ul>
+<p>By defn, <code>P</code> and <code>V</code> operations of a semaphore are atomic.</p>
+<p><strong>Difference between a lock and a semaphore</strong></p>
+<ul class="list">
+<li><code>V</code> does not have to follow <code>P</code></li>
+<li>A semaphore can start with a count of 0</li>
+<li>Calling <code>V</code> increments the semaphore by 1.</li>
+<li>Semaphore do not have owners.</li>
+</ul>
+<p><strong>Producer/Consumer Synchronization with Bounded Buffer</strong></p>
+<ol class="list">
+<li>producers: threads that (create and) add items to a buffer</li>
+<li>consumers: thread that remove (and process) items from the buffer</li>
+</ol>
+<h2 id="semaphore-implementation"><a class="header-link" href="#semaphore-implementation"></a>Semaphore Implementation</h2>
+<pre class="hljs"><code><span class="hljs-keyword">struct</span> semaphore {
+    <span class="hljs-keyword">char</span> *sem_name;             <span class="hljs-comment">// for debug purposes</span>
+    <span class="hljs-keyword">struct</span> wchan *sem_wchan;    <span class="hljs-comment">// queue where threads wait</span>
+    <span class="hljs-keyword">struct</span> spinlock sem_lock;   <span class="hljs-comment">// to synch access to this struct</span>
+    <span class="hljs-keyword">volatile</span> <span class="hljs-keyword">int</span> sem_count ;    <span class="hljs-comment">// value of the semaphore</span>
+};
+
+<span class="hljs-function"><span class="hljs-keyword">void</span>
+<span class="hljs-title">P</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> semaphore *sem)</span>
+</span>{
+        KASSERT(sem != <span class="hljs-literal">NULL</span>);
+        KASSERT(curthread-&gt;t_in_interrupt == <span class="hljs-literal">false</span>);
+
+    spinlock_acquire(&amp;sem-&gt;sem_lock);
+        <span class="hljs-keyword">while</span> (sem-&gt;sem_count == <span class="hljs-number">0</span>) {       <span class="hljs-comment">// prepare to sleep</span>
+            wchan_lock(sem-&gt;sem_wchan);
+            spinlock_release(&amp;sem-&gt;sem_lock);
+            wchan_sleep(sem-&gt;sem_wchan);    <span class="hljs-comment">// sleep</span>
+            spinlock_acquire(&amp;sem-&gt;sem_lock);
+        }
+        KASSERT(sem-&gt;sem_count &gt; <span class="hljs-number">0</span>);
+        sem-&gt;sem_count--;                   <span class="hljs-comment">// claim one item</span>
+    spinlock_release(&amp;sem-&gt;sem_lock);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">void</span>
+<span class="hljs-title">V</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> semaphore *sem)</span>
+</span>{
+        KASSERT(sem != <span class="hljs-literal">NULL</span>);
+
+    spinlock_acquire(&amp;sem-&gt;sem_lock);
+
+        sem-&gt;sem_count++;
+        KASSERT(sem-&gt;sem_count &gt; <span class="hljs-number">0</span>);
+    wchan_wakeone(sem-&gt;sem_wchan);
+
+    spinlock_release(&amp;sem-&gt;sem_lock);
+}
+</code></pre><p>Incorrect Semaphore Implementation: Suppose <code>spinlock_release</code> preceeds <code>wchan_lock</code>... Thread 1 is blocked on a semaphore that has resources.</p>
+<p>Instead Suppose <code>wchan_lock</code> preceeds <code>spinlock_release</code>.</p>
+<h2 id="condition-variables"><a class="header-link" href="#condition-variables"></a>Condition Variables</h2>
+<p>OS/161 supports another common synchronization primitive:
+<strong>condition variables</strong>.</p>
+<p>Each CV is intended to work together with a lock: only used from  within the critical section that is protected by the lock.</p>
+<ol class="list">
+<li><strong>wait</strong>: This causes the calling thread to block, and it releases the lock associated with the condition variable. Once the thread is unblocked it reacquires the lock.</li>
+<li><strong>signal</strong>: If threads are blocked on the signaled condition variable, then one of those threads is unblocked.</li>
+<li><strong>broadcast</strong>: Like signal, but unblocks all threads that are blocked on the condition variable.</li>
+</ol>
+<pre class="hljs"><code><span class="hljs-comment">// solution 1</span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">SafeToWalk</span><span class="hljs-params">()</span> </span>{
+    lock_acquire(geeseMutex);
+    <span class="hljs-keyword">while</span> (numberOfGeese &gt; <span class="hljs-number">0</span>) {
+        lock_release(geeseMutex); <span class="hljs-comment">// allow access</span>
+        <span class="hljs-comment">// allow some context switch to accur and another thread might then acq the lock and modify numberOfGeese</span>
+        lock_acquire(geeseMutex); <span class="hljs-comment">// restrict access</span>
+    }
+    GoToClass();
+    lock_release(geeseMutex);
+}
+
+<span class="hljs-comment">// soln2</span>
+<span class="hljs-keyword">int</span> <span class="hljs-keyword">volatile</span> numberOfGeese = <span class="hljs-number">100</span>;
+lock geeseMutex;
+cv zeroGeese;
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">SafeToWalk</span><span class="hljs-params">()</span> </span>{
+    lock_acquire(geeseMutex);
+    <span class="hljs-keyword">while</span> (numberOfGeese &gt; <span class="hljs-number">0</span>) {
+        cv_wait(zeroGeese, geeseMutex);
+    }
+    GoToClass();
+    lock_release(geeseMutex);
+}</code></pre><blockquote>
 <p>Lesley&#39;s recordings start here.</p>
 </blockquote>
 <p>We left last class: semaphores and CV. Different primitives for concurrency problem.</p>
