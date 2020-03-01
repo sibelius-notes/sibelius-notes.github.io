@@ -186,6 +186,7 @@ In-Class Problems: forkprint
 main() {
     helper(NULL,0);
 }
+
 void
 helper(void *p, unsigned long i) { /* parameter p is not used */
     if (i &lt; 3) {
@@ -214,7 +215,7 @@ helper(void *p, unsigned long i) { /* parameter p is not used */
 <p><strong>answer</strong>: cdf not possible</p>
 <p>Explanation (credit to Nathan Lo on Piazza): We can eliminate c and f as we only print \(i\) when \(i &lt; 3\), so we should never print anything \(&gt;= 3\). </p>
 
-</p>d is trickier: it&#39;s impossible because we observe we print before we fork, so it&#39;s impossible to have a single 1, followed by 3 2&#39;s, as this implies we had one thread with \(&gt;= 3\) fork into 3 threads with \(&gt;= 3\). Notice that each thread with \(&gt;= 3\) spawns exactly 2 threads, so this is impossible.</p>
+</p>d is trickier: it&#39;s impossible because we observe we print before we fork, so it&#39;s impossible to have a single 1, followed by 3 2&#39;s, as this implies we had one thread with \(i=1\) fork into 3 threads with \(i=2\). Notice that each thread with \(i=1\) spawns exactly 2 threads, so this is impossible.</p>
 
 <p>
 The others are correct: the way to see this which was discussed in class was to draw out the &quot;call tree&quot; (fork tree?) of threads and note exactly when the print statement is with respect to the forks.</p>
