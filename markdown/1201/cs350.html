@@ -699,7 +699,8 @@ Locks</li>
     lock_acquire(geeseMutex);
     <span class="hljs-keyword">while</span> (numberOfGeese &gt; <span class="hljs-number">0</span>) {
         lock_release(geeseMutex); <span class="hljs-comment">// allow access</span>
-        <span class="hljs-comment">// allow some context switch to accur and another thread might then acq the lock and modify numberOfGeese</span>
+        <span class="hljs-comment">// allow some context switch to accur and another thread</span>
+        <span class="hljs-comment">//   might then acq the lock and modify numberOfGeese</span>
         lock_acquire(geeseMutex); <span class="hljs-comment">// restrict access</span>
     }
     GoToClass();
@@ -1140,7 +1141,7 @@ below?
 
 <pre>
 <code>
-int x; /<em> global variable </em>/
+int x; /* global variable */
 int main()
 {
     int rc;
@@ -1170,9 +1171,9 @@ node of the tree with the label of the <code>fork()</code> system call that crea
 <pre>
 <code>
 int main () {
-    fork(); /<em> Label: B </em>/
-    fork(); /<em> Label: C </em>/
-    fork(); /<em> Label: D </em>/
+    fork(); /* Label: B */
+    fork(); /* Label: C */
+    fork(); /* Label: D */
     return 0;
 }
 </code>
