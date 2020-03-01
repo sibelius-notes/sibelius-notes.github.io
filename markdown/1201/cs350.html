@@ -492,8 +492,8 @@ Release(<span class="hljs-keyword">bool</span> *lock) {
     <span class="hljs-keyword">struct</span> cpu *lk_holder;
 };
 
-<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_init</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> spinlock *lk}
-<span class="hljs-keyword">void</span> spinlock_acquire(<span class="hljs-keyword">struct</span> spinlock *lk)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_init</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> spinlock *lk)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_acquire</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> spinlock *lk)</span></span>;
 <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_release</span><span class="hljs-params">(<span class="hljs-keyword">struct</span> spinlock *lk)</span></span>;</code></pre><p><code>spinlock_acquire</code> calls <code>spinlock_data_testandset</code> in a loop until the lock is acquired.</p>
 <p>OS/161 uses ll and sc to implement test-and-set</p>
 <blockquote>
