@@ -430,6 +430,72 @@ T_1          | XXXXYYYZ | ... | ... XXXX | YYY
 
 
 <h1 id="synchronization"><a class="header-link" href="#synchronization"></a>Synchronization</h1>
+<p>Concurrent threads interact with each other in a variety of ways:</p>
+<ul class="list">
+<li>All threads in a concurrent program <strong>share access</strong> to the program’s global variables and the heap.</li>
+<li>Threads share access, through the operating system, to system devices, such as the hard drive, the display, etc.</li>
+</ul>
+<p>A common synchronization problem is to enforce <strong>mutual exclusion</strong>.</p>
+<p>The part of a concurrent program in which a shared object is accessed (e.g. the intersection) is called a <strong>critical section</strong>.</p>
+<p>This coordination of access to a shared resource is called <strong>synchronization</strong>.</p>
+<p><em>What happens if several threads try to access the same global variable or heap object at the same time?</em></p>
+<p>We require that concurrent programs will run correctly regardless of which order the threads are executed.</p>
+<p>A <strong>race condition</strong> is when the program result depends on the order of execution.</p>
+<p>To find the critical sections...</p>
+<ul class="list">
+<li>Inspect each variable and ask is it possible for multiple threads to read and write it concurrently?</li>
+<li>Constants and memory that all threads only read do not cause race conditions.</li>
+</ul>
+<p>The course text defines a critical section as</p>
+<blockquote>
+<p>A critical section is a piece of code that accesses a shared
+variable (or more generally, a shared resource) and must not be
+concurrently executed by more than one thread.</p>
+</blockquote>
+<pre class="hljs"><code>Acquire(<span class="hljs-keyword">bool</span> *lock) {
+<span class="hljs-keyword">while</span> (*lock == <span class="hljs-literal">true</span>) ; <span class="hljs-comment">// spin until lock is free</span>
+    *lock = <span class="hljs-literal">true</span>;       <span class="hljs-comment">// grab the lock</span>
+}
+
+Release(book *lock) {
+    *lock = <span class="hljs-literal">false</span>;      <span class="hljs-comment">// give up the lock</span>
+}</code></pre><p>This approach fails because between the time a thread breaks out of
+the while loop (i.e. <code>*lock = false</code>) and sets <code>*lock</code> to <code>true</code> it could
+be preempted and another thread could come along and set <code>*lock</code> to
+<code>true</code>.</p>
+<p>We want to create a function so that between when we test <code>*lock</code> and
+we set it we do not want another thread to change its value.</p>
+<p>We will call this approach <strong>test-and-set</strong> and we will look at three
+approaches to implementing it.</p>
+<ol class="list">
+<li>x86-64’s <code>xchg</code>. Atomic
+<code>`</code>c++
+Acquire(bool *lock) {
+ while (xchg(lock,true) == true) {}; // test and set
+}</li>
+</ol>
+<p>Release(bool <em>lock) {
+    </em>lock = false;                      // give up lock
+}</p>
+<pre class="hljs"><code>This construct <span class="hljs-keyword">is</span> known <span class="hljs-keyword">as</span> a **spinlock**, since a thread busy-waits (loops or spins) <span class="hljs-keyword">in</span> `Acquire` until the <span class="hljs-keyword">lock</span> <span class="hljs-keyword">is</span> free.
+<span class="hljs-number">2.</span> ARM’s `LDREX` and `STREX`
+<span class="hljs-number">3.</span> MIPS’s `ll` and `sc`
+
+<span class="hljs-meta">## Spinlocks in OS/161</span>
+A **spinlock** <span class="hljs-keyword">is</span> a <span class="hljs-keyword">lock</span> that spins, i.e. it repeatedly tests the <span class="hljs-keyword">lock</span>’s availability <span class="hljs-keyword">in</span> a loop until the <span class="hljs-keyword">lock</span> <span class="hljs-keyword">is</span> obtained.
+
+When threads uses a spinlock they **busy-wait** i.e. it uses the CPU <span class="hljs-keyword">while</span> they wait <span class="hljs-keyword">for</span> the <span class="hljs-keyword">lock</span>.
+
+```c++
+<span class="hljs-keyword">struct</span> spinlock {
+    <span class="hljs-keyword">volatile</span> spinlock_data_t lk_lock;
+    <span class="hljs-keyword">struct</span> cpu *lk_holder;
+};
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_init</span>(<span class="hljs-params"><span class="hljs-keyword">struct</span> spinlock *lk}
+<span class="hljs-keyword">void</span> spinlock_acquire(<span class="hljs-keyword">struct</span> spinlock *lk</span>)</span>;
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">spinlock_release</span>(<span class="hljs-params"><span class="hljs-keyword">struct</span> spinlock *lk</span>)</span>;</code></pre><p><code>spinlock_acquire</code> calls <code>spinlock_data_testandset</code> in a loop until the lock is acquired.</p>
+<p>OS/161 uses ll and sc to implement test-and-set</p>
 <blockquote>
 <p>Lesley&#39;s recordings start here.</p>
 </blockquote>
