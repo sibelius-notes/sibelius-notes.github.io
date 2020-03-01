@@ -15,6 +15,15 @@ layout: markdown
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#threads">Threads</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#review-from-whatever-course">Review from whatever course</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#concurrent-program-execution">Concurrent Program Execution</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#context-switch">Context Switch</a>
+    </span>
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#synchronization">Synchronization</a>
     </span>
@@ -129,6 +138,138 @@ guarantees, and preemptive scheduling.</p>
 <li>priority</li>
 <li>modularization</li>
 </ul>
+<p>A thread <strong>blocks</strong>, when it ceases execution for a period of time, or, until some condition has been met (e.g.  a website respondsor a user moves the mouse). CPU is idle.</p>
+<p>Key ideas:</p>
+<ul class="list">
+<li>A thread can create new threads using <code>thread_fork</code></li>
+<li>new threads start execution in a function specified as a param to <code>thread_fork</code></li>
+<li>original (called <code>thread_fork</code>) and new thread proceed concurrently</li>
+<li>All threads share access to program&#39;s global vars and heap</li>
+<li>each thread has its own stack (private to that thread)</li>
+</ul>
+<p>In the OS, a thread is represented as a struct or object</p>
+<p>An example of using <code>thread_fork</code> to create a new thread that is running the function <code>vehicle_sumulation</code>.</p>
+<pre class="hljs"><code><span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; NumThreads; i++) {
+    error = thread_fork(<span class="hljs-string">"vehicle simulation thread"</span>, <span class="hljs-literal">NULL</span>,
+        vehicle_simulation, <span class="hljs-literal">NULL</span>, i);
+    <span class="hljs-keyword">if</span> (error) {
+        panic(<span class="hljs-string">"traffic sim: thread_fork failed: %s"</span>,
+            strerror(error));
+    }
+}</code></pre><p><strong>Interface</strong></p>
+<ul class="list">
+<li>create a new thread:<pre class="hljs"><code><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">thread_fork</span><span class="hljs-params">(
+  <span class="hljs-keyword">const</span> <span class="hljs-keyword">char</span> *name, <span class="hljs-comment">// name of new thread</span>
+  <span class="hljs-keyword">struct</span> proc *proc, <span class="hljs-comment">// thread’s process</span>
+  <span class="hljs-keyword">void</span> (*func)</span> <span class="hljs-comment">// new thread’s function</span>
+      <span class="hljs-params">(<span class="hljs-keyword">void</span> *, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span>)</span>,
+  <span class="hljs-keyword">void</span> *data1, <span class="hljs-comment">// function’s first param</span>
+  <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span> data2 <span class="hljs-comment">// function’s second param</span>
+)</span>;</code></pre></li>
+<li>terminate the calling thread: <code>void thread_exit(void);</code></li>
+<li>volutarily yield execution: <code>void thread_yield(void);</code></li>
+</ul>
+<h2 id="review-from-whatever-course"><a class="header-link" href="#review-from-whatever-course"></a>Review from whatever course</h2>
+<p><strong>Review: Sequential Program Execution</strong></p>
+<ul class="list">
+<li>fetch instr (from code segment) that the Program counter points to</li>
+<li>decode and execute the instr and</li>
+<li>increment the PC</li>
+</ul>
+<blockquote>
+<p>Note: In CS241 we names the MIPS registers $0, $1,
+$2, etc. In CS350 we referred to them by their default function,
+e.g. v0, a0, t0.</p>
+</blockquote>
+<p><code>t0-t7</code>: temps (caller-save). if the calling subroutine has a value in one of
+these registers that it wants preserved, it should store the value
+on the stack before calling any subroutines and restore it
+afterwards.</p>
+<p><code>s0-s7</code>: saved (callee-save). if the called subroutine uses one of these
+registers is must first store its current value on the stack and
+restore it before exiting</p>
+<p>This strategy tries to <em>miminize situations where the callee is saving values that the caller is not using</em>.</p>
+<p><strong>Review: The Stack</strong>: grows downward in slides.</p>
+<p>Conceptually, each thread executes sequentially using its private register contents and stack.</p>
+<h2 id="concurrent-program-execution"><a class="header-link" href="#concurrent-program-execution"></a>Concurrent Program Execution</h2>
+<p><strong>Key Question</strong>: What is shared between threads?</p>
+<ul class="list">
+<li>They are both executing (perhaps at the same time on different cores) the same program.</li>
+<li>Both threads share the same code, read-only data, global variables and heap.</li>
+<li>Each thread has its own stack and PC.</li>
+</ul>
+<p>Three options:  </p>
+<ul class="list">
+<li>Hardware support (P processors, C cores, M multithreading per core)</li>
+<li>Timesharing: Multiple threads tak turns on the same hardware; rapidly switching.</li>
+<li>Hardware support + Timesharing</li>
+</ul>
+<p>When <strong>timesharing</strong>, the switch from one thread to another is called a <strong>context switch</strong>.</p>
+<h2 id="context-switch"><a class="header-link" href="#context-switch"></a>Context Switch</h2>
+<ul class="list">
+<li>decide which thread will run next (scheduling)</li>
+<li>save register contents of current thread</li>
+<li>load register contents of next thread</li>
+</ul>
+<p>Thread context (register values) must be saved/restored
+carefully, since thread execution continuously changes the
+context.</p>
+<p>The threads share the CPU, giving the user the illusion of multiple
+programs running at the same time.</p>
+<p><strong>On MIPS</strong></p>
+<pre class="hljs"><code><span class="hljs-keyword">switchframe_switch:
+</span>    <span class="hljs-comment">/* a0: address of switchframe pointer of old thread. */</span>
+    <span class="hljs-comment">/* a1: address of switchframe pointer of new thread. */</span>
+
+    <span class="hljs-comment">/* Allocate stack space for saving 10 registers. 10*4 = 40 */</span>
+    <span class="hljs-keyword">addi </span><span class="hljs-built_in">sp</span>, <span class="hljs-built_in">sp</span>, -<span class="hljs-number">40</span>
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">ra</span>, <span class="hljs-number">36</span>(<span class="hljs-built_in">sp</span>) <span class="hljs-comment">/* Save the registers */</span>
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">gp</span>, <span class="hljs-number">32</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s8</span>, <span class="hljs-number">28</span>(<span class="hljs-built_in">sp</span>) <span class="hljs-comment">/* a.k.a. frame pointer */</span>
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s6</span>, <span class="hljs-number">24</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s5</span>, <span class="hljs-number">20</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s4</span>, <span class="hljs-number">16</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s3</span>, <span class="hljs-number">12</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s2</span>, <span class="hljs-number">8</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s1</span>, <span class="hljs-number">4</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s0</span>, <span class="hljs-number">0</span>(<span class="hljs-built_in">sp</span>)
+
+    <span class="hljs-comment">/* Store the old stack pointer in the old thread */</span>
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">sp</span>, <span class="hljs-number">0</span>(<span class="hljs-built_in">a0</span>)
+
+    <span class="hljs-comment">/* Get the new stack pointer from the new thread */</span>
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">sp</span>, <span class="hljs-number">0</span>(<span class="hljs-built_in">a1</span>)
+    <span class="hljs-keyword">nop </span><span class="hljs-comment">/* delay slot for load */</span>
+    <span class="hljs-comment">/* Now, restore the registers */</span>
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s0</span>, <span class="hljs-number">0</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s1</span>, <span class="hljs-number">4</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s2</span>, <span class="hljs-number">8</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s3</span>, <span class="hljs-number">12</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s4</span>, <span class="hljs-number">16</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s5</span>, <span class="hljs-number">20</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s6</span>, <span class="hljs-number">24</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s8</span>, <span class="hljs-number">28</span>(<span class="hljs-built_in">sp</span>) <span class="hljs-comment">/* a.k.a. frame pointer */</span>
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">gp</span>, <span class="hljs-number">32</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">ra</span>, <span class="hljs-number">36</span>(<span class="hljs-built_in">sp</span>)
+    <span class="hljs-keyword">nop </span><span class="hljs-comment">/* delay slot for load */</span>
+    <span class="hljs-comment">/* and return. */</span>
+    <span class="hljs-keyword">j </span><span class="hljs-built_in">ra</span>
+    <span class="hljs-keyword">addi </span><span class="hljs-built_in">sp</span>, <span class="hljs-built_in">sp</span>, <span class="hljs-number">40</span> <span class="hljs-comment">/* in delay slot */</span>
+    <span class="hljs-meta">.end</span> <span class="hljs-keyword">switchframe_switch</span></code></pre><blockquote>
+<p> Every thread has its own stack.</p>
+</blockquote>
+<blockquote>
+<p>Threads can only run in parallel (execute instructions simultaneously) if there is hardware support (via multiple CPUs, cores, etc.).</p>
+</blockquote>
+<blockquote>
+<p>Which of the following are NOT reasons to use threads?</p>
+<ul class="list">
+<li>resource utilization</li>
+<li><em>isolation from errors</em></li>
+<li>computation time</li>
+<li>organization</li>
+</ul>
+</blockquote>
 <h1 id="synchronization"><a class="header-link" href="#synchronization"></a>Synchronization</h1>
 <blockquote>
 <p>Lesley&#39;s recordings start here.</p>
