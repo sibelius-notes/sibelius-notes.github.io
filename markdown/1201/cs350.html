@@ -105,6 +105,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#virtual-memory-&amp;-address-translation">Virtual Memory &amp; Address Translation</a>
     </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#1.-dynamic-relocation">1. Dynamic Relocation</a>
+    </span>
     </p>
 </div>
 
@@ -1246,6 +1249,15 @@ maximum amount of addressable physical memory is \(2^P\) bytes.</p>
 <p>Each virtual memory address is mapped to a different part of physical memory.</p>
 <p>Address translation is performed in hardware, in the <strong>Memory Management Unit (MMU)</strong>, using information provided by the kernel.</p>
 <p>We will consider a series of five increasingly more sophisicated methods of address translation.</p>
-<p>###</p>
-<!--end-->
+<h3 id="1.-dynamic-relocation"><a class="header-link" href="#1.-dynamic-relocation"></a>1. Dynamic Relocation</h3>
+<p>The virtual address of each process is translated using two values:</p>
+<ol class="list">
+<li><strong>offset</strong> or relocation (R): addr in physical memory where the process’s memory begins</li>
+<li><strong>limit</strong> (L): the amount of memory used by the process.</li>
+</ol>
+<p>MMU does the following calculation</p>
+<pre class="hljs"><code><span class="hljs-keyword">if</span> (v &lt; limit) <span class="hljs-keyword">then</span>
+    p ← v + offset
+<span class="hljs-keyword">else</span>
+    <span class="hljs-keyword">raise</span> memory <span class="hljs-keyword">exception</span></code></pre><!--end-->
 </div>
