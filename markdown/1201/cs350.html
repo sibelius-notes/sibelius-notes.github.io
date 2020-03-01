@@ -102,6 +102,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#virtual-memory">Virtual Memory</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#virtual-memory-&amp;-address-translation">Virtual Memory &amp; Address Translation</a>
+    </span>
     </p>
 </div>
 
@@ -1201,6 +1204,9 @@ int main () {
 <li>to provide transparency so the programmer does not need to worry about the difference,</li>
 <li>to protect one process’s address space from other (perhaps buggy) processes.</li>
 </ul>
+<p>We here use \(P\): Physical memory takes \(P\) bits to specify the physical address of each type, then the
+maximum amount of addressable physical memory is \(2^P\) bytes.</p>
+<p>In Sys/161, it uses \(P=32\), 32-bit physical addresses. In slide \(P=18\).</p>
 <table>
 <thead>
 <tr>
@@ -1228,5 +1234,18 @@ int main () {
 </tbody>
 </table>
 <p>Use the formula \(b=\log_2(s)\) and \(s=2^b\).</p>
+<h2 id="virtual-memory-&-address-translation"><a class="header-link" href="#virtual-memory-&-address-translation"></a>Virtual Memory &amp; Address Translation</h2>
+<p>Similarly, we have \(V\) bits for virtual addresses.</p>
+<p>For MIPS \(V=32\). In slide \(V=16\).</p>
+<p>Running applications only see virtual addresses. Each process is isolated in its virtual memory and cannot access another process’s virtual memory.</p>
+<p>Virtual memory is used to</p>
+<ul class="list">
+<li><em>isolate</em> processes from each other and from the kernel,</li>
+<li>potentially support virtual memory that <em>is larger</em> than physical memory.</li>
+</ul>
+<p>Each virtual memory address is mapped to a different part of physical memory.</p>
+<p>Address translation is performed in hardware, in the <strong>Memory Management Unit (MMU)</strong>, using information provided by the kernel.</p>
+<p>We will consider a series of five increasingly more sophisicated methods of address translation.</p>
+<p>###</p>
 <!--end-->
 </div>

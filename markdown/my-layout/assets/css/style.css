@@ -577,8 +577,11 @@ th {
 }
 
 .ex-title {
- background:#C71585;
+ background: #C71585;
  padding:10px;
+ color: white;
+ padding: 12px;
+ font-family: "Alegreya Sans SC" !important;
 }
 
 .ex-content {
