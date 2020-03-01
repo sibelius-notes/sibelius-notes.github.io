@@ -1347,17 +1347,15 @@ two parts: (segment ID, offset within segment)</p>
 <p><strong>Approach 1</strong>: MMU has a relocation register and a limit register for each segment</p>
 <ul class="list">
 <li>for \(i\)th segment, \(R_i\) be the relocation offset and \(L_i\) be the limit.</li>
-<li>To translate <code>v</code> to <code>p</code>:
-<code>`</code>
-s ← SegmentNumber(v)
-a ← AddressWithinSegment(v)</li>
+<li>To translate <code>v</code> to <code>p</code>:</li>
 </ul>
-<p>if (a ≥ limit[s]) then
+<pre class="hljs"><code>s ← SegmentNumber(v)
+<span class="hljs-selector-tag">a</span> ← AddressWithinSegment(v)
+
+<span class="hljs-keyword">if</span> (<span class="hljs-selector-tag">a</span> ≥ limit[s]) then
     raise memory exception
-else
-    p ← a + offset[s]
-<code>`</code></p>
-<div class='ex'>
+<span class="hljs-keyword">else</span>
+    <span class="hljs-selector-tag">p</span> ← <span class="hljs-selector-tag">a</span> + offset[s]</code></pre><div class='ex'>
 <div class="ex-title">
 Segmented Address Translation Example
 </div>
@@ -1409,7 +1407,7 @@ Segmented Address Translation Example
 </tbody>
 </table>
 
-<p>Now translate the following for process A and B. (B is omitted)</p>
+<p>Now translate the following for process A and B. (Process B is not done here)</p>
 
 <p>For process A</p>
 <table>
@@ -1430,6 +1428,11 @@ Segmented Address Translation Example
 </tr>
 </tbody>
 </table>
+
+<p>
+The first bit of VA specifies the segment. The e next three bits specifies the first hexdigit of the offset and the
+rest the virtual address specifies the rest of the offset.
+</p>
 </div>
 </div>
 <!--end-->
