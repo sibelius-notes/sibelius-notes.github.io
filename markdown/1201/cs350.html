@@ -108,6 +108,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h3">
         <a class="md-toc-inner" href="#1.-dynamic-relocation">1. Dynamic Relocation</a>
     </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#2.-segmentation">2. Segmentation</a>
+    </span>
     </p>
 </div>
 
@@ -1330,5 +1333,101 @@ Dynamic Relocation Example
 
 <p>However, this suffers from <strong>fragmentation</strong>.</p>
 <p>Using just two registers per process, dynamic relocation: allows multiple processes to share RAM and isolates each process’s address space from all other processes.</p>
+<h3 id="2.-segmentation"><a class="header-link" href="#2.-segmentation"></a>2. Segmentation</h3>
+<p>Instead of mapping the entire virtual memory to physical memory, we map each <strong>segment</strong> of the address space separately. The kernel maintains an offset and limit value for each segment. With segmentation, a virtual address can be thought of as having
+two parts: (segment ID, offset within segment)</p>
+<p>With \(K\) bits for segment ID, we can have up to</p>
+<ul class="list">
+<li>\(2^K\) segments</li>
+<li>\(2^V-K\) bytes per segment</li>
+</ul>
+<p>So if there are 4 segments, then \(\log 4=2\) bits are required to represent the segment number and the maximum size of each segment is \(2^{V-2}\) btyes.</p>
+<p>Fragmentation of physical memory is still possible.</p>
+<p>Many approaches for translation.</p>
+<p><strong>Approach 1</strong>: MMU has a relocation register and a limit register for each segment</p>
+<ul class="list">
+<li>for \(i\)th segment, \(R_i\) be the relocation offset and \(L_i\) be the limit.</li>
+<li>To translate <code>v</code> to <code>p</code>:
+<code>`</code>
+s ← SegmentNumber(v)
+a ← AddressWithinSegment(v)</li>
+</ul>
+<p>if (a ≥ limit[s]) then
+    raise memory exception
+else
+    p ← a + offset[s]
+<code>`</code></p>
+<div class='ex'>
+<div class="ex-title">
+Segmented Address Translation Example
+</div>
+
+<div class='ex-content'>
+<p><strong>Process A</strong></p>
+<table>
+<thead>
+<tr>
+    <th>Segment</th>
+    <th>Limit Register</th>
+    <th>Relocation Register</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>0</td>
+    <td>0x2000</td>
+    <td>0x38000</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>0x5000</td>
+    <td>0x10000</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Process B</strong></p>
+<table>
+<thead>
+<tr>
+    <th>Segment</th>
+    <th>Limit Register</th>
+    <th>Relocation Register</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>0</td>
+    <td>0x3000</td>
+    <td>0x15000</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>0xB000</td>
+    <td>0x22000</td>
+</tr>
+</tbody>
+</table>
+
+<p>Now translate the following for process A and B. (B is omitted)</p>
+
+<p>For process A</p>
+<table>
+<thead>
+<tr>
+    <th>v</th><th>Segment</th><th>Offset</th><th>p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>v=0x1240</td><td>0</td><td>0x1240</td><td>0x39240</td>
+    <td>v=0xA0A0</td><td>1</td><td>0x20A0</td><td>0x120A0</td>
+    <td>v=0x66AC</td><td>0</td><td>0x66AC</td><td>Exception</td>
+    <td>v=0xE880</td><td>1</td><td>0x6880</td><td>Exception</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <!--end-->
 </div>
