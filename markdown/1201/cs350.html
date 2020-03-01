@@ -326,24 +326,45 @@ and it&#39;s stored in a switchframe.</p>
 <li>organization</li>
 </ul>
 </blockquote>
-<p><em>In-Class Problems: twothreads</em></p>
-<p>Suppose that there are two threads in a system that uses preemptive round-robin scheduling with a
-scheduling quantum of Q milliseconds. The system has a single processor. Each thread runs a function
-which behaves as follows</p>
-<pre class="hljs"><code><span class="hljs-keyword">for</span> i <span class="hljs-built_in">from</span> <span class="hljs-number">1</span> <span class="hljs-built_in">to</span> N <span class="hljs-built_in">do</span>
-    compute <span class="hljs-keyword">for</span> C <span class="hljs-built_in">milliseconds</span>
-    sleep <span class="hljs-keyword">for</span> S <span class="hljs-built_in">milliseconds</span>
-<span class="hljs-keyword">end</span></code></pre><p>At the end of its for loop, a thread is finished and it exits. During the “compute” part of each iteration,
-a thread is runnable (running or ready to run). During the “sleep” part of each of its iterations, a thread is
-blocked. For both parts of this question assume that C &lt; Q and C &lt; S.</p>
-<p><strong>a.</strong> First, assume that C &lt; S and C &lt; Q. Suppose that both of the threads are created at time t = 0. At what time will both of the threads be finished? Answer in terms of Q, N, C, and S, as necessary.</p>
-<p><strong>Soln</strong>: Let <code>C -&gt; XXX, S -&gt; YYYY.</code></p>
-<pre class="hljs"><code>T_0     XXX |<span class="hljs-string"> YYYYXXX </span>|<span class="hljs-string"> ... </span>|
-T_1         |<span class="hljs-string"> XXXYYYY </span>|<span class="hljs-string"> ... </span>|<span class="hljs-string"> YYYY</span></code></pre><p>Thus the answer is \(N(C+S)+C\)</p>
-<p><strong>b.</strong> Answer the same question, but this time assume that S &lt; C &lt; Q.</p>
-<p><strong>Soln</strong>: Let <code>C -&gt; XXXX, S -&gt; YYYY.</code></p>
-<pre class="hljs"><code>T_0     XXXX |<span class="hljs-string"> YYYZXXXX </span>|<span class="hljs-string"> ... </span>|<span class="hljs-string"> ... YYYZ </span>|
-T_1          |<span class="hljs-string"> XXXXYYYZ </span>|<span class="hljs-string"> ... </span>|<span class="hljs-string"> ... XXXX </span>|<span class="hljs-string"> YYY</span></code></pre><p>Thus the answer is \(2NC + S\)</p>
+<div class='ex'>
+    <div class="ex-title">In-Class Problems: twothreads</div>
+    <div class='ex-content'>
+    Suppose that there are two threads in a system that uses preemptive round-robin scheduling with a
+    scheduling quantum of Q milliseconds. The system has a single processor. Each thread runs a function
+    which behaves as follows
+
+    <code>for i from 1 to N do
+        compute for C milliseconds
+        sleep for S milliseconds
+    end</code>
+
+    At the end of its for loop, a thread is finished and it exits. During the “compute” part of each iteration,
+    a thread is runnable (running or ready to run). During the “sleep” part of each of its iterations, a thread is
+    blocked. For both parts of this question assume that C &lt; Q and C &lt; S.
+
+    <strong>a.</strong> First, assume that C &lt; S and C &lt; Q. Suppose that both of the threads are created at time t = 0. At what time will both of the threads be finished? Answer in terms of Q, N, C, and S, as necessary.
+
+    <strong>Soln</strong>: Let <code>C -&gt; XXX, S -&gt; YYYY.</code>
+
+    <code>T_0     XXX | YYYYXXX | ... |
+    T_1         | XXXYYYY | ... | YYYY</code>
+
+    Thus the answer is \(N(C+S)+C\)
+
+    <strong>b.</strong> Answer the same question, but this time assume that S &lt; C &lt; Q.
+
+    <strong>Soln</strong>: Let <code>C -&gt; XXXX, S -&gt; YYYY.</code>
+
+    <code>T_0     XXXX | YYYZXXXX | ... | ... YYYZ |
+    T_1          | XXXXYYYZ | ... | ... XXXX | YYY</code>
+
+    Thus the answer is \(2NC + S\)
+    </div>
+</div>
+
+
+
+
 <h1 id="synchronization"><a class="header-link" href="#synchronization"></a>Synchronization</h1>
 <blockquote>
 <p>Lesley&#39;s recordings start here.</p>
@@ -373,7 +394,9 @@ Most of the type we are using: when we are woken back up, we need to recheck the
 }</code></pre><p>Instead of go to RAM, much more efficient to keep it in register: register allocation. Here&#39;s the problem: It doesn&#39;t know if A and B run at the same time. If one put in <code>$3</code> one in <code>$8</code>. Big race condtion. There are also others optimization.</p>
 <p>Always load/store var from RAM, not reordering: <code>volatile</code>. Disable compiler optimizations, but not solve race conditions in your codes.</p>
 <p><strong>CPU</strong>: fetch the program counter, decode it, execute it and move on. But it&#39;s more complex: pipeline, branch prediction, reorder instrs... It also has memory model and so that you can notify the CPU: multi-threaded code is going on here. Barrier or fence instrs to entry gate: CPU stops rearranging. And until end gate, turn on opt back on. Don&#39;t need to worry in OS161.</p>
-<p><em>In class problem: semaphore to CV</em></p>
+<div class='ex'>
+    <div class="ex-title">In class problem: semaphore to CV</div>
+    <div class='ex-content'>
 <table>
     <thead>
         <tr>
@@ -423,11 +446,14 @@ void func2() {
 </tbody>
 </table>
 
-<p>Re-implement <code>func1</code> and <code>func2</code> using lock and cv.</p>
-<p><strong>Solution</strong>: func1 is consumer, func2 is producer.</p>
-<pre class="hljs"><code>lock A, B, C;
+Re-implement <code>func1</code> and <code>func2</code> using lock and cv.
+
+<strong>Solution</strong>: func1 is consumer, func2 is producer.
+
+<code>c++
+lock A, B, C;
 CV cv;
-count = <span class="hljs-number">0</span>;
+count = 0;
 
 func1 {
     lock_acq(A)
@@ -436,7 +462,7 @@ func1 {
 
     lock_acq(C)
         count--
-        <span class="hljs-keyword">if</span> (count &lt; <span class="hljs-number">0</span>) cv_wait(cv, C)
+        if (count &lt; 0) cv_wait(cv, C)
     lock_rel(C)
 }
 
@@ -446,10 +472,17 @@ func2 {
     lock_rel(B)
 
     lock_acq(C)
-        <span class="hljs-keyword">if</span> (count &lt; <span class="hljs-number">0</span>) cv_signal(cv, C)
+        if (count &lt; 0) cv_signal(cv, C)
         count++
     lock_rel(C)
-}</code></pre><h2 id="deadlocks"><a class="header-link" href="#deadlocks"></a>Deadlocks</h2>
+}</code>
+    </div>
+</div>
+
+
+
+
+<h2 id="deadlocks"><a class="header-link" href="#deadlocks"></a>Deadlocks</h2>
 <pre class="hljs"><code>lock lockA, lockB;
 
 <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">FuncA</span><span class="hljs-params">()</span> </span>{
@@ -502,27 +535,41 @@ func2 {
     acq(A)
 }</code></pre><p>But it&#39;s nasty if we want acq lots of things, also it&#39;s spinning.</p>
 <p><strong>Resource ordering</strong>: assign every single resource a single number. Acquire them only in strictly increasing order. There&#39;s problem if different programmers have different rules.</p>
-<p><em>In class problem: queuexfer</em></p>
-<blockquote>
-<p>Suppose that a threaded program has N queues of items. The program needs to support an operation called <code>Transfer(i,j)</code>. Each call to <code>Transfer</code> will transfer a single item from the i-th queue to the jth queue,
+<div class='ex'>
+<div class="ex-title">
+In class problem: queuexfer
+</div>
+
+<div class='ex-content'>
+Suppose that a threaded program has N queues of items. The program needs to support an operation called <code>Transfer(i,j)</code>. Each call to <code>Transfer</code> will transfer a single item from the i-th queue to the jth queue,
 unless there is nothing in the i-th queue, in which case the call will not affect the queues.
 <br>The program will have multiple concurrent threads, each of which may call <code>Transfer</code> zero or more times.
 <br>How would you use locks to ensure that <code>Transfer</code> operations are atomic? Specifically, how many locks
 would you use, what would each lock protect, and when would the locks be acquired and released to ensure
-that transfers are atomic?</p>
-</blockquote>
-<p>One way: no hold and wait. Downside: cannot both lock at the same time, busy wait: spin.</p>
-<p>Alternate: resource ordering.</p>
-<pre class="hljs"><code>Transfer(Q_a, Q_b) {
-    <span class="hljs-comment">// check resource number</span>
-    <span class="hljs-keyword">if</span> (a &lt; b) {
+that transfers are atomic?
+
+One way: no hold and wait. Downside: cannot both lock at the same time, busy wait: spin.
+
+Alternate: resource ordering.
+<code>c++
+Transfer(Q_a, Q_b) {
+    // check resource number
+    if (a &lt; b) {
         acq(qa)
         acq(qb)
-    } <span class="hljs-keyword">else</span> {
+    } else {
         acq(qb)
         acq(qa)
     }
-}</code></pre><p>Downside: you need to sort if you acq all resources \(\Theta(n\log n)\).</p>
+}</code>
+Downside: you need to sort if you acq all resources \(\Theta(n\log n)\).
+</div>
+</div>
+
+
+
+
+
 <h1 id="process"><a class="header-link" href="#process"></a>Process</h1>
 <p>is an is an environment in which an application program runs.</p>
 <p>includes virtualized resources that its program can use: one (or more) threads</p>
