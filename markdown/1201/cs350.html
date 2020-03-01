@@ -1339,7 +1339,7 @@ two parts: (segment ID, offset within segment)</p>
 <p>With \(K\) bits for segment ID, we can have up to</p>
 <ul class="list">
 <li>\(2^K\) segments</li>
-<li>\(2^V-K\) bytes per segment</li>
+<li>\(2^{V-K}\) bytes per segment</li>
 </ul>
 <p>So if there are 4 segments, then \(\log 4=2\) bits are required to represent the segment number and the maximum size of each segment is \(2^{V-2}\) btyes.</p>
 <p>Fragmentation of physical memory is still possible.</p>
@@ -1413,7 +1413,7 @@ Segmented Address Translation Example
 <table>
 <thead>
 <tr>
-    <th>v</th><th>Segment</th><th>Offset</th><th>p</th>
+    <th>v</th><th>Segment</th><th>Offset (<code>a</code> in the code above)</th><th>p</th>
 </tr>
 </thead>
 <tbody>
@@ -1430,10 +1430,13 @@ Segmented Address Translation Example
 </table>
 
 <p>
-The first bit of VA specifies the segment. The e next three bits specifies the first hexdigit of the offset and the
+The first bit of VA specifies the segment. The next <strong>three bits</strong> specifies the <strong>first hexdigit</strong> of the offset and the
 rest the virtual address specifies the rest of the offset.
 </p>
 </div>
 </div>
+
+<p><strong>Approach 2</strong>: Maintain a segment table</p>
+<p class="img-container"><img src="/pics/seg_table.png" width=100%></p>
 <!--end-->
 </div>
