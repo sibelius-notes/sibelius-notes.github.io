@@ -24,6 +24,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#context-switch">Context Switch</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#thread-states">Thread States</a>
+    </span>
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#synchronization">Synchronization</a>
     </span>
@@ -223,9 +226,9 @@ programs running at the same time.</p>
 
     <span class="hljs-comment">/* Allocate stack space for saving 10 registers. 10*4 = 40 */</span>
     <span class="hljs-keyword">addi </span><span class="hljs-built_in">sp</span>, <span class="hljs-built_in">sp</span>, -<span class="hljs-number">40</span>
-    <span class="hljs-keyword">sw </span><span class="hljs-built_in">ra</span>, <span class="hljs-number">36</span>(<span class="hljs-built_in">sp</span>) <span class="hljs-comment">/* Save the registers */</span>
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">ra</span>, <span class="hljs-number">36</span>(<span class="hljs-built_in">sp</span>)   <span class="hljs-comment">/* Save the registers */</span>
     <span class="hljs-keyword">sw </span><span class="hljs-built_in">gp</span>, <span class="hljs-number">32</span>(<span class="hljs-built_in">sp</span>)
-    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s8</span>, <span class="hljs-number">28</span>(<span class="hljs-built_in">sp</span>) <span class="hljs-comment">/* a.k.a. frame pointer */</span>
+    <span class="hljs-keyword">sw </span><span class="hljs-built_in">s8</span>, <span class="hljs-number">28</span>(<span class="hljs-built_in">sp</span>)   <span class="hljs-comment">/* a.k.a. frame pointer */</span>
     <span class="hljs-keyword">sw </span><span class="hljs-built_in">s6</span>, <span class="hljs-number">24</span>(<span class="hljs-built_in">sp</span>)
     <span class="hljs-keyword">sw </span><span class="hljs-built_in">s5</span>, <span class="hljs-number">20</span>(<span class="hljs-built_in">sp</span>)
     <span class="hljs-keyword">sw </span><span class="hljs-built_in">s4</span>, <span class="hljs-number">16</span>(<span class="hljs-built_in">sp</span>)
@@ -239,7 +242,8 @@ programs running at the same time.</p>
 
     <span class="hljs-comment">/* Get the new stack pointer from the new thread */</span>
     <span class="hljs-keyword">lw </span><span class="hljs-built_in">sp</span>, <span class="hljs-number">0</span>(<span class="hljs-built_in">a1</span>)
-    <span class="hljs-keyword">nop </span><span class="hljs-comment">/* delay slot for load */</span>
+    <span class="hljs-keyword">nop </span>            <span class="hljs-comment">/* delay slot for load */</span>
+
     <span class="hljs-comment">/* Now, restore the registers */</span>
     <span class="hljs-keyword">lw </span><span class="hljs-built_in">s0</span>, <span class="hljs-number">0</span>(<span class="hljs-built_in">sp</span>)
     <span class="hljs-keyword">lw </span><span class="hljs-built_in">s1</span>, <span class="hljs-number">4</span>(<span class="hljs-built_in">sp</span>)
@@ -248,14 +252,37 @@ programs running at the same time.</p>
     <span class="hljs-keyword">lw </span><span class="hljs-built_in">s4</span>, <span class="hljs-number">16</span>(<span class="hljs-built_in">sp</span>)
     <span class="hljs-keyword">lw </span><span class="hljs-built_in">s5</span>, <span class="hljs-number">20</span>(<span class="hljs-built_in">sp</span>)
     <span class="hljs-keyword">lw </span><span class="hljs-built_in">s6</span>, <span class="hljs-number">24</span>(<span class="hljs-built_in">sp</span>)
-    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s8</span>, <span class="hljs-number">28</span>(<span class="hljs-built_in">sp</span>) <span class="hljs-comment">/* a.k.a. frame pointer */</span>
+    <span class="hljs-keyword">lw </span><span class="hljs-built_in">s8</span>, <span class="hljs-number">28</span>(<span class="hljs-built_in">sp</span>)   <span class="hljs-comment">/* a.k.a. frame pointer */</span>
     <span class="hljs-keyword">lw </span><span class="hljs-built_in">gp</span>, <span class="hljs-number">32</span>(<span class="hljs-built_in">sp</span>)
     <span class="hljs-keyword">lw </span><span class="hljs-built_in">ra</span>, <span class="hljs-number">36</span>(<span class="hljs-built_in">sp</span>)
-    <span class="hljs-keyword">nop </span><span class="hljs-comment">/* delay slot for load */</span>
+    <span class="hljs-keyword">nop </span>            <span class="hljs-comment">/* delay slot for load */</span>
+
     <span class="hljs-comment">/* and return. */</span>
     <span class="hljs-keyword">j </span><span class="hljs-built_in">ra</span>
     <span class="hljs-keyword">addi </span><span class="hljs-built_in">sp</span>, <span class="hljs-built_in">sp</span>, <span class="hljs-number">40</span> <span class="hljs-comment">/* in delay slot */</span>
-    <span class="hljs-meta">.end</span> <span class="hljs-keyword">switchframe_switch</span></code></pre><blockquote>
+    <span class="hljs-meta">.end</span> <span class="hljs-keyword">switchframe_switch</span></code></pre><p>C function <code>thread_switch</code> calls the assembly language subroutine <code>switchframe_switch</code>.</p>
+<p><code>thread_switch</code> caller: save/restore the <em>caller-save</em> regs, including return address (ra)</p>
+<p><code>switchframe_switch</code> callee: save/restore <em>callee-save</em> regs. In OS/161 the frame pointer is callee saved.</p>
+<p><code>switchframe_switch</code>, saves callee-save registers to the old
+thread’s stack; it restores the callee-save registers from the new
+thread’s stack.</p>
+<p>MIPS R3000 is pipelined; delay-slots are used to protect against <em>load-use hazards</em>, <em>control hazards</em>.</p>
+<p><em>What Causes Context Switches?</em></p>
+<ol class="list">
+<li><code>thread_yield</code>: voluntarily allows other threads to run</li>
+<li><code>thread_exit</code>: terminated</li>
+<li>blocks, via a call to <code>wchan_sleep</code>: it is waiting for some resource (such as network access) or for some event to happen</li>
+<li>is preempted: it involuntarily stops running (because the thread scheduler stopped it)</li>
+</ol>
+<h2 id="thread-states"><a class="header-link" href="#thread-states"></a>Thread States</h2>
+<pre class="hljs"><code>stateDiagram
+    [*] --&gt; Still
+    S<span class="hljs-function"><span class="hljs-title">till</span> --&gt;</span> [*]
+
+    S<span class="hljs-function"><span class="hljs-title">till</span> --&gt;</span> Moving
+    M<span class="hljs-function"><span class="hljs-title">oving</span> --&gt;</span> Still
+    M<span class="hljs-function"><span class="hljs-title">oving</span> --&gt;</span> Crash
+    C<span class="hljs-function"><span class="hljs-title">rash</span> --&gt;</span> [*]</code></pre><blockquote>
 <p> Every thread has its own stack.</p>
 </blockquote>
 <blockquote>
