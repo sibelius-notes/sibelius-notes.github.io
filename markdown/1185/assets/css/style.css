@@ -570,7 +570,7 @@ th {
 .ex {
  width:100%;
  /*height:300px;*/
- background:lightGrey;
+ background: #f2ebeb;
  border-radius: 10px 10px 10px 10px;
  overflow:hidden;
 }

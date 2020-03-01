@@ -333,30 +333,42 @@ and it&#39;s stored in a switchframe.</p>
     scheduling quantum of Q milliseconds. The system has a single processor. Each thread runs a function
     which behaves as follows
 
-    <code>for i from 1 to N do
-        compute for C milliseconds
-        sleep for S milliseconds
-    end</code>
+<pre>
+<code>
+for i from 1 to N do
+    compute for C milliseconds
+    sleep for S milliseconds
+end
+</code>
+</pre>
 
     At the end of its for loop, a thread is finished and it exits. During the “compute” part of each iteration,
     a thread is runnable (running or ready to run). During the “sleep” part of each of its iterations, a thread is
     blocked. For both parts of this question assume that C &lt; Q and C &lt; S.
-
+<br><br>
     <strong>a.</strong> First, assume that C &lt; S and C &lt; Q. Suppose that both of the threads are created at time t = 0. At what time will both of the threads be finished? Answer in terms of Q, N, C, and S, as necessary.
-
+<br><br>
     <strong>Soln</strong>: Let <code>C -&gt; XXX, S -&gt; YYYY.</code>
 
-    <code>T_0     XXX | YYYYXXX | ... |
-    T_1         | XXXYYYY | ... | YYYY</code>
+<pre>
+<code>
+T_0     XXX | YYYYXXX | ... |
+T_1         | XXXYYYY | ... | YYYY
+</code>
+</pre>
 
     Thus the answer is \(N(C+S)+C\)
-
+<br><br>
     <strong>b.</strong> Answer the same question, but this time assume that S &lt; C &lt; Q.
-
+<br><br>
     <strong>Soln</strong>: Let <code>C -&gt; XXXX, S -&gt; YYYY.</code>
 
-    <code>T_0     XXXX | YYYZXXXX | ... | ... YYYZ |
-    T_1          | XXXXYYYZ | ... | ... XXXX | YYY</code>
+<pre>
+<code>
+T_0     XXXX | YYYZXXXX | ... | ... YYYZ |
+T_1          | XXXXYYYZ | ... | ... XXXX | YYY
+</code>
+</pre>
 
     Thus the answer is \(2NC + S\)
     </div>
@@ -447,10 +459,11 @@ void func2() {
 </table>
 
 Re-implement <code>func1</code> and <code>func2</code> using lock and cv.
-
+<br><br>
 <strong>Solution</strong>: func1 is consumer, func2 is producer.
-
-<code>c++
+<br>
+<pre>
+<code>
 lock A, B, C;
 CV cv;
 count = 0;
@@ -475,7 +488,9 @@ func2 {
         if (count &lt; 0) cv_signal(cv, C)
         count++
     lock_rel(C)
-}</code>
+}
+</code>
+</pre>
     </div>
 </div>
 
@@ -548,10 +563,13 @@ unless there is nothing in the i-th queue, in which case the call will not affec
 would you use, what would each lock protect, and when would the locks be acquired and released to ensure
 that transfers are atomic?
 
+<br><br>
 One way: no hold and wait. Downside: cannot both lock at the same time, busy wait: spin.
 
+<br><br>
 Alternate: resource ordering.
-<code>c++
+<pre>
+<code>
 Transfer(Q_a, Q_b) {
     // check resource number
     if (a &lt; b) {
@@ -561,7 +579,9 @@ Transfer(Q_a, Q_b) {
         acq(qb)
         acq(qa)
     }
-}</code>
+}
+</code>
+</pre>
 Downside: you need to sort if you acq all resources \(\Theta(n\log n)\).
 </div>
 </div>
