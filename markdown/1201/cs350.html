@@ -187,11 +187,11 @@ main() {
     helper(NULL,0);
 }
 void
-helper(void <em>p, unsigned long i) { /</em> parameter p is not used <em>/
+helper(void *p, unsigned long i) { /* parameter p is not used */
     if (i &lt; 3) {
-        kprintf(&quot;%ld&quot;,i); /</em> print the value of i <em>/
-        thread_fork(&quot;helper1&quot;,NULL,helper,NULL,i+1); /</em> fork thread to run helper(NULL,i+1) <em>/
-        thread_fork(&quot;helper2&quot;,NULL,helper,NULL,i+1); /</em> fork thread to run helper(NULL,i+1) */
+        kprintf(&quot;%ld&quot;,i);           /* print the value of i */
+        thread_fork(&quot;helper1&quot;,NULL,helper,NULL,i+1); /* fork thread to run helper(NULL,i+1) */
+        thread_fork(&quot;helper2&quot;,NULL,helper,NULL,i+1); /* fork thread to run helper(NULL,i+1) */
     }
     if (i==0) {
         kprintf(&quot;%ld&quot;,i);
