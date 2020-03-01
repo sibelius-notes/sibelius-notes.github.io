@@ -1438,5 +1438,9 @@ rest the virtual address specifies the rest of the offset.
 
 <p><strong>Approach 2</strong>: Maintain a segment table</p>
 <p class="img-container"><img src="/pics/seg_table.png" width=100%></p>
-<!--end-->
+<pre class="hljs"><code>If <span class="hljs-keyword">the</span> <span class="hljs-keyword">segment</span> <span class="hljs-built_in">number</span> <span class="hljs-keyword">in</span> v is greater than <span class="hljs-keyword">the</span> <span class="hljs-built_in">number</span> <span class="hljs-keyword">of</span> <span class="hljs-keyword">segments</span>
+<span class="hljs-keyword">then</span>
+    raise <span class="hljs-keyword">an</span> exception 
+<span class="hljs-keyword">else</span>
+    use <span class="hljs-keyword">the</span> <span class="hljs-keyword">segment</span> <span class="hljs-built_in">number</span> <span class="hljs-built_in">to</span> lookup <span class="hljs-keyword">the</span> limit <span class="hljs-keyword">and</span> relocation values <span class="hljs-built_in">from</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">segment</span> table.</code></pre><!--end-->
 </div>
