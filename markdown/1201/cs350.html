@@ -326,8 +326,8 @@ and it&#39;s stored in a switchframe.</p>
 <li>organization</li>
 </ul>
 </blockquote>
-<p><em>In-Class Problems: twothreads</em>
-Suppose that there are two threads in a system that uses preemptive round-robin scheduling with a
+<p><em>In-Class Problems: twothreads</em></p>
+<p>Suppose that there are two threads in a system that uses preemptive round-robin scheduling with a
 scheduling quantum of Q milliseconds. The system has a single processor. Each thread runs a function
 which behaves as follows</p>
 <pre class="hljs"><code><span class="hljs-keyword">for</span> i <span class="hljs-built_in">from</span> <span class="hljs-number">1</span> <span class="hljs-built_in">to</span> N <span class="hljs-built_in">do</span>
@@ -337,10 +337,11 @@ which behaves as follows</p>
 a thread is runnable (running or ready to run). During the “sleep” part of each of its iterations, a thread is
 blocked. For both parts of this question assume that C &lt; Q and C &lt; S.</p>
 <p><strong>a.</strong> First, assume that C &lt; S and C &lt; Q. Suppose that both of the threads are created at time t = 0. At what time will both of the threads be finished? Answer in terms of Q, N, C, and S, as necessary.</p>
-<p><strong>Soln</strong>: Let C -&gt; XXX. S -&gt; YYYY</p>
-<pre class="hljs"><code>T_0     XXX |<span class="hljs-string"> YYYYXXX </span>|<span class="hljs-string"> ...     </span>|
-T_1         |<span class="hljs-string"> XXXYYYY </span>|<span class="hljs-string"> ...     </span>|<span class="hljs-string"> YYYY</span></code></pre><p>Thus the answer is \(N(C+S)+C\)</p>
+<p><strong>Soln</strong>: Let <code>C -&gt; XXX, S -&gt; YYYY.</code></p>
+<pre class="hljs"><code>T_0     XXX |<span class="hljs-string"> YYYYXXX </span>|<span class="hljs-string"> ... </span>|
+T_1         |<span class="hljs-string"> XXXYYYY </span>|<span class="hljs-string"> ... </span>|<span class="hljs-string"> YYYY</span></code></pre><p>Thus the answer is \(N(C+S)+C\)</p>
 <p><strong>b.</strong> Answer the same question, but this time assume that S &lt; C &lt; Q.</p>
+<p><strong>Soln</strong>: Let <code>C -&gt; XXXX, S -&gt; YYYY.</code></p>
 <pre class="hljs"><code>T_0     XXXX |<span class="hljs-string"> YYYZXXXX </span>|<span class="hljs-string"> ... </span>|<span class="hljs-string"> ... YYYZ </span>|
 T_1          |<span class="hljs-string"> XXXXYYYZ </span>|<span class="hljs-string"> ... </span>|<span class="hljs-string"> ... XXXX </span>|<span class="hljs-string"> YYY</span></code></pre><p>Thus the answer is \(2NC + S\)</p>
 <h1 id="synchronization"><a class="header-link" href="#synchronization"></a>Synchronization</h1>
