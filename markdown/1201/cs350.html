@@ -111,6 +111,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h3">
         <a class="md-toc-inner" href="#2.-segmentation">2. Segmentation</a>
     </span>
+    <span class="md-toc-item md-toc-h3">
+        <a class="md-toc-inner" href="#paging:-physical-memory">Paging: Physical Memory</a>
+    </span>
     </p>
 </div>
 
@@ -1334,6 +1337,7 @@ Dynamic Relocation Example
 <p>However, this suffers from <strong>fragmentation</strong>.</p>
 <p>Using just two registers per process, dynamic relocation: allows multiple processes to share RAM and isolates each process’s address space from all other processes.</p>
 <h3 id="2.-segmentation"><a class="header-link" href="#2.-segmentation"></a>2. Segmentation</h3>
+<p><a href="https://www.geeksforgeeks.org/segmentation-in-operating-system/">Extra Reading</a></p>
 <p>Instead of mapping the entire virtual memory to physical memory, we map each <strong>segment</strong> of the address space separately. The kernel maintains an offset and limit value for each segment. With segmentation, a virtual address can be thought of as having
 two parts: (segment ID, offset within segment)</p>
 <p>With \(K\) bits for segment ID, we can have up to</p>
@@ -1440,7 +1444,69 @@ rest the virtual address specifies the rest of the offset.
 <p class="img-container"><img src="/pics/seg_table.png" width=100%></p>
 <pre class="hljs"><code>If <span class="hljs-keyword">the</span> <span class="hljs-keyword">segment</span> <span class="hljs-built_in">number</span> <span class="hljs-keyword">in</span> v is greater than <span class="hljs-keyword">the</span> <span class="hljs-built_in">number</span> <span class="hljs-keyword">of</span> <span class="hljs-keyword">segments</span>
 <span class="hljs-keyword">then</span>
-    raise <span class="hljs-keyword">an</span> exception 
+    raise <span class="hljs-keyword">an</span> exception
 <span class="hljs-keyword">else</span>
-    use <span class="hljs-keyword">the</span> <span class="hljs-keyword">segment</span> <span class="hljs-built_in">number</span> <span class="hljs-built_in">to</span> lookup <span class="hljs-keyword">the</span> limit <span class="hljs-keyword">and</span> relocation values <span class="hljs-built_in">from</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">segment</span> table.</code></pre><!--end-->
+    use <span class="hljs-keyword">the</span> <span class="hljs-keyword">segment</span> <span class="hljs-built_in">number</span> <span class="hljs-built_in">to</span> lookup <span class="hljs-keyword">the</span> limit <span class="hljs-keyword">and</span> relocation values <span class="hljs-built_in">from</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">segment</span> table.</code></pre><div class='ex'>
+<div class="ex-title">
+Segmented Address Translation Example
+</div>
+
+<div class='ex-content'>
+Virtual addr = 32 bits, Physical addr = 32 bits, Offset = 28 bits
+
+<pre>
+<code>
+Segment Table base reg  0x0010 0000
+Segment Table len reg   0x0000 0004
+</code>
+</pre>
+
+<table>
+<thead>
+<tr>
+    <th>Seg</th><th>Size</th><th>Protection</th><th>Start</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>0</td><td>0x6000</td><td>X-</td><td>0x7 0000</td>
+</tr>
+<tr>
+    <td>1</td><td>0x1000</td><td>-W</td><td>0x6 0000</td>
+</tr>
+<tr>
+<td>2</td><td> 0xC000</td><td> -W </td><td>0x5 0000</td>
+</tr>
+<tr>
+<td>3</td><td> 0xB000</td><td> -W </td><td>0x8 0000</td>
+</tr>
+</tbody>
+</table>
+
+<pre>
+<code>
+Virtual address     0x0000 2004
+Physical address =  <strong><strong>___</strong></strong> ?
+Virtual address     0x2000 31A4
+Physical address =  <strong><strong>___</strong></strong> ?
+</code>
+</pre>
+
+<p>Split the virtual address <code>0x0000 2004</code> into the segment number <code>0x0</code> and the offset <code>0x000 2004</code></p>
+<p>Check the segment number is not too large: <code>0x0 &lt; 0x4</code>. <code>0x4000 2004</code> would have a seg number too large.</p>
+<p>Check that the offset is not too large: <code>0x000 2004 &lt; 0x6000</code>. <code>0x0000 6004</code> would have an offset that is too large.</p>
+<p>Translate the segment number into a physical base address:
+<code>SegmentTable[0x0] = 0x0007 0000.</code></p>
+<p>Add the offset to physical base address to get the physical address:
+<code>0x0007 0000 + 0x000 2004 = 0x0007 2004</code>.</p>
+<br><br>
+<p>
+The answer for second one is <code>0x0005 31A4</code>.
+</p>
+</div>
+</div>
+
+<h3 id="paging:-physical-memory"><a class="header-link" href="#paging:-physical-memory"></a>Paging: Physical Memory</h3>
+<p><strong>Key Idea</strong>: Divide Physical memory into fixed-size chunks called frames (a.k.a. physical pages).</p>
+<!--end-->
 </div>
