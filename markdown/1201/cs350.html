@@ -112,7 +112,7 @@ layout: markdown
         <a class="md-toc-inner" href="#2.-segmentation">2. Segmentation</a>
     </span>
     <span class="md-toc-item md-toc-h3">
-        <a class="md-toc-inner" href="#paging:-physical-memory">Paging: Physical Memory</a>
+        <a class="md-toc-inner" href="#3.-paging:-physical-memory">3. Paging: Physical Memory</a>
     </span>
     </p>
 </div>
@@ -1503,10 +1503,71 @@ Physical address =  <strong><strong>___</strong></strong> ?
 <p>
 The answer for second one is <code>0x0005 31A4</code>.
 </p>
+<p><em>Side note</em>:
+The difference between Virtual Addr and Offset (32-28 = 4 bits = 1 hex) is the number of bits for seg id.
+</p>
+<p>
+If there were 8 segs in total, then we need \(\log_2 8\) bits to represent these 8 segs.
+</p>
 </div>
 </div>
 
-<h3 id="paging:-physical-memory"><a class="header-link" href="#paging:-physical-memory"></a>Paging: Physical Memory</h3>
+<p>No internal fragmentation.</p>
+<p>Limitation: space for heap and stack is cannot grow beyond a
+certain point, even though there is more memory available or
+space between various segment gets wasted because it is too small
+to fit anything (external fragmentation).</p>
+<h3 id="3.-paging:-physical-memory"><a class="header-link" href="#3.-paging:-physical-memory"></a>3. Paging: Physical Memory</h3>
 <p><strong>Key Idea</strong>: Divide Physical memory into fixed-size chunks called frames (a.k.a. physical pages).</p>
+<p>Take physical memory, logically divide physical memory into fixed-sized chunks called <strong>frames</strong> (physical pages). Now our frames commonly, 4kb. size of physical memory divides frame size -&gt; # of frames.</p>
+<p>Let&#39;s do the same thing with virtual memory. Take virtual memory and  divide into equal sized <strong>pages</strong>, programmatically, not physically.</p>
+<p>Page size (virtual memory) must equal frame size (physical memory).</p>
+<p>Now we get code segments: 7 pages in slides. Instead of getting contiguous, just ask RAM for any 7 pages. So we map every single page to whichever frame it&#39;s available.</p>
+<p>We don&#39;t have to track the limit, but we do track of which frame the page map to. Any page can map to any frame ⇒ we will need a method to track this mapping, i.e. page tables.</p>
+<p>Page table has an entry for every single page regardless whether we are using or not.</p>
+<p>In our page table (for now), we will have</p>
+<ul class="list">
+<li>frame number: which frame is this page map to</li>
+<li>valid bit: 1 if we are actually using this page. 0 if not.</li>
+</ul>
+<p>One register holds the addr of page table, stored in RAM.</p>
+<p>This is virtual addr. Higher order bits, like segmentation, indicate which page. Remaining bits, page offset.</p>
+<p>Extract the page number, use it to get an entry in page table. Check valid bit. 0 then throw exception. If 1, then do combination: physical address = (frame number × frame size) + offset.</p>
+<p>The page offset is only related to the size of page. Number of Bits for Offset = log(Page Size).</p>
+<p>Number of PTEs = Maximum Virtual Memory Size / Page Size</p>
+<p>Number of Bits for Page Number = log(Number of PTEs)</p>
+<p>Number of Bits for Frame Number = log(Number of Frames)</p>
+<div class='ex'>
+<div class="ex-title">
+Paging: Address Translation Example
+</div>
+
+<div class='ex-content'>
+<img src="/pics/page_table_trans.png" width=100%>
+
+<p>
+<strong>Process A</strong>: 0x2602C. Exception. 0xF024.
+</p>
+<p>
+<strong>Process B</strong>: 0x1502C. 0x32800. 0x14024.
+</p>
+</div>
+</div>
+
+<p>We want to have some entries read-only, like code segment.</p>
+<ul class="list">
+<li>protection bit</li>
+<li>reference (use) bit: has this PTE been used to translate any addr?</li>
+<li>dirty bit: has any addr translation resulted in memory being written to particular page</li>
+<li>present bit: is this page in RAM or not?</li>
+</ul>
+<p><em>How big are page tables?</em>
+We have known # of PTEs. And size of each PTE. We take the product of these two.</p>
+<p>Page tables can get very, very large.</p>
+<p>Page tables are kernel data structures. They live in the kernel’s memory.</p>
+<blockquote>
+<p>Lec 12. 55:40</p>
+</blockquote>
+<p>Shrink the page table.</p>
 <!--end-->
 </div>
