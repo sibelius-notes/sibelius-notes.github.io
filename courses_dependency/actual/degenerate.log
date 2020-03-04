@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  12 FEB 2020 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 MAR 2020 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,17 +891,17 @@ LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./dege
 nerate.aux) ) 
 Here is how much of TeX's memory you used:
- 16962 strings out of 492649
- 344607 string characters out of 6129622
- 396529 words of memory out of 5000000
- 20538 multiletter control sequences out of 15000+600000
- 9279 words of font info for 33 fonts, out of 8000000 for 9000
+ 16887 strings out of 492649
+ 343005 string characters out of 6129622
+ 394347 words of memory out of 5000000
+ 20464 multiletter control sequences out of 15000+600000
+ 8974 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,67p,391b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,67p,391b,177s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mss10.pfb>
-Output written on degenerate.pdf (1 page, 28976 bytes).
+mr5.pfb>
+Output written on degenerate.pdf (1 page, 28225 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
