@@ -120,6 +120,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#5.-multi-level-paging">5. Multi-Level Paging</a>
     </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#some-good-problems-for-midterm??">Some good problems for midterm??</a>
+    </span>
     </p>
 </div>
 
@@ -1623,6 +1626,10 @@ efficiently.</p>
 </div>
 </div>
 
+<p>In addition to the formula above:
+How many bits do I need to index that table? <code>Bits for page number</code> = log(PTEs per page).</p>
+<p>LEVELS. Say we have \(V\) bits to index virtual address.</p>
+<p>Then the <code>levels</code> = \(\left\lceil{V- \text{bits for page offset}\over \text{bits for page number}}\right\rceil\)</p>
 <div class='ex'>
 <div class="ex-title">
 In-Class Problems: Simple Paging
@@ -1664,7 +1671,7 @@ Answer the following questions:
 </code>
 </pre>
 
-<p><strong>Q3</strong>: If the page size were 16KB instead of 4KB, how many entries would there be in P’s page table? How
+<p><strong>Q4</strong>: If the page size were 16KB instead of 4KB, how many entries would there be in P’s page table? How
 many bits of each virtual address would be used for the offset, and how many for the page number?</p>
 <p>\(2^{32}/2^{14} = 2^{18}\) pages. Then repeat the previous steps...</p>
 <br>
@@ -1677,5 +1684,20 @@ many bits of each virtual address would be used for the offset, and how many for
 </p>
 </div>
 </div>
+
+
+
+<h1 id="some-good-problems-for-midterm??"><a class="header-link" href="#some-good-problems-for-midterm??"></a>Some good problems for midterm??</h1>
+<p><em>Explain the difference between internal and external fragmentation.</em></p>
+<p>From <a href="https://courses.cs.washington.edu/courses/cse451/00sp/misc/quiz2sol.txt">CSE451, University of Washington</a>:</p>
+<blockquote>
+<p>Internal fragmentation is the wasted space within each allocated block
+because of rounding up from the actual requested allocation to the
+allocation granularity.  External fragmentation is the various free
+spaced holes that are generated in either your memory or disk space.
+External fragmented blocks are available for allocation, but may be
+too small to be of any use.</p>
+</blockquote>
+<p>So paging eliminates external frag., not internal frag.</p>
 <!--end-->
 </div>
