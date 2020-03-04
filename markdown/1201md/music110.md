@@ -826,3 +826,95 @@ Other Terms for “Classical Music”
 - Conservatory Music
 - Concert Hall Music
 - ?
+
+# Lec 15 - Mar 3rd
+Canon
+
+Methods of Defining Classical Music Culturally
+- Recording industry marketing
+- Ritual of performance
+- Historical Era
+- Social Function
+- Means of Transmission
+- The Canon
+
+## The "Classical Music" Canon
+A set of musical works commonly accepted as authoritative and definitive of "Classical" music
+
+Comes from group of writing that is sacred.
+
+*Where is the Classical Music Canon reinforced?*
+
+Competition. Banff International String Quartet Competition, where each group had to play a Beethoven Quartet. They need to play some contemporary works.
+
+KW symphony "Signature Series".
+
+### Problems with the "Classical Canon"
+- Performance Score. Notation indicates the musical work.
+    - Composers who published their works
+    - Musicologist
+        - publish editions for performance
+- Music as an Academic Study
+    - Guido Adler (a German musicologist of the early 20th centry).
+    - In Vienna (itself an architectural monument to music). Look at the gold inside...
+    - Concerned about the developments leading up to Great Composers
+        - German composers focused on instrumental music, as opposed to Italian.
+        - In a time, when instrumental music was thought to be the highest achivement.
+
+### Musicology Methods
+- Develop out of the interests of early musicologist
+- According to Haefeli, three assumptions shape all musicological studies
+    - Study from Notation: looking at the notes on the score
+        - Primary record of the music: what that score is.
+    - The Musical Work.
+        - One stable, identifiable work that is perfectly repeatable
+    - Harmonic Language: How harmony works together? How does it unfold in a piece?
+        - Tools of study privilege tonal language as the most important feature
+            - It is what is ascertainable through notation
+        - What about timbre? Pitch inflection?
+
+It shapes the way we think about classical music canon.
+
+### Music that gets played
+- Article by Midgette claims that professional orchestras have bit a crisis moment
+    - What is the crisis?
+        - Like "museum", put into a music gallery.
+        - not able to expand it, missing diversity.
+        - no dynamic, missing music production
+- What is the answer?
+    - "You can't change the canon"
+    - "We need to ask ourselves if artistic excellence is the ultimate goal. Other things may be more important"
+- How are orchestras attempting to address the crisis?
+    - playing local/contemporary musics, tho lose some patrons.
+    - come out of the community, try to give private lessons for those who cannot afford it.
+
+*Why do we study "Classical Music" anyway?*
+- All music study is a histroical endeavor.
+- We use and develop tools that have been refined over centuries.
+- Gives us perspective on our own assumptions and expectations
+    - Alex Ross writes with a conviction that the music of the past has sth to say to him today
+- Notation affords deep, prolonged engagement and reinterpretation because of its complexity
+
+## Methods of Studying of Histrocial Music
+The score
+
+*What genre is Antioch?*
+- classical?
+- pop?
+- folk?
+
+*Compare your stemma*
+- Did you find a credible original text?
+- Where were the significant variations?
+- What info was included on the page to give context about the music?
+
+*Who is the Composer of Antioch?*
+- Georg Friderick Handel
+- Thomas Hawkes
+- William Holford
+- Lowel Mason
+
+### Handel, The Messiah
+
+### Western Art Music: Postive Defn
+- melody ... 
