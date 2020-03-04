@@ -114,10 +114,10 @@ layout: markdown
     <span class="md-toc-item md-toc-h3">
         <a class="md-toc-inner" href="#3.-paging:-physical-memory">3. Paging: Physical Memory</a>
     </span>
-    <span class="md-toc-item md-toc-h2">
+    <span class="md-toc-item md-toc-h3">
         <a class="md-toc-inner" href="#4.-two-level-paging">4. Two-Level Paging</a>
     </span>
-    <span class="md-toc-item md-toc-h2">
+    <span class="md-toc-item md-toc-h3">
         <a class="md-toc-inner" href="#5.-multi-level-paging">5. Multi-Level Paging</a>
     </span>
     <span class="md-toc-item md-toc-h1">
@@ -1583,7 +1583,7 @@ We have known # of PTEs. And size of each PTE. We take the product of these two.
 <p>Page tables are kernel data structures. They live in the kernel’s memory.</p>
 <p>As the number of bits increases for our virtual addresses, it just doesn&#39;t scale at all.</p>
 <p>Shrink the page table. Extra orgnization. We are going to turn it into a tree. There are no valid pages in that sub page table, do not make a table for it. There will be significantly fewer.</p>
-<h2 id="4.-two-level-paging"><a class="header-link" href="#4.-two-level-paging"></a>4. Two-Level Paging</h2>
+<h3 id="4.-two-level-paging"><a class="header-link" href="#4.-two-level-paging"></a>4. Two-Level Paging</h3>
 <p>Insteadd of four bits for page #, we are going to use 2 bits for first page # and 2 bits for second page #.</p>
 <p>Instead of two parts address (page # and page offset), we now have multi-part address. We still have the <strong>same</strong> page offset which is only related to the page size. and a bunch of page numbers.</p>
 <p>And our adress translation is the <strong>same</strong>:</p>
@@ -1604,7 +1604,7 @@ Translate <code>0x58B4</code>.
 </div>
 </div>
 
-<h2 id="5.-multi-level-paging"><a class="header-link" href="#5.-multi-level-paging"></a>5. Multi-Level Paging</h2>
+<h3 id="5.-multi-level-paging"><a class="header-link" href="#5.-multi-level-paging"></a>5. Multi-Level Paging</h3>
 <p>We want each individual page table (dir, each subtable) exactly fit in <strong>one</strong> page. Since &quot;on demand paging&quot;  is very convenient. If we want to look for one table and it&#39;s not in memory, we only need to do one read from my disk.</p>
 <p>So we can figure out how many levels we need to create multi-level tree. The goal is to reduce the size of individual page tables.</p>
 <div class='ex'>
