@@ -1629,7 +1629,7 @@ efficiently.</p>
 <p>In addition to the formula above:
 How many bits do I need to index that table? <code>Bits for page number</code> = log(PTEs per page).</p>
 <p>LEVELS. Say we have \(V\) bits to index virtual address.</p>
-<p>Then the <code>levels</code> = \(\left\lceil{V- \text{bits for page offset}\over \text{bits for page number}}\right\rceil\)</p>
+<p>Then the <code>levels</code> = \(\left\lceil{V- \text{bits for page offset}\over \text{bits for page number}}\right\rceil\). There are different conventions that you can split the page numbers...</p>
 <div class='ex'>
 <div class="ex-title">
 In-Class Problems: Simple Paging
@@ -1685,7 +1685,38 @@ many bits of each virtual address would be used for the offset, and how many for
 </div>
 </div>
 
+<div class='ex'>
+<div class="ex-title">
+In-Class Problems: Multi-Level Paging
+</div>
 
+<div class='ex-content'>
+Consider a virtual memory system that uses multi-level paging for address translation. Virtual addresses
+and physical addresses are 64 bits long. The page size is 1 MB (\(2^{20}\) bytes). The size of a page table entry is
+16 (\(2^4\)) bytes. Each individual page table, at each level, must fit in a single frame.
+
+<p><strong>Q1</strong>: How many bits of each virtual address are needed to represent the page offset?</p>
+<p>\(\log(2^{20})=20\) bits</p>
+
+<p><strong>Q2</strong>: What is the maximum number of entries in an individual page table?</p>
+<p>\(2^{20}/2^4 = 2^{16}\) entries</p>
+
+<p><strong>Q3</strong>: What is the number of levels of page tables that will be required for virtual-to-physical translation in
+this system?</p>
+<p>\(\left\lceil{64-20\over 16}\right\rceil = 3\)</p>
+
+<p><strong>Q4</strong>: Suppose that a particular process uses only 128 MB (\(2^{27}\)bytes) of virtual memory, with a virtual
+address range from 0 to \(2^{27}-1\). How many individual page tables, at each level, will be required to
+translate this process’ address space?</p>
+<p>
+1 -&gt; 1 -&gt; 1.
+</p>
+
+<img src="/pics/multilevelpaging.svg" width=100%>
+
+<p>We only use lower 27 bits here in virtual address...</p>
+</div>
+</div>
 
 <h1 id="some-good-problems-for-midterm??"><a class="header-link" href="#some-good-problems-for-midterm??"></a>Some good problems for midterm??</h1>
 <p><em>Explain the difference between internal and external fragmentation.</em></p>
