@@ -849,6 +849,8 @@ Competition. Banff International String Quartet Competition, where each group ha
 
 KW symphony "Signature Series".
 
+and Music Textbooks.
+
 ### Problems with the "Classical Canon"
 - Performance Score. Notation indicates the musical work.
     - Composers who published their works
@@ -861,7 +863,7 @@ KW symphony "Signature Series".
         - German composers focused on instrumental music, as opposed to Italian.
         - In a time, when instrumental music was thought to be the highest achivement.
 
-### Musicology Methods
+## Musicology Methods
 - Develop out of the interests of early musicologist
 - According to Haefeli, three assumptions shape all musicological studies
     - Study from Notation: looking at the notes on the score
@@ -875,7 +877,7 @@ KW symphony "Signature Series".
 
 It shapes the way we think about classical music canon.
 
-### Music that gets played
+## Music that gets played
 - Article by Midgette claims that professional orchestras have bit a crisis moment
     - What is the crisis?
         - Like "museum", put into a music gallery.
@@ -899,14 +901,16 @@ It shapes the way we think about classical music canon.
 The score
 
 *What genre is Antioch?*
-- classical?
-- pop?
-- folk?
+- classical? indentity fixed in notation
+- pop? sung by pop music performers
+- folk? communally sung
 
 *Compare your stemma*
 - Did you find a credible original text?
 - Where were the significant variations?
 - What info was included on the page to give context about the music?
+
+In class discussions, compare your assignments with others...
 
 *Who is the Composer of Antioch?*
 - Georg Friderick Handel
@@ -914,7 +918,76 @@ The score
 - William Holford
 - Lowel Mason
 
-### Handel, The Messiah
+*Where does Handel Come in?*
+- The Antioch Tune preexists Holford’s
+version attributed to Handel
+- Similarities with “Lift up your head” from
+Handel’s Messiah
+- Handel’s Messiah was “Holy Writ to
+Dissenting musicians”
+- Handel carries English authority and
+justifies antiquated harmonies, rhythm,
+and structure
 
-### Western Art Music: Postive Defn
-- melody ... 
+Handel, The Messiah
+Example of Late Baroque Style (1685-1730)
+- Chorus expresses collective response to predictions of
+Christ’s birth
+- Halleluyah chorus
+    - Contrasting sections of homophony, polyphony,
+    and monophony!
+    - Imitation still used for word painting and contrast
+    - Late Baroque contrasting keys
+- Regular phrase lengths
+- Tonic chord emphasized constantly
+    - Major and minor scales over musical modes
+    - Ends with ‘Amen’ chord: I-IV-I
+
+## Western Art Music: Postive Defn
+- Tends to emphasize melody and complex, large-scale form over
+rhythm and dynamics
+- Typically uses the instruments developed for the symphony in the 19th
+century
+- Functions primarily to provide aesthetic enjoyment
+- Transmitted primarily through notation and private instruction
+- Relies on a fixed concept of the musical work
+    - Developed through linear production
+- Rooted in works of composers from 1750-1920
+
+Assumed Means of Production of “The Musical Work”
+```
+Composer's idea --> Notated Score --> Edited Score for Publishing --> Performer's Interpretation --> Performance
+```
+
+## The Musical Work
+- The idea of ”The Musical Work” arose because of the possibility of
+mass producing scores
+    - For performance but also for study
+- “Classical music” was mummified by a print culture
+- Editors are involved in the process from score the performance
+    - Small changes can have significant impact
+- Performers are not only interpreters of the work but consumers of
+the edition
+
+### Authority of the Printed Musical Work
+- Handel’s Name (a canonical composer) gives
+authority
+- The early versions of Antioch is more fluid
+- The “musical work” of Antioch is set by the 1850s
+- Textual details trace the innovations of editors and
+their chosen authorities
+
+*What makes it Joyful?*
+Melody, Harmony, Rhythm, Form
+
+*What Function does Antioch Perform in Society?*
+Depends on the context
+- In a Hymnal
+    - To facilitate communication
+    - To facilitate social integration
+    - To validate social institutions and religious ritual
+- A Christmas Carol
+    - To facilitate social integration
+    - Symbolic function
+- Christmas at Rockefeller Center
+    - To validate social institutions and religious rituals
