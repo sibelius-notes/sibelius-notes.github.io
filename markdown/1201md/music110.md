@@ -1009,7 +1009,7 @@ This the idea behind the final actual music that we hear. This linear process is
 
 In Antioch Stemma: there is no straight linear process here. ... Antioch rev. by Lowel Mason. But he also says "this reminds me of Handel", then Handel's "Lift up ye gates". Also Baroque Style. Various Antioch styles spread out here. And final version "Joy to the World". Also in some work today, we have some contemporary language associated to it.
 
-[pic place holder]
+<img src="/pics/antioch.png" width=100%>
 
 In other words, these methods help us understand the printed work.
 
@@ -1081,17 +1081,40 @@ Stravinsky, The Rite of Spring (1913)
 
 Life, death, rather long prologue.
 
-According to Stravinsky:
-- (will be added later)
+According to Stravinsky: “express the sublime uprising of Nature renewing herself—the whole
+pantheistic uprising of the universal harvest”
+- Does this capture the significance of a work that caused a near riot?
 
 According to Richard Taruskin
-- (will be added later)
+- Stravinsky’s “music waged unending war on the assumption that art was a medium of self-revelation”
+- Why say so many words about the music when he resisted the idea of self revelation
+in music?
 
 We can't rely on what composer says: they are trying to confuse us more than illuminate.
 
 Meaning Culture vs. Presence culture
-- m
-- p
+- Meaning culture emphasizes the abstraction of the musical event to
+assess its significance
+- Presence culture emphasizes that the experience of musical event is
+the thing that is significant
 
 Analyzing Music
-- ...
+- Putting into words what happens in the music in order to better
+understand its function and effect
+- Begin with music with text
+    - Use letters to identify both poetry and form
+    - Focus on the “song” portion first
+    - Then think about how the backup singers and instruments interact
+
+Analysis Method
+- Discover the structure of the lyrics
+    - Label each line with an end rhyme with the same letter
+    - Count the syllables of each line
+- Identify the repeated phrases in the music
+    - Usually popular music has a verse
+and chorus
+        - Verse: music that repeats with different lyrics
+        - Chorus: Same music and same lyrics sung at the end of each verse of group of verses
+    - Label each repeated phrase with a letter
+- Compare musical and lyrical structure
+- Consider how the musical elements highlight the words

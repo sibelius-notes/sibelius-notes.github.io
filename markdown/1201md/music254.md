@@ -921,3 +921,112 @@ seemingly strict form. Handel keeps music move forward with Caesar reacting.
     - original version in 12/8 meter
     - manuscript: 12/8 but 4/4 (C) in bass
 - more common version 4/4 (~1749)
+
+# Ballad Opera & Early Classical Opera Reform
+England
+
+**ballad opera**: genre of 18C English comic play featuring songs in which new words are set to borrowed tunes.
+- opera in the local language
+- dialogue interspersed with songs. No recitative here.
+- new words to borrowed tunes
+    - folk songs, dances, pop songs, airas from other shows
+- fashion peaked in 1730s
+- over time, more original music
+- development parallel to opera comique
+
+## NAWM 112: Ballad Opera: The Beggar’s Opera (1728)
+- libretto by John Gay
+- music likely arranged by Johann Christoph Pepusch
+- Mocked Italian opera tradition:
+    - Characters: replaced ancient heros of Italian opera with modern urban thieves and prostitutes and their crimes
+    - Made fun of Italian opera divas
+        - Fight between Cuzzoni & Bordoni mocked by Polly & Lucy's quarrels
+    - Simple Popular tunes mocked virtuosic arias of Italian opera seria
+    - Dispensed with recitative for spoken dialogue
+    - poetry and music sometimes spoofed opera
+    - satirized London society
+
+My Heart Was So Free (Macheath):
+- Like simile areas of serious Baroque operas:
+    - character’s situation compared to vivid image, portrayed in music
+    - recognize popular courting tune
+
+“Were I Laid on Greenland’s Coast” (Macheath & Polly)
+
+## La serva padrona
+**Giovanni Battista Pergolesi (1710-36)**
+He is incredible popular, even some are not his work, people add his name to it after his death.
+
+- *La serva padrona* [The Maid as Mistress]
+- first performance: Naples, 1733
+- *La serva padrona* is an **Intermezzo**:
+    - 18C genre of Italian comic opera
+    - In 2 parts & performed between the acts of a serious opera or play: pergolesi's ***The Prideful Prisoner***
+    - Plots: comedies involves ordinary people, sometimes parody serious opera
+    - Most 2 singing roles (including Bass)
+    - Music alternates between recitative & arias
+
+**Story & Characters**: clever servants & foolish masters:
+- Uberto (buffo) combic bass: bachelor  
+- Serpina (soprano)  his mid (after his cash & marriage)
+- Vespone (mute character): his valet
+
+
+**a) Recitative**: Uberto & Serpina. “Ah Quanto Mi Sta Male” (Ah, it doesn’t feel right). Dialogue between Serphina & Uberto.
+- 1st part: simple recitative (only basso continuo): dialogue between Uberto & Serpina
+- 2nd part: accompanied recitative:
+    - Uberto alone
+    - only for high drama: Comic exaggeration
+    - harmony: modulates rapidly
+
+**b) Da capo aria (Uberto)**: A B A: “Son Imbrogliato” (I’m all mixed up)
+- music reflects Uberto's conflicting feelings: humoruous
+- Mocking da capo arias
+
+A section: Aria. *I am all mixed up. I have a certain sth in my heart...*
+- 2 statements of text, each framed by orchestral ritornello:
+    - 1st statement:
+        - rapid patter & much repetition (esp 1st line)
+        - angular motive
+        - ~Uberto’s indecision & paralyzed mental state
+    - 2nd statement: words mixed up
+
+B: contrasting section
+- Paralyzed mental state
+- new text & minor key
+- slower rhythm
+
+A: repeats first part; **not** embellished
+
+[Scene excerpt](http://www.youtube.com/watch?v=iBhdAK4sDjY) from La Serva Padrona (Diego Fasolis & Barocchisti)
+
+[whole intermezzo (45 minutes)](https://www.youtube.com/watch?v=NsUeywPFEgQ)
+
+<p align="center">***PIVOTAL WORK IN OPERA REFORM***</p>
+
+1752-1754 Paris performances of La serva padrona: led to "La querelle des bouffons" (1752-54): war of the comic actors
+
+
+**furious dispute in France between:**
+
+1. those who favoured Italian opera buffa (comic opera) style:
+    - simplicity, clarity, warm Italian melodic style, naturalism
+    - simple harmony & accompaniment; frequent repetition
+    - Jean-Jacques Rousseau: admired by Gluck as “pioneer of the expressive natural style”
+    <br>NAWM 111: Le devin du village, 1752
+2. those who favoured French style of Lully, Rameau: (favor exisiting French Opera)
+    - labeled "intellectuals", unnatural style, sophisticated
+
+
+*La Serva padrona*: <br>
+**Model of comic opera in later 18C:**
+- Contrasts of styles & mixing of serious & comic
+- Servants outwitting masters: laugh at Uberto’s expense
+
+
+
+
+**OPERA REFORM MOVEMENT**: mid 18C; Wanted opera to be more natural
+- Flexibility in recitatives & arias
+- More use of orchestra & chorus
+- Resisted demands of singers
