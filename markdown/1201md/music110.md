@@ -978,9 +978,11 @@ authority
 their chosen authorities
 
 *What makes it Joyful?*
+
 Melody, Harmony, Rhythm, Form
 
 *What Function does Antioch Perform in Society?*
+
 Depends on the context
 - In a Hymnal
     - To facilitate communication
@@ -991,3 +993,105 @@ Depends on the context
     - Symbolic function
 - Christmas at Rockefeller Center
     - To validate social institutions and religious rituals
+
+# Lec 16 - Mar 5th
+**What does the music mean?**  Methods of studying
+
+Methods of Histrocial Music Study
+- Search for "the Musical Work": Tuesday (last lec)
+- Eyewitness accounts: today
+- Formal Analysis: Next Tuesday
+
+Abstract Idea: particular meaning, composer's idea -> notated score -> score: reproduce for multiple times
+-> Performer's interpretation, practice several times -> performance
+
+This the idea behind the final actual music that we hear. This linear process is a bit complicated for that.
+
+In Antioch Stemma: there is no straight linear process here. ... Antioch rev. by Lowel Mason. But he also says "this reminds me of Handel", then Handel's "Lift up ye gates". Also Baroque Style. Various Antioch styles spread out here. And final version "Joy to the World". Also in some work today, we have some contemporary language associated to it.
+
+[pic place holder]
+
+In other words, these methods help us understand the printed work.
+
+## Authority of the Printed Musical Work
+- Handel's Name (canonical composer) gives authority
+- early versions of Antioch is more fluid
+- The "musical work" of Antioch is set by the 1850s
+- Textual details trace the innovations of editors and their chosen authorities
+
+Antioch originally is not associated to the "joy to the world".
+
+*What makes it Joyful?*
+Melody, Harmony, Rhythm, Form
+
+Let's examine the melody of it. Descending in the first phrase, and go all the way down, pretty outgoing move. Mostly move by step except one leap here. And there is one big leap. Lots of energy behind it.
+
+Harmony: stuck in major. What about Rhythm? Slow or fast? A little faster than median. And dotted rhythm which makes it a little bit faster in some notes. Form? Two parts section with repeated melodies in some places.
+
+
+Now let's go further with the worksheet.
+
+*What Function does Antioch Perform in Society?*
+
+Depends on the context
+- In a Hymnal
+    - To facilitate communication
+    - To facilitate social integration. In Handel's time, a group of people, bring them together.
+    - To validate social institutions and religious ritual
+- A Christmas Carol. You can see this in Disney's movie...
+    - To facilitate social integration. Like folk...
+    - Symbolic function. Symbol of joy, Xmas season
+- Christmas at Rockefeller Center
+    - To validate social institutions and religious rituals
+
+From wiki,
+> Rockefeller Center is a large complex consisting of 19 commercial buildings covering 22 acres (89,000 m2) between 48th Street and 51st Street in Midtown Manhattan, New York City. The 14 original Art Deco buildings, commissioned by the Rockefeller family, span the area between Fifth Avenue and Sixth Avenue, split by a large sunken square and a private street called Rockefeller Plaza. Later additions include 75 Rockefeller Plaza across 51st Street at the north end of Rockefeller Plaza, and four International Style buildings located on the west side of Sixth Avenue.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/NYC_Top_of_the_Rock_Pano.jpg" width=100%>
+
+
+Now let's go to *Eyewitness accounts*.
+
+## Igor Stavinsky
+(1882-1971)
+- Russian composer who moved to Paris early in his career
+- The Rite of Spring (Le Sacre du Printemps) was his first major success
+    - Commissioned for the Ballet Russe
+- Reflected fascination with “Primitive” cultures
+- The Rite of Spring is a series of episodic “ritual dances”
+    - Final dance is that of sacrifice of a chosen young woman who dances to death
+- Incited a riot?!
+
+
+The End of Classical Ballet
+- Stravinsky’s Rite of Spring rejects the vision of humanity portrayed in “Classical” Ballet (for example, Tchaikovsky’s Swan Lake)
+- The “Primitivist” style of dance emphasizes
+    - Group dance and the erasure of the individual for the sake of the community
+    - Ritual rather than emotion
+    - Animal instincts rather than romance or transcendence
+- Music is not an escape from reality, it is a revelation of its mundanity (the fact of being very ordinary and therefore not interesting)
+
+Stravinsky, The Rite of Spring (1913)
+- Begins with straining sound of the bassoon, beyond highest range
+- Sudden shifts mid-phrase. Unlike classical era, like symmetrical phrase.
+- Metrical displacement (try tapping along to the beat)
+- Ostinato: repeated rhythm
+
+*What does it mean?*
+
+Life, death, rather long prologue.
+
+According to Stravinsky:
+- (will be added later)
+
+According to Richard Taruskin
+- (will be added later)
+
+We can't rely on what composer says: they are trying to confuse us more than illuminate.
+
+Meaning Culture vs. Presence culture
+- m
+- p
+
+Analyzing Music
+- ...
