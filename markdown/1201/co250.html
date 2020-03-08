@@ -46,6 +46,12 @@ layout: markdown
         <a class="md-toc-inner" href="#sef-1">SEF</a>
     </span>
     <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-8">Lec 8</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#bases">Bases</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#midterm-2">Midterm 2</a>
     </span>
     </p>
@@ -162,6 +168,20 @@ x\ge 0
 <li>Ineq: \(x_1-x_2\le 5 \to x_1-x_2+x_3=5, x_3\ge 0\) slack variable</li>
 <li>Free var. Suppose \(x_1\) can take any real values. Introduce \(x_1^+,x_1^-\) and replace all instances of \(x_1\) with \(x_1^+-x_1^-\), where \(x_1^+,x_1^-\ge 0\).</li>
 </ol>
+<h1 id="lec-8"><a class="header-link" href="#lec-8"></a>Lec 8</h1>
+<h2 id="bases"><a class="header-link" href="#bases"></a>Bases</h2>
+<p>Let \(A\) be an \(m\times n\) matrix with full row rank. We index the columns from 1 to \(n\). We say \(B\subseteq \{1,\ldots,n\}\) is a <strong>basis</strong> if \(A_B\) is invertible.</p>
+<div class='ex'>
+<div class="ex-title">
+BS and BFS
+</div>
+
+<div class='ex-content'>
+<p><strong>Basic Solution</strong> of \(Ax=b\) determined by \(B\): A vector \(\bar x\) is a basic solution of \(Ax=b\) for a basic \(B\) if \(A\bar x=b\) and \(\bar x_N=0\), where \(\bar x_N\) is the vector formed by the nonbasic variables. That is, \(N:=\{1,\ldots,n\}\setminus B\). </p>
+<p>A vector \(\bar x\) is a BFS of \(\{Ax=b,\quad x\ge 0\}\) if it is a basic solution of \(Ax=b\) determined by \(B\) that also satisfies \(\bar x\ge 0\).</p>
+</div>
+</div>
+
 <h1 id="midterm-2"><a class="header-link" href="#midterm-2"></a>Midterm 2</h1>
 <p>Midterm.2 is on 2020, March.12 (Thu) 7-9 pm on the MC 4th floor.</p>
 <p>Coverage:</p>
