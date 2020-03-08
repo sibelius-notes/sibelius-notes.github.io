@@ -34,6 +34,18 @@ layout: markdown
         <a class="md-toc-inner" href="#nonlinear-programming">Nonlinear programming</a>
     </span>
     <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lecture-6">Lecture 6</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#sef">SEF</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-7">Lec 7</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#sef-1">SEF</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#midterm-2">Midterm 2</a>
     </span>
     </p>
@@ -106,6 +118,50 @@ x_e\in \{0,1\}\quad \forall e\in E
 \]</p>
 <h2 id="nonlinear-programming"><a class="header-link" href="#nonlinear-programming"></a>Nonlinear programming</h2>
 <p>NLP</p>
+<p><strong>General form</strong>
+\[
+    \begin{array}{ll}
+    \min &amp; \begin{array}{l}f(x)\end{array}\\
+    \text{s.t.} &amp; \begin{array}{lll}
+    g(x_1)\le 0\\
+    g(x_2)\le 0 \\
+    \vdots \\
+    g_m(x)\le 0
+    \end{array}
+    \end{array}
+\]
+\(f:\mathbb R^n\to\mathbb R\), \(g_i:\mathbb R^n\to\mathbb R\) for each \(i\).</p>
+<h1 id="lecture-6"><a class="header-link" href="#lecture-6"></a>Lecture 6</h1>
+<p><strong>Proposition</strong>: The system \(Ax=b, x\ge 0\) is infeasible if \(\exists y\) such that \(y^T A\ge 0\) and \(y^T b&lt;0\).</p>
+<p><strong>Defn</strong> A max LP is <em>unbounded</em> if \(\exists\) a series of feasible solutions \(x(t)\) such that the objective value approaches \(\infty\) as \(t\to\infty\).</p>
+<p><strong>Proposition</strong>: The LP \(\begin{array}{ll}
+\max &amp; \begin{array}{l}c^Tx\end{array}\\
+\text{s.t.} &amp; \begin{array}{lll}
+Ax=b\\
+x\ge 0
+\end{array}
+\end{array}\) is unbounded if there exists feas sol \(\bar x\) and a vector \(d\) such that \(Ad=0,d\ge 0,c^Td&gt;0\).</p>
+<p><strong>Fundamental Theorem of Linear Programming</strong>: For any LP, exactly one of these holds: infeasible, unbounded, has an opt solution.</p>
+<h2 id="sef"><a class="header-link" href="#sef"></a>SEF</h2>
+<p>Standard equality form</p>
+<p>\[
+    \begin{array}{ll}
+    \max &amp; \begin{array}{l}c^Tx+\bar z\end{array}\\
+    \text{s.t.} &amp; \begin{array}{lll}
+    Ax=b\\
+    x\ge 0
+    \end{array}
+    \end{array}
+\]</p>
+<h1 id="lec-7"><a class="header-link" href="#lec-7"></a>Lec 7</h1>
+<h2 id="sef-1"><a class="header-link" href="#sef-1"></a>SEF</h2>
+<p>Equivalent LPs</p>
+<p>3 variations</p>
+<ol class="list">
+<li>min to max</li>
+<li>Ineq: \(x_1-x_2\le 5 \to x_1-x_2+x_3=5, x_3\ge 0\) slack variable</li>
+<li>Free var. Suppose \(x_1\) can take any real values. Introduce \(x_1^+,x_1^-\) and replace all instances of \(x_1\) with \(x_1^+-x_1^-\), where \(x_1^+,x_1^-\ge 0\).</li>
+</ol>
 <h1 id="midterm-2"><a class="header-link" href="#midterm-2"></a>Midterm 2</h1>
 <p>Midterm.2 is on 2020, March.12 (Thu) 7-9 pm on the MC 4th floor.</p>
 <p>Coverage:</p>
