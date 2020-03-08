@@ -44,13 +44,23 @@ layout: markdown
 \begin{array}{ll}
 \max &amp; \begin{array}{l}w^T x\end{array}\\
 \text{s.t.} &amp; \begin{array}{lll}
-Ax\le 1\\
+Ax\le \mathds{1}\\
 x_e\in \{0,1\} \quad \forall e\in E
 \end{array}
 \end{array}
 \]
 The constraints  force \(x_e\le 1\) so we can reduce this to \(x_e\ge 0,x_e\in\mathbb Z\) for all \(e\in E\).</p>
 <p>shortest path problem</p>
+<p>\[
+\begin{array}{ll}
+\min &amp; \begin{array}{l}w^Tx\end{array}\\
+\text{s.t.} &amp; \begin{array}{lll}
+x_e\in \{0,1\}~~e\in E
+\end{array}
+\end{array}<br>\]</p>
+<p>Given \(W\subseteq V\), the <strong>cut induced by</strong> \(W\) is the set of all edges with exactly one endpoint in \(W\). Notation: \(\delta(W)\).
+\(\delta(W) = \{uv\in E: u\in W, v\not\in W\}\). This \(\delta(W)\) is an \(s,t\)-cut
+ if \(s\in W\) and \(t\not\in W\).</p>
 <h1 id="midterm-2"><a class="header-link" href="#midterm-2"></a>Midterm 2</h1>
 <p>Midterm.2 is on 2020, March.12 (Thu) 7-9 pm on the MC 4th floor.</p>
 <p>Coverage:</p>
