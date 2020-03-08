@@ -30,6 +30,9 @@ layout: markdown
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#lecture-5">Lecture 5</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#nonlinear-programming">Nonlinear programming</a>
+    </span>
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#midterm-2">Midterm 2</a>
     </span>
@@ -86,6 +89,23 @@ x_e\in \{0,1\}\quad \forall e\in E
 <h1 id="lecture-5"><a class="header-link" href="#lecture-5"></a>Lecture 5</h1>
 <p><strong>Problem:</strong> A feasible solution may not be a \(s,t\)-path. For example, \(x_e=1, \quad \forall e\in E\).</p>
 <p><strong>Resolution</strong>:</p>
+<ol class="list">
+<li>If a set of edges intersets every s,t-cut, then this set of edges must contain an s,t-path. (i.e., it has an s,t-path plus possibly other edges).</li>
+<li>We assumed \(w_e&gt;0\) for all \(e\in E\). If we have edges that are not part of an s,t-path, we can remove them and get a better solution (lower obj value).</li>
+</ol>
+<p>Therefore, an optimal solution must correspond to an s,t-path.</p>
+<p>By the same argument, we don&#39;t need \(x_e\le 1\). Any higher values of \(x_e\) would not be optimal.</p>
+<p><strong>Full shortest path IP</strong>
+\[
+    \begin{array}{ll}
+    \min &amp; \begin{array}{l}w^T x\end{array}\\
+    \text{s.t.} &amp; \begin{array}{lll}
+    \sum_{e\in\delta(W)}x_e\ge 1 &amp; \forall s,t\text{-cuts }\delta(W)\\
+    x_e\ge 0,\quad x_e\in \mathbb Z&amp;\forall e\in E\end{array}
+    \end{array}
+\]</p>
+<h2 id="nonlinear-programming"><a class="header-link" href="#nonlinear-programming"></a>Nonlinear programming</h2>
+<p>NLP</p>
 <h1 id="midterm-2"><a class="header-link" href="#midterm-2"></a>Midterm 2</h1>
 <p>Midterm.2 is on 2020, March.12 (Thu) 7-9 pm on the MC 4th floor.</p>
 <p>Coverage:</p>
