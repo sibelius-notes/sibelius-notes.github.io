@@ -10,16 +10,16 @@ layout: markdown
 <div class="md-toc content">
     <p class="md-toc-content">
     <span class="md-toc-item md-toc-h1">
-        <a class="md-toc-inner" href="#lecture-1">Lecture 1</a>
+        <a class="md-toc-inner" href="#lec-1">Lec 1</a>
     </span>
     <span class="md-toc-item md-toc-h1">
-        <a class="md-toc-inner" href="#lecture-2">Lecture 2</a>
+        <a class="md-toc-inner" href="#lec-2">Lec 2</a>
     </span>
     <span class="md-toc-item md-toc-h1">
-        <a class="md-toc-inner" href="#lecture-3">Lecture 3</a>
+        <a class="md-toc-inner" href="#lec-3">Lec 3</a>
     </span>
     <span class="md-toc-item md-toc-h1">
-        <a class="md-toc-inner" href="#lecture-4">Lecture 4</a>
+        <a class="md-toc-inner" href="#lec-4">Lec 4</a>
     </span>
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#maximum-weight-matching-problem">maximum weight matching problem</a>
@@ -28,13 +28,13 @@ layout: markdown
         <a class="md-toc-inner" href="#shortest-path-problem">shortest path problem</a>
     </span>
     <span class="md-toc-item md-toc-h1">
-        <a class="md-toc-inner" href="#lecture-5">Lecture 5</a>
+        <a class="md-toc-inner" href="#lec-5">Lec 5</a>
     </span>
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#nonlinear-programming">Nonlinear programming</a>
     </span>
     <span class="md-toc-item md-toc-h1">
-        <a class="md-toc-inner" href="#lecture-6">Lecture 6</a>
+        <a class="md-toc-inner" href="#lec-6">Lec 6</a>
     </span>
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#sef">SEF</a>
@@ -51,6 +51,18 @@ layout: markdown
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#bases">Bases</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#canonical-form">Canonical form</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-9">Lec 9</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#simplex">Simplex</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-10">Lec 10</a>
+    </span>
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#midterm-2">Midterm 2</a>
     </span>
@@ -58,21 +70,21 @@ layout: markdown
 </div>
 
 
-<!--start--><h1 id="lecture-1"><a class="header-link" href="#lecture-1"></a>Lecture 1</h1>
+<!--start--><h1 id="lec-1"><a class="header-link" href="#lec-1"></a>Lec 1</h1>
 <p>Starting example.</p>
 <p><em>What is opt?</em></p>
 <p>Abstracting optimization problems have this form: we are given \(A\subseteq \mathbb R^n\) and a function \(f:A\to\mathbb R\). The goal is to find \(x\in A\) that minimizes/maximizes \(f(x)\).</p>
 <p><em>What are linear programs?</em></p>
 <p>Linear programs (LPs) is a class of optimization problems that can be efficiently solved using variables \(x_1,\ldots,x_n\), a function is <strong>affine</strong> if it has the form \(a_1x_1+\ldots+a_nx_n+b\) for some constants \(a_1,\ldots,a_b,b\). It is <strong>linear</strong> if in addition, \(b=0\). In vector form, if \(x=(x_1,\ldots,x_n)^T\) and \(a=(a_1,\ldots,a_n)^T\), then \(a^Tx+b\) is affine, and \(a^Tx\) is linear.</p>
 <p>A linear program has objective function \(\max f(x)\) or \(\min f(x)\) where \(f(x)\) is affine, and constraints of the form \(g(x)\le b\), or \(g(x)\ge b\) for some linear \(g\), constraint \(b\).</p>
-<h1 id="lecture-2"><a class="header-link" href="#lecture-2"></a>Lecture 2</h1>
+<h1 id="lec-2"><a class="header-link" href="#lec-2"></a>Lec 2</h1>
 <p>LP formulations and IP formulations.</p>
 <p>IP is a linear program except we restrict variables to take on only integer values.</p>
-<h1 id="lecture-3"><a class="header-link" href="#lecture-3"></a>Lecture 3</h1>
+<h1 id="lec-3"><a class="header-link" href="#lec-3"></a>Lec 3</h1>
 <p>IP formulations.</p>
 <p>optimization on graphs.</p>
 <p>A graph \(G=(V,E)\) consists of a set of objects \(V\) called vertices and a collection of unordered paris of vertices \(E\) called edges.</p>
-<h1 id="lecture-4"><a class="header-link" href="#lecture-4"></a>Lecture 4</h1>
+<h1 id="lec-4"><a class="header-link" href="#lec-4"></a>Lec 4</h1>
 <h2 id="maximum-weight-matching-problem"><a class="header-link" href="#maximum-weight-matching-problem"></a>maximum weight matching problem</h2>
 <p>\[
 \begin{array}{ll}
@@ -104,7 +116,7 @@ x_e\in \{0,1\}\quad \forall e\in E
 \[
     \sum_{e\in\delta(W)}x_e\ge 1 \qquad \forall s,t\text{-cuts }\delta(W)
 \]</p>
-<h1 id="lecture-5"><a class="header-link" href="#lecture-5"></a>Lecture 5</h1>
+<h1 id="lec-5"><a class="header-link" href="#lec-5"></a>Lec 5</h1>
 <p><strong>Problem:</strong> A feasible solution may not be a \(s,t\)-path. For example, \(x_e=1, \quad \forall e\in E\).</p>
 <p><strong>Resolution</strong>:</p>
 <ol class="list">
@@ -137,7 +149,7 @@ x_e\in \{0,1\}\quad \forall e\in E
     \end{array}
 \]
 \(f:\mathbb R^n\to\mathbb R\), \(g_i:\mathbb R^n\to\mathbb R\) for each \(i\).</p>
-<h1 id="lecture-6"><a class="header-link" href="#lecture-6"></a>Lecture 6</h1>
+<h1 id="lec-6"><a class="header-link" href="#lec-6"></a>Lec 6</h1>
 <p><strong>Proposition</strong>: The system \(Ax=b, x\ge 0\) is infeasible if \(\exists y\) such that \(y^T A\ge 0\) and \(y^T b&lt;0\).</p>
 <p><strong>Defn</strong> A max LP is <em>unbounded</em> if \(\exists\) a series of feasible solutions \(x(t)\) such that the objective value approaches \(\infty\) as \(t\to\infty\).</p>
 <p><strong>Proposition</strong>: The LP \(\begin{array}{ll}
@@ -182,6 +194,25 @@ BS and BFS
 </div>
 </div>
 
+<p>In general, \(Ax = A_Bx_B +A_Nx_N\). For a basic solution, \(Ax=A_Bx_B=b\). This solution is unique (by lin alg).</p>
+<h2 id="canonical-form"><a class="header-link" href="#canonical-form"></a>Canonical form</h2>
+<p>An LP in SEF is in canonical form w.r.t a basis \(B\) if \(A_B=I\) and \(c_B=0\).</p>
+<h1 id="lec-9"><a class="header-link" href="#lec-9"></a>Lec 9</h1>
+<h2 id="simplex"><a class="header-link" href="#simplex"></a>Simplex</h2>
+<p><strong>Main idea</strong>: go from feasible basis to feasible basis, attempting to raise obj val along the way.</p>
+<ol class="list">
+<li>Start with a feas. basis \(B\).</li>
+<li>Rewrite the LP in canonical form w.r.t. \(B\).</li>
+<li>Pick an entering var.<br>Pick a non-basic var \(x_k\) where \(c_k&gt;0\).</li>
+<li>Pick a leaving var.<ul class="list">
+<li>Choose \(t =\min \left\{{b_i\over A_{ik}}: A_{ik}&gt;0\right\}\)</li>
+<li>our leaving var is \(x_e\), our new basis is \(B&#39;=B\cup \left\{k\right\} \setminus \left\{e\right\}\)</li>
+</ul>
+</li>
+<li>Repeat step 2.</li>
+</ol>
+<h1 id="lec-10"><a class="header-link" href="#lec-10"></a>Lec 10</h1>
+<p>an example of cycling</p>
 <h1 id="midterm-2"><a class="header-link" href="#midterm-2"></a>Midterm 2</h1>
 <p>Midterm.2 is on 2020, March.12 (Thu) 7-9 pm on the MC 4th floor.</p>
 <p>Coverage:</p>
