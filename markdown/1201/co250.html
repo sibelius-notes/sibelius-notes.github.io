@@ -70,6 +70,39 @@ layout: markdown
         <a class="md-toc-inner" href="#two-phase-simplex">Two-phase simplex</a>
     </span>
     <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-11">Lec 11</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#tableau-method">Tableau method</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-12">Lec 12</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#characterizations-of-extreme-points">Characterizations of extreme points</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-13">Lec 13</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#dual-linear-programs">Dual linear programs</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-14">Lec 14</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#strong-duality">Strong duality</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-15">Lec 15</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#complementary-slackness">Complementary slackness</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#farkas&#x27;-lemma">Farkas&#x27; lemma</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#midterm-2">Midterm 2</a>
     </span>
     </p>
@@ -263,7 +296,41 @@ Basis \(B=\left\{3,4\right\}\), BFS \(\begin{pmatrix}
 <p>Form an <strong>auxillary LP</strong> with an obvious BFS. Solve this auxillary LP using simplex. The result of simplex will tell us if a BFS exists or if it is infeasible.</p>
 <ol class="list">
 <li>For constraints whose RHS is negative, multiply by -1. Then RHS \(\ge 0\).</li>
+<li>Add new aux vars, one for each constraint. They form a basis that is feasible.<br><strong>Key concept</strong>: The orignal LP has a feasible solution iff the aux LP has a feasible sol where all aux vars are 0.</li>
+<li>We can determine whether or not such a soln exists by maximizing the sum of the negatives of all aux vars.</li>
 </ol>
+<p><strong>Note</strong>: Aux is feas and bounded by 0. So it has an opt solution.</p>
+<p><strong>Proposition</strong>: An LP has a feasible solution iff its aux LP has opt val 0.</p>
+<h1 id="lec-11"><a class="header-link" href="#lec-11"></a>Lec 11</h1>
+<h2 id="tableau-method"><a class="header-link" href="#tableau-method"></a>Tableau method</h2>
+<p><strong>Main idea</strong>: simpler for doing simpler by hand. Use a matrix to represent all data in LP. Use row reductions.</p>
+<p>Geometry</p>
+<h1 id="lec-12"><a class="header-link" href="#lec-12"></a>Lec 12</h1>
+<p>Hyperplane. Halfspace. Polyhedron.</p>
+<p>Extreme points.</p>
+<h2 id="characterizations-of-extreme-points"><a class="header-link" href="#characterizations-of-extreme-points"></a>Characterizations of extreme points</h2>
+<p><strong>Theorem</strong> Let \(P=\left\{x\in \mathbb R^n: Ax\le b \right\}\) be a polyhedron, and \(\bar x\in P\). Let \(A^=x=b^=\) be the set of all tight constraints for \(\bar x\). Then \(\bar x\) is an extreme point of \(P\) iff \(rank(A^=)=n\).</p>
+<p><strong>Theorem</strong> Let \(P=\left\{x\in \mathbb R^n: Ax\le b, x\ge 0 \right\}\) where  \(A\) has full row rank, and let \(\bar x\in P\). Then \(\bar x\) is an extreme point of \(P\) iff \(\bar x\) is a basic feasible solution of \(Ax=b\).</p>
+<h1 id="lec-13"><a class="header-link" href="#lec-13"></a>Lec 13</h1>
+<h2 id="dual-linear-programs"><a class="header-link" href="#dual-linear-programs"></a>Dual linear programs</h2>
+<p>Motivation: certificate of optimality</p>
+<h1 id="lec-14"><a class="header-link" href="#lec-14"></a>Lec 14</h1>
+<h2 id="strong-duality"><a class="header-link" href="#strong-duality"></a>Strong duality</h2>
+<p>SEF version. Prove it using simplex.</p>
+<h1 id="lec-15"><a class="header-link" href="#lec-15"></a>Lec 15</h1>
+<p>Another version of strong duality theorem: If (P) and (D) are both feasible, then both (P), (D) have optimal solutions with the same optimal values.</p>
+<h2 id="complementary-slackness"><a class="header-link" href="#complementary-slackness"></a>Complementary slackness</h2>
+<ul class="list">
+<li>\(x_i=0\) or the corresponding dual constraint is tight; and</li>
+<li>\(y_j=0\) or the corresponding dual constraint is tight.</li>
+</ul>
+<p>For equality constraints, they are always tight for feasible solutions. So we don&#39;t include them CS conditions.</p>
+<p><strong>Complementary slackness theorem</strong>: Let (P), (D) be a primal-dual pair. Let \(\bar x, \bar y\) be feasible for (P), (D) respectively. The \(\bar x,\bar y\) are optimal for (P), (D) respectively iff \(\bar x,\bar y\) satisfy all complementary slackness conditions.</p>
+<p><strong>Defn</strong>: \(x^1,\ldots,x^k\in\mathbb R^n\). The cone generated by these vectors is \(C=\left\{\lambda_1x^1+ \ldots + \lambda_k x^k: \lambda_i \ge 0, \forall i\right\}\).</p>
+<p><strong>Theorem</strong>: Let \(\bar x\) be feasible for \(\maxbra
+    c^T x: Ax\le b \). Then \(\bar x\) is optimal iff \(c\) is in the cone of tight constraints for \(\bar x\).</p>
+<h2 id="farkas'-lemma"><a class="header-link" href="#farkas'-lemma"></a>Farkas&#39; lemma</h2>
+<p>Prove it using strong duality.</p>
 <h1 id="midterm-2"><a class="header-link" href="#midterm-2"></a>Midterm 2</h1>
 <p>Midterm.2 is on 2020, March.12 (Thu) 7-9 pm on the MC 4th floor.</p>
 <p>Coverage:</p>
