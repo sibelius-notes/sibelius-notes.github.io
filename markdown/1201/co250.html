@@ -63,6 +63,12 @@ layout: markdown
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#lec-10">Lec 10</a>
     </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#termination-of-simplex">Termination of simplex</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#two-phase-simplex">Two-phase simplex</a>
+    </span>
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#midterm-2">Midterm 2</a>
     </span>
@@ -213,6 +219,51 @@ BS and BFS
 </ol>
 <h1 id="lec-10"><a class="header-link" href="#lec-10"></a>Lec 10</h1>
 <p>an example of cycling</p>
+<h2 id="termination-of-simplex"><a class="header-link" href="#termination-of-simplex"></a>Termination of simplex</h2>
+<p><strong>Degenerate iterations</strong>: objective value does not change, BFS does not change.</p>
+<div class='ex'>
+<div class="ex-title">
+Degenerate iterations
+</div>
+
+<div class='ex-content'>
+\[
+    \begin{array}{ll}
+    \max &amp; \begin{array}{l}\begin{pmatrix}
+    1 &amp; 0 &amp; 0 &amp; 0
+    \end{pmatrix}x\end{array}\\
+    \text{s.t.} &amp; \begin{array}{lll}
+\begin{pmatrix}
+3 &amp; 2 &amp; 1 &amp; 0\\
+1 &amp; 1 &amp; 0 &amp; 1
+\end{pmatrix}x = \begin{pmatrix}
+0 \\2
+\end{pmatrix}
+    \\
+    x\ge 0
+    \end{array}
+    \end{array}
+\]
+Basis \(B=\left\{3,4\right\}\), BFS \(\begin{pmatrix}
+0 &amp; 0 &amp; 0 &amp; 2
+\end{pmatrix}^T\)
+
+<p>Entering var \(x_1\). Set \(x_1=t\). \(t=\min \left\{ \dfrac{0}{3}, \dfrac{2}{1}\right\}=0\). (No change in obj or BFS)</p>
+
+<p>Leaving var \(x_3\)</p>
+
+<p>New basis \(B=\left\{1,4\right\}\). BFS \(\begin{pmatrix}
+0 &amp; 0 &amp; 0 &amp; 2
+\end{pmatrix}^T\)</p>
+<p>This is a degenerate iteration.</p>
+</div>
+</div>
+
+<h2 id="two-phase-simplex"><a class="header-link" href="#two-phase-simplex"></a>Two-phase simplex</h2>
+<p>Form an <strong>auxillary LP</strong> with an obvious BFS. Solve this auxillary LP using simplex. The result of simplex will tell us if a BFS exists or if it is infeasible.</p>
+<ol class="list">
+<li>For constraints whose RHS is negative, multiply by -1. Then RHS \(\ge 0\).</li>
+</ol>
 <h1 id="midterm-2"><a class="header-link" href="#midterm-2"></a>Midterm 2</h1>
 <p>Midterm.2 is on 2020, March.12 (Thu) 7-9 pm on the MC 4th floor.</p>
 <p>Coverage:</p>
