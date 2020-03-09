@@ -94,13 +94,22 @@ layout: markdown
         <a class="md-toc-inner" href="#strong-duality">Strong duality</a>
     </span>
     <span class="md-toc-item md-toc-h1">
-        <a class="md-toc-inner" href="#lec-15">Lec 15</a>
+        <a class="md-toc-inner" href="#lec-15-&amp;-lec-16">Lec 15 &amp; Lec 16</a>
     </span>
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#complementary-slackness">Complementary slackness</a>
     </span>
     <span class="md-toc-item md-toc-h2">
         <a class="md-toc-inner" href="#farkas&#x27;-lemma">Farkas&#x27; lemma</a>
+    </span>
+    <span class="md-toc-item md-toc-h1">
+        <a class="md-toc-inner" href="#lec-17">Lec 17</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#shortest-paths-problem">Shortest paths problem</a>
+    </span>
+    <span class="md-toc-item md-toc-h2">
+        <a class="md-toc-inner" href="#dual-of-the-shortest-paths-problem">Dual of the shortest paths problem</a>
     </span>
     <span class="md-toc-item md-toc-h1">
         <a class="md-toc-inner" href="#midterm-2">Midterm 2</a>
@@ -317,7 +326,7 @@ Basis \(B=\left\{3,4\right\}\), BFS \(\begin{pmatrix}
 <h1 id="lec-14"><a class="header-link" href="#lec-14"></a>Lec 14</h1>
 <h2 id="strong-duality"><a class="header-link" href="#strong-duality"></a>Strong duality</h2>
 <p>SEF version. Prove it using simplex.</p>
-<h1 id="lec-15"><a class="header-link" href="#lec-15"></a>Lec 15</h1>
+<h1 id="lec-15-&-lec-16"><a class="header-link" href="#lec-15-&-lec-16"></a>Lec 15 &amp; Lec 16</h1>
 <p>Another version of strong duality theorem: If (P) and (D) are both feasible, then both (P), (D) have optimal solutions with the same optimal values.</p>
 <h2 id="complementary-slackness"><a class="header-link" href="#complementary-slackness"></a>Complementary slackness</h2>
 <ul class="list">
@@ -331,6 +340,36 @@ Basis \(B=\left\{3,4\right\}\), BFS \(\begin{pmatrix}
     \left\{c^T x: Ax\le b \right\} \). Then \(\bar x\) is optimal iff \(c\) is in the cone of tight constraints for \(\bar x\).</p>
 <h2 id="farkas'-lemma"><a class="header-link" href="#farkas'-lemma"></a>Farkas&#39; lemma</h2>
 <p>Prove it using strong duality.</p>
+<h1 id="lec-17"><a class="header-link" href="#lec-17"></a>Lec 17</h1>
+<h2 id="shortest-paths-problem"><a class="header-link" href="#shortest-paths-problem"></a>Shortest paths problem</h2>
+<p><strong>Problem</strong> Given a graph \(G=(V,E)\) with two distinct specified vertices \(s,t\) and positive edge lengths \(c_e\), find a shortest \(s,t\)-path in \(G\).
+\[
+    \begin{array}{ll}
+    \min &amp; \begin{array}{l}w^T x\end{array}\\
+    \text{s.t.} &amp; \begin{array}{lll}
+    \sum_{e\in\delta(W)}x_e\ge 1 &amp; \forall s,t\text{-cuts }\delta(W)\\
+    x_e\ge 0,\quad x_e\in \mathbb Z&amp;\forall e\in E\end{array}
+    \end{array}
+\]
+One var \(x_e\) for each edge \(e\) to indicate if the edge is in the path.</p>
+<p>constraints: sum of \(x\)&#39;s in a cut is at least 1.</p>
+<p>...</p>
+<p><em>Why an algorithm?</em></p>
+<p>The number of constraints is the same as the number of \(s,t\)-cuts, which is \(2^{n-2}\), which is exponential. (\(n\) vertices) Not efficient to solve using simplex. We will give an algorithm based on duality theory that is much faster.</p>
+<p><strong>LP relaxation</strong>: Drop integrality constraints. If we run simplex, we might get a fractional solution. Our algorithm will ensure that the soln is integral.</p>
+<h2 id="dual-of-the-shortest-paths-problem"><a class="header-link" href="#dual-of-the-shortest-paths-problem"></a>Dual of the shortest paths problem</h2>
+<p><strong>obj</strong>: sum of all \(y\)-values</p>
+<p><strong>constraints for</strong> \(e\): coeff 1 on cuts that contain \(e\)</p>
+<p>general dual LP for the shortest paths problem:
+\[
+    \begin{array}{ll}
+    \max &amp; \begin{array}{l}e^T y\end{array}\\
+    \text{s.t.} &amp; \begin{array}{lll}
+    \sum (y_S: \delta(S) \text{ is an s,t-cut containing } e) \le c_e &amp; \forall e\in E\\
+    y\ge 0
+    \end{array}
+    \end{array}
+\]</p>
 <h1 id="midterm-2"><a class="header-link" href="#midterm-2"></a>Midterm 2</h1>
 <p>Midterm.2 is on 2020, March.12 (Thu) 7-9 pm on the MC 4th floor.</p>
 <p>Coverage:</p>
@@ -339,6 +378,20 @@ Basis \(B=\left\{3,4\right\}\), BFS \(\begin{pmatrix}
 <li>chapter 2 (solving linear programs) with focus on ch.2.5-2.8</li>
 <li>chapter 4 (duality theory)</li>
 <li>Ass.3 &amp; 4 and PAs 2, 3, 4</li>
+</ul>
+<p>2.5-2.8</p>
+<ul class="list">
+<li>2.5: The simplex algorithm</li>
+<li>2.6: Finding feasible solutions</li>
+<li>2.7: Simplex via tableaus</li>
+<li>2.8: Geometry</li>
+</ul>
+<p>4</p>
+<ul class="list">
+<li>4.1: Weak duality</li>
+<li>4.2: Strong duality</li>
+<li>4.3: A geometric characterization of optimality</li>
+<li>4.4: Farkas&#39; lemma</li>
 </ul>
 <!--end-->
 </div>
