@@ -1118,3 +1118,55 @@ and chorus
     - Label each repeated phrase with a letter
 - Compare musical and lyrical structure
 - Consider how the musical elements highlight the words
+
+# Lec 17 - Mar 10th
+
+*I Say a Little Prayer*
+
+In class discussion...
+
+*What does it mean?*
+- Woman's obesseion is raised to the level of religion
+- Woman's full devotion is supported by society
+- entirely one-sided
+
+*What's missing in our analysis?*
+- how music functions socially?
+
+- What more might be needed?
+    - recording process. Transmission process
+    - historical info about 1968.
+- Means of transmission
+
+## Phil Ford's "Style of Analysis"
+- 3 concepts
+    - the map and the territory
+    - Magic: turn the music into the music notation, or actual words, makes it real
+    - Meaning culture vs. presence culture. Dig down
+- Ultimately wants make distinction between "classical" and "popular" music, but between music operating in "meaning culture" or "presence culture"
+    - Any music operates in "meaning culture" once you analyze it
+
+## Creating the Map
+Map: To create a map, you have to survey the territory.
+
+- Describe musical elements is surveying
+    - account for major details
+    - but certain details will be privileged
+- creating map means choosing the most significant moments to describe
+    - map don't include every detail
+    - but they do have to include landmarks
+
+The map becomes the territory...
+
+once you have a map, it changes the way you think about the territory.
+
+When you have learned to listen for elements of music, it changes the way you perceive the music.
+
+"Presence culture" is hard to maintain once you have learned "meaning culture". Once you start to dig in, you can't help analyzing the music.
+
+magic: missing
+
+## The Value of Music Analysis
+- Raises the personal music experience to a universal
+
+## Finding the Meaning in Art Music

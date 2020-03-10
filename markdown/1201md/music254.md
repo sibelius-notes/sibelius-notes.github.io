@@ -1030,3 +1030,90 @@ A: repeats first part; **not** embellished
 - Flexibility in recitatives & arias
 - More use of orchestra & chorus
 - Resisted demands of singers
+
+# Early Classical Style
+Classical Style: New musical language
+
+## Europe
+**Europe**: mid-late 18C: social & intellectual background. Revolution in France & America
+
+**Economy**:
+- improvements in agriculture: increase in population
+- Urban growth
+- rise in middle class: impact on music: leisure
+    - Patrons of Music: Royal, state, church + public
+    - concerts: wider audience, teaching
+    - Middle-class amateur musicians (including women, esp. keyboard - not professional)
+    - bought published music & journals: learning, making reviews and funding publishing industry
+- Cosmopolitan age: Music: “one music for all of Europe”
+
+**Enlightenment**: reason, nature, progress
+- scientific advances: reason, experience, observation
+    - applied to emotions, social relations, politics
+- belief in natural law:
+    - individual rights & human condition
+    - universal education
+    - doctrine of individual rights: Voltaire, Rousseau -> Jefferson, Franklin: constitution
+    - Dirot, *Encyclopedie*: compendium of everything known
+    - Humanitarianism
+        - Freemasonry: universal brotherhood
+        - Arts: common people, culture for all
+
+## Terms
+Classical style:
+variety of styles co-existed: overlap late Baroque/early classical
+
+New musical language: prevailing taste: immediately appealing
+- songful, periodic melodies (built-up 2/4 bar phrases), light accompaniment
+- 1st found comic opera: natrual music, expressive, immediately appealing
+- preference for the "natural"
+    - rejected artifice and complexity, regarded as unnatural
+
+**Classical**: ambiguous term:
+- Haydn, Mozart & Beethoven?
+- 1730s-1815: Classic period (text)
+- Analogy to Greek & Roman art: noble simplicity, balance, formal perfection, diversity within unity
+- wit, freedom from excessive ornamentation
+- value judgements
+
+**Galant style**: French term ("elegant"):
+- mid-late 18C foundation for new musical idiom
+- chic, smooth, sophisticated, modern
+- featured song-like melodies, short melodic phrases (2-4 bars)
+- simple harmony & freq cadences
+- light accompaniment
+- homophonic style (vs learned counterpoint)
+- derived from Italian operas
+
+**Empfindsam style**
+- German for "sentimental or sensitive style" but Italian origin
+- surprising turns of harmony, chromaticism, nervous rhythms, rhapsodic
+- speech-like melodies
+- associated with CPE Bach: slow melodies
+
+## Musical Features of Classical Style
+**Melody** = Focus of Classical Style
+
+**Periodicity**: organized in discrete phrases/periods
+- Period: complete musical thought concluded by a cadencel made up of 2+phrases
+- frequent resting points
+- distinct phrases: 2 or 4 bars
+- 2+ phrases = period
+- 2+ periods = composition
+- phrase made up of segments
+
+**Harmony**
+- Supports melodic phrases & periods
+- Changes less frequently than Baroque
+
+**Texture**
+- animated: need to drive music forward
+- Alberti bass: keyboard music: underlying broken chord accompaniment into repeating pattern of short notes
+
+**Form**
+- Coherence by function of material: beginning, middle, end gestures
+- Like devices by orators in speeches
+
+**Emotion**
+- Constantly in flux, unlike Baroque static emotional states
+- Contrasting moods in one movement or theme (e.g. Mozart sonata)
