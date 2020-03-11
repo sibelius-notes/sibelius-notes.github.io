@@ -1123,7 +1123,7 @@ and chorus
 
 *I Say a Little Prayer*
 
-In class discussion...
+In class discussions... [Notes](/pdfs/1201/110_mar_10.pdf), credit to Natasha Kuepfer.
 
 *What does it mean?*
 - Woman's obesseion is raised to the level of religion
@@ -1170,3 +1170,5 @@ magic: missing
 - Raises the personal music experience to a universal
 
 ## Finding the Meaning in Art Music
+
+notes will be updated later once Prof uploaded her slides.
