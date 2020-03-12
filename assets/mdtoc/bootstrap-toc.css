@@ -215,15 +215,26 @@ th {
 }
 
 pre{
-    background-color: #EBECE4;
+    background-color: #f8f8f8;
 }
 
 #footer {
-    position: absolute;
-    bottom: 0;
-    background: #444444;
-    height: 100px;
-    font-family: 'Open Sans', sans-serif;
-    color: #FFFFFF;
-    padding: 20px;
+    clear: both;
+    color: #666;
+    margin: 0 auto 10px auto;
+    width: 850px;
+    padding: 5px 0;
+    text-align: center;
+    background: #F8F7F7;
+    border-top: 1px solid #F2F2F2;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+}
+
+#footer a:hover {
+    color: #000;
 }
