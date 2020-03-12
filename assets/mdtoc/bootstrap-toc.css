@@ -90,3 +90,10 @@ nav[data-toggle="toc"] .nav-link.active + ul {
 body {
 	font-family: 'Latin Modern Roman', serif;
 }
+
+h1::after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
