@@ -1,5 +1,6 @@
 ---
 title: MUSIC 110 - Music in Cultural Contexts
+crsname: Music in Cultural Contexts
 layout: mdtoc
 ---
 # Lec 1 - Jan 7th

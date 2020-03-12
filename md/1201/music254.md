@@ -1,5 +1,6 @@
 ---
 title: MUSIC 254 - Baroque and Classical music
+crsname: Baroque and Classical music
 layout: mdtoc
 ---
 # Baroque Era
@@ -1121,3 +1122,4 @@ New musical language: prevailing taste: immediately appealing
 - Contrasting moods in one movement or theme (e.g. Mozart sonata)
 
 # Classical Keyboard Music: the Sonata & Concerto
+Scarlatti: good friend of Handel in Italy, connection here. Son of famous opera composer, .... 
