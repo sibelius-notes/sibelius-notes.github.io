@@ -453,8 +453,8 @@ and for Capoeira...
     - shape like music bows
     - string, coin, gourd, stick, rattle
 
-<img src="/pics/three_parts.PNG" alt="Pictures from Emily Gao" width="100%">
 
+![Pictures from Emily Gao](/pics/three_parts.PNG)
 
 3. According to your text, what is the origin of Capoeira?
     - A dance form that enslaved Africans brought with tme to Brazil. (They evolved to a martial arts, want to disguise the martial art for European. So it's not true.)
@@ -667,7 +667,8 @@ Think about classic literature. It must have some foundation aspect to some exte
 ### Pythagorean theory
 Ancient mathematician (c. 570 - c. 495 BC)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Gaffurio_Pythagoras.png/800px-Gaffurio_Pythagoras.png" alt="pythagoras exploring harmony and ratio with various musical instrument" width="100%">
+![pythagoras exploring harmony and ratio with various musical instrument](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Gaffurio_Pythagoras.png/800px-Gaffurio_Pythagoras.png)
+
 
 - discover the ratios that govern harmony
 - creates the system of scale in the West
@@ -1011,7 +1012,8 @@ This the idea behind the final actual music that we hear. This linear process is
 
 In Antioch Stemma: there is no straight linear process here. ... Antioch rev. by Lowel Mason. But he also says "this reminds me of Handel", then Handel's "Lift up ye gates". Also Baroque Style. Various Antioch styles spread out here. And final version "Joy to the World". Also in some work today, we have some contemporary language associated to it.
 
-<img src="/pics/antioch.png" width=100%>
+
+![](/pics/antioch.png)
 
 In other words, these methods help us understand the printed work.
 
@@ -1049,8 +1051,8 @@ Depends on the context
 From wiki,
 > Rockefeller Center is a large complex consisting of 19 commercial buildings covering 22 acres (89,000 m2) between 48th Street and 51st Street in Midtown Manhattan, New York City. The 14 original Art Deco buildings, commissioned by the Rockefeller family, span the area between Fifth Avenue and Sixth Avenue, split by a large sunken square and a private street called Rockefeller Plaza. Later additions include 75 Rockefeller Plaza across 51st Street at the north end of Rockefeller Plaza, and four International Style buildings located on the west side of Sixth Avenue.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/NYC_Top_of_the_Rock_Pano.jpg" width=100%>
 
+![](https://upload.wikimedia.org/wikipedia/commons/3/39/NYC_Top_of_the_Rock_Pano.jpg)
 
 Now let's go to *Eyewitness accounts*.
 
