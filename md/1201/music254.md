@@ -1124,7 +1124,7 @@ New musical language: prevailing taste: immediately appealing
 # Classical Keyboard Music: the Sonata & Concerto
 Scarlatti: good friend of Handel in Italy, connection here. Son of famous opera composer, ....
 
-## Sonata in D, K.119, ca. 1740s
+## Scarlatti, Sonata in D, K.119, ca. 1740s
 Domenico Scarlatti
 
 - Royal houses of Portugal & Spain
@@ -1146,3 +1146,58 @@ Three types of binary form:
 ||: A       B    C  :||: D        B    C  :|| (represents the material)
     I -> V  v    V       V -> I   i    I
 ```
+
+difficult: keep the chord and then trilling. Balanced because it goes back to the key from the beginning.
+
+**Some features**
+- opening: several ideas, each immediately restated (like comic opera)
+- large leaps, rushing scales, rapid arpeggios
+- crossed hands
+- Spanish character?
+    - simulates castanets (rhythm)
+    - simulates guitar strumming (cluster of 6 notes)
+
+## CPE Bach, Sonata in A, II, Poco adagio Wq55/4
+CPE Bach
+- many works for keyboard: favourite clavichord
+- last 5 sets - fortepiano: type of piano from 18C & early 19C
+- classical-period piano: different from later pianos
+    - lighter wooden frame (vs metal)
+    - shorter range (5 octaves)
+    - string struck with hammer
+    - can vary dynamics (forte, piano, crescendo)
+    - instead of pedal, it requires right/left knees
+
+back to this piece...
+- 1765 (pubd 1779): from Six Sonatas for Connoisseurs and Amateurs, No. 4, II
+- purpose: played for private enjoyment
+- played on fortepiano
+- sonata (CPE Bach) = established 3-movement (fast-slow-fast)
+- 1st & 3rd in tonic; 2nd mov. in related key
+- mov. 2 (slow mov.)
+    - form: binary
+        - sonata form without development & no repeat of sections
+        - A (1st part); f\# minor (to A major)
+        - B (2nd part): repeats opening (varied) but ends in tonic
+
+- *Empfindsam style* = sentimental style
+- CPE Bach: elements of surprise:
+
+### main characteristics of Empfindsam style in CPE Bach Sonata slow movement:
+
+a) gestures
+- opening: melodic sigh, singing motive; ends on appoggiatura; resolves on weak beat; followed by rest
+
+b) ornamentation
+- decorated: turn, Scotch snaps, trill
+- ornamentation essential to expression, not just incidental to melody
+
+c) rhythm
+- nervous, restless quality: many rhythmic patterns, constantly changing (short dotted figures, triplets, flourishes of 5, 13 notes)
+
+d) harmony
+- modulates to relative major (A) but immediately returns to tonic, opening
+- nonharmonic tones (esp appoggiaturas)
+
+e) texture
+- expressive melody + light accompaniment
