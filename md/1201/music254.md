@@ -1122,4 +1122,27 @@ New musical language: prevailing taste: immediately appealing
 - Contrasting moods in one movement or theme (e.g. Mozart sonata)
 
 # Classical Keyboard Music: the Sonata & Concerto
-Scarlatti: good friend of Handel in Italy, connection here. Son of famous opera composer, .... 
+Scarlatti: good friend of Handel in Italy, connection here. Son of famous opera composer, ....
+
+## Sonata in D, K.119, ca. 1740s
+Domenico Scarlatti
+
+- Royal houses of Portugal & Spain
+- compiled several volumes of sonatas
+- written for harpsichord
+- Sonata (Scarlatti)= one-movement work in binary form
+
+Three types of binary form:
+- simple
+- balanced
+- Rounded binary form
+
+**Balanced binary form**: 2-part form in which the latter part of the 1st section returns at the end of the second section but in the tonic
+- closing part of 1st part (m. 36) returns to close 2nd part  in tonic
+- Typical format for Scarlatti: minor key for new material before major
+- sections & keys
+
+```
+||: A       B    C  :||: D        B    C  :|| (represents the material)
+    I -> V  v    V       V -> I   i    I
+```
