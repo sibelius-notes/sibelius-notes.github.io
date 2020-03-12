@@ -1172,3 +1172,6 @@ magic: missing
 ## Finding the Meaning in Art Music
 
 notes will be updated later once Prof uploaded her slides.
+
+# Lec 18 - Mar 12th
+Pre-reading: [Structural Listening](https://www.theavidlistener.com/2014/10/structural-listening.html)
