@@ -1,6 +1,6 @@
 ---
 title: MUSIC 254 - Baroque and Classical music
-cname: Baroque and Classical music
+crsname: Baroque and Classical music
 layout: mdtoc
 ---
 # Baroque Era
