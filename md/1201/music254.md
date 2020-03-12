@@ -1,5 +1,6 @@
 ---
 title: MUSIC 254 - Baroque and Classical music
+cname: Baroque and Classical music
 layout: mdtoc
 ---
 # Baroque Era
@@ -368,7 +369,7 @@ and then on Jan 30th, guest lecture on Baroque Violin and modern Violin.
 > Guest Lecture/Demonstration: [Elizabeth Loewen Andrews](https://omfa.ca/adjudicators/elizabeth-loewen-andrews/), violin (on Baroque and Classical performance practice)
 
 ---
-missed due to the <s>**shit**</s> interview... To be filled later
+missed due to the <s><b>shit</b></s> interview... To be filled later
 
 ## Antonio Vivaldi (1678-1741)
 - son of St Mark's violinist (Venice)
@@ -456,7 +457,7 @@ Middle movement is different.
     - from trend of pairing dance types
     - contrasting tempos & character
     - NOT danced: psychological states
-* Form: most dances in binary ||: A :||: B :||
+* Form: most dances in binary &#124;&#124;: A :&#124;&#124;: B :&#124;&#124;
 
 prelude:
 - improvisatory
@@ -750,7 +751,7 @@ Let's examine some components.
 
 a) **Overture** = (opening) an orchestral piece introducing an opera or other long work
 - typical French overture:
-- in 2 parts: &nbsp;&nbsp;&nbsp; ||: A:||: B :||
+- in 2 parts: &nbsp;&nbsp;&nbsp; &#124;&#124;: A:&#124;&#124;: B :&#124;&#124;
 
 A:
 - slow, duple meter, majestic quality
@@ -1004,7 +1005,7 @@ A: repeats first part; **not** embellished
 
 [whole intermezzo (45 minutes)](https://www.youtube.com/watch?v=NsUeywPFEgQ)
 
-<p align="center">***PIVOTAL WORK IN OPERA REFORM***</p>
+<p align="center"><b>PIVOTAL WORK IN OPERA REFORM</b></p>
 
 1752-1754 Paris performances of La serva padrona: led to "La querelle des bouffons" (1752-54): war of the comic actors
 
