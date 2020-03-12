@@ -214,7 +214,16 @@ th {
  padding:10px;
 }
 
-.footer {
-	background: #242e2b;
-	color: #a8adac
+pre{
+    background-color: #EBECE4;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    background: #444444;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
 }

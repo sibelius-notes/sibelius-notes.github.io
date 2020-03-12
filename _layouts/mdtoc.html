@@ -99,8 +99,16 @@
         </div>
         <div class="col-sm-9">
           {{ content }}
+          <!--script>
+            $(document).ready(function () {
+                $('pre').addClass('highlight');
+                $('code').addClass('highlight');
+            });
+        </script-->
           {% include share-buttons.html %}
-          {% include site-footer.html %}
+            <div id="footer">
+                <p>Copyright &copy; <a href="/">{{ site.author }}</a> {{ site.time | date: '%Y' }}</p>
+            </div>
           <!-- footer -->
         </div>
       </div>
