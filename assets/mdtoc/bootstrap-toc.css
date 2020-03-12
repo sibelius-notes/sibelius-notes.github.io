@@ -87,6 +87,62 @@ nav[data-toggle="toc"] .nav-link.active + ul {
 	src: url('../fonts/lmroman10-bolditalic.woff') format('woff');
 }
 
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bk1l9w5DPYpGMg.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1BkVl9w5DPYpGMg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bkpl9w5DPYpGMg.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1BkZl9w5DPYpGMg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bkdl9w5DPYpGMg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bkll9w5DPYo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
 body {
 	font-family: 'Latin Modern Roman', serif;
 }
@@ -96,4 +152,64 @@ h1::after
     content:' ';
     display:block;
     border:2px solid black;
+}
+
+/* blockquote style */
+blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+	display: inline;
+}
+
+/* spacing */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  font-family: "Alegreya Sans SC" !important;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #C71585;
+  color: white;
+}
+
+/* for example block */
+.ex {
+ width:100%;
+ /*height:300px;*/
+ background: #f2ebeb;
+ border-radius: 10px 10px 10px 10px;
+ overflow:hidden;
+ margin-bottom: 20px;
+}
+
+.ex-title {
+ background: #C71585;
+ padding:10px;
+ color: white;
+ padding: 12px;
+ font-family: "Alegreya Sans SC" !important;
+}
+
+.ex-content {
+ padding:10px;
 }
