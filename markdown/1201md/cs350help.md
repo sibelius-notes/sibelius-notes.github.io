@@ -1,5 +1,10 @@
 title: CS 350 (old) - Operating Systems (help page)
 ---
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  If you reach this page by accident, you should know that this page is outdated by the title above...
+  This is the old layout with toc (table of contents) at the top which is hard to navigate if I have a lot of contents in one section. Please refer to my new layout (with contents up to date) with bootstrap toc: Simply change "markdown" in url to "md".
+</div>
 ... Also, check my [miscellaneous notes](../cs350/)
 # Basics
 ## Installing and Configuring OS/161
