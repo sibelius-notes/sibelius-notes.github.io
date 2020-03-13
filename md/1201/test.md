@@ -49,7 +49,7 @@ layout: mdtoc
 &#92;[
     &#92;begin{array}{llll}
     x &#92;&#92; y &#92;&#92; z &#92;&#92; w &#92;&#92;
-    &#92;end{aligned}
+    &#92;end{array}
 &#92;]
 
 # pmatrix
