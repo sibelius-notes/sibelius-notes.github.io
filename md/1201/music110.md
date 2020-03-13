@@ -1124,10 +1124,29 @@ and chorus
 - Consider how the musical elements highlight the words
 
 # Lec 17 - Mar 10th
+## Methods of Historical Music Studys
+- Search for “The Musical Work” in the notational record
+    - Traces the music in material form
+    - Identifies the composer and editor in the creation of “The Musical Work”
+- Eyewitness accounts
+    - Give insight into what was significant to the experience
+    - May contribute to the interpretation of the work
+- Analysis
+    - Helps us determine how the musical elements contribute to our experience of the music
+    - Communicates the shared experience of music
+
 
 *I Say a Little Prayer*
+- Break into groups of 3
+- Come to a consensus about the form of
+the music and text
+- Discuss important features of your
+assigned element
+- What is this song about?
 
 In class discussions... [Notes](/pdfs/1201/110_mar_10.pdf), credit to Natasha Kuepfer.
+
+
 
 *What does it mean?*
 - Woman's obesseion is raised to the level of religion
@@ -1135,8 +1154,8 @@ In class discussions... [Notes](/pdfs/1201/110_mar_10.pdf), credit to Natasha Ku
 - entirely one-sided
 
 *What's missing in our analysis?*
-- how music functions socially?
-
+- Does this analysis help us understand how the music functions
+socially?
 - What more might be needed?
     - recording process. Transmission process
     - historical info about 1968.
@@ -1168,29 +1187,97 @@ When you have learned to listen for elements of music, it changes the way you pe
 
 "Presence culture" is hard to maintain once you have learned "meaning culture". Once you start to dig in, you can't help analyzing the music.
 
-magic: missing
+## The Magic of analysis
+Good analysis turns experience into words:
+> “Coleman Hawkin’s heavy vibrato suggested the wingbeats of a big bird and his tone halls hung with dark velvet and lit by huge fires” (William Youngren)
+<br> “in such moments, you feel less alone” (p. 24)
+
+Phil Ford:
+> “The form the notation takes, and the meaning we assign to it, is relative only
+to its purpose, whether that is to tell student jazz musicians how to play a
+famous solo or to give readers a point of reference in a scholarly analysis. The
+notation isn’t the primary reality, unless the composer decides that it is.”
+<br> “writing can set up moments of empathy that annul the distances between
+us”
 
 ## The Value of Music Analysis
 - Raises the personal music experience to a universal
+    - Relies on a “pure” experience of the music
+- Helps us discover larger structural elements that might elude hearing (or at least take many more hearings)
+- Still conceived of through notation, but gets beyond notation to
+experience
+
+*How do we interpret the meaning of art music?*
+
+We spent the first couple classes breaking down the idea of “classical Music”
+
+- It is not meaningful simply because it is old
+    - Alex Ross argues that it still speaks today
+- It is not meaningful because it is a universal language
+    - It’s not, but there are universals in music
+- It is not meaningful because it has been deemed a masterwork and is played in the concert hall
+    - The victors tend to determine the masterworks
 
 ## Finding the Meaning in Art Music
 
-notes will be updated later once Prof uploaded her slides.
+How do we understand how it is meaningful in a particular time and place?
+- Look carefully at the material
+- Read carefully what people said about their experience and context
+    - History, society, politics, etc
+- Find the common experience in it through turning it into notation/words
+
+## Eras of Western Music History
+- Romanticism (1800-1900)
+- Modernism (1900-1960)
+- Postmodernism (1960-Today)
+
+## Romantic Music
+Stylistic features
+- Long, drawn out melodies
+- Lost of Chromatic movement in melodies and harmonies
+- Unexpected and unpredictable harmonic movement
+- Extreme expressions of individual psychology
+    - Chromaticism, rubato, prolonged melodies
+- Meter often unclear in order to highlight melody and harmony
+    - Rubato expresses changes in mood
+    - Syncopation also blurs rhythm
+- Bright timbres contrasted with dark
+- Textures are thick
+
+Romantic Era Concepts
+- Music is expression of individual sentiment
+- Music has some story to tell
+- The individual who creates music must go through some struggle to
+have something worth saying
+
+## Structural Listening in Modern/Postmodern Music
+If we listening for a story in the music, are we missing something?
+
+If there are no words, or even a melody, what do we listen for?
 
 # Lec 18 - Mar 12th
 Pre-reading: [Structural Listening](https://www.theavidlistener.com/2014/10/structural-listening.html)
+
+Soundwalk. Listen to the sound in our surroundings.
 
 Mediation of Sound in Art Music
 - Recordings reproduce sound
 - Art Music represents experience of sound
 
-## Vivaldi's Laprimavera
-Baroque era style
-
-- overlapping melodies: more polyphonic structure rather than clear melody
-- instrumental starts
+## Antonio Vivaldi’s La Primavera (1723)
+- Represents the sounds of spring
+    - Bird calls
+    - Thunder
+- Baroque era style (1600-1730)
+    - Features string instruments and harpsichord with solo vs. orchestra
+    - Overlapping melodies/polyphonic texture
+    - Instrumental music imitates nature, vocal music, or dance
 
 ## Messiaen
+Olivier Messiaen, Le Traquet Stapazin (Catalogue d’Oiseaux n. 4), 1958
+
+Black-eared Wheatear
+
 Creating bird sounds for piano, through some form of structure into art music
 
 ## Music and Gender
@@ -1202,31 +1289,63 @@ Music and culture
 - shapes culture
 
 Also it reflects and shapes gender
-- socially defined
-    - to some degree
-- expectations
-- reinforces
+- Gender is (at least partly) Culturally/Socially Defined
+    - Culture determines gender roles and behaviors
+- Music performance reflects the gendered expectations of the culture
+- Music performance reinforces gender constructions
 
 Composers in Classical music canon
-- dead
-- not always
+- Dead white male composers
+- Not always appreciated in their own time
+- Complexity of music combined with circumstances raised popularity
 
 Why primarily composed by man?
 
 Fanny Hensel, not allowed to publish her work, perform in public. But she invited people inside her room to perform.
 
-*Where are the ?*
-- Idiolization of the composer. Highest is the compose art.
-    - women... becoming composer is limited
-- class
-- sexualization
+*Where are the Women in Historical Art Music?*
+- Idolization of the composer erases other aspects of music. Highest is the compose art.
+    - Women had a harder time accessing composition training and publishing, becoming composer is limited
+- Class associations of the performer made professional women less laudible
+    - Professional performer associated with lower class
+- Sexualization of the women performer led to avoid public performance
+    - To perform was to subject yourself to the male gaze
 
-## Pauline Oliveros
+Art Music: Transgressing the Production Line
 
-questioned isolations, and break down the boundaries between performer, creator and listener.
+```
+      Creator ___  ___ Performer
+                ↓  ↓
+listener --> Music event <-- Space
+```
+
+## Pauline Oliveros (1932-2016)
+questioned idolization, and break down the boundaries between performer, creator and listener.
 
 The listener is ultimately the performer.
 
-Women making contemporary art music
+- Pioneered electronic art music
+- Promoted active listening for “humanitarian purposes”
+- Actively transgressed the boundaries between performer and listener
+- Focused on music as meditative practice
 
-Representations of Gender in Medieval Europe
+
+## Women making contemporary art music
+- Composer Oliveros achieved a new form of listening because she was able to transgress the social boundary for women in contemporary art music
+    - Broke down the barrier between composer, performance, and audience
+    - Minimal structures are created by the composer
+- The performer is not an object to observe but a person to creatively engage in interactive listening
+
+## Representations of Gender in Medieval Europe
+- Christian Religion formed the worldview
+- Jesus Christ, the ruler of the world
+    - Mother Mary, Queen of Heaven
+- Christian ritual central to establishment, and maintenance of the entire social order  
+
+## Medieval Motet
+- Polyphonic two to four part work for voices
+- Built on top of a small section of plainchant
+    - Plainchant was the musical “Bible” for ritual
+- Upper voices of the motet have different texts for each
+- Use conventional phrases to describe a Lady
+- Anonymous, but likely composed by male clerics
