@@ -377,7 +377,7 @@ and then on Jan 30th, guest lecture on Baroque Violin and modern Violin.
 
 **BAROQUE GENRES**
 
-### Baroque Sonata
+## Baroque Sonata
 - contrasting tempos & textures
 - often for 2-4 solo instruments + basso continuo
 
