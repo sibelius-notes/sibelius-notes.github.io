@@ -3,7 +3,7 @@ title: MUSIC 254 (old) - Baroque and Classical music
 <div class="alert">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
   If you reach this page by accident, you should know that this page is outdated by the title above...
-  This is the old layout with toc (table of contents) at the top which is hard to navigate if I have a lot of contents in one section. Please refer to my new layout (with contents up to date) with bootstrap toc: Simply change "markdown" in url to "md".
+  This is the old layout with toc (table of contents) at the top which is hard to navigate if I have a lot of contents in one section. Please refer to my [new layout]({{ page.url | replace: "markdown", "md" }}) (with contents up to date) with bootstrap toc.
 </div>
 # Baroque Era
 * end of 16c to mid 18c
