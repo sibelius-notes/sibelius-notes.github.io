@@ -591,7 +591,7 @@ th {
 /* The alert message box */
 .alert {
   padding: 20px;
-  background-color: #f2ebeb; /*#f44336;  Red */
+  background-color: #f44336; /*#f44336;  Red */
   color: white;
   margin-bottom: 15px;
 }
