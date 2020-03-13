@@ -1,4 +1,4 @@
-title: CS 350 - Operating Systems (help page)
+title: CS 350 (old) - Operating Systems (help page)
 ---
 ... Also, check my [miscellaneous notes](../cs350/)
 # Basics

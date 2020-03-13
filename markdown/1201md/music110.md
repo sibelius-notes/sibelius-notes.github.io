@@ -1,4 +1,4 @@
-title: MUSIC 110 - Music in Cultural Contexts
+title: MUSIC 110 (old) - Music in Cultural Contexts
 ---
 # Lec 1 - Jan 7th
 Introductions

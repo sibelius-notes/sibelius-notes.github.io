@@ -1,4 +1,4 @@
-title: MUSIC 254 - Baroque and Classical music
+title: MUSIC 254 (old) - Baroque and Classical music
 ---
 # Baroque Era
 * end of 16c to mid 18c

@@ -363,15 +363,112 @@ Violin Family
     * overhand bow
     * early use for dancing
 
+Violin, viola, violoncello: co-existed; violin eventually supersedes viol family by mid 17C (rise of orchestra)
+
+**Baroque violin**: from wiki,
+> A Baroque violin is a violin set up in the manner of the baroque period of music. The term includes original instruments which have survived unmodified since the Baroque period, as well as later instruments adjusted to the baroque setup, and modern replicas.
+
+
+
 Note the difference between Baroque Violin and modern Violin.
 
 and then on Jan 30th, guest lecture on Baroque Violin and modern Violin.
 > Guest Lecture/Demonstration: [Elizabeth Loewen Andrews](https://omfa.ca/adjudicators/elizabeth-loewen-andrews/), violin (on Baroque and Classical performance practice)
 
----
-missed due to the <s><b>shit</b></s> interview... To be filled later
+**BAROQUE GENRES**
 
-## Antonio Vivaldi (1678-1741)
+### Baroque Sonata
+- contrasting tempos & textures
+- often for 2-4 solo instruments + basso continuo
+
+**NAWM 84: Biagio Marini (1594-1663), Sonata IV per il violino per sonar con due corde (op. 8), ca 1626**
+- sonata for violin & basso continuo
+- contrasting sections: figuration, mood, meter, tempo
+- sectional single-movement sonata:
+- paralleled rise of vocal monody:
+    - recitative-like and aria-like sections
+- idiomatic possibilities of violin: double stops (see title!) + ez to jump between high & low notes chord for vocals
+
+Here double stops means: playing on two strings at the same time
+
+**Form:**
+
+1) mm1-30: "Tardo" slow: like recitative. m.6 rapid violin figuration
+
+2) m31: like aria: more regular pace: double stops
+
+3) m51: scale figures, thrills, large leaps; tempo alternates "tardo" & "presto" (slow & fast)
+
+4) m70: “affetti”
+
+5) m83: ¾ meter, fast
+
+6) m95: slow recitative-like melody, 4/4 meter
+
+7) m102: aria-like passage: bass moves steadily
+
+8) m.116: rhapsodic section
+
+9) m127: “aria” in 3/4
+
+10) m148: slow, arioso-like conclusion, 4/4
+
+repeated from m 127
+
+**4 types of Baroque Sonatas**
+
+**a)** sonata for unaccompanied instruments (popular after ca. 1700)
+
+**b)** trio sonata:
+
+*How many instruments?*
+
+2 treble instruments + basso continuo = 4 instruments, treble instruments usually violins
+
+(most common instrumentation of sonatas post 1670)
+
+
+**c)** church sonata (da chiesa):
+- Baroque instrumental genre intended for performance in church (or private performance)
+- usually in 4 movements (slow-fast-slow-fast)
+- abstract movements & untitled dance movements
+- for one or more treble instruments +basso continuo
+
+**d)** chamber sonata (da camera):
+- for one or more treble instruments + basso continuo
+
+## Example of Baroque Trio sonata/ sonata da chiesa:
+NAWM 96: Arcangelo Corelli (1653-1713), Trio Sonata, Op.3, no.2, 1689
+
+**TRIO SONATA:**
+- sections of sonata (e.g., Marini) expanded to movements
+- sonata da chiesa (church sonata)
+- How many movements? 4 (slow-fast-slow-fast)
+- some stylized dance movements
+- How many performers? 4 (2 violins, basso continuo: cello+organ)
+
+**1) Grave:** slow, serious, D major
+- walking bass (basso continuo has lots of notes)
+- chains of suspensions
+
+**2) Allegro**, D major
+- Fugal/imitation: including basso continuo part
+
+
+**3) Adagio:** sarabande, B minor
+- a standard movement of a suite = sarabande
+<br>A slow dance in binary (2-part) form & in triple meter, often emphasizing 2nd beat
+- Like vocal duet: alternately imitate each other, parallel 3rd
+- suspensions on 1st & 2nd beat of triple meter
+- End: cadence on V: D (to prepare for next movement)
+
+**4) Allegro**: gigue, D major
+- “Jig” in French: a standard movement of a suite = fast dance in binary form & compound meter (6/8 or 12/8), wide melodic leaps & continuous triplets
+- 2 sections begin with imitation
+- binary form of dance (&#124;&#124;:A:&#124;&#124;:B:&#124;&#124;)
+- Subject of B = inversion of A
+
+**Antonio Vivaldi (1678-1741)**
 - son of St Mark's violinist (Venice)
 - conductor, composer, priest, teacher: Ospedale della Pieta, Venice (1703-40)
 - 1737: censured for behaviour; died pauper
@@ -392,6 +489,9 @@ missed due to the <s><b>shit</b></s> interview... To be filled later
 
 **Ritornello** = refrains
 - is a recurring passage in Baroque music for orchestra or chorus. (from wiki)
+    - made up of small units
+- "a recurrent musical section that alternates with different episodes of contrasting material. The repetition can be exact or varied to a greater or lesser extent. In the concerto grosso the full orchestra (tutti) has the ritornello; the solo group (concertino) has the contrasting episodes." from [here](https://www.britannica.com/art/ritornello)
+- pillars of structure
 
 **Episodes** = passages featuring soloist between ritornellos
 
