@@ -159,12 +159,47 @@ I was talking about `fork`. Set addr space of current process. As you set the ad
 - `load_elf` is the actual act of loading the program's binary info and copy it into the correct position. (`elf`: executable linkable format, probly seen in CS241).
 It creates the code and data segment, NO stack segment.
 - Creates the user stack using `as_define_stack`.
-- Once you have done all that, you program is loaded and has addr space, and you call `enter_new_process`. 
+- Once you have done all that, you program is loaded and has addr space, and you call `enter_new_process`.
 You are going to pass the address of the stack and the value return from `load_elf` which is the enter point function
 that is the address of the first instruction to execute in the new program.
 
+One more thing you need to do, which is also in `runprogram`, you need to activate the addr space. Remember `as_activate` doesn't activate anything. It's a terrible name.
+What it does is to clear TLB. Cause we are changing the address space that this process is using, which means any TLB entries corresponding to previous address space, then
+we need to clear old things.
 
+Now we need to create stack. In `runprogram`, we just call `as_define_stack`. But over here, we need to do more work: pass all arguments to the new program by populating
+the new program's stack with all args we have extracted from old programs. So my recommendation is to implement a new version `as_define_stack` that does both stack creation and copying arguments onto the stack for you.
 
+Not only `execv` on this assign, go back and modify `runprogram` such that it can also take cmd line args.
+
+And after your version of `as_define_stack`, it's safe to delete the old addr space. We don't delete it immediately since each of the steps can fail, and then you want to return error code from `execv`. Recall that it only returns calling program if it fails. If it succeeds then newprogram starts running.
+
+Kernel also lives in the Virtual Memory and we are also going to destroy old addr. In kernel mode, we can directly access memeory in the user's addr space, but not safe. User program can do sth stupid, then the addr might be invalid. Kernel should NEVER trust the user address, so the safest: special function `copyin`/`copyout`: not just copy... but validate the addr first. Use `copyinstr`/`copyoutstr` when copying NULL terminated strings.
+
+To copy
+- `copyinstr`: copy the program into the kernel safely
+- count \# of arguments: copy in each of the addresses of the array and checking how many do you have before NULL
+- Then copy in each arg string
+
+You need to allocate memory for pointer array and the strings, strings take memeory. You can use `strlen`, but remember it doesn't include NULL terminator. OR you could assume a total length &#92;(\le &#92;) 128 bytes.
+
+We need to take all these args copied into the kernel, and put then onto the stack of new user program. But it's not sufficient to arbitrarily dump things. There are some conventions to dictate the things have to live on the stack so the new program knows where to find the parameters. True in OS/161 and modern OS. These arguments must go onto the stack with a particular byte alignment.
+
+If you are storing an actual string on the stack, no alignment required, character can go anywhere at any kind of addr. But a pointer to a string must live at an addr that is divisible by 4. AND any other type must live at an addr divisible by 8. Macros: `args_size = ROUNDUP(args_size, 8);`.
+
+You might notice I never talked about allocating any spaces for those args on stack, cuz you don't have to. When we create stack (`as_define_stack`), we already allocate whole memory for stack. You own the memory, don't need to malloc: calculate the address and write to it.
+
+### Suggested Steps
+1. Copy `runprogram` to `execv`, and make sure it compiles at least.
+2. Copy the program name into `execv`, print it to the screen.
+3. Do modification.
+
+Do not even attempt args part until you have it working. Arg passing is the hardest.
+4. Count \# args, print to the screen.
+5. Then copy str into the kernel, print to the screen.
+6. Finally add the args to the stack.
+
+> End of F19 Lec 15, 45:21
 
 # Random stuff
 ## Some good problems for midterm??
