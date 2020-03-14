@@ -7,42 +7,35 @@
 
 \usetikzlibrary{arrows,shapes}
 
-\newcommand{\audit}[1]{\underline{\sf\color{red}#1}}
+
 
 
 \begin{document}
 
 
-\tikzstyle{every picture}+=[remember picture]
-
 
 \rowcolors{1}{gray!50}{white}
-\begin{tabular}{|c | c | l |}
-	%\rowcolor{gray}
-	%Time & Term & \multicolumn{1}{>{\centering\arraybackslash}m{129mm}|}{\textbf{Courses}} \\ 
+\begin{tabular}{|l | c | lllllll|}
 	\hline
-	17 fall & 1a & MAT 135\quad MAT 137 \quad SPCOM 100 \quad CS 135 \quad MU 111 \quad MU 116 \\
-	18 winter & 1b & MAT 136 \quad MAT 138 \quad PHY 111 \quad CS 136 \quad MU 270 \quad MU 255 \quad MU 117 \\
-	18 spring & 2a & MAT 235 \quad MAT 237 \quad PHY 112 \quad EASIA 202R \quad CS 246 \quad ST  230 \\
-	18 fall & 2b & MAT 249 \quad AM 231 \quad AM 251 \quad ST  231 \\
-	19 winter & wt1 & CS 245 \\
-	19 spring & 3a & AM 353 \quad CO 342 \quad CS 240 \quad CS 241 \quad CS 251 \quad CS 371 \\
-	19 fall & wt2 & AM 391 \\
-	20 winter & 4a & CS 341 \quad CS 350  \quad MU 110 \quad MU 271 \quad MU 254 \quad CO 255\\
-	20 spring & wt3 & PSYCH 101 \\
-	20 fall & 4b & AM 351 \quad CO 450 \quad AM 390  \quad MU 370 \quad PM 347 \quad PM 433\quad\audit{CO 466} \\
-	21 winter & 4b & CO 444 \quad PM 348   \quad MU 371   \quad CS 365 \quad CS 492\quad  MU 256 \quad\audit{CO 452}\\
-	21 spring & wt4 &  CO 446 \\
-	21 fall & 4b & CO 442  \quad AM 453 \quad CS 466 \quad MU 376 \quad SPCOM 223 \quad CS 486 \qquad\tikz[baseline]{\node[anchor=base] (d) {}; } \\
-	22 winter & 4b & CS 485  \quad PM 464 \quad PM 446  \\
-	22 spring & wt5 & PSYCH 256\\
-	22 fall & 4b & \tikz[baseline]{\node[anchor=base] (b) {CO 456}; } \quad MU 390 (Orch', Arr') \quad \tikz[baseline]{ \node[anchor=base] (c) {\audit{MU 231}};} \\\hline
+	17 fall & 1a & MAT 135 & MAT 137  & CS 135 & MU 111 & MU 116 & SPC 100 & \\
+	18 winter & 1b & MAT 136 & MAT 138  & CS 136 & MU 270 & MU 255 & MU 117 & PHY 111 \\
+	18 spring & 2a & MAT 235 & MAT 237 & MAT 239 & ST 230  & CS 246  & CS 245 & PHY 112\\
+	18 fall & 2b & CO 342 & AM 231 & AM 251 & ST 231 & CS 240 & MU 390 & MU 231  \\
+	19 winter & wt1 & CS 341 & & & & & & \\
+	19 spring & 3a & CO 446 & PM 347 & AM 353  & CS 241 & CS 251 & CS 371 & CS 466  \\
+	19 fall & wt2 & AM 391& & & & & & \\
+	20 winter & 4a & CO 255 & PM 348 & PM 464 & PM 446 & CS 350  & MU 110 & MU 271  \\
+	20 spring & wt3 & CO 751 & CS 762 & & & & & \\
+	20 fall & 4b & CO 466 & CO 456 & CO 442  & CO 450 & PM 433 & AM 390  & MU 370    \\
+	21 winter & 4b & CO 444 & CO 452 & CS 485  & CS 365 & MU 371  & MU 254 &  MU 256  \\
+	21 spring & 4b & CO 471 & AM 351 & CS 486 & CS 492  & SPC 223 & PSY 101 & SMF 101\\
+	21 fall & 4b & CO 631 & CO 749 & PM 930 & PM 945 & PM 445 & AM 453  & MU 376  \\
+	22 winter & wt4 & & & & & & & \\
+	22 spring & wt5 & & & & & & & \\
+	22 fall & 4b & CO 487 & CO 485 & PSY 207 & & & & \\\hline
 
 \end{tabular}
 
-\begin{tikzpicture}[overlay]
 
-\path[thick,dashed,color=red, <->] (c) edge  (d);
-\end{tikzpicture}
 
 \end{document}
