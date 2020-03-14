@@ -119,19 +119,18 @@ grep -IR --exclude-dir=compile $msg
 credit to Kevin Lancot on piazza.
 
 # Assignments
-## A2a - Deadlock
+## A2a
+**Deadlock**
+
 After `sys161 kernel`, the OS stucks at
 ```bash
 sys161: System/161 release 1.99.06, compiled Aug 23 2013 10:23:34
 # cursor blinking here...
 ```
 
-**Q**: *Cannot acquire lock in proc_bootstrap*
+Spinlocks are available in boot up before locks, probly use spinlock instead.
 
-**A**:
-> Spinlocks are available in boot up before locks, so you might consider using a spinlock. If you are just doing something short (e.g. incrementing a count or initializing a value) in the OS, a spinlock actually would be more efficient.
-
-and look at `boot in startup/main.c`:
+And take a look at `boot in startup/main.c`:
 ```c
 void
 boot(void)
@@ -144,14 +143,40 @@ boot(void)
     ...
 }
 ```
-Credit to Kevin Lancot on piazza.
 
-**Q**: *Deadlock when initializing a spinlock*
+## A2b
+Weird assignment numebering scheme here instead of 0 1 2 3 4, we go 0 1 2a 2b 3. There's a reason for that: used to be 0 1 2 3, and 5 sys call in A2,
+but problem was the true CS fashion: leave it until last 12 hours...
 
-**A** from *Anonymous Beaker*:
-> I had the same issue; check the proc_bootstrap function and more specifically the order the different things are being initiated. For me, I couldn't use any protection before the kernel proc has been initiated. Hope this helps.
-<br>
-~ An instructor (Kevin Lanctot) endorsed this answer  ~
+`execv` is not going to change the process structure. We are going to change the program that the process acts: addr space, threads.
 
-**A** from Kevin Lancot:
-> 2) A work around, what I actually did, is to detect if you are in bootstrap (kproc is initialize early in proc_bootstrap) and avoid using the lock to assign a pid there because there is just one process at this point in time.
+Takes two params, first: program you want to run; second: an array of pointers to string arguments. Null-terminated array.
+
+Few lines of code. Most lines, you can copy and paste from elsewhere in the OS: `runprogram`. What does it do?
+- open the program file `vfs_open`
+- Once the program is open, create a new addrspace for that program. `as_create`. And then `curproc_create` which you might have seen when
+I was talking about `fork`. Set addr space of current process. As you set the addr space, you need to load the program into the addr space.
+- `load_elf` is the actual act of loading the program's binary info and copy it into the correct position. (`elf`: executable linkable format, probly seen in CS241).
+It creates the code and data segment, NO stack segment.
+- Creates the user stack using `as_define_stack`.
+- Once you have done all that, you program is loaded and has addr space, and you call `enter_new_process`. 
+You are going to pass the address of the stack and the value return from `load_elf` which is the enter point function
+that is the address of the first instruction to execute in the new program.
+
+
+
+
+# Random stuff
+## Some good problems for midterm??
+*Explain the difference between internal and external fragmentation.*
+
+From [CSE451, University of Washington](https://courses.cs.washington.edu/courses/cse451/00sp/misc/quiz2sol.txt):
+
+> Internal fragmentation is the wasted space within each allocated block
+because of rounding up from the actual requested allocation to the
+allocation granularity.  External fragmentation is the various free
+spaced holes that are generated in either your memory or disk space.
+External fragmented blocks are available for allocation, but may be
+too small to be of any use.
+
+So paging eliminates external frag., not internal frag.
