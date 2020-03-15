@@ -201,6 +201,20 @@ Do not even attempt args part until you have it working. Arg passing is the hard
 
 > End of F19 Lec 15, 45:21
 
+### A2b testing
+```bash
+sys161 kernel "p uw-testbin/hogparty;q"
+
+sys161 kernel "p testbin/sty;q"
+
+sys161 kernel "p uw-testbin/argtesttest;q"
+
+sys161 kernel "p uw-testbin/argtest tests;q"
+
+sys161 kernel "p testbin/add;q"
+```
+
+
 # Random stuff
 ## Some good problems for midterm??
 *Explain the difference between internal and external fragmentation.*
