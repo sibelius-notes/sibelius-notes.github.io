@@ -5,6 +5,9 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 feature_text: |
   ## Sibelius Peng's Lecture Notes
 ---
+
+<p align="center" style="font-size:300%;"><a href="https://superpyq.com/covid2019">安省疫情实时信息</a>(Ontario covid real-time)</p>
+
 ## About
 
 This website contains Lecture Notes only, as well as my thoughts regarding the course.
