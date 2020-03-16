@@ -6,7 +6,7 @@ feature_text: |
   ## Sibelius Peng's Lecture Notes
 ---
 
-<p align="center" style="font-size:150%;"><a href="https://superpyq.com/covid2019">安省疫情实时信息</a>(Ontario covid real-time)</p>
+
 
 ## About
 
