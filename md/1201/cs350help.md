@@ -192,8 +192,7 @@ You might notice I never talked about allocating any spaces for those args on st
 ### Suggested Steps
 1. Copy `runprogram` to `execv`, and make sure it compiles at least.
 2. Copy the program name into `execv`, print it to the screen.
-3. Do modification.
-
+3. Do modification.<br>
 Do not even attempt args part until you have it working. Arg passing is the hardest.
 4. Count \# args, print to the screen.
 5. Then copy str into the kernel, print to the screen.
