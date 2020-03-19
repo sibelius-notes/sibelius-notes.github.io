@@ -44,7 +44,7 @@ Still, don't need to do it every time.
 
 To run the os, `sys161 kernel-ASST0` or simply `sys161 kernel`.
 
-### Submitting
+## 350_submit
 In `cs350-os161` directory: `/u/cs350/bin/cs350_submit 0`.
 
 ## 350-gdb
