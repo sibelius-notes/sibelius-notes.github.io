@@ -26,4 +26,6 @@ Most (while some are contributed by my friends) of these notes are written in th
 ## Miscellaneous
 [Courses dependency graph](/courses_dependency/).
 
+[Map videos](https://www.youtube.com/playlist?list=PLOYRlicwLG3St5aEm02ncj-sPDJwmojIS) - from Domain of Science. I saw these maps frequently on a TV by the door of main reception desk (DC 2326).
+
 Some other notes you might find useful: [Iris Jiang](http://www.iris-jiang.com/notes.html) (PMATH, ACTSC, STAT).

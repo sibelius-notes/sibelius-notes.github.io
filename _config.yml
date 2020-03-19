@@ -27,7 +27,7 @@ plugins:
 #- custom_permalink
 
 # Site settings
-url: ''
+url: 'https://notes.sibeliusp.com/' # now just assume it won't change. This is for sitemap.xml
 baseurl: ''
 title: 'Sibelius Peng'
 description: 'Lecture Notes'
