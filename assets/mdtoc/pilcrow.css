@@ -1,4 +1,4 @@
-/*h1,
+h1,
 h2,
 h3,
 h4,
@@ -39,10 +39,4 @@ h5:hover .header-link,
 h6:hover .header-link {
   display: inline-block;
   text-decoration: none;
-}
-*/
-
-.anchor {
-    color: #888;
-    font-size: smaller;
 }
