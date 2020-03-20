@@ -89,3 +89,8 @@ layout: mdtoc
         &#92;end{array}
     &#92;]
 </div></div>
+
+<div class="fancy-block"  data-type="Corollory">
+<div class="fancy-block-content">
+    Sample Corollory...
+</div></div>
