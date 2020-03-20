@@ -62,27 +62,27 @@ layout: mdtoc
 &#92;]
 
 # fancy block testing
-<div class="fancy-block">
-<div class="fancy-block-content" data-type="Theorem" data-title="dumbtitle">
+<div class="fancy-block"  data-type="Theorem" data-title="dumbtitle">
+<div class="fancy-block-content">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </div></div>
 
-<div class="fancy-block">
-<div class="fancy-block-content" data-type="Lemma" data-title="dumbtitle">
+<div class="fancy-block"  data-type="Lemma" data-title="dumbtitle">
+<div class="fancy-block-content">
     lemma with a title and with math: &#92;( x+y=z = \int_x^yf(x)~dx&#92;)
 </div></div>
 
-<div class="fancy-block">
-<div class="fancy-block-content" data-type="Proposition">
+<div class="fancy-block" data-type="Proposition">
+<div class="fancy-block-content">
     no title and with display math:&#92;[
         \sum_x^y f(s) \sigma
     &#92;]
 </div></div>
 
-<div class="fancy-block">
-<div class="fancy-block-content" data-type="Theorem" data-title="Farkas' Lemma">
+<div class="fancy-block" data-type="Theorem" data-title="Farkas' Lemma">
+<div class="fancy-block-content">
     &#92;[
-        P=&#92;left&#92;{ x\in \mathbb R^n:Ax\le b &#92;right&#92;}=\emptyset \iff \exist u\in\mathbb R^m: &#92;begin{array}{llll}
+        P=&#92;left&#92;{ x\in \mathbb R^n:Ax\le b &#92;right&#92;}=\emptyset \iff \exists u\in\mathbb R^m: &#92;begin{array}{llll}
         u^T A=0 &#92;&#92;
         u^T b<0 &#92;&#92;
         u\ge 0
