@@ -253,3 +253,38 @@ img {
   margin-right: auto;
   width: 66%
 }
+
+
+/* fancy block */
+body {
+    counter-reset: fancy-block;
+}
+div.fancy-block::before {
+    counter-increment: fancy-block;
+    content: "Theorem " counter(fancy-block);
+    display: grid;
+    background: #C71585;
+    color:white;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-variant: small-caps;
+}
+div.fancy-block[data-type]::before {
+    content: attr(data-type)  " " counter(fancy-block) ;
+}
+div.fancy-block[data-type].fancy-block[data-title]::before {
+    content: attr(data-type)  " " counter(fancy-block) ": " attr(data-title);
+}
+
+.fancy-block {
+    width:100%;
+    background: #f2ebeb;
+    border-radius: 10px 10px 10px 10px;
+    overflow:hidden;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.fancy-block-content  {
+    padding:10px;
+}
