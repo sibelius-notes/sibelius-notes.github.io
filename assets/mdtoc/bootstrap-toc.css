@@ -281,7 +281,7 @@ div.fancy-block[data-type].fancy-block[data-title]::before {
     width:100%;
     background: #f2ebeb;
     border-radius: 10px 10px 10px 10px;
-    overflow: scroll;
+    overflow: auto;
     margin-bottom: 20px;
     line-height: 1.6;
 }

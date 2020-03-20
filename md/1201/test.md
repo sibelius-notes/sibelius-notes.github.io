@@ -94,3 +94,11 @@ layout: mdtoc
 <div class="fancy-block-content">
     Sample Corollory...
 </div></div>
+<div class="fancy-block" data-type="Definition" data-title="Line">
+<div class="fancy-block-content">
+    Let &#92;(\bar x,\bar d\in\mathbb R^n,\bar d\ne 0 &#92;). The set
+    &#92;[
+        &#92;left&#92;{ x\in\mathbb R^n:x=\bar x+\lambda d\text{ for some }\lambda \in \mathbb R &#92;right&#92;}
+    &#92;]
+is called a line.
+</div></div>
