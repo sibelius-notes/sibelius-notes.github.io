@@ -59,9 +59,14 @@ for index, row in df.iterrows():
 terms = df['term'].unique()
 subjects = set(list(df['subject']) + list(map(get_sub, glob.glob('back_pic/*'))))
 
+not_overwrite_term = True
+old_terms = glob.glob('_term/*.md')
+
 
 for term in terms:
     term_filename = '_term/' + str(term) + '.md'
+    if not_overwrite_term and (term_filename in old_terms):
+        continue
     f = open(term_filename, 'w')
     write_str = """---\nterm: {}
 feature_text: |
