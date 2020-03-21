@@ -77,10 +77,16 @@ feature_image: "/back_pic/{}.jpg"
     f.write(write_str)
     f.close()
 
+not_overwrite_sub = True
+old_subs = glob.glob('_subject/*.md')
+
+
 for subject in subjects:
     if subject == 'fall' or subject == 'winter' or subject == 'spring':
         continue
     subject_filename = '_subject/' + subject + '.md'
+    if not_overwrite_sub and (subject_filename in old_subs):
+        continue
     f = open(subject_filename, 'w')
     write_str = """---\nsubject: {}
 feature_text: |
