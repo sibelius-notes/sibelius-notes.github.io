@@ -198,7 +198,6 @@ Do not even attempt args part until you have it working. Arg passing is the hard
 5. Then copy str into the kernel, print to the screen.
 6. Finally add the args to the stack.
 
-> End of F19 Lec 15, 45:21
 
 ### A2b testing
 ```bash
@@ -212,6 +211,13 @@ sys161 kernel "p uw-testbin/argtest tests;q"
 
 sys161 kernel "p testbin/add;q"
 ```
+
+## A3
+
+
+
+
+
 
 
 # Random stuff
