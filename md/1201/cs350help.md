@@ -71,6 +71,11 @@ Then in debugger window:
 (gdb) list
 ```
 
+Also
+```bash
+(gdb) watch x
+```
+and gdb will break every time the value of x changes. Sometimes it will be where you expect it to change, other times it will change in an unexpected place (e.g. a pointer error).
 
 # "Useful" Scripts
 ## keep awake
@@ -213,12 +218,133 @@ sys161 kernel "p testbin/add;q"
 ```
 
 ## A3
+### Overview
+Dumbvm is a very limited virtual memory system with four major limitations.
+1. A full TLB leads to a kernel panic.
+2. Text (i.e. code) segment is not read-only.
+3. It never reuses physical memory (i.e. kfree does nothing).
+    - Requires restarting the OS after each test
+4. It uses segmentation addresses.
+    - which causes external fragmentation
+    - *No need to fix this in W20*.
 
+### TLB replacement
+What you need to do is: when the TLB is full, choose a victim, evict them, insert a new TLB entry. However, we are not asking you to implement clock algorithm, or any cache efficiency algorithm, they are already there, you just call it in 1-2 lines. What we want to use is `tlb_random()`: choose random victim in TLB, evict them and replace them with new TLB entry.
 
+- VM related exceptions are handled by `vm_fault()`
+- `vm_fault()` performs address translation and loads the virtual address to
+physical address mapping into the TLB.
+    - Iterates through the TLB to find an unused/invalid entry.
+    - Overwrites the unused entry with the virtual to physical address mapping required by the instruction that generated the TLB exception.
+- Modify `vm_fault()` so that when the TLB is full, it calls `tlb_random()` to
+write the entry into a random TLB slot.
+    - That’s it for TLB replacement!
+    - Make sure that virtual page fields in the TLB are unique.
 
+### Read-Only Text Segment
+Currently, TLB entries are loaded with  `TLBLO_DIRTY` on for all entries. Therefore, all pages are readable and writeable. When you determine the fault addr is in the first segment (text or code segment), you need to set the flag: Hey, this is the read-only addr. Later on in `vm_fault`, when you add the TLB entry to the TLB, you need to set the read-only flag. This is one line code:
+`elo &= ~TLBLO_DIRTY;`. (Load TLB entries for the text segment with `TLBLO_DIRTY` off). However, this is not enough. When the program is actually loading itself into the addr space on the very first attempt to write the very first piece of memory into the addr space, you haven't even run the program then, this is just during the loading of the addr space. The MMU is going to throw an exception that says you are trying to write to read-only memory. You cannot actually that segment to be read-only until it's loaded because you need to be able to write to it in order to load the segment in the first place.
 
+So what you need to do is to add another flag, add this flag into the addr space structure. This flag is to indicatre have I loaded the addr space or not. Now is false, then at the very end of `load_elf`, which is responsible for loading the addr space, you set that flag to be true. Then in `vm_fault`, you set the read-only flag if the addr space is loaded which you will know from the addr space structure and this is a code segment addr. This is not quite enough, we need one more tiny detail.
 
+Here's the problem: when you are loading the addr space in memory, you are going to create TLB entries and because the same process is running, we are not going to clear the TLB out when we actually start running things. So when `load_elf()` completes, flush the TLB (with `as_activate()`) and ensure that all future TLB entries for the text segment has `TLBLO_DIRTY` off. And at that point, read-only memory will work.
 
+But we still kinda have a bit of problem. If I am a user program in Windows, then I try to write to a constant, does Windows blue screen and die? So this is the last part of read-only memory. When a user program ties to write to read-only memory, it will cause the OS panics and dies. The operating system didn't do anything wrong, so maybe we shouldn't do that. So we want to detect such case, instead of making OS die, we need to kill the process.
+- I.e. detect when a user program tries to write to read-only memory.
+- Have vm_fault() return the appropriate error code / signal.
+- That will be picked up when `mips_trap` (which handles exceptions and interrupts) which calls `kill_curthread()`.
+- Modify `kill_curthread` (which handles the situation where user-level code has a fatal fault) to kill the current process.
+
+There are three different approaches to modifying `kill_curthread`.
+1. Add the code to kill the thread to kill_curthread. But this approach is not reusing code. Not very good programming style.
+2. Create your own function very similar to `sys__exit` (say `sys_kill`) except that the exit code/status will be different. Because that process is not terminating from a call from exit, it terminated be cause it did a bad thing, so different exit code.
+3. Modify your implementation of `sys__exit` to take a parameter that is the reason why `sys__exit` was called.
+
+The point is: when you run the test that does try to write to read-only memory, the operating system shouldn't panic and die, the program should die and nothing else.
+
+So that's the two ez parts of the assignment.
+### Managing Memory
+Operating system is actually responsible for managing all of the system resources.
+So we have our memory here, initially unused. During bootstrap process, we use the function called `ram_stealmem(num_pages)` which is going to take the memory from that pointer (pointing to where the free memory is) and advances it. Don't modify this part of the code. What we want is after that bootstrapping process, we want you to manage what's left.
+
+We want you to use paging. Even though OS/161 is using segmentation and MMU is OS/161 is doing paging. When we allocate stuff with `alloc_kpages` and `free_kpages`, the nomination that we are actually doling out the memory is the whole pages, so we need to manage the remaining memory as pages. So what we are going to do is we need to logically divide the memory left into pages, then we need to keep track  of which of those pages are freed or not. We do this in a structure called `coremap`.
+
+**coremap**:
+- Keep track of whether the frame is in use (1) or not (0).
+- To allocate RAM search through core-map to find a large enough space.
+- For allocations of multiple continuous pages, keep track of how many pages have been allocated in the core-map and free it as one big unit.
+- e.g. Frame 0 and 1 are part of one big allocation and so a call to free frame 0 will free both frames 0 and 1.
+- Version 2 of the core-map just keeps the essential information.
+
+| Frame # | In Use?     | Page | of |
+| :------------- | :----- | :-- | :-- |
+| 0 | 1 | 1 | 2 |
+| 1 | 1 | 2 | 2 |
+| 2 | 0 | 0 | 0 |
+| 3 | 1 | 1 | 1 |
+| 4 | 1 | 1 | 3 |
+| 5 | 1 | 2 | 3 |
+| 6 | 1 | 3 | 3 |
+| 7 | 0 | 0 | 0 |
+
+When you free memory, do you tell how much memory to free? No, you pass and addr, and magically free how much memory which need to be freed. This is done by coremap. When we do a contiguous allocation of memory that is multiple pages at time, we indicate that is a part of a contiguous allocation.
+Now we call free, we pass the addr of the starting addr, and notice that it is part of a contiguous allocation, so when freeing, we not only free this one, also go to next one and free because coremap stores that info. When you allocate memory, go to the coremap and search for some number of contiguous pages, mark them in use and set the page of how many to mark it as a part of contiguous allocation. When freeing, you find the entry in that table and fre all these entries that correspond to the contiguous allocation.
+
+Version 1: Frame #, In Use?, Page, of. Version 2: Page. We only need to keep page column.
+- Allocation would be the same.
+- To free pages you need to check its successor to see if it is part of a larger allocation, i.e. is its count one higher than your count.
+- Must also keep track of where the 0th frame is located in physical memory so that when memory is requested the kernel can return an address to the start of the allocation.
+
+**For Both Version 1 or 2.** With either implementation, since you are implementing the core of
+memory allocation, so you do not call `kmalloc` to allocate space for the
+core-map, you simply calculate its size and write to it and leave the rest of RAM as
+frames to be allocated.
+
+Then how do you know how much memory you have available to you?  In `vm_bootstrap`, call `ram_getsize` to get the remaining physical memory in the system. It will give a low (just after memory for
+bootstrap) and a high address.
+Once `ram_getsize` has been called, do not
+call `ram_stealmem` again! Logically partition the remaining physical
+memory into fixed size frames. Each
+frame is `PAGE_SIZE` bytes and its address
+must be an integer multiple of the page
+size (i.e. it is page aligned). The frame numbers and the page numbers must be divisible by `PAGE_SIZE`, so I do not have a frame number or frame addr that starts at 500, that doesn't work.
+
+After you have figured out how many entries you need in your coremap and calculate the amount of space needed for coremap, you should put the coremap immediately following the area that we allocated for the bootstrap process. The coremap should not be tracking the memory used by the coremap. The frames that the core-map manages should start after the core-map data structure (rounded up to be a multiple of the page size).
+
+You never have to kfree the core-map. You use it until the system shuts down in which case kfreeing it is no longer necessary.
+
+There are parts of the OS that will be calling `kmalloc` before you create the coremap so
+- You will need to create a flag to indicate (coremap exists yet or not) when the kernel can stop using `ram_stealmem` and starting using the core-map to allocated physical memory. Before the coremap exists, you need to use `ram_stealmem`.
+- Look at `vm_bootstrap` to help decide exactly when you create the core-map.
+- You must also modify the two functions `alloc_kpages(int npages)` and `free_kpages(vaddr_t addr)` to use the core-map once it has been created.
+
+### Alloc and Free
+`alloc_kpages(int npages)`
+- Allocates frames for both `kmalloc` and for address spaces.
+- Frames need to be contiguous.
+- Do *not* have `alloc_kpages` interact directly with core map.
+- Instead look at a function it uses, `getppages`, and modify it so it uses `ram_stealmem` before the core-map is created and uses the core-map after it is created. The code there is only useful for *before* the coremap is created, so leave that there for pre-coremap, and then add the part for post-coremap.
+- The reason for this is because some parts of the kernel call `getppages` directly rather than calling `alloc_kpages`.
+
+`free_kpages(vaddr_t addr)`:
+- It currently does not do anything but it should be freeing pages allocated with `alloc_kpages`.
+- We don’t specify how many pages we need to free so it should free the same number of pages that was allocated.
+- It should update the core-map to make those frames available after `free_kpages` is called.
+
+Then page tables... skipped for W20.
+### User Address / Kernel Virtual Address / Physical Address
+- Remember that you are always working with virtual addresses.
+    - Only use physical addresses when loading entries in the TLB.
+    - Virtual addresses are converted either by the TLB or by the MMU directly.
+- Addresses below 0x8000 0000 are user-space addresses that are TLB mapped.
+- Addresses between 0x8000 0000 and 0xa000 0000 are kernel virtual addresses that are converted by the MMU directly, i.e.
+<br>Kernel virtual address – 0x8000 0000 = physical address
+- `kmalloc` always returns a kernel virtual address.
+- Do not use kmalloc to allocate frames
+
+Also make sure you can run tests back to back 30 times since you have fixed the memory. Also just run on *one* CPU.
+
+> Lec 20: 55:00
 
 # Random stuff
 ## Some good problems for midterm??
