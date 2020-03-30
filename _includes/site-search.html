@@ -1,11 +1,14 @@
-<div class="form  form--search">
+<script async src="https://cse.google.com/cse.js?cx=017256335113070184946:gzjpfmq4esk"></script>
+<div id='google-search' class="gcse-search" style='display:none'></div>
+<div class="form  form--search" id="old-search">
   <form id="contact-form" action="">
     <label class="label" for="search">Search a term:</label>
     <input class="input" id="search" type="search" name="search" placeholder="e.g. theory" autocomplete="off" />
 
     <ul class="list  list--results" id="list">
         <!-- results go here -->
-        <p>Note that the contents in pdf files (e.g. LaTeX notes) will <b>NOT</b> be crawled under this search. </p>
+        <p>Note that the contents in pdf files (e.g. LaTeX notes) will <b>NOT</b> be crawled under this search.
+            Please use <a name="change2google">Google Site Search</a>.</p>
     </ul>
   </form>
 </div>
@@ -60,6 +63,11 @@
     if (event.keyCode == 13) {
       event.preventDefault();
     }
+  });
+
+  $(document).on("click","a[name='change2google']", function (e) {
+      $("#old-search").hide();
+      $("#google-search").show();
   });
 </script>
 <noscript>Please enable JavaScript to use the search form.</noscript>
