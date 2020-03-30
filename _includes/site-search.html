@@ -1,5 +1,5 @@
 <script async src="https://cse.google.com/cse.js?cx=017256335113070184946:gzjpfmq4esk"></script>
-<div id='google-search' class="gcse-search" style='display:none'></div>
+<div id='google-search' class="gcse-search"></div>
 <div class="form  form--search" id="old-search">
   <form id="contact-form" action="">
     <label class="label" for="search">Search a term:</label>
@@ -68,6 +68,11 @@
   $(document).on("click","a[name='change2google']", function (e) {
       $("#old-search").hide();
       $("#google-search").show();
+  });
+
+  $(function() {
+    $("#google-search").hide();
+    $("#covid").hide();
   });
 </script>
 <noscript>Please enable JavaScript to use the search form.</noscript>
