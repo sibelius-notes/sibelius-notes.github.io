@@ -9,9 +9,3 @@ feature_text: |
 
 <script async src="https://cse.google.com/cse.js?cx=017256335113070184946:gzjpfmq4esk"></script>
 <div id='google-search' class="gcse-search"></div>
-
-<script>
-$(function() {
-  $("#covid").hide();
-});
-</script>
