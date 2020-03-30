@@ -3,9 +3,6 @@ layout: default
 ---
 <main class="main container">
 <article class="article  article--page  content  typeset">
-    {% unless page.title == "Search" }
-        {% include covid.html %}
-    {% endunless %}
     {{ content }}
 </article>
 {% include site-aside.html %}
