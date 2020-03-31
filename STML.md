@@ -1,6 +1,6 @@
 ---
 title: Student Mathematical Library
-layout: markdown
+layout: mdtoc
 ---
 [x] A First Journey through Logic
 [] An Introduction to Symmetric Functions and Their Combinatorics
