@@ -1,16 +1,16 @@
 ---
 title: Student Mathematical Library
-layout: markdown
+layout: mdtoc
 ---
 - [x] A First Journey through Logic
-- [] An Introduction to Symmetric Functions and Their Combinatorics
+- [ ] An Introduction to Symmetric Functions and Their Combinatorics
 - [x] Discrete Morse Theory
-- [] Hilbert's Tenth Problem: An Introduction to Logic, Number Theory, and Computability
+- [ ] Hilbert's Tenth Problem: An Introduction to Logic, Number Theory, and Computability
 - [x] An Introduction to Ramsey Theory: Fast Functions, Infinity, and Metamathematics
 - [x] Extremal Problems for Finite Sets
 - [x] Invitation to Ergodic Theory
 - [x] Volterra Adventures
-- [] A Conversational Introduction to Algebraic Number Theory: Arithmetic Beyond Z
+- [ ] A Conversational Introduction to Algebraic Number Theory: Arithmetic Beyond Z
 - [x] From Groups to Geometry and Back
 - [x] Modern Cryptography and Elliptic Curves: A Beginner's Guide
 - [x] Problems in Abstract Algebra
