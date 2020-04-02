@@ -8,7 +8,7 @@ layout: page
 See [here](https://bookstore.ams.org/stml) for the official information.
 
 - [x] A First Journey through Logic
-- [ ] An Introduction to Symmetric Functions and Their Combinatorics
+- [x] An Introduction to Symmetric Functions and Their Combinatorics
 - [x] Discrete Morse Theory
 - [ ] Hilbert's Tenth Problem: An Introduction to Logic, Number Theory, and Computability
 - [x] An Introduction to Ramsey Theory: Fast Functions, Infinity, and Metamathematics
