@@ -6,6 +6,8 @@ feature_text: |
     ## PDF
 ---
 
+{% comment %}
+
 {% assign dict = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | group_by_exp: "a", "a.path | truncate: 5, ''" %}
 
 This page contains all pdf files on this site.
@@ -25,4 +27,21 @@ This page contains all pdf files on this site.
 <li><a href="{{ file.path }}">{{ file.name }}</a></li>
 {% endfor %}
 </ul>
+{% endfor %}
+
+{% endcomment %}
+
+
+
+{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', 'a containts pdfs' %}
+{% pdfs = pdfs | group_by_exp: "a", "a.path | split: '/' | second "%}
+
+{% for group in pdfs %}
+<h2>{{ group.name }}</h2>
+<ul>
+{% for file in group.items %}
+<li><a href="{{ file.path }}">{{ file.name }}</a></li>
+{% endfor %}
+</ul>
+
 {% endfor %}
