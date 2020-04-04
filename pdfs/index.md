@@ -29,10 +29,12 @@ This page contains all pdf files on this site.
 </ul>
 {% endfor %}
 
+| group_by_exp: "a", "a.path | split: '/' | first "
+
 {% endcomment %}
 
-{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', 'a.path contains pdfs' | group_by_exp: "a", "a.path | split: '/' | first " %}
-
+{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', 'a.path contains pdfs' | group_by_exp: "a", "a.path | truncate: 5, ''" %}
+first
 {{ pdfs | inspect }}
 
 {% comment %}
