@@ -3,4 +3,6 @@ layout: page
 title: Side
 ---
 
-- [side.pdf](./side.pdf)
+
+<iframe src="./side.pdf#toolbar=0" width="100%" height="500px">
+</iframe>
