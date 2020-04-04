@@ -31,13 +31,16 @@ This page contains all pdf files on this site.
 
 | group_by_exp: "a", "a.path | split: '/' | first "
 
+| where_exp: 'a', 'a.path contains pdfs'
+
 {% endcomment %}
 
-{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', 'a.path contains pdfs' | group_by_exp: "a", "a.path | truncate: 6, ''" %}
-first
+1
+
+{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'"  | group_by_exp: "a", "a.path | truncate: 6, ''" %}
+
 {{ pdfs | inspect }}
 
-{% comment %}
 
 {% for group in pdfs %}
 <h2>{{ group.name }}</h2>
@@ -48,5 +51,3 @@ first
 </ul>
 
 {% endfor %}
-
-{% endcomment %}
