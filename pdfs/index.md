@@ -29,15 +29,13 @@ This page contains all pdf files on this site.
 </ul>
 {% endfor %}
 
-| group_by_exp: "a", "a.path | split: '/' | first "
 
-| where_exp: 'a', 'a.path contains pdfs'
 
 {% endcomment %}
 
-1
+should work
 
-{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'"  | group_by_exp: "a", "a.path | truncate: 6, ''" %}
+{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', 'a.path contains 'pdfs'' | group_by_exp: "a", "a.path | split: '/' | second " %}
 
 {{ pdfs | inspect }}
 
