@@ -31,9 +31,11 @@ This page contains all pdf files on this site.
 
 {% endcomment %}
 
-{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', 'a.path contains pdfs' | group_by_exp: "a", "a.path | split: '/' | second " %}
+{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', 'a.path contains pdfs' | group_by_exp: "a", "a.path | split: '/' | first " %}
 
 {{ pdfs | inspect }}
+
+{% comment %}
 
 {% for group in pdfs %}
 <h2>{{ group.name }}</h2>
@@ -44,3 +46,5 @@ This page contains all pdf files on this site.
 </ul>
 
 {% endfor %}
+
+{% endcomment %}
