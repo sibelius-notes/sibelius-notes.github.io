@@ -1,9 +1,6 @@
 ---
-layout: home
+layout: page
 title: PDF
-feature_image: "https://picsum.photos/1300/400?image=989"
-feature_text: |
-    ## PDF
 ---
 
 {% comment %}
@@ -31,9 +28,7 @@ This page contains all pdf files on this site.
 
 
 
-{% endcomment %}
 
-should work third
 
 {% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', "a.path contains 'pdfs'" | group_by_exp: "a", "a.path | split: '/' | third " %}
 
@@ -49,3 +44,11 @@ should work third
 </ul>
 
 {% endfor %}
+
+
+very heavy...
+{% endcomment %}
+
+- [actual/](./actual/)
+- [quantum/](./quantum/)
+- [side/](./side/)
