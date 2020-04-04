@@ -8,8 +8,6 @@ exclude:
 - Gemfile.lock
 - markdown/my-layout/page.html
 - markdown/*/*.md
-- courses_dependency/cur/*
-- courses_dependency/quantum/*
 #- *.bak
 #- google*
 
