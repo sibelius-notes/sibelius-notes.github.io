@@ -33,7 +33,7 @@ This page contains all pdf files on this site.
 
 {% endcomment %}
 
-{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', 'a.path contains pdfs' | group_by_exp: "a", "a.path | truncate: 5, ''" %}
+{% assign pdfs = site.static_files | where_exp: 'a', "a.extname contains 'pdf'" | where_exp: 'a', 'a.path contains pdfs' | group_by_exp: "a", "a.path | truncate: 6, ''" %}
 first
 {{ pdfs | inspect }}
 
