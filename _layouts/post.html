@@ -9,6 +9,10 @@ layout: default
 {% include post-meta.html %}
 <div style="padding-bottom: 3%">
     {% include covid.html %}
+{% if page.subject == "cs" %}
+{% assign cid = page.title | split: " " | last %}
+<p><a href="https://www.student.cs.uwaterloo.ca/~cs{{ cid }}/" target="_blank">Course Website</a></p>
+{% endif %}
 {{ content }}
 </div>
 
