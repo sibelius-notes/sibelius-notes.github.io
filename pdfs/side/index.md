@@ -9,5 +9,5 @@ iframe {
 }
 </style>
 
-<iframe src="./side.pdf#toolbar=0&zoom=40" width="100%" height="500px">
+<iframe src="./side.pdf#toolbar=0&zoom=40" height="500px">
 </iframe>
