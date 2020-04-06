@@ -1467,7 +1467,7 @@ I will love!”
 Marcabru, c. 1130
 - Troubadour
 - “L’autrier jost una sebissa”
-- For full text: https://www.mtholyoke.edu/acad/medst/medieval_lyric/marcabru/transcription.html
+- [full text](https://www.mtholyoke.edu/acad/medst/medieval_lyric/marcabru/transcription.html)
 
 Plus bele que flor/Quant revient/L’autrier joer/Flos filius eius (Tr. by David Rothenberg)
 
