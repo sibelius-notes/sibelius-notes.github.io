@@ -1354,3 +1354,76 @@ The listener is ultimately the performer.
 
 # Penultimate Lecture - Mar 24th
 Today we will be looking at women in the Medieval World.
+
+Historical Western Art Music Eras
+- Medieval 600-1400
+- Renaissance 1400-1600
+- Baroque 1600-1730
+- Classical 1730-1800
+- Romantic 1800-1900
+- Modern 1900-1960
+- Postmodern 1960-now
+
+Today we go back to Medieval period, especially love songs. This period is still influential on our western culture today.
+
+Here we have two pictures: sleep beauty, and Rapunzel from Tangled (魔发奇缘). These images portray the love in that period, what is called courtly love often.
+> Courtly love: 宫廷爱情是中世纪欧洲高贵的骑士向贵族女士表达爱与钦佩的概念。一般来说，宫廷爱情是秘密的，发生在贵族成员之间。它一般没有夫妻关系老练。11世纪末期，宫廷爱情发生于阿基坦、普罗旺斯、香槟、勃艮第公国等地。
+
+## Troubadour Song
+These courtly love was best portrayed in the **Troubadour Song**.
+- Aristocratic singer-songwriters. People in courts, with most money, royalty and their leisures, entertain each other.
+- Unrequited love(暗恋): love for woman could never be returned back to the men. Expressed from a famous line: "I can’t keep myself from love her who will give me nothing in return".
+- The other style of poetry: “Manly escapades”, story of man going out to find woman find that he can take advantage of. Lower class, like shepherdess. Class relationship.
+    - The other day I found a half-breed shepherdess
+- Recorded in books of poetry. Still survive in this day, but not all of them. So we don't have a vast sense of song writer of the music.
+
+This is the music of the courts. But in another form of the music form that developed in notation, especially **sacred chant**. Recall back in our music texture, it is monophonic melody with no regular rhythm or meter. Some notes might be a bit longer than others, so there is no regular sense of beat or clear measure between notes. This notation developed, because we desire to record and transmit these sacred chants. Sometimes they are called Gregorian chant or just plain chant. Texts were from Christian Bible or related text, set to these monophonic melody.
+
+“To You, Lord, I lift up my soul”
+
+Both these Troubadour songs and chants together reflect the **Medieval Worldview**.
+- In this period, Christian Religion shapes the interpretation of all things, including and especially courtly love and unrequited love. This concept is totally foreign to western culture.
+- Love, especially chivalric love (骑士精神), is an experience of divine love
+- “Sacred” and “secular” in contemporary culture easily sit side-by-side
+    - They believe this concept: music comes from God, and all music expresses something about God
+
+## Contemporary parallel
+
+This idea that you could have expressions of sexual love, unrequited love, along with the sacred concept of music is totally foreign to western culture. Although we occasionally see the uncomfortable mix of sacred and secular music show up. Here is an example of Chance the Rapper, ["Sunday Candy"](https://youtu.be/i4ooH8frBWg).
+- In the begining, he talks about the special devotion he has rather than his grandma has towards him.
+    - "the only ones she loves as much as me is Jesus Christ and Taylor". Family love relationship
+- Erotic setting of Chorus
+    - "take and eay my body like its holy", sung by female vocalist. Suggesive language, bit slippery, but tone being romantic someway.
+- Gospel music brings in religious experience
+
+This mixing of religious music, Gospel music and with pure family devotion, erotic expression. These three mixture is exactly what we find in the Medieval Motet that we will look at today.
+
+## The Motet
+First we need to know where it is recorded: it explains its mode of transmission. It is transmitted primarily in the way of notation. The particualr music we are looking at today was notated in a large collection of music in manuscript. This is before the printing process was invented or even before paper was widely available. So this particualr collection of music was handcopied on sheep's skin.
+
+The book we are looking at comes from the full of old French songs. But also Latin songs (for educated and religious). As we can see from the manuscript, it is beautifully illustrated.
+
+The motet is polyphonic. Remember it means combining of many lines of music together. It combined different texts against slower moving low part. Johannes de Grocheio said that:
+> “This kind of song ought not to be propagated among the
+vulgar, since they do not understand its subtlety nor do they delight in hearing it,
+but it should be performed for the learned and those who seek after the
+subtleties of the arts. And it is normally performed at their feasts for their
+edification, just as the song they call rondeau is performed at the feasts of the
+vulgar.”
+
+What he is telling us here is essentially the motet is meant to entertain and preserve the culture of literate. So these motets are for elite society, possibly performed by themselves. Contexts seems to be in between sacred and secular. Somtimes mixing.
+
+This is still western art music.
+- because it is **notated**, but  not as specified as later notation (Classical era and after). Underdeveloped.
+- Carefully and finely wrought texts and music transmitted through literacy
+- Composed and performed by amateurs. So not for living like in Romantic era.
+- But not for “aesthetic contemplation”
+- Emphasis on Symbolic representation, validation of religious and social rituals, and entertainment
+
+There is really two strength of influence on the motets we are looking at today.
+- One comes from text from Troubadour songs. True love as understood in chivalric love, must be painful in some way.
+- Secrecy is part of the allure of the love. Love and beloved have to meet together in secret.
+- Woman is object to be conquered through persuation
+
+But in another
+> 28:12
