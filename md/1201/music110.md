@@ -1379,7 +1379,7 @@ These courtly love was best portrayed in the **Troubadour Song**.
 
 This is the music of the courts. But in another form of the music form that developed in notation, especially **sacred chant**. Recall back in our music texture, it is monophonic melody with no regular rhythm or meter. Some notes might be a bit longer than others, so there is no regular sense of beat or clear measure between notes. This notation developed, because we desire to record and transmit these sacred chants. Sometimes they are called Gregorian chant or just plain chant. Texts were from Christian Bible or related text, set to these monophonic melody.
 
-“To You, Lord, I lift up my soul”
+“To You, Lord, I lift up my soul” https://youtu.be/2U3Qsv3jThk
 
 Both these Troubadour songs and chants together reflect the **Medieval Worldview**.
 - In this period, Christian Religion shapes the interpretation of all things, including and especially courtly love and unrequited love. This concept is totally foreign to western culture.
@@ -1425,5 +1425,82 @@ There is really two strength of influence on the motets we are looking at today.
 - Secrecy is part of the allure of the love. Love and beloved have to meet together in secret.
 - Woman is object to be conquered through persuation
 
-But in another
-> 28:12
+But in another texture src for expressing love came from the Christian Bible in the book called "Song of Songs".
+- A Book of the Hebrew Bible (aka the Old Testament in the Christian Biblical tradition)
+- A wedding poem.
+- Three voices: bride, bridegroom, and chorus back supports bride.
+- Lots of descriptive nature imagery, often used as metaphor for sexual intimacy
+    - Just look of “Rose of Sharon” to see how many songs the image still inspires
+- Bridge and bridegroom both express erotic desire through poetry.
+
+Having this text in sacred text in Medieval world gave them language to talk about the sexual love and love of god. And most importantly, it gave a modern text for the most important relationship: between Jesus, the son of god and the savior of the world; and his mother, Mary. Because of this devotion, Mary was believed to be pulled up into the heaven and crowned Queen right next to her son. That's the image here from https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/month/june2008.html.
+
+![](https://www.gla.ac.uk/myglasgow/library/files/special/images/exhibitions/month/H231/H231_083wf.jpg)
+
+In the Medieval world, you might have earthly king on earth. But ultimately your real sovier, real king or queen was god and Mary. You can see how Jesus and his mother sit equally here.
+
+## Stirps Jesse: Plainchant Responsory
+- R. The stalk of Jesse produced a branch and the branch a flower, and upon this flower rested the nourishing spirit.
+- v. The Virgin mother of God is the branch, the flower her son.
+
+The song you listened to today was built on a sacred chant. Sung by clerical choir in an
+evening prayer service. It is to celebrate and remember this even Mary's assumption that being pulled into the heavon and crowned, making her queen of heavon. The chant that forms the basis of this song is long monophonic chant but having many more melismas: long melody on a single syllable.
+
+![](/pics/plainchant.png)
+
+If you look at the last few lines, the last two lines only contain three words: and the flower her son, doesn't seem to mean anything on its own. But the melody associated with it became a kind of symbol of Mary's devine importance. So even just quoting that melody, not the text, could immediately symbolize on its own. Mary as queen of heaven.
+
+On top of this chant, this religious symbol, there are three more layers. Immediately above the bottom layer of the chant was text from **Pastourelle tradition**.
+- Imitation of popular song
+- Knight goes off into the country to find a shepherdess to take advantage of. (common way to begin this kinda narrative song)
+- Dialogue ensues in which the knight attempts to woo the shepherdess and the she (hopefully) outwits him. That's the joke of the whole tradition.
+
+Here I gave you the text of second layer within the Motet. Pastourelle: *L’autrier joer m’en alai*
+> Mo: “The other day I was wandering in a lonely place, and into an
+orchard I went to pick a flower. There I found a pleasing lady, prettily
+dressed; her body was frail, and she was singing in great distress: I am
+in love. What shall I do? It is the end, the end, whatever anyone says,
+I will love!”
+
+Marcabru, c. 1130
+- Troubadour
+- “L’autrier jost una sebissa”
+- For full text: https://www.mtholyoke.edu/acad/medst/medieval_lyric/marcabru/transcription.html
+
+Plus bele que flor/Quant revient/L’autrier joer/Flos filius eius (Tr. by David Rothenberg)
+
+On top of the Pastourelle text, there are two more texts. Here Tr: third part. Qu: fourth part.
+
+**Qu:** More beautiful than a flower, in my opinion, is she to whom I belong. For as long as I live, no one will
+have joy or pleasure of my love except the flower that is of Paradise: she is the mother of the Lord, who
+placed us here and wants us to return to him forever.
+
+**Tr:** When both leaf and flower return towards the summer season, Lord! Then I remember Love, who has
+always been courtly and gentle with me. I am so grateful for his help, because he lightens my pain when I
+desire it. One gains much good and much honour from being his friend.
+
+**Mo:** The other day I was wandering in a lonely place, and into an orchard I went to pick a flower. There I
+found a pleasing lady, prettily dressed; her body was frail, and she was singing in great distress: I am in
+love. What shall I do? It is the end, the end, whatever anyone says, I will love!
+
+**T:** Flos filius eius: the flower, her son
+
+Put that all together, we have four different parts sung at the same time. Here is the modern version of this piece.
+
+![](/pics/motet-layer.png)
+
+- Plainchant in the bottom part. moves slightly slower.
+- Pastourelle in the part above (motetus)
+- Lady’s voice in the third part (triplum)
+- Personal devotion in the top part (quadruplum)
+- https://youtu.be/Jdu3Q-2u-uU
+
+## Ritual music
+- Ritual: “a symbolic-expressive aspect of behavior that communicates
+something about social relations, often in a relatively dramatic or
+formal manner. This definition incorporates the idea that ritual must
+not be seen as a discrete category of behavior but as an analytic
+dimension that may be present to some degree in all behavior.”
+Wuthnow, Meaning and Moral Order p. 109.
+- Social relations expressed through the symbolic language of the
+divine model
