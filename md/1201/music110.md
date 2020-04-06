@@ -1379,11 +1379,11 @@ These courtly love was best portrayed in the **Troubadour Song**.
 
 This is the music of the courts. But in another form of the music form that developed in notation, especially **sacred chant**. Recall back in our music texture, it is monophonic melody with no regular rhythm or meter. Some notes might be a bit longer than others, so there is no regular sense of beat or clear measure between notes. This notation developed, because we desire to record and transmit these sacred chants. Sometimes they are called Gregorian chant or just plain chant. Texts were from Christian Bible or related text, set to these monophonic melody.
 
-“To You, Lord, I lift up my soul” https://youtu.be/2U3Qsv3jThk
+“To You, Lord, I lift up my soul” [youtube link](https://youtu.be/2U3Qsv3jThk)
 
 Both these Troubadour songs and chants together reflect the **Medieval Worldview**.
 - In this period, Christian Religion shapes the interpretation of all things, including and especially courtly love and unrequited love. This concept is totally foreign to western culture.
-- Love, especially chivalric love (骑士精神), is an experience of divine love
+- Love, especially chivalric love (骑士精神), is an experience of divine (神圣的) love
 - “Sacred” and “secular” in contemporary culture easily sit side-by-side
     - They believe this concept: music comes from God, and all music expresses something about God
 
@@ -1433,7 +1433,7 @@ But in another texture src for expressing love came from the Christian Bible in 
     - Just look of “Rose of Sharon” to see how many songs the image still inspires
 - Bridge and bridegroom both express erotic desire through poetry.
 
-Having this text in sacred text in Medieval world gave them language to talk about the sexual love and love of god. And most importantly, it gave a modern text for the most important relationship: between Jesus, the son of god and the savior of the world; and his mother, Mary. Because of this devotion, Mary was believed to be pulled up into the heaven and crowned Queen right next to her son. That's the image here from https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/month/june2008.html.
+Having this text in sacred text in Medieval world gave them language to talk about the sexual love and love of god. And most importantly, it gave a modern text for the most important relationship: between Jesus, the son of god and the savior of the world; and his mother, Mary. Because of this devotion, Mary was believed to be pulled up into the heaven and crowned Queen right next to her son. That's the image here from [https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/month/june2008.html](https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/month/june2008.html).
 
 ![](https://www.gla.ac.uk/myglasgow/library/files/special/images/exhibitions/month/H231/H231_083wf.jpg)
 
@@ -1445,6 +1445,8 @@ In the Medieval world, you might have earthly king on earth. But ultimately your
 
 The song you listened to today was built on a sacred chant. Sung by clerical choir in an
 evening prayer service. It is to celebrate and remember this even Mary's assumption that being pulled into the heavon and crowned, making her queen of heavon. The chant that forms the basis of this song is long monophonic chant but having many more melismas: long melody on a single syllable.
+
+[youtube link](https://youtu.be/ENa8voNRYec?t=26)
 
 ![](/pics/plainchant.png)
 
@@ -1493,7 +1495,7 @@ Put that all together, we have four different parts sung at the same time. Here 
 - Pastourelle in the part above (motetus)
 - Lady’s voice in the third part (triplum)
 - Personal devotion in the top part (quadruplum)
-- https://youtu.be/Jdu3Q-2u-uU
+- [youtube link](https://youtu.be/Jdu3Q-2u-uU)
 
 ## Ritual music
 - Ritual: “a symbolic-expressive aspect of behavior that communicates
@@ -1501,6 +1503,30 @@ something about social relations, often in a relatively dramatic or
 formal manner. This definition incorporates the idea that ritual must
 not be seen as a discrete category of behavior but as an analytic
 dimension that may be present to some degree in all behavior.”
-Wuthnow, Meaning and Moral Order p. 109.
+Wuthnow, *Meaning and Moral Order* p. 109.
 - Social relations expressed through the symbolic language of the
 divine model
+
+Now return to how womanhood was expressed, represented in the music. Mary is an ultimate and complex model.
+- She is virgin: hasn't have sextual intercourse with any men in order to conceive Jesus.
+- Mother of god.
+- Queen of heaven, all of creation.
+
+Thus
+- Celebrating the Assumption of Mary meant that womanhood was also raised into Divinity
+- But the image of Womanhood represented was impossible
+- A mother, but also chaste (贞操) in every way
+    - Her desire is spiritual longing that cannot and should not be fulfilled in her body
+
+## Musical representation of Womanhood
+
+- The Perfect Woman is Divine
+    - symbolized by the sacred chant that underlay the construction of the motet
+- The Perfect Woman is a Lady
+    - symbolized by the middle voices
+        - The description of a knight
+        - Her own words of love and appreciation
+- The perfect woman is the origin and goal of love songs
+
+# FINAL Lecture - Mar 26th
+Romantic Music and Aesthetic Pleasure
