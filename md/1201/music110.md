@@ -1349,3 +1349,7 @@ The listener is ultimately the performer.
 - Upper voices of the motet have different texts for each
 - Use conventional phrases to describe a Lady
 - Anonymous, but likely composed by male clerics
+
+> One week suspension...
+
+# Penultimate Lecture - Mar 24th
