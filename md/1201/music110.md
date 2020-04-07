@@ -1433,7 +1433,7 @@ But in another texture src for expressing love came from the Christian Bible in 
     - Just look of “Rose of Sharon” to see how many songs the image still inspires
 - Bridge and bridegroom both express erotic desire through poetry.
 
-Having this text in sacred text in Medieval world gave them language to talk about the sexual love and love of god. And most importantly, it gave a modern text for the most important relationship: between Jesus, the son of god and the savior of the world; and his mother, Mary. Because of this devotion, Mary was believed to be pulled up into the heaven and crowned Queen right next to her son. That's the image here from [https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/month/june2008.html](https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/month/june2008.html).
+Having this text in sacred text in Medieval world gave them language to talk about the sexual love and love of god. And most importantly, it gave a modern text for the most important relationship: between Jesus, the son of god and the savior of the world; and his mother, Mary. Because of this devotion, Mary was believed to be pulled up into the heaven and crowned Queen right next to her son. That's the image from [here](https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/month/june2008.html).
 
 ![](https://www.gla.ac.uk/myglasgow/library/files/special/images/exhibitions/month/H231/H231_083wf.jpg)
 
@@ -1530,3 +1530,174 @@ Thus
 
 # FINAL Lecture - Mar 26th
 Romantic Music and Aesthetic Pleasure
+
+Objectives, two fold
+- Romantic Era music in its Sound. related to listening response worksheet
+- Romantic Era music in its Concept
+    - In the 19th century (1800-1900)
+    - Today, especially for African American musicians
+
+## Important Genres in Romantic Music
+- Instrumental (the pinnacle of music composition)
+    - Symphony. The most important genre of the music. Pinnacle.
+    - Symphonic poem
+        - Program introduced into symphonic works
+    - Piano preludes and other free forms
+- Vocal
+    - Songs (lieder)
+    - Opera
+
+## Form in Romantic Music
+- Standard forms developed in Classical era, but slightly different ways
+    - A way of giving a story to instrumental music
+- Romantic era forms play with the standards for dramatic effect
+    - Beethoven (early Romantic Era) most important developer of Symphony
+- Romantic era symphony and sonatas are longer
+    - Composers develop unifying techniques
+        - Recurring melodies
+        - Keys have meaning
+
+Forms of the Symphony
+- Pay special attention to the sonata form
+- [youtube link](https://www.youtube.com/watch?v=Y_5K8f5CZpg)
+
+## Stylistic Features of Romantic Music
+- Long, drawn out melodies
+- Lots of movement by half step (not by major or minor scale)
+- Unexpected and unpredictable harmonic changes
+- Extreme expressions of individual psychology
+    - Chromaticism, rubato, prolonged melodies
+- Meter often unclear in order to highlight melody and harmony
+    - Rubato expresses changes in mood
+    - Syncopation also blurs rhythm
+- Bright timbres contrasted with dark
+- Textures are thick
+
+The definition of **rubato** is a flexibility/freedom in the performance of a rhythm. Basically, rubato is when a performer doesn't stick to the strict rhythms written by the composer, but alters them to give more expression to the performance.
+
+## Cultural Developments in the Romantic Era
+- Fascination with fantasy, death, and the spiritual realm
+- Development of the idea of the individual
+- Genius
+    - Art created by an inspired individual
+    - Expresses universal truths
+- Music functions
+    - Aesthetic enjoyment
+    - Emotional expression
+    - Realisation of the individual
+
+## Creating Space to Enjoy Music Abstractly
+Recall back to Alex Ross’ “A Classical Kid...” Relates the concert hall experience
+- No personality
+- Standard Formal attire
+- Lights dimmed
+- No other noise (don’t cough!)
+
+Concert hall developed in the late 1800s to emphasize abstracted nature of music, like a movie theater: designed to absorb you in the movie
+
+Richard Wagner created the ideal concert hall for his music.  [youtube link](https://www.youtube.com/watch?time_continue=1&v=bmHUpBYnwOA&feature=emb_logo)
+
+## Is Classical Music a Universal Language?
+- Why Classical music is sometimes thought to be universal?
+    - Based on a natural phenomenon
+        - But Pythagorean tuning doesn’t work out
+    - Expresses clear emotions
+        - But Major/minor harmonies can deceive
+    - Time is structured
+        - But hierarchical concepts of time structures are culturally bound
+- What is at stake in thinking Classical Music is universal?
+    - If not universal, then there is no common measure to judge music as good or beautiful
+    - If not universal, all music appreciation is subjective
+    - If not universal, then music is totally designed by humans (Origins)
+
+## Whose Culture is Classical Music?
+- Classical Music Canon developed by European males
+    - Consists mostly of European male composers
+- Concert Hall Ritual developed with Elite European standards
+    - among educated Europeans and those educated in European tradition
+- Is listening to, performing, or composing in Classical Music style supporting this privileged, male-dominated European society?
+
+Now take Historical Journey to 1939, Lincoln Memorial in Washington DC.
+Marian Anderson, prominent vocalist, denied entry into historical women’s society because of color of her skin.
+She was not allowed to perform in auditorium for white public school, so instead, sang a recital in front of 10,000.
+So she began with Donizetti and Schubert. Concluded with spiritual arranged by Florence Price.
+
+Listen to [Schubert's Ave Maria](https://www.youtube.com/watch?v=TR95d7yP2Ig).
+- lyrical quality. Schubert is great for long, drawn out melodies.
+- unpredictable key changes.
+
+After you listened to this clip, she went on in her recital, to conclude with some pieces by black American composer. One spiritual arrangement by Florence Price.
+
+
+
+## Florence Price
+Symphony in E Minor
+- Standard movements, form, and instruments of Romantic Symphony
+- Infused with African American melody and rhythm in the Juba dance style
+
+Premiered by Chicago Symphony Orchestra in 1933
+
+Listen for
+- syncopation (groups of four with 2 and 4 beats emphasized in drums and melody)
+- Melody does have clear phrases with beginnings and endings, but short snippets and repeat
+- Different sections are contrasted through different keys (home notes)
+
+[youtube link](https://www.youtube.com/watch?v=VgbElxk1S5A)
+
+## Nina Simone, “the High Priestess of Soul”
+- Studied to become classical pianist
+    - Rejected from music conservatory because she was black
+- Incorporated a Bach fugue (complex form of polyphony where a melody repeats in staggered entrances)
+- [youtube link](https://www.youtube.com/watch?v=0WHHW8PrF6Q)
+
+## Ethnicity in Classical Music
+Look at your two album covers
+- How are the performers represented?
+- Does their ethnicity feature in the marketing?
+
+Thurman: People of colour are often presented ethnically, as though they are outsiders to the world of classical music
+
+## Two mind-sets that plague People of Colour
+*Classical music will save you*
+- The idea that classical music is refining
+- The practice it requires to listen or perform makes you morally superior
+
+*Classical music will kill you*
+- Playing classical music means abandoning your heritage and culture
+- Because it was made by European culture, it is a tool of the oppressor
+
+The counteraction: musical realism to contrast
+- Music that has clear cultural referents
+- Music that addresses contemporary situations
+- Music that refers to everyday life
+
+## Musical Abstraction
+Listen again to Tchaikovsky’s *Serenade for Strings Op. 48* (小夜曲)
+- Serenade: a light, mini-symphony
+    - Evening, informal entertainment
+- Begins with homophonic statement
+    - Melody on top with general descending line
+    - Melody moves to cello and bass in their high range
+- Meter is 6/8
+    - Lilting, dance like
+- Faster waltz feel (2:40) in ABAB’ form
+    - Lots of offset beats in melody gives sense of disorientation
+    - Contrasting polyphony at (4:20)
+    - [youtube link](https://www.youtube.com/watch?v=DPBKukl0oc4)
+
+So what is the conccept of musical abstraction?
+- For Thurman, the abstract musical pleasure of Tchaikovsky’s Serenade moved her to tears, almost against her will
+- Because the music is removed from every day life, it gives the opportunity to be fully absorbed in the sound
+- Thurman’s appreciation of the abstract nature of Classical music is like the concept of music in the Romantic Era
+    - Music is created from supernatural genius
+    - Music creates meaning from transcending everyday life
+        - Listen to [Yo-Yo ma on music’s reminder](https://m.facebook.com/ChicagoSymphony/videos/2205444846390405/?refsrc=https%3A%2F%2Fm.facebook.com%2Fstory.php&_rdr) that life is more than our economic value
+
+## Meaning Culture
+- Meaning may not be fully apparent on first, second, or multiple hearings
+    - It requires listening with the ears of the original audience
+    - But the meaning lies underneath the surface to be discovered
+- Racialized depictions and ethnic negotiations of Art music and the concert hall make the cultural hegemony of White European hierarchical society clear
+- But they also show what distinguishes Art music from other forms
+    - Notation provides for abstraction
+    - Primary function is aesthetic pleasure
