@@ -87,6 +87,16 @@
 
 
     </script>
+    <style>
+    .realbody a, .realbody a:link {
+        color: #c60078 !important;
+    }
+
+    /* A link that is hovered on */
+    .realbody a:hover {
+        color: #8f0a5a !important;
+    }
+    </style>
   </head>
   <body data-spy="scroll" data-target="#toc">
         <div class="github-fork-ribbon-wrapper right">
@@ -104,7 +114,7 @@
             {% include covid.html %}
             <p align="center"><span style="font-family: Indie Flower !important;">{{ page.title }}</span></p>
             <br><!--start-->
-
+        <div class="realbody">
           {% include anchor_headings.html html=content beforeHeading=true anchorClass="header-link" %}
           <!--script>
             $(document).ready(function () {
@@ -113,6 +123,7 @@
             });
         </script-->
           {% include share-buttons.html %}
+      </div>
             <div id="footer">
                 <small>Copyright &copy; <a href="/">{{ site.author }}</a> {{ site.time | date: '%Y' }}</small>
             </div>
