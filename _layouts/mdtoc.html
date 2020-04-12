@@ -117,7 +117,7 @@
             <br><!--start-->
             <div class="realbody">
           {% include anchor_headings.html html=content beforeHeading=true anchorClass="header-link" %}
-            </div>
+
           <!--script>
             $(document).ready(function () {
                 $('pre').addClass('highlight');
@@ -125,6 +125,7 @@
             });
         </script-->
           {% include share-buttons.html %}
+          </div>
             <div id="footer">
                 <small>Copyright &copy; <a href="/">{{ site.author }}</a> {{ site.time | date: '%Y' }}</small>
             </div>
