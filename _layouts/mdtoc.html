@@ -88,12 +88,12 @@
 
     </script>
     <style>
-    a:link {
+    .realbody a:link {
         color: #c60078 !important;
     }
 
     /* A link that is hovered on */
-    a:hover {
+    .realbody a:hover {
         color: #8f0a5a !important;
     }
     </style>
@@ -115,8 +115,9 @@
             {% include covid.html %}
             <p align="center"><span style="font-family: Indie Flower !important;">{{ page.title }}</span></p>
             <br><!--start-->
-
+            <div class="realbody">
           {% include anchor_headings.html html=content beforeHeading=true anchorClass="header-link" %}
+            </div>
           <!--script>
             $(document).ready(function () {
                 $('pre').addClass('highlight');
