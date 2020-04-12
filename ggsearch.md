@@ -1,8 +1,7 @@
 ---
 title: Search
 layout: home
-excerpt: "Search for a page or post you're looking for"
-feature_image: "https://picsum.photos/1300/400?image=989"
+excerpt: "Search for a course you're looking for"
 feature_text: |
     ## Search for a course you're looking for
 ---

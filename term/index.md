@@ -2,7 +2,6 @@
 title: Term
 layout: default
 feature_text: <h2>Sort by terms</h2>
-feature_image: "https://picsum.photos/1300/400?image=989"
 ---
 <main class="main container">
     <div class="content">

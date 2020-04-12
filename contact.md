@@ -1,11 +1,15 @@
 ---
 layout: home
 title: Contact
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "/assets/backpic/mic.jpg"
 feature_text: |
-    ## Spot a typo? Shoot me an email!
+    <h2 style="color:white;"> Shoot me an email! </h2>
 ---
 
 
 
 {% include site-form.html %}
+
+
+<br>
+Photo by BRUNO CERVERA on Unsplash
