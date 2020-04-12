@@ -1378,7 +1378,7 @@ transition: “storm & stress” style: sudden change to minor, forte, dissonanc
 
 ![](/pics/k332-4.png)
 
-### Piano concerto no. 23 in A Major, K4881st movement
+### Piano concerto no. 23 in A Major, K488 1st movement
 1786
 -  17 piano concertos written in Vienna
 -  vehicles for his own concerts: showpieces to dazzle audience
@@ -1393,3 +1393,13 @@ why.”
 
 - emulated JC Bach’s style (one of JS Bach’s sons):
     - met in London; transcribed JCB’s sonatas
+
+ritornello form & sonata form hybrid
+
+![](/pics/k488.png)
+
+- 1T = 1st theme		
+- Tr = transition
+- 2T = 2nd theme
+- CT = closing theme
+- NT = new theme
