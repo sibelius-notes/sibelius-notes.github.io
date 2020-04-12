@@ -3,7 +3,7 @@ title: ''
 layout: home
 feature_image: "/assets/backpic/piano.jpg"
 feature_text: |
-  ## Sibelius Peng's Lecture Notes
+  <h2 style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: white; padding: 10px;"> Sibelius Peng's Lecture Notes</h2>
 ---
 
 

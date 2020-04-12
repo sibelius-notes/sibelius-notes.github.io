@@ -2,7 +2,7 @@
 title: Term
 layout: default
 feature_image: "/assets/backpic/piano.jpg"
-feature_text: <h2>Sort by terms</h2>
+feature_text: <h2 style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">Sort by terms</h2>
 ---
 <main class="main container">
     <div class="content">
