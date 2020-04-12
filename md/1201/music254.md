@@ -1301,3 +1301,95 @@ d) harmony
 
 e) texture
 - expressive melody + light accompaniment
+
+## Mozart !!
+Finally, Mozart!! Two pieces today
+- NAWM 124: Sonata No. 12 in F Major, \*K. 332, 1st movement
+- NAWM 125: Piano Concerto No. 23 in A Major, \*K.488, 1st movement
+
+\* Fun fact: K stands for Köchel, who catalogued Mozart’s works in the 19th century
+
+-  Sonata Form
+    -  Other names: Sonata-allegro form or first movement form
+    -  Form typically used in first movements of symphonies, string quartets, keyboard sonatas in late 18th & 19th centuries
+-  Koch, Introductory Essay on Composition, 1793
+    -  repertoire ca. 1770s
+    -  more flexible description, focused on phrases
+    -  18th-Century view: expanded binary form (A B): see slide 3
+    -  Vs 19th-century view: ternary form (A B A’)
+
+**Quick Review of Sonata Form**
+
+![](/pics/sonata-form.png)
+
+Wolfgang Amadeus Mozart (Austrian composer, 1756-1791)
+- Child prodigy:
+    - Thorough training by father
+    - \*Accomplished keyboard & violin age 5 (see figure 23.8)
+    -  Leopold toured Mozart & his older sister throughout Europe: exposed to many styles (including JC Bach in London)
+- Started in court of Bishop of Salzburg: father’s patron
+- 1781-1791: Vienna as freelance musician (performing, teaching, publishing)
+    - Financial difficulties
+- Was a friend of Haydn: mutual respect
+    - exposed to music of JS Bach (interest in counterpoint)
+- Died young of a fever (not poisoning)
+- Prolific composer (over 600, including operas, symphonies, sonatas, concertos)
+
+\*Fun fact: In a 1762 audience before Empress Maria Theresa, 6-year old Mozart leapt into her lap and kissed her!
+
+### Piano Sonata No. 12 in F Major, 1st movement K.332
+The piano Sonata first movement is in Sonata form. It uses many contrasting styles: recognizable to contemporary audience.
+
+![](/pics/k332.png)
+
+#### Exposition
+**First theme group (1T): m. 1:** Song-like melody over broken-chord accompaniment
+- Imitation (m. 5) – like learned style of counterpoint
+- simulated Hunting horns (m.12)
+
+**Transition (TR):** m.22: style: Sturm und Drang = [German] Storm & Stress
+- minor mode, loud dynamics, chromatic harmony, strong dissonances, modulates
+
+**2nd theme (2T):** m.41: galant style, immediately repeated & varied
+- Key: Dominant
+- m.56: transitional extension (syncopated & minor mode)
+
+**Closing Theme (CT):** m.71: cadential ideas: firmly establishes dominant key
+
+#### Development
+- New melody (m.94)
+- Develops transitional syncopated passage between 2nd & closing theme (m.109)
+
+#### Recapitulation
+Exposition material transposed to Tonic (m. 133)
+
+Now let's look at the score, 3 distinct styles of music in theme 1
+- a) Galant, songlike
+- b) Imitation/counterpoint
+- c) Hunting horns
+
+transition: “storm & stress” style: sudden change to minor, forte, dissonance
+
+![](/pics/k332-1.png)
+
+![](/pics/k332-2.png)
+
+![](/pics/k332-3.png)
+
+![](/pics/k332-4.png)
+
+### Piano concerto no. 23 in A Major, K4881st movement
+1786
+-  17 piano concertos written in Vienna
+-  vehicles for his own concerts: showpieces to dazzle audience
+-  Pleasing the connoisseur and amateur:
+<br>letter to his father about first 3 Vienna piano concertos:
+
+> “a happy medium between what’s too difficult and too easy. They are
+brilliant – pleasing to the ear – natural without becoming vacuous. There are
+passages here and there that only connoisseurs can fully appreciate, yet the
+common listener will find them satisfying as well, although without knowing
+why.”
+
+- emulated JC Bach’s style (one of JS Bach’s sons):
+    - met in London; transcribed JCB’s sonatas
