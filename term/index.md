@@ -1,6 +1,7 @@
 ---
 title: Term
 layout: default
+feature_image: "/assets/backpic/piano.jpg"
 feature_text: <h2>Sort by terms</h2>
 ---
 <main class="main container">

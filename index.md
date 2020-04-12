@@ -1,6 +1,7 @@
 ---
 title: ''
 layout: home
+feature_image: "/assets/backpic/piano.jpg"
 feature_text: |
   ## Sibelius Peng's Lecture Notes
 ---
