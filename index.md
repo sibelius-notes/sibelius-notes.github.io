@@ -28,6 +28,6 @@ Most (while some are contributed by my friends) of these notes are written in th
 
 [Learning notes](/md/stml) on STML book series.
 
-[Map videos](https://www.youtube.com/playlist?list=PLOYRlicwLG3St5aEm02ncj-sPDJwmojIS) - from Domain of Science. I saw these maps frequently on a TV by the door of main reception desk (DC 2326).
+[Map videos](https://www.youtube.com/playlist?list=PLOYRlicwLG3St5aEm02ncj-sPDJwmojIS){target="_blank"} - from Domain of Science. I saw these maps frequently on a TV by the door of main reception desk (DC 2326).
 
-Some other notes you might find useful: [Iris Jiang](http://www.iris-jiang.com/notes.html) (PMATH, ACTSC, STAT).
+Some other notes you might find useful: [Iris Jiang](http://www.iris-jiang.com/notes.html){target="_blank"} (PMATH, ACTSC, STAT).
