@@ -7,6 +7,8 @@ layout: page
 
 See [here](https://bookstore.ams.org/stml) for the official information.
 
+Below are the complete list of books, but you might want to consult [this page](./tags/) for categorized version.
+
 - [x] A First Journey through Logic
 - [x] An Introduction to Symmetric Functions and Their Combinatorics
 - [x] Discrete Morse Theory
