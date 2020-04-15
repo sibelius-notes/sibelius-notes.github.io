@@ -13,6 +13,8 @@ layout: page
     {% assign tags = tags | concat: a.tags %}
 {% endfor %}
 
+{% assign tags = tags | uniq | sort %}
+
 {% for t in tags %}
 ## {{ t }}
 {% for a in all %}
