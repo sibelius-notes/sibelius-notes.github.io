@@ -12,3 +12,12 @@ layout: page
 {% for a in all %}
     {% assign tags = tags | concat: a.tags %}
 {% endfor %}
+
+{% for t in tags %}
+## {{ t }}
+{% for a in all %}
+{% if a.tags contains t %}
+- [{{ a.title }}]({{ a.url }})
+{% endif %}
+{% endfor %}
+{% endfor %}
