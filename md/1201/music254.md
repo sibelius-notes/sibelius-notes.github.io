@@ -994,12 +994,12 @@ sc: 2: Recitative with Sinfonia:
 "V’adoro, pupille"[I adore you, eyes]: DA CAPO ARIA: A B A’:
 
 ```
-__________________________________________________________________________
-| sinfonia     | Caesar     | A    |B| [Caesar interrupts] | A’           |
---------------------------------------------------------------------------
-| instrumental | interrupts | aria | | recitative secco    | aria da capo |
-| introduction |            |      | | for dramatic effect |              |
---------------------------------------------------------------------------
+┌────────────────┬──────────────┬──────────┬───────┬───────────────────────┬────────────────┐
+│   sinfonia     │    Caesar    │    A     │   B   │  [Caesar interrupts]  │      A’        │
+├────────────────┼──────────────┼──────────┼───────┼───────────────────────┼────────────────┤
+│  instrumental  │  interrupts  │  aria    │       │  recitative secco     │  aria da capo  │
+│  introduction  │              │          │       │  for dramatic effect  │                │
+└────────────────┴──────────────┴──────────┴───────┴───────────────────────┴────────────────┘
 ```
 
 **A**: F major, Largo tempo
@@ -1442,3 +1442,7 @@ G.B. Sammartini (ca. 1700-1775)
 	1st period		   2nd period 		3rd period
  	(mm.1-14) 	       (mm.15-24) 		(mm.25-38)
 ```
+
+mm. 1-8: 5 ideas: hammered octaves, rising scales, repeated melodic idea, rushing scales, rising arpeggios over ♪♪ bass  
+
+![](/pics/sammartini.png)
