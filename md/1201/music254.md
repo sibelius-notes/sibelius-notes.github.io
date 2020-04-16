@@ -1002,6 +1002,8 @@ sc: 2: Recitative with Sinfonia:
 └────────────────┴──────────────┴──────────┴───────┴───────────────────────┴────────────────┘
 ```
 
+Created via [ASCII Table Generator](https://ozh.github.io/ascii-tables/).
+
 **A**: F major, Largo tempo
 - Sarabande rhythm (triple meter)
 - 4-note, dotted-rhythm motive (from sinfonia)
@@ -1426,7 +1428,7 @@ G.B. Sammartini (ca. 1700-1775)
 - Milan, Northern Italy
 - 1st prominent symphonist
 
-## SammartiniSymphony in F, No. 32, I
+## Sammartini: Symphony in F, No. 32, I
 [ca. 1740]
 
 - orchestra: 10-16
@@ -1438,11 +1440,48 @@ G.B. Sammartini (ca. 1700-1775)
 - example of Koch's binary repeated form: later known as sonata form:
 
 ```
-||: Exposition :||:   Development     Recapitulation :||
-	1st period		   2nd period 		3rd period
- 	(mm.1-14) 	       (mm.15-24) 		(mm.25-38)
+||: Exposition :||: Development     Recapitulation :||
+    1st period      2nd period      3rd period
+    (mm.1-14)       (mm.15-24)      (mm.25-38)
 ```
 
 mm. 1-8: 5 ideas: hammered octaves, rising scales, repeated melodic idea, rushing scales, rising arpeggios over ♪♪ bass  
 
 ![](/pics/sammartini.png)
+
+## Stamitz:  Sinfonia in E-flat, Op. 11, No. 3,  I
+Johann Stamitz (1717-1757)
+- Op. 11: mid 1750s, pub’d 1758
+- Mannheim
+
+Stamitz’s orchestra:
+- 2 horns, 2 oboes (/flutes/clarinet), violins, viola, cello, bass
+- Stamitz was leader of orchestra
+- known for their precision & discipline:
+    - Burney, “army of generals”
+- famous for their “Mannheim **crescendos**”
+<br>(transition section: string tremelos, pp -> ff)
+
+Now let's take a look at some features:
+- 1st movement of  **four**:
+    - 1st composer to use consistent 4-movement structure
+    - minuet & trio 3rd movement
+- larger scale than Sammartini:
+    - expanded proportions; repetitions omitted; more tuneful themes
+- one of 1st to introduce **contrasting theme** in dominant:
+    - 2nd theme in exposition  (2 oboes)
+    - more lyrical than 1st theme
+- Recapitulation: themes stated out of order:
+    - starts with 2nd & closing themes
+    - elements of 1st theme group restated backwards order
+    - horn call –>  opening chords & unison
+
+**1st theme group: 3 different ideas**
+
+![](/pics/stamitz-theme1.png)
+
+**“Mannheim crescendo” Transition section**
+
+![](/pics/stamitz-trans.png)
+
+   
