@@ -1449,7 +1449,7 @@ mm. 1-8: 5 ideas: hammered octaves, rising scales, repeated melodic idea, rushin
 
 ![](/pics/sammartini.png)
 
-## Stamitz:  Sinfonia in E-flat, Op. 11, No. 3,  I
+## Stamitz: Sinfonia in E-flat, Op. 11, No. 3,  I
 Johann Stamitz (1717-1757)
 - Op. 11: mid 1750s, pub’d 1758
 - Mannheim
@@ -1484,4 +1484,164 @@ Now let's take a look at some features:
 
 ![](/pics/stamitz-trans.png)
 
-   
+**2nd theme:**
+- In dominant key (B flat)
+- 2 oboes
+- More lyrical than 1st
+
+![](/pics/stamitz-theme2.png)
+
+## Joseph Haydn (1732–1809)
+- **Most celebrated composer of his day**
+    - choirboy in Vienna; singing, harpsichord, violin
+- 1761: Esterházy patronage
+    - powerful Hungarian noble family
+        - generous patrons, devoted to music
+        - weekly concerts, operas for special occasions
+        - daily chamber sessions with the prince
+        - duties: compose, conduct, train and supervise music personnel, keep instruments in repair
+        - Haydn built up the orchestra (14-25 players)
+- 1766 moved to Eszterháza: remote country estate
+- 1779 new contract allows publication sales: income
+    - publications: fame throughout Europe
+- 1784 met Mozart: mutual admiration
+- release from Esterházys; 1790–95 London
+
+Fun fact: Haydn’s skull was separated from his body for 145 years: get the gruesome details in “Don’t Lose Your Head” here.
+
+**Haydn’s Symphonic Form:“Father of the Symphony”**
+- composed over 100 symphonies
+- from 3 movements to 4 movements
+- light concert work  -> serious form, test of a composer
+- wit!!
+
+**sonata cycle: 4 movements**
+
+I  allegro (Tonic Key):  most serious attention (sonata form)
+
+II	andante	(Related Key): contrast: gentle melody, change of key
+
+III	minuet & trio (Tonic Key): relaxing, popular style (added)*
+
+IV	allegro/presto	 (Tonic Key): fastest (sonata or rondo form)
+
+## Symphony No. 88 in G Major (1787)
+- Commissioned by Haydn’s violinist
+- Took it to Paris: written with audience in mind
+- Popular: rustic & learned style
+- Pastoral mood:
+    - hymn-like theme in 2nd movement
+    - 1st & last: *contredanse* (English country dance) in meter & style
+    - 3rd trio section: drones imitate bagpipes
+- Standard 4 movements
+- Orchestra: strings, winds, horns, 2 trumpets & timpani (in 2nd movement first)
+
+### Movement 1
+G major
+- sonata form with slow introduction
+- Motivic relationships between themes:
+    - Variants of motive a & b in other themes
+- variety & strong contrasts but unified
+- Harmony: as expected but witty touches
+
+![](/pics/haydn88mov1.png)
+
+![](/pics/ex233.png)
+
+### Movement 2
+D major
+- oasis of calm, contrasts with drama of movement 1
+- Haydn always playing with audience expectations
+    - Main theme (solo cello & oboe): accompaniment varies each time
+    - m.41: interruption: loud tremolos (strings) + trumpets & drums
+- elements of variations, rondo, and rounded binary form
+
+![](/pics/haydn88mov2.png)
+
+Symphony No. 88, Movement 2: contrasting material, m.41 (2:04)
+
+![](/pics/haydnmov2m41.png)
+
+### Movement 3
+G major
+- Minuet (A) &  Trio (B) form (A B A)
+- A & B: both in Binary Form with Repeats
+- “da capo” Minuet (end of trio)
+- trio: lighter texture; droning (rustic 乡村 quality)
+- Popular, light style
+- Humour:
+    - grace-notes on upbeats (lurching)
+    - 2nd phrase: 6 measures long
+
+lurch: make an abrupt, unsteady, uncontrolled movement or series of movements; stagger.
+
+
+Let's take a look at the score.
+
+- Grace notes on upbeats
+- 2nd phrase 6 bars long
+
+![](/pics/haydnmov3-1.png)
+
+- Lighter texture
+- Drones: like bagpipes
+
+![](/pics/haydnmov3-2.png)
+
+### Movement 4
+G major
+- Allegro con spirito: (fast with spirit)
+- Form: **rondo**: musical form in which 1st main section (A) recurs (usually tonic) between subsidiary sections/episodes (B, C etc):
+    - Rondo Form: A B A C A (coda)
+- A is rounded binary (1st presented with repeats)
+    - Theme a modulates G -> B minor
+
+![](/pics/haydn88mov4.png)
+
+## Mozart, Symphony No. 41 in C Major (Jupiter), K. 551: Finale (IV)
+- 1788
+- orchestra: string + flute, 2 oboes, 2 bassoons, 2 french horns, 2 trumpets, timpani
+- other movements: opera characteristics (esp movement 1)
+    - I - Allegro Vivace (Sonata Form)
+    - II - Andante Cantabile
+    - III - Menuetto: Allegretto
+- *IV Molto Allegro: Sonata form*
+
+>  [(Maazel)](https://www.youtube.com/watch?v=C6EOb86YdIs)
+<br><br>Neal Zaslaw invokes the world of opera for an explanation of the "Jupiter" Symphony's first movement: relationship between the opening fanfares and the closing theme is like that between a serious operatic character and a figure from comic opera.  Throughout the movement, Mozart moves between "high-brow" and popular musical styles with astonishing ease and without the slightest  incongruity.  Shortly after a great dramatic outburst (with a suspenseful general rest and an unexpected foray into the minor mode), we hear a beguilingly simple folk-like closing theme.  Mozart borrowed this theme from an aria for bass he had written just a few months earlier, in May 1788.  The words were possibly by Lorenzo Da Ponte, with whom Mozart collaborated on three of his greatest operas.  The aria, "Un bacio di mano" ("A Hand-kiss"), K. 541, was intended as an extra number for a comic opera by Pasquale Anfossi (1727-1797).  The text of the aria passage Mozart used in the "Jupiter" Symphony runs as follows:  "Voi siete un po' tondo, mio caro Pompeo, le usanze del mondo andate a studiar" ("You are a bit naïve, my dear Pompeo, go study the ways of the world").  In the development section, this theme becomes the starting point for a whole series of transformations, as if the simple melody were indeed "studying the ways of the world.
+<br><br> [src](http://www.kennedy-center.org/artist/composition/3187)
+
+**EXPOSITION:**
+- First theme group: several ideas (a, b, c)
+    - Return in transition (a & c) & 2nd theme group (c & b'') & closing theme c
+    - New transition theme d (returns in 2nd theme group)
+- Evokes learned counterpoint (J.J. Fux treatise, Gradus ad parnassum, 1725)
+    - 4-note theme a: from fugue example in Fux:
+        - Full contrapuntal treatment (incl. stretto, fugato)
+    - Many imitative and fugato passages
+    - Displaying contrapuntal prowess within clear sonata form
+
+![](/pics/jupiter-theme1.png)
+
+Mozart, Symphony 41, IV – form
+
+![](/pics/mozart41form.png)
+
+**CODA (m. 356):**
+- 5-voice fugato:
+    - each voice introduces all the motives in turn (begins m. 372)
+- themes:
+    - galant-style ideas in perfectly strict fugue:
+        - reconciliation between learned and galant styles
+- one theme (b) left out of fugato:
+    - functions as return to symphonic style (m. 402)
+
+Coda form: counterpoint
+
+![](/pics/mozart-coda.png)
+
+![](/pics/ex239.png)
+
+![](/pics/mozart41-1.png)
+
+![](/pics/mozart41-2.png)
