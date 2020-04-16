@@ -1411,7 +1411,7 @@ ritornello form & sonata form hybrid
 - CT = closing theme
 - NT = new theme
 
-# The Classical Symphony 1
+# The Classical Symphony
 Sammartini Stamitz
 
 **SYMPHONY:**
@@ -1645,3 +1645,65 @@ Coda form: counterpoint
 ![](/pics/mozart41-1.png)
 
 ![](/pics/mozart41-2.png)
+
+# Classical Chamber Music
+Haydn, Op. 33, no. 2 “The Joke”
+
+**String Quartet**
+- a genre of chamber music made up of 2 violins, viola and cello
+- usually 3 or 4 movements in sonata cycle
+- no direct predecessor
+- Haydn differentiated between symphony & string quartet style
+
+## String Quartet in E-flat Major, Op. 33, No. 2, “The Joke”, 1781
+Haydn identified the Op. 33 quartets as of “a new and special kind”:
+- light, popular touch
+- integration of movements of varying character into a convincing whole
+- had a big impact on Mozart:
+    - (“Haydn” quartets, 1782-5)
+- Koch used Haydn’s quartets as examples in his treatise on composition
+
+form: 4 movements: Sonata Cycle:
+- I	Sonata form,			Allegro moderato cantabile,		E flat
+- II	[Minuet] & Trio (ABA),	Allegro Scherzo\*, E flat
+- III	Theme & Variations,		Largo e sostenuto,			B flat
+- **IV	Rondo**,	Presto,			E flat
+
+\*Scherzo = Joke in Italian
+
+### “The Joke”, finale IV (Presto) – Rondo Form
+**IV:  Rondo: A B A C A + CODA** (new form for finales)
+- typical form of rondo for Haydn
+ 
+**Rondo**: alternates a theme (refrain) with contrasting episodes
+- **Refrain (A)**: almost always in Tonic
+    - mm.1-36		
+    - self-contained rounded binary:  ||: a :||: b a :||
+    - a = 1st 8 bars: return mm.29-36
+    - never returns in full form with repeats
+    - economy of material & constant novelty:
+        - Whole refrain derives from 1st 2 bars - simplicity & sophistication
+- **Episodes (B & C)**: modulate to nearby keys
+    - provide contrast but develop figures from theme
+
+![](/pics/ex231.png)
+
+“The Joke”, finale (Presto), 1781
+
+Scheme
+```
+A                B          A           C           A’      Coda
+||:a:||: b a :||            a b a                   a       Adagio a’
+E♭               A♭  f      E♭-------------------------------------------
+m.1              M.36       m.72        m.107       m.141   m.148
+```
+- Wit!!
+- comic elements:
+    - plays with expectations
+    - Melody of refrain:
+        - Short phrases & staccato notes (opera buffa)
+        - overruns bar line
+    - Dramatic build-up before return of A (m72 & m 141): let down
+    - Rests at end of movement, opening material used for ending (see score below)
+
+![](/pics/ex232.png)
