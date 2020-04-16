@@ -1678,7 +1678,7 @@ form: 4 movements: Sonata Cycle:
 **Rondo**: alternates a theme (refrain) with contrasting episodes
 - **Refrain (A)**: almost always in Tonic
     - mm.1-36		
-    - self-contained rounded binary:  ||: a :||: b a :||
+    - self-contained rounded binary:  &#124;&#124;: a :&#124;&#124;: b a :&#124;&#124;
     - a = 1st 8 bars: return mm.29-36
     - never returns in full form with repeats
     - economy of material & constant novelty:
@@ -1832,7 +1832,7 @@ and I must play the sentinel!<br>
 - Form: A 		B		B
 - Donna Anna: dramatic opera seria style
 - Don Giovanni: matches her style
-- Leporello: frets, hides 
+- Leporello: frets, hides
     - triadic, repetitive opera buffa style patter
 - confused situation:
     - repeat words, all singing at once, quick alternation
