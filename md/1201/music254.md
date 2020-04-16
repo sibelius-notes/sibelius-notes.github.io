@@ -993,9 +993,14 @@ sc: 2: Recitative with Sinfonia:
 
 "V’adoro, pupille"[I adore you, eyes]: DA CAPO ARIA: A B A’:
 
-| sinfonia  | Caesar | A    | B     |  [Caesar interrupts] | A’|
-| :----- | :----- | :--- | :---- | :----------------- | :-----|
-| instrumental introduction| interrupts| aria | |recitative secco for dramatic effect | aria da capo|
+```
+__________________________________________________________________________
+| sinfonia     | Caesar     | A    |B| [Caesar interrupts] | A’           |
+--------------------------------------------------------------------------
+| instrumental | interrupts | aria | | recitative secco    | aria da capo |
+| introduction |            |      | | for dramatic effect |              |
+--------------------------------------------------------------------------
+```
 
 **A**: F major, Largo tempo
 - Sarabande rhythm (triple meter)
@@ -1407,7 +1412,7 @@ ritornello form & sonata form hybrid
 # The Classical Symphony 1
 Sammartini Stamitz
 
-**SYMPHONY:** 
+**SYMPHONY:**
 - large work for orchestra usually in 4 movements
 - multiple influences on development of genre:
     - Origins Italy ca 1730
@@ -1416,3 +1421,24 @@ Sammartini Stamitz
             - fast – slow – dance (minuet or gigue)
             - became an independent pieces in concert
     - Many other influences, similarities to other genres
+
+G.B. Sammartini (ca. 1700-1775)
+- Milan, Northern Italy
+- 1st prominent symphonist
+
+## SammartiniSymphony in F, No. 32, I
+[ca. 1740]
+
+- orchestra: 10-16
+    - 4-part strings
+    - including basso continuo
+- 1st movement of 3: fast – slow – fast
+- short (38 bars)
+- lots of variety: 1st 8 bars: 5 contrasting ideas
+- example of Koch's binary repeated form: later known as sonata form:
+
+```
+||: Exposition :||:   Development     Recapitulation :||
+	1st period		   2nd period 		3rd period
+ 	(mm.1-14) 	       (mm.15-24) 		(mm.25-38)
+```
