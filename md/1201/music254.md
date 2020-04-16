@@ -1403,3 +1403,16 @@ ritornello form & sonata form hybrid
 - 2T = 2nd theme
 - CT = closing theme
 - NT = new theme
+
+# The Classical Symphony 1
+Sammartini Stamitz
+
+**SYMPHONY:** 
+- large work for orchestra usually in 4 movements
+- multiple influences on development of genre:
+    - Origins Italy ca 1730
+    - Italian opera overture: sinfonia
+        - early sinfonia in 3 movements:  
+            - fast – slow – dance (minuet or gigue)
+            - became an independent pieces in concert
+    - Many other influences, similarities to other genres
