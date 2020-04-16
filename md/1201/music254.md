@@ -1707,3 +1707,149 @@ m.1              M.36       m.72        m.107       m.141   m.148
     - Rests at end of movement, opening material used for ending (see score below)
 
 ![](/pics/ex232.png)
+
+# Classical Opera
+Mozart, *Don Giovanni*,1787
+
+*Il dissoluto punito, ossia Il Don Giovanni*
+<br>[The Profligate Punished or The Story of Don Juan]
+- Wolfgang Amadeus Mozart, composer
+- Lorenzo Da Ponte, librettist
+- Overture + 2 Acts + Epilogue
+- Don Juan story
+- in Italian
+- 1st performance, Prague, 1787
+
+Prague Opera House:site of first performance in 1787
+
+## Mozart’s opera different from opera seria
+
+1. Dramatic continuity & forward momentum
+    - vs stop & start of Baroque opera
+    - “number” opera but more integrated
+    - Still dry/simple recitative (just basso continuo accompaniment)
+    - BUT more emotionally charged
+2. More ensembles (duets, trios) vs solo arias (about ½)
+    - Dramatically and musically significant
+3. Characterization:
+    - “real” people (vs myth/heroes) with complex feelings
+
+## Some Other Important Points About Don Giovanni
+- mixing genres and styles:
+    - comedy & tragedy, funny & serious, low class/high class characters & styles
+    - opera seria (serious opera) & opera buffa (comic opera):
+    - **“dramma giocoso”: Italian for “humorous drama”:**
+	<br>**=a comic opera admitting serious characters and themes**
+	- Don Giovanni: speaks buffa & seria
+    - Donna Elvira: seria character or buffa?
+        - Opening aria: over the top style – Baroque, large leaps
+- makes sense as music and drama:
+    - continuous music & drama
+    - coherent forms, logical key scheme: opening scene:
+    <br>Act I/sc i-ii: F (I)  - B♭(IV) – g (ii or rel minor of B♭) – f (i)
+
+## Mozart, Don Giovanni, Overture
+Overture: (D major/D minor):
+
+Dramatically integrated:
+- sonata form with slow introduction (d minor)
+- D major/minor keys dramatically significant
+- returns in eerie cemetery scene: Commendatore’s statue
+- microcosm of the opera
+- mini portrait of Don Giovanni: dark/light
+- segues directly into scene 1
+
+segue: to move easily and without interruption from one piece of music, part of a story, subject, or situation to another
+
+Overture: dramatically integrated: SONATA FORM:
+
+0:00 &nbsp;&nbsp;&nbsp;&nbsp; SLOW INTRO (D minor)<br>
+2:11 &nbsp;&nbsp;&nbsp;&nbsp; ALLEGRO THEME 1 (D major)<br>
+2:35 &nbsp;&nbsp;&nbsp;&nbsp; TRANSITION<br>
+2:52 &nbsp;&nbsp;&nbsp;&nbsp; ALLEGRO THEME 2 (A major)<br>
+3:12 &nbsp;&nbsp;&nbsp;&nbsp; CLOSING THEME<br>
+3:32 &nbsp;&nbsp;&nbsp;&nbsp; DEVELOPMENT<br>
+4:37 &nbsp;&nbsp;&nbsp;&nbsp; RECAPITULATION:<br>
+4:58 &nbsp;&nbsp;&nbsp;&nbsp; TRANSITION<br>
+5:17 &nbsp;&nbsp;&nbsp;&nbsp; 2ND THEME (D major)<br>
+5:37 &nbsp;&nbsp;&nbsp;&nbsp; CLOSING THEME<br>
+5:55 &nbsp;&nbsp;&nbsp;&nbsp; CODA (TRANSITION TO F MAJOR OPENING THEME ACT I)<br>
+
+## Don Giovanni, Act I, sc.1-2
+- **Some Main Characters in Act I, Scene 1-2**:
+    - Don Giovanni ( lyric baritone – comic style but constantly matching others)		
+    - Leporello: DG’s servant (opera buffa bass)
+    - Donna Anna (stiff nobility; opera seria style)		
+    - Commendatore (Anna’s father, opera seria style)
+- **Story in sc.1-2**: fast, emotionally charged & continuous action
+    - offstage attempted rape (Donna Anna) & a murder on stage (Commendatore)!
+- Ensemble Scene:
+
+<p align="center">ARIA – TRIO – DRAMATIC ACTION – TRIO – RECIT</p>
+<p align="center">***continuous music & drama***</p>
+
+## ARIA (Leporello): “Notte e giorno faticar” “Night and Day”
+**Text**: Leporello complains that he always has to do the boring work: while his master, DG, gets to dally with beautiful women, L just gets to stand outside and keep watch.
+
+Key: F Major
+
+Form:
+```
+A      B       C       B       D       B' -> Trio
+m.1    m.20    m.32    m.45    m.57    m.64
+```
+
+Music responds to text:
+- A: Leaping notes, quick scalar flourishes – pacing, comic tone
+- B: smooth, elegant, hunting horns: indicates gentleman (aristocrats hunt)
+- C: elegant, light
+- D: startled, fast comic patter
+
+Segues directly into next scene
+
+## Leporello’s opening aria
+**LEPORELLO**
+LEPORELLO
+**A**: Night and day I slave<br>
+for one who does not appreciate it.<br>
+I put up with wind and rain,<br>
+eat and sleep badly.<br>
+**B**: I want to be a gentleman<br>
+and to give up my servitude.<br>
+No, no, no, no, no, no,<br>
+I want to give up my servitude.<br>
+**C**: Oh, what a fine gentleman!<br>
+You stay inside with your lady<br>
+and I must play the sentinel!<br>
+**B**: Oh, what a fine gentleman, etc.<br>
+**D**: But I think someone is coming!<br>
+**B’**: I don't want them to hear me, etc.<br>
+
+## TRIO (m.73)
+- Don Giovanni, Donna Anna, Leporello
+- Key: B♭ – more serious style
+- Upward rushing string tremolos, crescendo
+- Form: A 		B		B
+- Donna Anna: dramatic opera seria style
+- Don Giovanni: matches her style
+- Leporello: frets, hides 
+    - triadic, repetitive opera buffa style patter
+- confused situation:
+    - repeat words, all singing at once, quick alternation
+
+## Act I, sc 1-2: final 3 sections
+**DRAMATIC ACTION (m.135):**
+- Commendatore enters & challenges Don Giovanni
+- Key: G minor
+- More tense, tremolos, rushing scales
+- Sword fight (m. 167): depicted in the music:
+	- rapid rising scales, leaping octaves
+ 
+**CLOSING TRIO (m.176)** (Don Giovanni, Leporello & Commendatore)
+- Commendatore mortally wounded, dies
+- increasing rests, sinking chromatic lines
+- Key: F minor
+- Ends on G triad: no final cadence, straight into recitative
+ 
+**RECITATIVE (SECCO)**: Scene 2 (NAWM 127b):
+-  DG & Leporello make light of tragedy & exit
