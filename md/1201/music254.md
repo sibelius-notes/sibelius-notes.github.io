@@ -1844,12 +1844,14 @@ and I must play the sentinel!<br>
 - More tense, tremolos, rushing scales
 - Sword fight (m. 167): depicted in the music:
 	- rapid rising scales, leaping octaves
- 
+
+
 **CLOSING TRIO (m.176)** (Don Giovanni, Leporello & Commendatore)
 - Commendatore mortally wounded, dies
 - increasing rests, sinking chromatic lines
 - Key: F minor
 - Ends on G triad: no final cadence, straight into recitative
- 
+
+
 **RECITATIVE (SECCO)**: Scene 2 (NAWM 127b):
 -  DG & Leporello make light of tragedy & exit
