@@ -1674,7 +1674,8 @@ form: 4 movements: Sonata Cycle:
 ### “The Joke”, finale IV (Presto) – Rondo Form
 **IV:  Rondo: A B A C A + CODA** (new form for finales)
 - typical form of rondo for Haydn
- 
+
+
 **Rondo**: alternates a theme (refrain) with contrasting episodes
 - **Refrain (A)**: almost always in Tonic
     - mm.1-36		
