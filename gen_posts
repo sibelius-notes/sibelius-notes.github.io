@@ -69,15 +69,16 @@ for term in terms:
         continue
     f = open(term_filename, 'w')
     write_str = """---\nterm: {}
+title: {}
 feature_text: |
     <h2 style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: #FDD54F; padding: 10px;">{}</h2>
 feature_image: "/back_pic/{}.jpg"
 ---
-""".format(term, term_to_str(term), term_to_str(term, True))
+""".format(term, term_to_str(term), term_to_str(term), term_to_str(term, True))
     f.write(write_str)
     f.close()
 
-not_overwrite_sub = True
+not_overwrite_sub = False
 old_subs = glob.glob('_subject/*.md')
 
 
@@ -89,11 +90,12 @@ for subject in subjects:
         continue
     f = open(subject_filename, 'w')
     write_str = """---\nsubject: {}
+title: {}
 feature_text: |
     <h2 style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: #f1f1f1; padding: 10px;">{}</h2>
 feature_image: "/back_pic/{}.jpg"
 ---
-""".format(subject, subject.upper(), subject)
+""".format(subject, subject.upper(), subject.upper(), subject)
     f.write(write_str)
     f.close()
 
