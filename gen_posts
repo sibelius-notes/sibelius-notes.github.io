@@ -130,7 +130,7 @@ feature_text: |
             write_str = write_str + "\n > I was auditing this course during this term.\n"
 
     #write_str = write_str + "\n Partial notes coming soon. \n"
-    write_str = write_str + "\n [LaTeX notes](/pdfs/{}/{}.pdf)  [markdown notes](/md/{}/{}/)\n".format(c.term, c.file_name(), c.term, c.file_name())
+    write_str = write_str + "\n[LaTeX notes](/pdfs/{}/{}.pdf)  [markdown notes](/md/{}/{}/)\n".format(c.term, c.file_name(), c.term, c.file_name())
     f.write(write_str)
     f.close()
     print(i, ', NEW: ', c.get_course_name())
