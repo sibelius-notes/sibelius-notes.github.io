@@ -6,80 +6,82 @@ feature_text: |
     <h2 style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">Sort by subjects</h2>
 ---
 <style>
-    .contner-all{
-      width: fit-content;
-      margin: 20px auto;
-      height: auto;
-      line-height: 0;
-    }
-    .contner{
-      width: calc(33% - 6px);
-      overflow:hidden;
-      height: fit-content;
-      margin:3px;
-      padding: 0;
-      display:block;
-      position:relative;
-      float:left;
-    }
-    .contner-img{
-      width: 100%;
-      transition-duration: .3s;
-      max-width: 100%;
-      display:block;
-      overflow:hidden;
-      cursor:pointer;
-      vertical-align:top;
-    }
-    .title{
-      position:absolute;
-      display:block;
-      cursor:pointer;
-      top: 35%;
-      display: none;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
-      font-weight: bold;
-      font-size: 1.6em;
-      text-shadow: 1px 5px 10px black;
-      transition-duration: .3s;
-    }
-    .text{
-      position:absolute;
-      top: 70%;
-      cursor:pointer;
-      max-width: 80%;
-      text-align:center;
-      left: 50%;
-      text-shadow: 1px 5px 10px black;
-      font-size: 1em;
-      display:none;
-      margin-right: -50%;
-      transition-duration: .3s;
-      transform: translate(-50%, -50%)
-    }
-    .contner:hover img{
-      transform: scale(1.2);
-      transition-duration: .3s;
-      filter: grayscale(50%);
-      opacity: .7;
-    }
-    .contner:hover span{
-      color:white;
-      display: block;
-      transition-duration: .3s;
-    }
-    @media only screen and (max-width: 900px) {
-        .contner {
-            width: calc(50% - 6px);
-        }
-    }
-    @media only screen and (max-width: 400px) {
-        .contner {
-            width: 100%;
-        }
-    }
+.contner-all{
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;
+    margin-bottom: 25px;
+}
+.contner{
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+.contner-img{
+  width: 100%;
+  transition-duration: .3s;
+  max-width: 100%;
+  display:block;
+  overflow:hidden;
+  cursor:pointer;
+}
+.text{
+  position:absolute;
+  top: 50%;
+  cursor:pointer;
+  max-width: 80%;
+  text-align:center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display:none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%)
+}
+.contner:hover img{
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+}
+.contner:hover span{
+  color:white;
+  display: block;
+  transition-duration: .3s;
+}
+@media (max-width: 1200px) {
+  .contner-all {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  .contner-all {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  .contner-all {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  .contner-all {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
 </style>
 <main class="main container">
 <div class="content">
