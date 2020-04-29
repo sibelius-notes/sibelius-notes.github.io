@@ -42,14 +42,14 @@ contact:
 
 # Pagination
 paginate: 8
-paginate_path: blog/page:num
+paginate_path: crs/page:num
 
 # Header nav
 navigation_header:
 - title: Home
   url: /
 - title: All
-  url: /blog/
+  url: /crs/
 - title: Subject
   url: /subject/
 - title: Term
