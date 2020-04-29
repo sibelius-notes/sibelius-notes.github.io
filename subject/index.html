@@ -10,6 +10,7 @@ feature_text: |
       width: fit-content;
       margin: 20px auto;
       height: auto;
+      line-height: 0;
     }
     .contner{
       width: calc(33% - 6px);
@@ -79,7 +80,7 @@ feature_text: |
         }
     }
 </style>
-<main class="main contner">
+<main class="main container">
 <div class="content">
 <!-- my code -->
 {% assign all_subjects = site.subject | map: "subject" | uniq %}
