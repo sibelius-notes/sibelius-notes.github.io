@@ -1,5 +1,5 @@
 ---
-title: Search
+title: Google Site Search
 layout: home
 excerpt: "Search for a course you're looking for"
 feature_image: "/assets/backpic/piano.jpg"
