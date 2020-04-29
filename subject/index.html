@@ -11,6 +11,13 @@ feature_text: |
       margin: 20px auto;
       height: auto;
       line-height: 0;
+      -webkit-column-count: 3;
+       -webkit-column-gap:   0px;
+       -moz-column-count:    3;
+       -moz-column-gap:      0px;
+       column-count:         3;
+       column-gap:           0px;
+       margin-bottom: 25px;
     }
     .contner{
       width: calc(33% - 6px);
@@ -90,7 +97,7 @@ feature_text: |
 {% for item in taken_subjects %}
 <div class="contner">
   <img class="contner-img" src='/back_pic/{{ item }}.jpg' alt='{{ item }}'>
-  <span class="title"><a href='/subject/{{ item }}'>{{ item | upcase }}</a></span>
+  <span class="text"><a href='/subject/{{ item }}'>{{ item | upcase }}</a></span>
 </div>
 {% assign counter = counter | plus:1 %}
 {% endfor %}
