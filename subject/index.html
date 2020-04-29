@@ -5,20 +5,56 @@ feature_image: "/assets/backpic/piano.jpg"
 feature_text: |
     <h2 style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">Sort by subjects</h2>
 ---
+<style>
+.grid-container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+  div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+    &:hover img {
+      filter: grayscale(0);
+    }
+    &:hover {
+      border-color: coral;
+    }
+    img {
+      width: 100%;
+      filter: grayscale(100%);
+      border-radius: 5px;
+      transition: all .25s ease-in-out;
+    }
+    p {
+      margin: 5px 0;
+      padding: 0;
+      text-align: center;
+    }
+  }
+}
+</style>
 <main class="main container">
-    <div class="content">
-        <!-- my code -->
-        {% assign all_subjects = site.subject | map: "subject" | uniq %}
-        {% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
-        <ul>
-        {% for item in taken_subjects %}
-            <li>
-                <div class="typeset">
-                    <h4><a href="/subject/{{ item }}" {% unless taken_subjects contains item %}style="opacity: .66;"{% endunless %}>{{ item | upcase }}</a></h4>
-                </div>
-            </li>
-            <br>
-        {% endfor %}
-        </ul>
-    </div>
+<div class="content">
+<!-- my code -->
+{% assign all_subjects = site.subject | map: "subject" | uniq %}
+{% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
+{% assign counter = 1 %}
+<div class="grid-container">
+{% for item in taken_subjects %}
+<div>
+  <img class='grid-item grid-item-{{ counter }}' src='/back_pic/{{ item }}.jpg' alt='{{ item }}'>
+  <p><a href='/subject/{{ item }}'>{{ item | upcase }}</a></p>
+</div>
+{% assign counter = counter + 1 %}
+{% endfor %}
+</div>
+</div>
 </main>
