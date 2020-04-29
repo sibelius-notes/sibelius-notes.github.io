@@ -6,12 +6,12 @@ feature_text: |
     <h2 style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">Sort by subjects</h2>
 ---
 <style>
-    .container-all{
+    .contner-all{
       width: fit-content;
       margin: 20px auto;
       height: auto;
     }
-    .container{
+    .contner{
       width: calc(33% - 6px);
       overflow:hidden;
       height: fit-content;
@@ -21,7 +21,7 @@ feature_text: |
       position:relative;
       float:left;
     }
-    .container-img{
+    .contner-img{
       width: 100%;
       transition-duration: .3s;
       max-width: 100%;
@@ -57,38 +57,38 @@ feature_text: |
       transition-duration: .3s;
       transform: translate(-50%, -50%)
     }
-    .container:hover img{
+    .contner:hover img{
       transform: scale(1.2);
       transition-duration: .3s;
       filter: grayscale(50%);
       opacity: .7;
     }
-    .container:hover span{
+    .contner:hover span{
       color:white;
       display: block;
       transition-duration: .3s;
     }
     @media only screen and (max-width: 900px) {
-        .container {
+        .contner {
             width: calc(50% - 6px);
         }
     }
     @media only screen and (max-width: 400px) {
-        .container {
+        .contner {
             width: 100%;
         }
     }
 </style>
-<main class="main container">
+<main class="main contner">
 <div class="content">
 <!-- my code -->
 {% assign all_subjects = site.subject | map: "subject" | uniq %}
 {% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
 {% assign counter = 1 %}
-<div class="container-all">
+<div class="contner-all">
 {% for item in taken_subjects %}
-<div class="container">
-  <img class="container-img" src='/back_pic/{{ item }}.jpg' alt='{{ item }}'>
+<div class="contner">
+  <img class="contner-img" src='/back_pic/{{ item }}.jpg' alt='{{ item }}'>
   <span class="title"><a href='/subject/{{ item }}'>{{ item | upcase }}</a></span>
 </div>
 {% assign counter = counter | plus:1 %}
