@@ -21,7 +21,7 @@ feature_text: |
       position:relative;
       float:left;
     }
-    img{
+    .container-img{
       width: 100%;
       transition-duration: .3s;
       max-width: 100%;
@@ -88,7 +88,7 @@ feature_text: |
 <div class="container-all">
 {% for item in taken_subjects %}
 <div class="container">
-  <img src='/back_pic/{{ item }}.jpg' alt='{{ item }}'>
+  <img class="container-img" src='/back_pic/{{ item }}.jpg' alt='{{ item }}'>
   <span class="title"><a href='/subject/{{ item }}'>{{ item | upcase }}</a></span>
 </div>
 {% assign counter = counter | plus:1 %}
