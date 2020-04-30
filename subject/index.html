@@ -17,7 +17,6 @@ div.gallery {
 .desc {
   padding: 10px;
   text-align: center;
-  color: white;
   background: rgba(0, 0, 0, 0.5);
 }
 </style>
@@ -29,7 +28,7 @@ div.gallery {
         {% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
         {% for item in taken_subjects %}
         <div class="gallery" style="background-image:url('/back_pic/{{ item }}.jpg');">
-        <h6 class="desc"><a href="/subject/{{ item }}">{{ item | upcase }}</a></h6>
+        <h6 class="desc"><a href="/subject/{{ item }}" style='color:white;'>{{ item | upcase }}</a></h6>
         </div>
         {% endfor %}
     </div>
