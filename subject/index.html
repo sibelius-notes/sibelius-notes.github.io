@@ -6,74 +6,40 @@ feature_text: |
     <h2 style="background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.5); color: white; padding: 10px;">Sort by subjects</h2>
 ---
 <style>
-.contner-all{
-    line-height: 0;
-    -webkit-column-count: 3;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    3;
-    -moz-column-gap:      0px;
-    column-count:         3;
-    column-gap:           0px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-.contner {
-    margin: 20px;
-    margin-bottom: 25px;
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
 
-.contner-img {
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
   width: 100%;
-  max-width: 100%;
-  position: relative;
-  display: inline-block;
-  overflow:hidden;
-}
-.contner .text{
-    position: absolute;
-    padding: 15px;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 40%; /* Adjust this value to move the positioned div up and down */
-    width: 60%;
+  height: auto;
 }
 
-
-@media (max-width: 800px) {
-  .contner-all {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-@media (max-width: 400px) {
-  .contner-all {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 </style>
+
 <main class="main container">
-<div class="content">
-<!-- my code -->
-{% assign all_subjects = site.subject | map: "subject" | uniq %}
-{% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
-{% assign counter = 1 %}
-<div class="contner-all">
-{% for item in taken_subjects %}
-<div class="contner">
-  <img class="contner-img" src='/back_pic/{{ item }}.jpg' alt='{{ item }}'>
-  <div class="text"><a href='/subject/{{ item }}'>{{ item | upcase }}</a></div>
-</div>
-{% assign counter = counter | plus:1 %}
-{% endfor %}
-</div>
-</div>
+    <div class="content">
+        <!-- my code -->
+        {% assign all_subjects = site.subject | map: "subject" | uniq %}
+        {% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
+        {% for item in taken_subjects %}
+        <div class="gallery">
+        <a href="/subject/{{ item }}">
+            <img src="/back_pic/{{ item }}.jpg" alt="{{ item }}" width="600" height="400">
+        </a>
+        <div class="desc"><a target="_blank" href="https://ugradcalendar.uwaterloo.ca/courses/{{ item | upcase }}">{{ item | upcase }}</a></div>
+        </div>
+        {% endfor %}
+    </div>
 </main>
