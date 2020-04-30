@@ -35,10 +35,10 @@ div.desc {
         {% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
         {% for item in taken_subjects %}
         <div class="gallery">
-        <a href="/subject/{{ item }}">
-            <img src="/back_pic/{{ item }}.jpg" alt="{{ item }}" width="600" height="400">
+        <a target="_blank" href="https://ugradcalendar.uwaterloo.ca/courses/{{ item | upcase }}">
+            <img src="/back_pic/{{ item }}.jpg" alt="{{ item }}" width="100px" height="100px">
         </a>
-        <div class="desc"><a target="_blank" href="https://ugradcalendar.uwaterloo.ca/courses/{{ item | upcase }}">{{ item | upcase }}</a></div>
+        <div class="desc"><a href="/subject/{{ item }}">{{ item | upcase }}</a></div>
         </div>
         {% endfor %}
     </div>
