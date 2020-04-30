@@ -25,21 +25,19 @@ feature_text: |
 .contner-img {
   width: 100%;
   max-width: 100%;
-  display:block;
+  position: relative;
+  display: inline-block;
   overflow:hidden;
 }
 .contner .text{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 15px;
     text-align: center;
+    background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 40%; /* Adjust this value to move the positioned div up and down */
-    width: 60%; /* Set the width of the positioned div */
 }
 
 
