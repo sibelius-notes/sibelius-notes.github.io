@@ -14,10 +14,10 @@ div.gallery {
     background-size: cover;
 }
 
-div.desc {
-  padding: 15px;
+.desc {
+  padding: 10px;
   text-align: center;
-  background: rgb(0, 0, 0);
+  color: white;
   background: rgba(0, 0, 0, 0.5);
 }
 </style>
@@ -29,7 +29,7 @@ div.desc {
         {% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
         {% for item in taken_subjects %}
         <div class="gallery" style="background-image:url('/back_pic/{{ item }}.jpg');">
-        <div class="desc"><a href="/subject/{{ item }}">{{ item | upcase }}</a></div>
+        <h6 class="desc"><a href="/subject/{{ item }}">{{ item | upcase }}</a></h6>
         </div>
         {% endfor %}
     </div>
