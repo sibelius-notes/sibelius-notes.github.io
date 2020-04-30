@@ -7,15 +7,13 @@ feature_text: |
 ---
 <style>
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+    margin: 5px;
+    float:  left;
+    width:  100px;
+    height: 100px;
+    background-size: cover;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
 
 div.gallery img {
   width: 100%;
@@ -34,10 +32,7 @@ div.desc {
         {% assign all_subjects = site.subject | map: "subject" | uniq %}
         {% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
         {% for item in taken_subjects %}
-        <div class="gallery">
-        <a target="_blank" href="https://ugradcalendar.uwaterloo.ca/courses/{{ item | upcase }}">
-            <img src="/back_pic/{{ item }}.jpg" alt="{{ item }}" width="100px" height="100px">
-        </a>
+        <div class="gallery" style="background-image:url('/back_pic/{{ item }}.jpg');">
         <div class="desc"><a href="/subject/{{ item }}">{{ item | upcase }}</a></div>
         </div>
         {% endfor %}
