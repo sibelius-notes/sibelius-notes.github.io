@@ -32,7 +32,13 @@ div.gallery {
         {% assign taken_subjects = site.posts | map: "subject" | uniq | sort %}
         {% for item in taken_subjects %}
         <div class="gallery" style="background-image:url('/back_pic/{{ item }}.jpg');">
-        <h6 class="desc"><a href="/subject/{{ item }}" style='color:white;'>{{ item | upcase }}</a></h6>
+        <h6 class="desc">
+            <a href="/subject/{{ item }}" style='color:white;'>{{ item | upcase }}</a>
+            <br>
+            <a href="https://ugradcalendar.uwaterloo.ca/courses/{{ item | upcase }}" target="_blank">
+                <img src="/assets/ugcal.gif" alt="ugcal" width="90%">
+            </a>
+        </h6>
         </div>
         {% endfor %}
     </div>
