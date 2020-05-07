@@ -15,8 +15,10 @@ layout: default
                     <div class="typeset">
                         <h5><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h5>
                         {% include post-meta.html %}
+                        <span><br/>{{ page.feature_text | strip_html }}</span>
                     </div>
                 </li>
+                <br>
             {% assign counter=counter | plus:1 %}
             {% endif %}
         {% endfor %}
