@@ -43,7 +43,7 @@ div.gallery {
         {% for item in taken_subjects %}
         <div class="gallery" style="background-image:url('/back_pic/{{ item }}.jpg');">
         <h6 class="desc">
-            <a href="/subject/{{ item }}" style='color:white;' class="button hvr-pulse">{{ item | upcase }}</a>
+            <a href="/subject/{{ item }}" style='color:white;' class="hvr-buzz-out">{{ item | upcase }}</a>
             <!--br>
             <a href="https://ugradcalendar.uwaterloo.ca/courses/{{ item | upcase }}"
                 style='color:#33FFCC; font-size: 0.8vh;'
