@@ -14,8 +14,10 @@ layout: default
                     <div class="typeset">
                         <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h4>
                         {% include post-meta.html %}
+                        <span><br/>{{ page.feature_text | strip_html }}</span>
                     </div>
                 </li>
+                <br>
             {% endif %}
         {% endfor %}
         </ul>
