@@ -41,7 +41,7 @@ contact:
   linkedin:   https://www.linkedin.com/in/sibelius-peng-595b27163/
 
 # Pagination
-paginate: 8
+paginate: 5
 paginate_path: crs/page:num
 
 # Header nav
