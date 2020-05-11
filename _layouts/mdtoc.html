@@ -116,6 +116,8 @@
             <p align="center"><span style="font-family: Indie Flower !important;">{{ page.title }}</span></p>
             <br><!--start-->
             <div class="realbody">
+              {% assign title_array = page.title | split: " " %}
+              <p><a href="/{{ title_array[0] | downcase }}/{{ title_array[1] }}">Back to course blog</a></p>
           {% include anchor_headings.html html=content beforeHeading=true anchorClass="header-link" %}
 
           <!--script>
