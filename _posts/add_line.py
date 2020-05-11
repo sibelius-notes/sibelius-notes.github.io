@@ -1,22 +1,29 @@
-fpath = "2020-05-01-PMATH347.md"
-f = open(fpath, "r")
-contents = f.readlines()
-f.close()
+import glob
+all = glob.glob("*.md")
 
-line3 = contents[2].split()
-sub = line3[1]
-subl = sub.lower()
-num = line3[2]
+for fpath in all:
+    #fpath = "2020-05-01-PMATH347.md"
+    f = open(fpath, "r")
+    contents = f.readlines()
+    f.close()
 
-value = """redirect_from:
+    line3 = contents[2].split()
+    sub = line3[1]
+    subl = sub.lower()
+    num = line3[2]
+
+    value = """redirect_from:
     - /{}/{}
     - /{}/{}/
     - /{}/{}
-    - /{}/{}
-""".format(sub, num, sub, num, subl, num, subl, num)
-contents.insert(6, value)
+    - /{}/{}/\n""".format(sub, num, sub, num, subl, num, subl, num)
+    if "redirect_from" not in contents[6]:
+        continue
+    #contents.insert(6, value)
+    ten = contents[10].rstrip('\n') + '/\n'
+    contents[10] = ten
 
-f = open(fpath, "w")
-contents = "".join(contents)
-f.write(contents)
-f.close()
+    f = open(fpath, "w")
+    contents = "".join(contents)
+    f.write(contents)
+    f.close()
