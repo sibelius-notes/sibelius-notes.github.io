@@ -58,6 +58,8 @@ navigation_header:
   url: /search/
 - title: Contact
   url: /contact/
+- title: Other
+  url: /other/
 
 # Footer nav
 navigation_footer:
