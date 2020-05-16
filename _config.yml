@@ -56,10 +56,11 @@ navigation_header:
   url: /term/
 - title: Search
   url: /search/
-- title: Contact
-  url: /contact/
 - title: Other
   url: /other/
+- title: Contact
+  url: /contact/
+
 
 # Footer nav
 navigation_footer:
