@@ -2,7 +2,7 @@
 title: Plan Checklist
 layout: mdtoc-plan
 ---
-Reference: [2019-2020 ugcalendar](http://ugradcalendar.uwaterloo.ca/)
+Reference: <a href="http://ugradcalendar.uwaterloo.ca/" target="_blank">2019-2020 ugcalendar</a>
 
 # Degree Requirements for all Math students
 
@@ -81,7 +81,7 @@ Reference: [2019-2020 ugcalendar](http://ugradcalendar.uwaterloo.ca/)
                 <li>Mathematical Finance </li>
                 <li style="text-align: left;">All other plans </li>
             </ul>
-            <p style="text-align: left;">In addition, a minimum special major average (SMAV) may apply. Please see the more comprehensive <a href="/page/MATH-Math-Faculty-Policies">table</a> of major averages.</p>
+            <p style="text-align: left;">In addition, a minimum special major average (SMAV) may apply. Please see the more comprehensive <a href="http://ugradcalendar.uwaterloo.ca/page/MATH-Math-Faculty-Policies" target="_blank">table</a> of major averages.</p>
             </td>
             <td style="text-align: left; vertical-align: top;">
             <br>
@@ -143,29 +143,37 @@ Reference: [2019-2020 ugcalendar](http://ugradcalendar.uwaterloo.ca/)
 
 ## Communication Skills Requirement
 ### List 1: First Course
-- EMLS 101R Oral Communications for Academic Purposes
-- EMLS 102R Clear Communication in English Writing
-- EMLS 129R/ENGL 129R Written Academic English
-- ENGL 109 Introduction to Academic Writing
-- **SPCOM 100 Interpersonal Communication**
-- **SPCOM 223 Public Speaking**
+<blockquote class='done'>
+<ul>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/EMLS/101R" target="_blank">EMLS 101R</a><span> Oral Communications for Academic Purposes</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/EMLS/102R" target="_blank">EMLS 102R</a><span> Clear Communication in English Writing</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/EMLS/129R" target="_blank">EMLS 129R</a><span>/</span><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/129R" target="_blank">ENGL 129R</a><span> Written Academic English</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/109" target="_blank">ENGL 109</a><span> Introduction to Academic Writing&nbsp;</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/SPCOM/100" target="_blank">SPCOM 100</a><span> Interpersonal Communication</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/SPCOM/223" target="_blank">SPCOM 223</a><span> Public Speaking</span></li>
+</ul>
+</blockquote>
 
 ### List 2: Second Course
-- **Any additional course from List 1**
-- EMLS 103R Effective English Pronunciation
-- EMLS 104R Reading and Listening for Academic Purposes
-- EMLS 110R Communicating in Canadian Academic Contexts
-- ENGL 108B Global English Literatures
-- ENGL 108D Digital Lives
-- ENGL 119 Communications in Mathematics & Computer Science
-- ENGL 208B Science Fiction
-- ENGL 209 Advanced Academic Writing
-- ENGL 210E Genres of Technical Communication
-- ENGL 210F Genres of Business Communication
-- ENGL 378/MTHEL 300 Professional Communications in Statistics and Actuarial Science
-- SPCOM 225 Interviewing
-- SPCOM 227 Leadership
-- SPCOM 228 Public Communication
+<blockquote>
+<ul>
+    <li><span>Any additional course from List 1</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/EMLS/103R" target="_blank">EMLS 103R</a><span> Effective English Pronunciation</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/EMLS/104R" target="_blank">EMLS 104R</a><span> Reading and Listening for Academic Purposes&nbsp;</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/EMLS/110R" target="_blank">EMLS 110R</a><span> Communicating in Canadian Academic Contexts</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/108B" target="_blank">ENGL 108B</a><span> Global English Literatures</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/108D" target="_blank">ENGL 108D</a><span> Digital Lives</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/119" target="_blank">ENGL 119</a><span> Communications in Mathematics &amp; Computer Science</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/208B" target="_blank">ENGL 208B</a><span> Science Fiction</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/209" target="_blank">ENGL 209</a><span> Advanced Academic Writing</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/210E" target="_blank">ENGL 210E</a><span> Genres of Technical Communication</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/210F" target="_blank">ENGL 210F</a><span> Genres of Business Communication</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/ENGL/378" target="_blank">ENGL 378</a><span>/</span><a href="http://ugradcalendar.uwaterloo.ca/courses/MTHEL/300" target="_blank">MTHEL 300</a><span> Professional Communications in Statistics and Actuarial Science&nbsp;</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/SPCOM/225" target="_blank">SPCOM 225</a><span> Interviewing</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/SPCOM/227" target="_blank">SPCOM 227</a><span> Leadership</span></li>
+    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/SPCOM/228" target="_blank">SPCOM 228</a><span> Public Communication</span></li>
+</ul>
+</blockquote>
 
 ## Table II – Faculty Core Courses
 <p>One of </p>
