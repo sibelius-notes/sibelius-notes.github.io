@@ -213,12 +213,10 @@ MUSIC 371: Music Theory 4 (20th Century)<br>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/353" target="_blank">CO 353 </a>Computational Discrete Optimization<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/367" target="_blank">CO 367</a> Nonlinear Optimization <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/430" target="_blank">CO 430</a> to <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/487" target="_blank">CO 487</a>, excluding <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/480" target="_blank">CO 480</a><br />
-<p style="margin-left: 40px;">
-CO 442: Graph Theory<br>
-CO 444: Algebraic Graph Theory<br>
-CO 446: Matroid Theory<br>
-CO 456: Introduction to Game Theory
-</p>
+<span style="margin-left: 40px;">CO 442: Graph Theory</span><br>
+<span style="margin-left: 40px;">CO 444: Algebraic Graph Theory</span><br>
+<span style="margin-left: 40px;">CO 446: Matroid Theory</span><br>
+<span style="margin-left: 40px;">CO 456: Introduction to Game Theory</span>
 </blockquote>
 <p>All of </p>
 <blockquote class='done'>
