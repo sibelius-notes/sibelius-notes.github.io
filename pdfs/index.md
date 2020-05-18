@@ -151,7 +151,7 @@ AMATH XXX's
 <p><em>Elective breadth requirements </em></p>
 
 - 1.0 units from the humanities (subjects from CHINA, CLAS, CMW, CROAT, DAC, DUTCH, EASIA, ENGL, FINE, FR, GER, GRK, HIST, HUMSC, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MEDVL, **MUSIC**, PHIL, PORT, REES, RS, RUSS, SI, SPAN, SPCOM, THPERF, VCULT)
-<blockquote>
+<blockquote class='done'>
 MUSIC 111: Fundamentals of Music Theory<br>
 MUSIC 270: Music Theory 1<br>
 </blockquote>
