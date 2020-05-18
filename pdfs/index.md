@@ -134,7 +134,7 @@ CS 466: Algorithm Design and Analysis
 <a href="http://ugradcalendar.uwaterloo.ca/courses/STAT/440" target="_blank">STAT 440</a> Computational Inference <br />
 CS 600- or 700-level courses <br />
 </blockquote>
-<blockquote class='done'>
+
 <p>Three additional courses labelled ACTSC, AMATH, CO, PMATH, STAT, excluding the following:</p>
 <ul>
     <li>Courses with requisites normally excluding Honours CS students </li>
@@ -143,6 +143,7 @@ CS 600- or 700-level courses <br />
     <li>Readings and Topics courses </li>
     <li>ACTSC 221, CO 353, CS 380, CS 480 </li>
 </ul>
+<blockquote class='done'>
 AMATH XXX's
 </blockquote>
 <p>The 5.0 non-math units must satisfy the following elective breadth and depth requirements. <em>(Alternate course selections must be approved by a CS advisor.) </em>
