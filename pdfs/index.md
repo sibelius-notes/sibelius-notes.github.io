@@ -117,17 +117,25 @@ Reference: [2019-2020 ugcalendar](http://ugradcalendar.uwaterloo.ca/)
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/365" target="_blank">CS 365</a> Models of Computation<br />
 </blockquote>
 <p>One additional CS course chosen from CS 340-CS 398, CS 440-CS 489. </p>
+<blockquote>
+CS 485: Statistical and Computational Foundations of Machine Learning
+</blockquote>
 <p>Two additional CS courses chosen from CS 440-CS 489. </p>
+<blockquote>
+CS 486: Introduction to Artificial Intelligence
+<br>
+CS 466: Algorithm Design and Analysis
+</blockquote>
 <p>One additional course chosen from </p>
 <blockquote>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/487" target="_blank">CO 487</a> Applied Cryptography <br />
-CS 440-CS 498 <br />
+<b>CS 440-CS 498</b>: <u>CS 492: The Social Implications of Computing</u> <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/499T" target="_blank">CS 499T</a> Honours Thesis <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/STAT/440" target="_blank">STAT 440</a> Computational Inference <br />
 CS 600- or 700-level courses <br />
-(CS 600- or 700-level courses may be taken only if an equivalent 400-level course does not exist and special permission is obtained from the instructor and a&nbsp;<a href="https://cs.uwaterloo.ca/office-hours" target="_blank">CS undergraduate advisor</a>. Courses in this list may be counted as CS 0.5 units.) <br />
 </blockquote>
 <p>Three additional courses labelled ACTSC, AMATH, CO, PMATH, STAT, excluding the following:</p>
+<blockquote class='done'>
 <ul>
     <li>Courses with requisites normally excluding Honours CS students </li>
     <li>Courses cross-listed with a CS course </li>
@@ -135,21 +143,41 @@ CS 600- or 700-level courses <br />
     <li>Readings and Topics courses </li>
     <li>ACTSC 221, CO 353, CS 380, CS 480 </li>
 </ul>
-The 5.0 non-math units must satisfy the following elective breadth and depth requirements. <em>(Alternate course selections must be approved by a CS advisor.) </em>
-<p><em>Elective breadth requirements </em></p>
-<blockquote>
-1.0 units from the humanities (subjects from CHINA, CLAS, CMW, CROAT, DAC, DUTCH, EASIA, ENGL, FINE, FR, GER, GRK, HIST, HUMSC, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MEDVL, MUSIC, PHIL, PORT, REES, RS, RUSS, SI, SPAN, SPCOM, THPERF, VCULT)<br />
-1.0 units from the social sciences (subjects from AFM, ANTH, APPLS, ARBUS, BET, BUS, COMM, ECON, ENBUS, GEOG, GSJ, HRM, INDEV, INDG, INTST, INTTS, LS, MSCI, PACS, PSCI, PSYCH, REC, SDS, SMF, SOC, SOCWK, STV)<br />
-0.5 unit from the pure sciences (subjects from BIOL, CHEM, EARTH, PHYS, SCI)<br />
-0.5 unit from the pure and applied sciences (subjects from pure sciences plus AHS, ENVS, ERS, KIN, MNS, PLAN)<br />
 </blockquote>
-<p><em>Elective depth requirements </em></p>
+<p>The 5.0 non-math units must satisfy the following elective breadth and depth requirements. <em>(Alternate course selections must be approved by a CS advisor.) </em>
+</p>
+<p><em>Elective breadth requirements </em></p>
+
+- 1.0 units from the humanities (subjects from CHINA, CLAS, CMW, CROAT, DAC, DUTCH, EASIA, ENGL, FINE, FR, GER, GRK, HIST, HUMSC, ITAL, ITALST, JAPAN, JS, KOREA, LAT, MEDVL, **MUSIC**, PHIL, PORT, REES, RS, RUSS, SI, SPAN, SPCOM, THPERF, VCULT)
 <blockquote>
+MUSIC 111: Fundamentals of Music Theory<br>
+MUSIC 270: Music Theory 1<br>
+</blockquote>
+- 1.0 units from the social sciences (subjects from AFM, ANTH, APPLS, ARBUS, BET, BUS, COMM, **ECON**, ENBUS, GEOG, GSJ, HRM, INDEV, INDG, INTST, INTTS, LS, MSCI, PACS, PSCI, PSYCH, REC, SDS, **SMF**, SOC, SOCWK, STV)
+<blockquote>
+ECON 212: Introduction to Game Theory<br>
+SMF 211: Dynamics of Dating<br>
+</blockquote>
+- 0.5 unit from the pure sciences (subjects from BIOL, CHEM, EARTH, **PHYS**, SCI)
+<blockquote class='done'>
+PHYS 111: Physics 1<br>
+</blockquote>
+- 0.5 unit from the pure and applied sciences (subjects from **pure sciences** plus AHS, ENVS, ERS, KIN, MNS, PLAN)
+<blockquote class='done'>
+PHYS 112: Physics 2<br>
+</blockquote>
+
+<p><em>Elective depth requirements </em></p>
 <p>1.5 units with the same subject, including at least 0.5 unit at third-year level or higher</p>
 or
 <p>
 </p>
 <p>1.5 units with the same subject forming a prerequisite chain of length three </p>
+<blockquote>
+MUSIC 270: Music Theory 1<br>
+MUSIC 271: Music Theory 2<br>
+MUSIC 370: Music Theory 3 (19th Century)<br>
+MUSIC 371: Music Theory 4 (20th Century)<br>
 </blockquote>
 
 # Combinatorics and Optimization
@@ -200,8 +228,17 @@ or
 <strong>Note</strong>: <em>These fourth-year CS courses are open only to CS majors. </em>
 </blockquote>
 <p>Two additional 300- or 400-level math courses with a course prefix other than CO. </p>
+<blockquote class='done'>
+CS courses...
+</blockquote>
 <p>One additional 300- or 400-level math course. </p>
+<blockquote class='done'>
+CS courses...
+</blockquote>
 <p>Three additional math courses.</p>
+<blockquote class='done'>
+CS courses...
+</blockquote>
 
 # Applied Mathematics Minor
 <p>All of </p>
@@ -213,6 +250,11 @@ or
 <a href="http://ugradcalendar.uwaterloo.ca/courses/AMATH/353" target="_blank">AMATH 353</a> Partial Differential Equations 1 <br />
 </blockquote>
 <p>Three additional 300- or 400-level AMATH courses. </p>
+<blockquote>
+AMATH 390: Mathematics and Music<br>
+AMATH 391: From Fourier to Wavelets<br>
+AMATH 453: Partial Differential Equations 2<br>
+</blockquote>
 
 # Pure Mathematics Minor
 <p>One of
@@ -242,11 +284,33 @@ or
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/138" target="_blank">MATH 138</a> Calculus 2 for Honours Mathematics<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/148" target="_blank">MATH 148</a> Calculus 2 for Honours Mathematics (Advanced Level)<br />
 </blockquote>
-<p>Six PMATH courses. <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/212" target="_blank">MATH 212</a>/<a href="http://ugradcalendar.uwaterloo.ca/courses/ECE/206" target="_blank">ECE 206</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/217" target="_blank">MATH 217</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/227" target="_blank">MATH 227</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/237" target="_blank">MATH 237</a>, or <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/247" target="_blank">MATH 247</a> may be substituted for one of the six.</p>
+<p>Six PMATH courses. <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/212" target="_blank">MATH 212</a>/<a href="http://ugradcalendar.uwaterloo.ca/courses/ECE/206" target="_blank">ECE 206</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/217" target="_blank">MATH 217</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/227" target="_blank">MATH 227</a>, <b><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/237" target="_blank">MATH 237</a></b>, or <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/247" target="_blank">MATH 247</a> may be substituted for one of the six.</p>
+<blockquote>
+PMATH 347: Groups and Rings<br>
+PMATH 348: Fields and Galois Theory<br>
+PMATH 433: Model Theory and Set Theory<br>
+PMATH 446: Introduction to Commutative Algebra<br>
+PMATH 464: Introduction to Algebraic Geometry
+</blockquote>
 
 # Music Minor
-<ul>
-    <li><a href="http://ugradcalendar.uwaterloo.ca/courses/MUSIC/110" target="_blank">MUSIC 110</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=270" target="_blank">MUSIC 270</a> </li>
-    <li>six additional&nbsp;<a href="http://ugradcalendar.uwaterloo.ca/courses/MUSIC" target="_blank">MUSIC</a> courses selected in consultation with the Music Department </li>
-    <li>participation in at least two terms of Music Ensemble: <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=116" target="_blank">MUSIC 116</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=117" target="_blank">MUSIC 117</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=216" target="_blank">MUSIC 216</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=217" target="_blank">MUSIC 217</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=316" target="_blank">MUSIC 316</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=317" target="_blank">MUSIC 317</a>; which&nbsp;may not be counted as part of the eight course requirement. </li>
-</ul>
+
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/MUSIC/110" target="_blank">MUSIC 110</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=270" target="_blank">MUSIC 270</a> </blockquote>
+
+six additional&nbsp;<a href="http://ugradcalendar.uwaterloo.ca/courses/MUSIC" target="_blank">MUSIC</a> courses selected in consultation with the Music Department
+
+<blockquote>
+MUSIC 231: Music Cognition<br>
+MUSIC 254: Monteverdi to Mozart: Music from 1600-1800<br>
+MUSIC 255: The Romantic Century: Beethoven and Beyond<br>
+MUSIC 256: Music Since 1900<br>
+MUSIC 260: The Symphony<br>
+MUSIC 261: Opera<br>
+MUSIC 271: Music Theory 2<br>
+MUSIC 370: Music Theory 3 (19th Century)<br>
+MUSIC 371: Music Theory 4 (20th Century)<br>
+MUSIC 376: Composition Seminar<br>
+MUSIC 390: Special Topics in Music (Orchestration & Arranging)<br>
+</blockquote>
+
+<blockquote class='done'>participation in at least two terms of Music Ensemble: <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=116" target="_blank">MUSIC 116</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=117" target="_blank">MUSIC 117</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=216" target="_blank">MUSIC 216</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=217" target="_blank">MUSIC 217</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=316" target="_blank">MUSIC 316</a>, <a href="http://ugradcalendar.uwaterloo.ca/courses.aspx?Level=100&amp;Code=MUSIC&amp;Number=317" target="_blank">MUSIC 317</a>; which&nbsp;may not be counted as part of the eight course requirement. </blockquote>
