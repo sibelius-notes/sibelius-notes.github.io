@@ -7,7 +7,139 @@ Reference: [2019-2020 ugcalendar](http://ugradcalendar.uwaterloo.ca/)
 # Degree Requirements for all Math students
 
 ## Table I - Degree Requirements
-...
+
+<table style="width: 100%;" cellspacing="0" cellpadding="2" bordercolor="#c0c0c0" border="1">
+    <thead>
+        <tr>
+            <th valign="top" align="left">Requirements </th>
+            <th colspan="2" valign="middle" align="left">Four-Year Honours Plans</th>
+            <th colspan="2" valign="top" align="left">Double Degree Plans</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr valign="top">
+            <td style="width: 60%;" align="left">&nbsp;<br>
+            </td>
+            <td style="width: 10%;" align="left">Co-op </td>
+            <td style="width: 10%;" align="left">Regular </td>
+            <td style="width: 10%;" align="left">Co-op </td>
+            <td style="width: 10%;" align="left">Regular</td>
+        </tr>
+        <tr valign="top">
+            <td align="left">Minimum course units (excluding courses with the subject COOP, PD, and WKRPT) </td>
+            <td align="left">20.0</td>
+            <td align="left">20.0 </td>
+            <td align="left">26.0</td>
+            <td align="left">26.0<br>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td align="left">Minimum COOP course units </td>
+            <td align="left">2.5*</td>
+            <td align="left">0 </td>
+            <td align="left">2.0</td>
+            <td align="left">0 </td>
+        </tr>
+        <tr>
+            <td>Minimum PD course units <br>
+            </td>
+            <td>2.5</td>
+            <td>0</td>
+            <td>2.5</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Minimum WKRPT course units<br>
+            </td>
+            <td>0.39</td>
+            <td>0<br>
+            </td>
+            <td>0.39</td>
+            <td>0 <br>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="width: 49%;" align="left">Minimum non-math units </td>
+            <td align="left">5.0 </td>
+            <td align="left">5.0 </td>
+            <td align="left">12.0 </td>
+            <td align="left">12.0 </td>
+        </tr>
+        <tr valign="top">
+            <td align="left">Minimum Cumulative Average (CAV) </td>
+            <td align="left">60% </td>
+            <td align="left">60% <br>
+            </td>
+            <td align="left">60% </td>
+            <td align="left">60% <br>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td align="left">Minimum major average (MAV) for the following major plans<br>
+            <ul>
+                <li>All Applied Mathematics (AMATH) including Mathematical Physics, Combinatorics and Optimization (C&amp;O) including Mathematical Optimization (MO), Pure Mathematics (PMATH), and Statistics (STAT) plans</li>
+                <li>Mathematical Finance </li>
+                <li style="text-align: left;">All other plans </li>
+            </ul>
+            <p style="text-align: left;">In addition, a minimum special major average (SMAV) may apply. Please see the more comprehensive <a href="/page/MATH-Math-Faculty-Policies">table</a> of major averages.</p>
+            </td>
+            <td style="text-align: left; vertical-align: top;">
+            <br>
+            <br>
+            <br>
+            65%<br>
+            <br>
+            70%<br>
+            60%</td>
+            <td style="text-align: left; vertical-align: top;">
+            <br>
+            <br>
+            <br>
+            65%<br>
+            <br>
+            70%<br>
+            60% </td>
+            <td style="width: 15%;" align="left">
+            60%<br>
+            <br>
+            <br>
+            </td>
+            <td style="width: 15%;" align="left">
+            60%<br>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td align="left">Maximum failed or excluded course units (excluding courses with the subject COOP, PD, and WKRPT)<br>
+            </td>
+            <td align="left">2.0 </td>
+            <td align="left">2.0</td>
+            <td align="left">2.0</td>
+            <td align="left">2.0 </td>
+        </tr>
+        <tr valign="top">
+            <td align="left">Maximum unusable course attempts<br>
+            </td>
+            <td align="left">5.0 </td>
+            <td align="left">5.0 <br>
+            </td>
+            <td align="left">5.0 </td>
+            <td align="left">5.0 <br>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td align="left">Minimum number of full-time terms </td>
+            <td align="left">8 </td>
+            <td align="left">7 </td>
+            <td align="left">9 </td>
+            <td align="left">9 <br>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="width: 49%;" align="left">Communication Skills </td>
+            <td colspan="6" align="left">All degree candidates must satisfy a Communication Skills Requirement. See below. </td>
+        </tr>
+    </tbody>
+</table>
 
 ## Communication Skills Requirement
 ### List 1: First Course
