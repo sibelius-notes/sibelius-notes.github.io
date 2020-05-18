@@ -42,62 +42,62 @@ Reference: [2019-2020 ugcalendar](http://ugradcalendar.uwaterloo.ca/)
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/145" target="_blank">CS 145</a> Designing Functional Programs (Advanced Level)<br />
 </blockquote>
 <p>One of </p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/CS/116" target="_blank">CS 116</a> Introduction to Computer Science 2<br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/CS/116" target="_blank">CS 116</a> Introduction to Computer Science 2<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/136" target="_blank">CS 136</a> Elementary Algorithm Design and Data Abstraction <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/146" target="_blank">CS 146</a> Elementary Algorithm Design and Data Abstraction (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/135" target="_blank">MATH 135</a> Algebra for Honours Mathematics<br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/135" target="_blank">MATH 135</a> Algebra for Honours Mathematics<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/145" target="_blank">MATH 145</a> Algebra (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/106" target="_blank">MATH 106</a> Applied Linear Algebra 1<br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/106" target="_blank">MATH 106</a> Applied Linear Algebra 1<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/136" target="_blank">MATH 136</a> Linear Algebra 1 for Honours Mathematics <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/146" target="_blank">MATH 146</a> Linear Algebra 1 (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/127" target="_blank">MATH 127</a> Calculus 1 for the Sciences<br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/127" target="_blank">MATH 127</a> Calculus 1 for the Sciences<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/137" target="_blank">MATH 137</a> Calculus 1 for Honours Mathematics<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/147" target="_blank">MATH 147</a> Calculus 1 (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/128" target="_blank">MATH 128</a> Calculus 2 for the Sciences <br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/128" target="_blank">MATH 128</a> Calculus 2 for the Sciences <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/138" target="_blank">MATH 138</a> Calculus 2 for Honours Mathematics<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/148" target="_blank">MATH 148</a> Calculus 2 (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/235" target="_blank">MATH 235</a> Linear Algebra 2 for Honours Mathematics <br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/235" target="_blank">MATH 235</a> Linear Algebra 2 for Honours Mathematics <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/245" target="_blank">MATH 245</a> Linear Algebra 2 (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/237" target="_blank">MATH 237</a> Calculus 3 for Honours Mathematics <br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/237" target="_blank">MATH 237</a> Calculus 3 for Honours Mathematics <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/239" target="_blank">MATH 239</a> Introduction to Combinatorics <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/247" target="_blank">MATH 247</a> Calculus 3 (Advanced Level)<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/249" target="_blank">MATH 249</a> Introduction to Combinatorics (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/STAT/230" target="_blank">STAT 230</a> Probability<br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/STAT/230" target="_blank">STAT 230</a> Probability<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/STAT/240" target="_blank">STAT 240</a> Probability (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/STAT/231" target="_blank">STAT 231</a> Statistics<br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/STAT/231" target="_blank">STAT 231</a> Statistics<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/STAT/241" target="_blank">STAT 241</a> Statistics (Advanced Level)<br />
 </blockquote>
 
 # Bachelor of Mathematics (Computer Science)
 
 <p>One of </p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/237" target="_blank">MATH 237</a> Calculus 3 for Honours Mathematics<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/247" target="_blank">MATH 247</a> Calculus 3 (Advanced Level)<br />
 </blockquote>
 <p>One of </p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/239" target="_blank">MATH 239</a> Introduction to Combinatorics <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/249" target="_blank">MATH 249</a> Introduction to Combinatorics (Advanced Level)<br />
 </blockquote>
 <p>All of </p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/240" target="_blank">CS 240</a> Data Structures and Data Management <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/241" target="_blank">CS 241</a> Foundations of Sequential Programs <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/245" target="_blank">CS 245</a> Logic and Computation <br />
@@ -107,7 +107,7 @@ Reference: [2019-2020 ugcalendar](http://ugradcalendar.uwaterloo.ca/)
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/350" target="_blank">CS 350</a> Operating Systems <br />
 </blockquote>
 <p>One of </p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/AMATH/242" target="_blank">AMATH 242</a>/<a href="http://ugradcalendar.uwaterloo.ca/courses/CS/371" target="_blank">CS 371</a> Introduction to Computational Mathematics <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/370" target="_blank">CS 370</a> Numerical Computation<br />
 </blockquote>
@@ -154,17 +154,17 @@ or
 
 # Combinatorics and Optimization
 <p>One of </p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/239" target="_blank">MATH 239</a> Introduction to Combinatorics <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/249" target="_blank">MATH 249</a> Introduction to Combinatorics (Advanced Level) <br />
 </blockquote>
 <p>One of </p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/250" target="_blank">CO 250</a> Introduction to Optimization <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/255" target="_blank">CO 255</a> Introduction to Optimization (Advanced Level) <br />
 </blockquote>
 <p>One of</p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/330" target="_blank">CO 330</a> Combinatorial Enumeration <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/342" target="_blank">CO 342</a> Introduction to Graph Theory <br />
 </blockquote>
@@ -185,7 +185,7 @@ or
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/430" target="_blank">CO 430</a> to <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/487" target="_blank">CO 487</a>, excluding <a href="http://ugradcalendar.uwaterloo.ca/courses/CO/480" target="_blank">CO 480</a><br />
 </blockquote>
 <p>All of </p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/PMATH/336" target="_blank">PMATH 336</a> Introduction to Group Theory with Applications or <a href="http://ugradcalendar.uwaterloo.ca/courses/PMATH/347" target="_blank">PMATH 347</a> Groups and Rings<br />
 </blockquote>Three of
 <blockquote>
@@ -217,7 +217,7 @@ or
 # Pure Mathematics Minor
 <p>One of
 </p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/103" target="_blank">MATH 103</a> Introductory Algebra for Arts and Social Science<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/106" target="_blank">MATH 106</a> Applied Linear Algebra 1<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/114" target="_blank">MATH 114</a> Linear Algebra for Science <br />
@@ -226,7 +226,7 @@ or
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/146" target="_blank">MATH 146</a> Linear Algebra 1 for Honours Mathematics (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/104" target="_blank">MATH 104</a> Introductory Calculus for Arts and Social Science<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/116" target="_blank">MATH 116</a> Calculus 1 for Engineering <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/117" target="_blank">MATH 117</a> Calculus 1 for Engineering <br />
@@ -235,7 +235,7 @@ or
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/147" target="_blank">MATH 147</a> Calculus 1 for Honours Mathematics (Advanced Level)<br />
 </blockquote>
 <p>One of</p>
-<blockquote>
+<blockquote class='done'>
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/118" target="_blank">MATH 118</a> Calculus 2 for Engineering <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/119" target="_blank">MATH 119</a> Calculus 2 for Engineering <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/MATH/128" target="_blank">MATH 128</a> Calculus 2 for the Sciences <br />
