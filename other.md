@@ -10,7 +10,7 @@ feature_text: |
 
 [Courses dependency graph](/courses_dependency/).
 
-[Learning notes](/md/stml) on STML book series.
+[Learning notes](/md/book) on STML book series, as well as other good math books.
 
 [LaTeX Nerd](https://sibp.pro).
 
