@@ -216,6 +216,7 @@ MUSIC 371: Music Theory 4 (20th Century)<br>
 <p style="margin-left: 40px;">
 CO 442: Graph Theory<br>
 CO 444: Algebraic Graph Theory<br>
+CO 446: Matroid Theory<br>
 CO 456: Introduction to Game Theory
 </p>
 </blockquote>
