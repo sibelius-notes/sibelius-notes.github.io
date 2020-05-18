@@ -37,7 +37,7 @@ Reference: [2019-2020 ugcalendar](http://ugradcalendar.uwaterloo.ca/)
 
 ## Table II – Faculty Core Courses
 <p>One of </p>
-<blockquote><a href="http://ugradcalendar.uwaterloo.ca/courses/CS/115" target="_blank">CS 115</a> Introduction to Computer Science 1<br />
+<blockquote class='done'><a href="http://ugradcalendar.uwaterloo.ca/courses/CS/115" target="_blank">CS 115</a> Introduction to Computer Science 1<br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/135" target="_blank">CS 135</a> Designing Functional Programs <br />
 <a href="http://ugradcalendar.uwaterloo.ca/courses/CS/145" target="_blank">CS 145</a> Designing Functional Programs (Advanced Level)<br />
 </blockquote>
