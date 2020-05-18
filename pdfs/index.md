@@ -8,7 +8,7 @@ Reference: <a href="http://ugradcalendar.uwaterloo.ca/" target="_blank">2019-202
 
 ## Table I - Degree Requirements
 
-<table style="width: 100%;" cellspacing="0" cellpadding="2" bordercolor="#c0c0c0" border="1">
+<table style="width: 100%;" cellspacing="0" cellpadding="2" border="1">
     <thead>
         <tr>
             <th valign="top" align="left">Requirements </th>
@@ -89,6 +89,8 @@ Reference: <a href="http://ugradcalendar.uwaterloo.ca/" target="_blank">2019-202
             <br>
             65%<br>
             <br>
+            <br>
+            <br>
             70%<br>
             60%</td>
             <td style="text-align: left; vertical-align: top;">
@@ -96,6 +98,8 @@ Reference: <a href="http://ugradcalendar.uwaterloo.ca/" target="_blank">2019-202
             <br>
             <br>
             65%<br>
+            <br>
+            <br>
             <br>
             70%<br>
             60% </td>
