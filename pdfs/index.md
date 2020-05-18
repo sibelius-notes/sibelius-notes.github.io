@@ -35,7 +35,7 @@ Reference: <a href="http://ugradcalendar.uwaterloo.ca/" target="_blank">2019-202
         </tr>
         <tr valign="top">
             <td align="left">Minimum COOP course units </td>
-            <td align="left">2.5*</td>
+            <td align="left">2.5</td>
             <td align="left">0 </td>
             <td align="left">2.0</td>
             <td align="left">0 </td>
