@@ -123,12 +123,18 @@ title: {}
 term: {}
 subject: {}
 hide: {}
-redirect_from: /{}/{}
+redirect_from:
+    - /{}/{}
+    - /{}/{}/
+    - /{}/{}
+    - /{}/{}/
 feature_image: "https://picsum.photos/2560/600?image=875"
 feature_text: |
     <h2 style="color:white;"> {} </h2>
 ---
-""".format(c.get_course_name(), c.term, c.subject, str(c.audit).lower(), c.subject, str(c.num), c.name) # by default, hide the audit courses
+""".format(c.get_course_name(), c.term, c.subject, str(c.audit).lower(),
+            c.subject, str(c.num), c.subject, str(c.num), c.subject.upper(), str(c.num), c.subject.upper(), str(c.num),
+            c.name) # by default, hide the audit courses
     if not (c.other == 'me'):
         write_str = write_str + "\n > These notes are contributed by one of my friends: {}.\n".format(c.other)
     else:
