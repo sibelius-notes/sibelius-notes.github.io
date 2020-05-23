@@ -2,18 +2,21 @@
 title: Chart
 layout: page
 ---
+{% assign all_terms = site.term | reverse %}
 
+{% assign all_terms_in_number = all_terms | map: "term" %}
 <style>
+
+    {% for n in all_terms_in_number %}.contner__{{ n }}:before, {% endfor %}
     .tooltip,
     .contner__sources:before,
     .contner__build:before,
     .contner__deploy:before {
       position: absolute;
-      right: 0;
+      left: 0;
       bottom: 100%;
       color: #fff;
       background: #ffb238;
-      text-transform: uppercase;
       font-size: 0.9rem;
       padding: 0.25rem 0.75rem;
       border-radius: 2.5px;
@@ -36,7 +39,6 @@ layout: page
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
     }
     .contner svg {
       height: 5rem;
@@ -49,7 +51,7 @@ layout: page
       animation: animateline 5s linear both infinite;
     }
 
-    .contner__sources {
+    /*.contner__sources {
       display: flex;
       border-radius: 8px;
       padding: 1.5rem;
@@ -79,7 +81,9 @@ layout: page
       width: 4rem;
       height: auto;
       fill: #5f39dd;
-    }
+    }*/
+
+    {% for n in all_terms_in_number %}.contner__{{ n }}, {% endfor %}
     .contner__deploy {
       background: #f9f9f9;
       padding: 1.5rem;
@@ -89,6 +93,12 @@ layout: page
     .contner__deploy:before {
       content: 'deploy';
     }
+    {% for t in all_terms %}
+    .contner__{{ t.term }}:before {
+      content: '{{ t.title }}';
+    }
+    {% endfor %}
+
     @media (max-width: 700px) {
       .contner__sources {
         flex-direction: column;
@@ -137,56 +147,24 @@ layout: page
     <section class="contner">
 
       <!-- in the sources contner show three cards, side by side, or one atop the other on smaller viewports -->
-      <div class="contner__sources">
 
-        <div class="sources--cms">
-          <h3>CMSs</h3>
-          <p>Contentful, Drupal, WordPress, etc.</p>
-        </div>
-
-        <div class="sources--markdown">
-          <h3>Markdown</h3>
-          <p>Documentation, Posts, etc.</p>
-        </div>
-
-        <div class="sources--data">
-          <h3>Data</h3>
-          <p>APIs, Databases, YAML, JSON, CSV, etc.</p>
-        </div>
-
-      </div>
-
-      <!-- include a simple line to divide the contner, and animate it to show a connection between the different contners  -->
-      <svg viewbox="0 0 10 100">
-        <line x1="5" x2="5" y1="0" y2="100"/>
-      </svg>
-
-
-      <!-- in the build contner show two cards, atop of one another and the first of one showing an SVG icon -->
-      <div class="contner__build">
-
-        <div class="build--powered">
-          <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="50"/>
-          </svg>
-          <p>powered by</p>
-          <h3>GraphQL</h3>
-        </div>
-
-        <div class="build--stack">
-            HTML · CSS · React
-        </div>
-
-      </div>
 
       <!-- repeat the svg line to connect the second and third contners as well -->
+
+      {% for t in all_terms %}
+      <div class="contner__{{ t.term }}">
+        <p>Amazon S3, Netlify, GitHub Pages, Surge.sh, Aerobatic, Now.sh, & many more.</p>
+      </div>
+      
+
       <svg viewbox="0 0 10 100">
         <line x1="5" x2="5" y1="0" y2="100"/>
       </svg>
+      {% endfor %}
+
 
       <!-- in the deploy contner show simply text, without a wrapping card -->
       <div class="contner__deploy">
-        <h3>Static Web Host</h3>
         <p>Amazon S3, Netlify, GitHub Pages, Surge.sh, Aerobatic, Now.sh, & many more.</p>
       </div>
 
