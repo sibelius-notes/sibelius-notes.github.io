@@ -85,6 +85,7 @@ layout: page
 
     {% for n in all_terms_in_number %}.contner__{{ n }}, {% endfor %}
     .contner__deploy {
+      width: 100%;
       background: #f9f9f9;
       padding: 1.5rem;
       border-radius: 8px;
@@ -170,11 +171,11 @@ layout: page
     {% endfor %}
     </div>
 
-    <div style="text-align:right;position: absolute;bottom: 0; right: 0; ">
-    <a href="{{ t.url }}" class="post-tag">more courses...</a>
+    <div style="text-align:right;position: absolute;bottom: 0; right: 0; font-size:80%; padding-right:1em;">
+    <a href="{{ t.url }}" class="post-tag">more courses</a>
     </div>
     </div>
-    {% unless t.term == '1179' %}
+    {% unless t.term == 1179 %}
         <svg viewbox="0 0 10 100">
         <line x1="5" x2="5" y1="0" y2="100"/>
         </svg>
