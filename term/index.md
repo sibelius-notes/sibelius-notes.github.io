@@ -53,37 +53,6 @@ feature_text: |
       animation: animateline 5s linear both infinite;
     }
 
-    /*.contner__sources {
-      display: flex;
-      border-radius: 8px;
-      padding: 1.5rem;
-      background: #f9f9f9;
-      position: relative;
-    }
-    .contner__sources:before {
-      content: 'data sources';
-    }
-    .contner__sources div {
-      text-align: left;
-      margin: 0 1rem;
-    }
-    .contner__build {
-      padding: 10vh 10vw;
-      border-radius: 8px;
-      background: #f9f9f9;
-      position: relative;
-    }
-    .contner__build:before {
-      content: 'build';
-    }
-    .contner__build div {
-      margin: 2rem 0;
-    }
-    .contner__build div svg {
-      width: 4rem;
-      height: auto;
-      fill: #5f39dd;
-    }*/
 
     {% for n in all_terms_in_number %}.contner__{{ n }}, {% endfor %}
     .contner__deploy {
@@ -338,7 +307,7 @@ feature_text: |
     {% for c in courses %}
         <div class="label label--category search-item tooltip">
         <a href="{{ c.url }}" class="post-tag"  data-tooltip="{{ c.feature_text | split: '|' | last | strip_html }}"
-       data-tooltip-location="right">{{ c.title }}</a>
+       data-tooltip-location="top">{{ c.title }}</a>
         </div>
     {% endfor %}
     </div>
