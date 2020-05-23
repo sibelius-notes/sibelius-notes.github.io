@@ -140,6 +140,31 @@ layout: page
       }
     }
 
+
+    .search-container {
+      display: flex;
+      flex-wrap: wrap;
+      /*max-width: 900px;*/
+    }
+
+    .search-item {
+      padding: 30px 10px;
+      border: 1px solid grey;
+      margin: 5px;
+      width: 150px;
+      flex-basis: 150px;
+      flex-grow: 1;
+    }
+
+    .search-placeholder {
+      width: 150px;
+      height: 2px;
+      margin: 5px;
+      background-color: red;
+
+      flex-basis: 150px;
+      flex-grow: 1;
+    }
 </style>
 
 <body>
@@ -153,20 +178,30 @@ layout: page
 
       {% for t in all_terms %}
       <div class="contner__{{ t.term }}">
-        <p>Amazon S3, Netlify, GitHub Pages, Surge.sh, Aerobatic, Now.sh, & many more.</p>
+        <div class="search-container">
+            <div class="search-item">one</div>
+            <div class="search-item">two</div>
+            <div class="search-item">three</div>
+            <div class="search-item">four</div>
+            <div class="search-item">five</div>
+            <div class="search-item">six</div>
+            <div class="search-item">five</div>
+            <div class="search-item">six</div>
+            <div class="search-item">one</div>
+            <div class="search-item">two</div>
+            <div class="search-item">three</div>
+        </div>
       </div>
-      
 
+      {% unless t.term == '1179' %}
       <svg viewbox="0 0 10 100">
         <line x1="5" x2="5" y1="0" y2="100"/>
       </svg>
+      {% endunless %}
       {% endfor %}
 
 
-      <!-- in the deploy contner show simply text, without a wrapping card -->
-      <div class="contner__deploy">
-        <p>Amazon S3, Netlify, GitHub Pages, Surge.sh, Aerobatic, Now.sh, & many more.</p>
-      </div>
+
 
     </section>
 
