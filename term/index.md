@@ -170,7 +170,7 @@ feature_text: |
     <div class="search-container">
     {% for c in courses %}
         <div class="label label--category search-item">
-        <a href="{{ c.url }}" class="post-tag" title="{{ c.feature_text | split: '|' | last | strip_html }}">{{ c.title }}</a>
+        <a href="{{ c.url }}" data-toggle="tooltip" class="post-tag" title="{{ c.feature_text | split: '|' | last | strip_html }}">{{ c.title }}</a>
         </div>
     {% endfor %}
     </div>
@@ -188,3 +188,9 @@ feature_text: |
 </section>
 </div>
 </main>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
