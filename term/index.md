@@ -170,7 +170,7 @@ feature_text: |
     <div class="search-container">
     {% for c in courses %}
         <div class="label label--category search-item">
-        <a href="{{ c.url }}" class="post-tag">{{ c.title }}</a>
+        <a href="{{ c.url }}" class="post-tag" title="{{ c.feature_text | split: '|' | last | strip_html }}">{{ c.title }}</a>
         </div>
     {% endfor %}
     </div>
