@@ -5,9 +5,9 @@ layout: page
 
 <style>
     .tooltip,
-    .container__sources:before,
-    .container__build:before,
-    .container__deploy:before {
+    .contner__sources:before,
+    .contner__build:before,
+    .contner__deploy:before {
       position: absolute;
       right: 0;
       bottom: 100%;
@@ -19,27 +19,16 @@ layout: page
       border-radius: 2.5px;
     }
     .card,
-    .container__sources div,
-    .container__build div {
+    .contner__sources div,
+    .contner__build div {
       line-height: 2;
       background: #fff;
       padding: 1.2rem 1rem;
       border-radius: 4px;
       box-shadow: 0 2px 10px #e6e6e6;
     }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      min-height: 100vh;
-      width: 100%;
-      font-family: 'Mukta', sans-serif;
-      color: #5f39dd;
-      background: #5f39dd;
-    }
-    .container {
+
+    .contner {
       margin: 5vh 2.5vw;
       padding: 15vh 0;
       background: #fff;
@@ -49,69 +38,62 @@ layout: page
       align-items: center;
       text-align: center;
     }
-    .container svg {
+    .contner svg {
       height: 5rem;
     }
-    .container svg line {
+    .contner svg line {
       stroke: #5f39dd;
       stroke-width: 3px;
       stroke-linecap: round;
       stroke-dasharray: 2px 20px;
       animation: animateline 5s linear both infinite;
     }
-    h3 {
-      font-size: 1.1rem;
-      color: #411fb2;
-    }
-    p {
-      font-size: 0.95rem;
-      font-weight: 300;
-    }
-    .container__sources {
+
+    .contner__sources {
       display: flex;
       border-radius: 8px;
       padding: 1.5rem;
       background: #f9f9f9;
       position: relative;
     }
-    .container__sources:before {
+    .contner__sources:before {
       content: 'data sources';
     }
-    .container__sources div {
+    .contner__sources div {
       text-align: left;
       margin: 0 1rem;
     }
-    .container__build {
+    .contner__build {
       padding: 10vh 10vw;
       border-radius: 8px;
       background: #f9f9f9;
       position: relative;
     }
-    .container__build:before {
+    .contner__build:before {
       content: 'build';
     }
-    .container__build div {
+    .contner__build div {
       margin: 2rem 0;
     }
-    .container__build div svg {
+    .contner__build div svg {
       width: 4rem;
       height: auto;
       fill: #5f39dd;
     }
-    .container__deploy {
+    .contner__deploy {
       background: #f9f9f9;
       padding: 1.5rem;
       border-radius: 8px;
       position: relative;
     }
-    .container__deploy:before {
+    .contner__deploy:before {
       content: 'deploy';
     }
     @media (max-width: 700px) {
-      .container__sources {
+      .contner__sources {
         flex-direction: column;
       }
-      .container__sources div {
+      .contner__sources div {
         margin: 1rem 0;
       }
     }
@@ -151,11 +133,11 @@ layout: page
 </style>
 
 <body>
-    <!-- in a wrapping section include different containers for each step of the flow: data sources, build, deploy -->
-    <section class="container">
+    <!-- in a wrapping section include different contners for each step of the flow: data sources, build, deploy -->
+    <section class="contner">
 
-      <!-- in the sources container show three cards, side by side, or one atop the other on smaller viewports -->
-      <div class="container__sources">
+      <!-- in the sources contner show three cards, side by side, or one atop the other on smaller viewports -->
+      <div class="contner__sources">
 
         <div class="sources--cms">
           <h3>CMSs</h3>
@@ -174,14 +156,14 @@ layout: page
 
       </div>
 
-      <!-- include a simple line to divide the container, and animate it to show a connection between the different containers  -->
+      <!-- include a simple line to divide the contner, and animate it to show a connection between the different contners  -->
       <svg viewbox="0 0 10 100">
         <line x1="5" x2="5" y1="0" y2="100"/>
       </svg>
 
 
-      <!-- in the build container show two cards, atop of one another and the first of one showing an SVG icon -->
-      <div class="container__build">
+      <!-- in the build contner show two cards, atop of one another and the first of one showing an SVG icon -->
+      <div class="contner__build">
 
         <div class="build--powered">
           <svg viewbox="0 0 100 100">
@@ -197,13 +179,13 @@ layout: page
 
       </div>
 
-      <!-- repeat the svg line to connect the second and third containers as well -->
+      <!-- repeat the svg line to connect the second and third contners as well -->
       <svg viewbox="0 0 10 100">
         <line x1="5" x2="5" y1="0" y2="100"/>
       </svg>
 
-      <!-- in the deploy container show simply text, without a wrapping card -->
-      <div class="container__deploy">
+      <!-- in the deploy contner show simply text, without a wrapping card -->
+      <div class="contner__deploy">
         <h3>Static Web Host</h3>
         <p>Amazon S3, Netlify, GitHub Pages, Surge.sh, Aerobatic, Now.sh, & many more.</p>
       </div>
