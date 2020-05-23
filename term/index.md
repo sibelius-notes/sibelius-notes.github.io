@@ -11,7 +11,6 @@ feature_text: |
 <style>
 
     {% for n in all_terms_in_number %}.contner__{{ n }}:before, {% endfor %}
-    .tooltip,
     .contner__sources:before,
     .contner__build:before,
     .contner__deploy:before {
@@ -160,43 +159,173 @@ feature_text: |
       flex-grow: initial;
     }
 
-    .tooltip {
+    /*
+      You want a simple and fancy tooltip?
+      Just copy all [data-tooltip] blocks:
+    */
+    [data-tooltip] {
       position: relative;
-      display: inline-block;
+      z-index: 10;
     }
 
-    .tooltip .tooltiptext {
+    /* Positioning and visibility settings of the tooltip */
+    [data-tooltip]:before,
+    [data-tooltip]:after {
+      position: absolute;
       visibility: hidden;
-      width: 120px;
-      background-color: #555;
+      opacity: 0;
+      left: 50%;
+      bottom: calc(100% + 5px);
+      pointer-events: none;
+      transition: 0.2s;
+      will-change: transform;
+    }
+
+    /* The actual tooltip with a dynamic width */
+    [data-tooltip]:before {
+      content: attr(data-tooltip);
+      padding: 10px 18px;
+      min-width: 50px;
+      max-width: 300px;
+      width: max-content;
+      width: -moz-max-content;
+      border-radius: 6px;
+      font-size: 14px;
+    /*   font-size: 0.73rem; */
+      background-color: rgba(59, 72, 80, 0.9);
+      background-image: linear-gradient(30deg,
+        rgba(59, 72, 80, 0.44),
+        rgba(59, 68, 75, 0.44),
+        rgba(60, 82, 88, 0.44));
+      box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
       color: #fff;
       text-align: center;
-      border-radius: 6px;
-      padding: 5px 0;
-      position: absolute;
-      z-index: 1;
-      bottom: 125%;
-      left: 50%;
-      margin-left: -60px;
-      opacity: 0;
-      transition: opacity 0.3s;
+      white-space: pre-wrap;
+      transform: translate(-50%, -5px) scale(0.5);
     }
 
-    .tooltip .tooltiptext::after {
-      content: "";
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      margin-left: -5px;
-      border-width: 5px;
+    /* Tooltip arrow */
+    [data-tooltip]:after {
+      content: '';
       border-style: solid;
-      border-color: #555 transparent transparent transparent;
+      border-width: 5px 5px 0px 5px;
+      border-color: rgba(55, 64, 70, 0.9) transparent transparent transparent;
+      transition-duration: 0s; /* If the mouse leaves the element,
+                                  the transition effects for the
+                                  tooltip arrow are "turned off" */
+      transform-origin: top;   /* Orientation setting for the
+                                  slide-down effect */
+      transform: translateX(-50%) scaleY(0);
     }
 
-    .tooltip:hover .tooltiptext {
+    /* Tooltip becomes visible at hover */
+    [data-tooltip]:hover:before,
+    [data-tooltip]:hover:after {
       visibility: visible;
       opacity: 1;
     }
+    /* Scales from 0.5 to 1 -> grow effect */
+    [data-tooltip]:hover:before {
+      transition-delay: 0.3s;
+      transform: translate(-50%, -5px) scale(1);
+    }
+    /* Slide down effect only on mouseenter (NOT on mouseleave) */
+    [data-tooltip]:hover:after {
+      transition-delay: 0.5s; /* Starting after the grow effect */
+      transition-duration: 0.2s;
+      transform: translateX(-50%) scaleY(1);
+    }
+    /*
+      That's it.
+    */
+
+
+
+
+
+
+    /*
+      If you want some adjustability
+      here are some orientation settings you can use:
+    */
+
+    /* LEFT */
+    /* Tooltip + arrow */
+    [data-tooltip-location="left"]:before,
+    [data-tooltip-location="left"]:after {
+      left: auto;
+      right: calc(100% + 5px);
+      bottom: 50%;
+    }
+
+    /* Tooltip */
+    [data-tooltip-location="left"]:before {
+      transform: translate(-5px, 50%) scale(0.5);
+    }
+    [data-tooltip-location="left"]:hover:before {
+      transform: translate(-5px, 50%) scale(1);
+    }
+
+    /* Arrow */
+    [data-tooltip-location="left"]:after {
+      border-width: 5px 0px 5px 5px;
+      border-color: transparent transparent transparent rgba(55, 64, 70, 0.9);
+      transform-origin: left;
+      transform: translateY(50%) scaleX(0);
+    }
+    [data-tooltip-location="left"]:hover:after {
+      transform: translateY(50%) scaleX(1);
+    }
+
+
+
+    /* RIGHT */
+    [data-tooltip-location="right"]:before,
+    [data-tooltip-location="right"]:after {
+      left: calc(100% + 5px);
+      bottom: 50%;
+    }
+
+    [data-tooltip-location="right"]:before {
+      transform: translate(5px, 50%) scale(0.5);
+    }
+    [data-tooltip-location="right"]:hover:before {
+      transform: translate(5px, 50%) scale(1);
+    }
+
+    [data-tooltip-location="right"]:after {
+      border-width: 5px 5px 5px 0px;
+      border-color: transparent rgba(55, 64, 70, 0.9) transparent transparent;
+      transform-origin: right;
+      transform: translateY(50%) scaleX(0);
+    }
+    [data-tooltip-location="right"]:hover:after {
+      transform: translateY(50%) scaleX(1);
+    }
+
+
+
+    /* BOTTOM */
+    [data-tooltip-location="bottom"]:before,
+    [data-tooltip-location="bottom"]:after {
+      top: calc(100% + 5px);
+      bottom: auto;
+    }
+
+    [data-tooltip-location="bottom"]:before {
+      transform: translate(-50%, 5px) scale(0.5);
+    }
+    [data-tooltip-location="bottom"]:hover:before {
+      transform: translate(-50%, 5px) scale(1);
+    }
+
+    [data-tooltip-location="bottom"]:after {
+      border-width: 0px 5px 5px 5px;
+      border-color: transparent transparent rgba(55, 64, 70, 0.9) transparent;
+      transform-origin: bottom;
+    }
+
+
 </style>
 
 <main class="main container">
@@ -208,8 +337,8 @@ feature_text: |
     <div class="search-container">
     {% for c in courses %}
         <div class="label label--category search-item tooltip">
-        <a href="{{ c.url }}" data-toggle="tooltip" class="post-tag">{{ c.title }}</a>
-        <span class="tooltiptext">{{ c.feature_text | split: '|' | last | strip_html }}</span>
+        <a href="{{ c.url }}" class="post-tag"  data-tooltip="{{ c.feature_text | split: '|' | last | strip_html }}"
+       data-tooltip-location="right">{{ c.title }}</a>
         </div>
     {% endfor %}
     </div>
