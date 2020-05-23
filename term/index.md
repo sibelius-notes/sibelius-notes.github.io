@@ -161,7 +161,8 @@ feature_text: |
     }
 </style>
 
-<body>
+<main class="main container">
+    <div class="content">
 <section class="contner">
 {% for t in all_terms %}
     <div class="contner__{{ t.term }}">
@@ -185,4 +186,5 @@ feature_text: |
     {% endunless %}
 {% endfor %}
 </section>
-</body>
+</div>
+</main>
