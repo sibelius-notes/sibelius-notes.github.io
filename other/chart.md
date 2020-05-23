@@ -155,27 +155,30 @@ layout: page
       flex-basis: 150px;
       flex-grow: initial;
     }
-
-    .search-placeholder {
-      width: 150px;
-      height: 2px;
-      margin: 5px;
-      background-color: red;
-
-      flex-basis: 150px;
-      flex-grow: 1;
-    }
 </style>
 
 <body>
-    <section class="contner">
-      {% for t in all_terms %}
-      <div class="contner__{{ t.term }}">
-          {% assign courses = site.posts | where: "term", t.term | where: "hide", false %}
-        <div class="search-container">{% for c in courses %}<div class="label label--category search-item"><a href="{{ c.url }}" class="post-tag">{{ c.title }}</a></div>{% endfor %}</div>
-        <div style="text-align:right;position: absolute;bottom: 0; right: 0; "><a href="{{ t.url }}" class="post-tag">more courses...</a></div>
-      </div>
-      {% unless t.term == '1179' %}<svg viewbox="0 0 10 100"><line x1="5" x2="5" y1="0" y2="100"/></svg>{% endunless %}
-      {% endfor %}
-    </section>
+<section class="contner">
+{% for t in all_terms %}
+    <div class="contner__{{ t.term }}">
+    {% assign courses = site.posts | where: "term", t.term | where: "hide", false %}
+    <div class="search-container">
+    {% for c in courses %}
+        <div class="label label--category search-item">
+        <a href="{{ c.url }}" class="post-tag">{{ c.title }}</a>
+        </div>
+    {% endfor %}
+    </div>
+
+    <div style="text-align:right;position: absolute;bottom: 0; right: 0; ">
+    <a href="{{ t.url }}" class="post-tag">more courses...</a>
+    </div>
+    </div>
+    {% unless t.term == '1179' %}
+        <svg viewbox="0 0 10 100">
+        <line x1="5" x2="5" y1="0" y2="100"/>
+        </svg>
+    {% endunless %}
+{% endfor %}
+</section>
 </body>
