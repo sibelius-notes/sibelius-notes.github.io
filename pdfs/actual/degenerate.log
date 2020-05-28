@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.3)  17 MAY 2020 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.3)  28 MAY 2020 00:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,7 +682,7 @@ ux) )
 Here is how much of TeX's memory you used:
  17926 strings out of 480682
  355247 string characters out of 5908554
- 570088 words of memory out of 5000000
+ 570086 words of memory out of 5000000
  33461 multiletter control sequences out of 15000+600000
  538148 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -691,7 +691,7 @@ Here is how much of TeX's memory you used:
 ><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texl
 ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on degenerate.pdf (1 page, 45951 bytes).
+Output written on degenerate.pdf (1 page, 46102 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
