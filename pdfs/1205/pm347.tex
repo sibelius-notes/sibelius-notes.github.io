@@ -1,0 +1,2843 @@
+\newif\ifbook
+
+\bookfalse % booktrue if you want print as a book
+
+\ifbook
+\input{../temp_book.tex}
+\else
+\input{../temp.tex}
+\fi 
+
+\usepackage{epigraph}
+\usepackage{relsize}
+
+
+
+\makeatletter
+\titleformat{\part}[display]
+{\Huge\scshape\filright}
+{
+\begin{center}\includegraphics[height=1in]{group}
+\end{center}
+\partname~\thepart:}
+{20pt}
+{\thispagestyle{epigraph}}
+\makeatother
+\setlength\epigraphwidth{.6\textwidth}
+
+
+% Title Page
+\newcommand{\cournum}{PMATH 347}
+\newcommand{\courtitle}{Groups and Rings}
+\newcommand{\prof}{William Slofstra}
+\newcommand{\term}{Spring 2020}
+\newcommand{\inner}[1]{\left\langle #1 \right\rangle}
+\DeclareMathOperator{\gl}{GL}
+\DeclareMathOperator{\SL}{SL}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\id}{Id}
+\usepackage{multirow}
+\usepackage{marginnote}
+\newcommand{\week}[1]{{\color{gray}\marginnote{\sffamily\small week~#1}}}
+
+\newcommand{\claim}{\hfill $\blacksquare$}
+\newcommand{\inv}{^{-1}}
+\newcommand{\midd}{~\mathlarger {\mathlarger {\mid}}~}
+\renewcommand{\Im}{\operatorname{Im}}
+\newcommand{\znz}{\mathbb Z/n\mathbb Z}
+\newcommand{\zz}[1]{\mathbb Z/{#1}\mathbb Z}
+\let\normsub\trianglelefteq
+\let\iso\cong
+%\let\tilde\widetilde 
+\begin{document}
+\mytitle
+\ifbook
+\frontmatter
+\fi 
+
+\begin{preface}
+% add sth to the preface if you want
+Spring 2020 classes online only. So the grading scheme:
+\begin{itemize}
+	\item Participation:  4\%
+	\item Quizzes:  32\%
+	\item Written homework:  32\%
+	\item Final takehome exam:  32\%
+\end{itemize}
+\end{preface}
+{
+	\hypersetup{linkbordercolor=white, linkcolor=black}
+	\tableofcontents
+}
+
+\newpage
+\pagestyle{headings}
+
+\ifbook
+\mainmatter
+\fi 
+
+\epigraphhead[450]{It is important to realize, with or without the historical context, that the reason the
+	abstract definitions are made is because it is useful to isolate specific characteristics and
+	consider what structure is imposed on an object having these characteristics.\par\hfill\textit{Abstract Algebra,
+		Third Edition}}
+\part{Group Theory}
+
+\chapter{Introduction to Groups}
+\section{Binary Operations}
+\week{1}
+
+If we randomly ask someone on the street: \textit{What's math about?} The answer we might get is \textbf{numbers}. It always comes with \textbf{operations}.
+
+\begin{center}
+	\begin{tabular}{c | c}
+		Objects & Operations\\\hline\hline 
+		\multirow{4}{*}{Natural numbers $\mathbb N$} & addition $+$
+		\\ & subtraction $-$\\ & multiplication $\cdot$ \\ & division with remainders\\\hline 
+		Integers $\mathbb Z$ & negation $x\mapsto -x$ \\\hline
+		Rational number $\mathbb{Q}$ & multiplicative inversion $x\mapsto 1/x$\\\hline 
+		Real numbers $\mathbb R$ & $k$th roots, etc\\\hline
+		$\mathbb Z/n\mathbb Z$ & modular arithmetic and operations 
+	\end{tabular}
+\end{center}
+
+Then we realizd that math is not just about numbers. We later have \textbf{elementary algebra}:
+
+\begin{center}
+\begin{tabular}{c | c}
+Objects & Operations \\\hline\hline 
+Expressions with variables & operations with variables \\\hline 
+Functions & Pointwise operations $+,-,\cdot$ and Composition $\circ$
+\end{tabular}
+\end{center}
+
+Then $\ldots$, and (leaving lots of stuff out), we have \textbf{linear algebra}:
+\begin{center}
+\begin{tabular}{c|c}
+Objects & Operations \\\hline \hline 
+Vectors & Vector addition $+$, scalar multiplication $\cdot$ \\\hline 
+Matrices & $+,-,$ scalar and matrix multiplication $\cdot$
+\end{tabular}
+\end{center}
+
+Then \textit{what's algebra about?}
+
+Pre-university answer:
+\begin{itemize}
+	\item manipulating expr involving indeterminates (variables):
+	\\
+	If $a,b\in\mathbb R, ax=b$ and $a\ne 0$, then $x={b\over a}$.
+	\item solving eqs by applying ops to both sides:
+	\\
+	If $A,B$ are matrices, $AX=B$ and $A$ is invertible, then $X=A^{-1}B$.
+\end{itemize}
+\begin{tcolorbox}
+\textbf{Key idea}: algebra is about operations
+\end{tcolorbox}
+
+Then \textit{what operations should we study?} Polynomials in several vars; functions, pointwise ops and function composition... \textit{Are there other operations we should study?} Then we introduce \textbf{abstract algebra}: try to answer this question by studying operations abstractly, and seeing what the possibilities are.
+
+\begin{defn}{binary operation}
+A binary operation on a set $X$ is a function $b: X\times X\to X$.
+\end{defn}
+
+Notation:
+\begin{itemize}
+	\item Any letter $(b,m)$ or symbol $(+,\cdot)$
+	\item function notation
+	$$b:X\times X\to X:(x,y)\mapsto b(x,y)$$
+	or inline notation
+$$+:\mathbb N\times \mathbb N\to \mathbb N:(x,y)\mapsto x+y$$
+Typically use inline notation with symbols and function notation with letters.
+\item There are lots of symbols to choose from: $a+b,a\times b, a\cdot b, a\circ b, a\oplus b,a\otimes b, a\odot b, a\diamond b, a \lozenge b, a\blacklozenge b, a*b, a\bullet b, a\boxplus b, a\boxtimes b, a\uplus b$
+\item If there's no chance of confusion, can even drop symbol completely:
+$$X\times X\to X:(a,b)\mapsto ab$$
+\end{itemize}
+
+\begin{ex}
+\begin{itemize}
+\item Addition $+$ is a binary op on $\mathbb N$, but subtraction $-$ is not, since $a-b$ is not necessarily a natural number.
+\item Subtraction $=$ is a binary op on $\mathbb Z$.
+\item If $(V,+,\cdot)$ is a vector space over a field $\mathbb K$, then $+$ is a binary op on $V$, but $\cdot$ is not, since $\cdot$ is a function $\mathbb K\times V\to V$.\footnote{We'll define fields later, now think of $\mathbb K=\mathbb R$ or $\mathbb C$.}
+\end{itemize}
+\end{ex}
+\begin{defn}{k-ary operation}
+A $k$-ary operation on a set $X$ is a function 
+$$\underbrace{X\times X\times \cdots X}_{k \text{ times}}\to X$$
+A 1-ary operation is called a unary operation.
+\end{defn}
+
+
+\begin{ex}
+Negation $\mathbb Z\to\mathbb Z: x\mapsto -x$ is a unary operation.
+
+Taking the multiplicative inverse $x\mapsto 1/x$ is not a unary operation on $\mathbb Q$, since $1/0$ is not defined, but it is a unary operation on 
+$$\mathbb Q^\times :=\{a\in\mathbb Q:a\ne 0\}$$
+\end{ex}
+
+Now let's discuss some properties that binary ops might satisfy.
+
+\section{Associativity and commutativity}
+\begin{defn}{associative}
+A binary operation $\boxtimes:X\times X\to X$ is associative if 
+$$a\boxtimes (b\boxtimes c) = (a\boxtimes b)\boxtimes c$$
+for all $a,b,c\in X$.
+\end{defn}
+
+Many operations we've mentioned so far are associative:
+\begin{itemize}
+\item Addition and multiplication for $\mathbb {N,Z,Q,R,C}$, polynomials, and functions
+\item Vector addition, matrix addition and multiplication
+\item Modular addition and multiplication on $\mathbb Z/n\mathbb Z$
+\item Function composition
+\end{itemize}
+
+Note that Subtraction and division are not associative. Subtraction is adding negative numbers, same for division. So we aren't that interested in subtraction and division, and focus on associative operations.
+
+Here we introduce an informal definition: A \textbf{bracketing} of a sequence $a_1,\ldots,a_n\in X$ is a way of inserting brackets into $a_1\boxtimes \ldots \boxtimes a_n$ so that the expression can be evaluated.
+
+\begin{ex}
+The bracketings of $a_1,\ldots, a_4$ are 
+$$a_1 \boxtimes (a_2 \boxtimes (a_3 \boxtimes a_4))$$
+$$a_1 \boxtimes ((a_2 \boxtimes a_3) \boxtimes a_4)$$
+$$(a_1 \boxtimes a_2) \boxtimes (a_3 \boxtimes a_4)$$
+$$(a_1 \boxtimes (a_2 \boxtimes a_3)) \boxtimes a_4$$
+$$((a_1 \boxtimes a_2) \boxtimes a_3) \boxtimes a_4$$
+\end{ex}
+
+\begin{prop}
+A binary operation $\boxtimes: X\times X\to X$ is associative if and only if for all finite sequences $a_1,\ldots,a_n\in X, n\ge 1$, every bracketing of $a_1,\ldots,a_n$ evaluated to the same element of $X$.
+\end{prop}
+\begin{note}
+	If $\boxtimes$ is associative, can use notation $a_1\boxtimes a_2 \boxtimes \ldots \boxtimes a_n$ without choosing a bracketing.
+\end{note}
+\begin{pf}
+\begin{itemize}
+\item[$\Leftarrow$] The two bracketings $a\boxtimes (b\boxtimes c)$ and $(a\boxtimes b)\boxtimes c$ of $a,b,c$ evaluate to the same element of $X$ for all sequences of length 3.
+\item[$\Rightarrow$] Proof is by induction. Base cases are $n=1,2,3$.
+
+For $n=1,2,$ there's only one bracketing. For $n=3$ follows from defn of associativity.
+
+Suppose prop is true for all sequences of length $k$, $1\le k < n$.
+
+Let $w$ be a bracketing of $a_1,\ldots,a_n$. 
+
+$w=w_1\boxtimes w_2$ where $w_1$ is a bracketing of $a_1,\ldots,a_k$, $w_2$ is a bracketing of $a_{k+1},\ldots,a_n$, for some $k<n$.
+
+By induction,
+$$w_1=(\cdots ((a_1\boxtimes a_2)\boxtimes a_3)\cdots \boxtimes a_k) \quad \text{and} \quad w_2 = (a_{k+1}\boxtimes \cdots (a_{n-1}\boxtimes a_n)\cdots)$$
+Therefore
+$$
+\begin{aligned}
+w&=(\cdots ((a_1\boxtimes a_2)\boxtimes a_3)\cdots \boxtimes a_k)\boxtimes w_2 = (a_{k+1}\boxtimes \cdots (a_{n-1}\boxtimes a_n)\cdots)\\
+&= (\cdots (a_1\boxtimes a_2)\cdots \boxtimes a_{k-1})\boxtimes (a_k \boxtimes (a_{k+1}\boxtimes \cdots a_n)\cdots)\\
+&= \cdots \\
+&= (a_1\boxtimes (a_2 \boxtimes \cdots (a_n\boxtimes a_n)\cdots))
+\end{aligned}
+$$
+\end{itemize}
+\end{pf}
+
+\begin{defn}{commutative}
+A binary operation $\boxtimes: X\times X\to X$ is commutative (also known as abelian) if $a\boxtimes b=b\boxtimes a$ for all $a,b\in X$.
+\end{defn}
+
+\paragraph{Fact} The word ``abelian" comes from the surname of Niels Henrik Abel (1802-1829).
+
+Many familiar operations are commutative: addition and multiplication on $\mathbb{N,Z,Q,R,C}$; vector and matrix addition; modular addition and multiplication on $\mathbb Z/n\mathbb Z$. The following operation are \textbf{not} commutative: subtraction and division; function composition; matrix multiplication.
+
+Therefore, subtraction and division are not commutative or associative. Function composition and matrix multiplication are not
+commutative, but are associative. We are not going to worry about the first type of operation, but
+we are interested in operations of the second type.
+
+\textbf{First half of the course}: group theory -- single associative
+operation, not necessarily commutative.
+
+\textbf{Second half of the course}: ring theory -- two associative operations
+(like addition and multiplication on $\mathbb Z$), focus on commutative case.
+
+\section{Identities and inverses}
+Let $\boxtimes$ be a binary operation on a set $X$.
+\begin{defn}{identity}
+An element $e\in X$ is an identity for $\boxtimes$ if
+$$e\boxtimes x=x\boxtimes e=x$$
+for all $x\in X$.
+\end{defn}
+\begin{ex}
+The zero element 0 of $\mathbb Z$ is an identity for $+$. $1\in\mathbb Q$ is identity for $\cdot$. $0\in \mathbb Q$ is not identity for $\cdot$
+\end{ex}
+
+\begin{lemma}
+If $e,e'\in X$ are both identities for $\boxtimes$, then $e=e'$.
+\end{lemma}
+
+\begin{pf}
+$e=e\boxtimes e'=e'$
+\end{pf}
+
+\begin{defn}{inverse}
+Let $\boxtimes$ be a binary operation on $X$ with identity element $e$. An element $y$ is a left inverse for $x$ (w.r.t. $\boxtimes$) if $y\boxtimes x=e$, a right inverse if $x\boxtimes y=e$, and an inverse if $x\boxtimes y = y\boxtimes x=e$.
+\end{defn}
+
+\begin{ex}
+$-n$ is an inverse for $n\in \mathbb Z$ w.r.t. $+$.
+
+$n\in\mathbb Z$ does not have an inverse w.r.t. $\cdot$ unless $n=\pm 1$.
+
+If $x\in \mathbb Q$ is non-zero, then $1/x$ is an inverse of $x$ w.r.t. $\cdot$. The element $0$ does not have an inverse.
+\end{ex}
+
+\begin{lemma}
+Let $\boxtimes$ be an \textbf{associative} binary op with an identity $e$. If $y_L$ and $y_R$ are left and right inverse of $x$ respectively, then $y_L=y_R$.
+\end{lemma}
+
+\begin{pf}
+$y_L=y_L\boxtimes e = y_L \boxtimes (x\boxtimes y_R) = (y_L \boxtimes x) \boxtimes y_R = e\boxtimes y_R = y_R$
+\end{pf}
+
+\begin{corr}
+	\begin{itemize}
+	\item If $x$ has both a left and right inverse, then $x$ has an inverse.
+	\item Inverses are unique.
+	\end{itemize}
+\end{corr}
+
+\begin{defn}{invertible}
+An element $a$ is invertible if it has an inverse, in which case the inverse is denoted by $a^{-1}$.
+\end{defn}
+
+\begin{exercise}
+It's possible to have a left (resp. right inverse), but not be invertible. Also, left and right inverses don't have to be unique (unless an element has both).
+\end{exercise}
+
+\begin{lemma}
+\begin{enumerate}
+\item If $\boxtimes$ has an identity $e$, then $e$ is invertible, and $e^{-1}=e$.
+\item If $a$ is invertible, then so is $a^{-1}$, and ${\left(a^{-1}\right)}^{-1}=a$.
+\item If $\boxtimes$ is associative, and $a$ and $b$ are invertible, then so is $a\boxtimes b$, and $(a\boxtimes b)^{-1}=b^{-1}\boxtimes a^{-1}$.
+\end{enumerate}
+\end{lemma}
+
+\begin{pf}
+\begin{enumerate}
+\item $e\boxtimes e = e$
+\item $a\boxtimes a^{-1}= a^{-1} {\boxtimes} a = e$, so $a$ is clearly an inverse to $a^{-1}$.
+\item $(a\boxtimes b) \boxtimes (b^{-1}\boxtimes a^{-1}) = a\boxtimes (b\boxtimes b^{-1})\boxtimes a^{-1} = a\boxtimes e\boxtimes a^{-1}= a\boxtimes a^{-1}=e$, and similarly $(b^{-1}\boxtimes a^{-1})\boxtimes (a\boxtimes b)=e$.
+\end{enumerate}
+\end{pf}
+
+\begin{prop}
+Let $\boxtimes$ be an associative binary operation on $X$ with identity $e$, and let $x$ and $y$be variables taking values in $X$.
+
+An element $a\in X$ is invertible if and only if the equations
+$$
+a\boxtimes x=b \text{ and } y\boxtimes a=b
+$$
+have unique solutions for all $b\in X$.
+\end{prop}
+
+\begin{pf}
+\begin{itemize}
+ \item[$\Leftarrow$] A solution to $ax=e$ is a right inverse of $a$, and a solution to $ya=e$ is a left inverse. If $a$ both have a left and right inverse, then it has an inverse.
+\item[$\Rightarrow$] Suppose $a$ is invertible. Then
+$$
+a\boxtimes (a^{-1}b)=(a\boxtimes a^{-1})\boxtimes b = e\boxtimes b = b
+$$
+so $a^{-1}\boxtimes b$ is a solution to $a\boxtimes x=b$.
+
+If $x_0$ is a solution to $a\boxtimes x=b$, then
+$$
+a^{-1}\boxtimes b=a^{-1}\boxtimes (a\boxtimes x_0) = (a^{-1}\boxtimes a)\boxtimes x_0=e\boxtimes x_0 = x_0
+$$
+So $a^{-1}\boxtimes b$ is the unique solution to $a\boxtimes x=b$.
+
+Similarly $b\boxtimes a^{-1}$ is the unique solution to $y\boxtimes a=b$.
+\end{itemize}
+\end{pf}
+
+\begin{prop}[Cancellation property]
+Let $\boxtimes$ be an associative binary operation, and $a\in X$. Then
+\begin{enumerate}
+\item If $a$ has a left inverse and $a\boxtimes u = a \boxtimes v$, then $u=v$.
+\item If $b$ has a right inverse and $u\boxtimes a = v\boxtimes a$, then $u=v$.
+\end{enumerate}
+\end{prop}
+
+\begin{pf}
+\begin{enumerate}
+\item $u=a^{-1}\boxtimes a \boxtimes u = a^{-1}\boxtimes a\boxtimes v = v$
+\item similar.
+\end{enumerate}
+\end{pf}
+
+1 and 2 also hold for $n\in\mathbb Z$ w.r.t. $\cdot$ if $n\ge 0$, even though $n$ is not invertible for $n\ne \pm 1$.
+
+\section{Groups}
+\begin{defn}{group}
+A \textbf{group} is a pair $(G,\boxtimes)$, where
+\begin{enumerate}
+	\item $G$ is a set, and
+	\item $\boxtimes$ is an associative binary operation on $G$ such that 
+	\begin{enumerate}
+		\item $\boxtimes$ has an identity $e$, and 
+		\item every element $g\in G$ is invertible with respect to $\boxtimes$. 
+	\end{enumerate}
+\end{enumerate}
+\end{defn}
+
+\begin{defn}{abelian}
+A group is \textbf{abelian} (or commutative) if $\boxtimes$ is abelian.
+\end{defn}
+
+\begin{defn}{finite}
+A group is \textbf{finite} if $G$ is a finite set. 
+\end{defn}
+
+\begin{defn}{order}
+The \textbf{order} of $G$ the number of elements in $G$ if $G$ is finite, and $+\infty$ if $G$ is infinite.
+The order of $G$ is denoted by $|G|$.
+\end{defn}
+
+\subsection{Terminology}
+Usually we refer to $(G,\boxtimes)$ simply as $G$, and just assume the operation is given. (Note: we still need to clearly specify the operation for each group we work with).
+
+It's cumbersome to write $\boxtimes$ all the time, so usually we use one of the following options:
+\begin{itemize}
+	\item Use $\cdot$ as the standard symbol, write $g\cdot h$ for the product of $g,h\in G$
+	\item Drop the symbol entirely, write $gh$ for the product of $g,h\in G$.
+\end{itemize}
+
+The identity of $G$ is denoted by $e$ (or $e_G$ when we want to make the group clear). 1 and $1_G$ are also used.
+
+Since every element of a group $G$ is invertible, $g^{-1}$ is defined for all $g\in G$. The function $G\to G: G\mapsto g^{-1}$ can be regarded as a unary operation on $G$.
+
+Consider $\iota: G\to G: g\mapsto g^{-1}$. Since $(g^{-1})^{-1}=g$, $\iota \circ \iota = \operatorname{Id}_G$, the identity map $G\to G$. In particular, $\iota$ is a bijection, both injective and surjective.
+
+If $g\in G$, then
+$$
+g^n:= \underbrace{g \cdot \cdots \cdot g}_{n \text{ times}} \text{ and } g^{-n}:= (g^{-1})^n = (g^n)^{-1}
+$$
+\begin{exercise}
+If $m,n\in \mathbb Z$, then $(g^n)^m = g^{mn}$.
+\end{exercise}
+
+If $g,h\in G$, then 
+$$(gh)^n = ghgh \cdots gh,$$
+which is not necessarily the same as $g^nh^n$ if $G$ is not abelian.
+
+\begin{ex}[Groups]
+$\mathbb{N,Q,R,C}$ are all groups under operation $+$. The identity is $0$ and the inverse of $n$ is $-n$. These groups have infinite order. They are infinite abelian groups.
+
+$\mathbb Z/n\mathbb Z$ is also a group under $+$. The identity is $0=[0]$, and the inverse of $[m]$ is $-[m]=[-m]$. This group is finite, with order $|\mathbb Z/n\mathbb Z|=n$. It is a finite abelian group.
+
+If $(V,+,\cdot)$ is a vector space, then $(V,+)$ is group. The identity element is $0$, and the inverse of $v$ is $-v$.
+\end{ex}
+
+\begin{ex}[Not a group?! \& Trivial group]
+$\mathbb{Z}$ is not a group with respect to $\cdot$, since most elements do not have an inverse.
+
+$\mathbb Q$ is also not a group with respect to $\cdot$, since 0 does not have an inverse.
+
+$\mathbb Q^\times$ is a group with respect to $\cdot$.
+
+Every group has to contain at least one element, the identity. So the simplest possible group is $\{1\}$ with operation $1\cdot 1=1$. This is called the \textbf{trivial group}.
+\end{ex}
+
+\subsection*{A non-abelian example}
+All the examples previously are abelian.
+
+Let $\gl_n(\mathbb K)$ denote the invertible $n\times n$ matrices with entries in a field $\mathbb K$.
+
+\begin{prop}
+$\gl_n(\mathbb K)$ is a group under matrix multiplication (called the \textbf{general linear group}). For $n\ge 2$, $\gl_n(\mathbb K)$ is non-abelian.
+\end{prop}
+
+\begin{pf}
+If $A$ and $B$ are invertible matrices, then $AB$ is also invertible, so matrix multiplication is an associative binary operation $\gl_n(\mathbb K)$. The identity matrix is an identity, and every element has an inverse by definition, so $\gl_n(\mathbb K)$ is a group.
+
+\begin{exercise}
+Find matrices $A,B$ such that $AB\ne BA$.
+\end{exercise}
+\end{pf}
+
+\subsection{Additive notation}
+Standard notation for operation in a group is $gh$. This is called \textbf{multiplicative notation}. For groups like $(\mathbb Z,+)$, it is confusion to write $mn$ instead of $m+n$, since $mn$ already has another meaning. For abelian groups $G$, there is another convention called \textbf{additive notation}. In additive notation, we write the group operation as $g+h$. The identity is denoted by $0$ or $0_G$. Inverse are denoted by $-g$. Writing $g^n$ in additive notation gives 
+$$\underbrace{g+g+\ldots+g}_{n\text{ times}},$$
+so rather than $g^n$ we use $ng$. Similarly $g^{-n}$ is $-ng$.
+
+\begin{table}
+	\centering
+\begin{tabular}{c | c}
+Multiplicative notation & Additive notation \\\hline 
+$g\cdot h$ or $gh$ & $g+h$\\
+$e_G$ or $1_G$ & $0_G$\\
+$g^{-1}$ & $-g$\\
+$g^n$ & $ng$
+\end{tabular}
+\caption{Comparison between multiplicative and additive notation}
+\end{table}
+
+For nonabelian groups we always use multiplicative notation. For abelian groups, we can choose either. 
+
+Note the potential for conflict between the two conventions. We must be clear about what convention we are using!.
+
+For groups like $(\mathbb Z,+)$, we could denote the operation by $mn$, but it's clearer to write $m+n$. For groups like $(Q^\times,\cdot)$, we could denote the operation by $x+y$, but it is clearer to write $x\cdot y$ or $xy$.
+
+\subsection{Multiplicative table}
+\begin{defn}{multiplicative table}
+The multiplicative table of a group $G$ is a table with rows and columns indexed by the elements of $G$. The cell for row $g$ and column $h$ contains the product $gh$.
+\end{defn}
+
+The multiplication table contains the complete info of the group $G$. It is defined for finite and infinite groups, but makes the most sense for finite groups.
+
+\begin{ex}[$\mathbb Z/2\mathbb Z$]
+The multiplication table for $\mathbb Z/2\mathbb Z$ is 
+\begin{center}
+\begin{tabular}{c | c c}
+& 0 & 1 \\\hline 
+0 & 0 & 1\\
+1 & 1 & 0
+\end{tabular}
+\end{center}
+\end{ex}
+
+\subsection{Order of elements}
+\begin{defn}{order}
+If $G$ is a group, then the order $g\in G$ is 
+$$|G|:=\min\{k\ge 1: g^k=e_G\}\cup \{+\infty\}$$
+\end{defn}
+
+Some easy properties:
+\begin{itemize}
+\item $|g|=1$ if and only if $g=e_G$.
+\item If $g^n=1$, then $g^{n-1}g=gg^{n-1}=g^n=1$, so $g^{n-1}=g^{-1}$. In particular, if $|g|=n<+\infty$, then $g^{-1}=g^{n-1}$.
+\end{itemize}
+
+\begin{ex}[$\mathbb Z/n\mathbb Z$]
+We use additive notation for $\mathbb Z/n\mathbb Z$, so $g^n$ is written as $ng$, $e=0$. For this group, $k1=0$ if and only if $n$ divides $k$, so $|1|=n$.
+\end{ex}
+
+\begin{lemma}
+$g^n = e$ if and only if $g^{-n}=e$, so in particular $|g|=|g^{-1}|$.
+\end{lemma}
+
+\begin{pf}
+We have $g^{-n}=(g^n)^{-1}$. Since $g\mapsto g^{-1}$ is a bijection,
+\begin{center}
+$g^n=e$ if and only if $(g^n)^{-1}=e^{-1}=e$.
+\end{center}
+But $g^{-n}$ also equals $(g^{-1})^n$, so
+$$
+\left\{k \geq 1: g^{k}=e\right\}=\left\{k \geq 1:\left(g^{-1}\right)^{k}=e\right\}
+$$
+and this implies $|g|=|g^{-1}|$.
+\end{pf}
+
+\section{Dihedral groups}
+
+
+\begin{defn}{n-gon}
+A regular polygon $P_n$ with n vertices, $n\ge 3$, is called an $n$-gon.
+\end{defn}
+
+\begin{center}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,564); %set diagram left start at 0, and has height of 564
+
+%Shape: Circle [id:dp3627834651315913] 
+\draw  [color={rgb, 255:red, 155; green, 155; blue, 155 }  ,draw opacity=1 ] (81.8,163.6) .. controls (81.8,136.76) and (103.56,115) .. (130.4,115) .. controls (157.24,115) and (179,136.76) .. (179,163.6) .. controls (179,190.44) and (157.24,212.2) .. (130.4,212.2) .. controls (103.56,212.2) and (81.8,190.44) .. (81.8,163.6) -- cycle ;
+%Shape: Regular Polygon [id:dp6114594868833199] 
+\draw   (179,163.6) -- (106.1,205.69) -- (106.1,121.51) -- cycle ;
+%Shape: Circle [id:dp8557541348525117] 
+\draw  [color={rgb, 255:red, 155; green, 155; blue, 155 }  ,draw opacity=1 ] (227.8,163.6) .. controls (227.8,136.76) and (249.56,115) .. (276.4,115) .. controls (303.24,115) and (325,136.76) .. (325,163.6) .. controls (325,190.44) and (303.24,212.2) .. (276.4,212.2) .. controls (249.56,212.2) and (227.8,190.44) .. (227.8,163.6) -- cycle ;
+%Shape: Regular Polygon [id:dp8744627830655822] 
+\draw   (325,163.6) -- (276.4,212.2) -- (227.8,163.6) -- (276.4,115) -- cycle ;
+%Shape: Circle [id:dp6254175935286905] 
+\draw  [color={rgb, 255:red, 155; green, 155; blue, 155 }  ,draw opacity=1 ] (373.8,163.6) .. controls (373.8,136.76) and (395.56,115) .. (422.4,115) .. controls (449.24,115) and (471,136.76) .. (471,163.6) .. controls (471,190.44) and (449.24,212.2) .. (422.4,212.2) .. controls (395.56,212.2) and (373.8,190.44) .. (373.8,163.6) -- cycle ;
+%Shape: Regular Polygon [id:dp49287200362178374] 
+\draw   (471,163.6) -- (437.42,209.82) -- (383.08,192.17) -- (383.08,135.03) -- (437.42,117.38) -- cycle ;
+%Shape: Circle [id:dp8466899977349531] 
+\draw  [color={rgb, 255:red, 155; green, 155; blue, 155 }  ,draw opacity=1 ] (519.8,164.6) .. controls (519.8,137.76) and (541.56,116) .. (568.4,116) .. controls (595.24,116) and (617,137.76) .. (617,164.6) .. controls (617,191.44) and (595.24,213.2) .. (568.4,213.2) .. controls (541.56,213.2) and (519.8,191.44) .. (519.8,164.6) -- cycle ;
+%Shape: Regular Polygon [id:dp7279293293720908] 
+\draw   (617,164.6) -- (592.7,206.69) -- (544.1,206.69) -- (519.8,164.6) -- (544.1,122.51) -- (592.7,122.51) -- cycle ;
+
+% Text Node
+\draw (105,271) node [anchor=north west][inner sep=0.75pt]   [align=left] {3-gon};
+% Text Node
+\draw (546,270) node [anchor=north west][inner sep=0.75pt]   [align=left] {6-gon};
+% Text Node
+\draw (398,271) node [anchor=north west][inner sep=0.75pt]   [align=left] {5-gon};
+% Text Node
+\draw (252,271) node [anchor=north west][inner sep=0.75pt]   [align=left] {4-gon};
+% Text Node
+\draw (182,159) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (329,159) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (477,158) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (625,158) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (92,104) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (91,212) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (209,150) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (593,103) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (430,102) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (270,99) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (269,217) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (365,120) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (367,198) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (439.42,214.82) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (523.42,214.82) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (532,103) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (505,181) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (594.7,215.69) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{5}$};
+
+
+\end{tikzpicture}
+\end{center}
+To be specific: set $v_k=(\cos 2\pi k/n,\sin 2\pi k/n)=e^{2\pi ik/n}$
+
+Get $n$-gon by drawing line segment from $v_k$ to $v_{k+1}$ for all $0\le k\le n$ (where $v_n:=v_0$)
+
+\begin{defn}{symmetry}
+A symmetry of the $n$-gon $P_n$ is an invertible linear transformation $T\in \gl_2(\mathbb R)$ such that $T(P_n)=P_n$.
+\end{defn}
+
+\begin{defn}{dihedral group}
+The set of symmetries of $P_n$ is called the dihedral group, and is denoted by $D_{2n}$ (or $D_n$).
+\end{defn}
+
+In this course, we use $D_{2n}$.
+
+\begin{note}
+We think of matrices and invertible linear transformations interchangeably.
+
+Matrix multiplication = composition of transformations.
+\end{note}
+
+\begin{prop}
+$D_{2n}$ is a group under composition.
+\end{prop}
+
+\begin{pf}
+Later. Key point: $S,T\in D_{2n}\implies ST\in D_{2n}$.
+\end{pf}
+
+$v_i$ and $v_j$ are \textbf{adjacent} in $P_n$ if connected by line segment.
+
+\begin{lemma}
+\begin{enumerate}
+\item If $T\in D_{2n}$ then $(T(v_0), T(v_1))$ are adjacent
+\item If $S,T\in D_{2n}$ and $S(v_i)=T(v_i)$, $i=0,1$ then $S=T$.
+\end{enumerate}
+\end{lemma}
+
+\begin{pf}
+\begin{enumerate}
+\item $v_0,v_1$ are adjacent, $T$ is linear
+\item $v_0$ and $v_1$ are linearly independent.
+\end{enumerate}
+\end{pf}
+
+\begin{corr}
+$|D_{2n}|\le 2n$
+\end{corr}
+
+\begin{pf}
+Let $A$ be the set of adjacent pairs $(v_i,v_j)$\footnote{ordered pairs}, so $|A|=2n$. By \lemmaref{1.11}, $D_{2n}\to A: T\mapsto (T(v_0),T(v_1))$ is well-defined and injective.
+\end{pf}
+
+For every pair of adjacent vertices $(v_i,v_j)$, is there an element $T\in D_{2n}$ with $T(v_0)=v_i, T(v_1)=v_j$?
+
+If the answer is yes, then $|D_{2n}|=2n$.
+
+\subsection{Special elements of $D_{2n}$}
+Let $s\in D_{2n}$ be rotation by $2\pi/n$ radians, so $|s|=n$ (i.e., $s^n=2, s^k\ne e$ for $1\le k <n$).
+
+\begin{center}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,564); %set diagram left start at 0, and has height of 564
+
+%Shape: Polygon [id:dp49287200362178374] 
+\draw   (122.05,85.82) -- (98.14,118.73) -- (59.45,106.16) -- (59.45,65.49) -- (98.14,52.92) -- cycle ;
+%Straight Lines [id:da769185021630433] 
+\draw    (156,92) -- (219.5,92) ;
+\draw [shift={(221.5,92)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Polygon [id:dp04135368142546714] 
+\draw   (302.05,87.82) -- (278.14,120.73) -- (239.45,108.16) -- (239.45,67.49) -- (278.14,54.92) -- cycle ;
+%Straight Lines [id:da07746711588184318] 
+\draw    (337,92) -- (400.5,92) ;
+\draw [shift={(402.5,92)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Polygon [id:dp780925339995665] 
+\draw   (490.05,96.82) -- (466.14,129.73) -- (427.45,117.16) -- (427.45,76.49) -- (466.14,63.92) -- cycle ;
+%Straight Lines [id:da6040857759364389] 
+\draw    (27,203) -- (90.5,203) ;
+\draw [shift={(92.5,203)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Polygon [id:dp1761180184962825] 
+\draw   (190.05,205.82) -- (166.14,238.73) -- (127.45,226.16) -- (127.45,185.49) -- (166.14,172.92) -- cycle ;
+%Straight Lines [id:da24301386474850006] 
+\draw    (223,205) -- (286.5,205) ;
+\draw [shift={(288.5,205)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Polygon [id:dp4378739426411913] 
+\draw   (386.05,207.82) -- (362.14,240.73) -- (323.45,228.16) -- (323.45,187.49) -- (362.14,174.92) -- cycle ;
+%Straight Lines [id:da16509359951346436] 
+\draw    (427,205) -- (490.5,205) ;
+\draw [shift={(492.5,205)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Polygon [id:dp6427689939698458] 
+\draw   (588.05,207.82) -- (564.14,240.73) -- (525.45,228.16) -- (525.45,187.49) -- (564.14,174.92) -- cycle ;
+
+% Text Node
+\draw (124.05,85.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (100.14,49.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (57.45,62.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (57.45,109.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (100.14,121.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (181,72) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle s$};
+% Text Node
+\draw (304.05,87.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (280.14,51.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (237.45,64.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (237.45,111.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (280.14,123.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (362,72) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle s$};
+% Text Node
+\draw (492.05,96.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (468.14,60.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (425.45,73.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (425.45,120.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (468.14,132.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (52,183) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle s$};
+% Text Node
+\draw (192.05,205.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (168.14,169.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (125.45,182.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (125.45,229.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (168.14,241.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (248,185) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle s$};
+% Text Node
+\draw (388.05,207.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (364.14,171.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (321.45,184.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (321.45,231.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (364.14,243.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (452,185) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle s$};
+% Text Node
+\draw (590.05,207.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (566.14,171.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (523.45,184.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (523.45,231.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (566.14,243.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+
+
+\end{tikzpicture}
+\end{center}
+
+Let $r$ be reflection through the $x$-axis:
+\begin{center}
+	
+	
+	\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+	
+	\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+	%uncomment if require: \path (0,564); %set diagram left start at 0, and has height of 564
+	
+	%Shape: Polygon [id:dp49287200362178374] 
+	\draw   (122.05,85.82) -- (98.14,118.73) -- (59.45,106.16) -- (59.45,65.49) -- (98.14,52.92) -- cycle ;
+	%Straight Lines [id:da769185021630433] 
+	\draw    (156,92) -- (219.5,92) ;
+	\draw [shift={(221.5,92)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+	%Shape: Polygon [id:dp04135368142546714] 
+	\draw   (302.05,87.82) -- (278.14,120.73) -- (239.45,108.16) -- (239.45,67.49) -- (278.14,54.92) -- cycle ;
+	%Straight Lines [id:da07746711588184318] 
+	\draw    (337,92) -- (400.5,92) ;
+	\draw [shift={(402.5,92)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+	%Shape: Polygon [id:dp3796710270270218] 
+	\draw   (500.05,86.82) -- (476.14,119.73) -- (437.45,107.16) -- (437.45,66.49) -- (476.14,53.92) -- cycle ;
+	%Straight Lines [id:da36560944411747065] 
+	\draw  [dash pattern={on 4.5pt off 4.5pt}]  (31.7,85.82) -- (143.2,85.82) ;
+	
+	% Text Node
+	\draw (124.05,82.82) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+	% Text Node
+	\draw (100.14,49.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+	% Text Node
+	\draw (57.45,62.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+	% Text Node
+	\draw (57.45,109.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+	% Text Node
+	\draw (100.14,121.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+	% Text Node
+	\draw (181,72) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle r$};
+	% Text Node
+	\draw (304.05,87.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+	% Text Node
+	\draw (280.14,51.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+	% Text Node
+	\draw (237.45,64.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+	% Text Node
+	\draw (237.45,111.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+	% Text Node
+	\draw (280.14,123.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+	% Text Node
+	\draw (362,72) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle r$};
+	% Text Node
+	\draw (502.05,86.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+	% Text Node
+	\draw (478.14,50.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+	% Text Node
+	\draw (435.45,63.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+	% Text Node
+	\draw (435.45,110.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+	% Text Node
+	\draw (478.14,122.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+	
+	
+	\end{tikzpicture}
+\end{center}
+
+$|r|=2$, i.e. $r^2=e,r\ne e$. 
+
+$r(v_0)=v_0$. $r(v_1)$ is now the vertex before $v_0$, rather than the vertex after $v_0$.
+
+If we try to put these two elements together:
+\begin{enumerate}
+\item $s^i$, $0\le i < n$: sends $v_0 \mapsto v_i, v_1\mapsto v_{i+1}$ (notes: $v_n=v_0,$ $s^0$ is the identity)
+\item $s^i r, 0\le i < n$: sends $v_0\mapsto v_i$, $v_1\mapsto v_{i-1}$ (notes: $v_{-1}=v_{n-1}$)
+\end{enumerate}
+
+\begin{center}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,564); %set diagram left start at 0, and has height of 564
+
+%Shape: Polygon [id:dp49287200362178374] 
+\draw   (122.05,85.82) -- (98.14,118.73) -- (59.45,106.16) -- (59.45,65.49) -- (98.14,52.92) -- cycle ;
+%Straight Lines [id:da769185021630433] 
+\draw    (156,92) -- (219.5,92) ;
+\draw [shift={(221.5,92)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Polygon [id:dp04135368142546714] 
+\draw   (302.05,87.82) -- (278.14,120.73) -- (239.45,108.16) -- (239.45,67.49) -- (278.14,54.92) -- cycle ;
+%Straight Lines [id:da07746711588184318] 
+\draw    (337,92) -- (400.5,92) ;
+\draw [shift={(402.5,92)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Polygon [id:dp3796710270270218] 
+\draw   (500.05,86.82) -- (476.14,119.73) -- (437.45,107.16) -- (437.45,66.49) -- (476.14,53.92) -- cycle ;
+%Straight Lines [id:da36560944411747065] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (31.7,85.82) -- (143.2,85.82) ;
+
+% Text Node
+\draw (124.05,82.82) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (100.14,49.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (57.45,62.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (57.45,109.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (100.14,121.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (181,72) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle r$};
+% Text Node
+\draw (304.05,87.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (280.14,51.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (237.45,64.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+% Text Node
+\draw (237.45,111.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (280.14,123.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (362,72) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle s^{2}$};
+% Text Node
+\draw (502.05,86.82) node [anchor=west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{2}$};
+% Text Node
+\draw (478.14,50.92) node [anchor=south west] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{1}$};
+% Text Node
+\draw (435.45,63.49) node [anchor=south east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{0}$};
+% Text Node
+\draw (435.45,110.16) node [anchor=north east] [inner sep=0.75pt]   [align=left] {$\displaystyle v_{4}$};
+% Text Node
+\draw (478.14,122.73) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle v_{3}$};
+
+
+\end{tikzpicture}
+\end{center}
+
+\begin{prop}
+$D_{2n}=\{s^i r^j: 0\le i < n, 0\le j < 2\}$, so $|D_{2n}|=2n$.
+\end{prop}
+
+\textit{What is $rs$?}
+
+$rs(v_0)=r(v_1)=v_{n-1}$ and $rs(v_1)=r(v_2)=v_{n-2}$. So 
+$$rs=s^{n-1}r = s^{-1}r$$
+
+\begin{corr}
+$D_{2n}$ is a finite nonabelian group.
+\end{corr}
+
+\begin{exercise}
+$D_{2n}=\{s^i r^j: 0\le i < n, 0\le j < 2\}$
+
+$|D_{2n}|=2n$
+
+$s^n=e, r^2=e,rs=s^{-1}r$
+
+These relations are enough to completely determine $D_{2n}$.
+\end{exercise}
+
+\textit{What's group theory about?}
+
+Basic answer: study sets with one binary op. A better answer: group theory is study of symmetry. If we resize or rotate $P_n$, then symmetries are the same.
+
+Kleinian view of geometry:
+\begin{itemize}
+	\item $D_{2n}$ captures what it means to be a regular $n$-gon
+	\item More generally, geometry is about study of symmetries
+\end{itemize}
+
+\section{Permutation groups}
+If $X$ is a set, let $\operatorname{Fun}(X,X)$ be set of functions $X\to X$. Then
+$$\circ: \operatorname{Fun}(X,X)\times \operatorname{Fun}(X,X) \to \operatorname{Fun}(X,X): (f,g)\mapsto f\circ g$$
+is an associative operation with an identity $\operatorname{Id}_X$. Let $S_X = \{f\in \operatorname{Fun}(X,X): f\text{ is a bijection}\}$
+
+\begin{prop}
+$S_X$ is a group under $\circ$.
+\end{prop}
+
+\begin{pf}
+See homework.
+\end{pf}
+
+\begin{defn}{symmetric/permutation group}
+Let $n\ge 1$. The symmetric group (or permutation group) $S_n$ is the group $S_X$ with $X=\{1,\ldots,n\}$.
+\end{defn}
+
+Elements of $S_n$ are bijections $\pi:\{1,\ldots,n\}\to \{1,\ldots,n\}$
+
+\textit{What makes a function $\pi:\{1,\ldots,n\}\to \{1,\ldots,n\}$ a bijection?}
+
+Every element of $\{1,\ldots,n\}$ must appear in the list $\pi(1),\ldots,\pi(n)$, and no element can appear twice ($\Leftarrow$ redundant by pig.-hole princ.)
+
+\textit{How many elements in $S_n$?}
+
+$n$ choices for $\pi(1)$, $n-1$ choices for $\pi(2)$, $\ldots$, $1$ choice for $\pi(n)$. So $n(n-1)\cdots 1 = n!$ choices $\implies |S_n|=n!$.
+
+Note $|S_1|=1!=1$, so $S_1$ is the trivial group.
+
+\subsection{Representations}
+Elements of $S_n$ are called \textbf{permutations}. There are a number of different ways to represent permutations:
+\begin{enumerate}
+\item \textbf{Two-line representation}:
+$$
+\pi=\left(\begin{array}{llllll}
+1 & 2 & 3 & 4 & 5 & 6 \\
+6 & 5 & 1 & 4 & 2 & 3
+\end{array}\right)
+$$
+\item \textbf{One-line representation}: $$\pi=651423$$
+This representation saves space than the previous one, but it is hard to do operations in group theory. The one below seems counter-intuitive, but convenient for doing operations.
+\item Note $\pi(1)=6, \pi(6)=3, \pi(3)=1$. Say $(163)$ is a \textbf{cycle} of $\pi$.
+
+\textbf{Disjoint cycle representation}: write down cycles of $\pi$
+$$
+\pi= (163)(25)(4)=(163)(25)
+$$
+We typically drop cycles of length 1.
+
+Identity is empty in disjoint cycle notation, so just use $e$. 
+
+The convention is that we start from the lowest item in the cycle, and sort the cycles by their lowest items.
+\end{enumerate}
+\subsection*{Multiplication}
+Multiplication can be done in two-line or disjoint cycle notation
+$$
+\begin{aligned}
+\pi&=\left(\begin{array}{cccccc}
+1 & 2 & 3 & 4 & 5 & 6 \\
+6 & 5 & 1 & 4 & 2 & 3
+\end{array}\right)=(163)(25) \\\\
+\sigma&=\left(\begin{array}{cccccc}
+1 & 2 & 3 & 4 & 5 & 6 \\
+2 & 6 & 4 & 5 & 3 & 1
+\end{array}\right)=(126)(345) \\\\
+\pi \sigma&=\left(\begin{array}{cccccc}
+1 & 2 & 3 & 4 & 5 & 6 \\
+5 & 3 & 4 & 2 & 1 & 6
+\end{array}\right)=(15)(234)
+\end{aligned}
+$$
+Note $i$ comes from the right: $\pi(\sigma(i))$.
+
+(It's a bit of a pain in one-line notation, so we don't use one-line notation often in group theory)
+
+\subsection*{Inversion}
+We can also take inverse in two-line or disjoint cycle notation
+$$
+\pi=\left(\begin{array}{llllll}
+1 & 2 & 3 & 4 & 5 & 6 \\
+6 & 5 & 1 & 4 & 2 & 3
+\end{array}\right)=(163)(25)
+$$
+$$
+\pi^{-1}=\left(\begin{array}{llllll}
+6 & 5 & 1 & 4 & 2 & 3 \\
+1 & 2 & 3 & 4 & 5 & 6
+\end{array}\right)\stackrel{*}{=}\left(\begin{array}{llllll}
+1 & 2 & 3 & 4 & 5 & 6 \\
+3 & 5 & 6 & 4 & 2 & 1
+\end{array}\right)=(136)(25)
+$$
+$*$: swap two rows and sort the columns by the first row. Disjoint cycle notation is even easier.
+
+If $\pi(i)=j$, then $\pi^{-1}(j)=i$, so cycles of $\pi^{-1}$ are cycles of $\pi$ in opposite order.
+
+\begin{defn}{fixed points}
+The fixed points of a permutation $\pi\in S_n$ are the numbers $1\le i\le n$ such that $\pi(i)=i$.
+\end{defn}
+
+\begin{defn}{support set}
+The support set of $\pi\in S_n$ is
+$$\operatorname{supp}(\pi) = \{1\le i\le n:\pi(i)\ne i\}$$
+\end{defn}
+
+\begin{defn}{disjoint}
+$\pi$ and $\sigma$ are disjoint if $\supp(\pi)\cap \supp(\sigma)=\emptyset$
+\end{defn}
+
+\begin{ex}
+$\supp((163)(25)) = \{1,2,3,5,6\}$
+\end{ex}
+
+\begin{remark}
+In general, $\supp(\pi)$ are numbers that appear in disjoint cycle representation of $\pi$ (when cycles of length one are dropped).
+
+$\supp(\pi)=\emptyset$ if and only if $\pi=e$
+
+$\supp(\pi^{-1}) = \supp(\pi)$
+
+If $i\in\supp(\pi)$, then $\pi(i)\in \supp(\pi)$
+\end{remark}
+
+\begin{defn}{commute}
+Two elements $g,h$ in a group $G$ commute if $gh=hg$.
+\end{defn}
+
+\begin{lemma}
+If $\pi,\sigma\in S_n$ are disjoint, then $\pi\sigma = \sigma\pi$.
+\end{lemma}
+
+\begin{pf}
+Suppose $1\le i \le n$. If $i\in\supp(i)$, then $\pi(i)\in\supp(\pi)$. Since $\pi,\sigma$ disjoint, $i,\pi(i)\not\in\supp(\sigma)$. So $\pi(\sigma(i))=\pi(i)=\sigma(\pi(i))$.
+
+By symmetry, $\pi(\sigma(i))=\sigma(\pi(i))$ if $i\in\supp(\sigma)$.
+
+If $i\not\in\supp(\pi)\cup \supp(\sigma)$, then $\pi(\sigma(i))=i=\sigma(\pi(i))$. 
+
+So $\pi(\sigma(i))=\sigma(\pi(i))$ for all $i$ $\implies\pi\sigma = \sigma\pi$.
+\end{pf}
+
+\subsection{Cycles}
+\begin{defn}{k-cycle}
+A $k$-cycle is an element of $S_n$ with disjoint cycle notation $(i_1i_2\cdots i_k)$.
+\end{defn}
+
+Suppose cycles of $\pi\in S_n$ are $c_1,\ldots,c_k$. We can regard $c_i$ as an element of $S_n$, $\pi=c_1\cdot c_2\cdot \cdots \cdot c_k$ as product in $S_n$. $c_i$ and $c_j$ are disjoint, so $c_ic_j=c_jc_i$. Note that order of cycles in disjoint cycle representation doesn't matter.
+
+\begin{ex}
+$\pi = (163)(25)=(25)\cdot (163)$
+\end{ex}
+
+We can also get an interesting prospective on this formula for the inverse of $\pi$ in the disjoint cycle notation. If $c_1,\ldots,c_k$ are cycles of $\pi$, then $\pi=c_1 c_2\cdots c_k$ as product in $S_n$. $c_i$ and $c_j$ are disjoint, so $c_ic_j=c_jc_i$. \\
+$\pi^{-1}=c_k^{-1}\cdots c_1^{-1} = c_1^{-1}\cdots c_k^{-1}$
+
+\begin{ex}
+If $c$ and $c'$ are non-disjoint cycles, then they don't necessarily commute:
+\\
+$(12)(23)=(123)$ while $(23)(12)=(123)^{-1}=(132)\ne (12)(23)$.
+\end{ex}
+
+If $\pi$ is a permutation, then $\pi$ commutes with $\pi^i$ for all $i$ since $\pi^{i+1}=\pi \pi^i = \pi^i \pi$, so $\pi$ and $\pi^i$ commute. However, note that they don't necessarily have disjoint support sets.
+
+\chapter{Subgroups}
+\section{Subgroups}
+\week{2}
+
+\begin{defn}{subgroup}
+Let $(G,\cdot)$ be a group. A subset $H\subseteq G$ is a \textbf{subgroup} if
+\begin{enumerate}[label=(\alph*)]
+\item for all $g,h\in H$, $g\cdot h\in H$ ($H$ is \textbf{closed under products}),
+\item for all $g\in H$, $g^{-1}\in H$ ($H$ is \textbf{closed under inverses}), and
+\item $e_G\in H$.
+\end{enumerate}
+Notation $H\le G$.
+\end{defn}
+
+\begin{ex}
+$\mathbb Z\le \mathbb Q^+ := (\mathbb Q, +)$
+
+$\mathbb Q_{>0}:= \{x\in\mathbb Q:x>0\} \le \mathbb Q^\times$.
+
+To check this: if $x,y\in \mathbb Q$, $x,y>0$, then $xy>0 \implies xy\in \mathbb Q_{>0}$.
+
+Also, if $x>0$, then $1/x>0\implies 1/x \in \mathbb Q_{>0}.$
+\end{ex}
+
+\begin{ex}[More complicated]
+Let $G=D_{2n}$, $s$ rotation.
+
+$H={e=s^0, s,s^2,\ldots,s^{n-1}}$ is a subgroup of $D_{2n}$.
+
+
+
+\begin{pf}
+\paragraph{Claim} $s^i\in H$ for all $i\in\mathbb Z$.
+\paragraph{Proof} Let $i=nk+r,0\le r < n$. Then $s^i=s^{nk+r}=(s^n)^k s^r=s^r$, since $s^n=e$. \hfill $\blacksquare$ 
+
+Now check subgroup: if $s^i, s^j \in H$, then $s^{i+j}\in H$. If $s^i\in H$, then $s^{-i}\in H$. Finally, $e\in H$ by construction.
+\end{pf}
+
+$H$ is the smallest subgroup containing $s$. The notation for $H$ is $\inner{s}$.
+\end{ex}
+
+\begin{ex}[$\mathbb Z$]
+Let $G=\mathbb Z = (\mathbb Z, +)$.
+
+If $m\in \mathbb Z$, then $m\mathbb Z: = \{km: k\in\mathbb Z\}=\{n\in \mathbb Z: m|n\}$ is a subgroup of $\mathbb Z$.
+
+In particular, if $m=0$, then $0\mathbb  Z=\{0\}$ is a subgroup of $\mathbb Z$, which is called the \textbf{trivial subgroup}.
+\end{ex}
+
+\begin{defn}{trivial subgroup}
+If $G$ is a group, $\{e\}$ is a subgroup called the \textbf{trivial subgroup}.
+\end{defn}
+
+\begin{defn}{proper subgroup}
+Also, $G$ is a subgroup of $G$. A subgroup $H$ is \textbf{proper} if $H\ne G$. Notation: $H<G$.
+\end{defn}
+
+$H$ is proper nontrivial subgroup if $\{e\}\ne H < G$.
+
+\begin{ex}[Not subgroups]
+$\mathbb Q_{\ge 0}:= \{x\in \mathbb Q:x\ge 0\}$ is not a subgroup of $\mathbb Q^+$. We can verify as follows:
+If $x,y\in \mathbb Q_{\ge 0}$, then $x+y\in \mathbb Q_{\ge 0}$. Also $0\in \mathbb Q_{\ge 0}$. But if $x\in \mathbb Q_{\ge 0}$, then $-x\not\in \mathbb Q_{\ge 0}$ unless $x=0$.
+
+
+$\mathbb Q^\times$ is not a subgroup of $(\mathbb Q, \cdot)$ because $(\mathbb Q,\cdot)$ is not a group.
+\end{ex}
+
+\begin{prop}
+If $H$ is a subgroup of $(G,\boxtimes)$, then $(H, \boxtimes |_{H\times H})$ is a group, such that
+\begin{enumerate}[label=(\alph*)]
+	\item the identity of $H$ is $e_H = e_G$, and 
+	\item the inverse of $g\in H$ is the same as the inverse of $g$ in $G$.
+\end{enumerate}
+\end{prop}
+
+\begin{pf}
+First, why is $\boxtimes |_{H\times H}$ a binary operation on $H$?
+
+Recall $\boxtimes$ is a function $G\boxtimes G\to G$ which implies $\boxtimes |_{H\times H}$ is a function $H\times H\to G$ if we restrict its domain. But if $g, h\in H$, then $g\boxtimes h\in H$. So we can think of $\boxtimes |_{H\times H}$ as function $H\times H\to H$. For the rest of this proof, we just denote this function by $\tilde{\boxtimes}$.
+
+Since $\boxtimes$ is associative, $\tilde{\boxtimes}$ is also associative.
+
+$e_H=e_G$ is identity for $\tilde{\boxtimes}$.
+
+If $g\in H$, then inverse $g^{-1}$ with respect to $\boxtimes$ is in $H$ by the definition of subgroup.
+
+Since $g\tilde{\boxtimes} g^{-1} = g\boxtimes g^{-1} = e_G = e_H$, and similarly $g^{-1}\boxtimes g = e_H$, $g^{-1}$ is inverse of $g$ with respect to $\tilde{\boxtimes}$.
+
+So $(H,\tilde{\boxtimes})$ is a group.
+\end{pf}
+
+Call $\tilde{\boxtimes}$ the \textbf{operation induced by} $\boxtimes$ on $H$. Usually just refer to $\tilde{\boxtimes}$ as $\boxtimes$.
+
+\begin{ex}
+$\mathbb Z$ is subgroup $\mathbb Q$ with operation $+$.
+
+If $H$ is group of $(G,\cdot)$, then $H$ is group with operation $\cdot$.
+\end{ex}
+
+\begin{prop}
+$H$ is subgroup if and only if
+\begin{enumerate}[label=(\alph*)]
+\item $H$ is non-empty, and
+\item $gh^{-1}\in H$ for all $g,h\in H$.
+\end{enumerate}
+\end{prop}
+
+\begin{pf}
+\begin{itemize}
+\item[$\Rightarrow$]  If $H$ is a subgroup of $G$, then $e_G\in H$, so $H\ne \emptyset$. Also if $g,h\in H$, then $h^{-1}\in H$, so $gh^{-1}\in H$.
+\item[$\Leftarrow$] By (a), there is some element $x\in H$. In part (b), let $g=h:= x$, then $xx^{-1}=e_G=e_H\in H$.
+
+Also by (b), $e_G\cdot x^{-1}=x^{-1}\in H$ (closed under inverses).
+
+If $x,y\in H$, then $y^{-1}\in H$, so $xy = x(y^{-1})^{-1}\in H$  (closed under inverses).
+\end{itemize}
+\end{pf}
+
+\begin{ex}
+Let $(V,+,\cdot)$ be a vector space.
+
+If $W$ is a subspace of $V$, then $W$ is a subgroup of $(V,+)$.
+
+Check: 
+\begin{itemize}
+	\item $0\in W$ so $W$ is non-empty. 
+	\item If $v,w\in W$, then $v-w\in W$.
+\end{itemize}
+Conclusion: $W$ is subgroup.
+\end{ex}
+
+\begin{prop}
+Suppose $H$ is a finite subset of $G$. Then $H$ is a subgroup of $G$ if and only if
+\begin{enumerate}[label=(\alph*)]
+\item $H$ is non-empty, and
+\item $gh\in H$ for all $g,h\in H$. 
+\end{enumerate}
+\end{prop}
+
+
+\begin{pf}
+Since $H$ is nonempty, suppose $g\in H$. By induction, we can show $g^n\in H$ for all $n\in \mathbb N$. Since $H$ is finite, sequence $g,g^2,g^3,\ldots\in H$ must eventually repeat. So $g^i=g^j$ for some $1\le i < j\implies g^n=e$ for $n=j-i$. Since $i<j$, then $n\ge 1$, therefore $g^n=e\in H$.
+
+Now we need to show it is closed under inverses. 
+\begin{itemize}
+\item $n=1$, then $g=e=g^{-1}$.
+\item $n>1$, then $g^{n-1}=g^{-1}\in H$.
+\end{itemize}
+\end{pf}
+
+\section{Subgroups generated by a set}
+\begin{prop}
+Suppose $\mathcal F$ is a non-empty set of subgroups of $G$. Then 
+$$L:=\bigcap_{H\in\mathcal F}H$$
+is a subgroup of $G$.
+\end{prop}
+
+\begin{pf}
+First we check it is non-empty. Since $e_G\in H$ for all $H\in\mathcal F$, then $e_G\in K$ $\implies K$ is non-empty.
+
+
+Suppose $x,y\in K$, then 
+$$
+\begin{aligned}
+&\implies x,y\in H & \forall H\in \mathcal F \\
+& \implies y^{-1}\in H&\forall H\in \mathcal F \\
+&\implies xy^{-1}\in H& \forall H\in\mathcal F\\ 
+&\implies xy^{-1}\in K
+\end{aligned}
+$$
+By \propref{2.3}, $K$ is a subgroup of $G$.
+\end{pf}
+
+\begin{defn}{subgroup generated by $S$ in $G$}
+Let $S$ be a subset of group $G$.
+The \textbf{subgroup generated by $S$ in $G$} is 
+$$\inner{S}:=\bigcap_{S\subseteq H \le G}H$$
+\end{defn}
+
+\begin{note}
+Intersection is non-empty because $S\subseteq G\le G$.
+
+If $S\subseteq K\le G$, then $\inner{S}\subseteq K$. So say that $\inner{S}$ is smallest subgroup of $G$ containing $S$.
+
+To simplify the notation: If $S=\{s_1,s_2,\ldots\}$, often write $\inner{S}=\inner{s_1,s_2,\ldots}.$
+
+We can write the trivial subgroup as $\inner{\emptyset} = \inner{e} = \{e\}$.
+\end{note}
+
+\begin{ex}[$D_{2n}$]
+Let $s$ be the rotation generator of $D_{2n}$. Let $K=\{s^0=e,s^1,s^2,\ldots,s^{n-1}\}$.
+
+As previously checked, $K$ is a subgroup of $D_{2n}$.
+
+Since $s\in K, \inner{s}\subseteq K$. 
+
+On the other hand, can show by induction that $s^i\subseteq \inner{s}$ for all $i\in\mathbb Z$.
+
+So $K\subseteq \inner{s} \implies \inner{s}=K$.
+\end{ex}
+
+$\inner{s}$ is constructed by taking all products of $s$ with itself. Can we generalize this example?
+
+Here we introduce a notation: If $S\subset G$, let $S^{-1}=\{s^{-1}:s\in S\}$.
+
+\begin{prop}
+If $S\subset G$, let 
+$$K=\{e\}\cup \{s_1\cdots s_k: k\ge 1,~~s_1,\ldots,s_k \in S\cup S^{-1}\}$$
+Then $\inner{S}=K$.
+\end{prop}
+
+
+\begin{pf}
+\paragraph{Claim 1} $S\subseteq K\subseteq \inner{S}$
+
+\paragraph{Proof} It is easy to show that $S\subseteq K$. We simply let $k=1$ and $s_1$ to be any element of $S$.
+
+To show the second part, we know $e\in \inner{S}$. Then we can prove by induction that $s_1\cdots s_k \in \inner{S}$ for all $k\ge 1$, $s_1,\ldots, s_k\in S\cup S^{-1}$. \claim 
+
+\paragraph{Claim 2} $K$ is a subgroup of $G$.
+
+\paragraph{Proof} $e\in K$ by construction.
+
+Suppose $x,y\in K$,
+$$
+\begin{aligned}
+x &= s_1\cdots s_k, k\ge 0, s_1,\ldots, s_k\in S\cup S^{-1}\\
+y & = t_1 \cdots t_\ell, \ell \ge 0, t_1,\ldots,t_\ell\in  S\cup S^{-1}
+\end{aligned}
+$$
+Then $xy = s_1\cdots s_k t_1 \cdots t_\ell \in K$ by construction. Also, $x^{-1} = s_k^{-1} \cdots s_1^{-1} \in K$ since $s_k\inv,\cdots,s_1\inv \in S\cup S^{-1}$. So $K$ is a subgroup. \claim
+
+$S\subseteq K$, and $\inner{S}$ is smallest subgroup containing $S$ $\implies \inner{S}\subseteq K$. Thus $\inner{S}=K$.
+\end{pf}
+
+\subsection{Lattice of subgroups}
+Before concluding this section, it is interesting to mention one closed related subject which the lattice of subgroups of $G$. 
+
+Subgroups of $G$ are ordered by set inclusion $\subseteq$. If $H_1,H_2\le G$, and $H_1\subseteq H_2$, then $H_1\le H_2$, so we also write this order as $\le$. Set of subgroups of $G$ with order $\le$ is called the \textbf{lattice of subgroups of $G$}. We don't need to deal with formal definitions and properties here.
+
+The picture below shows the subgroups of $\mathbb Z$, where $k\mathbb Z$ denotes the set containing all integers that are divisible by $k$.
+
+\begin{center}
+\begin{tikzpicture}
+
+
+\node (top) at (0, 1) {$\mathbb Z$};
+
+\node (bottom) at (0, -3) {$0 \mathbb Z$};
+
+\node (3) at (0, 0) {$3 \mathbb Z$};
+\node (2) at (-1, 0) {$2 \mathbb Z$};
+\node (cdots) at (1, 0) {$\cdots$};
+
+\node (4) at (-1, -1) {$4 \mathbb Z$};
+\node (6) at (0, -1) {$6 \mathbb Z$};
+\node (vdots) at (0, -2) {$\vdots$};
+
+\path[-] (top) edge (3);
+\path[-] (top) edge (2);
+\path[-] (top) edge (cdots);
+\path[-] (2) edge (6);
+\path[-] (3) edge (6);
+\path[-] (2) edge (4);
+\path[-] (2) edge (6);
+\path[-] (4) edge (vdots);
+\path[-] (6) edge (vdots);
+\path[-] (bottom) edge (vdots);
+\end{tikzpicture}
+\end{center}
+
+Subgroup below $H_1,H_2\le G$ in the lattice is $H_1\cap H_2$. In the picture above, it is $2\mathbb Z\cap 3\mathbb Z=6\mathbb Z$. Intuitively, a number is divisible by 2 and 3, which is the same thing as being divisible by 6.
+
+What about the subgroup above $H_1$ and $H_2$? The subgroup above $H_1,H_2$ is $\inner{H_1\cup H_2}$.
+
+
+\section{Cyclic groups}
+\begin{defn}{generate}
+A subset $S$ of a group $G$ \textbf{generates} $G$ if $\inner{S}=G$.
+\end{defn}
+
+\begin{defn}{cyclic}
+A group $G$ is \textbf{cyclic} if $G=\inner{a}$ for some $a\in G$.
+\end{defn}
+
+\begin{ex}
+$\mathbb Z=\inner{1} = \inner{-1}$ (generators are not unique)
+
+$\mathbb Z/n\mathbb Z=\inner{[1]} = \inner{-[1]}$
+
+$\mathbb Q^+ $ is not cyclic
+
+If $G$ is a group, then $\inner{a}$ is a cyclic group for any $a\in G$ (called the \textbf{cyclic subgroup generated by $a$}).
+\end{ex}
+
+\begin{lemma}
+\begin{enumerate}
+	\item If $a\in G$, then $\inner{a}=\{a^i:i\in\mathbb Z\}$.
+	\item If $|a|=n$, then $\inner{a}=\{a^i:0\le i < n\}$.
+\end{enumerate}
+\end{lemma}
+
+\begin{pf}
+\begin{enumerate}
+\item Follows from \propref{2.5} about $\inner{S}$.
+\item See argument for $\inner{s}$ in $D_{2n}$.
+\end{enumerate}
+\end{pf}
+\begin{remark}
+In the first part of \lemmaref{2.6}, it does not mean each element in the subgroup can  be uniquely represented in the form of $a^i$.
+\end{remark}
+Then we have two questions:
+\begin{itemize}
+	\item In (2), can $|\inner{a}|$ be smaller than $n$?
+	\item Does $|\inner{a}|$ determine $|a|$?
+\end{itemize}
+
+\begin{prop}
+If $G=\inner{a}$, then $|G|=|a|$.
+\end{prop}
+
+This proposition also applies to infinite groups.
+
+\begin{pf}
+From part 2 of \propref{2.6}, we know that there are at most $n$ elements in $\inner{a}$, then $|G|\le |a|$.
+
+Suppose $|G|=n< +\infty$. Then the sequence $a^0,a^1,\ldots,a^n\in G$ must have repetition. Thus there is $0\le i<j\le n$ with $a^i=a^j$. Then with the similar argument before, $a^{j-i}=e$, which implies that $|a|\le n$.
+
+Thus $|a|\le |G| \implies |a|=|G|$.
+\end{pf}
+
+\begin{remark}
+It is worth thinking that what happens if $|G|=\infty$ and it seems the proof only works with finite order. If $|G|=\infty$, then $|G|\le |a|$ will force $|a|$ to be infinite.
+\end{remark}
+
+\begin{ex}[$\mathbb Z$]
+$G=\mathbb Z$:
+\begin{itemize}
+	\item Infinite cyclic group
+	\item Generators are $+1$ and $-1$
+	\item Order of $m\in\mathbb Z$ is 
+	$$
+	|m| = \begin{cases}
+	+\infty & m\ge 0\\
+	1 & m=0
+	\end{cases}
+	$$
+	\item Cyclic subgroups: $\inner{m} = m\mathbb Z = \{km: k\in\mathbb Z\}$. (Note difference in $\inner{a}$ in additive and multiplicative notation)
+	
+	All subgroups of $\mathbb Z$ are cyclic
+\end{itemize}
+\end{ex}
+
+\subsection{$\mathbb Z/n\mathbb Z$}
+Can we analyze $\mathbb Z/n\mathbb Z$ in the same way? Recall $\mathbb Z/n\mathbb Z$ is the set of congruence classes mod $n$. We denote congruence class of $a\in \mathbb Z$ by $[a]$, or just $a$. For example, in $\mathbb Z/5\mathbb Z$, $3=8$.
+
+Then we might wonder:
+\begin{itemize}
+	\item What are the generators?
+	\item What are the orders of elements?
+	\item What are the subgroups?
+\end{itemize}
+
+
+Before we explore these questions, it is nice to have the following lemma which works for arbitrary group $G$.
+
+\subsection*{Generators}
+
+\begin{lemma}
+Suppose $G=\inner{S}$. Then $G=\inner{T}$ if and only if $S\subseteq \inner{T}$.
+\end{lemma}
+
+
+\begin{pf}
+It's relatively easy to prove.
+\begin{itemize}
+	\item[$\Rightarrow$] If $G=\inner{T}$, and we know $S\subseteq G$, then $S\subseteq \inner{T}$.
+	\item[$\Leftarrow$] If $S\subseteq \inner{T}$, and we know $\inner{S}$ is the smallest subgroup containing $S$, then $\inner{T}$ must contain the subgroup generated by $S$, which is $\inner{S}=G$, thus $G\subseteq \inner{T}$. And $\inner{T}$ is a subgroup as well, then $G=\inner{T}$.
+\end{itemize}
+\end{pf}
+
+What does this mean in our example? So $\mathbb Z/n\mathbb =\inner{[a]}$ if and only if $[1]\in\inner{[a]}$.
+
+$$
+\begin{aligned}
+\left[1\right] \in\langle[a]\rangle &\Longleftrightarrow x a=1 \quad \bmod n \text { for some } x \in \mathbb{Z}\\
+&
+\Longleftrightarrow x a-1=y n \text { for some } x, y \in \mathbb{Z} \\
+&\Longleftrightarrow x a+y n=1 \text { for some } x, y \in \mathbb{Z} \\
+&\Longleftrightarrow \operatorname{gcd}(a, n)=1
+\end{aligned}
+$$
+So $\inner{[a]}=\mathbb Z/n \mathbb Z$ if and only if $\gcd(a,n)=1$.
+
+\subsection*{Order of elements}
+
+\begin{lemma}
+If $G$ is a group, $g\in G$, $g^n=e$, then $|g| \midd n$.
+\end{lemma}
+\begin{pf}
+Exercise.
+\end{pf}
+
+If $a\in \mathbb Z$, then $n[a]=0$, so $|[a]| \midd n$.
+
+\begin{lemma}
+Suppose $a|n$. Then $|[a]| = {n\over a}$.
+\end{lemma} 
+
+\begin{pf}
+If $n=ka$, then $\ell[a]\ne 0$ for $1\le \ell < k$ and $k[a]=[ka]=0$, so $|[a]|=k$.
+\end{pf}
+
+\begin{lemma}
+Suppose $a\in\mathbb Z$, and let $b=\gcd(a,n)$. Then $\inner{[a]}=\inner{[b]}$.
+\end{lemma}
+
+\begin{pf}
+Since $b|a$, there is $k$ such that $a=kb$, then $[a]\in \inner{[b]}\implies \inner{[a]}\subseteq \inner{[b]}$.
+
+By properties of gcd, there is $x,y\in \mathbb Z$ such that $xa+yn=b$. So $[b]=x[a]\implies [b]\in \inner{[a]}\implies \inner{[b]}\subseteq \inner{[a]}$.
+
+Therefore $\inner{[a]}=\inner{[b]}$.
+\end{pf}
+
+Using these lemmas, we can find order for a general element in $\mathbb Z/n\mathbb Z$.
+
+\begin{prop}
+Suppose $a\in \mathbb Z$. Then 
+$$|[a]| = {n\over \gcd(a,n)}$$
+\end{prop}
+
+\begin{pf}
+Let $b=\gcd(a,n)$. Then $\inner{[a]}=\inner{[b]}$. So
+$$
+|[a]| = |\inner{[a]}| = |\inner{[b]}| = |[b]|
+$$
+Finally 
+$$|[b]| = {n\over b}$$
+\end{pf}
+
+\subsection*{Subgroups}
+\begin{corr}
+Let $n\ge 1$.
+\begin{itemize}
+	\item The order $d$ of any cyclic subgroup of $\mathbb Z/n\mathbb Z$ divides $n$.
+	\item For every $d|n$, there is a unique subgroup of $\mathbb Z/n\mathbb Z$ of order $d$. It is generated by $[a]$, where $\dis a={n\over d}$.
+\end{itemize}
+\end{corr}
+
+\begin{pf}
+If $|\inner{[a]}|=d$, then $d=|[a]|\midd n$ by \lemmaref{2.9}.
+Also, $d={n\over \gcd(a,n)}$, and by \lemmaref{2.11}, $\inner{[a]} = \inner{\left[{n\over d}\right]}$.
+
+Conversely, if $d|n$ and $\dis a={n\over d}$, then $|\inner{[a]}| = d$.
+\end{pf}
+
+\begin{ex}
+Cyclic subgroups of $\mathbb Z/6\mathbb Z$ are 
+\begin{itemize}
+	\item $\inner{6}=\{0\}$
+	\item $\inner{2} = \{0,2,4\}$
+	\item $\inner{3} = \{0,3\}$
+	\item $\inner{1} = \{0,1,2,3,4,5\}= \mathbb Z/6\mathbb Z$.
+\end{itemize}
+
+Cyclic subgroups of $\mathbb Z/p\mathbb Z$, $p$ prime
+\begin{itemize}
+\item $\inner{p} = \inner{0}$
+\item $\inner{1} = \mathbb Z/p\mathbb Z$
+\end{itemize}
+\end{ex}
+
+Every subgroup of a cyclic group is cyclic. So \corref{2.13} is a complete list of subgroups of $\mathbb Z /n\mathbb Z$. Every cyclic group is isomorphic to one of $\mathbb Z/n\mathbb Z, n\ge 1$, or $\mathbb Z$.
+
+\chapter{Homomorphisms}
+\section{Homomorphisms}
+\begin{defn}{homomorphism}
+Let $G$ and $H$ be groups. A function $\phi: G\to H$ is a \textbf{homomorphism} (or \textbf{morphism}) if 
+$$
+\phi(g\cdot h) = \phi(g)\cdot \phi(h)
+$$
+for all $g,h\in G$.
+\end{defn}
+
+\begin{ex}
+$\mathbb K$ field, $\mathbb K^\times = \{a\in \mathbb K, a\ne 0\}$ with operation $\cdot$.
+
+$\gl_n \mathbb K\to \mathbb K^\times: A\mapsto \det(A)$ is a homomorphism because $\det(AB)=\det(A)\det(B)$ for all invertible matrices $A,B$.
+
+Let $\mathbb R_{>0} = \{x\in \mathbb R: x>0\}\le \mathbb R^\times$. $\mathbb R_{>0}\to \mathbb R_{>0}: x\mapsto \sqrt{x}$ is a homomorphism since $\sqrt{xy}=\sqrt x \sqrt y$.
+
+Additive notation: $\phi: (G,+)\to (H,+)$ is a homomorphism if $\phi(x+y)=\phi(x)+\phi(y)$ for all $x,y\in G$. For example, $\phi:\mathbb Z\to \mathbb Z: k\mapsto mk$ is a homomorphism for any $m\in \mathbb Z$, since 
+$$\phi(x+y)=m(x+y)=mx+my = \phi(x)+\phi(y) \quad \forall x,y \in \mathbb Z$$
+
+If $V,W$ are vector spaces, and $T: V\to W$ is a linear transformation, then $T$ is a homomorphism from $(V,+)$ to $(W,+)$, since $T(v+w)=T(v)+T(w)$ for all $v,w\in V$.
+
+Mixed notation: $\mathbb R^+\to \mathbb R^\times: x\mapsto e^x$ is a homomorphism since $e^{x+y}=e^x\cdot e^y$ for all $x,y\in\mathbb R^+$.
+
+$\mathbb R^+\to \mathbb R^+: x\mapsto e^x$ is  not a homomorphism since $e^{x+y}\ne e^x + e^y$ for some    $x,y\in\mathbb R^+$ (e.g. $x=y=0$). 
+\end{ex}
+
+
+\begin{lemma}
+Suppose $\phi: G\to H$ is a homomorphism. Then
+\begin{enumerate}[label=(\alph*)]
+\item $\phi(e_G)=e_H$
+\item $\phi(g\inv)=\phi(g)\inv$
+\item $\phi(g^n)= \phi(g)^n$ for all $n\in \mathbb Z$
+\item $|\phi(g)| \midd |g|$ for all $g\in G$ ($n|\infty $ for all $n\in \mathbb N$)
+\end{enumerate}
+\end{lemma}
+
+\begin{pf}
+\begin{enumerate}[label=(\alph*)]
+\item $\phi(e_G)=\phi(e_G^2)=\phi(e_G)\cdot \phi(e_G)$\\
+so $e_{H}=\phi\left(e_{G}\right)^{-1} \cdot \phi\left(e_{G}\right)=\phi\left(e_{G}\right)^{-1} \cdot \phi\left(e_{G}\right) \cdot \phi\left(e_{G}\right)=\phi\left(e_{G}\right)$.
+\item $e_H=\phi(e_G)=\phi(gg^{-1})=\phi(g)\phi(g^{-1})$ and similarly $\phi(g^{-1})\phi(g)=e_H$, so $\phi(g^{-1})$ is the unique inverse of $\phi(g)$.
+\item Use induction for $n\ge 0$, use part (b) for $n<0$.
+\item If $|g|=n < +\infty$, then $g^n=e_G$ so $\phi(g)^n = \phi(g^n)=\phi(e_G)=e_H$. This implies\footnote{See homework} $|\phi(g)| \midd n$. 
+\end{enumerate}
+\end{pf}
+
+\begin{lemma}
+If $H\le G$, and $H$ is considered as a group with the induced operation from $G$, then $i:H\to G: x\mapsto x$ is a homomorphism.
+\end{lemma}
+
+\begin{pf}
+$i(g\cdot h) = g\cdot h = i(g)\cdot i(h)$
+\end{pf}
+
+\begin{lemma}
+If $\phi:G\to H$ and $\psi: H\to K$ are homomorphisms, then $\psi \circ \phi$ is a homomorphism.
+\end{lemma}
+
+\begin{pf}
+$\psi \circ \phi(g \cdot h)=\psi(\phi(g) \cdot \phi(h))=\psi(\phi(g)) \cdot \psi(\phi(h))$.
+\end{pf}
+
+
+\begin{corr}
+If $\phi:G\to H$ is a homomorphism, $K\le G$, then the \textbf{restriction} $\phi |_K$ is a homomorphism.
+\end{corr}
+
+\begin{pf}
+$\phi_K = \phi\circ i$, where $i:K\to G$ is the inclusion $x\mapsto x$.
+\end{pf}
+
+\section{Homomorphisms and subgroups}
+If $f:X\to Y$ is a function, $S\subseteq X$, then $f(S):=\{f(x):x\in S\}$
+
+\begin{prop}
+If $\phi:G\to H$ is a homomorphism, and $K\le G$, then $\phi(K)\le H$.
+\end{prop}
+
+\begin{pf}
+Since $K$ is non-empty, $\phi(K)$ is non-empty.
+
+If $x,y\in\phi(K)$, then $x=\phi(x_0), y=\phi(y_0)$ for $x_0,y_0\in K$.
+
+So $xy^{-1}=\phi(x_0)\phi(y_0)^{-1}=\phi(x_0)\phi(y_0\inv)=\phi(x_0y_0\inv)\in\phi(K)$, since $x_0y_0\inv\in K$.
+\end{pf}
+
+\begin{defn}{image}
+If $\phi:G\to H$ is a homomorphism, the \textbf{image} of $\phi$ is the subgroup $\Im \phi = \phi(G)\le H$.
+\end{defn}
+
+\begin{ex}
+Let $\phi:\mathbb R^+\to \mathbb R^\times: x\mapsto e^x$. $e^x>0$ for all $x\in \mathbb R$, so $\Im \phi \subseteq \mathbb R_{>0}$. If $y\in\mathbb R_{>0}$, then $y=\phi(\log y)$, so $\Im \phi = \mathbb R_{>0}$.
+
+If $K\le G$ and $i:K\to G$ is inclusion, then $\Im i=K$.
+
+$\phi:\mathbb Z\to \mathbb Z: k\mapsto mk$ for some $m\in \mathbb Z$. $\phi(\mathbb Z)=m\mathbb Z$.
+
+\end{ex}
+
+\begin{lemma}
+If $\phi:G\to H$ is a homomorphism with $\Im \phi \le K \le H$, then the function $\tilde{ \phi} : G\to K: x\to \phi(x)$ is also a homomorphism with $\Im\tilde{ \phi} = \Im \phi \le K$.
+\end{lemma}
+
+\begin{pf}
+$$
+\begin{aligned}
+\tilde{ \phi}(x\cdot y) &=\phi(x\cdot y)\\
+&= \phi(x)\cdot \phi(y) \text{ in } H\\
+&=\tilde{ \phi}(x)\cdot \tilde{ \phi}(y) \text{ in } K
+\end{aligned}
+$$
+Also $\tilde{ \phi}(G)=\phi(G)$, regarded as a subset of $K$.
+\end{pf}
+Usually just refer to $\tilde{ \phi}$ as $\phi$.
+
+\begin{lemma}
+A homomorphism $\phi:G\to H$ is surjective if and only if $\Im\phi = H$.
+\end{lemma}
+
+\begin{pf}
+Obvious from definition.
+\end{pf}
+
+\begin{corr}
+$\phi$ induces a surjective homomorphism $\tilde{ \phi}:G\to K$, where $K=\Im\phi$.
+\end{corr}
+
+\begin{remark}
+From \lemmaref{3.7}, if $\phi$ is not surjective, then $\Im\phi <H$, then we can let $K=\Im\phi$, and then construct a surjective homomorphism by \lemmaref{3.6}.
+
+Because this is a bit abstract, it is helpful to go through some examples.
+
+Recall the previous example: Let $\phi:\mathbb R^+\to \mathbb R^\times: x\mapsto e^x$. $e^x>0$ for all $x\in \mathbb R$. This is not surjective, because $\Im \phi = \mathbb R_{>0}$. If we restrict the codomain to be $\mathbb R_{>0}$, then it is surjective.
+
+Similarly for $\phi:\mathbb Z\to \mathbb Z: k\mapsto mk$ for some $m\in \mathbb Z$, but it induced surjective homomorphism $\mathbb Z\to m\mathbb Z$.
+\end{remark}
+
+\begin{prop}
+Let $\phi:G\to H$ be a homomorphism. If $S\subseteq G$, then $\phi(\inner{S}) = \inner{\phi(S)}$.
+\end{prop}
+
+\begin{pf}
+$\phi\left(S^{-1}\right)=\left\{\phi\left(s^{-1}\right): s \in S\right\}=\left\{\phi(s)^{-1}: s \in S\right\}=\phi(S)^{-1}$. So 
+$$
+\begin{aligned}
+\phi(\langle S\rangle) &=\phi\left(\left\{s_{1} \cdots s_{k}: k \geq 0, s_{1}, \ldots, s_{k} \in S \cup S^{-1}\right\}\right) \\
+&=\left\{\phi\left(s_{1}\right) \cdots \phi\left(s_{k}\right): k \geq 0, s_{1}, \ldots, s_{k} \in S \cup S^{-1}\right\} \\
+&=\left\{t_{1} \cdots t_{k}: k \geq 0, t_{1}, \ldots, t_{k} \in \phi(S) \cup \phi(S)^{-1}\right\} \\
+&=\langle\phi(S)\rangle
+\end{aligned}
+$$
+\end{pf}
+\begin{remark}
+We used the fact that $\phi(S\cup S\inv) = \phi(S)\cup \phi(S\inv)$, but it doesn't work for intersection.
+\end{remark}
+
+If $f:X\to Y$ is a function, and $S\subseteq Y$, then $f\inv (S):= \{x\in X:f(x)\in S\}$.
+
+\begin{prop}
+If $\phi:G\to H$ is a homomorphism, $K\le H$, then $\phi\inv(K)\le G$.
+\end{prop}
+
+\begin{pf}
+$\phi(e_G) = e_H\in K$, so $e_G\in \phi\inv(K)$.
+
+If $x,y\in \phi\inv(K)$, then $\phi(x),\phi(y)\in K$. Thus $\phi(xy\inv)=\phi(x)\phi(y)\inv \in K$. Hence $xy\inv\in \phi\inv (K)$. Thus it is a subgroup of $G$.
+\end{pf}
+
+\begin{defn}{kernel}
+If $\phi: G\to H$ is a homomorphism, then the \textbf{kernel} of $\phi$ is the subgroup $\ker\phi:=\phi\inv({e_H})=\{g\in G:\phi(g)=e_H\}\le G$.
+\end{defn}
+
+\begin{ex}
+For $\det: \gl_n \mathbb K \to \mathbb K^\times$, $\ker \det = \{A\in \gl_n: \det(A)=1\}$.\\
+This subgroup of $\gl_n \mathbb K$ is called the \textbf{special linear group}, and is denoted by $\SL_n \mathbb K$.
+
+If $\phi:\mathbb Z\to \mathbb Z: k\mapsto mk$, then $\phi(k)=0$ if and only if $mk=0$, so
+$$
+\ker \phi=
+\begin{cases}
+\{0\} & m\ne 0\\
+\mathbb Z & m=0
+\end{cases}
+$$
+
+If $\phi: \mathbb R\to \mathbb R^\times: x\mapsto e^x$, then $e^x=1$ if and only if $x=0$, so $\ker\phi = \{0\}$.
+\end{ex}
+We can generalize the last example into the following proposition.
+
+\begin{prop}
+A homomorphism $\phi:G\to H$ is injective if and only if $\ker\phi = \{e_G\}$.
+\end{prop}
+
+\begin{pf}
+\begin{itemize}
+	\item[$\Rightarrow$] If $\phi$ is injective, then $\phi(x)=\phi(e_H) = \phi(e_G)$ if and only if $x=e_G$, so $\ker\phi=\{e_G\}$.
+	
+	\item[$\Leftarrow$] Suppose $\ker\phi=\{e_G\}$, and $\phi(x)=\phi(y)$. Then $\phi(xy\inv) = \phi(x)\phi(y)\inv = e_H$, so $xy\inv\in \ker\phi$.
+	
+	But then $xy\inv = e_G$, so $x=y$ which implies that $\phi$ is injective.
+	
+\end{itemize}
+\end{pf}
+
+\subsection{Application: subgroups of cyclic groups}
+\begin{prop}
+If $H$ is a subgroup of a cyclic group $G$, then $H$ is cyclic.
+\end{prop}
+
+\begin{pf}
+We need following facts:
+\begin{enumerate}
+\item All subgroups of $\mathbb Z$ are of the form $m\mathbb Z=\inner{m}$, hence cyclic.
+\item $G$ is cyclic if and only if there is surjective homomorphism $\mathbb Z\to G$.
+\item If $f:X\to Y$ is a surjective function, and $S\subseteq Y$, then $f(f\inv(S))=S$.
+\end{enumerate}
+The first two are in the homework. The last one is not hard to see.
+
+Since $G$ is cyclic, there is a surjective homomorphism $\phi:\mathbb Z\to G$.
+
+Since all subgroups of $\mathbb Z$ are cyclic, there is $m\in \mathbb Z$ such that $\phi\inv(H)=\inner{m}$.
+
+Let $\psi: \mathbb Z\to \mathbb Z$ be homomorphism with $\psi(k)=mk$.
+
+Then $\phi\circ \psi: \mathbb Z\to G$ is homomorphism.
+
+$\phi\circ \psi(\mathbb Z)= \phi(m\mathbb Z)=\phi(\phi\inv (H))=H$.
+
+Then we can restrict codomain of $\phi\circ \psi$ to get surjective homomorphism $\mathbb Z\to H$.
+
+Hence $H$ is cyclic.
+\end{pf}
+
+\section{Isomorphisms}
+\begin{defn}{in/sur/bi-jective}
+Let $f:X\to Y$ be a function. Then $f$ is:
+\begin{enumerate}
+\item \textbf{injective} if for all $x,y\in X$, $f(x)=f(y)\implies x=y$,
+\item \textbf{surjective} if for all $y\in Y$, $\exists x\in X$ with $f(x)=y$, and
+\item \textbf{bijective} if $f$ is both injective and surjective.
+\end{enumerate}
+\end{defn}
+
+\begin{prop}
+$f:X\to Y$ is a bijection if and only if  there is a function $g:Y\to X$ such that $f\circ g=1_Y$ and $g\circ f = 1_X$.
+\end{prop}
+
+If $g$ exists, then it is unique, and we denote it by $f\inv$.
+
+\begin{defn}{isomorphism}
+A homomorphism $\phi:G\to H$ is an \textbf{isomorphism} if $\phi$ is a bijection.
+\end{defn}
+
+\begin{lemma}
+$\phi: G\to H$ is an isomorphism if and only if $\ker\phi = \{e_G\}$ and $\Im\phi = H$.
+\end{lemma}
+
+\begin{ex}
+$\mathbb R^+\to \mathbb R_{>0}:x\mapsto e^x$ is an isomorphism.
+
+If $\phi:G\to H$ is injective, then $\phi$ induces an isomorphism $G\to \Im\phi$.
+\end{ex}
+
+\begin{prop}
+Suppose $\phi:G\to H$ is an isomorphism. Then $\phi\inv:H\to G$ is also an isomorphism.
+\end{prop}
+
+\begin{pf}
+$\phi\inv$ is also a bijection, so just need to show that it is a homomorphism.
+
+If $g,h\in H$, then 
+$$
+\phi(\phi\inv(g)\cdot \phi\inv (h)) = \phi(\phi\inv(g))\phi(\phi\inv(h)) = g\cdot h
+$$
+So $\phi\inv$ is a homomorphism, hence isomorphism.
+\end{pf}
+
+\begin{corr}
+A homomorphism $\phi:G\to H$ is an isomorphism if and only if there is a homomorphism $\psi:H\to G$ such that
+\begin{itemize}
+	\item $\psi\circ \phi = 1_G$, and 
+	\item $\phi\circ \psi=1_H$.
+\end{itemize}
+\end{corr}
+
+\begin{pf}
+\begin{itemize}
+	\item[$\Rightarrow$] If $\phi$ is an isomorphism, then can take $\psi=\phi\inv$.
+	
+	\item[$\Leftarrow$] If $\psi$ exists, then $\phi$ is a bijection.
+	
+\end{itemize}
+\end{pf}
+
+\begin{defn}{isomorphic}
+We say that $G$ and $H$ are \textbf{isomorphic} if there is an isomorphism $\phi:G\to H$.
+
+Notation: $G\iso H$.
+\end{defn}
+
+Key facts:
+\begin{itemize}
+\item If $G\iso H$ then $H\iso G$.
+\begin{pf}
+	If $\phi:G\to H$ is an isomorphism, then $\phi\inv:H\to G$ is an isomorphism.
+\end{pf}
+\item If $G\iso H$ and $H\iso K$ then $G\iso K$.
+\begin{pf}
+	If $\phi:G\to H$ is an isomorphism and $\psi:H\to K$ is an isomorphism, then $\psi\circ \phi$ is an isomorphism.
+\end{pf}
+\item $G\iso G$.
+\begin{pf}
+$1_G:G\to G$ is an isomorphism.
+\end{pf}
+\end{itemize}
+
+
+\paragraph{Idea} If $G\iso H$, then $G$ and $H$ are identical as groups.
+
+If $\phi:G\to H$ is an isomorphism, then
+\begin{itemize}
+\item $|G|=|H|$
+\item $G$ is abelian if and only if $H$ is abelian
+\item $|g| = |\phi(g)|$ for all $g\in G$
+\item $K\subseteq G$ is a subgroup of $G$ if and only if $\phi(K)$ is a subgroup of $H$
+\end{itemize}
+
+\begin{prop}
+If $G$ and $H$ are cyclic groups, then $G\iso H$ if and only if $|G|=|H|$.
+\end{prop}
+
+\begin{pf}
+Suppose $|G|=\inner{a}$, $H=\inner{b}$.
+
+\begin{itemize}
+\item[$\Leftarrow$] Assume that $|G|=|H|$.
+
+\paragraph{Claim} $a^i=a^j$ for $i<j$ if and only if $|a|\midd j-i$.
+
+\textbf{Proof}
+
+\begin{itemize}
+	\item[$\Leftarrow$] If $a^i = a^j$ then $a^{j-i}=e$.
+	\item[$\Rightarrow$] If $|a|\midd j-i$, then $j-i=k|a|$. So $a^{j-i}=a^{k|a|}=e\implies a^j=a^i$. \claim
+\end{itemize}
+
+Note: if $|a|=+\infty$, $a^i\ne a^j$ for all $i\ne j\in \mathbb Z$.
+
+Then we define a function $\phi: G\to H: a^i\mapsto b^i$.
+
+Well-defined? $|a|=|G|=|H|=|b|$.
+\\$a^i=a^h \implies |a|\midd j-i \implies |b| \midd j-i \implies b^i=b^j$
+
+Homomorphism? $\phi(a^i\cdot a^j ) = \phi(a^{i+j}) = b^{i+j}=b^i\cdot b^j = \phi(a^i)\cdot \phi(a^j)$ for all $a^i,a^j\in G$.
+
+Inverse? $\psi:H\to G: b^i\mapsto a^i$ is well-defined. Clearly $\psi$ is inverse to $\phi$.
+
+Thus $\phi$ is isomorphism $\implies G\iso H$.
+
+\item[$\Rightarrow$] If $G\iso H$, then $|G|=|H|$ which holds for all groups. Same cardinality thus same order.
+
+\end{itemize}
+\end{pf}
+
+\begin{corr}
+Suppose $G$ is a cyclic group.
+\begin{itemize}
+	\item If $|G|=+\infty$, then $G\iso \mathbb Z$.
+	\item If $|G|=n<+\infty$, then $G\iso \mathbb Z/n\mathbb Z$.
+\end{itemize}
+\end{corr}
+
+\begin{corr}
+Cyclic groups are abelian.
+\end{corr}
+
+\begin{defn}{multiplicative form of cyclic groups}
+Let $a$ be formal indeterminate (can use any letter). Let 
+\begin{itemize}
+\item $C_\infty=\{a^i:i\in \mathbb Z\}$, $a^i \cdot a^j = a^{i+j}$
+\item $C_n =\{a^i:i\in \mathbb Z/n \mathbb Z\}$, $a^i\cdot a^j=a^{i+j}$
+\end{itemize}
+\end{defn}
+Of course we have $C_\infty \iso \mathbb Z$ via $a^i\mapsto i$, and $C_n\iso \mathbb Z/n\mathbb Z$ via $a^i\mapsto i$.
+
+\section{Cosets}
+\week{3}
+Recall linear subspaces are motivation for definition of subgroups. Let $T:V\to W$ be a linear transformation. (so $T$ is also a group homomorphism $(V,+)\to (W,+)$). $\ker T=\{x\in V:T(x)=0\}= $ ``solutions to $Tx=0$".
+
+What are solutions to $Tx=b$?
+
+They can be empty: $Tx=b$ has a solution if and only if $b\in \Im T$. If $b\in \Im T$, and $Tx=b$ has a solution $x_0$, then all other solutions are of the form $x_0+x_1$, for $x_1\in \ker T$.
+
+Conclusion: space of solutions has form $x_i+\ker T$. $x_0+\ker T$ is called an \textbf{affine} subspace. (it's like a linear subspace, but doesn't have to contain 0). We can still talk about the dimension.
+
+\begin{defn}{coset}
+If $S\subseteq G$, and $g\in G$, we let 
+$$gS=\{gh:h\in S\} ~\text{ and }~ Sg=\{hg:h\in S\}$$
+If $H\le G$, $gH$ is called a \textbf{left coset} of $H$ in $G$ and $Hg$ is called a \textbf{right coset} of $H$ in $G$.
+\end{defn}
+\begin{remark}
+We also refer these sets: left/right translate of $S$ by $g$.
+
+For abelian groups, $gH=Hg$.
+
+Additive notation: coset of $H$ in $(G,+)$ is $g+H$.
+\end{remark}
+
+\begin{ex}
+$U$ subspace of vector space $(V,+,\cdot)$, cosets of $U$ are affine subspaces $v+U$ for $v\in V$.
+
+Given $m\in \mathbb Z$, cosets of $m\mathbb Z$ are sets
+$$a+m\mathbb Z=\{a+km:k\in \mathbb Z\}=\{x\in \mathbb Z:x\equiv a\mod m\}$$
+We can think of the cosets as the sets of solutions to system of equations.
+\end{ex}
+
+\begin{ex}[Dihedral group $\inner{s}$]
+Recall $D_{2n}=\{s^ir^j: 0\le i < n, j\in \{0,1\}\}$.
+
+Let $H=\inner{s}=\{e=s^0,s^1,\ldots,s^{n-1}\}$
+
+\textit{What are the right cosets of $H$?}
+
+$$
+\begin{aligned}
+H &= He \\
+Hr&= \{r,sr,\ldots,s^{n-1}r\}\\
+Hs^i &= \{s^i,s^{i+1},\ldots,s^{n-1},e,s^1,\ldots,s^{i-1}\}=H\\
+Hs^ir &= \{s^ir,s^{i+1}r,\ldots,s^{n-1}r,r,sr,\ldots,s^{i-1}r\}=Hr
+\end{aligned}
+$$
+Conclusion: right cosets are $H$ and $Hr$.
+
+Also $D_{2n}=H\sqcup Hr$, where $\sqcup$ is disjoint union.
+
+\textit{What about the left cosets of $H=\inner{s}$?}
+
+\begin{exercise}
+\begin{itemize}[leftmargin=1em]
+\item use $rs=s\inv r$ to show $s^i=rs^{-i}$ for all $i\in \mathbb Z$.
+\item if $S\subseteq G$, $g,h\in G$, then $ghS=g(hS)$. This follows from the associativity of the group.
+\end{itemize}
+\end{exercise}
+With these facts,
+$$
+\begin{aligned}
+s^iH&=H\\
+s^irH &= rs^{-i}H = rH
+\end{aligned}
+$$
+Conclusion: left cosets of $H$ are $H, rH$
+$$
+\begin{aligned}
+rH &= \{r,rs,rs^2,\ldots,rs^{n-1}\}\\
+&= \{r,s\inv r,s^{-2}r,\ldots,s^{1-n}r\}\\
+&= \{r,s\inv r,s^{-2}r,\ldots,sr\}\\
+&= \{r,s^{n-1}r,s^{n-2}r,\ldots,sr\}\\
+&= Hr
+\end{aligned}
+$$
+\end{ex}
+\begin{ex}[Dihedral group $\inner{r}$]
+\textit{What about $H=\inner{r}=\{e,r\}$}?
+
+Left cosets: $rH=\{r,e\}=H$ and $s^i H = \{s^i, s^i r\}= s^irH$.
+
+Conclusion: Left cosets are $s^iH,0\le i<n$, and
+$$
+D_{2n}= \bigsqcup_{i=0}^{n-1}s^iH
+$$
+
+Right cosets: $Hr=\{r,e\}=H$ and $Hs^i=\{s^i,rs^i\}=\{s^i,s^{-i}r\}$\\
+$Hs^i r = \{s^ir,s^{-i}\}=Hs^{-i}$
+
+Conclusion: Right cosets are $Hs^i, 0\le i < n$, and $D_{2n}=\dis \bigsqcup_{i=0}^{n-1}Hs^i$.
+
+In this case, left cosets and right cosets are different.
+\end{ex}
+
+\begin{defn}{set of left/right cosets}
+If $H\le G$, let 
+$$G/H=\{gH:g\in G\}=\{S\subseteq G:S=gH \text{ for some }g\in G\}$$
+be the \textbf{set of left cosets} of $H$ in $G$, and 
+$$H\setminus G = \{Hg:g\in G\}=\{S\subseteq G:S=Hg\text{ for some } g\in G\}$$
+be the \textbf{set of right cosets} of $H$ in $G$.
+\end{defn}
+\begin{remark}
+It is read as $G \mod H$. We count each subset once.
+
+We  are very interested in trying to understand $G/H$ and $H\setminus G$.
+\end{remark}
+
+\begin{ex}[$D_{2n}$]
+$D_{2n}/\inner{s} = \{\inner{s},r\inner{s}\}$
+
+$D_{2n}/\inner{r} = \{s^i\inner{r}, 0\le i < n\}$
+\end{ex}
+
+
+\begin{ex}[$\znz$]
+Consider $n\mathbb Z\le \mathbb Z$.
+
+$a+n\mathbb Z=\{x\in \mathbb Z:x\equiv a \mod n\}=:[a]$. Thus
+$$
+\begin{aligned}
+\znz &= \{a+n\mathbb Z:a\mathbb Z\}\\
+&= \{a+n\mathbb Z:0\le a < n\}\\
+&= \{[a]:0\le a < n\}
+\end{aligned}
+$$
+Big question for next week: for $H\le G$, is $G/H$ always a group? spoiler: no...
+\end{ex}
+
+Suppose $\phi:G\to K$ is a homomorphism, let $H=\ker\phi$. Note that $\phi(x)=b$ has a solution $x$ for $b\in K$ if and only if $b\in\Im \phi$.
+
+\begin{lemma}
+Suppose $\phi(x_0)=b$. The set of solutions $\phi\inv(\{b\})$ to $\phi(x)=b$ is $x_0H=Hx_0$.
+\end{lemma}
+
+\begin{pf}
+Suppose $\phi(x_1)=b$. Then $\phi(x_0\inv x_1)=\phi(x_0)\inv \phi(x_1)=b\inv b=e$. Thus $x_0\inv x_1\in H$. Therefore $x_1=x_0(x_0\inv x_1)\in H$.
+
+Conversely, if $x_1=x_0h$ for $h\in H$, then $\phi(x_1)=\phi(x_0h)=\phi(x_0)\phi(h)=be = b$. Therefore, every element of $x_0H$ is a solution.
+
+Same argument for right cosets shows set of solutions is $Hx_0$.
+\end{pf}
+In this case, left cosets are right cosets.
+
+\begin{lemma}
+Suppose $\phi(x_0)=b$. Then set of solutions to $\phi(x)=b$ is $x_0\cdot \ker\phi$.
+\end{lemma}
+
+\begin{prop}
+If $\phi:G\to K$ is a homomorphism, then there is a bijection between $G/\ker\phi$ and $\Im\phi$.
+\end{prop}
+
+\begin{pf}
+$g\cdot \ker\phi\in G/\ker\phi$ is the set of solutions to $\phi(x)=b$ where $b=\phi(g)$. As a result, $\phi(g\cdot \ker\phi)=\{b\},$ $b\in \Im\phi$.
+
+In the other direction, given $b\in\Im\phi$, $g\ker\phi = \phi\inv(\{b\})$.
+
+From \lemmaref{3.21}, we see these two mappings are inverses of each other, thus bijection.
+\end{pf}
+
+\begin{ex}
+Suppose $G=\mathbb Z$, $K=\mathbb Z/n\mathbb Z$.
+
+From tutorial: there is a homomorphism $\phi:\mathbb Z\to \znz:a\mapsto [a]$.
+
+$\ker \phi = \mathbb Z$, $\Im\phi = \znz$.
+
+Elements of $\znz = \{[a]:0\le a < n\}=\{a+n\mathbb Z:0\le a <n\}$
+
+$a+n\mathbb Z$ is the set of solutions of $[x]\equiv[a]$ in $\znz$.
+\end{ex}
+
+\section{The index and Lagrange's theorem}
+Given $H\le G$, how many left cosets does $H$ have in $G$?
+
+\begin{defn}{index}
+The \textbf{index} of $H$ in $G$ is 
+$$
+[G:H] :=\begin{cases}
+|G/H| & G/H \text{ is finite}\\
++\infty & G/H \text{ is infinite}
+\end{cases}
+$$
+\end{defn}
+\begin{thm}[Lagrange's theorem]
+	If $H\le G$, then
+	$$|G|=[G:H]\cdot |H|$$
+\end{thm}
+
+\begin{remark}
+Why are we use left cosets here for index? Why not right cosets? Anything holds for left cosets should also be expected hold for right cosets with the order of product  reversed. Lagrange's theorem didn't mention the order of product. Thus we should expect it holds for right cosets as well. Thus when $G$ is finite, Lagrange's theorem should imply the number of left cosets is equal to the number of right cosets.
+\end{remark}
+
+\begin{prop}
+The function $\phi:G/H\to H\setminus G:S\mapsto S\inv$ is a bijection.
+\end{prop}
+
+\begin{pf}
+First we check $\phi$ is will defined: if we are given left coset $S$, then $S\inv$ is a right coset.
+
+Suppose $S\in G/H$, so $S=gH$ for some $g\in G$. Then
+$$\begin{aligned}
+S\inv &= \{(gh)\inv: h\in H\}\\
+&= \{h\inv g\inv:h\in H\}\\
+&\stackrel{*}{=} \{hg\inv: h\in H\}\\
+&= Hg\inv 
+\end{aligned}$$
+$*$: because $H\to H:h\mapsto h\inv$ is a bijection.
+
+So $\phi$ is well-defined, and same argument shows $\psi: H\setminus G\to G/H:S\mapsto S\inv$ is well-defined.
+
+Finally, $\psi$ is an inverse to $\phi$.
+\end{pf}
+
+Thus can use either left or right cosets to define index:
+\begin{corr}
+If $H\le G$ then
+$$
+[G:H]=
+\begin{cases}
+|H\setminus G| & H\setminus G\text{ is finite}\\
++\infty & H\setminus G\text{ is infinite}
+\end{cases}
+$$
+\end{corr}
+
+\begin{thm}[Lagrange's theorem (detailed)]
+If $H\le G$, then $|G|=[G:H]\cdot |H|$. (In particular, $|H|$ divides $|G|$.) Furthermore, if $G$ is finite, then $[G:H]=\dis{|G|\over |H|}$.
+\end{thm}
+\begin{remark}
+We don't want to use the second formula if $|G|$ and $|H|$ both are infinite. See proof in the next section.
+\end{remark}
+
+\begin{ex}
+$G=D_{2n}$, $H=\inner{s}$, $|D_{2n}|=2n$, $|H|=n$, so $[G:H]=2$.
+
+$G=D_{2n}$, $H=\inner{r}$, $|D_{2n}|=2n$, $|H|=2$, so $[G:H]=n$.
+
+$G=\mathbb Z$, $H=m\mathbb Z$. $|G|=|H|=+\infty$, $[G:H]=|\mathbb Z/m\mathbb Z|=m$. So $|G|=[G:H]\cdot |H|$, but we don't get any info about $[G:H]$ from Lagrange's theorem. However, it still gives us some info in many cases.
+\end{ex}
+
+
+\begin{corr}
+	If $x\in G$, then $|x|$ divides $|G|$.
+\end{corr}
+\begin{pf}
+$|x|=|\inner{x}|$ and $|\inner{x}|$ divides $|G|$.
+\end{pf}
+\begin{prop}
+If $|G|$ is prime, then $G$ is cyclic.
+\end{prop}
+\begin{pf}
+Here we don't treat $+\infty$ as a prime number, and 1 is not a prime number.
+
+Let $x\in G$, $x\ne e$. Then $|x|\ne 1$, and $|x| \midd |G|$, so $|x|=|G|$. Since $|\inner{x}|=|x| = |G|$, $G=\inner{x}$.
+\end{pf}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c | l}
+	Order & Known groups \\\hline 
+	1 & Trivial group \\
+	2 & $\zz{2}$\\
+3 & $\mathbb Z/ 3 \mathbb Z$\\
+4 & $\mathbb Z/ 4 \mathbb Z$, ??\\
+5 & $\mathbb Z/ 5 \mathbb Z$\\
+6 & $\mathbb Z/ 6 \mathbb Z$, $D_6=S_3$, ??\\
+7 & $\mathbb Z/ 7 \mathbb Z$\\
+8 & $\mathbb Z/ 8 \mathbb Z$, $D_8$, ?? \\
+9 & $\mathbb Z/ 9 \mathbb Z$, ??\\
+\end{tabular}
+
+\caption{Groups of small order}
+\end{table}
+?? = could be more groups.
+
+\begin{corr}
+If $\phi:G\to K$ is a homomorphism, then $|\Im \phi| = [G:\ker \phi]$, and hence divides $|G|$.
+\end{corr}
+
+\begin{pf}
+There is a bijection $G/\ker\phi\to \Im\phi$, so $|\Im\phi| = [G:\ker\phi]$. Then Lagrange's theorem implies $[G:H]$ divides $|G|$ for any $H\le G$.
+\end{pf}
+\begin{note}
+Lagrange's theorem also implies that $|\Im\phi|$ divides $|K|$.
+\end{note}
+
+\begin{exercise}
+If $G,K$ are groups, then $\phi:G\to K:g\mapsto e_K$ is a homomorphism (called the \textbf{trivial homomorphism}).
+
+$\phi:G\to K$ is the trivial homomorphism if and only if $\Im\phi=\{e\}$, the trivial subgroup.
+\end{exercise}
+
+\begin{corr}
+If $G$ and $K$ have coprime order, then the only homomorphism $\phi:G\to K$ is the trivial homomorphism.
+\end{corr}
+\section{Proof of Lagrange's theorem}
+How to prove this theorem?
+
+Recall 
+$$
+\begin{aligned}
+D_{2n}&= \{s^ir^j: 0\le i < n, j \in \{0,1\}\}\\
+&= \inner{s} \sqcup r\inner{s} \quad (|s|=n)\\
+&= \bigsqcup_{i=0}^{n-1}s^i \inner{r} \quad (|r|=2)
+\end{aligned}
+$$
+In example, cosets of $H$ are disjoint, we can divide $G$ into $[G:H]$ sets of size $|H|$. Does this work in general? Need to better understand cosets.
+
+\begin{prop}
+Let $H\le G$, and suppose $g,k\in G$. Then the following are equivalent:
+\begin{enumerate}[label=(\alph*)]
+\item $g\inv k\in H$
+\item $k\in gH$
+\item $gH=kH$
+\item $gH\cap kH\ne \emptyset$
+\end{enumerate}
+\end{prop}
+
+\begin{ex}
+$hH=H$ if and only if $h\in H$. (This is from (c) and (a))
+\end{ex}
+
+\begin{pf}
+\begin{itemize}[leftmargin=4.4em]
+\item[(a) $\Rightarrow$ (b)] If $g\inv k = h\in H$, then $k=gh\in gH$.
+\item[(b) $\Rightarrow$ (c)] Suppose $k=gh$ for $h\in H$. If $h'\in H$, then $kh'=g(hh')\in gH$, since $hh'\in H$. So $kU\subseteq gH$. 
+
+For the reverse inclusion, notice that $g=kh\inv \in kH$. If $h'\in H$, then $gh' = k(h\inv h')\in kH$, so $gH\subseteq kH$.
+\item[(c) $\Rightarrow$ (d)] Since $e\in H$, then $g\in gH$, so $gH\ne \emptyset$. If $gH=kH$, then $gH\cap kH= gH\ne \emptyset$.
+\item[(d) $\Rightarrow$ (a)] Suppose $x\in gH\cap kH$. Then $x=gh_1 = kh_2$ for $h_1,h_2\in H$. Multiply on the left by $g\inv$, right by $h_2\inv$. So $g\inv k = h_1h_2\inv\in H$.
+\end{itemize}
+\end{pf}
+
+\begin{defn}{partition}
+Let $X$ be a set. A \textbf{partition} of $X$ is a subset $\mathcal{Q}$ of $2^X$ such that
+\begin{enumerate}[label=(\alph*)]
+\item $\bigcup_{S\in\mathcal Q} S=X$, and 
+\item $S\cap T=\emptyset$ for all $S\ne T\in \mathcal Q$.
+\end{enumerate}
+\end{defn}
+Here $2^X$ denotes set of subsets of $X$.
+
+\begin{exercise}
+If $\mathcal Q\subseteq 2^X$, then the following are equivalent:
+\begin{itemize}
+\item $\mathcal Q$ is a partition
+\item $X=\bigsqcup_{S\in\mathcal Q} S$
+\item Every element of $X$ is contained in exactly one element of $\mathcal Q$.
+\end{itemize}
+\end{exercise}
+
+\begin{corr}
+If $H\le G$, then $G/H$ is a partition of $G$.
+\end{corr}
+
+\begin{pf}
+Let $g\in G$, then $g\in gH$, so every element of $G$ belongs to some element of $G/H$. Consequently, $\bigcup_{S\in G/H}S=G$.
+
+Suppose $S\ne T\in G/H$ (so $S=gH$, $T=kH$ for some $g,k\in G$). If $S\cap T\ne \emptyset$, then $S=T$ by parts (c) and (d) of \propref{3.31}. So $S\cap T=\emptyset$.
+\end{pf}
+
+\begin{lemma}
+If $S\subseteq G$, $g\in G$, then $S\to gS:h\mapsto gh$ is a bijection.
+\end{lemma}
+
+\begin{pf}
+Inverse is $gS\to S: h\mapsto g\inv h$.
+\end{pf}
+Consequence: If $H$ is finite, and $g\in G$, then $|gH|=|H|$.
+
+Now we can prove the Lagrange's theorem.
+
+\begin{pf}
+If $|H|=+\infty$ then $|G|=+\infty$. Since cosets are disjoint, if $[G:H]=+\infty$ then $|G|=+\infty$.
+
+Suppose $|H|,[G:H]$ are finite.
+
+By \lemmaref{3.33}, $|gH|=|H|$ for all $g\in G$.
+
+Since $G/H$ is a partition of $G$, $G$ is a disjoint union of $[G:H]$ subsets, all of size $|H|$.
+
+Conclude that $|G|=[G:H]\cdot |H|$.
+\end{pf}
+
+\subsection{Equivalence relations}
+\begin{defn}{relation $\sim$}
+Let $X$ be a set. A \textbf{relation $\sim$} on $X$ is a subset of $X\times X$.
+
+Notation: $a\sim b$ if $(a,b)\in \sim$.
+\end{defn}
+
+\begin{ex}
+= on $X$. $\le,<,>,\ge $ on $\mathbb N$ (or any ordered set). $\subseteq$ on $2^X$.
+\end{ex}
+
+\begin{defn}{equivalence relation}
+A relation $\sim$ on $X$ is an \textbf{equivalence relation} if
+\begin{itemize}
+	\item $x\sim x$ for all $x\in X$ (reflexivity)
+	\item $x\sim y \implies y\sim x$ for all $x,y\in X$ (symmetry), and
+	\item $x\sim y$ and $y\sim x$ for all $x,y,z\in X$ (transitivity). 
+\end{itemize}
+\end{defn}
+
+\begin{ex}
+= on $X$. $\equiv_m$, congruence mod $m$, is an equivalence relation on $\mathbb Z$.
+
+$\le,<$ on $\mathbb N, \mathbb R$, etc. are not equivalence relations.
+
+Isomorphism $\iso$ is an equivalence relation on the \textit{proper class} of groups. Note that there is no set of all sets, or set of all groups.
+\end{ex}
+
+\begin{defn}{equivalence class}
+If $\sim$ is an equivalence relation on $X$, the \textbf{equivalence class} of $x\in X$ is $[x]=[x]_\sim := \{y\in X:x\sim y\}$.
+\end{defn}
+
+\begin{prop}
+Let $\sim$ be an equivalence relation on $X$. If $x,y\in X$ then the following are equivalent:
+\begin{enumerate}[label=(\alph*)]
+\item $x\sim y$
+\item $y\in[x]$
+\item $[x]=[y]$
+\item $[x]\cap[y]\ne\emptyset$
+\end{enumerate}
+\end{prop}
+
+\begin{pf}
+\begin{itemize}[leftmargin=4.4em]
+	\item[(a) $\Rightarrow$ (b)] Follows immediately from definition of equivalent classes.
+	\item[(b) $\Rightarrow$ (c)] Assume $y\in [x]$. If $z\in [y]$, then $x\sim y\sim z$, and by transitivity, $z\in [x]$. Thus $[y]\subseteq [x]$. Also $x\sim y\implies y\sim x$, which implies $[x]\subseteq [y]$.
+	\item[(c) $\Rightarrow$ (d)] Assume $[x]=[y]$, $[x]\cap [y]=[x]\supset \{x\}\ne \emptyset$.
+	\item[(d) $\Rightarrow$ (a)] If $x\in [x]\cap [y]$, then $x\sim z\sim y\implies x\sim y$.
+\end{itemize}
+\end{pf}
+\begin{corr}
+If $\sim$ is an equivalence relation on $X$, then $\{[x]_\sim:x\in X\}$ is a partition of $X$.
+\end{corr}
+\begin{pf}
+Since $x\sim x$, $x\in [x]$. Therefore, every element $x$ belongs to some equivalent class. If two equivalent class intersect, they must be equal. Thus $X$ is a disjoint union of its equivalent classes.
+\end{pf}
+
+Thus equivalence relation $\implies$ partition. It turns out we can go the opposite direction:
+
+\begin{lemma}
+If $\mathcal Q$ is a partition of $X$, then there is an equivalence relation $\sim$ on $X$ such that $\{[x]_\sim:x\in X\}=\mathcal Q$.
+\end{lemma}
+\begin{pf}
+Every element $x\in X$ is contained in a unique set $S_x\in \mathcal Q$. Define $\sim$ by saying $x\sim y$ if and only if $S_x=S_y$. This defines an equivalence relation.
+\end{pf}
+
+\begin{prop}
+If $H\le G$, define a relation $\sim_H$ on $G$ by $g\sim_H k$ if $g\inv k\in H$. Then $\sim_H$ is an equivalence relation, and the equivalence class of $g\in G$ is $[g]=gH$.
+\end{prop}
+
+\begin{remark}
+From the proposition, we would say $h\sim e$ if and only if $h\in H$.
+
+\propref{3.37} follows from that cosets partition $G$. \propref{3.31} is a special case of \propref{3.34}. Thus we can prove that $\sim_H$ is equivalence class directly, and use \propref{3.37} to prove \propref{3.31}.
+\end{remark}
+
+
+\section{Normal subgroups}
+Recall \propref{3.31}, by symmetry:
+\begin{prop}
+	Let $H\le G$, and suppose $g,k\in G$. Then the following are equivalent:
+	\begin{enumerate}[label=(\alph*)]
+		\item $kg\inv\in H$
+		\item $k\in Hg$
+		\item $Hg=Hk$
+		\item $Hg\cap Hk\ne \emptyset$
+	\end{enumerate}
+\end{prop}
+
+Caution: $g\inv k \in H$ does not necessarily imply $kg\inv \in H$.
+
+\begin{lemma}
+	If $H\le G$ and $Hg=hH$ for $g,h\in G$, then $gH=Hg$.
+\end{lemma}
+
+\begin{pf}
+	$g\in Hg=hH$, so $gH=hH$.
+\end{pf}
+
+\begin{defn}{normal subgroup}
+	A subgroup $N\le G$ is a \textbf{normal subgroup} if $gN=Ng$ for all $g\in G$.
+
+	Notation: $N \trianglelefteq  G$.
+	
+\end{defn}
+
+\begin{defn}{conjugate of $h$ by $g$}
+	If $g,h\in G$, the \textbf{conjugate of $h$ by $g$}
+	is $ghg\inv$.
+\end{defn}
+
+Conjugates come up in linear algebra in change of basis and diagonalization. 
+
+Recall: $gS=\{gh:h\in S\}$, $Sg=\{hg:h\in S\}$. So $gSg\inv =  \{ghg\inv:h\in S\}$.
+
+As previously mentioned, $g(hS)=(gh)S$, $(Sg)h=S(gh)$, $g(Sh)=(gS)h$, $eS=S=Se$.
+
+So $gN=Ng$ if and only if $gNg\inv=N$. Here we 
+
+Also: $S\subseteq T$ if and only if $gS\subseteq gT$ if and only if $Sg\subseteq Tg$.
+
+\begin{prop}
+Let $N\le G$. Then the following are equivalent:
+\begin{enumerate}[label=(\arabic*)]
+\item $N\trianglelefteq G$ ($gN=Ng$ $\forall g\in G$)
+\item $gNg\inv = N$ for all $g\in G$
+\item $gNg\inv \subseteq N$ for all $g\in G$
+\item $G/N=N\setminus G$
+\item $G/N \subseteq N\setminus G$
+\item $N\setminus G\subseteq G/N$
+\end{enumerate}
+\end{prop}
+
+\begin{pf}
+We've already done $(1)\iff (2)$. Clearly $(2)\implies (3)$. 
+
+To see $(3)\implies (2)$, suppose $gNg\inv \subseteq N$ for all $g\in G$. Given $g\in G$, we know $g\inv N g\subseteq N$ by apply assumption to $g\inv$. Thus $N\subseteq gNg\inv$. Hence $N=g N g\inv$, so (2) holds.
+
+By definition, $(1)\implies (4)\implies (5),(6)$.
+
+$(5)\implies (1)$: Suppose $G/N\subseteq N\setminus G$. If $g\in G$, then $gN=Nh$ for some $h\in G$. By \lemmaref{3.39}, $gN=Ng$.
+
+$(6)\implies (1)$: Similar.
+\end{pf}
+
+\begin{ex}
+$\inner{s}\le D_{2n}$: Already seen $G/\inner{s}= \inner{s}\setminus G$. So $\inner{s}\trianglelefteq D_{2n}$. Can also check $s^i \inner{s}s^{-i} = \inner{s}$, $r\inner{s}r\inv= \inner{s}$ (since $rs^i r\inv = s^{-i}$).
+
+$\inner{r}\le D_{2n}$: $G/\inner{r} \ne \inner{r}\setminus G$, so $\inner{r}$ is not normal. Indeed, $srs\inv = s^2r\not\in \inner{r}$ for $n\ge 3$. 
+
+If $G$ is abelian, then all subgroups are normal.
+
+If $\phi:G\to K$ is a homomorphism, then $\ker \phi$ is normal. Previously, we have proved $G/\ker\phi \equiv$ solution sets to equations $\phi(x)=b, b\in \Im\phi = \ker \phi\setminus G$. Alternatively, we can use statement (2): if $x\in \ker\phi, g\in G$, then $\phi(gxg\inv)=\phi(g)\phi(x)\phi(g)\inv = \phi(g)\phi(g)\inv = e$, so $gxg\inv\in \ker\phi\implies g(\ker \phi) g\inv \subseteq \ker\phi$.
+\end{ex}
+
+The subgroup relation $\le$ is transitive: If $H\le G$ ($G$ considered as group) and $K\le H$ ($H$ considered as group) then $K\le G$. Normally we just say $K\le H\le G\implies K\le G$.
+
+The normal subgroup relation $\trianglelefteq$ is \textbf{not} transitive: Consider $H=\inner{r,s^2}\le D_8$. $rs^2 = s^{4-2}r=s^2r \implies rs^2r\inv = s^2$. We know $H\normsub D_8$, and $H$ is abelian. Since $H$ is abelian, then $\inner{r}\normsub H$. However, $\inner{r}\not\normsub D_8$. 
+
+\section{Normalizers and the center}
+\begin{defn}{normalizer of $S$ in $G$}
+Let $S\subseteq G$. Then $N_G(S):=\{g\in G:gSg\inv=S\}$ is called the \textbf{normalizer of $S$ in $G$}.\end{defn}
+
+\begin{lemma}
+	$N_G(S)\le G$.
+\end{lemma}
+
+\begin{pf}
+$eSe=S$, so $e\in N_G(S)$.
+
+If $g,h\in N_G(S)$, then $ghS(gh)\inv = g(hSh\inv)g\inv = gSg\inv=S$, so $gh\in N_G(S)$.
+
+If $g\in N_G(S)$, then $g\inv Sg=g\inv (gSg\inv)g=eSe=S$. So $g\inv \in N_G(S)$.
+\end{pf}
+
+\begin{lemma}
+Suppose $H\le G$. Then $H\normsub G$ if and only if $N_G(H)=G$.
+\end{lemma}
+
+\begin{corr}
+	If $G=\inner{S}$, and $H\le G$, then $H\normsub G$  if and only if $gHg\inv = H$ for all $g\in S$. 
+\end{corr}
+
+\begin{pf}
+	$H\normsub G$ if and only if  $N_G(H)= G$ if and only if $S\subseteq N_G(H)$.
+\end{pf}
+
+\begin{remark}
+It will be helpful to check a subgroup is normal. Warning: it is possible to have $gHg\inv \subseteq H$ and $g\not\in N_G(H)$.
+\end{remark}
+
+\begin{lemma}
+If $|g|<+\infty$, and $gHg\inv \subseteq H$, then $g\in N_G(H)$.
+\end{lemma}
+
+\begin{pf}
+Prove by induction. If $gHg\inv \subseteq H$, then $g^iH g^{-i}\subseteq H$ for all $i\ge 0$. 
+\\(Use $g(g^{i-1}Hg^{-(i-1)})g\inv \subseteq gHg\inv$).
+
+If $|g|=n<+\infty$, then $g\inv Hg=g^{n-1}Hg^{-(n-1)}\subseteq H$. We multiply $g$ on the left and $g\inv$ on the right, then $H\subseteq gHg\inv$, conclude $gHg\inv = H$.
+\end{pf}
+
+\begin{corr}
+Suppose $G=\inner{S}$ is finite, and $H\le G$. If $gHg\inv\subseteq H$ for all $g\in S$, then $H\normsub G$.
+\end{corr}
+
+\begin{remark}
+If $G$ is a finite group, this process makes checking whether the group is normal even faster.
+\end{remark}
+
+\begin{defn}{center of $G$}
+If $G$ is a group, the \textbf{center of $G$} is $Z(G)=\{g\in G:gh=gh \text{ for all }h\in G\}$.
+\end{defn}
+
+\begin{ex}
+$Z(\gl_n \mathbb{C}) = \{\lambda 1: \lambda \ne 0\}$
+\end{ex}
+
+\begin{prop}
+$Z(G)\normsub G$.
+\end{prop}
+
+\begin{pf}
+Exercise.
+\end{pf}
+
+\chapter{Products}
+\section{Product groups}
+\begin{prop}
+Suppose $(G_1,\cdot_1)$, $(G_2,\cdot_2)$ are groups. Then $G_1\times G_2$ is a group under operation
+$$
+(g_1,g_2)\cdot (h_1,h_1)=(g_1\cdot_1 h_1,g_2\cdot_2 h_2)
+$$
+for $g_i,h_i\in G_i$, $i=1,2$.
+\end{prop}
+
+\begin{pf}
+Exercise.
+\end{pf}
+
+\begin{defn}{product of $G_1$ and $G_2$}
+If $G_1,G_2$ are groups, the group $G_1\times G_2$ with operation from \propref{4.1} is called the \textbf{product of $G_1$ and $G_2$}.
+\end{defn}
+
+\begin{ex}[the Klein 4-group]
+Obviously $|G_1\times G_2|=|G_1|\cdot |G_2|$.
+
+So the group $(\zz{2})\times (\zz{2})$ has order 4. Called the \textbf{Klein $4$-group}.
+
+Multiplication table: 
+\begin{tabular}{c | c c c c}
+& (0,0) & (0,1) & (1,0) & (1,1)\\\hline
+(0,0) & (0,0) &  (0,1) & (1,0) & (1,1)\\
+(0,1) & (0,1) & (0,0) & (1,1) & (1,0)\\
+(1,0) & (1,0) & (1,1) & (0,0) & (0,1)\\
+(1,1) & (1,1) & (1,0) & (0,1) & (0,0)
+\end{tabular}
+
+All elements have order 2, so it's not cyclic. Identity is $(0,0)$. In general, identity of $G_1\times G_2$ is $(e_{G_1},e_{G_2})$.
+\end{ex}
+
+\begin{prop}
+Suppose $G=H\times K$. Let $\tilde{H}=\{(h,e_k): h\in H\}$, $\tilde{K} = \{(e_H,k):k\in K\}$. Then 
+\begin{enumerate}[label=(\alph*)]
+\item $\tilde{H}, \tilde{K}\le G$.
+\item $H\to \tilde{H}: h\mapsto (h,e)$ and $K\to \tilde{K}: k\mapsto (e,k)$ are isomorphisms.
+\end{enumerate}
+\end{prop}
+
+\begin{pf}
+Exercise.
+\end{pf}
+
+\begin{remark}
+	So we can think of $H$ and $K$ as subgroups of $H\times K$. $H\times K$ 
+can have lots of other subgroups as well. Here we listed the two particularly important ones.
+\end{remark}
+
+Let $G=H\times K$, $\tilde{H}=H\times \{e\}$, $\tilde{K} = \{e\}\times K \le H\times K$.
+
+\begin{lemma}
+If $h\in \tilde{H}$, $k\in\tilde{K}$, then $hk=kh$.
+\end{lemma}
+
+\begin{pf}
+Exercise.
+\end{pf}
+
+\section{Homomorphisms between products}
+\begin{corr}
+If $\phi:H\times K\to G$ is a homomorphism, then $\phi(h)\phi(k)=\phi(k)\phi(h)$ for all $h\in \tilde{H}$, $k\in\tilde{K}$.
+\end{corr}
+
+\begin{pf}
+Immediate.
+\end{pf}
+
+Now consider the converse of this corollary.
+\begin{lemma}
+If $\alpha: H\to G$, $\beta: K\to G$ are homomorphisms, such that $\alpha(h)\beta(k)=\beta(k)\alpha(h)$ for all $h\in H$, $k\in K$, then $\gamma: H\times K\to G: (h,k)\mapsto \alpha(h)\beta(k)$ is a homomorphism.
+\end{lemma}
+
+
+\begin{pf}
+\begin{equation*}
+\begin{aligned}
+\gamma((x,y)\cdot (z,w)) &= \gamma((xz,yw))\\
+&= \alpha (xz)\beta(yw)\\
+&= \alpha(x)\alpha(z)\beta(y)\beta(w)\\
+&= \alpha(x)\beta(y)\alpha(z)\beta(w)\\
+&= \gamma(x,y) \gamma(z,w)
+\end{aligned}
+\end{equation*}
+for all $x,z\in H$, $y,w\in K$.
+\end{pf}
+
+Notation: the homomorphism $\gamma$ is called $\alpha\cdot \beta$. This is not entirely standard. You should mention this homomorphism if you use this notation.
+
+
+\begin{remark}
+	You might wonder why \lemmaref{4.5} is called the converse of corollary. In \corref{4.4}, given $\phi$, we can get homomorphisms: $H\to G: h\mapsto (h,e)$ and apply $\phi$ to it, similar for $K$.
+\end{remark}
+
+\begin{corr}
+If $\alpha: H\to H'$, $\beta: K\to K'$ are homomorphisms, then $\gamma: H\times K\to H'\times K': (h,k)\mapsto (\alpha(h),\beta(k))$ is a homomorphism.
+\end{corr}
+
+\begin{pf}
+Define $\tilde{\alpha}: H\to H'\times K': h \mapsto (\alpha(h),e)$ and $\tilde{\beta}: K\to H'\times K': K\mapsto (e,\beta(k))$. $\tilde{\alpha},\tilde{\beta}$ are homomorphisms (exercise), and that $\tilde{\alpha}(x)\tilde{\beta}(y)=\tilde{\beta}(y)\tilde{\alpha}(x)$ for all $x\in H,y\in K$.
+
+Then $\gamma((x,y))= (\alpha(x),e)\cdot (e,\beta(y))=\tilde{\alpha}(x)\cdot \tilde{\beta}(y)$ so $\gamma = \tilde{\alpha}\cdot \tilde{\beta}$.
+\end{pf}
+
+Notation: the homomorphism $\gamma$ is called $\alpha\times \beta$. This notation is quite standard, which is safer to use.
+
+\begin{corr}
+If $\alpha:H\to H'$, $\beta: K\to K'$ are isomorphisms, then $\alpha\times \beta: H\times K\to H'\times K'$ is an isomorphism.
+\end{corr}
+
+\begin{pf}
+$\alpha\times\beta$ has inverse $\alpha\inv\times\beta\inv$.
+\end{pf}
+
+\begin{prop}
+$G\to G\times \{e\}: g\mapsto (g,e)$ is an isomorphism.
+\end{prop}
+
+\begin{pf}
+Exercise.
+\end{pf}
+
+Using products, can complete list of groups of order $p^2$:
+\begin{prop}
+Suppose $p$ is prime, $|G|=p^2$. Then either $G$ is cyclic, or $G\iso (\zz{p})\times \zz{p}$.
+\end{prop}
+
+\begin{pf}
+Exercise.
+\end{pf}
+
+Recall our table of small order:
+\begin{center}
+	\begin{tabular}{c | l}
+		Order & Known groups \\\hline 
+		1 & Trivial group \\
+		2 & $\zz{2}$\\
+	3 & $\mathbb Z/ 3 \mathbb Z$\\
+	4 & $\mathbb Z/ 4 \mathbb Z$, $(\zz{2})\times (\zz{2})$\\
+	5 & $\mathbb Z/ 5 \mathbb Z$\\
+	6 & $\mathbb Z/ 6 \mathbb Z$, $D_6=S_3$, ??\\
+	7 & $\mathbb Z/ 7 \mathbb Z$\\
+	8 & $\mathbb Z/ 8 \mathbb Z$, $D_8$, ?? \\
+	9 & $\mathbb Z/ 9 \mathbb Z$, $(\zz{3})\times (\zz{3})$\\
+	\end{tabular}
+\end{center}	
+
+\textit{How do we know if a group is a product?}
+
+Recall \propref{4.2}. Corollary: $H\times K\to \tilde{H}\times \tilde{K}: (h,k)\to ((h,e),(e,k))$ is an isomorphism. So we are looking for two subgroups $\tilde{H}, \tilde{K}$ which satisfy these properties:
+\begin{itemize}
+	\item if $h\in \tilde{H}$, $k\in\tilde{K}$, then $hk=kh$.
+	\item every element $g\in G$ can be written as $g=\tilde{h}\tilde{k}$ for unique $\tilde{h}\in \tilde{H}$, $\tilde{k}\in \tilde{K}$.
+\end{itemize} 
+
+\section{Unique factorizations \& internal direct products }
+Given $S,T\subseteq G$, let $ST=\{gh:g\in S,h\in T\}$.
+
+\begin{lemma}
+$G=ST$ if and only if every element $g\in G$ can be written as $g=hk$ for some $h\in S$, $k\in T$.
+\end{lemma}
+
+\begin{ex}
+$D_{2n}=\{s^ir^j\} = \inner{s}\cdot \inner{r}$.
+\end{ex}
+
+
+Suppose $G=HK$ for $H,K\le G$. \textit{When does $g=hk$ for unique $h\in H,k\in K$?} Uniqueness means that if $g=hk=h'k'$ for $h,h'\in H,k,k'\in K$, then $h=h'$ and $k=k'$.
+
+It is easy to find necessary condition: If $e\ne g\in H\cap K$, then $g=g\cdot e= e\cdot g$, then factorization is not unique. So if factorization is unique, $H\cap K=\{e\}$. It turns out this is also a sufficient condition.
+
+\begin{lemma}
+Suppose $G=HK$ for $H,K\le G$. Then every element $g\in G$ can be written as $g=hk$ for unique $h\in H,k\in K$ if and only if $H\cap K=\{e\}$.
+\end{lemma}
+
+\begin{pf}
+We've proved it is necessary. Suppose $H\cap K=\{e\}$. If $g=hk=h'k'$, then $(h')\inv h = k'k\inv\in H\cap K$. Thus $(h')\inv h = k'k\inv =e$. This implies $h=h',k=k'$.
+\end{pf}
+
+\begin{defn}{internal direct product}
+We say that $G$ is the \textbf{internal direct product} of subgroups $H,K\le G$ if 
+\begin{enumerate}[label=(\alph*)]
+\item $(HK)=G$,
+\item $H\cap K=\{e\}$, and 
+\item $hk=kh$ for all $h\in H,k\in K$.
+\end{enumerate}
+\end{defn}
+
+\begin{remark}
+To make the condition (b) and (c) hold, we put the word ``direct'' here.
+\end{remark}
+
+\begin{ex}
+$H\times K$ is the internal direct product of $\tilde{H}=H\times \{e\}$ and $\tilde{K}=\{e\}\times K$.
+
+$D_{2n}$ is not the internal direct product of $\inner{s}$ and $\inner{r}$ because $sr\ne rs$.
+\end{ex}
+
+\begin{thm}
+Suppose $G$ is the internal direct product of $H$ and $K$. Then $\phi:H\times K\to G: (h,k)\mapsto hk$ is an isomorphism.
+\end{thm}
+
+\begin{pf}
+Let $i_H:H\to G:h\mapsto h$ and $i_K:K\to G:k\mapsto k$. By part (c) of definition, $i_H(h)i_K(k) = i_K(k)i_H(h)$ for all $h\in H,k\in K$. So $\phi = i_H\cdot i_K$ is a homomorphism.
+
+By \lemmaref{4.11}, every element $g\in G$ can be written as $g=hk$ for unique $h\in H,k\in K$. Thus $\phi$ is a bijection, then $\phi$ is an isomorphism.
+\end{pf}
+
+\begin{lemma}
+If $G$ is internal direct product of $H,K$, then $H,K\normsub G$.
+\end{lemma}
+
+\begin{pf}
+Suppose $g\in G$, so $g=hk$, $h\in H,k\in K$. Then 
+$$kHk\inv = \{khk\inv: h\in H\}= \{kk\inv h: h\in H\}=H,$$
+so $gHg\inv = hkHk\inv h\inv = hHh\inv \subseteq H$. So $H\normsub G$. Proof for $K$ is similar.
+\end{pf}
+
+\begin{prop}
+$G$ is the internal direct product of $H,K\le G$ if and only if 
+\begin{enumerate}[label=(\alph*)]
+\item $G=HK$, and 
+\item $H\cap K=\{e\}$.
+\item $H,K\normsub G$.
+\end{enumerate}
+\end{prop}
+
+Before proving the proposition, we introduce a definition:
+
+\begin{defn}{commutator}
+The \textbf{commutator} of $g,h\in G$ is $[g,h]:=g\cdot h\cdot g\inv \cdot h\inv$.
+\end{defn}
+
+\begin{lemma}
+If $g,h\in G$, then $[g,h]=e$ if and only if $gh=hg$.
+\end{lemma}
+
+\begin{pf}
+This is the proof of \propref{4.14}.
+
+We have proved $\Rightarrow$.
+
+If $h\in H,k\in K$, then $[h,k]=(hkh\inv)k\inv \in K$ since $K\normsub G$. But $[h,k]= h(kh\inv k\inv)\in H$ since $H\normsub G$. So $[h,k]\in H\cap K=\{e\}\implies [h,k]=e$. Therefore, $hk=kh$ for all $h\in H,k\in K$, thus $G$ is indeed an internal direct product.
+\end{pf}
+
+\chapter{Quotient groups and the isomorphism theorems} \week{4}
+
+\section{Quotient groups}
+
+\printindex
+\end{document}
+
