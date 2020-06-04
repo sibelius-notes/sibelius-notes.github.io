@@ -2837,7 +2837,30 @@ If $h\in H,k\in K$, then $[h,k]=(hkh\inv)k\inv \in K$ since $K\normsub G$. But $
 \chapter{Quotient groups and the isomorphism theorems} \week{4}
 
 \section{Quotient groups}
+Recall an example: $\znz = \{[a]: 0\le a <n\}$. In this example, $\znz$ is a group, with operation $[a]+[b]=[a+b]$. \textit{Can we generalize this example? Can we define a group structure on $G/H$ by} $[g]\cdot [h]=[gh]$? or $gH\cdot hH=ghH$? (Here we regard $gH$ and $hH$ as elements in $G/H$ instead of sets.) Big problem: this might not be \textbf{well-defined}.
 
+\begin{defn}{relation}
+A \textbf{relation} $R$ between two sets $X$ and $Y$ is a subset of $X\times Y$. Notation $a~R~b$ if $(a,b)\in R$.
+
+A relation $R$ is a \textbf{function} from $X\to Y$ if 
+\begin{enumerate}[label=(\alph*)]
+\item for all $x\in X$, there is $y\in Y$ such that $x ~R~ y$, and 
+\item for all $x\in X$, $y,z\in Y$, if $x ~R~ y$ and $x ~R~ z$ then $y=z$.
+\end{enumerate}
+\end{defn}
+
+Can define relation $\to$ between $G/H\times G/H$ and $G/H$ by $([g],[h])\to [gh]$ for all $g,h\in G$? Yes. It is properly defined, we just need to find a subset of $X\times Y$ (in this case $(G/H\times G/H)\times G/H$).
+
+Is this relation a function? For (a), if $x=([g],[h])$, can take $y=[gh]$. What about (b)?
+
+\begin{lemma}
+The relation $\to$ between $G/H\times G/H$ and $G/H$ defined by $([g],[h])\to [gh]$ is a function if and only if  $H$ is normal.
+Furthermore, if $H$ is normal, then $ghH = gH\cdot hH$, the setwise product. (Recall $S\cdot T=\{xy:x\in S,y\in T\}$)
+\end{lemma}
+
+\begin{pf}
+
+\end{pf}
 \printindex
 \end{document}
 
