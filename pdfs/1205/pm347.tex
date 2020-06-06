@@ -2861,11 +2861,90 @@ Furthermore, if $H$ is normal, then $ghH = gH\cdot hH$, the setwise product. (Re
 \begin{pfno}
 \begin{itemize}
 \item[$\Rightarrow$] Suppose $\to$ is a function. Suppose $g\in G, h\in H$. Then $([g],[g\inv])\to [e]$. Since $g\inv \cdot gh = h\in H$ from \propref{3.37}, then $g\sim_Hgh$, then $[g]=[gh]$, and $([gh],[g\inv])\to [ghg\inv]$. Since $\to$ is a function, $[ghg\inv]=[e]$. But this means $ghg\inv \sim_H e$, i.e., $ghg\inv \in H$. Since this holds for all $g\in G, h\in H$. Hence $H\normsub G$. 
-\item[$\Leftarrow$] First 
+\item[$\Leftarrow$] First let's prove $H$ normal $\implies$ $ghH = gH\cdot hH$. 
 
+Note that $gH\cdot hH=gh(h\inv Hh) \cdot H$. If $H$ is normal, then $h\inv Hh\subseteq H$, then $(h\inv Hh)\cdot H\subseteq H$. Since $e\in H\inv Hh$, $(h\inv Hh)\cdot H=H$ if we take $e$ on the left and every element of $H$ on the right. Thus if $H$ is normal, then $gH\cdot hH=ghH$.
+
+Suppose that $(S,T)\to R$ and $(S,T)\to R'$ for $S,T,R,R'\in G/H$. Then $R=S\cdot T=R'$ by the definition of equivalent class. So $\to$ is a function.
 \qed
 \end{itemize}
 \end{pfno}
+
+$G/N$ is called the \textbf{quotient of $G$ by $N$}, or a \textbf{quotient group}. 
+
+Elements of $G/N$ can be written as $gN$ or $[g]$ or $\bar g$. 
+
+Group operation can be stated as $gN\cdot hN=gHN$ or $[g]\cdot [h]=[gh]$ or $\bar g\cdot \bar h = \bar{gh}$
+
+$q$ (defined in the following theorem) is called the \textbf{quotient map} or \textbf{quotient homomorphism}.
+
+\begin{thm}
+Let $N\normsub G$. Then the setwise product $gN\cdot hN=ghN$ makes $G/N$ into a group. Further more, the function $q: G\to G/N: g\mapsto gN$ is a surjective homomorphism with $\ker q=N$.
+\end{thm}
+
+\begin{pf}
+$([g]\cdot [h]) \cdot [k] = [gh]\cdot [k] = [ghk] = [g]\cdot ([h]\cdot [k])$ for all $[g],[h],[k]\in G/N$, so $\cdot$ is associative.
+
+$[e]\cdot[g] = [e\cdot g] = [g] = [g\cdot e] = [g]\cdot [e]$ for all $[g]\in G/N$, so $[e]= N$ is an identity.
+
+$[g]\cdot [g\inv] = [gg\inv] = [e] = [g\inv g] = [g\inv ]\cdot [g]$ for all $[g]\in G/N$, so every element of $G/N$ has an inverse.
+
+$q$ clearly surjective, and $q(gh)= [gh] = [g]\cdot [h] = q(g) \cdot q(h)$. $q(g)=[g]=[e]$ if and only if $g\in N$, so $\ker q=N$.
+\end{pf}
+We previously proved that if $\phi:G\to K$ is a homomorphism then $\ker \phi \normsub G$.
+\begin{corr}
+Let $N\normsub G$. Then there is a group $K$ and homomorphism $\phi:G\to K$ such that $N=\ker \phi$.
+\end{corr}
+
+\begin{pf}
+Take $K=G/N$, and $q:G\to G/N$ the quotient homomorphism. Then $\ker q=N$.
+\end{pf}
+
+\begin{ex}
+$\znz$: can now define this using theorem, no need to rely on pre-existing definition.
+
+$D_{2n}/\inner{s}$: Cosets are $\inner{s}= \{s^i:0\le i < n\}$ and $\inner{s}r = \{s^ir:0\le i<n\}$
+\\
+Multiplication table: \begin{tabular}{c|cc}
+	& $\inner{s}$ & $\inner{s}r$\\\hline 
+$\inner{s}$ & $\inner{s}$ & $\inner{s}r$\\
+$\inner{s}r$ & $\inner{s}r$ & $\inner{s}$
+\end{tabular}\\
+So $D_{2n}/\inner{s}\iso \zz{2}$.
+
+If $N$ \textit{not normal}: $\inner{r}$ has left cosets $s^i \inner{r} = \{s^i,s^ir\}, 0\le i < n$. If we take two left cosets and do setwise product:
+$$\inner{r}\cdot s\inner{r} = \{s,sr,s\inv r, s\inv\}$$
+is not a left coset of $\inner{r}$. Also $e\sim_{\inner{r}}r$, $e\cdot s=s$ is in a different coset from $r\cdot s=s\inv r$ so $[g]\cdot [h]=[gh]$ is not a well-defined operation.
+
+See $D_{2n}/Z(D_{2n})$ on homework.
+\end{ex}
+
+\begin{ex}[projective general linear group]
+$\gl_n(\mathbb{K})/Z(\gl_n \mathbb{K})$: Recall $Z(\gl_n\mathbb{K})= \{\lambda1: \lambda\ne 0\}$.
+
+If $M$ is invertible, $[M]=\{\lambda M: \lambda\ne 0\}$.
+
+$[M]\cdot [N] = \{\lambda_1\lambda_2 MN: \lambda_1, \lambda_2 \ne 0\} = [MN]$
+
+We can view $\gl_n(\mathbb{K})$ as group of invertible linear transformations of $\mathbb{K}$ (acts on vectors).
+
+$\gl_n(\mathbb{K})/Z(\gl_n \mathbb{K})$ is invertible transformatios of lines through origin in $\mathbb{K}^n$.
+
+$\gl_n(\mathbb{K})/Z(\gl_n\mathbb{K})$ is called the \textbf{projective general linear group}, and is denoted by $\operatorname{PGL}_n(\mathbb{K})$. It is a very important group in some areas of geometry.
+\end{ex}
+
+In general, can look at: 
+\begin{itemize}
+\item $G/Z(G)$, any group $G$
+\item $G/\ker \phi$, any homomorphism $\phi:G\to K$
+\item $G/N$, any group $G$ and normal subgroup $N\normsub G$
+\end{itemize}
+How do we find the group structure on $G/N$? It might be hard.
+
+\section{The universal property}
+
+
 \printindex
 \end{document}
 
+ 
