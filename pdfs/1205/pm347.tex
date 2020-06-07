@@ -11,7 +11,10 @@
 \usepackage{epigraph}
 \usepackage{relsize}
 \usepackage{ stmaryrd }
+\usepackage{cancel}
 
+\newcommand\hcancel[2][black]{\setbox0=\hbox{$#2$}%
+\rlap{\raisebox{.45\ht0}{\textcolor{#1}{\rule{\wd0}{1pt}}}}#2}
 
 
 \makeatletter
@@ -37,6 +40,8 @@
 \DeclareMathOperator{\SL}{SL}
 \DeclareMathOperator{\supp}{supp}
 \DeclareMathOperator{\id}{Id}
+\DeclareMathOperator{\sub}{Sub}
+
 \usepackage{multirow}
 \usepackage{marginnote}
 \newcommand{\week}[1]{{\color{gray}\marginnote{\sffamily\small week~#1}}}
@@ -3111,7 +3116,7 @@ If $\phi:G\to H$ is a homomorphism, $K\le G$, then $\phi(K)\le H$. (a.k.a. pushf
 \end{law}
 
 \begin{law}{Proposition 3.10}
-	If $\phi:G\to H$ is a homomorphism, $K\le H$, then $\phi\inv(K)\le G$. (a.k.a. pullback)
+	If $\phi:G\to H$ is a homomorphism, $K\le H$, then $\phi\inv(K)\le G$. (a.k.a. pullback of $K$)
 \end{law}
 
 If $f:X\to Y$ is a bijection, $f\inv(f(S))=S$ and $f(f\inv (T))=T$. Thus if $\phi:G\to H$ is an isomorphism, we get a bijection.
@@ -3150,6 +3155,183 @@ Furthermore:
 	\item $\phi(\inner{S})=\inner{\phi(S)}$. This holds for any homomorphisms. $\phi\inv(\inner{S}) = \inner{\phi\inv(S)}$ doesn't have to hold if $\phi$ is not isomorphism.
 	\item $[G:K]=[H:\phi(K)]$
 \end{itemize}
+
+Some identities for bijections don't hold for general functions:
+$$
+\begin{array}{lll}
+	\text{\underline{Always holds}} && \text{\underline{Don't always hold}}\\
+	f(A) \subseteq f(B) \text { if } A \subseteq B && f(A \cap B)=f(A) \cap f(B) \\
+	f^{-1}(A) \subseteq f^{-1}(B) \text { if } A \subseteq B && f^{-1}(f(A))=A \\
+	f^{-1}(A \cup B)=f^{-1}(A) \cup f^{-1}(B) && f\left(f^{-1}(B)\right)=B \\
+	f^{-1}(A \cap B)=f^{-1}(A) \cap f^{-1}(B) && \\
+	f(A \cup B)=f(A) \cup f(B) &&
+	\end{array}
+$$
+Everything in the left column holds for any function $f$. Everything in the right column holds when $f$ is a bijection, but not for general functions $f$.
+
+Order is preserved:
+\begin{lemma}
+If $\phi:G\to H$ is a homomorphism, then:
+\begin{enumerate}[label=(\alph*)]
+\item If $K_1\le K_2\le G$, then $f(K_1)\le f(K_2)$
+\item If $K_1\le K_2\le H$, then $f\inv(K_1)\le f\inv(K_2)$
+\end{enumerate}
+\end{lemma}
+Note that we can't say $K_1\le K_2$ if and only if $\phi(K_1)\le \phi(K_2)$ since $\phi\inv(\phi(K))\ne K$ in general.
+
+Also, pullback preserves intersection:
+\begin{lemma}
+If $\phi:G\to H$ is a homomorphism, and $K_1,K_2\le H$, then $\phi\inv(K_1\cap K_2)=\phi\inv(K_1)\cap \phi\inv(K_2)$.
+\end{lemma}
+
+Suppose $f:X\to Y$ is a surjection, then we can move $f(f\inv(B))=B$ from the right column to the left column:
+$$
+\begin{array}{lll}
+	\text{\underline{Always holds}} && \text{\underline{Don't always hold}}\\
+	f(A) \subseteq f(B) \text { if } A \subseteq B && f(A \cap B)=f(A) \cap f(B) \\
+	f^{-1}(A) \subseteq f^{-1}(B) \text { if } A \subseteq B && f^{-1}(f(A))=A \\
+	f^{-1}(A \cup B)=f^{-1}(A) \cup f^{-1}(B) && \hcancel[red]{f\left(f^{-1}(B)\right)=B} \\
+	f^{-1}(A \cap B)=f^{-1}(A) \cap f^{-1}(B) && \\
+	f(A \cup B)=f(A) \cup f(B) &&\\
+	{\color{red} f(f\inv(B))=B}
+	\end{array}
+$$
+
+\begin{lemma}
+If $\phi:G\to H$ is a surjective homomorphism, and $K\le H$, then $\phi(\phi\inv(K))=K$.
+\end{lemma}
+
+\begin{defn}{Sub$(G)$}
+If G is a group, let \textbf{$\sub(G)$} denote set of subgroups of $G$.
+\end{defn}
+
+If $\phi:G\to H$ is a homomorphism, have induced functions $\phi:\sub(G)\to \sub(H)$ and $\phi\inv:\sub(H)\to \sub(G)$. 
+
+If $\phi$ is surjective, by \lemmaref{5.12}, then $\phi$ is \textit{left} inverse to $\phi\inv$. (It might not have inverse. Sometimes we use $\phi^*$.)
+
+So $\phi\inv:\sub(H)\to \sub(G)$ is injective. Question: \textit{What's the image of $\phi\inv$ in $\sub(G)$?}
+
+\begin{lemma}
+Let $\phi:G\to H$ be a homomorphism. Then 
+\begin{enumerate}[label=(\alph*)]
+\item If $K\le H$, then $\ker\phi\le \phi\inv(K)$.
+\item If $\ker\phi\le K\le G$, then $\phi\inv(\phi(K))=K$.
+\end{enumerate}
+\end{lemma}
+
+\begin{pfno}
+\begin{enumerate}[label=(\alph*)]
+\item If $K\le H$, then $\ker\phi\le \phi\inv(K)$.
+\item It's clear that $K\le \phi\inv(\phi(K))$.
+
+Suppose $y\in\phi\inv(\phi(K))$. Then $\phi(y)\in\phi(K)$, so $\phi(y)=\phi(k)$ for some $k\in K$. Since $\phi(k\inv y)=e$, $k\inv y\in \ker\phi\subseteq K$, thus $y\in K$. We conclude that $\phi\inv(\phi(K))\subseteq K$. \qed
+\end{enumerate}
+\end{pfno}
+From this lemma, we can conclude: $K=\phi\inv(K')\iff\ker\phi\le K$.
+
+When we combine \lemmaref{5.12} and \lemmaref{5.13}, we get the following theorem:
+
+\begin{thm}[Correspondence theorem]
+Let $\phi:G\to H$ be a surjective homomorphism. Then there is bijection 
+\begin{center}
+	
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,536); %set diagram left start at 0, and has height of 536
+
+%Straight Lines [id:da881715995617179] 
+\draw    (219,146) -- (456.5,146) ;
+\draw [shift={(459.5,146)}, rotate = 180] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+%Straight Lines [id:da06649686817354183] 
+\draw    (222,169) -- (459.5,169) ;
+\draw [shift={(219,169)}, rotate = 0] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+
+% Text Node
+\draw (122,124) node [anchor=north west][inner sep=0.75pt]   [align=left] {Subgroups \\$\displaystyle K$ of $\displaystyle G$ s.t.\\$\displaystyle \ker \phi \leq K$};
+% Text Node
+\draw (471,135) node [anchor=north west][inner sep=0.75pt]   [align=left] {Subgroups\\$\displaystyle K'$ of $\displaystyle H$};
+% Text Node
+\draw (310,121) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle K\mapsto \phi ( K)$};
+% Text Node
+\draw (296,177) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle \phi ^{-1}( K') \mapsfrom K'$};
+\end{tikzpicture}
+\end{center}
+Furthermore, if $\ker\phi\le K,K_1,K_2\le G$ then
+\begin{enumerate}[label=(\alph*)]
+\item $K_1\le K_2\iff \phi(K_1)\le \phi(K_2)$
+\item $\phi(K_1\cap K_2) = \phi(K_1)\cap \phi(K_2)$
+\item $K$ is normal $\iff$ $\phi(K)$ is normal
+\end{enumerate}
+\end{thm}
+\begin{pfno}
+Since $\phi$ is surjective, $\phi(\phi\inv(K'))=K'$ for all $K'\le H$. Conversely, if $\ker\phi\le K\le G$, then $\phi\inv(\phi(K))=K$. So $\phi$ and $\phi\inv$ are inverses on the specified sets. So they are bijections.
+\begin{enumerate}[label=(\alph*)]
+\item follows from fact that $\phi$ and $\phi\inv$ are inverses and preserve $\le$. For instance, if $\phi(K_1)\le \phi(K_2)$ then $K_1=\phi\inv(\phi(K_1))\le \phi\inv(\phi(K_2))=K_2$
+\item $\phi^{-1}\left(\phi\left(K_{1}\right) \cap \phi\left(K_{2}\right)\right)=\phi^{-1}\left(\phi\left(K_{1}\right)\right) \cap \phi^{-1}\left(\phi\left(K_{2}\right)\right)=K_{1} \cap K_{2}$ since $\phi\left(\phi^{-1}(K)\right)=K, \phi\left(K_{1} \cap K_{2}\right)=\phi\left(K_{1}\right) \cap \phi\left(K_{2}\right)$,
+\item Exercise. \qed
+\end{enumerate}
+\end{pfno}
+
+\textit{What about quotient groups?}
+
+If $N\normsub G$, then $q:G\to G/N$ is a surjection, so we have 
+\begin{thm}[Correspondence theorem for quotient groups]
+Let $N\normsub G$. Then there is a bijection
+\begin{center}
+	
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,536); %set diagram left start at 0, and has height of 536
+
+%Straight Lines [id:da881715995617179] 
+\draw    (219,146) -- (456.5,146) ;
+\draw [shift={(459.5,146)}, rotate = 180] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+%Straight Lines [id:da06649686817354183] 
+\draw    (222,169) -- (459.5,169) ;
+\draw [shift={(219,169)}, rotate = 0] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+
+% Text Node
+\draw (127,137) node [anchor=north west][inner sep=0.75pt]   [align=left] {Subgroups \\$\displaystyle N\leq K\leq G$};
+% Text Node
+\draw (470,136) node [anchor=north west][inner sep=0.75pt]   [align=left] {Subgroups\\$\displaystyle K'$ of $\displaystyle H$};
+% Text Node
+\draw (305,121) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle K\mapsto q( K)$};
+% Text Node
+\draw (296,177) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle q^{-1}( K') \mapsfrom K'$};
+
+
+\end{tikzpicture}
+\end{center}
+Furthermore, if $N\le K,K_1,K_2\le G$ then
+\begin{enumerate}[label=(\alph*)]
+\item $K_1\le K_2\iff q(K_1)\le q(K_2)$
+\item $q(K_1\cap K_2) = q(K_1)\cap q(K_2)$
+\item $K$ is normal $\iff$ $q(K)$ is normal
+\end{enumerate}
+\end{thm}
+
+Recall from first isomorphism theorem: If $\phi:G\to H$ is a surjective homomorphism, then $G/\ker\phi\iso H$. So there is a bijection between $\sub(H)$ and $\sub(G/\ker\phi)$.
+
+\begin{exercise}
+Check that 
+$$
+\left.
+\begin{array}{r}
+\text{first isomorphism theorem}\\
+\text{subgroup correspondence for isomorphisms}\\
+\text{correspondence theorem for quotient groups}
+\end{array}
+\right\} \implies \begin{array}{l}
+	\text{correspondence theorem}\\ \text{for surjective homomorphisms}
+\end{array}
+$$
+\end{exercise}
+
+
 \printindex
 \end{document}
 
