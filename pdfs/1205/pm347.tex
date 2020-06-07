@@ -3565,8 +3565,105 @@ Let $H,K\le G$. Then $HK\le G\iff HK=KH \iff KH\subseteq HK$.
 
 \begin{pf}
 If $HK\le G$, and $h\in H,k\in K$, then $h,k\in HK$, so $kh\in HK$.
-Also $k\inv h\inv \in HK$, so $k\inv h\inv =$
+Also $k\inv h\inv \in HK$, so $k\inv h\inv = h_0 k_0$.
+Hence $hk=(k\inv h\inv)\inv = k_0\inv h_0\inv \in KH$.
+Sp $KH\subseteq HK$ and $HK\subseteq KH\implies HK=KH$
+
+Conversely, suppose $KH\subseteq HK$. We always have $e\in HK$. If $x,y\in HK$, then $x=h_0k_0$, $y=h_1k_1$ for $h_0,h_1\in H$, $k_0,k_1\in K$. Since $KH=HK$, $k_0\inv h_0\inv h_1=h_2k_2$ for $h_2\in H,k_2\in K$. So $x\inv y=k_0\inv h_0\inv h_1k_1=h_2k_2k_1\in HK$.
 \end{pf}
+
+\begin{corr}
+If $KH\subseteq HK$, then $[H:H\cap K]= [HK:K]$.
+\end{corr}
+
+When is $KH\subseteq HK$?
+
+Sufficient condition: for all $h\in H$, there is $h'\in H$ such that $Kh=h'K$. Recall: if $Kh=h'K$, then $h'K=hK$. Rephrase condition: $hKh\inv = K$, for all $h\in H$, i.e., $H\subseteq N_G(K)$.
+
+\begin{corr}
+If $H\subseteq N_G(K)$, then $HK\le G$, and hence $[H:H\cap K] = [HK:K]$.
+\end{corr}
+What else does the condition $H\subseteq N_G(K)$ imply?
+
+We know $hKh\inv =K$, $kKk\inv = K$, so $H,K\subseteq N_{HK}(K)\implies N_{HK}(K)=HK \implies K\normsub HK$.
+
+If $k\in H\cap K,h\in H$, then $hkh\inv \in H\cap K$. So $H\cap K\normsub H$.
+
+\begin{thm}[Second isomorphism theorem]
+Suppose $H\subseteq N_G(K)$. Then $HK\le G,K\normsub HK$, and $H\cap K\normsub H$. Further more, if $i_H:H\to HK$ is the inclusion, $q_1:H\to H/H\cap K$ and $q_2:HK\to HK/K$ are the quotient maps, then there is an isomorphism $\psi:H/H\cap K\to HK/K$ such that $\psi\circ q_1=q_2\circ iH$.
+\end{thm}
+
+\begin{center}
+	
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,536); %set diagram left start at 0, and has height of 536
+
+
+% Text Node
+\draw (122,149) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle H$};
+% Text Node
+\draw (342,149) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle HK$};
+% Text Node
+\draw (330,242) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle HK/K$};
+% Text Node
+\draw (95,242) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle H/H\cap K$};
+% Text Node
+\draw (233,134) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle i_{H}$};
+% Text Node
+\draw (106,192) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle q_{1}$};
+% Text Node
+\draw (365,189) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle q_{2}$};
+% Text Node
+\draw (239,255) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle \psi $};
+% Connection
+\draw    (140,158) -- (336,158) ;
+\draw [shift={(339,158)}, rotate = 180] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+% Connection
+\draw    (129.57,171) -- (129.91,235) ;
+\draw [shift={(129.93,238)}, rotate = 269.69] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+% Connection
+\draw    (355.43,171) -- (355.09,235) ;
+\draw [shift={(355.07,238)}, rotate = 270.31] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+% Connection
+\draw    (168,251) -- (324,251) ;
+\draw [shift={(327,251)}, rotate = 180] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+
+\end{tikzpicture}
+\end{center}
+
+\begin{pf}
+Already shown $HK\le G,K\normsub HK, H\cap K\normsub H$.
+
+If $h\in H,k\in K$, then $hkK=hK$. So $HK/K=\{gK:g\in HK\}=\{hK:h\in H\}$. Hence $\Im q_2\circ i_H= \{hK:h\in H\}= HK/K$.
+
+$\ker q_2\circ i_H = i_H\inv (q_2\inv (\{e\})) = i_H\inv (K)=H\cap K$
+
+By the first isomorphism theorem, there is an isomorphism $\psi$ as desired.
+\end{pf}
+
+
+\begin{ex}[$\operatorname{PGL}_n \mathbb{C}$]
+Recall that $\operatorname{PGL}_n \mathbb{C} = \gl_n \mathbb{C} /Z (\gl_n \mathbb{C})$
+
+Let $K= Z(\gl_n\mathbb{C})= \{\lambda 1: \lambda\ne 0\}$
+
+Since $K\normsub G$, $N_G(K)=G$
+
+$H=\SL_n \mathbb{C}=\{M\in G:\det M=1\}\normsub G = N_G(K)$, so $HK\le G$
+
+Suppose $M\in \gl_n \mathbb{C}$, let $\lambda = \det M$. Then $\det \lambda^{-1/n}M =\lambda\inv \det M = 1$, $\lambda-1 /nM \in \SL_n \mathbb{C}$.
+
+Conclusion: $G=HK$.
+
+$C_n:=H\cap K= \{\lambda 1: \lambda^n=1\}= \{e^{2\pi ik/n}: k = 0,\ldots, n-1\}$ (Note: $C_n \iso \znz$)
+
+Second isomorphism $\implies \operatorname{PGL}_n \mathbb{C} \iso \SL_n \mathbb{C}/C_n$.
+\end{ex}
+
+
 \printindex
 \end{document}
 
