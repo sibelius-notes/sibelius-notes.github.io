@@ -10,6 +10,7 @@
 
 \usepackage{epigraph}
 \usepackage{relsize}
+\usepackage{ stmaryrd }
 
 
 
@@ -44,6 +45,8 @@
 \newcommand{\inv}{^{-1}}
 \newcommand{\midd}{~\mathlarger {\mathlarger {\mid}}~}
 \renewcommand{\Im}{\operatorname{Im}}
+\renewcommand{\hom}{\operatorname{Hom}}
+
 \newcommand{\znz}{\mathbb Z/n\mathbb Z}
 \newcommand{\zz}[1]{\mathbb Z/{#1}\mathbb Z}
 \let\normsub\trianglelefteq
@@ -2941,9 +2944,212 @@ In general, can look at:
 \end{itemize}
 How do we find the group structure on $G/N$? It might be hard.
 
-\section{The universal property}
+\section{The universal property of quotients}
+Suppose $N\normsub G$. What are the homomorphisms $\psi:G/N\to K$?
+
+\begin{center}
+\begin{tikzpicture}
 
 
+\node (G) at (-2, 0) {$G$};
+\node at (0,0.5) {$\psi\circ q$};
+\node (K) at (2, 0) {$K$};
+\node (gn) at (0, -1) {$G/N$};
+\node at (-1.3,-0.7) {$q$};
+\node at (1.3,-0.7) {$\psi$};
+
+\path[->] (G) edge (K);
+\path[->] (G) edge (gn);
+\path[->] (gn) edge (K);
+
+\end{tikzpicture}
+\end{center}
+
+Every such $\psi$ gives a homomorphism $\psi\circ q: G\to K$ (this homomorphism is sometimes also called lift, pullback of $\psi$ to $G$). Not every homomorphism from $G\to K$ is a lift of $\psi$. What homomorphisms $G\to K$ are lift of some homomorphism $\psi$? \begin{center}
+\begin{tikzpicture}
+
+
+\node (G) at (-2, 0) {$G$};
+\node at (0,0.5) {$\phi$};
+\node (K) at (2, 0) {$K$};
+\node (gn) at (0, -1) {$G/N$};
+\node at (-1.3,-0.7) {$q$};
+\node at (1.3,-0.7) {$\psi$?};
+
+\path[->] (G) edge (K);
+\path[->] (G) edge (gn);
+\path[dashed, ->] (gn) edge (K);
+
+\end{tikzpicture}
+\end{center}
+If we start with $\phi: G\to K$, when does there exist $\psi$ such that $\phi=\psi \circ q$? Given $\phi$, when can fill in $\psi$ so that diagram \textbf{commutes}? Here ``commute'' means if we start at any point in the diagram and go to any other point, it doesn't matter what path we take to get there, we get the same function.
+
+\begin{thm}[Universal property of quotients]
+Suppose $\phi:G\to K$ is a homomorphism, and $N\normsub G$. Let $q:G\to G/N$ be the quotient homomorphism. Then there is a homomorphism $\psi:G/N\to K$ such that $\psi\circ q=\phi$ if and only if $N\subseteq \ker \phi$. Further more, if $\psi$ exists, then it is unique.
+\end{thm}
+
+In other words, can fill in dashed line so that diagram ``commutes'' if and only if $N\subseteq \ker \phi$.
+
+\begin{defn}{Hom$(G,K)$}
+If $G,K$ are groups, let \textbf{$\hom(G,K)$} be the set of (homo)morphisms $G\to K$.
+\end{defn}
+
+\begin{corr}
+For any groups $G,K$, and $N\normsub G$, the function $q^*:\hom(G/N,K)\to \{\phi\in\hom (G,K):N\subseteq \ker \phi\}:\psi\mapsto \psi\circ q$ is a bijection.
+\end{corr}
+
+Recall we previously proved:
+\begin{thm}[Universal property of products]
+Let $\alpha:H\to G$ and $\beta:K\to G$ be homomorphisms, and let $i_H:H\to H\times K$ and $i_K:K\to H\times K$ be the inclusions of $H$ and $K$ in the product of $H\times K$. Then there is a homomorphism $\phi:H\times K\to G$ such that $\phi\circ i_H=\alpha$ and $\phi\circ i_K=\beta $ if and only if $\alpha(h)\beta(k)=\beta(k)\alpha(h)$ for all $h\in H, k\in K$.
+\end{thm}
+
+\begin{center}
+\begin{tikzpicture}
+
+
+\node (h) at (-2, 2) {$H$};
+\node (k) at (-2, -2) {$K$};
+\node (hk) at (0, 0) {$H\times K$};
+\node at (1,1.5) {$\alpha$};
+\node at (1,-1.5) {$\beta$};
+\node at (-1, 0.6) {$i_H$};
+\node at (-1,-0.6) {$i_K$};
+\node (g) at (4, 0) {$G$};
+
+\path[->] (h) edge (g);
+\path[->] (k) edge (g);
+\path[dashed,  ->] (hk) edge (g);
+\path[->] (h) edge (hk);
+\path[->] (k) edge (hk);
+
+\end{tikzpicture}
+\end{center}
+
+\begin{corr}
+There is a bijection between $\hom(H\times K,G)$ and $$\{(\alpha,\beta)\in \hom(H,G)\times \hom(K,G):\alpha(h)\beta(k)=\beta(k)\alpha(h) \text{ for all }h\in H,k\in K \}$$
+\end{corr}
+
+\begin{remark}
+We won't formally define the term \textit{universal property}. Often that's held off until grad level. But even if we want to define it now, we would need some category theory. Intuitively, we can think about it as a type of theorem setting up a bijection between some sets and set of homomorphisms.
+\end{remark}
+
+We still need to prove \thmref{5.4}. Before we get into the proof, let's prove the following lemma:
+
+\begin{lemma}
+If $\alpha:G\to H$ is surjective, $\psi_i:H\to K,i=1,2$ are such that $\psi_1\circ \alpha = \psi_2\circ \alpha$, then $\psi_1=\psi_2$.
+\end{lemma}
+
+\begin{pf}
+If $h\in H$, then there is $g\in G$ with $\alpha(g)=h$. So $\psi_1(h)=\psi_2(\alpha(g))=\psi_2(h)$. We conclude that $\psi_1=\psi_2$.
+\end{pf}
+
+With this lemma, we can dive into the proof of \thmref{5.4}:
+\begin{pf}
+\begin{itemize}
+\item[$\Rightarrow$] If $\psi$ exists, and $n\in N$, then $\phi(n)=\psi(q(n))=\psi(e)=e$ so $N\subseteq \ker\phi$.
+\item[$\Leftarrow$] Suppose $N\subseteq \ker\phi$. Define $\psi:G/N\mapsto K:[g]\mapsto \phi(g)$. To show $\psi$ is well-defined, note that if $[g]=[h]$, then $g\inv h\in N\subseteq \ker \phi$, so $\phi(g)\inv \phi(h)=\phi(g\inv h)=e$, so $\phi(g)=\phi(h)$.
+
+Clearly $\psi\circ q(g)= \psi([g])=\phi(g)$ for all $g\in G$, so $\psi\circ q=\phi$.
+
+If $[g],[h]\in G/N$, then 
+$$\psi([g] \cdot[h])=\psi([g h])=\phi(g h)=\phi(g) \phi(h)=\psi([g]) \psi([h])$$
+so $\psi$ is a homomorphism.
+\end{itemize}
+If $\psi': G/N \to K$ is another homomorphism with $\psi'\circ q=\phi$ then $\psi'\circ q=\psi\circ q$. Since $q$ is surjective, by \lemmaref{5.8}, $\psi'=\psi$. So uniqueness holds.
+\end{pf}
+\begin{remark}
+Equivalent way to define $\psi$: $\phi(gN)= \phi(g)\phi(N) = \phi(g)\{e\} = \{\phi(g)\}$. So if $S\in G/N$, then $\phi(S)=\{b\}$, a singleton set. Can define $\psi(S)=b$ for $b\in K$ such that $\phi(S)=\{b\}$.
+\end{remark}
+
+\section{The first isomorphism theorem}
+Recall: If $\phi:G\to K$ is a homomorphism then $[G:\ker\phi]=|\Im \phi|$. We prove this by setting up a bijection $\psi:G/\ker\phi\to \Im\phi$ defined by $\psi(S)=b$, where $b\in K$ is such that $\phi(S)=\{b\}$. This looks like what we just did! Now we know $G/\ker\phi$ is a group, $|G/\ker\phi|=[G:\ker\phi]=|\Im\phi|$. Maybe this bijection is an isomorphism?
+
+\begin{thm}[First isomorphism theorem]
+Suppose that $\phi:G\to K$ is a homomorphism. Then there is an isomorphism $\psi:G/\ker\phi\to \Im\phi$ such that $\phi =\psi\circ q$, where $q:G\to G/\ker\phi$ is the quotient homomorphism.
+\end{thm}
+
+\begin{pf}
+$\ker \phi\subseteq \ker\phi$, so by universal property there is a homomorphism $\psi: G/\ker\phi\to K$ with $\psi\circ q=\phi$.
+
+For $g\in G$, $\psi([g])=\phi(g)$, so plainly $\Im \psi= \Im\phi$. Thus we can regard $\psi$ as surjective homomorphism $G/\ker\phi\to \Im\phi$.
+
+$\psi$ agrees with the function $G/\ker \phi\to \Im\phi$ defined previously, so $\psi$ is a bijection. Therefore $\psi$ is an isomorphism.
+
+Alternatively, we can prove it from the scratch. If $\psi([g])=e$, then $\phi(g)=e$, so $g\in \ker\phi$ which implies $[g]=[e]$. So $\psi$ is injective. Thus it is isomorphism.
+\end{pf}
+The first isomorphism theorem is the best way to determine $G/N$.
+\begin{ex}[$\gl_n \mathbb{K}/\SL_n \mathbb{K}$]
+Recall $\SL_n (\mathbb{K})\normsub \gl_n (\mathbb{K})$ is defined as the kernel of homomorphism $\det:\gl_n \mathbb{K}\to \mathbb{K}^\times$.
+
+The image of det is $\Im\det=\mathbb{K}^\times$.
+By first isomorphism theorem, $\gl_n \mathbb{K}/\SL_n \mathbb{K}\iso \mathbb{K}^\times$.
+\end{ex}
+
+\begin{ex}[$\mathbb{R}/\mathbb{Z}$]
+Consider $\mathbb{Z}\normsub \mathbb{R}^+$. What is $\mathbb{R}/\mathbb{Z}$?
+
+Have homomorphism exp: $\mathbb{R}\to \mathbb{C}^\times: x\mapsto e^{2\pi ix}$. Thus $e^{2\pi ix}=1$ if and only if $x\in Z$.
+
+$\Im exp = \{a\in \mathbb{C}:|a|=1\}=:S^1$ (the \textbf{circle group}).
+
+So $\mathbb{R}/\mathbb{Z}\iso S^1$
+\end{ex}
+
+In general, to find $G/N$, we can find a group $K$ and homomorphism $\phi:G\to K$ such that $\ker\phi=N$. Then we can conclude $G/N\iso \Im\phi$. 
+
+Sometimes we can also turn this around and use first isomorphic theorem to find $\Im\phi$.
+
+\section{The correspondence theorem}
+We want to understand subgroups of $G/N$ using $q:G\to G/N$. Recall: Suppose $f:X\to Y$ is a function, $S\subseteq X, T\subseteq Y$. Then 
+\begin{itemize}
+	\item $f(S):= \{f(x):x\in S\}$, and 
+	\item $f\inv (T):=\{x\in X: f(x)\in T\}$
+\end{itemize}
+We previously proved:
+\begin{law}{Proposition 3.5}
+If $\phi:G\to H$ is a homomorphism, $K\le G$, then $\phi(K)\le H$. (a.k.a. pushfoward, image of $K$)
+\end{law}
+
+\begin{law}{Proposition 3.10}
+	If $\phi:G\to H$ is a homomorphism, $K\le H$, then $\phi\inv(K)\le G$. (a.k.a. pullback)
+\end{law}
+
+If $f:X\to Y$ is a bijection, $f\inv(f(S))=S$ and $f(f\inv (T))=T$. Thus if $\phi:G\to H$ is an isomorphism, we get a bijection.
+
+\begin{center}
+
+
+	\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+	\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+	%uncomment if require: \path (0,536); %set diagram left start at 0, and has height of 536
+	
+	
+	% Text Node
+	\draw (122,124) node [anchor=north west][inner sep=0.75pt]   [align=left] {Subgroups of $\displaystyle G$};
+	% Text Node
+	\draw (475,125) node [anchor=north west][inner sep=0.75pt]   [align=left] {Subgroups of $\displaystyle H$};
+	% Text Node
+	\draw (317,104) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle K\mapsto \phi ( K)$};
+	% Text Node
+	\draw (303,144) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle \phi ^{-1}( K') \mapsfrom K'$};
+	% Connection
+	\draw    (232,128.16) -- (469,128.83) ;
+	\draw [shift={(472,128.84)}, rotate = 180.16] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+	% Connection
+	\draw    (472,138.84) -- (235,138.17) ;
+	\draw [shift={(232,138.16)}, rotate = 360.15999999999997] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+	
+	\end{tikzpicture}
+\end{center}
+Furthermore:
+\begin{itemize}
+	\item $K_1\le K_2\iff \phi(K_1)\le \phi(K_2)$
+	\item $\phi(K_1\cap K_2)=\phi(K_1)\cap \phi(K_2)$
+	\item $K$ is normal $\iff$ $\phi(K)$ is normal 
+	\item $\phi(\inner{S})=\inner{\phi(S)}$. This holds for any homomorphisms. $\phi\inv(\inner{S}) = \inner{\phi\inv(S)}$ doesn't have to hold if $\phi$ is not isomorphism.
+	\item $[G:K]=[H:\phi(K)]$
+\end{itemize}
 \printindex
 \end{document}
 
