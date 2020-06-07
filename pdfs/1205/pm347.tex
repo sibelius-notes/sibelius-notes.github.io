@@ -2995,9 +2995,9 @@ Suppose $\phi:G\to K$ is a homomorphism, and $N\normsub G$. Let $q:G\to G/N$ be 
 
 In other words, can fill in dashed line so that diagram ``commutes'' if and only if $N\subseteq \ker \phi$.
 
-\begin{defn}{Hom$(G,K)$}
+\begin{notation}{Hom$(G,K)$}
 If $G,K$ are groups, let \textbf{$\hom(G,K)$} be the set of (homo)morphisms $G\to K$.
-\end{defn}
+\end{notation}
 
 \begin{corr}
 For any groups $G,K$, and $N\normsub G$, the function $q^*:\hom(G/N,K)\to \{\phi\in\hom (G,K):N\subseteq \ker \phi\}:\psi\mapsto \psi\circ q$ is a bijection.
@@ -3201,9 +3201,9 @@ $$
 If $\phi:G\to H$ is a surjective homomorphism, and $K\le H$, then $\phi(\phi\inv(K))=K$.
 \end{lemma}
 
-\begin{defn}{Sub$(G)$}
+\begin{notation}{Sub$(G)$}
 If G is a group, let \textbf{$\sub(G)$} denote set of subgroups of $G$.
-\end{defn}
+\end{notation}
 
 If $\phi:G\to H$ is a homomorphism, have induced functions $\phi:\sub(G)\to \sub(H)$ and $\phi\inv:\sub(H)\to \sub(G)$. 
 
@@ -3297,7 +3297,7 @@ Let $N\normsub G$. Then there is a bijection
 % Text Node
 \draw (127,137) node [anchor=north west][inner sep=0.75pt]   [align=left] {Subgroups \\$\displaystyle N\leq K\leq G$};
 % Text Node
-\draw (470,136) node [anchor=north west][inner sep=0.75pt]   [align=left] {Subgroups\\$\displaystyle K'$ of $\displaystyle H$};
+\draw (470,136) node [anchor=north west][inner sep=0.75pt]   [align=left] {Subgroups\\$\displaystyle K'$ of $\displaystyle G/N$};
 % Text Node
 \draw (305,121) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle K\mapsto q( K)$};
 % Text Node
@@ -3331,7 +3331,77 @@ $$
 $$
 \end{exercise}
 
+Suppose $N\normsub G$ and $N\le K\le G$, we immediately see that $N\normsub K$ since $kNk\inv \subseteq N$ for all $k\in K \subseteq G$. 
 
+Let $q_G:G\to G/N$ be quotient map. Since $N\normsub K$, also have quotient map $q_K:K\to K/N$.
+
+\begin{center}     
+	\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+	%uncomment if require: \path (0,536); %set diagram left start at 0, and has height of 536
+	
+	
+	% Text Node
+	\draw (122,149) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle K$};
+	% Text Node
+	\draw (342,149) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle G$};
+	% Text Node
+	\draw (329,241) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle G/N$};
+	% Text Node
+	\draw (110,242) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle K/N$};
+	% Text Node
+	\draw (236,136) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle i_{K}$};
+	% Text Node
+	\draw (106,192) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle q_{K}$};
+	% Text Node
+	\draw (204.73,196.69) node [anchor=north west][inner sep=0.75pt]  [rotate=-25.52] [align=left] {$\displaystyle q_{G} \circ i$};
+	% Text Node
+	\draw (355,191) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle q_{G}$};
+	% Text Node
+	\draw (200,255) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle kN\mapsto kN$};
+	% Connection
+	\draw    (138,158) -- (336,158) ;
+	\draw [shift={(339,158)}, rotate = 180] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+	% Connection
+	\draw    (128.57,171) -- (128.91,235) ;
+	\draw [shift={(128.93,238)}, rotate = 269.69] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+	% Connection
+	\draw    (348.93,171) -- (348.59,234) ;
+	\draw [shift={(348.57,237)}, rotate = 270.31] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+	% Connection
+	\draw    (138,161.97) -- (323.23,239.43) ;
+	\draw [shift={(326,240.59)}, rotate = 202.69] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+	% Connection
+	\draw    (151,250.9) -- (323,250.12) ;
+	\draw [shift={(326,250.1)}, rotate = 539.74] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+	
+	\end{tikzpicture}
+\end{center}
+
+It's easy to see $\ker q_G\circ i=N$, and by first isomorphism theorem, we get an isomorphism $\psi:K/N\to \Im q\circ i_K=q(K)$ such that $\psi\circ q_K = q_G\circ i$. In other words, if $k\in K$, then $\psi(kN)=q(k)=kN$. Let's summarize this into a proposition:
+
+\begin{prop}
+Suppose $N\normsub G$ and $N\le K\le G$. Let $q:G\to G/N$ be the quotient map. Then the function $K/N\to q(K)\le G/N:kN\mapsto kN$ is an isomorphism.
+\end{prop}
+
+Because of this isomorphism, we use the following notation:
+
+\begin{notation}{$K/N$}
+If $N\normsub G$ and $N\le K\le G$, then the subgroup $q(K)$ corresponding to $K$ in $G/N$ is denoted by $K/N$. 
+\end{notation}
+
+\begin{ex}[$D_{2n}$]
+Let $G=D_{2n}$, $N=\inner{s}$, where $s$ is rotation generator.
+
+Subgroups of $D_{2n}$ contains $N$ correspond to subgroups of $D_{2n}/N=\mathbb{Z}_2$.
+
+$\mathbb{Z}_2$ has two subgroups, $\mathbb{Z}_2$ and $\{e\}$.
+
+So there are only two subgroups of $D_{2n}$ containing $N$.
+\end{ex}
+
+\begin{ex}[$\gl_n \mathbb{K}$]
+$\gl_n \mathbb{K}/\SL_n \mathbb{K}\iso \mathbb{K}^\times$, so subgroups of $\gl_n \mathbb{K}$ containing $\SL_n \mathbb{K}$ correspond to subgroups of $\mathbb{K}^\times$ (of which there can be lots: $\{1,-1\}, \{2^x| x\in \mathbb{Z}\}$)
+\end{ex}
 \printindex
 \end{document}
 
