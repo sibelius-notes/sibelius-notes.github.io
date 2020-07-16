@@ -152,6 +152,7 @@ nav[data-toggle="toc"] .nav-link.active + ul {
 
 body {
 	font-family: 'Latin Modern Roman', serif;
+    background: #f9f9f9;
 }
 
 h1::after
