@@ -80,3 +80,92 @@ All these is approximation: you have a black box <span>&#92;(f(x) &#92;)</span>,
 *Can we measure intelligence?*
 
 ![there should be a image...](/pics/522/tguess.svg)
+
+# Lecture 2
+Check [this paper](https://www.csee.umbc.edu/courses/471/papers/turing.pdf)
+
+*Can machine think?*
+
+Alan Turing assumed we can build intelligent machines. Measuring intelligence is what he is proposing.
+
+Turing anticipated all AI fields:
+- searching. Not like browsing, and you type sth in search engine. We are talking about explicit ones: whenever you see sb and remember the face, that is a search. The challenge is the visual info is stored in a highly complicated way, and search mechanism is very sophisticated.
+- reasoning. That's where we failed Turing test. We cannot search intelligently, and we cannot reason based on the knowledge you acquired.
+- knowledge representation
+- NLP
+- computer vision
+- learning
+
+## The Chinese Room
+J. R. Searle
+
+![there should be a image...](https://miro.medium.com/max/348/0*zA6_zLOjyt0zDeQG)
+
+In the room, the person is non-Chinese. Two books inside: rule and dictionary. From outside, people come, put in Chinese text, and come out (flawless) English text.
+
+*Can this person understand Chinese? Can the room understand Chinese?*
+
+Let's look at an example.
+
+## Tic-Tac-Toe
+Version 1: Look-Up Table  [Answer for each situation is hard-coded]
+
+Version 2:
+- A: Attempt to place two marks in row
+- B: If opponent has two marks in a row, then place a mark in the third position.
+
+Version 3: Represent the **state**(understanding) of the game
+- Current board position?
+- next legal moves?
+
+Use an evaluation function.
+- Rate the next move! (how likely to win?)
+- Look-ahead of possible opponent's move!
+
+
+```
+<-----Stupid ----------------------- intelligent----->
+Version 1                   2                         3
+```
+
+AI = Function Approximation
+
+We need "data" for any approximation. For example, linear regression.
+
+AI = Operation intelligently on data to extract the relationship between in- and outputs.
+*  Training data for learning.
+*  testing data for validation.
+
+**Problems**
+1. Not enough data <span>&#92;(\to &#92;)</span> Augmentation
+2. Too much data <span>&#92;(\to &#92;)</span> Dimensionality reduction
+
+**Desired**
+1. no correlation
+2. high variance
+
+## PCA
+<span>&#92;(x' &#92;)</span> passes through the "mean" and delivers max variance when samples are projected into it. Process is repeated until we find <span>&#92;(n &#92;)</span> such axes <span>&#92;(\langle x_1,x_2,\ldots,x_n\rangle &#92;)</span>. intelligent: <span>&#92;(x\in \mathbb R^d \implies n \ll d &#92;)</span>.
+
+Principal Component Analysis (PCA) is the algorithm to find orthogonal axes that diagonalize the covariance matrix. What does this mean?
+
+First let's get used to some notations...
+
+- <span>&#92;(x &#92;)</span>: scalar.
+- <span>&#92;(\boldsymbol x &#92;)</span>: vector.
+- <span>&#92;(X &#92;)</span>: set.
+- <span>&#92;(\boldsymbol X &#92;)</span>: matrix.
+
+Covariance matrix
+<span>&#92;[
+\Sigma = \operatorname{cov}(\underbrace{x_i} _ {i\text{-th input}}, \underbrace{x_j} _ {j\text{-th input}})
+= \mathbb E \left[ (x_ i - \mu _ i) (x _ j - \mu _ j) \right]
+&#92;]
+</span>
+where <span>&#92;(\mu _ i = \mathbb E[ x _ i], \mu _ j = \mathbb E[ x _ j] &#92;)</span>.
+
+Are <span>&#92;(x_i &#92;)</span> and <span>&#92;(x_j &#92;)</span> changing together? (correlated)
+
+Generalization of Covariance: <span>&#92;(\Sigma = E[(\boldsymbol x - E[\boldsymbol x]) (\boldsymbol x - E[\boldsymbol x])^T  ] &#92;)</span>
+
+# Lecture 3
