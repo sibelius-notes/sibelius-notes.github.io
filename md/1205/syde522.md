@@ -169,3 +169,72 @@ Are <span>&#92;(x_i &#92;)</span> and <span>&#92;(x_j &#92;)</span> changing tog
 Generalization of Covariance: <span>&#92;(\Sigma = E[(\boldsymbol x - E[\boldsymbol x]) (\boldsymbol x - E[\boldsymbol x])^T  ] &#92;)</span>
 
 # Lecture 3
+## PCA
+main features selection. Which components (=features) are important to keep?
+- Significance = variance.
+- Intelligence = recognizing the significance
+
+Staring point is a file with a table: where the columns: <span>&#92;(x_ 1, x_ 2,\ldots &#92;)</span> are features and rows: (1, 2, 3, ...) are observations.
+
+Covariance matrix <span>&#92;(C = E[ x x^T] &#92;)</span>
+
+Diagonalizing <span>&#92;(C &#92;)</span> using a suitable orthogonal transformation matrix <span>&#92;(A &#92;)</span> by obtaining <span>&#92;(N &#92;)</span> orthogonal "special vectors" <span>&#92;(u_ i &#92;)</span> with "special parameters" <span>&#92;(\lambda _ i &#92;)</span>
+
+![there should be a image...](https://blog.bioturing.com/wp-content/uploads/2018/11/Blog_pca_6b.png)
+
+[src](https://blog.bioturing.com/2018/06/14/principal-component-analysis-explained-simply/)
+
+Principal components: <span>&#92;(\lambda_ 1 &#92;)</span> most important, <span>&#92;(\lambda _  N &#92;)</span> least important. Pick <span>&#92;(N' \ll N &#92;)</span>, so-called dimensionality reduction.
+
+PCA is
+- a linear transformation
+- unsupervised
+- uses statistics and calculus
+- dimensionality reduction algorithm
+- a visualization algorithm
+- intelligent because it recognizes significance
+
+## AI & Data
+**Data types**: numbers/symbols/text/images/videos/audio files...
+
+**Pre-processing**: filtering/normalization/outlier detection/dimensionality reduction/augmentation/...
+
+**Data representation**:
+- Hand-crafted features (e.g., stats, [SIFT](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform))
+- automatic feature extraction (e.g. deep features)
+
+**Encoding**: (compression/embedding)
+- no learning
+    - PCA
+    - [Fisher Vector](https://en.wikipedia.org/wiki/Fisher_kernel)
+    - [LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
+    - VLAD (vector of locally aggregated descriptors)
+    - ...
+- with learning
+    - Auto-Encoders. [ML DDoS Detection :)](https://www.sibeliusp.com/research/)
+    - t-SNE
+
+Applications of PCA
+- Data reduction
+- Data visualization
+- Data classification
+- Factor analysis
+- Trend analysis
+- Noise removal
+
+A meaningful chain:
+
+![there should be a image...](/pics/522/chain.svg)
+
+You will see that this is not always desirable.
+
+## Project
+(not sure if this helps...)
+1. Find a problem 
+2. Analyze the problem (input/output/knowledge)
+3. Select approach (architecture, parameters, ...)
+4. Design the approach
+5. Training
+6. Re-train if necessary
+7. Recall phrase (unseen data)
+8. Compare against other methods
