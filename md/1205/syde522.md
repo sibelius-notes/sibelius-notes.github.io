@@ -258,7 +258,7 @@ linear discriminant analysis (operates of feature subspace, linear method, super
     \mu _ i = {1\over N _ i }\sum _ {x\in C _ i} x, \quad \tilde \mu _ i = { 1\over N _ i}\sum _ {y\in C _ i }y = w^T \mu _ i
 &#92;]</span>
 
-- Driving force for separation: <span>&#92;(\operatorname{\argmax}_ w &#124;\tilde \mu _ 1 - \tilde \mu _ 2 &#124; &#92;)</span>
+- Driving force for separation: <span>&#92;(\operatorname{argmax}_ w &#124;\tilde \mu _ 1 - \tilde \mu _ 2 &#124; &#92;)</span>
 - But we are ignoring the **variability inside** classes
 
 Fisher's Approach: Normalize the distance (difference) between the means by intra-class scatter.
@@ -267,7 +267,7 @@ scatter = variance: <span>&#92;(\tilde s _ i ^ 2 = \sum _ {y\in C _ i} (y - \til
 
 intra-class scatter <span>&#92;(\tilde s _ 1^2 + \tilde s _ 2^2 &#92;)</span>
 
-Fisher Linear Discriminant: <span>&#92;(\dfrac {&#124; \tilde \mu _ 1-\tilde\mu _ 2 &#92;^2} {\tilde s _ 1^2 + \tilde s _ 2^2})</span>. To be maximized!
+Fisher Linear Discriminant: <span>&#92;(\dfrac {&#124; \tilde \mu _ 1-\tilde\mu _ 2 &#124;^2} {\tilde s _ 1^2 + \tilde s _ 2^2} &#92;)</span>. To be maximized!
 
 ## t-SNE
 t-Distributed stochastic neighbor embeddings.
