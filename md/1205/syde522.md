@@ -230,7 +230,7 @@ You will see that this is not always desirable.
 
 ## Project
 (not sure if this helps...)
-1. Find a problem 
+1. Find a problem
 2. Analyze the problem (input/output/knowledge)
 3. Select approach (architecture, parameters, ...)
 4. Design the approach
@@ -238,3 +238,65 @@ You will see that this is not always desirable.
 6. Re-train if necessary
 7. Recall phrase (unseen data)
 8. Compare against other methods
+
+# Lecture 4
+## LDA
+linear discriminant analysis (operates of feature subspace, linear method, supervised)
+- Data <span>&#92;(\langle x _ 1,\ldots,x _ n \rangle &#92;)</span>
+- <span>&#92;(N _ 1 (N _ 2) &#92;)</span> samples belonging to class <span>&#92;(C_1 (C _ 2) &#92;)</span>
+- Find a line that maximizes the class separation
+
+![there should be a image...](https://sebastianraschka.com/images/blog/2014/linear-discriminant-analysis/lda_1.png)
+
+[src](https://sebastianraschka.com/Articles/2014_python_lda.html)
+
+![there should be a image...](/pics/522/wtx.png)
+- Define a good separation measure
+- Mean vector
+
+<span>&#92;[
+    \mu _ i = {1\over N _ i }\sum _ {x\in C _ i} x, \quad \tilde \mu _ i = { 1\over N _ i}\sum _ {y\in C _ i }y = w^T \mu _ i
+&#92;]</span>
+
+- Driving force for separation: <span>&#92;(\operatorname{\argmax}_ w &#124;\tilde \mu _ 1 - \tilde \mu _ 2 &#124; &#92;)</span>
+- But we are ignoring the **variability inside** classes
+
+Fisher's Approach: Normalize the distance (difference) between the means by intra-class scatter.
+
+scatter = variance: <span>&#92;(\tilde s _ i ^ 2 = \sum _ {y\in C _ i} (y - \tilde \mu _ i)^2 &#92;)</span>
+
+intra-class scatter <span>&#92;(\tilde s _ 1^2 + \tilde s _ 2^2 &#92;)</span>
+
+Fisher Linear Discriminant: <span>&#92;(\dfrac {&#124; \tilde \mu _ 1-\tilde\mu _ 2 &#92;^2} {\tilde s _ 1^2 + \tilde s _ 2^2})</span>. To be maximized!
+
+## t-SNE
+t-Distributed stochastic neighbor embeddings.
+- non-linear data visualizer
+- t-test. t-distribution (normal distribution)
+
+t-SNE does not use any norm (=distance metric). It uses Kullback-Leibler Divergence. Given two probability distributions <span>&#92;(p,q &#92;)</span>, the KL divergence  measures the distance
+<span>&#92;[
+    D(p\&#124;q)= \sum _ {x\in X} p(x)\log {p(x)\over q(x)}
+&#92;]</span>
+However, <span>&#92;(D (p \&#124; q) \ne D(q \&#124; p) &#92;)</span>. Therefore, KL divergence is not a metric!
+
+Relation to entropy <span>&#92;(H(X) &#92;)</span>.
+
+<span>&#92;[H(X)=\sum _ {x\in X}p(x)\log {1\over p(x)}
+= \log N - D(\underbrace{p(x)} _ {\text{true dist'n}} \&#124; p _ U(x))
+&#92;]</span>
+where <span>&#92;(U &#92;)</span>: uniform.
+
+The Shannon entropy is the number of bits necessary to identify <span>&#92;(X &#92;)</span> from <span>&#92;(N &#92;)</span> equally likely possibilities, less the KL divergence of the uniform distribution from the true distribution.
+
+t-SNE idea: hyper-dimensions <span>&#92;(\to &#92;)</span> two dimensions. Similarity in high dimensions corresponds to short distance in low dimensions.
+
+Challenge: perplexing!
+
+t-SNE minimizes the sum of KL divergences over all data points using a gradient descent method.
+
+<span>&#92;[
+    Objective = \sum _ i D(P _ i \&#124; Q  _ i) = \sum _ i \sum _ j p _ {j vert i} \log { p _ {j &#124; i}\over q _ {j &#124; i}}
+&#92;]</span>
+
+![there should be a image...](/pics/522/pq.png)
