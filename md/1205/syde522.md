@@ -296,7 +296,7 @@ Challenge: perplexing!
 t-SNE minimizes the sum of KL divergences over all data points using a gradient descent method.
 
 <span>&#92;[
-    Objective = \sum _ i D(P _ i \&#124; Q  _ i) = \sum _ i \sum _ j p _ {j vert i} \log { p _ {j &#124; i}\over q _ {j &#124; i}}
+    Objective = \sum _ i D(P _ i \&#124; Q  _ i) = \sum _ i \sum _ j p _ {j &#124; i} \log { p _ {j &#124; i}\over q _ {j &#124; i}}
 &#92;]</span>
 
 ![there should be a image...](/pics/522/pq.png)
