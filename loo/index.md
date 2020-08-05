@@ -26,11 +26,9 @@
 
 
 
-<main style="margin:10px">
-    <div>
-        <iframe id="frameTop" name="select" src="expertform.shtml"></iframe>
-    </div>
-    <div>
-        <iframe  allowTransparency="true" id="frameBottom" name="results"></iframe>
-    </div>
-</main>
+<div>
+    <iframe id="frameTop" name="select" src="expertform.shtml"></iframe>
+</div>
+<div>
+    <iframe  allowTransparency="true" id="frameBottom" name="results"></iframe>
+</div>
