@@ -1,15 +1,8 @@
----
-title: Waterloo Class Schedules
-layout: default
----
-
-
+<head>
+<title>{{ Waterloo Class Schedules }} - {{ site.title }}</title>
 <style>
 #frameTop
 {
-    position: absolute;
-    top: 0;
-    left: 0;
     height: 50px;
     width: 100%;
     overflow: hidden;
@@ -18,11 +11,8 @@ layout: default
 
 #frameBottom
 {
-    position: fixed;
     height: 100%;
     width: 100%;
-    overflow: scroll;
-    vertical-align: top;
     background-color: #c8c8c8;
 }
 /*作者：木子礼记
@@ -30,8 +20,13 @@ layout: default
 来源：简书
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。*/
 </style>
+</head>
+{% include site-icons.svg %}
+{% include site-header.html %}
 
-<main class="main container">
+
+
+<main style="margin:10px">
     <div>
         <iframe id="frameTop" name="select" src="expertform.shtml"></iframe>
     </div>
