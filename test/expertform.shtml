@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<form method="get" action="http://www.adm.uwaterloo.ca/cgi-bin/cgiwrap/infocour/salook.pl" target="results">
+<form method="get" action="https://www.adm.uwaterloo.ca/cgi-bin/cgiwrap/infocour/salook.pl" target="results">
 <label accesskey="T"><b>T</b>erm: <select id="sess" name="sess" tabindex="1">
 <option value="1211">Winter 2021 (PRELIMINARY)
 <option value="1209" selected>Fall 2020
@@ -333,8 +333,6 @@
 </label>
 <label><b>C</b>ourse: <input name="cournum" size="5" tabindex="5" accesskey="C"></label>
 <input type="submit" value="View Class Schedules" tabindex="6" accesskey="V">
-
-<a href="expert" target="_blank">New Form</a>
 
 </form>
 
