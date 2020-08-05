@@ -5,7 +5,8 @@
 <title>Waterloo Class Schedules</title>
 </head>
 <body>
-
+    <p>This form was exported from <a href="https://cs.uwaterloo.ca/cscf/teaching/schedule/expert" target="_blank">here</a>,
+    but with customized functionalities.</p>
 <form method="get" action="https://www.adm.uwaterloo.ca/cgi-bin/cgiwrap/infocour/salook.pl" target="results">
 <label accesskey="T"><b>T</b>erm: <select id="sess" name="sess" tabindex="1">
 <option value="1211">Winter 2021
