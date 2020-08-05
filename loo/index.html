@@ -5,16 +5,37 @@ layout: default
 
 
 <style>
-.RightBackground
-  {
-     background-color: #c8c8c8;
-  }
+#frameTop
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#frameBottom
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    vertical-align: top;
+    background-color: #c8c8c8;
+}
+/*作者：木子礼记
+链接：https://www.jianshu.com/p/8c30bb552eca
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。*/
 </style>
 
 <main class="main container">
-    <frameset rows="36,*">
-        <frame name="select" src="expertform.shtml">
-        <frame  allowTransparency="true" class="RightBackground" name="results">
-    </frameset>
-
+    <div>
+        <iframe id="frameTop" name="select" src="expertform.shtml"></iframe>
+    </div>
+    <div>
+        <iframe  allowTransparency="true" id="frameBottom" name="results"></iframe>
+    </div>
 </main>
