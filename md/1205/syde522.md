@@ -300,3 +300,5 @@ t-SNE minimizes the sum of KL divergences over all data points using a gradient 
 &#92;]</span>
 
 ![there should be a image...](/pics/522/pq.png)
+
+# Lecture 5
