@@ -302,3 +302,63 @@ t-SNE minimizes the sum of KL divergences over all data points using a gradient 
 ![there should be a image...](/pics/522/pq.png)
 
 # Lecture 5
+We'll start by saying: AI is vision! Intelligence is to recognize people/scenes/objects/patters/...
+- Face recognition
+- object recognition
+- Auto-captioning of images
+- robot navigation
+- ...
+
+Given a digital image, two possible ways for recognition:
+1. AI approach: given an image, then pass to some sort of AI black box, then there it comes out classes/text
+2. CV/AI approach: given an image, then give it to whitebox (CV), which gives you some features, then goes to blackbox of AI, then classes/text
+
+Feature Extraction:
+1. Keypoint-oriented (SIFT, SURF, ...): Several hundreds/thousands features
+2. Histogram-oriented (LBP, HOG, ELF ...): one histogram
+
+Example: Harris Corner Detection
+
+![there should be a image...](https://miro.medium.com/max/469/0*gTbWMTKvNF-jLJrM.jpg)
+
+For SIFT, you get many feature vectors of length 128. Thus
+<span>&#92;[
+    Image = \bigcup _ {i=1} ^ { n \text{ key points}} v _ i
+&#92;]</span>
+Challenge:
+- Data is too large
+- Data may not be descriptive
+
+Solution: embedding/pooling/encoding
+- Fisher Vectors (embedding/pooling)
+- VLAD (encoding/increasing discrimination)
+
+##  Fisher Vectors
+
+We have our dataset: <span>&#92;(X = &#92;left&#92;{ x _ t &#124; t = 1,\ldots, T &#92;right&#92;} &#92;)</span>. And <span>&#92;(u _ \lambda &#92;)</span> = probability density function which models the generative process of elements of <span>&#92;(X &#92;)</span>. And we have <span>&#92;(\lambda \in \mathbb R^M &#92;)</span> which are parameters of <span>&#92;(u_ \lambda &#92;)</span>
+
+In statistics, the "score function" is the gradient (partial derivative) w.r.t. parameter <span>&#92;(\lambda &#92;)</span> of the natural log of the likelihood function. Score function <span>&#92;(= \nabla _ \lambda \log u_ \lambda (X) = \nabla _ \lambda \log P(x | u _ \lambda) &#92;)</span>
+
+Let <span>&#92;(X &#92;)</span> be the set of D-dimensional local descriptors extracted from an image (e.g. SIFT)
+
+<span>&#92;[
+    g _ \lambda^X = \sum _ {t=1}^T L _ \lambda \nabla _ \lambda \log u _ \lambda (x _ t)
+&#92;]</span>
+This is called Fisher Vector. Fisher Vector is a sum of normalized gradients statistics computed for each descriptor (= feature vector). The operation
+<span>&#92;[
+    x _ t \to f _ {FK}(x _ t) = L _ \lambda \nabla _ \lambda \log u _ \lambda ( x _ t)
+&#92;]</span>
+is an embedding of local descriptors <span>&#92;(x _ t &#92;)</span> in a higher dimensional space which is easier for classifier.
+
+<span>&#92;(L _ \lambda &#92;)</span>: Cholesky Decomposition
+<span>&#92;[
+    F _ \lambda ^{-1} = L _ \lambda ^ T L _ \lambda, \qquad K _ {FK}(X,Y) = G _ \lambda ^{X^T} F _ \lambda G _ \lambda ^{X}
+&#92;]</span>
+where <span>&#92;(K _ {FK} &#92;)</span> is the Fisher Kernel.
+
+## VLAD
+Vector for locally aggregated descriptors
+
+How to recognize images? Bag of Visual Words
+
+![there should be a image...](/pics/522/vword.png)
