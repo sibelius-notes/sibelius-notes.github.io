@@ -359,6 +359,36 @@ where <span>&#92;(K _ {FK} &#92;)</span> is the Fisher Kernel.
 ## VLAD
 Vector for locally aggregated descriptors
 
-How to recognize images? Bag of Visual Words
+How to recognize images? Bag of Visual Words (BoVW)
 
 ![there should be a image...](/pics/522/vword.png)
+
+Given an image <span>&#92;(I &#92;)</span>, divide it into small cell/windows of size <span>&#92;(n \times n &#92;)</span> (i.e. 16x16). We vectorize visual words for convenient calculations.
+
+**Theory**: you got a image, apply BoVW, and get millions of visual words, and give that to a classifier, and classifier says that's a cat
+
+**Practice**:
+- too many vectors
+- redundancy
+- noise
+
+**General Approach**: Build a codebook (dictionary) <span>&#92;(C = &#92;left&#92;{ c _ 1,\ldots,c _ n &#92;right&#92;} &#92;)</span> from <span>&#92;(m\gg n &#92;)</span> feature vectors (vectorized visual words)
+
+**Idea**: Use a clustering algorithm like k-means. (<span>&#92;(C _ i &#92;)</span>) is the centre of <span>&#92;(n &#92;)</span> classes found in the data.
+
+**Core Idea of VLAD**: Accumulate, for each visual word <span>&#92;(C _ i &#92;)</span>, the difference of the vectors <span>&#92;(X &#92;)</span> assigned to <span>&#92;(C _ i &#92;)</span>, <span>&#92;(X - C _ i &#92;)</span>, i.e., distribution of data w.r.t. the class centers.
+
+<span>&#92;[
+    V _ {i,j}=\sum _ {NN(X)=C_i} X _ j - C _ {i,j}
+&#92;]</span>
+Here NN is the nearest neighbor. <span>&#92;(X _ j &#92;)</span> is the <span>&#92;(j &#92;)</span>-th component of descriptor. <span>&#92;(C _ {i,j} &#92;)</span> is the corresponding center
+
+Here we do a <span>&#92;(L _ 2 &#92;)</span> normalization.
+<span>&#92;(
+    V : = {V\over \&#124; V\&#124; _ 2}
+&#92;)</span>
+
+Final Chain
+![there should be a image...](/pics/522/finalchain.png)
+
+# Lecture 6
