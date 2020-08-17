@@ -84,3 +84,10 @@ Both a musical style and a place:
 - During ‘20s and ‘30s 21,000 publishers, 36,000 composers
 - division of labour: composer, lyricists, publisher, publicity, performers. Unlike rural area, you do everything yourself.
 - Sheet music dominates – (transition to recordings begins during the 1920s)
+
+TPA is not just a place. It's a musical style, develops a specific way of writing songs. In terms of lyrics: idealized romance – beginning and ending.  Music:
+- easy to play
+- easy to sing – phrasing and range
+- AABA musical form
+
+Let's take a look at “Somewhere Over The Rainbow” (Arlen/Harburg, 1939), which is a great example of AABA.
