@@ -91,3 +91,16 @@ TPA is not just a place. It's a musical style, develops a specific way of writin
 - AABA musical form
 
 Let's take a look at “Somewhere Over The Rainbow” (Arlen/Harburg, 1939), which is a great example of AABA.
+
+
+# Lecture 2
+Now it is with race that we are going to be concerned primarily this week, because we are going to look at is how the music of African Americans make it to North America, how it survive nightmare of slavery. To start with, the history of slavery.
+
+## Part A: Slavery
+If you are looking for a date of the birth of popular music In North America, a good candidate would be 1619: beginning of one of the darkest chapters in this history of western culture. 1619: first time ever, slaves kidnapped from their homes (West Africa) were sold into bandage on continental North America. This event has profound effect on history. Slavery lasted about 250 yrs. They are no longer considered human. They were themselves personal possessions. And yet, they managed to bring with them some sense of their culture/storytelling/music. And it is that west African origin that would become the core of structuring the sound of African American music culture. Let's listen to an example: “Old Alabama” 1947.
+
+*Music playing*
+![there should be a image...](/pics/slave.jpg)
+
+
+First question: is the recording actually by slaves? No, cause recording tech didn't appear until late 1800. Slavery ended in 1865, so it's impossible to these two to line up. The recording is about a prison gang such as a picture above. 7 am in the morning, a group of African American chopping a large tree that has fallen after a storm. The knocking sound is the swinging of the axes.

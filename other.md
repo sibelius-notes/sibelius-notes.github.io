@@ -10,8 +10,6 @@ feature_text: |
 
 [Courses dependency graph](/courses_dependency/).
 
-[Learning notes](/md/book) on STML book series, as well as other good math books.
-
 [LaTeX Nerd](https://sibp.pro).
 
 <a href="https://www.youtube.com/playlist?list=PLOYRlicwLG3St5aEm02ncj-sPDJwmojIS" target="_blank">Map videos</a> - from Domain of Science. I saw these maps frequently on a TV by the door of main reception desk (DC 2326).
