@@ -531,3 +531,13 @@ Collaboration: Use the lateral distance <span>&#92;(d _ {ij} &#92;)</span> betwe
 &#92;]</span>
 
 ![there should be a image...](/pics/522/gauss.png)
+
+Weight updates:
+<span>&#92;[
+    W _ j (n+1)= W _ j(n) + \Delta W _ j
+&#92;]</span>
+where <span>&#92;(\Delta W _ j = \underbrace{\eta y_ j } _ {\text{Hebb's Rule}} - \underbrace{g(y _ j) w _ j}_{\text {Forgetting rule}} &#92;)</span>. So complete formula for update:
+<span>&#92;[
+    W _ j (n+1)= W _ j(n) + \eta (n) h _ {ij(x)}(n)[x-w _ j(n)]
+&#92;]</span>
+where <span>&#92;(\eta(n) = \eta _ 0\exp(- {n\over T _ 2}) &#92;)</span>
