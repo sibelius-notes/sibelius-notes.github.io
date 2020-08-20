@@ -541,3 +541,32 @@ where <span>&#92;(\Delta W _ j = \underbrace{\eta y_ j } _ {\text{Hebb's Rule}} 
     W _ j (n+1)= W _ j(n) + \eta (n) h _ {ij(x)}(n)[x-w _ j(n)]
 &#92;]</span>
 where <span>&#92;(\eta(n) = \eta _ 0\exp(- {n\over T _ 2}) &#92;)</span>
+
+Convergence: many iterations! (e.g., several thousands times the number of units)
+
+Stopping:
+- no noticeable change
+- No big change in the feature map
+
+Problems:
+- convergence may take a long time
+- variable results
+
+# Lecture 8
+Classification: Intelligence is to distinguish things.
+
+## Support Vector Machines
+SVM
+
+![there should be a image...](/pics/522/svm.png)
+
+Assumption: classes <span>&#92;(\in &#92;left&#92;{ \oplus, \ominus &#92;right&#92;} &#92;)</span>. And <span>&#92;(w\cdot x _ \oplus + b \ge 1, w\cdot x _ \ominus + b \le -1 &#92;)</span>
+
+Also introduce a dummy variable: <span>&#92;(y _ i = &#92;begin{cases}
++1 & &#92;text{for }\oplus  &#92;&#92;
+  -1 & &#92;text{for } \ominus
+&#92;end{cases} &#92;)</span>. Thus for all <span>&#92;(\oplus, \ominus &#92;)</span>,
+<span>&#92;[y _ i (w\cdot w + b)-1\ge 0 &#92;]</span>
+Best classification: the largest margin!
+
+[label](https://youtu.be/zDOeEQvku6E?t=2289)
