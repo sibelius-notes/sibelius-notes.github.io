@@ -457,3 +457,77 @@ Other methods:
 - Minimum description length
 
 ![there should be a image...](/pics/522/smallbig.png)
+
+# Lecture 7 - Clustering
+
+idea: Intelligence is the capability of grouping similar objects. Clustering groups "unlabeled" data into "clusters" of similar inputs.
+
+Are clusters well-separated? Are clusters linearly separable?
+
+Difficulties: overlaps / complicated shapes
+
+Clustering algorithms can be divided into 2 types
+- need # of clusters
+- don't need it
+
+## K-means
+
+We start with K-means algorithm: find the centroids (prototypes)(means) of K clusters
+1. Randomly place K centroids
+2. Assign each data point to its closest cluster K
+3. Update the centroids
+
+![there should be a image...](/pics/522/centroid.png)
+
+Similarity grouping happens via distance measurement. So objective (error):
+<span>&#92;[
+    E = \sum _ {k=1} ^K \sum _{x\in C _ k} \&#124;x-m _ k\&#124; _ 2
+&#92;]</span>
+where <span>&#92;(m _ k &#92;)</span> is the centroid of <span>&#92;(k &#92;)</span>-th cluster. Minimize the sum of squared errors to its prototype in each cluster.
+
+When you do the update, centroids are the average of all <span>&#92;(x\in C _ k &#92;)</span> for <span>&#92;(k \in &#92;left&#92;{ 1,2,\ldots, K &#92;right&#92;} &#92;)</span>. Stopping:
+1. after some iterations
+2. when centroids don't change anymore
+3. when few/no data points change cluster
+
+Problems of K-means:
+1. Needs K
+2. Outlier sensitive
+3. Hard clustering
+
+![there should be a image...](/pics/522/hard-cluster.png)
+
+Clustering is unsupervised learning.
+
+## SOM
+Use processing units (neurons) to place centroids on an adjustable map: Self-Organizing Maps (SOM). Hypothesis: The model self-organizes based on learning rules and interactions. Processing units maintain proximity relationships as they grow. This is so-called Kohonen Map.
+
+![there should be a image...](/pics/522/SOM.png)
+The input is connected with each unit (neuron) of a lattice (map).
+
+Concept of neighborhood:
+![there should be a image...](/pics/522/nbr.png)
+
+Goals:
+- find weight values such that adjacent units have similar values.
+- inputs are assigned to units that are similar to them
+- each unit becomes the center of a cluster
+
+Basically SOM is constrained K-means.
+
+Given input <span>&#92;(X &#92;)</span>, find the <span>&#92;(i &#92;)</span>-th unit with closest weight vector by competition. <span>&#92;(w _ i ^T x &#92;)</span> will be maximum.
+
+For each unit <span>&#92;(j &#92;)</span> in the neighborhood <span>&#92;(N(i) &#92;)</span> of the winning neuron <span>&#92;(i &#92;)</span>, we update the weights of <span>&#92;(j &#92;)</span>(<span>&#92;(w _ j &#92;)</span>)
+
+Weights outside of <span>&#92;(N(i) &#92;)</span> are not updated
+
+SOM has 3 stages: 1. competition. 2. collaboration: concept of neighborhood. 3. Weight update.
+
+Competition: find the most similar unit: <span>&#92;(i(x) = \operatorname{argmax} _ j \&#124; x - w _ j \&#124; _ 2 &#92;)</span>, where <span>&#92;(j=1,\ldots,m; &#92;)</span> <span>&#92;(m &#92;)</span> = # of units.
+
+Collaboration: Use the lateral distance <span>&#92;(d _ {ij} &#92;)</span> between the winner unit <span>&#92;(i &#92;)</span> and unit <span>&#92;(j &#92;)</span>
+<span>&#92;[
+    h _ {ij} (d _ {ij}) = \exp \left(- {d _ {ij}^2\over 2\sigma^2}\right)
+&#92;]</span>
+
+![there should be a image...](/pics/522/gauss.png)
