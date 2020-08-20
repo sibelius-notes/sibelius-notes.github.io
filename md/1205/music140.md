@@ -104,3 +104,28 @@ If you are looking for a date of the birth of popular music In North America, a 
 
 
 First question: is the recording actually by slaves? No, cause recording tech didn't appear until late 1800. Slavery ended in 1865, so it's impossible to these two to line up. The recording is about a prison gang such as a picture above. 7 am in the morning, a group of African American chopping a large tree that has fallen after a storm. The knocking sound is the swinging of the axes.
+Even though we don't have a audio recording of that period, we have lots of written accounts of what people heard. From these written accounts, these recordings are a great depiction of what might actually be going on.
+
+This is called **work song**. One of many different types that existed among African Americans during slavery. In fact, work song is quite important. It can pass time/set pace. And singing to coordinate work was seen as a good strategy. It's more complicated in the recording: they are not simply singing a song, the song is improvised in the moment. Singing the same song over and over again is boring...
+
+The first voice you heard is song leaders. They are valuable as far as slaves are concerned. Take Lego bricks as an example. A brick typically has two lyrical lines. The value of song leaders is that they are able to think on their feet and put these Lego bricks together to create interesting songs everyday.
+
+We are not yet dealing with professional song writing/singing. They don't do these for a living. These songs are improvised, and put together by some preexisting beats and pieces, which don't belong to anyone. Any song leader can use them, can sing them. Musicologist describes this kind of phenomenon as *Floating pool of verse*: something doesn't legally belong to anyone but really the property of the community, anyone who wants to can make use of it.
+
+What we are listening to at this point we would describe as **folk music**. There are some fundamental differences between folk and professional.
+- performed by amateurs: not for a living.
+- more concern with tradition than innovation (lacking “self-consciousness”)
+
+In the context of the course, “Self-Consciousness” will refer to a musician who is actively looking for ways to innovate in terms of performance and/or composition. It is often a sign of professionalization as professional musicians are always looking for ways to ‘stand out’ from others.
+
+We have to be careful, not all folk musicians are amateurs. As we see later in the course, folk music will actually become an important element within music industry itself with the work such as Bob Dylan. The other important term: **African Retentions**. Relatively speaking, keep in mind that we are talking about a fairly specific region of the West Africa Coast. So what are African Retentions? In this case, fundamental aspects of the way people make music.
+
+Literally, we are not saying the music sounds like music of culture of West Africa. At surface level, music fundamentally changes, since slave owners often suppress West African Culturing in order to make slaves' lives as miserable as possible. However, we can still trace some elements back to West Africa in terms of their origins.
+
+For example, *interest in percussive and distorted timbres*. Percussive: sound created by striking the instruments, short and quick articulations. Distortion: from West African culture perspective, it can imply an excess or overload of energy and emotions.
+
+Next thing, the use of *riffs*: A small self-contained piece of music that repeats over and over again becoming the basis for longer composition. For those who have classical music background might be wondering what's the difference between riff-based composition and a motif based composition. One great example of motif based in western classical music is Beethoven's fifth Symphony. So is that riff? No, because Beethoven is constantly varying the motif.
+
+The last thing: the use of *call and response*.
+
+## Part B: The Blues

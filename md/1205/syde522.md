@@ -392,3 +392,68 @@ Final Chain
 ![there should be a image...](/pics/522/finalchain.png)
 
 # Lecture 6
+How to validate AI algorithms? [How do I use Turing Test in practice?]
+- We get the data
+- We train our algorithms:
+    - how do we know it has learned what is was supposed to learn?
+    - We should test it! If good enough, then release it! How do we make sure of this?
+
+First factor to make sure that is good enough is to have target/objective function:
+- error (minimize)
+- reward (maximize)
+- fitness (maximize)
+- punishment (minimize)
+
+Given the entire data <span>&#92;(X = &#92;left&#92;{ x _ t &#92;right&#92;} &#92;)</span>
+
+![there should be a image...](/pics/522/super.png)
+
+Given the set of all hypotheses <span>&#92;(H &#92;)</span> (set of all possible solutions), find <span>&#92;(h\in H &#92;)</span> such that
+<span>&#92;[
+    \sum _ {x _ t\in X} (x _ t^* - x _ t ^ d) = \epsilon \to 0
+&#92;]</span>
+which is supervised. This constitutes a good fit for the model <span>&#92;(h &#92;)</span> into <span>&#92;(X &#92;)</span>. Any concern?
+
+**Scenario #1**: you have your complex data and simple solution, then you train. It does not converge. Problem is big/non-linear/non-stationary. Solution (hypothesis) is not capable of capturing the complexity.
+![there should be a image...](/pics/522/scen1.png)
+
+**Scenario #2**: Problem is small/linear/stationary. Solution is too big such that is completely owns the problem. h is memorizing X.
+
+![there should be a image...](/pics/522/scen2.png)
+
+What is the ultimate sign that the algorithm has really learned? It can generalize the inherent X-Y relationship to "unseen" data.
+
+Validation = test for generalization. Idea: keep one part of data for testing. But this may not be reliable! The split may be lucky/unfortunate. So we have K-fold partition.
+
+Random Sampling, K-fold cross validation:
+![there should be a image...](/pics/522/randomsamp.png)
+
+But all this would work if we had a lot of data. What if we don't? We use Leave-one-Out validation.
+
+n-fold cross validation: vert expensive, suitable for small data.
+
+Model complexity = <span>&#92;(&#124;P &#124; &#92;)</span> where <span>&#92;(P &#92;)</span> is the set of parameters of <span>&#92;(h\in H &#92;)</span>. Occam's Razor: Keep it simple! = Regularization
+<span>&#92;[
+    \min \left( \underbrace{\sum _ {x _ t\in X} (x _ t^* - x _ t^d)} _ {\text{lowest error}} + \underbrace{&#124;P &#124;} _ {\text{smallest solution}}\right)
+&#92;]</span>
+
+Augmented error function:
+<span>&#92;[
+    E' = E _ {total} + \underbrace{\lambda \cdot \text{model complexity}} _ {\substack {\text{penalized complex}&#92;&#92; \text{solutions with} &#92;&#92;
+    \text{large variance}}}
+&#92;]</span>
+
+If <span>&#92;(\lambda &#92;)</span> too large, then simple models, then increase bias. Hence we use cross validation to optimize <span>&#92;(\lambda &#92;)</span>.
+
+Another model selection approach: Bayesian approach is used if we have prior knowledge.
+
+Bayes Rule:
+<span>&#92;[
+    P (model &#124; data) = {P(data &#124; model) \cdot P(model)\over P(data)}
+&#92;]</span>
+
+Other methods:
+- Structural risk minimization
+- Minimum description length
+
+![there should be a image...](/pics/522/smallbig.png)
