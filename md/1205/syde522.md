@@ -626,7 +626,7 @@ Other cluster validity measures:
         \max _ {k=1} ^M diam(c _ k)
     }
 &#92;]</span>
-where <span>&#92;(d (c _ i,c _ j)= \min _ {x\in c _ i,x'\in c _ j}\norm{x-x'}^2 &#92;)</span>, and <span>&#92;(diam(c _ k) = \max _ {x,x'\in c _ k}\norm{x-x'}^2 &#92;)</span>
+where <span>&#92;(d (c _ i,c _ j)= \min _ {x\in c _ i,x'\in c _ j}\&#124;x-x'\&#124;^2 &#92;)</span>, and <span>&#92;(diam(c _ k) = \max _ {x,x'\in c _ k}\&#124;x-x'\&#124;^2 &#92;)</span>
 - WB Index <span>&#92;(WB _ M = M\cdot {SSW\over SSB} &#92;)</span>
 
 We have other problems: We made a big assumption: <span>&#92;(x _ i\in C _ k &#92;)</span> and <span>&#92;(x _ i\notin C _ j \quad \forall j\ne k &#92;)</span>. This is hard/dual/crisp clustering.
@@ -639,3 +639,57 @@ AI deals with imperfect info.
 ![there should be a image...](/pics/522/imperfect.png)
 ## A bit of Set theory
 <span>&#92;(X = &#92;left&#92;{ x &#92;right&#92;} &#92;)</span> universe of discourse
+
+characteristic function of <span>&#92;(A: f _ A(x)=&#92;begin{cases}
+1 & &#92;text{if }x\in A  &#92;&#92;
+0   & &#92;text{otherwise}
+&#92;end{cases} &#92;)</span>
+
+Logical Laws:
+1. The Law of Non-Contradiction: <span>&#92;(A\cap \bar A = \emptyset &#92;)</span>
+2. The Law of Excluded Middle: <span>&#92;(A\cup \bar A =X &#92;)</span>
+
+## Fuzzy Sets
+<span>&#92;(A = &#92;left&#92;{ (x,\mu _ A(x)) &#124; x\in X, \mu _ A(x)\in [0,1] &#92;right&#92;} &#92;)</span>
+or we write <span>&#92;(A = \int _ X {\mu _ A(x)\over X} &#92;)</span>
+
+Simple example: <span>&#92;(X=&#92;left&#92;{ 1,2,\ldots,7 &#92;right&#92;} &#92;)</span>, and we define <span>&#92;(A =  &#92;)</span> "set of neighbors of 4"
+
+<span>&#92;(A _ {crisp} = &#92;left&#92;{ 3,4,5 &#92;right&#92;} &#92;)</span> whereas
+<span>&#92;[
+    A _ {Fuzzy} = &#92;left&#92;{
+{0.3\over 1}, {0.7\over 2}, {1\over 3}, {1\over 4}, {1\over 5}, {0.7\over 6}, {0.3\over 7}
+     &#92;right&#92;}
+&#92;]</span>
+Membership is similarity, intensity, probability, approximation, compatibility.
+
+![there should be a image...](/pics/522/fuzzy.png)
+
+How do we measure fuzziness?
+
+<span>&#92;[
+    \gamma = \text{fuzziness} = {1\over N}\sum_ i \min (\mu _ A(x _ i), 1 - \mu _ A( x _ i))
+&#92;]</span>
+
+![there should be a image...](/pics/522/fuzziness.png)
+
+## Fuzzy C-Means
+FCM
+1. Initialize (# of clusters <span>&#92;(M &#92;)</span>, fuzzifier <span>&#92;(m &#92;)</span>, membership function <span>&#92;(\mu &#92;)</span>)
+2. Cluster Centers
+<span>&#92;[
+    C _ i = {
+        \sum _ {k=1}^n (\mu _ {ik})^m x _ k\over
+        \sum _ {k=1}^n (\mu _ {ik})^m
+    }
+&#92;]</span>
+3. Update Memberships
+<span>&#92;[
+    \mu _ {ik} = {1\over
+\sum _ {j=1}^M \left(d _ {ik}\over d _ {jk}\right)^{2\over m-1}
+    }
+&#92;]</span>
+4. Stopping criterion
+<span>&#92;[
+    \&#124; \underbrace{U^{current}} _ {\text{Fuzzy Partition}} - U^{before}\&#124;
+&#92;]</span>
