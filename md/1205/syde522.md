@@ -569,4 +569,26 @@ Also introduce a dummy variable: <span>&#92;(y _ i = &#92;begin{cases}
 <span>&#92;[y _ i (w\cdot w + b)-1\ge 0 &#92;]</span>
 Best classification: the largest margin!
 
-[label](https://youtu.be/zDOeEQvku6E?t=2289)
+<span>&#92;[
+    &#92;begin{aligned}
+    (x _ \oplus - x _ \ominus) \cdot {w\over \&#124; w\&#124;} = {(1-b)+(1+b)\over \&#124; w\&#124;} = {2\over \&#124; w\&#124;}
+    &#92;end{aligned}
+&#92;]</span>
+So we want maximize <span>&#92;({1\over \&#124; w\&#124;} &#92;)</span>, then minimize <span>&#92;({\&#124; w\&#124;} &#92;)</span>.
+
+So our problem: <span>&#92;(\min \&#124; w\&#124; ~~s.t.~~ y _ i(w\cdot x _ i + b)-1\ge 0 &#92;)</span>.
+
+Lagrange Multipliers: <span>&#92;(L = {1\over 2} \&#124;w\&#124;^2 - \sum \alpha _ i[ y _ i (w\cdot x _ i + b) - 1] &#92;)</span>
+
+Derivatives are zero, then we get <span>&#92;(w=\sum _ i \alpha _ i y _ i x _ i &#92;)</span>, and <span>&#92;(\sum \alpha _ i y _ i = 0 &#92;)</span>. Sub <span>&#92;(w &#92;)</span> in <span>&#92;(L &#92;)</span>, we get after simplification:
+<span>&#92;[
+    L =\sum \alpha _ i - {1\over 2}\sum \sum \underbrace{\alhpa _ i \alpha _ j y _ i y _ j} _ {\text{scalars}} \underbrace{x _ i \cdot x _ k} _ {\text{dot product}}
+&#92;]</span>
+Minimize this via quadratic optimization! Then how to classify?
+<span>&#92;[
+    \sum \alpha _ i y _ i x _ i\cdot \underbrace{u} _ {\text{new data}} + b &#92;begin{cases}
+     \ge 0 &\implies \oplus  &#92;&#92;
+      &#92;text{otherwise} & \implies\ominus
+    &#92;end{cases}
+&#92;]</span>
+SVM only works for binary, linearly separable problems.
