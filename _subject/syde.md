@@ -10,3 +10,4 @@ redirect_from:
     - /SYDE
     - /SYDE/
 ---
+[SYDE notes by Benjamin Caldwell](http://beta-notes.bcaldwell.ca/)
