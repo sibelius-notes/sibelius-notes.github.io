@@ -576,13 +576,13 @@ Best classification: the largest margin!
 &#92;]</span>
 So we want maximize <span>&#92;({1\over \&#124; w\&#124;} &#92;)</span>, then minimize <span>&#92;({\&#124; w\&#124;} &#92;)</span>.
 
-So our problem: <span>&#92;(\min \&#124; w\&#124; ~~s.t.~~ y _ i(w\cdot x _ i + b)-1\ge 0 &#92;)</span>.
+So our problem: <span>&#92;(\min \&#124; w\&#124; \quad \text{subject to }\quad y _ i(w\cdot x _ i + b)-1\ge 0 &#92;)</span>.
 
 Lagrange Multipliers: <span>&#92;(L = {1\over 2} \&#124;w\&#124;^2 - \sum \alpha _ i[ y _ i (w\cdot x _ i + b) - 1] &#92;)</span>
 
 Derivatives are zero, then we get <span>&#92;(w=\sum _ i \alpha _ i y _ i x _ i &#92;)</span>, and <span>&#92;(\sum \alpha _ i y _ i = 0 &#92;)</span>. Sub <span>&#92;(w &#92;)</span> in <span>&#92;(L &#92;)</span>, we get after simplification:
 <span>&#92;[
-    L =\sum \alpha _ i - {1\over 2}\sum \sum \underbrace{\alhpa _ i \alpha _ j y _ i y _ j} _ {\text{scalars}} \underbrace{x _ i \cdot x _ k} _ {\text{dot product}}
+    L =\sum \alpha _ i - {1\over 2}\sum \sum \underbrace{ \alpha _ j y _ i y _ j} _ {\text{scalars}} \underbrace{x _ i \cdot x _ k} _ {\text{dot product}}
 &#92;]</span>
 Minimize this via quadratic optimization! Then how to classify?
 <span>&#92;[
@@ -596,4 +596,46 @@ SVM only works for binary, linearly separable problems.
 XOR is a non-linear problem, however, we can do transformations.
 ![there should be a image...](/pics/522/xor.png)
 
-Trick! Assume <span>&#92;(T(x) &#92;)</span> is a transform that moves <span>&#92;(x &#92;)</span> to higher dimensions and making linear separation possible, then we have to calculate <span>&#92;(T(x _ i)\cdot T(u) &#92;)</span>. But these would be difficult! If we had a function <span>&#92;(K (x_ i , x _ j)&#92;)</span> such that <span>&#92;(K (x _ i, x _ j) = T(x _ i)\cdot T( x _ j) &#92;)</span>, then we won't need <span>&#92;(T &#92;)</span>. All we need is a "Kernel" function <span>&#92;(K &#92;)</span>. We do not need <span>&#92;(T(x) &#92;)</span>! We just need to get <span>&#92;(T (x _ i) \cdot T(x _ j) &#92;)</span> and <span>&#92;(T(x _ i) &#92;)</span> and <span>&#92;(T(x _ j) &#92;)</span> individually. This is called **The Kernel Trick**.
+Trick! Assume <span>&#92;(T(x) &#92;)</span> is a transform that moves <span>&#92;(x &#92;)</span> to higher dimensions and making linear separation possible, then we have to calculate <span>&#92;(T(x _ i)\cdot T(u) &#92;)</span>. But these would be difficult! If we had a function <span>&#92;(K (x_ i , x _ j)&#92;)</span> such that <span>&#92;(K (x _ i, x _ j) = T(x _ i)\cdot T( x _ j) &#92;)</span>, then we won't need <span>&#92;(T &#92;)</span>. All we need is a "Kernel" function <span>&#92;(K &#92;)</span>. We do not need <span>&#92;(T(x) &#92;)</span>! We just need to get <span>&#92;(T (x _ i) \cdot T(x _ j) &#92;)</span>, and **not** <span>&#92;(T(x _ i) &#92;)</span> and <span>&#92;(T(x _ j) &#92;)</span> individually. This is called **The Kernel Trick**.
+
+Popular kernels:
+- <span>&#92;(K(u,v) = (u\cdot v+1)^n &#92;)</span>
+- <span>&#92;(K(u,v)=\exp(-{\&#124;u-v\&#124;\over \sigma}) &#92;)</span>
+
+# Lecture 9
+## Cluster Validity
+How do we know the clusters are valid? or, at least, good enough?
+
+Desirable:
+1. High inter-class separation
+2. High intra-class homogeneity
+
+Define "index of validity" that uses:
+1. sum-of-squares within cluster (SSW) = <span>&#92;(\sum _ {i=1}^N \&#124;x _ i - C _ {p _ i}\&#124;^2 &#92;)</span>, where we have <span>&#92;(N &#92;)</span> data points, and <span>&#92;(C _ {p _ i} &#92;)</span> is class prototype for the <span>&#92;(i &#92;)</span>-th data isntance <span>&#92;(x _ i  &#92;)</span>
+2. sum-of-squares between clusters (SSB) = <span>&#92;(\sum _ {i=1}^M n _ i\&#124;c _ i - \bar x \&#124;^2 &#92;)</span>, where we have <span>&#92;(M &#92;)</span> clusters, <span>&#92;(n _ i &#92;)</span> is the number of elements in cluster, <span>&#92;(c _ i &#92;)</span> is the current class mean. and <span>&#92;(\bar x &#92;)</span> is mean of means.
+
+SSW and SSB are part of ANOVA (analysis of variance).
+
+Other cluster validity measures:
+- Calinski-Harbusz Index <span>&#92;(CH = \dfrac{SSB / (M-1)}{SSW/(N_M)} &#92;)</span>
+- Hartigen Index <span>&#92;(H = \left(\dfrac{SSW _ M}{SSW _ {M+1}}-1\right)(N-M-1) &#92;)</span> or <span>&#92;(H = \log _ 2 \dfrac{SSB}{SSW} &#92;)</span>
+- Dunn's Index
+<span>&#92;[
+    D = {
+\min _ {i=1} ^M \min _ {j=i+1}^M d(c _ i,c _ j) \over
+        \max _ {k=1} ^M diam(c _ k)
+    }
+&#92;]</span>
+where <span>&#92;(d (c _ i,c _ j)= \min _ {x\in c _ i,x'\in c _ j}\norm{x-x'}^2 &#92;)</span>, and <span>&#92;(diam(c _ k) = \max _ {x,x'\in c _ k}\norm{x-x'}^2 &#92;)</span>
+- WB Index <span>&#92;(WB _ M = M\cdot {SSW\over SSB} &#92;)</span>
+
+We have other problems: We made a big assumption: <span>&#92;(x _ i\in C _ k &#92;)</span> and <span>&#92;(x _ i\notin C _ j \quad \forall j\ne k &#92;)</span>. This is hard/dual/crisp clustering.
+<span>&#92;[
+    \mu _ k (x _ i)\in &#92;left&#92;{ 0,1 &#92;right&#92;} \implies \mu _ k(x _ i)\notin [0,1]
+&#92;]</span>
+
+AI deals with imperfect info.
+
+![there should be a image...](/pics/522/imperfect.png)
+## A bit of Set theory
+<span>&#92;(X = &#92;left&#92;{ x &#92;right&#92;} &#92;)</span> universe of discourse
