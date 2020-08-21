@@ -592,3 +592,8 @@ Minimize this via quadratic optimization! Then how to classify?
     &#92;end{cases}
 &#92;]</span>
 SVM only works for binary, linearly separable problems.
+
+XOR is a non-linear problem, however, we can do transformations.
+![there should be a image...](/pics/522/xor.png)
+
+Trick! Assume <span>&#92;(T(x) &#92;)</span> is a transform that moves <span>&#92;(x &#92;)</span> to higher dimensions and making linear separation possible, then we have to calculate <span>&#92;(T(x _ i)\cdot T(u) &#92;)</span>. But these would be difficult! If we had a function <span>&#92;(K (x_ i , x _ j)&#92;)</span> such that <span>&#92;(K (x _ i, x _ j) = T(x _ i)\cdot T( x _ j) &#92;)</span>, then we won't need <span>&#92;(T &#92;)</span>. All we need is a "Kernel" function <span>&#92;(K &#92;)</span>. We do not need <span>&#92;(T(x) &#92;)</span>! We just need to get <span>&#92;(T (x _ i) \cdot T(x _ j) &#92;)</span> and <span>&#92;(T(x _ i) &#92;)</span> and <span>&#92;(T(x _ j) &#92;)</span> individually. This is called **The Kernel Trick**.
