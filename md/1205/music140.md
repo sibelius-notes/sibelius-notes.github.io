@@ -151,7 +151,44 @@ Blues, unlike AABAs, specifies things to a very high degree. For example, blues 
 
 The next thing that blues specifies is how many lines of lyrics each subsection have: the number is three. *a-a-b lyric pattern*. Here we are using lower case letters for words.
 
+Other features:
+- call and response between guitar and voice
+- early Blues performers made use of “Floating pool of verse”
+
+
 | :--- | :-- | :-- |:-- |:-- |:-- |:-- |:-- |:-- |:-- |:-- |:-- |:-- |
 | Bars | 1   | 2   | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 |
 | Chords | I |     |    |    | IV |    | I  |    |  V | IV | I  |    |
 | Lyrics | a |     |    |    | a |     |    |    |  b |   |   |    |
+
+The blues tells you specifically which chords to use. Now some examples of blues...
+
+This music appears some time in the 1890s. Taking shape in the beginning of 1900s. Nevertheless, first rural blues recordings made during the 1920s. Why? Essentially, it was not recorded because the recording industry is controlled by urban middle class whites. They are interested in recording pop music, and music aimed at middle class white audiences. Frankly, many of them did not think the culture of African Americans was worth recording. First example of country blues: “Travelin’ Blues” Blind Willie McTell (1929).
+> Mr. Engineer, let a man ride this line.	<span style="color:red">a</span> <br>
+Mr. Engineer, let a poor man ride this line.	<span style="color:red">a</span><br>
+I wouldn’t mind it fella’, but you know this train ain’t mine. 	<span style="color:red">b</span>
+
+This is a professional performance, since Blind Willie McTell is make a living by doing this. But in a way of he is a transitional figure, he is lacking self-consciousness: he is not looking for a way to make his performance stand out.
+
+NOTE: each “4” measure section is only 3 and 1/2 measures long.
+-	Travel and Economics.
+-	Uneven bar counts – Why? Solo musician.
+-	Lack of self-consciousness. (in previous paragraph)
+-	“Folk” music
+
+By far the most important was a young man: Robert Johnson: (1911 – 1938).
+-	Defined standards for blues guitar.
+- did only two recording sessions: November 1936 / June 1937.
+-	Mythic character.
+
+He really didn't record that much material. In 1938, he died. He was murdered, poisoned. And we don't know who poisoned him.
+
+Let's listen to an example: “Sweet Home Chicago:” Robert Johnson  (November, 1936).
+
+*music playing*
+
+Listen to his introduction. He starts off material that clearly derived from what he uses as transitions from each section to new section. Wonderful subtleties.   
+
+These recordings were aimed primarily at African American audiences. This is the beginning of what  we referred to last week as race music: music performed and recorded for black audiences.
+
+# Lecture 3
