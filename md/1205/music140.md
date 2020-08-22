@@ -192,3 +192,41 @@ Listen to his introduction. He starts off material that clearly derived from wha
 These recordings were aimed primarily at African American audiences. This is the beginning of what  we referred to last week as race music: music performed and recorded for black audiences.
 
 # Lecture 3
+## Part A: Of Radio And Records
+We start in 1877 with the invention of **mechanical reproduction**. In 1877, Thomas Edison invents the phonograph (gramophone), a device that encodes the sound. The cylinder is the core. Patterns are recorded in the cylinder, and sound would come back from the cylinder by pulling the playback arm.
+
+![there should be a image...](/pics/140/cyl.png)
+
+People didn't use this right way to record music. Edison didn't see this machine as for arts, but for business, speeches. The cylinder made up of wax is fragile. In fact, playing them back worn them out. In 1887, transition from cylinder to disks begins. Sheet music industry was still by far away the main part of the recorded music industry. In fact, the first record made of songs were largely made to promote sheet music. In 1910, disks become dominant medium. In early 1910s, disk speed is standardized 78 rpm.
+
+What was recorded?
+- sheet music / TPA. Early record industry controlled by the same people who controlled TPA.
+- black music / rural southern white music not recorded because:
+    - generally, not part of the TPA/sheet music industry
+    - cultural chauvinism
+    - rural areas – sales? perception: no market, no audience.
+
+**Commercial Radio**: 1920. Broadcasting. The money is generated through advertising. In 1922, the radio became a major force in western culture. In Jan. 1922, 28 Stations was estimated in the air in US. By December 1922, 570 Stations. Clearly there's money to be made. By the end of 1920s, we begin to see large corporation setup that purchase radio stations all across the country. Then they connect them together. This established the radio networks: CBS, NBC, Mutual. First radio network; NBC in 1928. Very few independent radio stations exist since they are now part of the network. Network radio begins to change patterns of consumption from regional to national.
+
+Success of Radio:
+- expensive one-time purchase, unlimited content
+- why buy records?
+
+Record is still fragile. It seems radio is going to kill record industry. What happened? Join me in Part B for the rise for the record industry.
+
+## Part B.1 - The Rise of the Record Industry
+
+The record industry now is in trouble, needs to find new markets. Then they have a revolution. Ralph Peer – Okeh Records. Ralph has a job: A&R (Artists and repertoire). He needs to find artists who can sing (A part), and songs for them to sing (R part).
+
+Ralph set up a recording session to record new song: Crazy Blues (1920). He got a msg right before the session starts: the singer is sick in the night. He has already put a lot of money: hire recording studio, hire a group of musicians and let them rehearse. However, one of the musicians said he knows a girl who sings well. Then the fellow brings this girl. The young lady named Mamie Smith and she was black. Unspoken rule: African Americans didn't record on record. Ralph is very open-minded man. Then Mamie Smith learnt the song and they recorded "Crazy Blues", and it sounded like this.
+
+*music playing*
+
+What makes this recording so extraordinary is the fact the vocalist is African American woman. She is considered to be the first significant music recording ever done by a black artist. What happened when it was released? The world didn't end. Ralph and record industry learnt some lessons:
+1. Much to their surprise, there was a considerable number of northern urban middle class white who would buy record from a black artist.
+2. There was actually small but sizable market for records in African American community.
+
+Then we get to 1922, 1923, the popularity of the radio is off the scale. All of a sudden, the record industry is struggling to survive. How to keep recording industry going in the age of radio? Ralph is one of the people who came up with solution. He realizes the record industry, even not directly associated with sheet music companies, but in large they record the music of Tin Pan Alley. He remembered the success of Mamie Smith, then he has a crazy idea: why don't we record music not Tin Pan Alley, but music popular with African Americans and with rural southern whites? because their music are not in radio by large. Perhaps these audiences are big enough to sustain the record industry. So the record industry invented two new categories of recorded music. Rural southern whites: Hillbilly. African Americans: Race.
+
+## Part B.2 - “Race” and “Hillbilly”
+Hillbilly, example: Uncle Dave Macon and the Fruit Jar Drinkers: “Carve that Possum” (1927)
