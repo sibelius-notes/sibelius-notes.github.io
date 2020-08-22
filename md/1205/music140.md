@@ -129,3 +129,29 @@ Next thing, the use of *riffs*: A small self-contained piece of music that repea
 The last thing: the use of *call and response*.
 
 ## Part B: The Blues
+A simplified history of slavery and civil war, from posted notes:
+> In the US, slavery ends in 1865 at the conclusion of the US Civil War (1861-1865). By the mid 1800s slavery had been outlawed in most ‘northern’ states but had become central to the economy of the south. There were numerous issues between north and south and the end of slavery became a central point. The north wished to abolish it, the south did not.<br><br>
+The war was brutal and is considered by many military historians to be the most devastating conflict ever fought by humans until the World Wars of the 20th century.
+
+
+Post Slavery: (1865 - )
+-	Institutionalized Racism. Laws made it difficult to be black. For example, if you are an African American, when you are approaching a white woman, you need to take off your hat and bow. Otherwise, you could go to jail. Things are quite fraud.
+-	Acceleration of Rural-to-Urban shift.
+-	New forms of music appear during late 1800s.
+-	Ragtime and Jazz – urban styles, incorporated into popular music
+
+But what we are going to look at is what's going on the rural areas: Country (Rural) Blues. Typically it is performed by single individual, no bands at this point.
+- Wandering musician.
+- Male vocalist, with Acoustic Guitar.
+- Plaintive vocal sound – lament.
+- Themes include: Travel, Economics, and Love.
+
+Recall AABA in pop songs, it simply refers to melody. There's nothing about what the words have to do and how long the sections need to be. Also, there's no specification about the accompaniments: chords/base notes and so on. All that are left open.
+Blues, unlike AABAs, specifies things to a very high degree. For example, blues is a  specific length. Each blue structure within a blue song is generally what we called *12 measure phrases*. The terms "bar" and "measure" are interchangeable. If you are hanging around with classically trained musicians, you are more likely to hear the term measures. Otherwise, commercial/popular musicians, then bars. Even then, that's not a hard rule.
+
+The next thing that blues specifies is how many lines of lyrics each subsection have: the number is three. *a-a-b lyric pattern*. Here we are using lower case letters for words.
+
+| :--- | :-- | :-- |:-- |:-- |:-- |:-- |:-- |:-- |:-- |:-- |:-- |:-- |
+| Bars | 1   | 2   | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 |
+| Chords | I |     |    |    | IV |    | I  |    |  V | IV | I  |    |
+| Lyrics | a |     |    |    | a |     |    |    |  b |   |   |    |
