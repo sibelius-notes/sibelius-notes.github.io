@@ -214,7 +214,7 @@ Success of Radio:
 
 Record is still fragile. It seems radio is going to kill record industry. What happened? Join me in Part B for the rise for the record industry.
 
-## Part B.1 - The Rise of the Record Industry
+## Part B.1: The Rise of the Record Industry
 
 The record industry now is in trouble, needs to find new markets. Then they have a revolution. Ralph Peer – Okeh Records. Ralph has a job: A&R (Artists and repertoire). He needs to find artists who can sing (A part), and songs for them to sing (R part).
 
@@ -228,5 +228,29 @@ What makes this recording so extraordinary is the fact the vocalist is African A
 
 Then we get to 1922, 1923, the popularity of the radio is off the scale. All of a sudden, the record industry is struggling to survive. How to keep recording industry going in the age of radio? Ralph is one of the people who came up with solution. He realizes the record industry, even not directly associated with sheet music companies, but in large they record the music of Tin Pan Alley. He remembered the success of Mamie Smith, then he has a crazy idea: why don't we record music not Tin Pan Alley, but music popular with African Americans and with rural southern whites? because their music are not in radio by large. Perhaps these audiences are big enough to sustain the record industry. So the record industry invented two new categories of recorded music. Rural southern whites: Hillbilly. African Americans: Race.
 
-## Part B.2 - “Race” and “Hillbilly”
-Hillbilly, example: Uncle Dave Macon and the Fruit Jar Drinkers: “Carve that Possum” (1927)
+## Part B.2: “Race” and “Hillbilly”
+Hillbilly, example: Uncle Dave Macon and the Fruit Jar Drinkers: “Carve that Possum” (1927). Quite different from Tin Pan Alley, we are listening to rural south, acoustic instruments like acoustic guitar, banjo, mandolin, fiddle. This is the beginning of Hillbilly as recorded genre.
+
+Now also introduced at the same time as a competition for radio was a genre aimed specifically for African American audience, which we know, ultimately becomes race music. A good example: Carr and Blackwell “How Long Blues” (1928). First of all, is this a blues? Technically, it didn't follow the 12 bars pattern, but it is very much blues in terms of its performance. In fact, we can really see it as next step in development of blues. Recall rural to urban shift, more African Americans move to urban centers. This is what happens when rural blues players get to a urban center. What difference can we see?
+- two musicians instead of one
+- rather than focusing on guitar, we have second instrument, piano, which is clearly the instrument of urban center. Then you can let piano to be the accompaniment part, which frees the guitar player.
+
+We can hear guitar solo. This is actually where the traditional guitar solo begins. We call this style of blues city blues.
+
+If country blues comes first and city blues comes second, why we are listening to city blues recorded at the end of 1920s whereas the country blues we are listening to were made in 1930s? The reason: cultural chauvinism. The same folks, who control Tin Pan Alley, control the recording tech. Then as recording tech started to separate it self from Tin Pan Alley, starts to look for new market, then looks for its neighborhoods. Some first things they found were Carr and Blackwell. Then later for newer artists, they recorded Robert Johnson.
+
+By the end of 1920s and to 1930s, radio and records are existing side by side. Records now starts to overtake sheet music as dominant medium of music industry. Radio is now seen as an opportunity to promote recordings and artists in Tin Pan Alley. Keep in mind: no one is playing records on radio, all radio is performed live. So now we are at the end of world war 2.
+
+As we get to the end of 1940s, a tech comes along that fundamentally changes the world, which creates opportunity for the culture, particularly of African Americans to become highly influential. That tech is **television**.
+- First demonstration in 1927
+- Experimental and low-resolution broadcasts through the 1930s
+- Network broadcasts begin in 1939
+- By 1945 – 6 Stations, By 1955 – 411 Stations
+- Major Networks move to Television
+
+Like all early radios, early television was performed live, including commercials.
+
+A radio station, WDIA Memphis, 1948. This radio station is owned by some individuals. They were playing TPA records like before, but no one choose them to advertise (which makes the money). So they drove the car around the city of Memphis to find out where their radio station broadcast signal was clearest. They found, much to their amazement, the best reception for WDIA was found in the African American part of the town. So they had a thought. The new owners of WDIA were white. But they went back to the station and made a decision: change the format to all African American culture. So it becomes first "Black Appeal" radio station. Then the advertising dollars starts to come in. 
+As WDIA success quickly spread, by 1954, 200 BA radio stations are on the air.
+
+## Part C: Rhythm And Blues Is On the Air
