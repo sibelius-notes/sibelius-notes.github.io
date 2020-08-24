@@ -250,7 +250,24 @@ As we get to the end of 1940s, a tech comes along that fundamentally changes the
 
 Like all early radios, early television was performed live, including commercials.
 
-A radio station, WDIA Memphis, 1948. This radio station is owned by some individuals. They were playing TPA records like before, but no one choose them to advertise (which makes the money). So they drove the car around the city of Memphis to find out where their radio station broadcast signal was clearest. They found, much to their amazement, the best reception for WDIA was found in the African American part of the town. So they had a thought. The new owners of WDIA were white. But they went back to the station and made a decision: change the format to all African American culture. So it becomes first "Black Appeal" radio station. Then the advertising dollars starts to come in. 
+A radio station, WDIA Memphis, 1948. This radio station is owned by some individuals. They were playing TPA records like before, but no one choose them to advertise (which makes the money). So they drove the car around the city of Memphis to find out where their radio station broadcast signal was clearest. They found, much to their amazement, the best reception for WDIA was found in the African American part of the town. So they had a thought. The new owners of WDIA were white. But they went back to the station and made a decision: change the format to all African American culture. So it becomes first "Black Appeal" radio station. Then the advertising dollars starts to come in.
 As WDIA success quickly spread, by 1954, 200 BA radio stations are on the air.
 
 ## Part C: Rhythm And Blues Is On the Air
+To start with, let's consider the years following WWII in US, which we refer it as post-war era. (some history). Now pop music also changes in this new environment. Remember at the end of WWII, Big bands is the most popular. But the end of the war is really the peak of their popularity. They are falling off their popularity during late 1940s. Smaller groups are replacing them, where the focus now is not on band leader, but the vocalists. By the end of the 1940s, smaller groups with focus on singers have become forefront in the popular music industry. Let's look at an example: Most popular song of 1951 - Nat King Cole: “Too Young” (1951, Lippman, Dee).
+
+*music playing*
+
+He is a legend, and soft voice, good piano player. Though he is African American, this is not race music, this is pop music. Target market is middle class white urban. The elements in this recording: smooth, round, clear lyrics. Lyrics: idealized romance. Another example: Most popular song of 1953 - Patti Page: “(How Much Is) That Doggie in the Window” (1952, Merril).
+
+*music playing*
+
+Lovely song. These songs are beautiful. Not designed to get people excited, but to be calm, entertainment. Probably lots of people wanted in the year following WWII. There was something new following the end of the war: huge upswing in the number of children born, baby boomers, massive number in the number of young people.
+
+At the end of 1940s, music industry changed the name: race music <span>&#92;(\Rightarrow &#92;)</span> rhythm and blues. Still cold for African American audiences, but at least it is not so overly racist. Then Hillbilly, which is a bit derogatory, <span>&#92;(\Rightarrow &#92;)</span> country and western.
+
+When we look at the popularity chart through the late 1940s, or early 1950s. We see crossover hits: song generally appears in rhythm and blues chart or country and western chart, then it becomes very popular. And at some point, it will cross over, and appear in the pop chart.
+
+Teenagers then can use transistor radio which is more portable. They were searching for something more exciting, then they found black appeal radio like WDIA. You can listen to all different substyles grouped under R&B. We have already met one of the styles: **Jump Blues**. Good Rockin’ Tonight (1948, Wynonie Harris).
+
+*music playing*
