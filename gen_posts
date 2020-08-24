@@ -139,7 +139,7 @@ feature_text: |
         write_str = write_str + "\n > These notes are contributed by one of my friends: {}.\n".format(c.other)
     else:
         if c.audit:
-            write_str = write_str + "\n > I was auditing this course during this term.\n"
+            pass # write_str = write_str + "\n > I was auditing this course during this term.\n"
 
     #write_str = write_str + "\n Partial notes coming soon. \n"
     write_str = write_str + "\n[LaTeX notes](/pdfs/{}/{}.pdf)  [markdown notes](/md/{}/{}/)\n".format(c.term, c.file_name(), c.term, c.file_name())
