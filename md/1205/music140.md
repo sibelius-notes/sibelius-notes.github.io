@@ -311,3 +311,40 @@ Third style: **Chicago Electric Blues**. An example, Hoochie Coochie Man (1954, 
 -	Prominence of the electric guitar and harmonica
 
 Moral panic: thousands of white parents react negatively to the news that their children increasingly are being influenced by the culture of African Americans. And that is where we will pick up our story next week.
+
+# Lecture 4
+## Part A: Cover Versions
+Cover Versions: 1954 – 1956, “white” versions of “black” records. Cover versions were quite common at that time. But what makes this unique is the ways of cover versions were changed. Because when you compare then with the original R&B version, the cover version changes the things in a way that was clearly targeted at race. It reduces elements that associated with black culture, and "more appropriate" for middle class white culture. An example: “Tutti Frutti” Little Richard (Richard Wayne Penniman)
+- released late 1955 on Specialty Records (lyrics revised by Dorothy LaBostrie)
+- “Crossover” hit: \#2 R&B, \#17 Pop
+
+Second version appears in 1956. White artist, Pat Boone. His version of "Tutti Frutti" sounds very different. Most obvious change is the energy and the exuberance of the voice. Little Richard: could not be more excited. Pat Boone: controlled, restrained. Not surprisingly they never came back on R&B chart, but they almost always outsold the original versions on pop chart. Cover version by Pat Boone, \#10 Pop.
+
+One of the first cover versions that fall into the category of race based changes. The song we are going to listen to: "Sh-Boom". The original version: June 1954 by African American group, The Chords, independent record label: Cat Records.
+
+|Intro| A  |Intrld | A  |B  |A  | Intrld |Solo (A) |A  |A out|
+|-----|---|------|---|---|---|------|-------|---|----|
+|4    |8  |4     |8  |8  |8  |8     |16     |8  |8   |
+
+It soon became a R&B hit, and then crossover hit. Only few weeks after first release in July 1954, a second version was released on major record label: Mercury Records, and group is white vocal group: The Crew Cuts.
+
+|Intro |  A  |A  |B  |A  |Sh-bm (A)|Sh-bm (A)|B  |A  | Intrld |A  |Tag|
+|-----|---|---|---|---|--------|--------|---|---|------|---|---|
+|4    |8  |8  |8  |8  |8       |8       |8  |8  |7     |8  |6  |
+
+So many changes. Three things:
+
+||The Chords| The Crew Cuts|
+|--|--|--|
+| Form| 1x through AABA, with interludes | 2xs through AABA – clearly stated|
+| Voice| Distorted – use of lower octave in B | Clean, no use of lower octave |
+| Solo| Sax – distorted timbre, sexual metaphor | No solo – repeats of “Sh-boom” group <br> vocal – timpani joke.|
+
+- The Chords: \#3 R&B / \#5 Pop
+- The Crew Cuts: no R&B / \#1 Pop <br> \#1 for 9 weeks - \#1 song of the year
+
+Racist? Or a continuation of TPA traditions? Probably both. It is racist that these changes are made deliberately to appeal the racist sentiments within a large number of middle class white. But what the major record industry is concerned with was not black and white. It was green, simply a way to make money. Also same things were happening with country and western songs.
+
+By the end of 1946, this practice has been largely abandoned. Why? First, covers are not making much money anymore. Then were they selling them well? In a remarkably short period of time, 1954 to 1946, the listening patterns of millions of primarily middle class white teenagers are going to shift profoundly. Then the record industry realized that they got a new demographic on its hand: Rock 'n' Roll.
+
+## Part B: Rock 'n' Roll
