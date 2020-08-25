@@ -271,3 +271,43 @@ When we look at the popularity chart through the late 1940s, or early 1950s. We 
 Teenagers then can use transistor radio which is more portable. They were searching for something more exciting, then they found black appeal radio like WDIA. You can listen to all different substyles grouped under R&B. We have already met one of the styles: **Jump Blues**. Good Rockin’ Tonight (1948, Wynonie Harris).
 
 *music playing*
+
+Jump blues:
+-	Develops from a fusion of Big Band music (TPA/Jazz) with more prominent blues/race music influence.
+-	more focus on vocal performer.
+-	Smaller group (cheaper) with focus on saxophone, trumpet, and rhythm section (bass, drums, piano).
+
+Why is it called Jump blues? because recall earlier versions we listened to have slow pace, Robert Johnson, Carl Blackwell, but we have same feel as before, but more faster, more energetic, for dancing.
+
+Another style which is popular during that period is known as **Gospel**. First let's listen to a song called *I’ve Got A Woman* (1954) by Ray Charles.
+
+*music playing*
+
+Ray Charles (Robinson) 1930-2004
+-	born, Albany Georgia, south of the US.
+-	born with great poverty, blind at age 7
+-	learns music in a school for the blind. Though the school is not that fancy, teacher is good enough to recognize his talent: could teach himself to play an instrument extraordinarily quickly. Every music he heard, he could walk over an instrument and play.
+-	1952, he signed with Atlantic Records, which was technically independent record (does not have its own distribution network, in comparison to major record company, which can get its record to every store in the country quite easily), but it was still influential, large record label. Which makes it notable is while R&B charts were working on small record labels, and major records mainly deal with pop music.
+-	Fusion of the energy of African American spiritual practice with secular lyrics.
+-	Success with white audiences – heightened level of intensity
+
+Gospel was not invented by Ray Charles, and it has been a style of music that for a long time. If we go back to a broad view of general African American culture, and we divide the music of African American culture into two equally broad categories: one being secular, one sacred. Divide sacred music in African American culture into two very broad distinctions. Early style: spirituals, later: Gospel. The dividing line is considered to be the American civil war and the end of slavery.
+
+Now what makes this particular mention of Gospel unique is Ray Charles is credited with incorporating elements of Gospel music into pop music, specifically R&B. Gospel is often energetic. He took all of the energy and intensity of church performance and then apply them to the music that is aimed not at spiritual but at secular.
+
+*I’ve Got A Woman* is based on a church song entitled “It Must Be Jesus”. Focus is on the voice, then sax solo for texture change, and then third contrasting texture: usage of stop time. The band is stopping, articulating, emphasizing notes and taking a break. And in that break, Ray Charles is singing a line. Another self-consciousness way of varying texture of the song.
+
+Third style: **Chicago Electric Blues**. An example, Hoochie Coochie Man (1954, Willie Dixon) performed by Muddy Waters. First Muddy Waters, 1913-1983
+-	born in Mississippi (south). Grew up in rural area, learnt rural blues.
+-	played guitar and harmonica
+-	emulated Robert Johnson
+-	moves to Chicago, early 1940s
+-	After he moved to the city, he found the same thing as everyone since Carl Blackwell has found: cities are louder, you need to make more noise in order to be heard. He then switches to electric guitar, 1945. Wonderful fit  with blues. Amplifier. Guitarists found amplifier could be used to create distortion. As we mentioned earlier, distortion is a desirable characteristics.
+-	1946, records for Aristocrat Records (would later become Chess Records)
+
+*Hoochie Coochie Man* (1954, Willie Dixon (composer, bass player))
+-	(modified 12-bar blues)
+-	Stop Time
+-	Prominence of the electric guitar and harmonica
+
+Moral panic: thousands of white parents react negatively to the news that their children increasingly are being influenced by the culture of African Americans. And that is where we will pick up our story next week.
