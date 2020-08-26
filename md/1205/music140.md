@@ -348,3 +348,25 @@ Racist? Or a continuation of TPA traditions? Probably both. It is racist that th
 By the end of 1946, this practice has been largely abandoned. Why? First, covers are not making much money anymore. Then were they selling them well? In a remarkably short period of time, 1954 to 1946, the listening patterns of millions of primarily middle class white teenagers are going to shift profoundly. Then the record industry realized that they got a new demographic on its hand: Rock 'n' Roll.
 
 ## Part B: Rock 'n' Roll
+Both White and Black artists performing in this new style: A mix of pop, C&W, and R&B, targeted at teenagers - Rock ‘n’ Roll. The term attributed to Alan Freed. Most of the time, the changes take place in several years. We can look at recordings in 1950s then see that they are starting to show elements that become Rock 'n' Roll.
+
+For example, an early Rock 'n' Roll star, Bill Haley. Born in 1925, and actually  been in music industry for some time. He has been in country and western music industry, and leader of the band “Bill Haley and the Saddlemen”. They were in a substyle of country and western: Western Swing, which has slight faster beat. He is one of the many in early 1950s who noticed the change: growing popularity of R&B among middle class white teenagers. He is one of the first who starts to experiment this new style. He changes the name of band to “Bill Haley and the Comets in 1952”. Some early hits with “Crazy Man, Crazy” and “Shake, Rattle and Roll.” These are not written by him, but cover versions. These cover versions are not race-based cover version, but came out several years after the original hit. He was taking songs that have R&B hits and reworking them in this new splendid style gaining popularity. These songs actually did quite well, particularly on R&B chart, but where he really hit a stride is in 1954, he recorded the song that he will, I think, be best remembered: Rock Around The Clock.
+
+*music playing*
+
+Follows 12 bar blues pattern. For a white vocalist, we have more distorted sound, and guitar upfront, energetic tempo. Then becomes popular in 1955 because it was used in a film "[Blackboard Jungle](https://youtu.be/Amyo9HNLSgI)". Recall we talked about moral panic earlier, and the film is targeted at that fear.
+
+However, Bill Haley's career is over almost as soon as it begins. He continues  on for many years but "Rock Around The Clock" is really the peak of the career. Why? Recall he was born in 1925, so he is 30 years old when it becomes a hit. For the first time, music industry noticed that teenagers cared about the age of artists. Teenagers are much more interested in listening to music performed by people who appeared to be at least similar in age to themselves. A whole generation of younger musicians start to make a market. Arguably most successful, most famous, he is Elvis Presley.
+
+He was born in 1935, born in Tupelo, Mississippi, which is not too far from Memphis. And indeed, when black appeal radio goes on the air in 1948, he is about 12 years old. Just as he finished high school, he goes by a small local independent record company, Sun Records. Myths: Sam Phillips, producer of Sun Records said to his assistant, Marion Keisker:
+> If I could find a white man with the singing voice of black man, I could make millions of dollars.
+
+Then he discovered Elvis Presley. Two problems with myths. First of all, there's nothing to do with biology in terms of how you sound. The way people develop their sound is entirely social. And there's one other problem, Sam claimed that he didn't said it.
+
+![there should be a image...](/pics/140/elvis.jpg)
+
+Then in Spring 1954, starts recording with Scotty Moore (Guitar) and Bill Black (Bass). They first thought he will probably record country and western since he is white and recording in Memphis. And he does not write songs and he is a wonderful song stylists. However, these are not working all that well. Then they take a break. Then during that break, he picks up the guitar and starts playing a R&B song: “That’s Alright Mamma”. Sam hears and thinks he could do it.
+
+*music playing*
+
+This song is quite like R&B to the audience. So he was interviewed by [Dewey Phillips](https://en.wikipedia.org/wiki/Dewey_Phillips)and got Presley to reveal his race in an interview by asking which high school the 19-year-old singer attended (knowing that, because of segregation, his audience would readily know what race attended which schools) (from wiki).
