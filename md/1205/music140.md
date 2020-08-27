@@ -369,4 +369,40 @@ Then in Spring 1954, starts recording with Scotty Moore (Guitar) and Bill Black 
 
 *music playing*
 
-This song is quite like R&B to the audience. So he was interviewed by [Dewey Phillips](https://en.wikipedia.org/wiki/Dewey_Phillips)and got Presley to reveal his race in an interview by asking which high school the 19-year-old singer attended (knowing that, because of segregation, his audience would readily know what race attended which schools) (from wiki).
+This song is quite like R&B to the audience. So he was interviewed by [Dewey Phillips](https://en.wikipedia.org/wiki/Dewey_Phillips) and got Presley to reveal his race in an interview by asking which high school the 19-year-old singer attended (knowing that, because of segregation, his audience would readily know what race attended which schools) (from wiki).
+
+# Lecture 5
+## Part A: Elvis Presley
+But record has two sides: A side, B side. They go straight back to studio, then start to work with the second song: “Blue Moon of Kentucky”. Originally country western, Bill Monroe, 1946 – Recording released in 1947. Scotty, Bill, Sam Phillips are going to work “Blue Moon of Kentucky” the way they worked that with 1954 “That’s Alright Mamma”. And try to shape it to something new: Rock 'n' Roll. First, they have a early version, not final version, only go once AABA, and you can hear Sam Phillips come into the room and talk to the band.
+
+*music playing*
+
+There was Sam coming in the end: That's a pop song, now, little guy. In country and western, most songs follow a subgrouping of 4. Quite unusual in country and western of subgrouping of 3. Bill Monroe's version follows a subgrouping of 3. Early version of Elvis is a subgrouping of 4. Then they finally record the version that is released as part of Elvis' first record. This is what sounded like.
+
+*music playing*
+
+The difference is quite remarkable. Bass is quieter, and in two-beat. When Scotty starts to play guitar solo, he starts to play walking bass line. Now they shift to sth more energetic, and we hear Bill Black playing *slap bass*: pull the string and let them slap back into the instrument, so they bounce off the fingerboard of the bass. If we listen to Elvis, he is adding extra syllables to create rhythm, percussive timbre.
+
+1954 – 1955: Elvis on Sun. 6 records, 6 singles which have 12 songs – all covers.
+
+Rockabilly – “The Hillbilly Cat.” These two terms (referring to him) are playing this idea that Elvis is doing something new, blending all other elements: R&B, pop, country and western.
+
+Still regional Star, some national success on Country Charts. Then becomes a major star, where independent record label like Sun can't support a major star.
+
+Another person, Colonel Tom Parker, promoter, manager. Early 1956, he takes over the management of Elvis' career. He helps Sam Phillips negotiate the contract transfer to a major record label, RCA. His job is to make him as financially successful as possible and he did a good job. He still needs to get attention for Elvis. How in 1956? 11 appearances on national television.
+
+- Heartbreak Hotel April-May ‘56  \#1 on Pop and Country \#5 on R&B
+- August to December ’56 – Hound Dog, Don’t Be Cruel, Love Me Tender all \#1 Pop.
+- Hound Dog and Don’t Be Cruel both chart \#1 on pop/country/R&B
+- June, 1956: Elvis performs ‘Hound Dog’ on ‘[Texaco Star Theatre](https://www.youtube.com/watch?v=WJnVQDA9rHA).’
+- Two weeks later, Elvis performs ‘Hound Dog’ on ‘[The Steve Allen Show](https://www.youtube.com/watch?v=w3r5AiBJr2M).’
+-	Parker directs Elvis’ career more towards Pop
+-	Elvis not charting R&B after 1957.
+- Elvis enters the army – March 1958 to March 1960
+- March 1961 - Last public performance for seven years
+- within a year, Elvis stops playing live, stops performing as a vocalist, turns his career to movies. Quite bad actor, bad films. All of which would have opportunities for Elvis to sing songs, then go to album to support the film. Songs are safe, not exciting. But he missed live, singing.
+- The ’68 Comeback Special. Most of it was terrible, but there was a period in the show for several minutes where Elvis appears in a black leather suit. He sits down with a bunch of musicians including Scotty (guitar player), old drummer. Sadly, Bill Black (bass player) had died during early 1960s. They played many of his songs from 1950s. Elvis performs ‘[That’s Alright Mama](https://www.youtube.com/watch?v=YZe_8u-rGWE)’ as part of the ’68-Comeback Special’. This is the only time in the whole show that he looks like he is having fun.
+- 1970 – 77 Las Vegas
+- Elvis dies August 16th, 1977, age 42
+
+## Part B: Chuck Berry
