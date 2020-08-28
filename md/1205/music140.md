@@ -74,7 +74,7 @@ In more general terms, the popularity of this music, the fact that government is
 ## Part D:  Tin Pan Alley
 Late 1800, music industry taking shape, songwriters make living by selling **sheet music** to this growing audience of middle class. At that time, recordings DNE. People like Stephen Collins Foster, they did very well, but they didn't become extremely wealthy. That's because sth is still missing. It came along in 1892. Charles K Harris, “After the Ball” 1892.
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 After listening to that song, you might wonder, is that still Parlour song? since there are other instruments. Yes that was. If you heard it perform in someone's home, then voice + piano. Sheet music sells over 5,000,000 copies. The first "Hit Song". Why "After the Ball"? It's hard to answer. It's a tale like Parlour music. This is possibly the wrong question. Right question: why 1892? Let's look at a chart: Rural to Urban Population Shift in the United States (1790-1900). People moved from rural to urban from 1790 to 1900. Important takeaway: you can't have a hit if your audience are all living in a country. Because in a country, people are spread too far apart. Then why 1982? because there were enough people concentrated in urban areas for this kind of phenomenon to take place. Demand for newly composed songs leads to the increased organization of the music industry - Success
 of “After the Ball” gives birth to Tin Pan Alley (TPA), center of the music industry based in New York City.
@@ -99,7 +99,7 @@ Now it is with race that we are going to be concerned primarily this week, becau
 ## Part A: Slavery
 If you are looking for a date of the birth of popular music In North America, a good candidate would be 1619: beginning of one of the darkest chapters in this history of western culture. 1619: first time ever, slaves kidnapped from their homes (West Africa) were sold into bandage on continental North America. This event has profound effect on history. Slavery lasted about 250 yrs. They are no longer considered human. They were themselves personal possessions. And yet, they managed to bring with them some sense of their culture/storytelling/music. And it is that west African origin that would become the core of structuring the sound of African American music culture. Let's listen to an example: “Old Alabama” 1947.
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 ![there should be a image...](/pics/slave.jpg)
 
 
@@ -185,7 +185,7 @@ He really didn't record that much material. In 1938, he died. He was murdered, p
 
 Let's listen to an example: “Sweet Home Chicago:” Robert Johnson  (November, 1936).
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 Listen to his introduction. He starts off material that clearly derived from what he uses as transitions from each section to new section. Wonderful subtleties.   
 
@@ -220,7 +220,7 @@ The record industry now is in trouble, needs to find new markets. Then they have
 
 Ralph set up a recording session to record new song: Crazy Blues (1920). He got a msg right before the session starts: the singer is sick in the night. He has already put a lot of money: hire recording studio, hire a group of musicians and let them rehearse. However, one of the musicians said he knows a girl who sings well. Then the fellow brings this girl. The young lady named Mamie Smith and she was black. Unspoken rule: African Americans didn't record on record. Ralph is very open-minded man. Then Mamie Smith learnt the song and they recorded "Crazy Blues", and it sounded like this.
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 What makes this recording so extraordinary is the fact the vocalist is African American woman. She is considered to be the first significant music recording ever done by a black artist. What happened when it was released? The world didn't end. Ralph and record industry learnt some lessons:
 1. Much to their surprise, there was a considerable number of northern urban middle class white who would buy record from a black artist.
@@ -256,11 +256,11 @@ As WDIA success quickly spread, by 1954, 200 BA radio stations are on the air.
 ## Part C: Rhythm And Blues Is On the Air
 To start with, let's consider the years following WWII in US, which we refer it as post-war era. (some history). Now pop music also changes in this new environment. Remember at the end of WWII, Big bands is the most popular. But the end of the war is really the peak of their popularity. They are falling off their popularity during late 1940s. Smaller groups are replacing them, where the focus now is not on band leader, but the vocalists. By the end of the 1940s, smaller groups with focus on singers have become forefront in the popular music industry. Let's look at an example: Most popular song of 1951 - Nat King Cole: “Too Young” (1951, Lippman, Dee).
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 He is a legend, and soft voice, good piano player. Though he is African American, this is not race music, this is pop music. Target market is middle class white urban. The elements in this recording: smooth, round, clear lyrics. Lyrics: idealized romance. Another example: Most popular song of 1953 - Patti Page: “(How Much Is) That Doggie in the Window” (1952, Merril).
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 Lovely song. These songs are beautiful. Not designed to get people excited, but to be calm, entertainment. Probably lots of people wanted in the year following WWII. There was something new following the end of the war: huge upswing in the number of children born, baby boomers, massive number in the number of young people.
 
@@ -270,7 +270,7 @@ When we look at the popularity chart through the late 1940s, or early 1950s. We 
 
 Teenagers then can use transistor radio which is more portable. They were searching for something more exciting, then they found black appeal radio like WDIA. You can listen to all different substyles grouped under R&B. We have already met one of the styles: **Jump Blues**. Good Rockin’ Tonight (1948, Wynonie Harris).
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 Jump blues:
 -	Develops from a fusion of Big Band music (TPA/Jazz) with more prominent blues/race music influence.
@@ -281,7 +281,7 @@ Why is it called Jump blues? because recall earlier versions we listened to have
 
 Another style which is popular during that period is known as **Gospel**. First let's listen to a song called *I’ve Got A Woman* (1954) by Ray Charles.
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 Ray Charles (Robinson) 1930-2004
 -	born, Albany Georgia, south of the US.
@@ -352,7 +352,7 @@ Both White and Black artists performing in this new style: A mix of pop, C&W, an
 
 For example, an early Rock 'n' Roll star, Bill Haley. Born in 1925, and actually  been in music industry for some time. He has been in country and western music industry, and leader of the band “Bill Haley and the Saddlemen”. They were in a substyle of country and western: Western Swing, which has slight faster beat. He is one of the many in early 1950s who noticed the change: growing popularity of R&B among middle class white teenagers. He is one of the first who starts to experiment this new style. He changes the name of band to “Bill Haley and the Comets in 1952”. Some early hits with “Crazy Man, Crazy” and “Shake, Rattle and Roll.” These are not written by him, but cover versions. These cover versions are not race-based cover version, but came out several years after the original hit. He was taking songs that have R&B hits and reworking them in this new splendid style gaining popularity. These songs actually did quite well, particularly on R&B chart, but where he really hit a stride is in 1954, he recorded the song that he will, I think, be best remembered: Rock Around The Clock.
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 Follows 12 bar blues pattern. For a white vocalist, we have more distorted sound, and guitar upfront, energetic tempo. Then becomes popular in 1955 because it was used in a film "[Blackboard Jungle](https://youtu.be/Amyo9HNLSgI)". Recall we talked about moral panic earlier, and the film is targeted at that fear.
 
@@ -367,7 +367,7 @@ Then he discovered Elvis Presley. Two problems with myths. First of all, there's
 
 Then in Spring 1954, starts recording with Scotty Moore (Guitar) and Bill Black (Bass). They first thought he will probably record country and western since he is white and recording in Memphis. And he does not write songs and he is a wonderful song stylists. However, these are not working all that well. Then they take a break. Then during that break, he picks up the guitar and starts playing a R&B song: “That’s Alright Mamma”. Sam hears and thinks he could do it.
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 This song is quite like R&B to the audience. So he was interviewed by [Dewey Phillips](https://en.wikipedia.org/wiki/Dewey_Phillips) and got Presley to reveal his race in an interview by asking which high school the 19-year-old singer attended (knowing that, because of segregation, his audience would readily know what race attended which schools) (from wiki).
 
@@ -375,11 +375,11 @@ This song is quite like R&B to the audience. So he was interviewed by [Dewey Phi
 ## Part A: Elvis Presley
 But record has two sides: A side, B side. They go straight back to studio, then start to work with the second song: “Blue Moon of Kentucky”. Originally country western, Bill Monroe, 1946 – Recording released in 1947. Scotty, Bill, Sam Phillips are going to work “Blue Moon of Kentucky” the way they worked that with 1954 “That’s Alright Mamma”. And try to shape it to something new: Rock 'n' Roll. First, they have a early version, not final version, only go once AABA, and you can hear Sam Phillips come into the room and talk to the band.
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 There was Sam coming in the end: That's a pop song, now, little guy. In country and western, most songs follow a subgrouping of 4. Quite unusual in country and western of subgrouping of 3. Bill Monroe's version follows a subgrouping of 3. Early version of Elvis is a subgrouping of 4. Then they finally record the version that is released as part of Elvis' first record. This is what sounded like.
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 The difference is quite remarkable. Bass is quieter, and in two-beat. When Scotty starts to play guitar solo, he starts to play walking bass line. Now they shift to sth more energetic, and we hear Bill Black playing *slap bass*: pull the string and let them slap back into the instrument, so they bounce off the fingerboard of the bass. If we listen to Elvis, he is adding extra syllables to create rhythm, percussive timbre.
 
@@ -419,13 +419,13 @@ When things get to interesting for Chuck is 1955. He goes to Chicago and starts 
 
 So Chuck wrote lyrics about car chase. Finally they got a song, “Maybellene” (1955). It sounded like this.
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 Very quickly *Maybellene* becomes a hit. Chuck finds himself as star in this newly emerging style of Rock 'n' Roll. Chuck did his research: know what his audience wanted, shape his music to his audience's taste. He starts to write songs that address the concerns of extended adolescence. He actually invents some of prime themes that will be part of Rock 'n' Roll music for decades. He brings them all together in a way that will become linked with the Rock 'n' Roll music.
 
 For example, *cars*, cars represent freedom. Second, *romantic relationships*. Most of the songs are written from male perspective, which means in most Rock 'n' Roll, women are not as subjects, but as objects to be pursued, obtained, displayed. And *no school*, freedom on weekend. Finally, *celebration of Rock 'n' Roll*, the music itself being celebrated within Rock 'n' Roll songs. Quite remarkable. Thus Berry deliberately writing for middle class young white audience. Not only the lyrics, but he tailored his sound and guitar voice for his audience. A wonderful example, "Johnny B. Goode" (1958).
 
-*&#9834; music playing &#9834;*
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 \#2 R&B / \#8 Pop - 12 Bar Blues with a “text heavy” narrative
 
@@ -445,4 +445,4 @@ Certainly Elvis was successful, more famous, but Chuck is more influential. Why?
 - Elvis didn't write his own songs. Do covers and have professional song writers for him. Whereas Chuck wrote all of his own songs.
 - Elvis wasn't a bad guitar player, but guitar was not central to what he did. Whereas you can't take guitar out of Chuck's songs.
 
-Very shortly, we will see next generation of Rock 'n' Roll artists. They respect Elvis, but they are going to base themselves as model on Chuck Berry.
+Very shortly, we will see next generation of Rock 'n' Roll artists. They respect Elvis, but they are going to base themselves as model on Chuck Berry. A young man once said, if you want to give Rock 'n' Roll another name, you can call it Chuck Berry. That young man was John Lennon, who we will meet a couple of weeks when we talk about The Beatles.
