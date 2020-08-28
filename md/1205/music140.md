@@ -450,3 +450,37 @@ Certainly Elvis was successful, more famous, but Chuck is more influential. Why?
 Very shortly, we will see next generation of Rock 'n' Roll artists. They respect Elvis, but they are going to base themselves as model on Chuck Berry. A young man once said, if you want to give Rock 'n' Roll another name, you can call it Chuck Berry. That young man was John Lennon, who we will meet a couple of weeks when we talk about The Beatles.
 
 ## Part C: The End Of The Golden Age of Rock and Roll
+“The Golden Age of Rock and Roll.” (1954-1959). What happened in late 1950s? First, moral panic is still there. Elvis didn't write his own songs, didn't have to play an instrument, which fits him perfectly in the division of labor, he is just a song stylist, quite unlike Chuck Berry. From a strict business point of view, Rock 'n' Roll didn't make sense in the division of labor system. So major is fearful about Rock 'n' Roll. Some numbers:
+
+```
+1954 $200 million; 1959 $600 million:
+Pop top 10: 1955 – 15% are R ’n’ R / 1959 – 42% are R ’n’ R
+Independent share: 1955 21% / 1959 66%.
+```
+
+Music industry is going up very rapidly and is being driven largely by Rock 'n' Roll. From business prospective, the people who are enjoying this growth is largely independent record companies. Therefore, major labels try to gain control. Cover versions stop working. So the next thing major labels try is **Payola inquiry**, essentially, looking for corruption in the Rock 'n' Roll industry.  
+- Majors implicitly link race with the “quality” of the music.
+- Rock ’n’ Roll is attacked on the grounds that it is inferior music (inferior=black influenced).
+- Payola Hearings (bribery). Federal government organizes some serious investigations, looking into whether DJ who plays Rock 'n' Roll is being bribed. And answer is yes, that's how music industry works.
+- The person who came under most fire: Alan Freed.
+
+![there should be a image...](/pics/140/alan.jpg)
+
+This destroys his career. He ended up dying in few years, largely from the stress of being constantly sued by the government.
+
+
+### Racism
+- Reaction against the perceived integration of youth.
+- Birth of Rock and Roll coincides with emergence of Civil Rights Movement
+- May 1954. Brown vs. The Board Of Education
+- December 1955. Rosa Parks – Montgomery Bus Boycott.
+- Freedom Riders / Lunch Counter Sit-ins
+- Martin Luther King Jr.:  Non-violent protest
+- dislike of rock ‘n’ roll is linked to middle-class white fears regarding the growing strength of the Civil Rights’ movement
+
+So then we get to late 1950s. **The Great Extinction** ends the careers of Rock 'n' Roll artists.
+- Elvis – March ’58 – Army.
+- Chuck Berry – December ’59 – Arrested under the “Mann Act”
+- Jerry Lee Lewis (another discovery of Sam Phillips) – May ’58 – Marriage to 13-year-old cousin becomes public. Polygamist.
+- Little Richard – October ’57, he takes himself out of the game of Rock 'n' Roll.  His sexuality and faith.
+- Buddy Holly – Dies in a plane crash, February ’59 – along with Ritchie Valens and “The Big Bopper” (JP Richardson)
