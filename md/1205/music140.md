@@ -406,7 +406,9 @@ Another person, Colonel Tom Parker, promoter, manager. Early 1956, he takes over
 - Elvis dies August 16th, 1977, age 42
 
 ## Part B: Chuck Berry
-![there should be a image...](https://en.wikipedia.org/wiki/Chuck_Berry#/media/File:Chuck_Berry_1957.jpg)
+![there should be a image...](/pics/140/chuck.jpg)
+
+picture from [wiki](https://en.wikipedia.org/wiki/Chuck_Berry#/media/File:Chuck_Berry_1957.jpg).
 
 Elvis was a guitar owner, however, Chuck Berry is a guitar player.
 
@@ -446,3 +448,5 @@ Certainly Elvis was successful, more famous, but Chuck is more influential. Why?
 - Elvis wasn't a bad guitar player, but guitar was not central to what he did. Whereas you can't take guitar out of Chuck's songs.
 
 Very shortly, we will see next generation of Rock 'n' Roll artists. They respect Elvis, but they are going to base themselves as model on Chuck Berry. A young man once said, if you want to give Rock 'n' Roll another name, you can call it Chuck Berry. That young man was John Lennon, who we will meet a couple of weeks when we talk about The Beatles.
+
+## Part C: The End Of The Golden Age of Rock and Roll
