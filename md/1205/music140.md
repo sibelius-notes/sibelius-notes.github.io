@@ -593,6 +593,6 @@ Each part is precise. Electric cellos, early type of synthesizer: theremin. And 
 ## Part A: The New Frontier / Skiffle
 The US was in desperate need of something to distract itself. Particularly the young people. And The Beatles came along at exactly that moment. Now why did they need this distraction?
 
-{% include image.html url="/pics/140/jkf.img" description="John Fitzgerald Kennedy" %}
+{% include image.html url="/pics/140/jfk.jpg" description="John Fitzgerald Kennedy" %}
 
-In fact Kennedy remains the youngest man elected to the office of president of the US. 
+In fact Kennedy remains the youngest man elected to the office of president of the US.
