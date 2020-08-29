@@ -588,3 +588,11 @@ Now listen to the woo's in the background. Brian Wilson is the heart: write own 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
 Each part is precise. Electric cellos, early type of synthesizer: theremin. And listen to the complexity in the background. Next week we are going to visit The Beatles who changes how albums are recorded. There are two artists that the Beatles respect and fear: Bob Dylan and Brian Wilson. The song writing and production approach that Brian was taking on Beach Boys' albums was a huge influence on Beatles. Unfortunately, the band depends entirely on Brian, and Brian suffers mental illness. Then decline in popularity through late 1960s.
+
+# Lecture 7
+## Part A: The New Frontier / Skiffle
+The US was in desperate need of something to distract itself. Particularly the young people. And The Beatles came along at exactly that moment. Now why did they need this distraction?
+
+{% include image.html url="/pics/140/jkf.img" description="John Fitzgerald Kennedy" %}
+
+In fact Kennedy remains the youngest man elected to the office of president of the US. 
