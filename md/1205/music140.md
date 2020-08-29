@@ -484,3 +484,107 @@ So then we get to late 1950s. **The Great Extinction** ends the careers of Rock 
 - Jerry Lee Lewis (another discovery of Sam Phillips) – May ’58 – Marriage to 13-year-old cousin becomes public. Polygamist.
 - Little Richard – October ’57, he takes himself out of the game of Rock 'n' Roll.  His sexuality and faith.
 - Buddy Holly – Dies in a plane crash, February ’59 – along with Ritchie Valens and “The Big Bopper” (JP Richardson)
+
+# Lecture 6
+## Part A: Return To Division Of Labour
+**The “In-between” Years (1959-1963)**: The end of the “Golden Age” of Rock and Roll, to the arrival of The Beatles (February, 1964)
+-	Major Labels recognize that Rock and Roll is not a fad
+-	They begin to produce popular music similar to Rock and Roll – aimed at teenagers of the late 1950s early 1960s.
+-	But produced within the “Division of Labour” system.
+
+So they start to create songs that are tying to fads that fall in a particular pattern. One of the patterns, **Dance Craze**. In 1960, A song called, "The Twist", by Chubby Checker, becomes a huge hit. The lyrics describes how to do the dance, and the title of the song is also the name of the dance. This becomes a series: like mashed potato. Let's listen to an example, “The Locomotion” Little Eva (Goffin, King) 1962.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Lots of sounds from Rock 'n' Roll, drum, bass, saxophone. Little Eva receives little money for this, even though it became a hit. Why? Because she was a salary employee for a music label. She was paid 50 dollars a week. Eva's career was virtually over after then. She was seen as dance craze vocalist. When the dance craze peaked and public was moving to something else, the record label was not interested in having her sing more songs.
+
+Another example of how major labels were figuring out the teenagers demographic and how they learnt from the golden age of Rock 'n' Roll is seen in the second cycle of song artists, which we refer it as **Teen idols**.
+- Artists that are teenagers themselves.
+- Adult relationships. Clean-cut, idealized boyfriend.
+- Make most teen idols male. Because mothers have more influence of what their children are listening to.
+
+Let's listen to one of them: “Blue Velvet” Performed by Bobby Vinton (1963).
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Guitar here not only plays the melody line, but the rhythm. The golden age of Rock 'n' Roll has made guitar more prominent. The song is composed in 1950, hit for Tony Bennett in 1951, before emergence of Rock 'n' Roll. Major labels figure out they can change the arrangement of older material. The style would resemble Rock 'n' Roll enough then this will become a popular song.
+
+This song fits in to the new model because its lyrics were appropriate for teenagers, unlike early Rock 'n' Roll, R&B, too involved in adult relationships. So Romantic (non-sexualized) love, and dancing.
+
+Most of the newer artists did not write songs because of the division of labour – where were they coming from? TPA needs a new generation of songwriters in the division of labour system, but sounds like Rock 'n' Roll. Many came from The Brill Building.
+
+![there should be a image...](/pics/140/brill.jpg)
+
+-	Don Kirshaner / Al Nevins. Aldon Music is a company within the Brill Building.
+-	Pop music – Tin Pan Alley approach.
+
+## Part B: Technology and the Rise of the Producer
+We have to go back to dying days of WWII. Nazi Germany has some smart scientists. Some American engineers have one job: to find abandoned Nazi technology and bring it back to the US. In 1945, a young man, Sergeant Jack Mullin, walks in to an abandoned radio station of Western Germany and discover something that alliance suspected Nazi developed but not for sure. They found the **Magnetophon**.
+
+![there should be a image...](/pics/140/Magnetophon.jpg)
+
+It's a reel to reel tape. Jack immediately found out the application of it is entertainment industry. Obviously, records has been quite a while. But for radio, all performance is live, because records is not a completely dependable medium. 1948, Bing Crosby give one of the first commercially produced reel-to-reel tape recorders to Les Paul. It lowers the cost of opening recording studio, not wasting so many records any more.
+
+Les Paul (1915-2009). Obsessed in sounds. Popular guitarist – known for developing the "Solid Body" electric guitar. Solid guitar with amplifier has more sustainable sound.
+
+![there should be a image...](/pics/140/log.jpg)
+
+Les Paul with “The Log.”
+
+Wishes to create recordings by layering performances. Impossible to do with records.
+
+Assists in the development of the “multitrack” tape recorder.
+
+![there should be a image...](/pics/140/multi.jpg)
+
+Example of a more recent multitrack recorder. This is a 16-Track Multitrack recorder from the 1970s.
+
+Let's listen to a example: “Sitting On Top Of The World” Les Paul with Mary Ford, 1953.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+He understood the tape can be used not only to record sound, but to alter sound by slowing the tape speed down or the opposite. It is called vary speed recording.
+
+*When did this performance occur?*
+
+Multitrack recording redefines the process of recording. Reproduction to Production. Produce something new, not to reproduce something that happened in real time.
+
+Multitrack recording will open the door to someone new: a producer. We have used the term producer before: Sam Phillips, Chess brothers. Now the role of producer is going to take on a completely new and added dimension: supervise the recordings. Once all the musicians are done, producers keep playing with the recordings and create things may not exist in real time.
+
+During the in-between years, more musicians become interested in multitrack. The recording industry begins the transition from recording complete songs in a single “take” to the use of multitrack recording. Phil Spector is the first to emerge a new generation during the in-between years. He pioneers a technique: use multitrack technology, develop an approach to record the “Wall of Sound”. An example, “Be My Baby” The Ronettes, 1963 (Barry, Greenwich, Spector)
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+From [wiki](https://en.wikipedia.org/wiki/Wall_of_Sound),
+> The Wall of Sound (also called the Spector Sound) is a music production formula developed by American record producer Phil Spector at Gold Star Studios, in the 1960s, with assistance from engineer Larry Levine and the conglomerate of session musicians later known as "the Wrecking Crew". The intention was to exploit the possibilities of studio recording to create an unusually dense orchestral aesthetic that came across well through radios and jukeboxes of the era. Spector explained in 1964: "I was looking for a sound, a sound so strong that if the material was not the greatest, the sound would carry the record. It was a case of augmenting, augmenting. It all fitted together like a jigsaw."
+
+## Part C: Surf Music
+As we knew if from late 1950s, Rock 'n' Roll is gone. It has been replaced by sth quite like it, but done with major labels. It does not completely fade away. Survives and thrives on the western coast of the US, in style of music, we called **surf music**. Middle class, west coast prosperity. Let's listen to a bit of surf music.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+This is The Beach Boys - "Surfin' USA". This sounds quite a bit different. We heard electric guitar. We see sth in surf music that is relatively unusual: a high number of instrumental songs: focus not on vocalist, but on instrument. Quite common before 1950s, like big band music. Example, Dick Dale - “[Misirlou](https://en.wikipedia.org/wiki/File:Dick_Dale_-_Misirlou.ogg)” (1962). But here is another instrumental hit from the period: The Surfaris - "Wipe Out".
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+![there should be a image...](/pics/140/venture.jpg)
+
+Self-contained bands: write own songs. The man kneeling down is holding electric bass, two men back electric guitar.
+
+Importance of Electric Guitar. Instrumental Tracks.
+
+The Beach Boys. Self-contained bass/guitar group. Originally called The Pendletones: a name reference to clothing. Here is “Surfin’ USA” again.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Did you hear the reference to the hair style and brand name? showing connection between music and fashion. Opening is similar to “Johnny B. Goode” of Chuck Berry. And listen to "Sweet Little Sixteen" by Chuck Berry.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+They (The Beach Boys) have no idea their song will become a big hit. They copied Chuck Berry as much out of love and anything. To much Chuck's credit, he took it well. He then registered as one of the songwriters. He cares about making money.
+
+Now listen to the woo's in the background. Brian Wilson is the heart: write own songs, creative force. He has full responsibility for production. And he works out all the arrangement. Listen to "Good Vibrations" by The Beach Boys. The track was recorded one instrument at a time and it took 6 months for Brian to supervise and arrange the recording.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Each part is precise. Electric cellos, early type of synthesizer: theremin. And listen to the complexity in the background. Next week we are going to visit The Beatles who changes how albums are recorded. There are two artists that the Beatles respect and fear: Bob Dylan and Brian Wilson. The song writing and production approach that Brian was taking on Beach Boys' albums was a huge influence on Beatles. Unfortunately, the band depends entirely on Brian, and Brian suffers mental illness. Then decline in popularity through late 1960s.
