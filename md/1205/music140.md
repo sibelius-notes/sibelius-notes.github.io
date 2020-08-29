@@ -595,4 +595,21 @@ The US was in desperate need of something to distract itself. Particularly the y
 
 {% include image.html url="/pics/140/jfk.jpg" description="John Fitzgerald Kennedy" %}
 
-In fact Kennedy remains the youngest man elected to the office of president of the US.
+In fact Kennedy remains the youngest man elected to the office of president of the US. He was also Catholic. There was a subtle systematic bias against Catholic. Optimism with Kennedy  (Camelot). Round table, everyone is equal. Kennedy is open to all ideas. This vision that he put forward of nation building was given a name: "The New Frontier". Optimistic future.
+
+Civil Rights is making progress. In August 1963, there is a civil rights rally in Washington that attracts millions of people. Peaceful, constructive. A speech, Martin Luther King Jr. - “I have a dream”.
+
+Kennedy assassinated Nov 22, 1963 – Dallas, Texas. In the month follow, the US plunges into a deep and terrible sense of depression. It needs sth to distract, make it laugh, give it hope again. February, 1964 – The Beatles arrive in New York. The beginning of British invasion. We need to talk about Post War Britain first.
+
+England was a wreck after WWII, many things need to be rebuilt. Lack of job opportunities, lack of cultural opportunities. Music industry is not functioning well. Many British youths are hearing about the remarkable changes in the US during 1950s. Many Americans come to Europe and help with rebuilding. Many bring things with them like different type of records. British are fascinating about this, then we see the appearance of **Skiffle**, England's first attempt of Rock 'n' Roll. English teenagers, primarily young men, were putting bands together, that were made up of whatever instrument they had lying around. Return to DIY culture, make their own version of pop music, based on what they hear from the US. Here is an example of skiffle: Lonnie Donegan - "Rock Island Line". He becomes known as the king of skiffle.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+We can hear some R&B, early Rock 'n' Roll, country and western elements here. Skiffle groups become very popular. Let's pay attention to one group: The Quarrymen in Liverpool in late 1950s.
+
+## Part B: Meet The Beatles
+According to mythology, John Lennon was a leader of a Skiffle group called the Quarrymen.  They were playing church picnic one afternoon then they were spotted by another teenager: Paul McCartney. John and Paul start to talk during a break and they were fascinated by each other. They both did no one else did: they wrote songs, which bring them together. They then began to write songs together. But they couldn't play guitar solo. So Paul brings George Harrison who can play guitar. In order to be a complete Rock 'n' Roll band, they need to have a drummer. They hire a young man: Pete Best. They also decide to change the name of the band to "The Beatles" after some discussions.  
+
+The Beatles played for American troops in Hamburg, Germany. Playing Rock 'n' Roll, R&B covers. When they are not in Germany, they had a spot in Liverpool, The Cavern Club.
+
+{% include image.html url="/pics/140/rocker.jpg" description="“Rocker” Image – Based on the British perception of American Motorcycle gangs." %}
