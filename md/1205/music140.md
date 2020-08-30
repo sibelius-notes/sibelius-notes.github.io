@@ -613,3 +613,34 @@ According to mythology, John Lennon was a leader of a Skiffle group called the Q
 The Beatles played for American troops in Hamburg, Germany. Playing Rock 'n' Roll, R&B covers. When they are not in Germany, they had a spot in Liverpool, The Cavern Club.
 
 {% include image.html url="/pics/140/rocker.jpg" description="“Rocker” Image – Based on the British perception of American Motorcycle gangs." %}
+
+In this period, they don't have any original songs recorded. It was all through live performances. Because of this, they come to the attention of a music journalist: Brian Epstein. He went to the club and quite surprised on what he saw. They were rough around the edges, swearing, drinking, smoking, but in Epstein own words: they had personal charm, an undeniable charisma. Then he becomes the manager of The Beatles. He starts off by significantly changing on Beatles' image. They are engaging but the look frightens people, intimidates older generations.
+
+{% include image.html url="/pics/140/change.jpg" description="Change of image" %}
+
+Epstein spends the first half of 1962 on trying to get The Beatles a recording contract. He was turned down by every record label in England. In fact, he receives a letter from Dick Rowe, a representative of Decca Records in England. He was historically remembered as The Man Who Turned Down The Beatles. Everyone turns down because there was a feeling that the interest in guitar bass popular music was passing.
+Furthermore, in 1963, once The Beatles becomes famous, Dick finds them and said to them: I am sorry for you... Who would you recommend for me to sign? The Beatles tells him: probably the band Rolling stones. Then he signs the band, which is the second most important band of the British invasion.
+
+Epstein didn't give up. He is relentless. In June 1962, he convinced EMI to sign the Beatles, but they don't want to put them on the main label. So they assign the Beatles to a sublabel: Parlophone. At Parlophone, they were assigned to a producer, George Martin. One of the thing he didn't like the band was the drumming of Pete Best. They dropped him instantly. Why? The mythology: John in particular didn't get along with Pete Best. So they replaced him with Ringo Starr. In September 1962, first single: “Love Me Do”.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+The song was a minor hit, but did well enough that the record company is willing to give them a chance to a second single. The Beatles “Please Please Me” (January 1963).
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+-	AABA form
+-	Change in rhythmic density in vocal
+-	Longest held note, highest note at the end of the B section
+-	Numerous rehearsed details
+-	TPA-style attention to arrangement
+
+They becomes true star. In November 1963, The Beatles on The Royal Variety Performance. 35 million in England.  [...just rattle your jewelry](https://www.youtube.com/watch?v=rvBCmY7wAAU). The next mountain to climb is America.
+
+By the time The Beatles rising to fame, Britain music industry has largely got back on its feet. By the late 1950s, England was starting to produce its first series of music stars in the post war era. Many of them have tried to tour the US but failed. The Beatles expected to try and make it America. Here is another mythology: Epstein refuses to allow the band to go to the US until they had a hit record. None of the records are done well at all through 1963 in America due to a variety of reasons. In early 1964, "I want to hold your hand" became the first Beatles' hit in the US. Then they were arranged to head to the US.
+
+There were lots of promotion. The caption of this promotion was “The Beatles are coming” (February, 1964). This is a clever play on history. In late 1700s, the US which was still a British colony, declared its independence. The British is disappointed to hear this and send an army to retake the colony. When the army arrives, the myths goes that Paul Revere rides on his horse and yells "The British are coming". Now this time is "The Beatles are coming".
+
+First stop is major television appearance. On Feb 9th Ed Sullivan Show, 70 Million viewers. Example, Video – The Beatles On The Ed Sullivan Show.
+
+<p align="center">&#128249; <i>video playing</i> &#128249;</p>
