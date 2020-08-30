@@ -621,7 +621,7 @@ In this period, they don't have any original songs recorded. It was all through 
 Epstein spends the first half of 1962 on trying to get The Beatles a recording contract. He was turned down by every record label in England. In fact, he receives a letter from Dick Rowe, a representative of Decca Records in England. He was historically remembered as The Man Who Turned Down The Beatles. Everyone turns down because there was a feeling that the interest in guitar bass popular music was passing.
 Furthermore, in 1963, once The Beatles becomes famous, Dick finds them and said to them: I am sorry for you... Who would you recommend for me to sign? The Beatles tells him: probably the band Rolling stones. Then he signs the band, which is the second most important band of the British invasion.
 
-Epstein didn't give up. He is relentless. In June 1962, he convinced EMI to sign the Beatles, but they don't want to put them on the main label. So they assign the Beatles to a sublabel: Parlophone. At Parlophone, they were assigned to a producer, George Martin. One of the thing he didn't like the band was the drumming of Pete Best. They dropped him instantly. Why? The mythology: John in particular didn't get along with Pete Best. So they replaced him with Ringo Starr. In September 1962, first single: “Love Me Do”.
+Epstein didn't give up. He is relentless. In June 1962, he convinced EMI to sign the Beatles, but they don't want to put them on the main label. So they assign the Beatles to a sublabel: Parlophone. At Parlophone, they were assigned to a producer, George Martin, who is a classically trained musician. One of the thing he didn't like the band was the drumming of Pete Best. They dropped him instantly. Why? The mythology: John in particular didn't get along with Pete Best. So they replaced him with Ringo Starr. In September 1962, first single: “Love Me Do”.
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
@@ -644,3 +644,65 @@ There were lots of promotion. The caption of this promotion was “The Beatles a
 First stop is major television appearance. On Feb 9th Ed Sullivan Show, 70 Million viewers. Example, Video – The Beatles On The Ed Sullivan Show.
 
 <p align="center">&#128249; <i>video playing</i> &#128249;</p>
+
+Extraordinary. Many young men and women watched this show and began to step into the music industry later in 1960s and 1970s. The Beatles relaunched the idea of self-contained groups. Then they took a train down to Washington DC, and they went to The Washington Coliseum which is a sport stadium on Feb 10th. [Here](https://www.youtube.com/watch?v=9AiD-02CvVE) is a video.
+
+The success of the Beatles is so great that they are going to invent the modern stadium convert. Tour lasts for two weeks – 2 million albums, $2.5 million merchandising. Everywhere they go, screaming girls. Hysteria known as “Beatlemania”
+In April 1964, 12 songs in the Billboard top 100 pop, simultaneously: including positions 1 to 5. End of 4th U.S. Tour in ’65 - $65 million dollars.
+
+Importance – Template for what is to follow.
+Mersey Beat: Gerry and the Pacemakers, The Searchers, The Swinging Blue Jeans. They follow the Beatles: light and precise sound, guitars.
+
+Now back to the final US tour, they played a [concert](https://youtu.be/M6DfG7sml-Q) at a major outdoor sports stadium, Shea Stadium in New York City, August 15th, 1965. 55k fans.
+
+## Part C: The Road To Sgt. Pepper
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+The song you were listened to is called "Help". It is a title track from a film sound track. Their second film: Help, in July 1965. The Beatles has done one film already, A Hard Day's Night.
+
+In the album coming along with the film Help, many songs like "Help" is catchy, well-written Beatles songs. But there was one song that is a bit mystery, stood out a little bit. It sounded like this.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+The song is called "Yesterday". Primarily written by Paul McCartney, lead singer, play acoustic guitar. AABA form. Several extraordinary things:
+- Only one Beatle is singing. Usually Beatles song features all four Beatles.  Only Paul.
+- String Quartet. 4 orchestral string instruments. There's a perception in the world of the classical music that great composers do their most profound work for string quartets.
+- More complex harmonic and lyric structures
+
+Beatles are evolving – moving away from pop song writing. Lots of things bring to this change. One of the big events is that John and Paul had a chance to meet Bob Dylan. He said to them: your music is great but your lyrics don't say anything. And we have the use of string quartet. That was Paul's idea where he got this idea from the producer, George Martin. Remember he is an educated classical musician as well.
+Also Paul has learnt all sorts of things like non-European cultures from him. All sorts of doors are starting to open to the Beatles.
+
+By this point in their career, John and Paul have written hundreds of songs together. Every song carried the credit of these two. They wrote everything together. John and Paul are starting to write on their own, pursue their own interest in their composition. The band is going to two separate directions. Unfortunately, this will eventually result in demise of the band. We see this change take place over  a remarkably short period of time.
+
+![there should be a image...](/pics/140/help.jpg)
+
+August '65. Yesterday in the Help album.
+
+![there should be a image...](/pics/140/rubber.jpg)
+
+Dec ’65 – “Rubber Soul”. Even the album cover suggests the things are changing. Album cover until then has two purposes: protect and promote the record. The image slightly distorted, skewed. The songs like "Nowhere Man".
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+![there should be a image...](/pics/140/revolver.jpg)
+
+August ’66 – “Revolver”. They abandoned the idea of group photograph. Very last track on the album: “Tomorrow Never Knows”.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+- most part of the song composed by John Lennon
+- 	lyrics are based on the Tibetan Book of the Dead
+-	really doesn't have chord changes in the usual way. Song is based on a drone (use of the Tamboura - influence of non-western culture, classical India)
+-	vocal is “double-tracked” and is run through a “Leslie” speaker cabinet
+-	makes use of tape “loops” (avant-garde) and backwards recording
+
+Demonstrates the growing influence of non-western culture, and the technology of the recording studio on the work of The Beatles. This song would have been unplayable in concert in the 1960s…
+
+The band was losing interest in public performance.
+Why? cause screaming girls have not gone away.
+
+March of 1966. The Beatles have done interviews in major British newspaper. They have developed a level respect among most people, particularly John. John has a healthy respect for spiritual traditions. He said we are bigger than Jesus now. He didn't mean it literally. As on their way to the US, a quote is published taken out of the context: John Lennon "Beatles Bigger than Jesus". By the time plane landed, a protest has started. And then the Beatles decided that they had enough. The final show on tour, August 29th – Candlestick park in San Francisco. Then they made astonishing announcement: they were retiring from public performance. Instead, focus the work in recording studio.
+
+# Lecture 8
+## Part A: The Beatles (Part 2)
