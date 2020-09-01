@@ -702,7 +702,14 @@ Demonstrates the growing influence of non-western culture, and the technology of
 The band was losing interest in public performance.
 Why? cause screaming girls have not gone away.
 
-March of 1966. The Beatles have done interviews in major British newspaper. They have developed a level respect among most people, particularly John. John has a healthy respect for spiritual traditions. He said we are bigger than Jesus now. He didn't mean it literally. As on their way to the US, a quote is published taken out of the context: John Lennon "Beatles Bigger than Jesus". By the time plane landed, a protest has started. And then the Beatles decided that they had enough. The final show on tour, August 29th – Candlestick park in San Francisco. Then they made astonishing announcement: they were retiring from public performance. Instead, focus the work in recording studio.
+March of 1966. The Beatles have done interviews in major British newspaper. They have developed a level respect among most people, particularly John. John has a healthy respect for spiritual traditions. He said we are bigger than Jesus now. He didn't mean it literally. As on their way to the US, a quote is published taken out of the context: John Lennon "Beatles Bigger than Jesus". By the time plane landed, a protest has started. And then the Beatles decided that they had enough. The final show on tour, August 29th – Candlestick park in San Francisco. Then they made astonishing announcement: they were retiring from public performance. Instead, focus on the work in recording studio.
 
 # Lecture 8
 ## Part A: The Beatles (Part 2)
+In February, 1967, they release a most remarkable song, “Strawberry Fields Forever”. [Music video](https://www.youtube.com/watch?v=HtUH9z_Oey8). The next album, June 1967 – “Sgt. Pepper’s Lonely Hearts Club Band”. It is the most influential album ever released. It marked the pinnacle of what The Beatles has been working towards through this middle period of Help, Rubber soul and Revolver. They were clearly pushing away from the idea of the individual songs being the focus of their work to a larger collection of songs.
+
+{% include image.html url="/pics/140/sgt.png" description="Sgt. Pepper’s Lonely Hearts Club Band" %}
+
+Front cover: wild art, all sorts of important historic figures that surrounds the Beatles. Back cover: first time, album cover include the lyrics for every song. Listen to the final track: The Beatles “A Day In The Life” (From Sgt. Pepper’s Lonely Hearts Club Band)
+
+15:11
