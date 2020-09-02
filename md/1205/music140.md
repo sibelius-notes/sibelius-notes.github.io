@@ -731,4 +731,53 @@ Shift to the “Hippie Aesthetic”.
 
 The band was destined to fall apart the moment Brian Epstein died.
 
-One last thing: how long they were together? fall 1962 ---> early 1970.
+One last thing: how long they were together? fall 1962 ---> early 1970. Only less than 10 years, they rewrite the pop music history.
+
+## Part B: The British Blues Revival
+There's an entirely second stream on music outside of the Beatles in the British invasion. It is based primarily in London. In this wave of music, the influence was American R&B. It is now referred to **The British Blues Revival**. Why revival here? We will spend most of the next week talking about soul music, which is the main threat of pop music within African American culture in 1960s, to 1970s. R&B was seen as a music of yesterday. Early 60s, is the height early civil rights movement. Many in Black community want to look forward. R&B artists such as Muddy Waters find by late 50s, their careers are really falling out of the favor. What they don't know is something happened in England.
+
+Remember we are still in post-war era. Then we see young English musicians learn to play music by listening to R&B. Why would young white English (primarily male) be drown to R&B? It was a song of complaint. They are experiencing post-war rebuilding. Then we see  a whole generation modelling themselves on R&B. Then in the US, places like Chess Records are in hard time. Then they learn there is a huge fan-based in England. In 1950s, England has rebuilt enough from the war, then it's possible for someone who comes from the US to hold concert tours. One of the first groups is a collection of R&B musicians organized by Chess Records. Headline artist: Muddy Waters.
+
+Waters becomes a primary influence on a generation of British musicians:  
+Fleetwood Mac, Cream, Eric Clapton, Led Zepplin, The Rolling Stones. Brian Jones puts the Rolling Stones together. He is deeply passionate fan of R&B. Thus he wants to put a band together in a tribute way. Debut at the Marquee Club: July, 1962. The name of the band came from a song by Muddy Waters, "Like a Rolling Stone". In April 1963, they are approached by a young man, Andrew Loog Oldham, who wants to be their manager. Then there comes a myth: Andrew suggests them not to follow the Beatles, instead be dangerous and rough, no smiles.
+
+{% include image.html url="/pics/140/rolling.jpg" description="1963 – Change of Image" %}
+
+1963-1964: All singles are covers (Chuck Berry, Buddy Holly, Willie Dixon)
+
+Nobody in the British Blues Revival wrote songs. So Andrew, who knows the Beatles, arranges a recording session in November 1963. He phones Lennon/McCartney and asks them to show how to write a song. Then they wrote a song "I Wanna’ Be Your Man" in less than a hour.
+
+In Spring 1964, they record first album: “England’s Newest Hitmakers”, mostly blues covers. One original song, which is terrible. Let's listen to a song, “King Bee” – April 1964, blues form, cover of song by Slim Harpo (1957).
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Mick Jagger and Keith Richards continue to follow from the advice from Paul and John, and write songs. Lovely story: they follow Paul and John's advice: keep a tape recorder next to their bed. If you have a good idea and wake up, you then can get it quickly on the tape. Then one morning, Keith woke up and realized that his tape recorder has completely gone its tape. He also noticed that his guitar is facing down to the ground. Then he played the tape. The legend tells he heard something like this:
+
+<p align="center">&#9834; <i>tape playing</i> &#9834;</p>
+
+15 seconds little catchy line, followed by about 58 minutes snoring. In Feb 1965, then it  becomes “(I Can’t Get No) Satisfaction” (Jagger/Richards), first US number one pop. There's a video with the band playing the song live. Clear R&B influence.
+
+<p align="center">&#128249; <i>video playing</i> &#128249;</p>
+
+The Beatles / The Rolling Stones
+-	image. Brian Epstein turns the Beatles the darling of middle class. Andrew Loog Oldham turns the Rolling Stones into the working men of Rock 'n' Roll.
+-	“process” versus “product”. Process: not the destination, it's the journey. Not worried about where to go, interested what happened along the way. Product: destination, clear on where to go. The Beatles in later period focus on the product. Then the Rolling Stones focus on process: the arrangement is always flexible. Every performance is different.
+
+When we look at African American culture, we are in the world of process. When we look at Europe American culture, white culture, quite often in the world of product. Think of the division of labor in TPA, standardized, predicable, repeatable.
+
+Brian Jones' story didn't end well. He is primarily interested in R&B, not in original songs. And following the success of not getting any satisfaction, the power center of the band shifted away from him to Mick Jagger and Keith Richards. Jones distanced himself from the band: didn't show up in the recording sessions, late for rehearsals and so on. He then was forced to leave the band. Within only a few weeks, Brian was found dead in his swimming pool.
+
+**The Yardbirds**  (Blues Influence):
+Tribute band to Blues. Original leader: Eric Clapton. Like the Rolling Stones, they began to develop original material, then Clapton decided to leave the band because he doesn't want to pursue the more popular approach. He is replaced by Jeff Beck. Then Clapton becomes one of the greatest English blues guitar players of all the time. Jeff Beck is a wonderful musician, gifted guitar player. More successful popular career, a song such as “[For Your Love](https://www.youtube.com/watch?v=HU5zqidlxMQ)” (March, 1965). An illness of bass player forced the band to make unexpected change: add a new local studio musician, Jimmy Page. But at the time Page joins, the band slowly becomes apart. Following the band's split in 1968, Relf and McCarty formed Renaissance and guitarist Jimmy Page formed Led Zeppelin (from wiki).
+
+One last stop, **The Who** (Blues Influenced). Originally part of British Blues Revival, but they take a different path as we get into 1960s. Also incorporated elements of art and fashion. Became closely associated with “Mod” culture. A song, “My Generation” (October, 1965).
+- disillusioned, rejection of parent’s culture
+- loud, aggressive.
+
+[Concert performance](https://www.youtube.com/watch?v=qjN5uHRIcjM) of “My Generation” from 1967.
+
+Generation gap. Do a concert and smash an instrument.
+
+In 1969, they released an album "Tommy". In 1973, “Quadrophenia”. They were concept albums, and they pushed the idea of concept album as far as you could towards the end of narrative. These were **Rock Opera**, they told stories, each song like a chapter in story.
+
+[The “Overture” from “Tommy”](https://www.youtube.com/watch?v=MKdusyjiuvY&list=PLBDDC70B0CEC14AF1&index=1)
