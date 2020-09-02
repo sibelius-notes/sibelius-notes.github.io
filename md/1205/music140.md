@@ -710,6 +710,25 @@ In February, 1967, they release a most remarkable song, “Strawberry Fields For
 
 {% include image.html url="/pics/140/sgt.png" description="Sgt. Pepper’s Lonely Hearts Club Band" %}
 
-Front cover: wild art, all sorts of important historic figures that surrounds the Beatles. Back cover: first time, album cover include the lyrics for every song. Listen to the final track: The Beatles “A Day In The Life” (From Sgt. Pepper’s Lonely Hearts Club Band)
+Front cover: wild art, all sorts of important historic figures that surrounds the Beatles. Back cover: first time, album cover include the lyrics for every song. Listen to the final track: The Beatles “A Day In The Life” (From Sgt. Pepper’s Lonely Hearts Club Band). As the song starts, you can hear the end of the previous song. If you listen to the song carefully, you realize there are two songs here, two incomplete songs: first one by John, middle section by Paul, then transition to John's song. We can see two styles diverge.
 
-15:11
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+-	actually, assembled out of sections separately composed.
+-	“post modern” approach to creating forms.
+-	aleatory techniques (偶然音乐) with orchestra.
+
+One of the key ideas of modernism is that you set up and follow rules.
+
+Before, for the most part, the music industry was focused on singles. The first “concept album” (?): a collection of songs on a single album in which all of the songs are linked together in some way. Why question mark? The Beatles did plan on an idea of creating concept album, theme: their childhood growing up in the Liverpool. The problem is that they ran out of songs before they get album finished, so they ended up putting up some other songs on the album that didn't have anything to do with childhood. Nevertheless, history remembers this album.
+
+Shift to the “Hippie Aesthetic”.
+-	marks the shift from “Rock ‘n’ Roll” to “Rock”. In musicology circles, these two terms mean differently. Rock 'n' Roll is the style dominated the pop music industry since someone like Elvis and Chuck Berry, marked by the emphasis on singles. Rock emphasis on album.
+-	moving from:
+    -	singles to albums
+    -	dancing (important in Rock 'n' Roll) to listening
+    -	entertainers to “serious” musicians
+
+The band was destined to fall apart the moment Brian Epstein died.
+
+One last thing: how long they were together? fall 1962 ---> early 1970.
