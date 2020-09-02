@@ -781,3 +781,22 @@ Generation gap. Do a concert and smash an instrument.
 In 1969, they released an album "Tommy". In 1973, “Quadrophenia”. They were concept albums, and they pushed the idea of concept album as far as you could towards the end of narrative. These were **Rock Opera**, they told stories, each song like a chapter in story.
 
 [The “Overture” from “Tommy”](https://www.youtube.com/watch?v=MKdusyjiuvY&list=PLBDDC70B0CEC14AF1&index=1)
+
+# Lecture 9
+## Part A: Intro To Soul / Motown
+All cultures are political. Not left/right wing, but in a more fundamental way, where power resides.
+
+Development connected to the Civil Rights movement and the development of African-American identity.
+
+As we mentioned before, during late 1950s, early 60s, American R&B is falling out of the favor of its Black audience. In part, it is due to the success of civil rights movement. African Americans as a community starts to gain a sense of optimism. There was a feeling R&B is a representation of past, rural south, slavery. Thus it needed music to reflect new found sense of optimism: **soul music**.
+
+In broad, soul has three primary influences, elements.
+- Vocal style from African American church, music of Gospel.
+- Rhythm beat of R&B. Music intended for dancing, celebration.
+- Arrangements and lyric styles from TPA
+
+Important locations for Soul Music
+
+{% include image.html url="/pics/140/motown.jpg" description="Motown – Detroit" %}
+
+{% include image.html url="/pics/140/stax.jpg" description="Stax – Memphis" %}
