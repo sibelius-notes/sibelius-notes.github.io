@@ -799,4 +799,86 @@ Important locations for Soul Music
 
 {% include image.html url="/pics/140/motown.jpg" description="Motown – Detroit" %}
 
+Have a look on what it says over the front window: doesn't say Motown, it says Hitsville, USA.
+
 {% include image.html url="/pics/140/stax.jpg" description="Stax – Memphis" %}
+Located in an old movie theatre. Below "STAX", it says SOULSVILLE, USA.
+
+These terms are not arbitrary. They actually tell us about how the two centers differed quite significantly in the way they approach what they did.
+
+First, let's visit Motown. Much for 20th century, Detroit was the center of the automotive industry. It was founded by Berry Gordy.
+
+{% include image.html url="/pics/140/berry.jpg" description="Berry in the recording studio" %}
+
+Starts in 1959 – Based on Gordy’s experience in automotive plants. Inspired by this experience, here is the assembly line, each person has one job. This is not new as we talked about the division of labor in TPA. What Berry wants to do is apply the division of labor to the music not intended for middle class white, but African American. Not only does he want to apply the division of labor approach, he wants to put everything in one company, one building. Everything under one roof.
+-	song writers: Holland/Dozier/Holland, Smokey Robinson
+-	Maxine Powell: Finishing School, an institute for particularly young women from wealthy families. Then they would learn how to behave in "acceptable" manner. To train the artist.
+-	Cholly Atkins: Choreographer
+-	The Funk Brothers: House band
+
+Result is absolute consistency of product, in terms of sound and visual appearance. Have look at Lip-synced performance of “[You’d Better Shop Around](https://www.youtube.com/watch?v=dA5509mcQd8)” Smokey and the Miracles, 1960. Two things: Lyrics, idealized romance; Restrained movements, sophistication. Lip-sync is not unusual at this point. It works well in Motown, because unlike music like British invasion, the focus is taken off the band and put on the singer, on the song. The back-up band is invisible.
+
+Let's have a little bit of detailed look at the sound of Motown. Example: “Stop in the Name of Love” by The Supremes (1965).
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Beat intended for dancing. Lyrics, idealized romance. We can hear the sound of vibraphone. Putting the sound of vibraphone is a clever move. First, not every Motown record has vibraphone. This is trying to appeal the white audience. It is primarily associated with Jazz. Great master: Lionel Hampton, a star in big band era. The opinions towards Rock 'n' Roll are changing, so does Jazz.
+
+For many years, Jazz had been viewed as suspicion from the perspective of middle class whites. It was connected something like drug use. These are just excuses... the big problem is black culture. But by the time we get into 1960s, Jazz has been recognized as an art form. Indeed, many people refer to Jazz as North America's first original art form.  
+
+What we don't hear a lot of is that first influence: the Gospel influence. This comes down to the choice of the lead singer.
+
+Sound and Production Practice
+-	Focus on arrangement
+-	Clarity of sound
+-	Accuracy of performance
+-	“Quality Control” – comparison to other hit records.
+
+This brings us back to the sign on the door: Hitsville USA. That's because Berry Gordy focuses on hits. As we are going to see, that's very different from the philosophy that was taken in another major center for soul music: Stax - Memphis.
+
+## Part B: Stax
+![there should be a image...](/pics/140/st-ax.jpg)
+
+Started by a brother and sister team, Jim <b>St</b>ewart and Estelle <b>Ax</b>ton. Formed in 1959 – Satellite Records (Stax, 1961). Things done differently in Stax. Like Motown, Stax uses house band in many recordings. The band: Booker T and the M.G.s.
+
+{% include image.html url="/pics/140/houseband.jpg" description="House Band: Booker T and the M.G.s" %}
+
+Integrated band: some were white, some were black. This runs into some issues...
+
+Remember the house band in Motown is invisible, in the background. However, Booker T and the M.G.s actually had hits of their own in addition to playing on the recordings for other vocalists. One of their hits: “[Green Onions](https://www.youtube.com/watch?v=gjgjoSsOvi4)” By Booker T and the M.G.s. Great groove, used in many movies and so on.
+
+Approach to recording
+-	Collective decision making, demographically. In Motown, ultimate decision is Barry Gordy's.
+-	Less emphasis on arrangements than Motown, which used multitrack tape (allow high level control). While in Stax, music is done with all musicians performing together after several rehearsals.
+-	Focus on energy of performance over accuracy.
+
+
+EXAMPLE: “Try A Little Tenderness”: (1966) by Otis Redding.
+- AABA – TPA song written in the 1920s
+- Hit for Bing Crosby in 1933
+- Unrestrained energy in performance
+
+Otis Redding – [Live version](https://www.youtube.com/watch?v=IQ9n2_5mbig) of “Try A Little Tenderness” with Booker T And The MGs. Quite unrestrained.
+
+We have now talked about the Gospel vocal within Stax. What about the other two influences? Like Motown, Stax has strong rhythmic feel. But we see less the influence is in that third point: more elaborative arrangements. Stax generally has simpler approach  to arrangements.
+
+Another example, Sam and Dave. Their song: “Soul Man” 1967.  We can hear distorted vocal. Instrumental arrangement is quite simple. Here is "Soul Man".
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+There was a mistake in it: a couple of people didn't play the note when they were supposed to. It is in the horn section.
+
+“Soul” as a term for black culture: Sam is singing about the joys being a soul man.
+Still the optimistic sound. As we will see by 1967, things were getting quite bleak within the civil rights movements. We see the change in attitude and approach in a song: “Respect” by Aretha Franklin, 1967.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Beginning of a more militant sound.
+
+This song becomes the anthem of civil rights movement, a demand for respect.
+
+1966 – Atlantic begins working at FAME (Florence Alabama Music Enterprises).
+
+James Brown, a major star of soul music, is going to see the changes around him and fundamentally alter his approach to music in response to what's happening with civil rights. In 1967, he's going to introduce the world to funk.
+
+## Part C: James Brown and Funk
