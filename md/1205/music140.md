@@ -882,3 +882,57 @@ This song becomes the anthem of civil rights movement, a demand for respect.
 James Brown, a major star of soul music, is going to see the changes around him and fundamentally alter his approach to music in response to what's happening with civil rights. In 1967, he's going to introduce the world to funk.
 
 ## Part C: James Brown and Funk
+‘65-’67: Inner city riots. Martin Luther King, assassinated April 4th, 1968. The Black Panthers.
+The Re-Africanization of black culture: changes in fashion. Afro.
+
+James Brown – Funk. Soul Brother \#1. In 1956, first hit, "Please, Please, Please". 1963, album, “Live at the Apollo”. 1965 – “Papa’s Got a Brand New Bag” Crossover hit. Let's listen to another song "I Feel Good" (1965). We can certainly hear soul music styles.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Pure Gospel influence. 12 bar blues. Becomes Brown’s biggest Pop hit (\#3) after “Papa’s Got a Brand New Bag.”
+
+
+| :------------- | :------------- | :-| :-|
+|12-bar blues	|12-bar blues	|4	bar break  <br> 8 bar bridge|	12 bar blues|
+|A |A |B |A|
+
+In fact, almost every musical style we have looked at in this course have emerged gradually. Now this example, one individual said I am going to invent a new approach. In 1967, James Brown comes up with a completely new sound. It sounds like this.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+A song called *Cold Sweat*. Introduces a new style - Funk. For James, it's the musical equivalence of what we talked about little earlier with the idea of re-Africanization of African American culture. He is based the idea for funk in his perception in west African drum ensembles. It's almost accurate with west Africa in several aspects.
+- Deprivilage of melody and harmony
+    - Taking the emphasis away from chord changes.
+    - Melody is not an important part of style.
+- Privilage of Rhythm, articulation, timbre.
+- Interlock groove – based on African Drum Groups. Master drummer gives the beat first.
+- Cyclical – pleasure in repetition
+- Open-ended forms – cyclical vs. linear
+
+Another example, “Get Up (I feel like being a) Sex Machine” (1970).
+
+The emphasis in funk is what is referred to as "THE ONE": the beginning of cycle that repeats.
+
+Idea of the community is still brought out. In his funk recordings, you hear him talking to the members in his band. Call out by names/instruments.
+
+One final point, circular, repeats. And James brings the riffs back. Soul music, as we will see when we get into Hip Hop, with James Brown and transitions to funk, is the beginnings of return to the importance of riff-based music.
+
+# Lecture 10
+## Part A: The Folk Revival
+Counter culture.
+
+By the late 1950s and early 1960s:
+-	Many of the teen fans of the golden age of Rock ’n’ Roll are now in their early 20s.
+-	Now in university, many are looking for music that is more “serious.” Two are popular, western classical music, one is folk music.
+-	Folk Music.
+
+**The ‘Paradox’ of 'Professional' Folk Music**: Folk music was a style that, by definition, valued tradition over innovation – in contrast to the music industry.
+Yet, 'professional' folk musicians were part of the music industry.
+
+Pre WWII, Folk music, political left, - union movement。
+
+{% include image.html url="/pics/140/woody.png" description="Woody Guthrie" %}
+
+Woody Guthrie, presents us with the model of early folk musicians. On the guitar, it says "This machine kills fascists". Not guitar, it's machine. Farmers/factory workers/working class use machines. In this expression, he is one of the working class. He is at the same level as his audience.
+
+Another important group in earlier history within folk music industry. The Weavers: Pete Seeger, who is leader. We are going to listen to a best known song by Woody Guthrie, performed by The Weavers: "This Land is Your Land".
