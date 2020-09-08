@@ -6,6 +6,13 @@ The notes below are incomplete, inaccurate. They are just some random things I c
 # Week 1
 ## Intro to course
 Introduction to the course & online resources review
+- Theory Assignments “A”, T3A: 6 assignments @ 6% each
+- Theory Assignments “B”, T3B: 7 assignments @ 4% each
+- Online & Practice Assignments: OP: 10 assignments @ 1.2 % each
+- MuShip “a” – Artusi online “In-Class” practice assignments (participation): 4 assignments @ 1% each
+- MuShip “b” – Artusi online Quizzes (fully graded): 4 assignments @ 2% each
+- Final Project (The ROMANCE): 12%
+
 
 Review of chapter 19: five steps
 - Analyzing the Soprano (REVIEW)
