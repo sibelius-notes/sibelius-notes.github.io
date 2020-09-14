@@ -961,3 +961,14 @@ His songs were addressing contemporary issues, but the song sounds like older, t
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
+This song is about nuclear war. In October 1962, Cuban Missile Crisis. In lyrics, everything is symbolic. A series of questions:
+> And what did you hear, my blue-eyed son?<br>
+And what did you hear, my darling young one? ...
+
+Figuratively phrased question. A seris of answers, highly poetic, numbers:
+> I heard the sound of a thunder, it roared out a warnin’
+<br>Heard the roar of a wave that could drown the whole world
+<br>Heard one hundred drummers whose hands were a-blazin’
+<br>Heard ten thousand whisperin’ and nobody listenin’...
+
+## Part B: Folk Rock and the Counter Culture 
