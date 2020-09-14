@@ -936,3 +936,28 @@ Pre WWII, Folk music, political left, - union movement。
 Woody Guthrie, presents us with the model of early folk musicians. On the guitar, it says "This machine kills fascists". Not guitar, it's machine. Farmers/factory workers/working class use machines. In this expression, he is one of the working class. He is at the same level as his audience.
 
 Another important group in earlier history within folk music industry. The Weavers: Pete Seeger, who is leader. We are going to listen to a best known song by Woody Guthrie, performed by The Weavers: "This Land is Your Land".
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+What did you hear? Banjo, acoustic guitar, harmonica at the end as the solo. No one is showing off. They are accomplished musicians. In terms of lyrics, not tourist commercial songs. The land is made for all of us. The lyric is celebrating the collective which questions the privilage of the individual. An anthem of left-wing politically. 
+
+Then we reach "the folk revival". We have encountered the blues revival before. To understand the revival, we have to go back to WWII. Cold war between Soviet Union and The US. In the US, moral panic, aimed at politics, communism.  One of them is
+HUAC (House Un-American Activities Committee). People looking something that really wasn't there, an example, inquiry led by a senator McCarthy. [McCarthyism](https://en.wikipedia.org/wiki/McCarthyism) (1947-1956).  Why does this relate to folk music? 
+
+In pre-WWII years or early years after WWII, folk musicians were often associated politically with left-wing. The fact is when moving forward, -> socialism, then -> communism. Many particularly within folk music community found their career ruined by accusation of communism. In 1953, the Weavers were caught up, then their career ended. "Blacklisted" in 1953 because of left-wing connection.
+
+Here is where we reach the revival part. For several years through 1950s, folk music very much falled out of favor.   
+Late 1950s / Early 60s, Baby Boom reaches college, interest in "serious" music. In late 1950s, a new generation of folk musicians begins to emerge who are much closer in age to this new market. The Kingston Trio  /  Peter Paul and Mary, similar to earlier music but more “produced” – smoother sounding, more “arranged.” An example: The Kingston Trio:  Tom Dooley (1959).
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+They did not write this song. Compared to the recording of the Weavers, subtle differences, more attention to the bass reproduction. Voice much closer to the mic, proximity effect. Lots of arrangement in the vocal. Pop music approach to self-consciousness. 
+
+Some have more traditional approach. One young man, Robert Zimmerman had more influence to Woody Guthrie. Moved to the New York city to pursue his career in 1961. Changed his name: Bob Dylan. Several years, we can see his image.
+
+{% include image.html url="/pics/140/bobdylan.png" description="1961-1965 Traditional folk singer/songwriter" %}
+
+His songs were addressing contemporary issues, but the song sounds like older, traditional piece of music. For example, A Hard Rain’s a Gonna Fall (1963). It is musically simple, but listen to the lyrics which is complex, where everything is metaphor.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
