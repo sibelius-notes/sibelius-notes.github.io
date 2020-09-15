@@ -18,10 +18,10 @@ layout: default
 {% endunless %}
 {% endcomment %}
 {% if page.latex %}
-<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.latex }}"><i class="fas fa-file-pdf" style="font-style: normal;"></i> notes</a></p>
+<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.latex }}" style="background-image:none"><i class="fas fa-file-pdf" style="font-style: normal;"></i> notes</a></p>
 {% endif %}
 {% if page.md %}
-<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.md }}"><i class="fab fa-markdown" style="font-style: normal;"></i> notes</a></p>
+<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.md }}" style="background-image:none"><i class="fab fa-markdown" style="font-style: normal;"></i> notes</a></p>
 {% endif %}
 {{ content }}
 </div>
