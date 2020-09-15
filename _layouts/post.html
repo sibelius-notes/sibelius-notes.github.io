@@ -40,10 +40,10 @@ layout: default
 {% endunless %}
 {% endcomment %}
 {% if page.latex %}
-<p><i class="far fa-hand-point-right"></i> <a href="{{ page.latex }}"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> notes</a></p>
+<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.latex }}"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> notes</a></p>
 {% endif %}
 {% if page.md %}
-<p><i class="far fa-hand-point-right"></i> <a href="{{ page.md }}"><i class="fab fa-markdown"></i> notes</a></p>
+<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.md }}"><i class="fab fa-markdown" style="font-style: normal;"></i> notes</a></p>
 {% endif %}
 {{ content }}
 </div>
