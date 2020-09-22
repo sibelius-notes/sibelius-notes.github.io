@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1600752966 "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.tex" "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.pdf" "degenerate" 1600752966
-  "/dev/null" 1600725092 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.aux" 1600752966 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.tex" 1600752965 1422 b88619ff194e7b2681cd91a476f89b7d ""
+["pdflatex"] 1600808929 "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.tex" "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.pdf" "degenerate" 1600808929
+  "/dev/null" 1600788385 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.aux" 1600808929 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.tex" 1600808928 1409 f68744987e541d6337163795c4d24250 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1591545468 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/fdsymbol/FdSymbolA-Book.tfm" 1591522338 1236 7f6f508108202d89a3ae5077bfbb41ee ""
   "/usr/share/texmf-dist/fonts/tfm/public/fdsymbol/FdSymbolB-Book.tfm" 1591522338 1140 cd2f79627336e8386de16176252eceaf ""
@@ -126,12 +126,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1591545468 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1599599673 4739547 c5dfd1dcf84d7a5f36295e0d199ac740 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1599599667 2514049 9bac068e24030f007ebbf31b39476ae8 ""
-  "degenerate.aux" 1600752966 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "degenerate.pdf" 1600752966 25603 ed84128b1395faccee1f0c60e8218972 "pdflatex"
-  "degenerate.tex" 1600752965 1422 b88619ff194e7b2681cd91a476f89b7d ""
+  "degenerate.aux" 1600808929 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "degenerate.pdf" 1600808929 25601 c6fb6678b98a3e81462c8665841c30dd "pdflatex"
+  "degenerate.tex" 1600808928 1409 f68744987e541d6337163795c4d24250 ""
   (generated)
+  "degenerate.pdf"
+  "degenerate.log"
+  "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.pdf"
   "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.log"
   "degenerate.aux"
-  "/home/sibelius/Desktop/notes/pdfs/actual/degenerate.pdf"
-  "degenerate.log"
-  "degenerate.pdf"
