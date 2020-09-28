@@ -71,8 +71,12 @@ with Problem Set 0 (not required!)
 
 <p class="note">T3B-01 DUE Mon. Sept 14 </p>
 
-# Week 3
+# Week 2 
+Review on chapter 22 and 6,4 chords.
 
+# Week 3
+## Chapter 23
+Primary mixture on major keys/ minor keys.
 ## homophony with PM
 
 Elaborate chord, could do PM.
@@ -92,5 +96,7 @@ After this, do a Plagal Cadence.
 - Step 1: Analyze a soprano, choose harmonic path and consider PM
 - Step 2: Compose a decorated bass.
   - soprano 1 2 3, bass 3 2 1
-
-15min
+- Step 3: Elaborate the soprano 
+- Step 4: Add Inner Voices 
+  - not half diminished in minor key, only fully diminished
+- Step 5: decorated plagal cadence
