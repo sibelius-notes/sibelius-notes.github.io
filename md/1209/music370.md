@@ -71,7 +71,7 @@ with Problem Set 0 (not required!)
 
 <p class="note">T3B-01 DUE Mon. Sept 14 </p>
 
-# Week 2 
+# Week 2
 Review on chapter 22 and 6,4 chords.
 
 # Week 3
@@ -96,7 +96,11 @@ After this, do a Plagal Cadence.
 - Step 1: Analyze a soprano, choose harmonic path and consider PM
 - Step 2: Compose a decorated bass.
   - soprano 1 2 3, bass 3 2 1
-- Step 3: Elaborate the soprano 
-- Step 4: Add Inner Voices 
+- Step 3: Elaborate the soprano
+- Step 4: Add Inner Voices
   - not half diminished in minor key, only fully diminished
 - Step 5: decorated plagal cadence
+
+If do a minor homophony, for chapter 23. Don't apply plagal cadence in minor. It doesn't help. End in major.
+
+Soprano: Once you hit the final tonic with ties, just stay on that. 
