@@ -70,3 +70,27 @@ with Problem Set 0 (not required!)
 ## T3B-01
 
 <p class="note">T3B-01 DUE Mon. Sept 14 </p>
+
+# Week 3
+
+## homophony with PM
+
+Elaborate chord, could do PM.
+
+If soprano 7-8, 2-1, 4-3, we can do deceptive resolution. 2-3 doesn't work cause it creates parallel fifth. With decoration, 2-4-3 in soprano avoids parallel fifth.
+
+Minor prolongation including Neapolitan flat 6 on weak beat.
+
+Subdominant prolongation (in primary tonic), PM.
+
+PM in cadence. Before that, IV or II chord, can do PM.
+
+After this, do a Plagal Cadence.
+
+### Steps
+
+- Step 1: Analyze a soprano, choose harmonic path and consider PM
+- Step 2: Compose a decorated bass.
+  - soprano 1 2 3, bass 3 2 1
+
+15min
