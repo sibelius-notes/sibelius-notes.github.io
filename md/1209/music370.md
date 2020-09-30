@@ -124,3 +124,18 @@ Interpolated <span>&#92;(C _ 4 ^ 6 &#92;)</span>:
 - Minor: no change on 3 since 3 has been flatted 
 
 Ex 24.18 The enharmonic German <span>&#92;(^6_5 &#92;)</span>, only in major.
+
+Ex 24.27 Noncadential A6
+
+## Common-Tone Diminished 7th
+another embellishing chord.
+
+only works in major key.
+
+Ex 24.29: CT is creating chromatism to chordal 3rd (<span>&#92;(\hat 7 &#92;)</span>), chordal 5th (<span>&#92;(\hat 2 &#92;)</span>): <span>&#92;(\sharp \hat 6\to \hat 7, \sharp \hat 1 \to \hat 2 &#92;)</span>.
+
+In summary for CT<span>&#92;(^\circ &#92;)</span>7 voice leading is:
+- <span>&#92;(\sharp 6 \to 7 &#92;)</span>
+- <span>&#92;(\sharp 2 \to 3 &#92;)</span>
+- <span>&#92;(5\to 5 &#92;)</span> (the common tone!)
+- <span>&#92;(3\to 2 &#92;)</span> for V and V<sup>6</sup> or <span>&#92;(3\to 4 &#92;)</span> for V<sup>7</sup> and all inversions
