@@ -112,4 +112,15 @@ Not tonicize, but intensify this motion to the dominant.
 soprano: 8 7 8. bass: b6 5 1. Then introduce third voice, #4, which is A4 above the bass. Then fourth voice:
 - double the third: Italian <span>&#92;(^6_3 &#92;)</span>
 - enters on <span>&#92;(\hat 2 &#92;)</span>, French <span>&#92;(^4_3 &#92;)</span>
-- perfect fifth above the bass (<span>&#92;(\hat 3 &#92;)</span> in minor, <span>&#92;(\flat \hat 3 &#92;)</span> in major), German <span>&#92;(^6_5 &#92;)</span>
+- perfect fifth above the bass (<span>&#92;(\hat 3 &#92;)</span> in minor, <span>&#92;(\flat \hat 3 &#92;)</span> in major), German <span>&#92;(^6_5 &#92;)</span>. Note the unavoidable parallel fifth as 3<span>&#92;(\to &#92;)</span>2.
+
+## More on A6
+It has always to resolve to dominant, but doesn't always have to be on the strong beat.
+
+These are embellishing chords, not pre-dominant, not elaborate.
+
+Interpolated <span>&#92;(C _ 4 ^ 6 &#92;)</span>: 
+- Major: <span>&#92;(\flat 3\to \natural 3 \to 2 \to 1 \text{ or } 3 &#92;)</span> 
+- Minor: no change on 3 since 3 has been flatted 
+
+Ex 24.18 The enharmonic German <span>&#92;(^6_5 &#92;)</span>, only in major.
