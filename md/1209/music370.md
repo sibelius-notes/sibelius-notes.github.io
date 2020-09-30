@@ -104,3 +104,12 @@ After this, do a Plagal Cadence.
 If do a minor homophony, for chapter 23. Don't apply plagal cadence in minor. It doesn't help. End in major.
 
 Soprano: Once you hit the final tonic with ties, just stay on that. 
+
+# Week 4
+## The Augmented 6th chords
+Not tonicize, but intensify this motion to the dominant. 
+
+soprano: 8 7 8. bass: b6 5 1. Then introduce third voice, #4, which is A4 above the bass. Then fourth voice:
+- double the third: Italian <span>&#92;(^6_3 &#92;)</span>
+- enters on <span>&#92;(\hat 2 &#92;)</span>, French <span>&#92;(^4_3 &#92;)</span>
+- perfect fifth above the bass (<span>&#92;(\hat 3 &#92;)</span> in minor, <span>&#92;(\flat \hat 3 &#92;)</span> in major), German <span>&#92;(^6_5 &#92;)</span>
