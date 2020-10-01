@@ -77,6 +77,18 @@ Review on chapter 22 and 6,4 chords.
 # Week 3
 ## Chapter 23
 Primary mixture on major keys/ minor keys.
+
+Tonicization represent the broadest application of chromatics in major-minor tonality. But chromaticism need not always serve the interests of tonicization: we can intensify the harmonic events in a major-key or minor-key by introducing chords borrowed from the parallel mode. This process is called **primary mixture**.
+
+### PM in Major
+lowering <span>&#92;(\hat 6 &#92;)</span> (and <span>&#92;(\hat 3 &#92;)</span>)
+
+Pre-dominant chords, mixture in tonic prolongation, plagal cadence
+
+### PM in minor
+Picardy third: raise <span>&#92;(\hat 3 &#92;)</span> in the cadential I
+
+When the Phrygian and minor modes are notated on the same tonic, their tonic patterns differ only in respect to the placement of their second degrees. **Phrygian II chord** can be introduced in a minor key by lowering <span>&#92;(\hat 2 &#92;)</span>. The Phrygian II appears most often as a sixth chord in minor, where it is commonly called a **Neapolitan 6th**. We frequently meet the Neapolitan 6th as a pre-dominant chord.
 ## homophony with PM
 
 Elaborate chord, could do PM.
@@ -103,11 +115,11 @@ After this, do a Plagal Cadence.
 
 If do a minor homophony, for chapter 23. Don't apply plagal cadence in minor. It doesn't help. End in major.
 
-Soprano: Once you hit the final tonic with ties, just stay on that. 
+Soprano: Once you hit the final tonic with ties, just stay on that.
 
 # Week 4
 ## The Augmented 6th chords
-Not tonicize, but intensify this motion to the dominant. 
+Not tonicize, but intensify this motion to the dominant.
 
 soprano: 8 7 8. bass: b6 5 1. Then introduce third voice, #4, which is A4 above the bass. Then fourth voice:
 - double the third: Italian <span>&#92;(^6_3 &#92;)</span>
@@ -119,9 +131,9 @@ It has always to resolve to dominant, but doesn't always have to be on the stron
 
 These are embellishing chords, not pre-dominant, not elaborate.
 
-Interpolated <span>&#92;(C _ 4 ^ 6 &#92;)</span>: 
-- Major: <span>&#92;(\flat 3\to \natural 3 \to 2 \to 1 \text{ or } 3 &#92;)</span> 
-- Minor: no change on 3 since 3 has been flatted 
+Interpolated <span>&#92;(C _ 4 ^ 6 &#92;)</span>:
+- Major: <span>&#92;(\flat 3\to \natural 3 \to 2 \to 1 \text{ or } 3 &#92;)</span>
+- Minor: no change on 3 since 3 has been flatted
 
 Ex 24.18 The enharmonic German <span>&#92;(^6_5 &#92;)</span>, only in major.
 
@@ -136,6 +148,6 @@ Ex 24.29: CT is creating chromatism to chordal 3rd (<span>&#92;(\hat 7 &#92;)</s
 
 In summary for CT<span>&#92;(^\circ &#92;)</span>7 voice leading is:
 - <span>&#92;(\sharp 6 \to 7 &#92;)</span>
-- <span>&#92;(\sharp 2 \to 3 &#92;)</span>
+- <span>&#92;(\sharp 1 \to 2 &#92;)</span>
 - <span>&#92;(5\to 5 &#92;)</span> (the common tone!)
 - <span>&#92;(3\to 2 &#92;)</span> for V and V<sup>6</sup> or <span>&#92;(3\to 4 &#92;)</span> for V<sup>7</sup> and all inversions
