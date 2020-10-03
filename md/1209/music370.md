@@ -151,3 +151,10 @@ In summary for CT<span>&#92;(^\circ &#92;)</span>7 voice leading is:
 - <span>&#92;(\sharp 1 \to 2 &#92;)</span>
 - <span>&#92;(5\to 5 &#92;)</span> (the common tone!)
 - <span>&#92;(3\to 2 &#92;)</span> for V and V<sup>6</sup> or <span>&#92;(3\to 4 &#92;)</span> for V<sup>7</sup> and all inversions
+
+## T3A-05
+Step 1: correct homophony from chapter 19.
+
+Step 2: Where can new chords go? PM, A6, CT<sup>o</sup>7 (remember this has to be in Major)
+
+Remove some decoration, and allow for a slight reworking places where PM, Aug 6 and CT<sup>o</sup>7 can work
