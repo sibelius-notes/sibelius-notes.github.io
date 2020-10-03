@@ -157,4 +157,8 @@ Step 1: correct homophony from chapter 19.
 
 Step 2: Where can new chords go? PM, A6, CT<sup>o</sup>7 (remember this has to be in Major)
 
-Remove some decoration, and allow for a slight reworking places where PM, Aug 6 and CT<sup>o</sup>7 can work
+Step 3: Remove some decoration, and allow for a slight reworking places where PM, Aug 6 and CT<sup>o</sup>7 can work
+
+Step 4: Get the framework set-up again, with new harmonization altering what is needed to allow for PM as well. Insert CT<sup>o</sup>
+
+Step 5: Fill in the inner voices, and make sure the voice leading works and is pleasing! 
