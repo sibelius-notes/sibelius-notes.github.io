@@ -177,3 +177,20 @@ Example 25.26, could on strong beat. In minor, <span>&#92;(\flat \hat 3\to \flat
 - <span>&#92;(\hat 5 \to \sharp \hat 4 \to \hat 5 &#92;)</span>
 - <span>&#92;(\hat 5 \to \hat 6 \to \hat 5 &#92;)</span> or <span>&#92;(\hat 3 \to \hat 6 \to \hat 5 &#92;)</span> or <span>&#92;(\hat 1\to \hat 6\to \hat 5 &#92;)</span>
 - <span>&#92;(\hat 3\to \hat \sharp \hat 2\to \hat 3 &#92;)</span>
+- <span>&#92;(\hat 1 \to \hat 1&#92;)</span> (common tone)
+
+Ex 25.30: could use CT before C<sup>6</sup><sub>4</sub>
+
+Ex 25.31: pre-cadential dominant <span>&#92;(\to &#92;)</span> CT <span>&#92;(\to &#92;)</span> C6/4
+
+## The extended Authentic Cadence
+Authentic Cadence ends on <span>&#92;(\hat 3 &#92;)</span> in romantic century. <span>&#92;(\hat 4\to \hat 3 &#92;)</span> or <span>&#92;(\hat 2\to \hat 3 &#92;)</span> in soprano.
+
+## The plagal 6-5 and the plagal 4-3
+Plagal cadence: Soprano <span>&#92;(\hat 1 \to \hat 4\to \hat 3 &#92;)</span>
+
+IV I cadence. Ex 25.12: 4-1 close in the bass, 1-2-3 passing motion on soprano. 1 is elided, 2 moves back to occupy the strong beat, and 3 is raised to create the Picardy third characteristic  of this cadence.
+Resulting chord is called **plagal <sup>6</sup></sub>5</sub>**.
+
+<iframe src="https://trinket.io/embed/music/2c82bb8b85" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
