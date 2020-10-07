@@ -162,3 +162,18 @@ Step 3: Remove some decoration, and allow for a slight reworking places where PM
 Step 4: Get the framework set-up again, with new harmonization altering what is needed to allow for PM as well. Insert CT<sup>o</sup>
 
 Step 5: Fill in the inner voices, and make sure the voice leading works and is pleasing! 
+
+# Week 5
+Chapter 25: Intensifying the Tonic 
+## The Augmented Dominant 
+Only available in major. Better to use on a weak beat, cause might create A2 in the voice leading. <span>&#92;(\hat 2 \to \sharp \hat 2 \to \hat 3 &#92;)</span>. Can have a triad, or have augmented dominant 7th.
+
+## The Diminished Dominant 4-3
+Can be used in both major or minor. Start with V<sup>7</sup> chord in second inversion, and find <span>&#92;(\hat 2 &#92;)</span> in bass, then <span>&#92;(\hat 2 \to \flat \hat 2 \to \hat 1 &#92;)</span>. Best done in weak beat.
+
+Example 25.26, could on strong beat. In minor, <span>&#92;(\flat \hat 3\to \flat \hat 2 \to \hat 1 &#92;)</span>.
+
+## CTdim7 to I, I6 and C6/4
+- <span>&#92;(\hat 5 \to \sharp \hat 4 \to \hat 5 &#92;)</span>
+- <span>&#92;(\hat 5 \to \hat 6 \to \hat 5 &#92;)</span> or <span>&#92;(\hat 3 \to \hat 6 \to \hat 5 &#92;)</span> or <span>&#92;(\hat 1\to \hat 6\to \hat 5 &#92;)</span>
+- <span>&#92;(\hat 3\to \hat \sharp \hat 2\to \hat 3 &#92;)</span>
