@@ -160,6 +160,8 @@ another embellishing chord.
 
 only works in major key.
 
+<iframe src="https://trinket.io/embed/music/f663a50f14" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 Ex 24.29: CT is creating chromatism to chordal 3rd (<span>&#92;(\hat 7 &#92;)</span>), chordal 5th (<span>&#92;(\hat 2 &#92;)</span>): <span>&#92;(\sharp \hat 6\to \hat 7, \sharp \hat 1 \to \hat 2 &#92;)</span>.
 
 In summary for CT<span>&#92;(^\circ &#92;)</span>7 voice leading is:
@@ -184,16 +186,24 @@ Chapter 25: Intensifying the Tonic
 ## The Augmented Dominant 
 Only available in major. Better to use on a weak beat, cause might create A2 in the voice leading. <span>&#92;(\hat 2 \to \sharp \hat 2 \to \hat 3 &#92;)</span>. Can have a triad, or have augmented dominant 7th.
 
+<iframe src="https://trinket.io/embed/music/04a3528ab7" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 ## The Diminished Dominant 4-3
 Can be used in both major or minor. Start with V<sup>7</sup> chord in second inversion, and find <span>&#92;(\hat 2 &#92;)</span> in bass, then <span>&#92;(\hat 2 \to \flat \hat 2 \to \hat 1 &#92;)</span>. Best done in weak beat.
 
+<iframe src="https://trinket.io/embed/music/6c4776c680" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 Example 25.26, could on strong beat. In minor, <span>&#92;(\flat \hat 3\to \flat \hat 2 \to \hat 1 &#92;)</span>.
+
+
 
 ## CTdim7 to I, I6 and C6/4
 - <span>&#92;(\hat 5 \to \sharp \hat 4 \to \hat 5 &#92;)</span>
 - <span>&#92;(\hat 5 \to \hat 6 \to \hat 5 &#92;)</span> or <span>&#92;(\hat 3 \to \hat 6 \to \hat 5 &#92;)</span> or <span>&#92;(\hat 1\to \hat 6\to \hat 5 &#92;)</span>
 - <span>&#92;(\hat 3\to \hat \sharp \hat 2\to \hat 3 &#92;)</span>
 - <span>&#92;(\hat 1 \to \hat 1&#92;)</span> (common tone)
+
+<iframe src="https://trinket.io/embed/music/16971e938e" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Ex 25.30: could use CT before <span>&#92;(C_4^6 &#92;)</span>
 
