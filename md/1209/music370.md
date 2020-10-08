@@ -85,7 +85,7 @@ lowering <span>&#92;(\hat 6 &#92;)</span> (and <span>&#92;(\hat 3 &#92;)</span>)
 
 Pre-dominant chords, mixture in tonic prolongation, plagal cadence
 
-<iframe src="https://trinket.io/embed/music/b13167b34e" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/b13167b34e?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### PM in minor
 Picardy third: raise <span>&#92;(\hat 3 &#92;)</span> in the cadential I
@@ -93,7 +93,7 @@ Picardy third: raise <span>&#92;(\hat 3 &#92;)</span> in the cadential I
 When the Phrygian and minor modes are notated on the same tonic, their tonic patterns differ only in respect to the placement of their second degrees. **Phrygian II chord** can be introduced in a minor key by lowering <span>&#92;(\hat 2 &#92;)</span>. The Phrygian II appears most often as a sixth chord in minor, where it is commonly called a **Neapolitan 6th**. We frequently meet the Neapolitan 6th as a pre-dominant chord.
 
 Example: N6
-<iframe src="https://trinket.io/embed/music/8d95d17acc" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/8d95d17acc?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 The Phrygian II (the root-position chord) rarely appears as a pre-dominant harmony, owing to the discordant tritone leap in bass from <span>&#92;(\flat \hat 2\to\hat 5 &#92;)</span> (the dominant root). However, the Phrygian II can be introduced to enrich prolongations of minor chords in both modes.
 
@@ -135,13 +135,13 @@ soprano: 8 7 8. bass: b6 5 1. Then introduce third voice, #4, which is A4 above 
 - perfect fifth above the bass (<span>&#92;(\hat 3 &#92;)</span> in minor, <span>&#92;(\flat \hat 3 &#92;)</span> in major), German <span>&#92;(^6_5 &#92;)</span>. Note the unavoidable parallel fifth as 3<span>&#92;(\to &#92;)</span>2.
 
 Italian 63
-<iframe src="https://trinket.io/embed/music/bf903fcb32" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/bf903fcb32?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 French 43
-<iframe src="https://trinket.io/embed/music/5e97fa3450" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/5e97fa3450?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 German 65
-<iframe src="https://trinket.io/embed/music/9c71d54ab8" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/9c71d54ab8?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ## More on A6
 It has always to resolve to dominant, but doesn't always have to be on the strong beat.
 
@@ -160,7 +160,7 @@ another embellishing chord.
 
 only works in major key.
 
-<iframe src="https://trinket.io/embed/music/f663a50f14" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/f663a50f14?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Ex 24.29: CT is creating chromatism to chordal 3rd (<span>&#92;(\hat 7 &#92;)</span>), chordal 5th (<span>&#92;(\hat 2 &#92;)</span>): <span>&#92;(\sharp \hat 6\to \hat 7, \sharp \hat 1 \to \hat 2 &#92;)</span>.
 
@@ -186,12 +186,12 @@ Chapter 25: Intensifying the Tonic
 ## The Augmented Dominant 
 Only available in major. Better to use on a weak beat, cause might create A2 in the voice leading. <span>&#92;(\hat 2 \to \sharp \hat 2 \to \hat 3 &#92;)</span>. Can have a triad, or have augmented dominant 7th.
 
-<iframe src="https://trinket.io/embed/music/04a3528ab7" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/04a3528ab7?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## The Diminished Dominant 4-3
 Can be used in both major or minor. Start with V<sup>7</sup> chord in second inversion, and find <span>&#92;(\hat 2 &#92;)</span> in bass, then <span>&#92;(\hat 2 \to \flat \hat 2 \to \hat 1 &#92;)</span>. Best done in weak beat.
 
-<iframe src="https://trinket.io/embed/music/6c4776c680" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/6c4776c680?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Example 25.26, could on strong beat. In minor, <span>&#92;(\flat \hat 3\to \flat \hat 2 \to \hat 1 &#92;)</span>.
 
@@ -203,7 +203,7 @@ Example 25.26, could on strong beat. In minor, <span>&#92;(\flat \hat 3\to \flat
 - <span>&#92;(\hat 3\to \hat \sharp \hat 2\to \hat 3 &#92;)</span>
 - <span>&#92;(\hat 1 \to \hat 1&#92;)</span> (common tone)
 
-<iframe src="https://trinket.io/embed/music/16971e938e" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/16971e938e?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Ex 25.30: could use CT before <span>&#92;(C_4^6 &#92;)</span>
 
@@ -218,13 +218,13 @@ Plagal cadence: Soprano <span>&#92;(\hat 1 \to \hat 4\to \hat 3 &#92;)</span>
 IV I cadence. Ex 25.12: 4-1 close in the bass, 1-2-3 passing motion on soprano. 1 is elided, 2 moves back to occupy the strong beat, and 3 is raised to create the Picardy third characteristic  of this cadence.
 Resulting chord is called **plagal <span>&#92;(^6_5 &#92;)</span>**.
 
-<iframe src="https://trinket.io/embed/music/2c82bb8b85" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/2c82bb8b85?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## The plagal 4-3
 Wanna introduce 878. diminished in minor (example below), half diminished in major.
 
-<iframe src="https://trinket.io/embed/music/bbff80c6c7" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/bbff80c6c7?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Also an example, plagal 65 to plagal 43.
 
-<iframe src="https://trinket.io/embed/music/87f145ce08" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/music/87f145ce08?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
