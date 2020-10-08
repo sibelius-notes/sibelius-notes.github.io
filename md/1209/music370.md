@@ -95,6 +95,7 @@ When the Phrygian and minor modes are notated on the same tonic, their tonic pat
 Example: N6
 <iframe src="https://trinket.io/embed/music/8d95d17acc" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+The Phrygian II (the root-position chord) rarely appears as a pre-dominant harmony, owing to the discordant tritone leap in bass from <span>&#92;(\flat \hat 2\to\hat 5 &#92;)</span> (the dominant root). However, the Phrygian II can be introduced to enrich prolongations of minor chords in both modes.
 
 ## homophony with PM
 
@@ -133,6 +134,14 @@ soprano: 8 7 8. bass: b6 5 1. Then introduce third voice, #4, which is A4 above 
 - enters on <span>&#92;(\hat 2 &#92;)</span>, French <span>&#92;(^4_3 &#92;)</span>
 - perfect fifth above the bass (<span>&#92;(\hat 3 &#92;)</span> in minor, <span>&#92;(\flat \hat 3 &#92;)</span> in major), German <span>&#92;(^6_5 &#92;)</span>. Note the unavoidable parallel fifth as 3<span>&#92;(\to &#92;)</span>2.
 
+Italian 63
+<iframe src="https://trinket.io/embed/music/bf903fcb32" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+French 43
+<iframe src="https://trinket.io/embed/music/5e97fa3450" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+German 65
+<iframe src="https://trinket.io/embed/music/9c71d54ab8" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ## More on A6
 It has always to resolve to dominant, but doesn't always have to be on the strong beat.
 
