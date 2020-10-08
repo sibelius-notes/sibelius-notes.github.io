@@ -85,10 +85,17 @@ lowering <span>&#92;(\hat 6 &#92;)</span> (and <span>&#92;(\hat 3 &#92;)</span>)
 
 Pre-dominant chords, mixture in tonic prolongation, plagal cadence
 
+<iframe src="https://trinket.io/embed/music/b13167b34e" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 ### PM in minor
 Picardy third: raise <span>&#92;(\hat 3 &#92;)</span> in the cadential I
 
 When the Phrygian and minor modes are notated on the same tonic, their tonic patterns differ only in respect to the placement of their second degrees. **Phrygian II chord** can be introduced in a minor key by lowering <span>&#92;(\hat 2 &#92;)</span>. The Phrygian II appears most often as a sixth chord in minor, where it is commonly called a **Neapolitan 6th**. We frequently meet the Neapolitan 6th as a pre-dominant chord.
+
+Example: N6
+<iframe src="https://trinket.io/embed/music/8d95d17acc" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+
 ## homophony with PM
 
 Elaborate chord, could do PM.
