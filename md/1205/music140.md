@@ -939,10 +939,10 @@ Another important group in earlier history within folk music industry. The Weave
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
-What did you hear? Banjo, acoustic guitar, harmonica at the end as the solo. No one is showing off. They are accomplished musicians. In terms of lyrics, not tourist commercial songs. The land is made for all of us. The lyric is celebrating the collective which questions the privilage of the individual. An anthem of left-wing politically. 
+What did you hear? Banjo, acoustic guitar, harmonica at the end as the solo. No one is showing off. They are accomplished musicians. In terms of lyrics, not tourist commercial songs. The land is made for all of us. The lyric is celebrating the collective which questions the privilage of the individual. An anthem of left-wing politically.
 
 Then we reach "the folk revival". We have encountered the blues revival before. To understand the revival, we have to go back to WWII. Cold war between Soviet Union and The US. In the US, moral panic, aimed at politics, communism.  One of them is
-HUAC (House Un-American Activities Committee). People looking something that really wasn't there, an example, inquiry led by a senator McCarthy. [McCarthyism](https://en.wikipedia.org/wiki/McCarthyism) (1947-1956).  Why does this relate to folk music? 
+HUAC (House Un-American Activities Committee). People looking something that really wasn't there, an example, inquiry led by a senator McCarthy. [McCarthyism](https://en.wikipedia.org/wiki/McCarthyism) (1947-1956).  Why does this relate to folk music?
 
 In pre-WWII years or early years after WWII, folk musicians were often associated politically with left-wing. The fact is when moving forward, -> socialism, then -> communism. Many particularly within folk music community found their career ruined by accusation of communism. In 1953, the Weavers were caught up, then their career ended. "Blacklisted" in 1953 because of left-wing connection.
 
@@ -951,7 +951,7 @@ Late 1950s / Early 60s, Baby Boom reaches college, interest in "serious" music. 
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
-They did not write this song. Compared to the recording of the Weavers, subtle differences, more attention to the bass reproduction. Voice much closer to the mic, proximity effect. Lots of arrangement in the vocal. Pop music approach to self-consciousness. 
+They did not write this song. Compared to the recording of the Weavers, subtle differences, more attention to the bass reproduction. Voice much closer to the mic, proximity effect. Lots of arrangement in the vocal. Pop music approach to self-consciousness.
 
 Some have more traditional approach. One young man, Robert Zimmerman had more influence to Woody Guthrie. Moved to the New York city to pursue his career in 1961. Changed his name: Bob Dylan. Several years, we can see his image.
 
@@ -971,13 +971,55 @@ Figuratively phrased question. A seris of answers, highly poetic, numbers:
 <br>Heard one hundred drummers whose hands were a-blazin’
 <br>Heard ten thousand whisperin’ and nobody listenin’...
 
-## Part B: Folk Rock and the Counter Culture 
+## Part B: Folk Rock and the Counter Culture
 Bob Dylan, 1964/1965, becomes a major star in this world of folk revival. But it's 1964, in Feb, the Beatles arrived in the US.  We previously mentioned that Dylan is a hero to John Lennon and Paul McCartney. When they met Bob Dylan, Bob profoundly influenced them by saying "your lyrics didn't say anything". This is actually a key moment of the Beatles' history.
 
-It is not mentioned quite often that the Beatles also had influence on Bob Dylan. Bob Dylan noticed that the success of the Beatles has changed the landscape in terms of how Rock 'n' Roll was received. The Beatles is not only popular with young children, but with their parents. More general acceptance. 
+It is not mentioned quite often that the Beatles also had influence on Bob Dylan. Bob Dylan noticed that the success of the Beatles has changed the landscape in terms of how Rock 'n' Roll was received. The Beatles is not only popular with young children, but with their parents. More general acceptance.
 
-Bob Dylan started to think  that if his music pushed more towards the direction of the Beatles, perhaps he could widen his own audience. Literally, he is not going to become a [Mersey Beat](https://en.wikipedia.org/wiki/Mersey_Beat) musician. He shifted more to the world of electric instruments. This is tricky because folk musicians/folk fans. They saw themselves separate from the music industry, unsullied by the music industry/business. 
+Bob Dylan started to think  that if his music pushed more towards the direction of the Beatles, perhaps he could widen his own audience. Literally, he is not going to become a [Mersey Beat](https://en.wikipedia.org/wiki/Mersey_Beat) musician. He shifted more to the world of electric instruments. This is tricky because folk musicians/folk fans. They saw themselves separate from the music industry, unsullied by the music industry/business.
 
 In summer of 1965, Bob Dylan did something quite remarkable. Newport Folk Festival. Let's watch a video: [Bob Dylan At Newport](https://www.youtube.com/watch?v=G8yU8wk67gY).
 
 <p align="center">&#128249; <i>video playing</i> &#128249;</p>
+
+The world remembers this event as *Dylan Goes Electric*. He indeed played electric guitar. The mythology is thick: organizers are outraged, and were restrained from pulling the plug. Lots of people booed and Dylan & his band walked off the stage after only 3 songs. But there are quite a number of people enjoyed it. Also another possible reason is that the band and Dylan only rehearsed 3 songs.
+
+However, it is not in dispute that lots of people within the music industry were furious at Bob Dylan for this. The best (insightful) comment from Arlo Guthrie (Woody Guthrie's son): it wasn't a controversy that acoustic vs. electric, but it was what's those guitars represented in the minds of folk fans.
+
+After this backlash died down, it turned out that many people really did like this new direction. Creation of “Folk Rock”: music that used the instruments Rock 'n' Roll but could explore deeper ideas/songs with messaged like folk. This new sound from Bob Dylan, folk rock, along with the experimentation of the Beatles will have profound impact on **The Counter Culture**.  
+
+In the US, we see it coming to its peak through mid to late 1960s. The Counter Culture was essentially many things. If we simply boil down to one idea, it would be a large number of young people, baby boomers, looking for a different way to structure their lives from their parents. They were looking to live their lives more experimentally, rather than simply gathering stuff. And collective ideal, much like extension of what Kennedy said.
+
+Influence of [The Beats](https://en.wikipedia.org/wiki/Beat_Generation) (Jack Kerouac, Allan Ginsberg).
+-	Jazz Beat / Beaten down / Beatitude
+-	Revived in the early 1960s
+-	Move away from ideology of parents
+-	Hippies
+-	Two main “centers”: Greenwich Village (New York) and Haight-Ashbury (San Francisco)
+-	Focus on Sensory Stimulation (Psychedelic 迷幻)
+
+{% include image.html url="/pics/140/posterart.png" description="Poster Art and Clothing" %}
+
+First level of stimulation: the rhythm and beats of the music.
+
+Music played a central role of this philosophy of psychedelic of this pursue of higher state of consciousness.  This is where the popular music concert becomes to get **loud**. Turning the volume up gives you a second level of stimulation, via the body, physically.  
+
+Another thing: **banks of lights**, lighting shows. A third level: flash lights on and off, visual stimulation.
+**Longer or unusual song forms**. The audience doesn't know what's gonna happen next. **Jamming** (collective improvisation): musicians start making up what they are doing on the spot. Surprising, unexpected moment.
+
+A band, *The Grateful Dead*, pushed this idea of collective improvisation. They had been influenced by Folk Rock. Let's listen to a song by them: *Truckin’*.
+There are some lovely looseness to the way they play, parts constantly changing suddenly.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+When we get to the end of the "song", it is different when played live. They start to improvise. Then each concert is different. Nickname of fans following them everywhere: the Dead Heads.
+
+Another style emerging in the counter culture: **Acid Rock/Psychedelic Rock**. These bands tend to have harder, louder, more aggressive sound. The Beatles' *Tomorrow never knows* (1966)  has profound impact on many musicians within the counter culture who are looking for sounds experiments, incorporating the themes of the counter culture, surreal elements, drug uses. An example, White Rabbit by Jefferson Airplane (1967). This song is short for a counter culture song. Then they did something else. It was a major hit in 1967. But by the counter culture song's nature, they are not targeting hit radio, not short catchy songs.
+
+First, it's an unusual song form. Plus, it uses for much of the song a rather unusual rhythmic feel for a pop song. It's influenced Bolero, which is  rhythmic pattern used quite often in the Classical. The lyrics are from the book 1865: *alice's adventures in wonderland*. Let's listen to this song.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+When she comes in with lyrics, we first hear drug reference: *one pill makes you larger, one pill makes you smaller*. Then the lyric said parent culture is invalid.
+
+The structure of this song: keep introducing new ideas. The song starts quietly then becomes louder gradually, more intense. The end of the song is the most intense moment. It is described as crescendo. It's not a representation of naughty, it's representation of drug experience/drug rush. 
