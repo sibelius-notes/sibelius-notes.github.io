@@ -972,3 +972,12 @@ Figuratively phrased question. A seris of answers, highly poetic, numbers:
 <br>Heard ten thousand whisperin’ and nobody listenin’...
 
 ## Part B: Folk Rock and the Counter Culture 
+Bob Dylan, 1964/1965, becomes a major star in this world of folk revival. But it's 1964, in Feb, the Beatles arrived in the US.  We previously mentioned that Dylan is a hero to John Lennon and Paul McCartney. When they met Bob Dylan, Bob profoundly influenced them by saying "your lyrics didn't say anything". This is actually a key moment of the Beatles' history.
+
+It is not mentioned quite often that the Beatles also had influence on Bob Dylan. Bob Dylan noticed that the success of the Beatles has changed the landscape in terms of how Rock 'n' Roll was received. The Beatles is not only popular with young children, but with their parents. More general acceptance. 
+
+Bob Dylan started to think  that if his music pushed more towards the direction of the Beatles, perhaps he could widen his own audience. Literally, he is not going to become a [Mersey Beat](https://en.wikipedia.org/wiki/Mersey_Beat) musician. He shifted more to the world of electric instruments. This is tricky because folk musicians/folk fans. They saw themselves separate from the music industry, unsullied by the music industry/business. 
+
+In summer of 1965, Bob Dylan did something quite remarkable. Newport Folk Festival. Let's watch a video: [Bob Dylan At Newport](https://www.youtube.com/watch?v=G8yU8wk67gY).
+
+<p align="center">&#128249; <i>video playing</i> &#128249;</p>
