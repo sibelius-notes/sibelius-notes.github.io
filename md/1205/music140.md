@@ -1022,4 +1022,42 @@ First, it's an unusual song form. Plus, it uses for much of the song a rather un
 
 When she comes in with lyrics, we first hear drug reference: *one pill makes you larger, one pill makes you smaller*. Then the lyric said parent culture is invalid.
 
-The structure of this song: keep introducing new ideas. The song starts quietly then becomes louder gradually, more intense. The end of the song is the most intense moment. It is described as crescendo. It's not a representation of naughty, it's representation of drug experience/drug rush. 
+The structure of this song: keep introducing new ideas. The song starts quietly then becomes louder gradually, more intense. The end of the song is the most intense moment. It is described as crescendo. It's not a representation of naughty, it's representation of drug experience/drug rush.
+
+# Lecture 11
+## Part A: Counter Culture
+Particularly in the counter culture, many different styles of music fit generally under this  umbrella of counter culture, this is because to a great extent, the counter culture was aesthetic philosophy. The west coast counter culture reaches its peak very much in the summer of 1967. It is remembered as the [summer of love](https://en.wikipedia.org/wiki/Summer_of_Love).
+
+By 1968, things become to change. Civil Rights movement. [Long, hot summer](https://en.wikipedia.org/wiki/Long,_hot_summer_of_1967). Request for self-consciousness, Beatitude. Whether it was literal or symbolic idea, it is an internal goal, looking inside rather than outside. After 1967, the problems of the outside were becoming more an issue. Counter culture starts to turn more politically active approach like civil right movements. Also focus on the Draft/Vietnam War.
+
+[Youth International Party](https://en.wikipedia.org/wiki/Youth_International_Party) (Yippies) organized by Jerry Rubin / Abbie Hoffman.
+
+We see that music is louder – more aggressive.
+Return to Blues influences, British Blues revival.
+Psychedelic Blues.
+
+Jimi Hendrix
+- Technical virtuoso. Guitar player.
+- Control of high levels of distortion.
+- doesn't have a single style, range of things.
+
+Let's listen to *Voodoo Child* (Slight Return) (1967). Blues influence.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+For the first time, we can hear some really serious playing with stereo. Also the use of the [Wah-Wah pedal](https://en.wikipedia.org/wiki/Wah-wah_pedal). It has been around for a while, but most guitar players used it in a gentle way, whereas Hendrix used in an aggressive and prominent way, changing the role of the Wah pedal for future guitar players. Also the use of Tremelo bar. Michael Casswell [demonstrating](https://www.youtube.com/watch?v=zGM-pfvePu8&list=PL-YqsfTWOq4lcjv8e9iV3TT76fR-weu4-&index=13&t=0s) the Tremelo bar on an electric guitar.
+
+[Woodstock](https://en.wikipedia.org/wiki/Woodstock): (August 1969). [Video Example](https://www.youtube.com/watch?v=eRl6-bHlz-4): Country Joe performing a Vietnam protest song, ‘I Feel Like I’m Fixin’ To Die Rag.” Absolute triumph of counter culture.
+
+The Rolling Stones decided to hold their own version of Woodstock in Altamont, California: (December, 1969). There were two specific differences between organizations of Woodstock and Altamont.
+
+Woodstock was held out in the middle of country side, a big working farm. They were able to get more field over, expand as more people come. Everybody got room, was safe. Altamont was essentially held in an enclosed stadium. Crowding was becoming an issue. But even that Altamont might have survived and gone on to become a great moment in the history of the counter culture.
+
+Recall the Rolling Stones have established themselves as the bad boys of Rock 'n' Roll. So they decided for the security of the concert, they hired the Hell's Angels, Motorcycle gang. [Video Example]( https://www.youtube.com/watch?v=ZC7tBJiIUsA&list=RDZC7tBJiIUsA&start_radio=1&t=69): The Jefferson Airplane at Altamont
+(Things fall apart about 3:00). It was an utter disaster.
+
+April, 1970: Paul McCartney leaves The Beatles. Anti-war protest, [Kent State](https://en.wikipedia.org/wiki/Kent_State_shootings), Ohio: May 1970. And a song, Crosby, Stills, Nash, and Young: ‘[Ohio](https://www.youtube.com/watch?v=TRE9vMBBe10)’. These had profound chilling effect on the counter culture. Really the beginning of an end. Three stars died: September, 1970: Jimi Hendrix dies.
+October, 1970: Janice Joplin dies of a drug overdose.
+July 1971, Jim Morrison (Lead singer of The Doors) dies.
+
+## Part B
