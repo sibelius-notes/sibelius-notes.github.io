@@ -1166,7 +1166,7 @@ EXAMPLE: “Heroin” (1967 – From “The Velvet Underground and Nico”)
 
 {% include image.html url="/pics/140/cbgb.jpg" description="Front of CBGB, circa 2005" %}
 
-By <a href="https://en.wikipedia.org/wiki/User:Adicarlo" class="extiw" title="en:User:Adicarlo">Adicarlo</a> at the <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">English language Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1729803">Link</a>
+<font size="66%"><i>By <a href="https://en.wikipedia.org/wiki/User:Adicarlo" class="extiw" title="en:User:Adicarlo">Adicarlo</a> at the <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">English language Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1729803">Link</a></i></font>
 
 By early 1970s, the New York Punk scene had developed a center. The most important club was called CBGBs (Country, Blue Grass and Blues) in NYC. One hand, some bands are of strong art influence, The Talking Heads. Other might have Rock 'n' Roll approach, Blondie. The idea is the song should not be pretentious.
 
