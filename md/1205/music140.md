@@ -1061,6 +1061,10 @@ October, 1970: Janice Joplin dies of a drug overdose.
 July 1971, Jim Morrison (Lead singer of The Doors) dies.
 
 ## Part B
+Intro: Deep Purple - smoke on the water.
+
+*I've Got A Fever And The Only Prescription Is More Cowbell*
+
 The 1970s: 
 Failure of the Counter-Culture begins a shift to a more cynical view of the world. 
 
@@ -1087,4 +1091,59 @@ Distinctions between Hard Rock and Heavy Metal:
     - The sound of electric guitar. In general, in hard rock, the distortion tends to be less intense. In heavy metal, it becomes more intense. The sounds/individual notes in hard rock are still clear and rich. For heavy metal, distortion, thicker, much more intense, hard to hear individual notes, powerful force. 
     - In other instruments. For example, in hard rock, not unusual to find vocalist with raspy voices. In heavy metal, not unusual to come across vocalists who deliberately distort the sound in a way that often jokingly referred to as cookie monster vocals. [Vocal Distortion example](https://youtu.be/kYNmGHhIJ8k)
     - Instruments like the bass. As you move from hard rock to heavy metal, bass players use more distortions on their instruments as well.
-2. Tempo.
+2. **Tempo**. In general, hard rock songs tend to be mid-tempo, not too fast/slow. For heavy metal, extremes in tempo become much more common, extremely fast or slow. As we get to the heavy metal end of spectrum, it takes on most of the sense of a classical musician approach to play your instrument well: fast, slow or changing from fast to slow. All these things put a highlight on the skills of musicians with fluctuation in tempo with extreme ranges in tempo.
+3.  **Blues-European Classical Influences**. Hard rock: blues influence. Heavy metal: as from songs structure, riff-based compositions, musical gestures, we can see the blue influence starts to recede, and again we see influence of western classical music.
+4. **Lyrics**. Hard rock: fall into Chuck Berry tradition of girls, cars, no school. Heavy metal: elements of fantasy, spirituality, religion, super natural, darker psychological state: helplessness, paranoia, insanity...
+
+Example: [AC/DC](https://www.youtube.com/watch?v=gEPmA3USJdI) (Hard Rock) - Australian, formed in 1973.   
+- the album “Back In Black” (1980) has sold over 50 million copies, 2nd highest album sales in history.
+- strong blues influence, steady tempos, rock ‘n’ roll lyrics.  
+- around 2:47 of the [video](https://www.youtube.com/watch?v=gEPmA3USJdI), we see duck walk, a tribute to Chuck Berry 
+
+ 
+Example: [Metallica](https://www.youtube.com/watch?v=2f1Ny74_ou0) (Heavy Metal) 
+- Los Angeles, formed in 1981. 
+- musically highly technical, frequent tempo changes, instrumental sections, classical influences, virtuosic 
+- from 3:15 of the [video](https://www.youtube.com/watch?v=2f1Ny74_ou0), the song changes completely and goes into a slower middle section, then virtuosic soloing... 
+
+Founding Bands: 
+1/ Black Sabbath.   
+2/ Deep Purple.   
+3/ Led Zeppelin. In no particular order, and all from the UK.
+
+**Black Sabbath**: Their lead singer Ozzy Osbourne has given some insightful interviews in terms of what's going on. He has often talked about the fact that the American counter culture didn't really happen in England. England has finally recovered from WWII in late 50s early 60s. As we move through 60s, England economy stalls again. Ozzy often described it as *a sense of doom*. His band and him started to write and perform "doomy music": focus on the idea of the loss of control, madness, paranoia and elements tied to war. An example: "War Pigs" (1970 – from the album *Paranoid*)
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Is this hard rock or hard metal, or somewhere in the middle? Lyrics that focus on alienation, futility of the war <span>&#92;(\implies &#92;)</span> heavy metal. Also numerous little instrumental sections, starts off slow then fast, changes in tempo <span>&#92;(\implies &#92;)</span> heavy metal. This band in particular leans back towards the hard rock end is in the sound of Ozzy's voice: quite distinct, typical from other singers, much clearer, far less distortion, more nasal tone.
+
+**Deep Purple**, also from England. Jon Lord uses electric organ. It is one of the few other instruments in this style, primarily we are looking for electric bass/guitar/drums vocalist, not any acoustic instruments. Why electric organ? First electric, can be plugged into an amplifier, then distortion. Let's listen to an example:  “Highway Star” (1972 – from the album *Machine Head*).
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Tempo consistent. Chuck Berry tradition lyrics. High level distortion of instruments, virtuosic vocal performance during the introduction. When we get to the solos, we hear Jon Lord's keyboard solo showed high level of classical influences.
+
+**Led Zeppelin**. 
+- once again, also British…   
+- grew out of The Yardbirds (British Blues Revival)   
+- significant blues influence   
+- also strong acoustic / Celtic influence   
+- virtuosic musicianship / mastery of recording studio   
+- no interest in “editing” for singles. First and foremost focused on albums.
+
+   
+EXAMPLE: “Whole Lotta Love” (1969 – from the album *Led Zeppelin II*)   
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+- blues-riff-based 
+- middle section similar to ‘psychedelic’ approach of counter culture.   
+- sued by Willie Dixon of Chess Records (“You Need Love”   
+1962 – performed by Muddy Waters)   
+   
+What was the big philosophical difference between counter culture and hard rock/heavy metal? We talked about collective vs. individual. The band names clearly illustrate that. 1960s: The Beatles, The Beach Boys... In general, start with "the", most of them are plural. 1970s: Deep Purple... the "the" is gone and all names are singular. Also we found this in corporations: <s>the</s> Apples, <s>the</s> Honda, <s>the</s> Disney... All express the single identity. Also look at the logos. Early in The Beatles' albums, the logo can appear in all sorts of different fonts. Whereas, hard rock/heavy metal has very specific logo designs like corporations. The bands of hard rock and heavy metal are rejecting the collective ideals of the counter culture and embracing the ideal of the individual. It would become a major part of 1970s.
+
+Outro: (Don't Fear) The Reaper. 
+
+# Lecture 12
+## Part A: Punk
