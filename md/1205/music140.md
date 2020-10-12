@@ -1106,10 +1106,11 @@ Example: [Metallica](https://www.youtube.com/watch?v=2f1Ny74_ou0) (Heavy Metal)
 - musically highly technical, frequent tempo changes, instrumental sections, classical influences, virtuosic 
 - from 3:15 of the [video](https://www.youtube.com/watch?v=2f1Ny74_ou0), the song changes completely and goes into a slower middle section, then virtuosic soloing... 
 
-Founding Bands: 
-1/ Black Sabbath.   
+Founding Bands:   
+1/ Black Sabbath.  
 2/ Deep Purple.   
-3/ Led Zeppelin. In no particular order, and all from the UK.
+3/ Led Zeppelin.   
+In no particular order, and all from the UK.
 
 **Black Sabbath**: Their lead singer Ozzy Osbourne has given some insightful interviews in terms of what's going on. He has often talked about the fact that the American counter culture didn't really happen in England. England has finally recovered from WWII in late 50s early 60s. As we move through 60s, England economy stalls again. Ozzy often described it as *a sense of doom*. His band and him started to write and perform "doomy music": focus on the idea of the loss of control, madness, paranoia and elements tied to war. An example: "War Pigs" (1970 – from the album *Paranoid*)
 
@@ -1147,3 +1148,50 @@ Outro: (Don't Fear) The Reaper.
 
 # Lecture 12
 ## Part A: Punk
+The Beatles and other bands put the idea of popular musicians to become actual "artist". The music industry is also growing at an extraordinary rate during mid to late 60s. The concerts are bigger, the albums are more elaborate. Many people like this stuff. But increasingly, there were few who felt that somehow our popular music is losing its way, and this leads us to a style, **punk**. 
+
+Punk has its roots in New York city. It was there we find musicians who feel that popular music of the time is losing its way. Hippie aesthetics was taking popular music away from what it should be. Popular music should be something that involves the audience. First notable figures that we see emerging are Lou Reed and John Cale. In 1967, they put up a band, Velvet Underground.  
+
+*Punk music is not a single musical style*. It embraces all sorts of different styles. A commitment to aesthetics: music should be your music, meaning you should not be involved in big corp enterprises. Also an idea that you should be as closely connected to your audience as possible. 
+Another important thing: punk was not necessarily a rejection to the idea of art, was a rejection of pretentiousness.
+
+We found the founders Lou Reed and John Cale were quite knowledgable musicians. When they hook up an artist, Andy Warhol in New York. He was suggesting that art is all around us. And he became interested in helping Velvet Underground. The Velvet Underground becomes the house band at Andy's studio, known as The Factory, real center for pop culture art of late 1960s.  
+EXAMPLE: “Heroin” (1967 – From “The Velvet Underground and Nico”) 
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+- Rejection of traditional approach to instruments and songwriting. 
+- Attempt to realistically express the impact of drug addiction 
+- Simple musical structure - two chords 
+
+{% include image.html url="/pics/140/cbgb.jpg" description="Front of CBGB, circa 2005" %}
+
+By <a href="https://en.wikipedia.org/wiki/User:Adicarlo" class="extiw" title="en:User:Adicarlo">Adicarlo</a> at the <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">English language Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1729803">Link</a>
+
+By early 1970s, the New York Punk scene had developed a center. The most important club was called CBGBs (Country, Blue Grass and Blues) in NYC. One hand, some bands are of strong art influence, The Talking Heads. Other might have Rock 'n' Roll approach, Blondie. The idea is the song should not be pretentious.
+
+One group: The Ramones. DIY. Really strict the songs to bare minimum: 2-3 chords, lyrics played as fast as possible, no flashy guitar solos... Reinterpretation of early Rock 'n' Roll. Let's listen to an example: “I Wanna Be Sedated” (The Ramones – 1978).
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+It was a success in Britain. [concert video](https://www.youtube.com/watch?v=Sp3zaeOyL7Q)
+
+Punk was becoming particularly in terms of its relation to its audience. There was no real distinction between bands and audience. Anyone can get up and perform a punk band without much effort: years of training or a symphony orchestra. 
+
+This is where the punk comes to the attention of the English. In particular, Malcolm McLaren. He was businessman, manager, promoter. Had some experience with American punk. He wanted to bring American punk culture to England. He seized an opportunity to become a manager for a local band: The Sex Pistols.
+- “[God Save The Queen](https://www.youtube.com/watch?v=MKbQHoT_Nmg)” 06/77. (AABA form)
+- Class-based political commentary 
+- Because of the economic recession, British punk was far more focused on social 
+
+Reaction to Stadium Rock: 
+- simplified approach to musicianship and songwriting 
+- no solos 
+- no real division between audience and artist 
+
+The Sex Pistols performing “[No Fun](https://www.youtube.com/watch?v=3K3uAlyNL5o)”. The final song they played before the band broke up in 1978.
+
+This was the downfall of the first wave of the punk. How so? This is a style  rejecting the music stars, the idea of music industry. This was a paradox that leads to not only downfall of the Sex Pistols, but major shift in the music itself.
+In late 1970s, we see punk transformed into [new wave](https://en.wikipedia.org/wiki/New_wave_music). 
+ 
+## Part B - Disco 
+ 
