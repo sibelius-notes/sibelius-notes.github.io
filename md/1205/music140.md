@@ -1061,3 +1061,30 @@ October, 1970: Janice Joplin dies of a drug overdose.
 July 1971, Jim Morrison (Lead singer of The Doors) dies.
 
 ## Part B
+The 1970s: 
+Failure of the Counter-Culture begins a shift to a more cynical view of the world. 
+
+Reinforced by: 
+- The Energy Crisis (1973-1974)
+    - Yom Kippur War (October, 1973)
+    - The Energy Crisis marks the beginning of the first economic recession since the end of WWII 
+- Watergate: Facing criminal charges and impeachment, President Richard Nixon resigns (August, 1974).  
+- Vietnam: the fall of Saigon.
+
+In 1970s, we see increasingly that the idea of counter culture is turning away, which was based on the collective and turned towards the individual, focusing on yourself. 
+
+In 1970s, many things are still going on. Soul develops the “Philadelphia” sound with bands like The O’Jays. Also, Funk becomes popular with Sly and the Family Stone and Parliament Funkadelic.   Pop develops a cycle of singer/songwriters such as: Carol King, James Taylor.  
+Album sales reach new levels with sales with success of The Eagles’ “Hotel California” and Fleetwood Mac’s.
+
+### Hard Rock/Heavy Metal 
+or stadium rock. Recall Hippie Aesthetic when we talked about the Beatles and how the Beatles led this change with the album such as *Sg. Peppers*, taking us from Rock 'n' Roll to Rock. Also we see sonic development from Psychedelic Blues / British Blues Revival. To a great extent it is a response to the failure of Counter Culture.
+ The philosophy of the counter culture was more focused on the advantages of the collective. With the 
+shootings at Kent State, the philosophy of the collective began to give way to more of a focus on the individual.
+
+ 
+Distinctions between Hard Rock and Heavy Metal:   
+1.  **Distortion**. 
+    - The sound of electric guitar. In general, in hard rock, the distortion tends to be less intense. In heavy metal, it becomes more intense. The sounds/individual notes in hard rock are still clear and rich. For heavy metal, distortion, thicker, much more intense, hard to hear individual notes, powerful force. 
+    - In other instruments. For example, in hard rock, not unusual to find vocalist with raspy voices. In heavy metal, not unusual to come across vocalists who deliberately distort the sound in a way that often jokingly referred to as cookie monster vocals. [Vocal Distortion example](https://youtu.be/kYNmGHhIJ8k)
+    - Instruments like the bass. As you move from hard rock to heavy metal, bass players use more distortions on their instruments as well.
+2. Tempo.
