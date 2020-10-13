@@ -1194,7 +1194,7 @@ The Sex Pistols performing “[No Fun](https://www.youtube.com/watch?v=3K3uAlyNL
 This was the downfall of the first wave of the punk. How so? This is a style  rejecting the music stars, the idea of music industry. This was a paradox that leads to not only downfall of the Sex Pistols, but major shift in the music itself.
 In late 1970s, we see punk transformed into [new wave](https://en.wikipedia.org/wiki/New_wave_music). 
  
-## Part B - Disco 
+## Part B: Disco 
 Like punk, disco is in response to Hippie Aesthetic. The origins of disco were actually found very early 1970s. Night clubs/bars were caught up by Hippie Aesthetics: should have a live band, not playing records. Remember dancing is not the intended focus. But there are increasingly in few places for people who want to dance. This was particularly the case among the emerging gay subculture of late 1960s/early 1970s. 
 
 So we start to see "Invitation Only" parties in New York City: clubs targeted/catering towards gay culture. In these clubs, we found disc jockey, people playing records. DJs such as David Mancuso, they primarily played soul and funk records, cause great for dancing. They would take the songs, record them into reel-to-reel tape and edit the tape to make the songs longer. They would mix the records together crossing seeminglessly, also add special effects such as echo.
