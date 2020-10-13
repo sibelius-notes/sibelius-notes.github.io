@@ -1155,8 +1155,7 @@ Punk has its roots in New York city. It was there we find musicians who feel tha
 *Punk music is not a single musical style*. It embraces all sorts of different styles. A commitment to aesthetics: music should be your music, meaning you should not be involved in big corp enterprises. Also an idea that you should be as closely connected to your audience as possible. 
 Another important thing: punk was not necessarily a rejection to the idea of art, was a rejection of pretentiousness.
 
-We found the founders Lou Reed and John Cale were quite knowledgable musicians. When they hook up an artist, Andy Warhol in New York. He was suggesting that art is all around us. And he became interested in helping Velvet Underground. The Velvet Underground becomes the house band at Andy's studio, known as The Factory, real center for pop culture art of late 1960s.  
-EXAMPLE: “Heroin” (1967 – From “The Velvet Underground and Nico”) 
+We found the founders Lou Reed and John Cale were quite knowledgable musicians. When they hook up an artist, Andy Warhol in New York. He was suggesting that art is all around us. And he became interested in helping Velvet Underground. The Velvet Underground becomes the house band at Andy's studio, known as The Factory, real center for pop culture art of late 1960s. EXAMPLE: “Heroin” (1967 – From “The Velvet Underground and Nico”) 
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
