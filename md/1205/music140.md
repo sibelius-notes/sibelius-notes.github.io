@@ -1236,4 +1236,28 @@ An example: “Signifyin’ Monkey” (Language Warning)
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
-> 15:36
+There are elements that will become important to Hip Hop in the future. For a more contemporary example, have a look at this [clip](https://www.youtube.com/watch?v=KQOWuUy-7qE) from the film “8-Mile”(2002).  (More Language Warning) 
+  
+Key to rap and hip hop, word play, improvisation with words, rhyming, which has long standing tradition within African American culture. The second precursor, the use of record player as musical instrument. We need to head to the island of Jamaica. First, It has only been an independent nation state since 1962. Second, it has long been, remains one of the poorest country in western hemisphere. Thus it has little access to records and radio is controlled by the British who rarely played contemporary popular. However, when the weather is right, you could pick up radio station broadcasting from the very south of the US or northeast part of the Mexico. Limited access. 
+
+This is where we get Sound System Men. Essentially a DJ. Yard dances: a dance held in an open field where they would spin records largely from the US. One SSM wants to outdo others. Then the SSM developed a new strategy to maintain the market: start to record their own songs. When records first being produced, same song on both sides. Then they do "remix", take the track, strip them down, remove the lead vocals. Then they put the records on and start talking over them. As they are talking about how great they were, this is given a name, toasting.
+
+How do they find their way into the particular region of NYC in early 1970s? Once it declared its independence, we see the wave of immigration. Many move to England, many to NYC. Rent is cheap in Bronx. So we see many moving to Bronx.
+
+Clive Campbell, better known by his stage name DJ Kool Herc. First to hold Jamaican style parties on the street of Bronx. In 1973, he took two turntables, bunch of records, sound system, then played records in Jamaican yard party style. He extended exciting moments of a song - "breaks". He described this as "cutting and mixing". He also did toasting. 
+
+These parties become successful. Some developed techniques and pushed them further. Joseph Saddler, popularly known by his stage name Grandmaster Flash. He develops Herc's techniques of repeating sections on a record, best known for "back spinning". He described this technique himself as "quick mix". It leads to unexpected innovation. He didn't have time to do toasting cause he focused on records, so he needed someone to do for him, do "full length" raps. Melvin Glover, better known by his stage name Melle Mel and Grandmaster Melle Mel. Moreover, Melle Mel begins to standardize, write down what he wants to say, first song writer.
+
+Theodore Livingston, better known as Grand Wizzard Theodore. He invented (mythology) scratching sound on the records. It redefines technology of the turntable. He is treating the turntable, not a tech of consumption, but production, like musical instrument.
+
+Sylvia Robinson, was minor soul star, now an owner of a small record label. In Nov 1979, Sylvia heard the rap from the pizza guy over the song "Good Times" by Chic, in the restaurant. Then she invited them to the studio. Sugar Hill Gang: "Rapper's Delight". The first line: what you hear is not a test, I am rapping to the beat. This is an announcement of a completely new style of music. Released 10/79, \#4 RnB, \#36 Pop. 
+
+ 
+Listen to a bit of the [original](https://www.youtube.com/watch?v=Er9xGRolrT4) version of ‘Good Times.’ 
+
+It really didn't catch on in a significant way. Popular among black youth, but not within middle class white, even older black, who prefer funk and soul. In 1981, MTV fundamentally alters music landscape. First 24 hour music video station. In a short time, MTV would become the most influential medium for the production of hit records. Rap Excluded from MTV until 1985-1986. Example: “Walk This Way” Run DMC/Aerosmith. The original song by Aerosmith has solid drum groove, which is favored by hip pop DJs. Team up with hip pop group: Run DMC. Then it sounds like this.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+ 
+[Video](https://www.youtube.com/watch?v=4B_UYYPb-Gk) for 1986 version
