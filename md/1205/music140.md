@@ -1065,30 +1065,30 @@ Intro: Deep Purple - smoke on the water.
 
 *I've Got A Fever And The Only Prescription Is More Cowbell*
 
-The 1970s: 
-Failure of the Counter-Culture begins a shift to a more cynical view of the world. 
+The 1970s:
+Failure of the Counter-Culture begins a shift to a more cynical view of the world.
 
-Reinforced by: 
+Reinforced by:
 - The Energy Crisis (1973-1974)
     - Yom Kippur War (October, 1973)
-    - The Energy Crisis marks the beginning of the first economic recession since the end of WWII 
+    - The Energy Crisis marks the beginning of the first economic recession since the end of WWII
 - Watergate: Facing criminal charges and impeachment, President Richard Nixon resigns (August, 1974).  
 - Vietnam: the fall of Saigon.
 
-In 1970s, we see increasingly that the idea of counter culture is turning away, which was based on the collective and turned towards the individual, focusing on yourself. 
+In 1970s, we see increasingly that the idea of counter culture is turning away, which was based on the collective and turned towards the individual, focusing on yourself.
 
 In 1970s, many things are still going on. Soul develops the “Philadelphia” sound with bands like The O’Jays. Also, Funk becomes popular with Sly and the Family Stone and Parliament Funkadelic.   Pop develops a cycle of singer/songwriters such as: Carol King, James Taylor.  
 Album sales reach new levels with sales with success of The Eagles’ “Hotel California” and Fleetwood Mac’s.
 
-### Hard Rock/Heavy Metal 
+### Hard Rock/Heavy Metal
 or stadium rock. Recall Hippie Aesthetic when we talked about the Beatles and how the Beatles led this change with the album such as *Sg. Peppers*, taking us from Rock 'n' Roll to Rock. Also we see sonic development from Psychedelic Blues / British Blues Revival. To a great extent it is a response to the failure of Counter Culture.
- The philosophy of the counter culture was more focused on the advantages of the collective. With the 
+ The philosophy of the counter culture was more focused on the advantages of the collective. With the
 shootings at Kent State, the philosophy of the collective began to give way to more of a focus on the individual.
 
- 
+
 Distinctions between Hard Rock and Heavy Metal:   
-1.  **Distortion**. 
-    - The sound of electric guitar. In general, in hard rock, the distortion tends to be less intense. In heavy metal, it becomes more intense. The sounds/individual notes in hard rock are still clear and rich. For heavy metal, distortion, thicker, much more intense, hard to hear individual notes, powerful force. 
+1.  **Distortion**.
+    - The sound of electric guitar. In general, in hard rock, the distortion tends to be less intense. In heavy metal, it becomes more intense. The sounds/individual notes in hard rock are still clear and rich. For heavy metal, distortion, thicker, much more intense, hard to hear individual notes, powerful force.
     - In other instruments. For example, in hard rock, not unusual to find vocalist with raspy voices. In heavy metal, not unusual to come across vocalists who deliberately distort the sound in a way that often jokingly referred to as cookie monster vocals. [Vocal Distortion example](https://youtu.be/kYNmGHhIJ8k)
     - Instruments like the bass. As you move from hard rock to heavy metal, bass players use more distortions on their instruments as well.
 2. **Tempo**. In general, hard rock songs tend to be mid-tempo, not too fast/slow. For heavy metal, extremes in tempo become much more common, extremely fast or slow. As we get to the heavy metal end of spectrum, it takes on most of the sense of a classical musician approach to play your instrument well: fast, slow or changing from fast to slow. All these things put a highlight on the skills of musicians with fluctuation in tempo with extreme ranges in tempo.
@@ -1098,13 +1098,13 @@ Distinctions between Hard Rock and Heavy Metal:
 Example: [AC/DC](https://www.youtube.com/watch?v=gEPmA3USJdI) (Hard Rock) - Australian, formed in 1973.   
 - the album “Back In Black” (1980) has sold over 50 million copies, 2nd highest album sales in history.
 - strong blues influence, steady tempos, rock ‘n’ roll lyrics.  
-- around 2:47 of the [video](https://www.youtube.com/watch?v=gEPmA3USJdI), we see duck walk, a tribute to Chuck Berry 
+- around 2:47 of the [video](https://www.youtube.com/watch?v=gEPmA3USJdI), we see duck walk, a tribute to Chuck Berry
 
- 
-Example: [Metallica](https://www.youtube.com/watch?v=2f1Ny74_ou0) (Heavy Metal) 
-- Los Angeles, formed in 1981. 
-- musically highly technical, frequent tempo changes, instrumental sections, classical influences, virtuosic 
-- from 3:15 of the [video](https://www.youtube.com/watch?v=2f1Ny74_ou0), the song changes completely and goes into a slower middle section, then virtuosic soloing... 
+
+Example: [Metallica](https://www.youtube.com/watch?v=2f1Ny74_ou0) (Heavy Metal)
+- Los Angeles, formed in 1981.
+- musically highly technical, frequent tempo changes, instrumental sections, classical influences, virtuosic
+- from 3:15 of the [video](https://www.youtube.com/watch?v=2f1Ny74_ou0), the song changes completely and goes into a slower middle section, then virtuosic soloing...
 
 Founding Bands:   
 1/ Black Sabbath.  
@@ -1124,7 +1124,7 @@ Is this hard rock or hard metal, or somewhere in the middle? Lyrics that focus o
 
 Tempo consistent. Chuck Berry tradition lyrics. High level distortion of instruments, virtuosic vocal performance during the introduction. When we get to the solos, we hear Jon Lord's keyboard solo showed high level of classical influences.
 
-**Led Zeppelin**. 
+**Led Zeppelin**.
 - once again, also British…   
 - grew out of The Yardbirds (British Blues Revival)   
 - significant blues influence   
@@ -1132,36 +1132,36 @@ Tempo consistent. Chuck Berry tradition lyrics. High level distortion of instrum
 - virtuosic musicianship / mastery of recording studio   
 - no interest in “editing” for singles. First and foremost focused on albums.
 
-   
+
 EXAMPLE: “Whole Lotta Love” (1969 – from the album *Led Zeppelin II*)   
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
-- blues-riff-based 
+- blues-riff-based
 - middle section similar to ‘psychedelic’ approach of counter culture.   
 - sued by Willie Dixon of Chess Records (“You Need Love”   
 1962 – performed by Muddy Waters)   
-   
+
 What was the big philosophical difference between counter culture and hard rock/heavy metal? We talked about collective vs. individual. The band names clearly illustrate that. 1960s: The Beatles, The Beach Boys... In general, start with "the", most of them are plural. 1970s: Deep Purple... the "the" is gone and all names are singular. Also we found this in corporations: <s>the</s> Apples, <s>the</s> Honda, <s>the</s> Disney... All express the single identity. Also look at the logos. Early in The Beatles' albums, the logo can appear in all sorts of different fonts. Whereas, hard rock/heavy metal has very specific logo designs like corporations. The bands of hard rock and heavy metal are rejecting the collective ideals of the counter culture and embracing the ideal of the individual. It would become a major part of 1970s.
 
-Outro: (Don't Fear) The Reaper. 
+Outro: (Don't Fear) The Reaper.
 
 # Lecture 12
 ## Part A: Punk
-The Beatles and other bands put the idea of popular musicians to become actual "artist". The music industry is also growing at an extraordinary rate during mid to late 60s. The concerts are bigger, the albums are more elaborate. Many people like this stuff. But increasingly, there were few who felt that somehow our popular music is losing its way, and this leads us to a style, **punk**. 
+The Beatles and other bands put the idea of popular musicians to become actual "artist". The music industry is also growing at an extraordinary rate during mid to late 60s. The concerts are bigger, the albums are more elaborate. Many people like this stuff. But increasingly, there were few who felt that somehow our popular music is losing its way, and this leads us to a style, **punk**.
 
 Punk has its roots in New York city. It was there we find musicians who feel that popular music of the time is losing its way. Hippie aesthetics was taking popular music away from what it should be. Popular music should be something that involves the audience. First notable figures that we see emerging are Lou Reed and John Cale. In 1967, they put up a band, Velvet Underground.  
 
-*Punk music is not a single musical style*. It embraces all sorts of different styles. A commitment to aesthetics: music should be your music, meaning you should not be involved in big corp enterprises. Also an idea that you should be as closely connected to your audience as possible. 
+*Punk music is not a single musical style*. It embraces all sorts of different styles. A commitment to aesthetics: music should be your music, meaning you should not be involved in big corp enterprises. Also an idea that you should be as closely connected to your audience as possible.
 Another important thing: punk was not necessarily a rejection to the idea of art, was a rejection of pretentiousness.
 
-We found the founders Lou Reed and John Cale were quite knowledgable musicians. When they hook up an artist, Andy Warhol in New York. He was suggesting that art is all around us. And he became interested in helping Velvet Underground. The Velvet Underground becomes the house band at Andy's studio, known as The Factory, real center for pop culture art of late 1960s. EXAMPLE: “Heroin” (1967 – From “The Velvet Underground and Nico”) 
+We found the founders Lou Reed and John Cale were quite knowledgable musicians. When they hook up an artist, Andy Warhol in New York. He was suggesting that art is all around us. And he became interested in helping Velvet Underground. The Velvet Underground becomes the house band at Andy's studio, known as The Factory, real center for pop culture art of late 1960s. EXAMPLE: “Heroin” (1967 – From “The Velvet Underground and Nico”)
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
-- Rejection of traditional approach to instruments and songwriting. 
-- Attempt to realistically express the impact of drug addiction 
-- Simple musical structure - two chords 
+- Rejection of traditional approach to instruments and songwriting.
+- Attempt to realistically express the impact of drug addiction
+- Simple musical structure - two chords
 
 {% include image.html url="/pics/140/cbgb.jpg" description="Front of CBGB, circa 2005" %}
 
@@ -1177,33 +1177,33 @@ One group: The Ramones. DIY. Really strict the songs to bare minimum: 2-3 chords
 
 It was a success in Britain. [concert video](https://www.youtube.com/watch?v=Sp3zaeOyL7Q)
 
-Punk was becoming particularly in terms of its relation to its audience. There was no real distinction between bands and audience. Anyone can get up and perform a punk band without much effort: years of training or a symphony orchestra. 
+Punk was becoming particularly in terms of its relation to its audience. There was no real distinction between bands and audience. Anyone can get up and perform a punk band without much effort: years of training or a symphony orchestra.
 
 This is where the punk comes to the attention of the English. In particular, Malcolm McLaren. He was businessman, manager, promoter. Had some experience with American punk. He wanted to bring American punk culture to England. He seized an opportunity to become a manager for a local band: The Sex Pistols.
 - “[God Save The Queen](https://www.youtube.com/watch?v=MKbQHoT_Nmg)” 06/77. (AABA form)
-- Class-based political commentary 
-- Because of the economic recession, British punk was far more focused on social 
+- Class-based political commentary
+- Because of the economic recession, British punk was far more focused on social
 
-Reaction to Stadium Rock: 
-- simplified approach to musicianship and songwriting 
-- no solos 
-- no real division between audience and artist 
+Reaction to Stadium Rock:
+- simplified approach to musicianship and songwriting
+- no solos
+- no real division between audience and artist
 
 The Sex Pistols performing “[No Fun](https://www.youtube.com/watch?v=3K3uAlyNL5o)”. The final song they played before the band broke up in 1978.
 
 This was the downfall of the first wave of the punk. How so? This is a style  rejecting the music stars, the idea of music industry. This was a paradox that leads to not only downfall of the Sex Pistols, but major shift in the music itself.
-In late 1970s, we see punk transformed into [new wave](https://en.wikipedia.org/wiki/New_wave_music). 
- 
-## Part B: Disco 
-Like punk, disco is in response to Hippie Aesthetic. The origins of disco were actually found very early 1970s. Night clubs/bars were caught up by Hippie Aesthetics: should have a live band, not playing records. Remember dancing is not the intended focus. But there are increasingly in few places for people who want to dance. This was particularly the case among the emerging gay subculture of late 1960s/early 1970s. 
+In late 1970s, we see punk transformed into [new wave](https://en.wikipedia.org/wiki/New_wave_music).
+
+## Part B: Disco
+Like punk, disco is in response to Hippie Aesthetic. The origins of disco were actually found very early 1970s. Night clubs/bars were caught up by Hippie Aesthetics: should have a live band, not playing records. Remember dancing is not the intended focus. But there are increasingly in few places for people who want to dance. This was particularly the case among the emerging gay subculture of late 1960s/early 1970s.
 
 So we start to see "Invitation Only" parties in New York City: clubs targeted/catering towards gay culture. In these clubs, we found disc jockey, people playing records. DJs such as David Mancuso, they primarily played soul and funk records, cause great for dancing. They would take the songs, record them into reel-to-reel tape and edit the tape to make the songs longer. They would mix the records together crossing seeminglessly, also add special effects such as echo.
 
 This is really the origin of what we call disco. It's still a way of playing the records rather than themselves, a music genre. As we get to 1971/2, the soul music industry noticed this popularity for dance clubs playing records. By 1972, Disco becomes a musical genre.   
-EXAMPLE: “Love Train” (1973) The O’Jays. 
-It reveals many of the characteristics of Disco 
+EXAMPLE: “Love Train” (1973) The O’Jays.
+It reveals many of the characteristics of Disco
 - Tempo: 120 bpm. All disco records were produced approximately at the same tempo. Then DJs can seeminglessly thread one record to the next.
-- Production is clean – no distortion 
+- Production is clean – no distortion
 - Complex arrangements over basic beat
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
@@ -1212,16 +1212,28 @@ How does disco relate to this idea of response of Hippie Aesthetic? It comes fro
 
 <p align="center">&#9834; <i>music playing</i> &#9834;</p>
 
-Interestingly, discos tend to have no solo, but often include the parts where solo would be. Or the solo is you, focus on dance, dance break. Popularity grows through mid 70s. Success peaks in 1977: “Saturday Night Fever”. Through 1978, 1979, disco was a monstrous force in popular culture. And strong backlash against. In July 12th, 1979, Comisky Park, Chicago – “Disco Demolition Night”. It's new of this level of hatred many rock fans have for disco. Racism? Homophobia? In fact, the real reason may simply be that disco opposed Hippie Aesthetics, threatening the privilage of the musician. Popularity of disco drops sharply by the end of 1979.
+Interestingly, discos tend to have no solo, but often include the parts where solo would be. Or the solo is you, focus on dance, dance break. Popularity grows through mid 70s. Success peaks in 1977: “Saturday Night Fever”. Through 1978, 1979, disco was a monstrous force in popular culture. And strong backlash against. In July 12th, 1979, Comisky Park, Chicago – “Disco Demolition Night”. It's new of this level of hatred many rock fans have for disco. Racism? Homophobia? In fact, the real reason may simply be that disco opposed Hippie Aesthetics, threatening the privilege of the musician. Popularity of disco drops sharply by the end of 1979.
 
- 
+
 Frankie Knuckles.
-- DJ in New York’s early Disco scene 
-- Moves to Chicago in 1977 
-- Starts DJing in “The Warehouse” 
-- Remixes funk and disco with a drum machine 
-- Style known as "House" music 
+- DJ in New York’s early Disco scene
+- Moves to Chicago in 1977
+- Starts DJing in “The Warehouse”
+- Remixes funk and disco with a drum machine
+- Style known as "House" music
 
 Then Derrick May, who gave Frankie drum machine, was a DJ from Detroit. Derrick, together with Juan Atkins, Kevin Saunderson, developed the style: [techno](https://en.wikipedia.org/wiki/Techno). So does the disco die? Not entirely, just moves to Chicago, gets a drum machine and becomes the foundation for last 40 yrs of dance music.
 
-## Part C: The Origins of Hip Hop 
+## Part C: The Origins of Hip Hop
+To understand its origin, a good spot to start would be black inner city neighborhood US in the late 1960s. Remember when we talked about soul and transition to funk, in mid 60s, there were a series of urban unrest, riots in many black community. The peak: the long hot summer. folk culture... such was the case in South Bronx, New York City – 1970s. In 1972, Cross Bronx Expressway was completed, then people don't need to stop and consume there. Local standard of living in Bronx completely collapsed. Like skiffle in Britain, a similar thing happens in Bronx. Then we see the emergence of break dancing. Also we see Graffiti Art (涂鸦).
+
+In Bronx, hard to get access to musical instruments/lessons. Young people found a new way to create music. They would use parent's turn tables, record collections. By playing these records in an innovative way, they could create a backdrop over which they could then improvise vocally. This techniques are known as rap. Precursors: Signifying / The Dozens
+-	Oral word game
+-	Ritualized insulting
+-	African origin
+
+An example: “Signifyin’ Monkey” (Language Warning)
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+> 15:36
