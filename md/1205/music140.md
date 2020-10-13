@@ -1166,7 +1166,9 @@ EXAMPLE: “Heroin” (1967 – From “The Velvet Underground and Nico”)
 
 {% include image.html url="/pics/140/cbgb.jpg" description="Front of CBGB, circa 2005" %}
 
-<font size="66%"><i>By <a href="https://en.wikipedia.org/wiki/User:Adicarlo" class="extiw" title="en:User:Adicarlo">Adicarlo</a> at the <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">English language Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1729803">Link</a></i></font>
+<font size="-5"><i>By <a href="https://en.wikipedia.org/wiki/User:Adicarlo" class="extiw" title="en:User:Adicarlo">Adicarlo</a> at the <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">English language Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1729803">Link</a></i></font>
+
+<br>
 
 By early 1970s, the New York Punk scene had developed a center. The most important club was called CBGBs (Country, Blue Grass and Blues) in NYC. One hand, some bands are of strong art influence, The Talking Heads. Other might have Rock 'n' Roll approach, Blondie. The idea is the song should not be pretentious.
 
@@ -1194,4 +1196,33 @@ This was the downfall of the first wave of the punk. How so? This is a style  re
 In late 1970s, we see punk transformed into [new wave](https://en.wikipedia.org/wiki/New_wave_music). 
  
 ## Part B - Disco 
+Like punk, disco is in response to Hippie Aesthetic. The origins of disco were actually found very early 1970s. Night clubs/bars were caught up by Hippie Aesthetics: should have a live band, not playing records. Remember dancing is not the intended focus. But there are increasingly in few places for people who want to dance. This was particularly the case among the emerging gay subculture of late 1960s/early 1970s. 
+
+So we start to see "Invitation Only" parties in New York City: clubs targeted/catering towards gay culture. In these clubs, we found disc jockey, people playing records. DJs such as David Mancuso, they primarily played soul and funk records, cause great for dancing. They would take the songs, record them into reel-to-reel tape and edit the tape to make the songs longer. They would mix the records together crossing seeminglessly, also add special effects such as echo.
+
+This is really the origin of what we call disco. It's still a way of playing the records rather than themselves, a music genre. As we get to 1971/2, the soul music industry noticed this popularity for dance clubs playing records. By 1972, Disco becomes a musical genre.   
+EXAMPLE: “Love Train” (1973) The O’Jays. 
+It reveals many of the characteristics of Disco 
+- Tempo: 120 bpm. All disco records were produced approximately at the same tempo. Then DJs can seeminglessly thread one record to the next.
+- Production is clean – no distortion 
+- Complex arrangements over basic beat
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+How does disco relate to this idea of response of Hippie Aesthetic? It comes from subcultures, largely invisible in stadium rock. Disco did sth opposite to the punk: it fully embraces the ideal of the star. Unlike distant accomplished musicians, you are the star. Strict dress code. Dance floor is the stage. Example: "Le Freak" (1978) Chic.
+
+<p align="center">&#9834; <i>music playing</i> &#9834;</p>
+
+Interestingly, discos tend to have no solo, but often include the parts where solo would be. Or the solo is you, focus on dance, dance break. Popularity grows through mid 70s. Success peaks in 1977: “Saturday Night Fever”. Through 1978, 1979, disco was a monstrous force in popular culture. And strong backlash against. In July 12th, 1979, Comisky Park, Chicago – “Disco Demolition Night”. It's new of this level of hatred many rock fans have for disco. Racism? Homophobia? In fact, the real reason may simply be that disco opposed Hippie Aesthetics, threatening the privilage of the musician. Popularity of disco drops sharply by the end of 1979.
+
  
+Frankie Knuckles.
+- DJ in New York’s early Disco scene 
+- Moves to Chicago in 1977 
+- Starts DJing in “The Warehouse” 
+- Remixes funk and disco with a drum machine 
+- Style known as "House" music 
+
+Then Derrick May, who gave Frankie drum machine, was a DJ from Detroit. Derrick, together with Juan Atkins, Kevin Saunderson, developed the style: [techno](https://en.wikipedia.org/wiki/Techno). So does the disco die? Not entirely, just moves to Chicago, gets a drum machine and becomes the foundation for last 40 yrs of dance music.
+
+## Part C: The Origins of Hip Hop 
