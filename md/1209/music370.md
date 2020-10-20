@@ -179,11 +179,11 @@ Step 3: Remove some decoration, and allow for a slight reworking places where PM
 
 Step 4: Get the framework set-up again, with new harmonization altering what is needed to allow for PM as well. Insert CT<sup>o</sup>
 
-Step 5: Fill in the inner voices, and make sure the voice leading works and is pleasing! 
+Step 5: Fill in the inner voices, and make sure the voice leading works and is pleasing!
 
 # Week 5
-Chapter 25: Intensifying the Tonic 
-## The Augmented Dominant 
+Chapter 25: Intensifying the Tonic
+## The Augmented Dominant
 Only available in major. Better to use on a weak beat, cause might create A2 in the voice leading. <span>&#92;(\hat 2 \to \sharp \hat 2 \to \hat 3 &#92;)</span>. Can have a triad, or have augmented dominant 7th.
 
 <iframe src="https://trinket.io/embed/music/04a3528ab7?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -212,7 +212,7 @@ Ex 25.31: pre-cadential dominant <span>&#92;(\to &#92;)</span> CT <span>&#92;(\t
 ## The extended Authentic Cadence
 Authentic Cadence ends on <span>&#92;(\hat 3 &#92;)</span> in romantic century. <span>&#92;(\hat 4\to \hat 3 &#92;)</span> or <span>&#92;(\hat 2\to \hat 3 &#92;)</span> in soprano.
 
-## The plagal 6-5 
+## The plagal 6-5
 Plagal cadence: Soprano <span>&#92;(\hat 1 \to \hat 4\to \hat 3 &#92;)</span>
 
 IV I cadence. Ex 25.12: 4-1 close in the bass, 1-2-3 passing motion on soprano. 1 is elided, 2 moves back to occupy the strong beat, and 3 is raised to create the Picardy third characteristic  of this cadence.
@@ -228,3 +228,8 @@ Wanna introduce 878. diminished in minor (example below), half diminished in maj
 Also an example, plagal 65 to plagal 43.
 
 <iframe src="https://trinket.io/embed/music/87f145ce08?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+# Week 6
+This is the week after reading week. It serves as a break thus it's a lighter week.
+
+A local tonic can be confirmed briefly within the phrase within the phrase as a momentary inflection or prolonged as a more emphatic event - the process of *tonicization*. A local tonic can also be established at the phrase cadence or prolonged into the cadence, where it offers a more serious challenge to the primary tonic - the process of *phrase modulation*. Or, a local tonic can be extended in duration to govern an entire section of the music, creating a secondary tonal region that presents a significant opposition to the primary key: this process is called **formal modulation**.
