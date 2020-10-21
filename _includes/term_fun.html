@@ -1,5 +1,5 @@
-<i>{{ include.ttt }}!</i>
-{% assign term = "{{ include.ttt }}" | plus: 0  %}
+<i>{{ include.ttt }}!ss</i>
+{% assign term = include.ttt | plus: 0  %}
 {% assign yr =  term | divided_by: 10 | plus: 1900 %}
 {% assign mon = term | modulo: 10 %}
 
