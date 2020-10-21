@@ -118,6 +118,7 @@
 
 </head>
 {% assign title_array = page.title | split: " " %}
+{% assign url_array = page.url | split: "/" %}
 
 <body data-spy="scroll" data-target="#toc">
   <div class="github-fork-ribbon-wrapper right">
@@ -138,7 +139,7 @@
         <div class="alert info">
           <span class="closebtn">&times;</span>  
           <strong>Disclaimer: Much of the information on this set of notes is transcribed directly/indirectly from the
-          lectures of {{ title_array[0] }} {{ title_array[1] }} during {{ page.url }} {% include term_fun.html url=page.url %} as well as other related resources. I do not make any warranties
+          lectures of {{ title_array[0] }} {{ title_array[1] }} during {{ url_array[1] }} {% include term_fun.html url=page.url %} as well as other related resources. I do not make any warranties
           about the completeness, reliability and accuracy of this set of notes. Use at your own risk.</strong>
         </div>
         <script>
