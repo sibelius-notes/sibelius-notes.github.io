@@ -1,11 +1,13 @@
 {% assign term = {{ include.term }} | plus: 0 %}
 
-{% assign yr =  term / 10 %}
+{{ term }} hey
+{% comment %}
+{% assign yr =  term | divided_by: 10 %}
 
 {% assign mon = term | modulo: 10 %}
 
 {{ yr }}, {{ mon }}
-{% comment %}
+
 {% if mon == 1 %}
 Winter {{ yr }}
 {% elsif mon == 5 %}
