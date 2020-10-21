@@ -1,7 +1,5 @@
 {% assign term = {{ include.term }} | plus: 0 %}
-{{ term }}
 {% assign yr =  term | divided_by: 10 | plus: 1900 %}
-
 {% assign mon = term | modulo: 10 %}
 
 {% if mon == 1 %}
