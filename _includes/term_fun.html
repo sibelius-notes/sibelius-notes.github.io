@@ -1,6 +1,6 @@
 {% assign term = {{ include.term }} | plus: 0 %}
 
-{% assign yr =  {{ term | divided_by: 10 }} | plus: 1900 %}
+{% assign yr =  term | divided_by: 10 %}
 
 {% assign mon = term | modulo: 10 %}
 
