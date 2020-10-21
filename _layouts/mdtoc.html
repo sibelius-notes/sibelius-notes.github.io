@@ -119,7 +119,8 @@
 </head>
 {% assign title_array = page.title | split: " " %}
 {% assign url_array = page.url | split: "/" %}
-{% assign tm = url_array[2] %}
+{% capture tm %}{{ url_array[2] }}{% endcapture %}
+
 
 <body data-spy="scroll" data-target="#toc">
   <div class="github-fork-ribbon-wrapper right">
