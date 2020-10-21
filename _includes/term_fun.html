@@ -4,8 +4,8 @@
 
 {% assign mon = term | modulo: 10 %}
 
-
-
+{{ yr }}, {{ mon }}
+{% comment %}
 {% if mon == 1 %}
 Winter {{ yr }}
 {% elsif mon == 5 %}
@@ -13,4 +13,5 @@ Spring {{ yr }}
 {% else %}
 Fall {{ yr }}
 {% endif %}
+{% endcomment %}
 
