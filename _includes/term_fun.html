@@ -1,4 +1,4 @@
 {% assign url_array = {{ include.url }} | split: "/" %}
 {% assign term = url_array[1] | plus: 0 %}
 
-{{ term }}
+{{ url_array }}
