@@ -93,7 +93,7 @@
     }
 
     .alert.info {
-      background-color: #2196F3;
+      background-color: #51b2d6;
     }
 
     .alert.warning {
@@ -138,9 +138,22 @@
         <div class="alert info">
           <span class="closebtn">&times;</span>  
           <strong>Disclaimer</strong>: Much of the information on this set of notes is transcribed directly/indirectly from the
-          lectures of {{ title_array[0] }}{{ title_array[1] }} as well as other related resources. I do not make any warranties
+          lectures of {{ title_array[0] }} {{ title_array[1] }} as well as other related resources. I do not make any warranties
           about the completeness, reliability and accuracy of this set of notes. Use at your own risk.
         </div>
+        <script>
+          var close = document.getElementsByClassName("closebtn");
+          var i;
+          
+          for (i = 0; i < close.length; i++) {
+            close[i].onclick = function(){
+              var div = this.parentElement;
+              div.style.opacity = "0";
+              setTimeout(function(){ div.style.display = "none"; }, 600);
+            }
+          }
+          </script>
+          
         <br>
         <!--start-->
         <div class="realbody">
