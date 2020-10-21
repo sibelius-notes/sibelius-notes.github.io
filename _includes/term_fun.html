@@ -1,4 +1,13 @@
-{% assign url_array = {{ include.url }} | split: "/" %}
-{% assign term = url_array[1] | plus: 0 %}
+{% assign term = {{ include.term }} | plus: 0 %}
 
-{{ url_array }}
+{% assign yr =  term | divided_by: 10 | plus: 1900 %}
+
+{% assign mon = term | modulo: 10 }}
+
+{% if mon == 1 %}
+Winter {{ yr }}
+{% elsif mon == 5 %}
+Spring {{ yr }}
+{% else %}
+Fall {{ yr }}
+{% endif %}
