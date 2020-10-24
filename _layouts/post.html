@@ -9,19 +9,12 @@ layout: default
 <div style="padding-bottom: 3%">
     {% include covid.html %}
 {% assign cid = page.title | split: " " | last %}
-{% comment %}
-{% unless page.unique %}
-{% if page.subject == "cs" %}
-<p><a href="https://www.student.cs.uwaterloo.ca/~cs{{ cid }}/" target="_blank">Course Website</a></p>
-{% endif %}
-<p><a href="https://ugradcalendar.uwaterloo.ca/courses/{{ page.subject | upcase }}/{{ cid }}" target="_blank">Undegraduate Calendar Course Description</a></p>
-{% endunless %}
-{% endcomment %}
+
 {% if page.latex %}
-<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.latex }}" style="background-image:none"><i class="fas fa-file-pdf" style="font-style: normal;"></i> notes</a></p>
+<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.latex }}" style="background-image:none" target="_blank"><i class="fas fa-file-pdf" style="font-style: normal;"></i> notes</a></p>
 {% endif %}
 {% if page.md %}
-<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.md }}" style="background-image:none"><i class="fab fa-markdown" style="font-style: normal;"></i> notes</a></p>
+<p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.md }}" style="background-image:none" target="_blank"><i class="fab fa-markdown" style="font-style: normal;"></i> notes</a></p>
 {% endif %}
 {{ content }}
 </div>
