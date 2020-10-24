@@ -10,7 +10,7 @@ feature_text: |
 
 ## About
 
-This website contains Lecture Notes only, as well as my thoughts regarding the course.
+This website contains Lecture Notes only, as well as my thoughts regarding the courses. To get started, check either the side bar or the top nav bar.
 
 Also, check my [blogs](https://blog.sibeliusp.com) and check my [home page](https://sibeliusp.com).
 
