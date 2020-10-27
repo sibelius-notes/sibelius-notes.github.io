@@ -74,7 +74,7 @@ with Problem Set 0 (not required!)
 # Week 2
 Review on chapter 22 and 6,4 chords.
 
-# Week 3
+# Week 3 - Chapter 23
 ## Chapter 23
 Primary mixture on major keys/ minor keys.
 
@@ -125,7 +125,7 @@ If do a minor homophony, for chapter 23. Don't apply plagal cadence in minor. It
 
 Soprano: Once you hit the final tonic with ties, just stay on that.
 
-# Week 4
+# Week 4 - Chapter 24
 ## The Augmented 6th chords
 Not tonicize, but intensify this motion to the dominant.
 
@@ -181,7 +181,7 @@ Step 4: Get the framework set-up again, with new harmonization altering what is 
 
 Step 5: Fill in the inner voices, and make sure the voice leading works and is pleasing!
 
-# Week 5
+# Week 5 - Chapter 25
 Chapter 25: Intensifying the Tonic
 ## The Augmented Dominant
 Only available in major. Better to use on a weak beat, cause might create A2 in the voice leading. <span>&#92;(\hat 2 \to \sharp \hat 2 \to \hat 3 &#92;)</span>. Can have a triad, or have augmented dominant 7th.
@@ -229,9 +229,13 @@ Also an example, plagal 65 to plagal 43.
 
 <iframe src="https://trinket.io/embed/music/87f145ce08?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-# Week 6
+# Week 6 - Chapter 26
 This is the week after reading week. It serves as a break thus it's a lighter week.
 
 A local tonic can be confirmed briefly within the phrase within the phrase as a momentary inflection or prolonged as a more emphatic event - the process of *tonicization*. A local tonic can also be established at the phrase cadence or prolonged into the cadence, where it offers a more serious challenge to the primary tonic - the process of *phrase modulation*. Or, a local tonic can be extended in duration to govern an entire section of the music, creating a secondary tonal region that presents a significant opposition to the primary key: this process is called **formal modulation**.
 ## T3B-07
 First one: start in f# minor, ends in relative major. Second one: F major, ends in V.
+
+# Week 7 - Chapter 27
+The Chromatic Sequence
+
