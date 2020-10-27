@@ -233,3 +233,5 @@ Also an example, plagal 65 to plagal 43.
 This is the week after reading week. It serves as a break thus it's a lighter week.
 
 A local tonic can be confirmed briefly within the phrase within the phrase as a momentary inflection or prolonged as a more emphatic event - the process of *tonicization*. A local tonic can also be established at the phrase cadence or prolonged into the cadence, where it offers a more serious challenge to the primary tonic - the process of *phrase modulation*. Or, a local tonic can be extended in duration to govern an entire section of the music, creating a secondary tonal region that presents a significant opposition to the primary key: this process is called **formal modulation**.
+## T3B-07
+First one: start in f# minor, ends in relative major. Second one: F major, ends in V.
