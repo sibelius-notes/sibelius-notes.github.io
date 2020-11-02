@@ -239,3 +239,6 @@ First one: start in f# minor, ends in relative major. Second one: F major, ends 
 # Week 7 - Chapter 27
 The Chromatic Sequence
 
+## Composing a Chromatic Sequence
+1. Choosing a sequence and setting-up the framework
+2. 
