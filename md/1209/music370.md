@@ -228,7 +228,7 @@ Also an example, plagal 65 to plagal 43.
 
 <iframe src="https://trinket.io/embed/music/87f145ce08?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-# §26：Formal Modulation
+# §26: Formal Modulation
 This is the week after reading week. It serves as a break thus it's a lighter week.
 
 A local tonic can be confirmed briefly within the phrase within the phrase as a momentary inflection or prolonged as a more emphatic event - the process of *tonicization*. A local tonic can also be established at the phrase cadence or prolonged into the cadence, where it offers a more serious challenge to the primary tonic - the process of *phrase modulation*. Or, a local tonic can be extended in duration to govern an entire section of the music, creating a secondary tonal region that presents a significant opposition to the primary key: this process is called **formal modulation**.
