@@ -184,6 +184,8 @@
 </body>
 {% include histat.html %}
 <script>
-  $('#mainc').nextAll('img').remove();
+  $(window).on('load', function() {
+    $('#mainc').nextAll('img').remove();
+  });
 </script>
 </html>
