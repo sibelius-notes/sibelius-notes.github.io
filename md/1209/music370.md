@@ -2,18 +2,9 @@
 title: MUSIC 370 - Music Theory 3
 layout: mdtoc
 ---
-The notes below are incomplete, inaccurate. They are just some random things I chose to put on here...
+The notes below are quite incomplete...
 # Week 1
 ## Intro to course
-Introduction to the course & online resources review
-- Theory Assignments “A”, T3A: 6 assignments @ 6% each
-- Theory Assignments “B”, T3B: 7 assignments @ 4% each
-- Online & Practice Assignments: OP: 10 assignments @ 1.2 % each
-- MuShip “a” – Artusi online “In-Class” practice assignments (participation): 4 assignments @ 1% each
-- MuShip “b” – Artusi online Quizzes (fully graded): 4 assignments @ 2% each
-- Final Project (The ROMANCE): 12%
-
-
 Review of chapter 19: five steps
 - Analyzing the Soprano (REVIEW)
 - Choosing Harmonic path
@@ -236,7 +227,11 @@ A local tonic can be confirmed briefly within the phrase within the phrase as a 
 First one: start in f# minor, ends in relative major. Second one: F major, ends in V.
 
 # §27: The Chromatic Sequence
-
+4 chromatic options for Deceptive Resolution Chromatic Sequence
+- Interpolated Applied Dominants
+- Harmonic Elision
+- PM minor
+- Aug 6th
 ## Composing a Chromatic Sequence
 1. Choosing a sequence and setting-up the framework
 2. Completing the first measure that resolves well into measure 2
