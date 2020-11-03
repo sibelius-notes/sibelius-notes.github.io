@@ -252,4 +252,22 @@ In chapter 23, we met the process of primary mixture: combine a key's major and 
 || Primary Mixture | Secondary Mixture     |
 |:-| :------------- | :------------- |
 |Major | <span>&#92;(\flat \hat 6 &#92;)</span>: II, IV <br> <span>&#92;(\flat \hat 3 &#92;)</span>: I<br> <span>&#92;(\flat \hat 6, \flat \hat 3 &#92;)</span>: VI<br> (borrowed from minor)  | <span>&#92;(\sharp \hat 5 &#92;): iii becomes III</span> <br> <span>&#92;(\sharp \hat 1 &#92;)</span>: vi becomes VI     |
-|minor| <span>&#92;(\flat \hat 2 &#92;)</span>: II Phrygian or N<sup>6</sup><br> <span>&#92;(\sharp \hat 3 &#92;)</span>: I <br> <span>&#92;(\sharp \hat 6 &#92;)</span>: IV, II <br> <span>&#92;(\sharp \hat 6, \sharp \hat 3 &#92;)</span>: VI | <span>&#92;(\flat \hat 4 &#92;)</span>: bII becomes bii <br> <span>&#92;(\flat \hat 1 &#92;)</span>: VI becomes vi | 
+|minor| <span>&#92;(\flat \hat 2 &#92;)</span>: II Phrygian or N<sup>6</sup><br> <span>&#92;(\sharp \hat 3 &#92;)</span>: I <br> <span>&#92;(\sharp \hat 6 &#92;)</span>: IV, II <br> <span>&#92;(\sharp \hat 6, \sharp \hat 3 &#92;)</span>: VI | <span>&#92;(\flat \hat 4 &#92;)</span>: bII becomes bii <br> <span>&#92;(\flat \hat 1 &#92;)</span>: VI becomes vi |
+
+## Secondary Mixture in Major
+Raising <span>&#92;(\hat 5 &#92;)</span> in a major key will alter the chordal third of III, converting the chord's quality from minor to major.
+
+Example 28.4: When VI follows major III.
+
+<iframe src="https://trinket.io/embed/music/0c41ab7561" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Ex 28.7: When major VI is prolonged, then it must be tonicized to the prolongation. Secondary mixture is a bit jarring than PM because it doesn't borrow from another mode.
+
+Ex 28.9: When II follows major VI. We need to make sure voice leading works: <span>&#92;(\sharp \hat 1\to 2 &#92;)</span>
+## Secondary Mixture in Minor
+
+Ex 28.10 (a): Not a prolongation. It's minor VI which embellish I.
+<iframe src="https://trinket.io/embed/music/0576d0f70d" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Ex 28.10 (b): Subdominant prolongation, minor mode IV<sup>6</sup>
+<iframe src="https://trinket.io/embed/music/851f186043" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
