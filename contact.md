@@ -1,10 +1,9 @@
 ---
 layout: home
 title: Contact
-feature_image: "/assets/backpic/mic.jpg"
+feature_image: "/assets/backpic/piano.jpg"
 feature_text: |
     <h2 style="color:white;"> Shoot me an email! </h2>
-fter: "Photo by BRUNO CERVERA on Unsplash"
 ---
 
 
