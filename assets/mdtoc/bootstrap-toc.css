@@ -248,10 +248,13 @@ pre {
     color: #000;
 }
 
-.realbody img {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.realbody img {
   width: 66%
 }
 
