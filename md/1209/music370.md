@@ -277,3 +277,13 @@ Ex 28.11: Enharmonic resolution, going from elaborative SM to dominant: <span>&#
 Ex 28.12: The minor Neapolitan 6.
 
 ##  The Stable Six-four chord
+Chapter 12: Passing 64, Cadential 64. Chapter 22: Neighbor, Pedal, Arp 64.
+
+The applied dominant that introduces this chord confirms the chordal fourth as a local tonic, permitting the stable <span>&#92;(^6_4 &#92;)</span> to function harmonically as a consonant chord. In a major key, the stable <span>&#92;(^6_4 &#92;)</span> will occasionally sound as a modally borrowed subdominant. 
+
+Ex 28.20 (score from [IMSLP](https://imslp.org/wiki/Special:ReverseLookup/37922)): mm. 2 is Nbr <span>&#92;(^6_4 &#92;)</span>, mm. 6 is Stable <span>&#92;(^6_4 &#92;)</span>
+
+{% include image.html url="/pics/ex2820.png" description="W. A. Mozart, Piano Concerto in A Major, K. 448 Mvt. III" %}
+
+Ex 28.21: Reinterpreting the passing <span>&#92;(^6_4 &#92;)</span>
+
