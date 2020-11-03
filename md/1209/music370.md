@@ -227,12 +227,29 @@ A local tonic can be confirmed briefly within the phrase within the phrase as a 
 First one: start in f# minor, ends in relative major. Second one: F major, ends in V.
 
 # §27: The Chromatic Sequence
+Like its diatonic model, a chromatic model can serve as a transitional passage between two chords within the same tonal area.
+
+
+Other possibilities are not presented here because I am not going to use them...
+
 4 chromatic options for Deceptive Resolution Chromatic Sequence
 - Interpolated Applied Dominants
 - Harmonic Elision
-- PM minor
+- PM minor: Phrygian II Major
 - Aug 6th
+
+Some refreshers: [Deceptive Resolutions of Secondary Dominants](http://www.jkornfeld.net/Deceptive_secondary_resolutions.pdf)
 
 ## Composing a Chromatic Sequence
 1. Choosing a sequence and setting-up the framework
 2. Completing the first measure that resolves well into measure 2
+3. completing the sequence to the cadence (completing measures 2 and 3)
+4. Completing the sequence (the cadence, figured bass and analysis)
+
+# §28: Secondary Mixture
+In chapter 23, we met the process of primary mixture: combine a key's major and minor modes in shared harmonic relationships. Here we meet a second means of key enhancement. Melodic chromaticism again informs the process; but where a chromatic pitch in primary mixture serves to introduce a chord belonging to the music's parallel mode, here a chromatic pitch acts to convert the quality of a chord belonging to the music's prevailing mode. Can be elaborative chord, be tonicized, or formal modulation. This process is called **secondary mixture**.
+
+|| Primary Mixture | Secondary Mixture     |
+|:-| :------------- | :------------- |
+|Major | <span>&#92;(\flat \hat 6 &#92;)</span>: II, IV <br> <span>&#92;(\flat \hat 3 &#92;)</span>: I<br> <span>&#92;(\flat \hat 6, \flat \hat 3 &#92;)</span>: VI<br> (borrowed from minor)  | <span>&#92;(\sharp \hat 5 &#92;): iii becomes III</span> <br> <span>&#92;(\sharp \hat 1 &#92;)</span>: vi becomes VI     |
+|minor| <span>&#92;(\flat \hat 2 &#92;)</span>: II Phrygian or N<sup>6</sup><br> <span>&#92;(\sharp \hat 3 &#92;)</span>: I <br> <span>&#92;(\sharp \hat 6 &#92;)</span>: IV, II <br> <span>&#92;(\sharp \hat 6, \sharp \hat 3 &#92;)</span>: VI | <span>&#92;(\flat \hat 4 &#92;)</span>: bII becomes bii <br> <span>&#92;(\flat \hat 1 &#92;)</span>: VI becomes vi | 
