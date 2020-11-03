@@ -263,11 +263,17 @@ Example 28.4: When VI follows major III.
 
 Ex 28.7: When major VI is prolonged, then it must be tonicized to the prolongation. Secondary mixture is a bit jarring than PM because it doesn't borrow from another mode.
 
-Ex 28.9: When II follows major VI. We need to make sure voice leading works: <span>&#92;(\sharp \hat 1\to 2 &#92;)</span>
+Ex 28.9: When II follows major VI. We need to make sure voice leading works: <span>&#92;(\sharp \hat 1\to \hat 2 &#92;)</span>
 ## Secondary Mixture in Minor
 
-Ex 28.10 (a): Not a prolongation. It's minor VI which embellish I.
+Ex 28.10 (a): Not a prolongation. It's minor VI which embellishes I.
 <iframe src="https://trinket.io/embed/music/0576d0f70d" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Ex 28.10 (b): Subdominant prolongation, minor mode IV<sup>6</sup>
 <iframe src="https://trinket.io/embed/music/851f186043" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Ex 28.11: Enharmonic resolution, going from elaborative SM to dominant: <span>&#92;(\flat \hat 1 \to (\sharp)\hat 7 &#92;)</span>
+
+Ex 28.12: The minor Neapolitan 6.
+
+##  The Stable Six-four chord
