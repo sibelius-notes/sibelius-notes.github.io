@@ -277,7 +277,7 @@ Ex 28.11: Enharmonic resolution, going from elaborative SM to dominant: <span>&#
 Ex 28.12: The minor Neapolitan 6.
 
 ##  The Stable Six-four chord
-Chapter 12: Passing 64, Cadential 64. Chapter 22: Neighbor, Pedal, Arp 64.
+Chapter 12: Passing 64, Cadential 64. Chapter 22: Neighbor, Pedal, Arp 64. [Some refreshers](http://www.musictheoryteacher.com/pb/wp_94176fc5/wp_94176fc5.html)
 
 The applied dominant that introduces this chord confirms the chordal fourth as a local tonic, permitting the stable <span>&#92;(^6_4 &#92;)</span> to function harmonically as a consonant chord. In a major key, the stable <span>&#92;(^6_4 &#92;)</span> will occasionally sound as a modally borrowed subdominant. 
 
@@ -287,3 +287,11 @@ Ex 28.20 (score from [IMSLP](https://imslp.org/wiki/Special:ReverseLookup/37922)
 
 Ex 28.21: Reinterpreting the passing <span>&#92;(^6_4 &#92;)</span>
 
+<iframe src="https://trinket.io/embed/music/991f9d95f6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+becomes 
+
+<iframe src="https://trinket.io/embed/music/7d7d58b334" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+## The Cadential Pedal Extension
+A pedal extension allows the music's momentum to carry past the authentic cadence into elaborations of the cadential tonic. 
