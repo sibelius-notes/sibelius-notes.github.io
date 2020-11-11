@@ -306,9 +306,9 @@ Cantilena: "song melody", used in instrumental music.
 History of the instrumental romance:
 - ca.1200 - ca.1400: Medieval Period in Spain (romance) in Italy (romanza)
 - ca.1400 - ca.1600's:  Renaissance in Spain and Italy
-- ca.1600 - ca. 1800: Baroque & Classical + in France, Germany & Italy
+- ca.1600 - ca.1800: Baroque & Classical + in France, Germany & Italy
 
 ## Formal Design
-| A | B | A<sup>1</sup> | |
+| A | B | A' | |
 | :--: | :--: | :--: | :--: |
-| Part 1, Part 1, Part 2, Part 2 | Part 3, (Part 3), Part 4, (Part 4) <br> New key  | Part 1A<sup>1</sup>, Part 2A<sup>1</sup> | Conclusion |
+| Part 1, Part 1, Part 2, Part 2 | Part 3, (Part 3), Part 4, (Part 4) <br> New key  | Part 1', Part 2' | Conclusion |
