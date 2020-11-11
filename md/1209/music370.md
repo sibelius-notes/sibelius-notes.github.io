@@ -320,3 +320,12 @@ History of the instrumental romance:
 *Intro* before A, *retransition* between B and A'. After A', *coda*.
 
 ## A section
+Period 1
+- Introduction in accompanying voices, then ONE voice presents first period of the cantilena
+- first period then repeats.
+- cadence of the first period will be an internal cadence. NOT PAC in primary tonic. 
+
+Period 2
+- One voice presents the second period of cantilena.
+- The second period then repeats.
+- The cadence of the second period will be PAC in the primary tonic.
