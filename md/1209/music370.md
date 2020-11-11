@@ -309,6 +309,6 @@ History of the instrumental romance:
 - ca.1600 - ca. 1800: Baroque & Classical + in France, Germany & Italy
 
 ## Formal Design
-| A | B     | A<sup>1</sup> | |
-| :------: | :-------: | :--: | :--:|
-| Part 1, Part 1, Part 2, Part 2       | Part 3, (Part 3), Part 4, (Part 4) <br> New key   | Part 1A<sup>1</sup>, Part 2A<sup>1</sup> | Conclusion|
+| A | B | A<sup>1</sup> | |
+| :--: | :--: | :--: | :--: |
+| Part 1, Part 1, Part 2, Part 2 | Part 3, (Part 3), Part 4, (Part 4) <br> New key  | Part 1A<sup>1</sup>, Part 2A<sup>1</sup> | Conclusion |
