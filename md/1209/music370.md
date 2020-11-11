@@ -310,6 +310,13 @@ History of the instrumental romance:
 
 ## Formal Design
 
-| A                          | B                                     | A'                   |            |
-|:----------------------------|:---------------------------------------|:----------------------|:------------|
-| Period 1, Period 1, P2, P2 | \|\|: Period 1 :\|\|: Period 2 :\|\|  | Period 1', Period 2' | Conclusion |
+| A                          | B                                     | A'                   |   
+|:----------------------------|:---------------------------------------|:----------------------|
+| Period 1, P1, P2, P2 | \|\|: Period 1 :\|\|: Period 2 :\|\|  | Period 1', Period 2' | 
+| Major Key | Parallel Minor Key or related key | (reprise) Major key | 
+| *andante* or *adagio* | *agitato* | *andante* or *adagio* | 
+| theme called: **cantilena** | Melodic line. Rests. RESTLESS theme | cantilena theme is elaborated. |
+
+*Intro* before A, *retransition* between B and A'. After A', *coda*.
+
+## A section

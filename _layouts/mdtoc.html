@@ -140,12 +140,8 @@
 
           {% include anchor_headings.html html=content beforeHeading=true anchorClass="header-link" %}
 
-          <!--script>
-            $(document).ready(function () {
-                $('pre').addClass('highlight');
-                $('code').addClass('highlight');
-            });
-        </script-->
+        <br>
+
           {% include share-buttons.html %}
         </div>
         
@@ -154,8 +150,9 @@
           <br>
           
         </div>
-        <!--script type="text/javascript" src="{{ site.baseurl }}/assets/mdtoc/navbar.js"/></script-->
+        <div style="float: right;">
         {% include histat.html %}
+        </div>
         <!-- footer -->
       </div>
     </div>
