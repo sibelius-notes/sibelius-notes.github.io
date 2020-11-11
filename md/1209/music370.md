@@ -310,5 +310,5 @@ History of the instrumental romance:
 
 ## Formal Design
 | A | B | A' | &nbsp; |
-| :--: | :--: | :--: | :--: |
+| -- |-- | -- | -- |
 | Part 1, Part 1, Part 2, Part 2 | Part 3, (Part 3), Part 4, (Part 4) <br> New key  | Part 1', Part 2' | Conclusion |
