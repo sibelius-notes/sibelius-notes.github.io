@@ -329,3 +329,14 @@ Period 2
 - One voice presents the second period of cantilena.
 - The second period then repeats.
 - The cadence of the second period will be PAC in the primary tonic.
+## B section
+- An agitato character to contrast the lyricism of the cantilena
+- The melodic line can spin out in a dense figuration articulated in compressed rhythmic patterns
+- The melodic line can also fragment into short, leaping motives punctuated by rests.
+- Rests can also interrupt melodic figures or displace their strong-beat entries, to accentuate the  characteristic restlessness of the agitato theme.
+- Tone repetition can be introduced in single statement or reiterated motivically, to emphasise the line’s essential urgency.
+- Short appoggiaturas and rhythmically displaced passing and neighbouring tones can be introduced to good effect here (keep the broader suspension and retardation figures in the cantilena melody in the A section)  
+- parallel minor or related key
+- 2 periods, repeated sign
+- change of meter/tempo
+-  accompanying voices reinforce the agitato nature of this section
