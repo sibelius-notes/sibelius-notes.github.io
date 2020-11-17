@@ -329,6 +329,7 @@ Period 2
 - One voice presents the second period of cantilena.
 - The second period then repeats.
 - The cadence of the second period will be PAC in the primary tonic.
+
 ## B section
 - An agitato character to contrast the lyricism of the cantilena
 - The melodic line can spin out in a dense figuration articulated in compressed rhythmic patterns
