@@ -78,6 +78,11 @@ The bass plays the primary role in harmonic elision and *will move through the p
 
 
 ## Diminished Seventh
+In D major:
+<iframe src="https://trinket.io/embed/music/5cf8dac995" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+In D minor:
+<iframe src="https://trinket.io/embed/music/803bd77123" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 ## Ways to Decorate
@@ -93,3 +98,32 @@ The bass plays the primary role in harmonic elision and *will move through the p
     1. Extend Strong-beat chord (V<sup>7</sup> - vii<sup>o7</sup>)
     2. Add an elaborative chord
     3. Add a tonicizing chord
+
+Between Cadential Predominant (<span>&#92;(\text{C} _ 4^6 &#92;)</span> or V) and Dom, can use II (major only), II<sup>6</sup>, II<sup>7</sup>, <span>&#92;(\text{II} _ 5^6 &#92;)</span>, IV, IV<sup>6</sup>, IV<sup>7</sup>
+
+From Final V to I
+1. a 4-3 SUS
+2. A descending octave leap in bass
+3. Create V<sup>7</sup> on weak-beat
+
+# § 16: Chorale
+The **chorale** originated in sixteenth-century Germany as a product of the Reformation. The reformers undertook to provide sacred songs in the vernacular for unison singing as a means of actively involving the people in the church's liturgy.
+
+## Phrase Cadences
+## Perfect Authentic Cadence
+Sop ends on 1. Root V - Root I.
+
+Primary tonic at FINAL CADENCE. Local Tonic at any Internal Cadence.
+
+- Sop: 2 - 1 or 7 - 8
+- Bass: 5 - 1 (8)
+- Chord: V<sup>(7)</sup> - I
+
+## Imperfect Authentic Cadence
+Sop ends on 3 or 5. Root V - Root I.
+
+Both Primary & Local Tonics
+
+- Sop: 2 - 3, 5 - 3, 4 - 3, 5 - 5
+- Bass: 5 - 1 (8)
+- Chord: V<sup>(7)</sup> - I
