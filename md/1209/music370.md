@@ -353,4 +353,4 @@ the coda is much longer!)
 - The coda is four to six measures long and is a cadential pedal
 extension.
 - The tonic chord will occupy the first and final measures and the bass
-will sound <span>&#92;( \hat 1 &#92;)</span> through the cod
+will sound <span>&#92;( \hat 1 &#92;)</span> through the coda
