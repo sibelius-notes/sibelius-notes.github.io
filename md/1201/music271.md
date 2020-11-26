@@ -177,6 +177,7 @@ Chord of Dominant function  - Root I. Both Primary or Local tonics
 ## The Half-Diminished Seventh Chord
 <iframe src="https://trinket.io/embed/music/745a66afd9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+Unlike VII<sup>o7</sup>, which occurs in both major and minor keys, VII<sup>ø7</sup> is restricted to major keys: its chordal seventh in a minor key would sound a raised <span>&#92;( \hat 6 &#92;)</span>, a tone that relates upward to the leading tone, not downward <span>&#92;( \hat 5 &#92;)</span>.
 # § 17: Quadruple Paraphrase
 Created in 2 steps:
 1. Decorate to a Duple Paraphrase
