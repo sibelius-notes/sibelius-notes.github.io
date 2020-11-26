@@ -110,7 +110,7 @@ From Final V to I
 The **chorale** originated in sixteenth-century Germany as a product of the Reformation. The reformers undertook to provide sacred songs in the vernacular for unison singing as a means of actively involving the people in the church's liturgy.
 
 ## Phrase Cadences
-## Perfect Authentic Cadence
+### Perfect Authentic Cadence
 Sop ends on 1. Root V - Root I.
 
 Primary tonic at FINAL CADENCE. Local Tonic at any Internal Cadence.
@@ -119,7 +119,7 @@ Primary tonic at FINAL CADENCE. Local Tonic at any Internal Cadence.
 - Bass: 5 - 1 (8)
 - Chord: V<sup>(7)</sup> - I
 
-## Imperfect Authentic Cadence
+### Imperfect Authentic Cadence
 Sop ends on 3 or 5. Root V - Root I.
 
 Both Primary & Local Tonics
@@ -127,3 +127,57 @@ Both Primary & Local Tonics
 - Sop: 2 - 3, 5 - 3, 4 - 3, 5 - 5
 - Bass: 5 - 1 (8)
 - Chord: V<sup>(7)</sup> - I
+
+### Half Cadence 
+I or IV - Root V (triad)
+
+Both Primary and Local Tonics
+
+- Sop: ? - 2 or 7, (5) - 5
+- Bass: ? - 5
+- Chord: I or IV - V
+
+Note that in minor, we need to <span>&#92;(\sharp \hat 7 &#92;)</span>
+
+### Phrygian Cadence 
+A type of Half cadence. IV<sup>6</sup> - V Root
+
+Any minor key - can both primary tonic or local tonic
+
+- Soprano: 4 - 5 (M2)
+- Bass: 6 - 5 (m2)
+- Chord: IV<sup>6</sup> - V
+
+### Plagal Cadence 
+Root IV - Root I
+
+Primary tonic only 
+
+- Sop: 6 - 5, 4 - 5, 4 - 3, 1 - 1
+- Bass: 4 - 1
+- Chord: IV - I
+
+### Deceptive Cadence 
+Root V<sup>7</sup> - Root VI
+
+Both Primary or Local tonics
+
+- Sop: 5 - 3, 4 - 3, 2 - 1, 7 - 8 (no 2 - 3)
+- Bass: 5 - 6
+- Chord:  V<sup>7</sup> -  VI
+
+### Tonicization
+or End of prolongation (minimizing the closure)
+
+Chord of Dominant function  - Root I. Both Primary or Local tonics
+
+- Sop: Any tonicizing pattern
+- Bass: 2 - 1 or 7 - 8. (No 5 - 1)
+
+## The Half-Diminished Seventh Chord
+<iframe src="https://trinket.io/embed/music/745a66afd9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+# § 17: Quadruple Paraphrase
+Created in 2 steps:
+1. Decorate to a Duple Paraphrase
+2. Decorate Again
