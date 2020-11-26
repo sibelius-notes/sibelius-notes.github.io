@@ -67,3 +67,29 @@ The bass plays the primary role in harmonic elision and *will move through the p
 <iframe src="https://trinket.io/embed/music/f77bca1f50" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 # § 15: Elaborating the Lower Voices
+## Accented Dissonance
+- Whole notes are consonant
+- Half-notes between chords can be dissonant *IF* approached by step
+- Half-notes between chords MUST be consonant if jumped or leapt to a chord tone.
+- Decorating with Diss
+    - SUS 
+        - 4 - 3 and 7 - 6 and 9 - 8 in Alto or tenor
+        - 9 - 10 in Bass
+
+
+## Diminished Seventh
+
+
+## Ways to Decorate
+1. Melodic Figures
+    - If leaping (SS, BC, Arp...) Must be a chord tone.
+    - Passing (P) and Neighbor (N) Can be dissonant (Non-chord tone)
+2. Accented Dissonance
+    - Suspensions (SUS) 4 - 3, 7 - 6, 9 - 8, 9 - 10
+    - Rhythmic Displacement (RD)
+        - 3 or 4-note passing
+        - 3 or 4-note neighbor
+3. Weak beat chords
+    1. Extend Strong-beat chord (V<sup>7</sup> - vii<sup>o7</sup>)
+    2. Add an elaborative chord
+    3. Add a tonicizing chord
