@@ -66,19 +66,18 @@ with Problem Set 0 (not required!)
 Review on chapter 22 and 6,4 chords.
 
 # §23: Primary mixture
-## Chapter 23
 Primary mixture on major keys/ minor keys.
 
 Tonicization represent the broadest application of chromatics in major-minor tonality. But chromaticism need not always serve the interests of tonicization: we can intensify the harmonic events in a major-key or minor-key by introducing chords borrowed from the parallel mode. This process is called **primary mixture**.
 
-### PM in Major
+## PM in Major
 lowering <span>&#92;(\hat 6 &#92;)</span> (and <span>&#92;(\hat 3 &#92;)</span>)
 
 Pre-dominant chords, mixture in tonic prolongation, plagal cadence
 
 <iframe src="https://trinket.io/embed/music/b13167b34e?outputOnly=true&start=result" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-### PM in minor
+## PM in minor
 Picardy third: raise <span>&#92;(\hat 3 &#92;)</span> in the cadential I
 
 When the Phrygian and minor modes are notated on the same tonic, their tonic patterns differ only in respect to the placement of their second degrees. **Phrygian II chord** can be introduced in a minor key by lowering <span>&#92;(\hat 2 &#92;)</span>. The Phrygian II appears most often as a sixth chord in minor, where it is commonly called a **Neapolitan 6th**. We frequently meet the Neapolitan 6th as a pre-dominant chord.
@@ -341,3 +340,17 @@ Period 2
 - 2 periods, repeated sign
 - change of meter/tempo
 -  accompanying voices reinforce the agitato nature of this section
+
+## The retransition
+- The retransition acts as a connective link leading from the B section to a
+varied reprise of the A section
+- The retransition is four to six measures long and begins anywhere and
+ends on <span>&#92;( \hat 2,\hat 4 &#92;)</span> or <span>&#92;( \hat 7 &#92;)</span> to accommodate the dominant. 
+
+## The CODA
+- The romance closes in a coda, the counterpart to the introduction (but
+the coda is much longer!)
+- The coda is four to six measures long and is a cadential pedal
+extension.
+- The tonic chord will occupy the first and final measures and the bass
+will sound <span>&#92;( \hat 1 &#92;)</span> through the cod
