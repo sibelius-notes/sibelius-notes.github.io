@@ -9,8 +9,8 @@
     but with customized functionalities. Scroll down to see the form. <a href="/" target="_blank">Back to home</a> </p>
 <form method="get" action="https://classes.uwaterloo.ca/cgi-bin/cgiwrap/infocour/salook.pl" target="results">
 <label accesskey="T"><b>T</b>erm: <select id="sess" name="sess" tabindex="1">
-<option value="1211">Winter 2021
-<option value="1209" selected>Fall 2020
+<option value="1211" selected>Winter 2021
+<option value="1215">Spring 2020
 </select>
 </label>
 <label accesskey="L"><b>L</b>evel: <select id="level" name="level" tabindex="2">
@@ -18,15 +18,8 @@
 <option value="grad">Graduate
 </select>
 </label>
-<label accesskey="S"><b>S</b>ubject: <select id="subject" name="subject" tabindex="3">
-<option value="CS" selected>CS — Computer Science</option>
-<option value="AMATH">AMATH — Applied Mathematics</option>
-<option value="CO">CO — Combinatorics &amp; Optimization</option>
-<option value="PMATH">PMATH — Pure Mathematics</option>
-<option value="MUSIC">MUSIC — Music</option>
-<option value="SMF">SMF — Sexuality, Marriage &amp; Family</option>
-<option value="ECON">ECON — Economics</option>
-</select>
+<label accesskey="S"><b>S</b>ubject: 
+<input id="subject" name="subject" size="5" tabindex="3">
 </label>
 <label><b>C</b>ourse: <input name="cournum" size="5" tabindex="5" accesskey="C"></label>
 <input type="submit" value="View" tabindex="6" accesskey="V">
