@@ -311,9 +311,9 @@ History of the instrumental romance:
 
 | A                          | B                                     | A'                   |   
 |:----------------------------|:---------------------------------------|:----------------------|
-| Period 1, P1, P2, P2 | \|\|: Period 1 :\|\|: Period 2 :\|\|  | Period 1', Period 2' | 
-| Major Key | Parallel Minor Key or related key | (reprise) Major key | 
-| *andante* or *adagio* | *agitato* | *andante* or *adagio* | 
+| Period 1, P1, P2, P2 | \|\|: Period 1 :\|\|: Period 2 :\|\|  | Period 1', Period 2' |
+| Major Key | Parallel Minor Key or related key | (reprise) Major key |
+| *andante* or *adagio* | *agitato* | *andante* or *adagio* |
 | theme called: **cantilena** | Melodic line. Rests. RESTLESS theme | cantilena theme is elaborated. |
 
 *Intro* before A, *retransition* between B and A'. After A', *coda*.
@@ -322,7 +322,7 @@ History of the instrumental romance:
 Period 1
 - Introduction in accompanying voices, then ONE voice presents first period of the cantilena
 - first period then repeats.
-- cadence of the first period will be an internal cadence. NOT PAC in primary tonic. 
+- cadence of the first period will be an internal cadence. NOT PAC in primary tonic.
 
 Period 2
 - One voice presents the second period of cantilena.
@@ -345,7 +345,7 @@ Period 2
 - The retransition acts as a connective link leading from the B section to a
 varied reprise of the A section
 - The retransition is four to six measures long and begins anywhere and
-ends on <span>&#92;( \hat 2,\hat 4 &#92;)</span> or <span>&#92;( \hat 7 &#92;)</span> to accommodate the dominant. 
+ends on <span>&#92;( \hat 2,\hat 4 &#92;)</span> or <span>&#92;( \hat 7 &#92;)</span> to accommodate the dominant.
 
 ## The CODA
 - The romance closes in a coda, the counterpart to the introduction (but
@@ -354,3 +354,8 @@ the coda is much longer!)
 extension.
 - The tonic chord will occupy the first and final measures and the bass
 will sound <span>&#92;( \hat 1 &#92;)</span> through the coda
+
+## The reprise
+- The reprise typically features an elaboration of the primary theme (the cantilena)
+- The accompanying voices can recall figuration from the B section as a means of unifying the structure
+- The reprise proceeds without repeats
