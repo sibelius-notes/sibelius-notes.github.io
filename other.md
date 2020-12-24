@@ -14,4 +14,6 @@ feature_text: |
 
 <a href="https://www.youtube.com/playlist?list=PLOYRlicwLG3St5aEm02ncj-sPDJwmojIS" target="_blank">Map videos</a> - from Domain of Science. I saw these maps frequently on a TV by the door of main reception desk (DC 2326).
 
-Some other notes you might find useful: <a href="http://www.iris-jiang.com////////////lec-notes" target="_blank">I. J</a>.
+Some other notes you might find useful: <a href="http://www.iris-jiang.com//////////////lec-notes" target="_blank">I. Jiang</a>.
+
+Last updated: {% include ts.html %}
