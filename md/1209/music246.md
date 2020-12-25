@@ -48,3 +48,81 @@ Suspension of disbelief. Like a contract between the audience and the film maker
     -	structure of music “smoothes over” the discontinuous, chaotic nature of film.
 4.	Music can provide the underpinning for the theatrical buildup of a scene and then round it off with a sense of finality.
     -	music can affect the “pacing” of a scene.
+
+# Lecture 2
+EVALUATING A SCORE:
+How do we talk about what we hear?
+
+**Diegesis** (叙事): The world of the narrative. All characters, events, etc depicted, suggested, or described.
+
+**Diegetic Music**: 画内音
+- music whose source is within the Diegesis.
+-	heard both by the characters within the narrative and the film audience.
+-	also known as “source music,” “direct music,” or “foreground music.”
+-	Functions include: establishing time and place, creating a sense of “realism and immediacy,” offering ironic comment.
+
+**Nondiegetic Music**: 画外音
+-	heard by the film audience only.
+-	Referred to as the “score,” “underscore,” or "background music".
+-	Normally originally composed for the specific film (original score).
+-	May also included preexisting music “adapted” for the film.
+
+Difference between score and sound track. Score: music written specifically for accompanying the film, usually written after the film is shot. Sound track: collection of preexisting popular songs.
+
+An example of adapting music: [The Sting](https://www.youtube.com/watch?v=FCfflhAHbT0) (1973) Music of Scott Joplin, adapted by Marvin Hamlisch.
+
+May also include preexisting music used without adaption, Example: Platoon (1986) Composer: George Deleure, also includes Samuel Barber’s Adagio for Strings (1938). Also used in The Elephant Man (1980) and Sicko (2007).
+
+Example: [Platoon](https://www.youtube.com/watch?v=QEv3zzKyiFQ) (1986) Using the “Adagio For Strings” by Samuel Barber
+
+All preexisting music, “Compiled Score.” is all music in the score are preexisting music without alteration. Such as the music used in 2001: A Space Odyssey (1968), Compiled from the works of R. Strauss, J Strauss, etc ...
+
+Now we describe the music.
+## Style
+-	what type of music has the composer chosen?
+-	what type of instruments?
+-	how do these choices relate to the film as a whole?
+
+Restoration (1995) Composer: James Newton Howard
+-	set in the mid 1600s.
+-	Score is part original part adapted, based on the work of Henry Purcell, an important composer of the period.
+-	Use of period instruments including Harpsichord.
+- [Example](https://www.youtube.com/watch?v=psna8iUfYWQ): Restoration (1995) Music by James Newton Howard, based on a theme by Henry Purcell
+
+Local Hero (1983) Composer: Mark Knopfler.
+-	plot follows an urban American in a small Scottish village.
+-	blend of folk and popular styles.
+-	emphasis on instruments such as the guitar.
+-	Knopfler developed melodies similar to Anglo Celtic folk music
+- [Example](https://www.youtube.com/watch?v=KiNSCKtfVos): Local Hero (1983) Music by Mark Knopfler
+
+The Godfather (1972) Composer: Nino Rota
+-	follows the life of an organized crime family.
+-	much of the instrumentation and melodies based on the folk music of Sicily.
+- solo brass, not military, not heroic, sounds mournful, tragic, alone.
+
+## Concept
+-	is the music used in a consistent manner throughout the film?
+-	What is accompanied? What is left without accompaniment?
+-	What “motivates” the music? Action, characters, events, objects, flashbacks, etc...
+
+Conceptual Approaches:
+Most film music will fall somewhere between two extremes:
+1.	Playing the Drama
+    -	music attempts to reinforce primarily emotional elements within the narrative.
+2.	Hitting the Action
+    -	music accents visual events: car chases and so on.
+    -	common approach to cartoon scoring.
+    -	“Mickey Mousing”.
+
+## Musical Characteristics
+1. Melody or Theme
+    -	Considered the most “recognizable” music element for western ears.
+    -	Do characters, objects or situations have a particular melody associated with them?
+    -	German Opera composer Richard Wagner – Leitmotive.
+    -	Melodies can be taken through a number of variations to tell you what is going on within a particular character – thoughts or feelings etc…
+    -	Are the melodies easy to hum, or are they “angular” and more difficult? If a melody is associated with sth positive within the film world, then it would be a bit easier to hum, smoother. More angular, harder, then on the dangerous/less desirable side. This "rule" is quite generalized...
+
+2. Tempo or Pulse: how fast does the music unfold, how quick is the beat?
+    -	How does the speed of the music influence the “tempo” of the narrative?
+    -	On-screen action, framing, editing, sound design.
