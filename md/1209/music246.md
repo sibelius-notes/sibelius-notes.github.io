@@ -116,13 +116,140 @@ Most film music will fall somewhere between two extremes:
     -	“Mickey Mousing”.
 
 ## Musical Characteristics
-1. Melody or Theme
-    -	Considered the most “recognizable” music element for western ears.
-    -	Do characters, objects or situations have a particular melody associated with them?
-    -	German Opera composer Richard Wagner – Leitmotive.
-    -	Melodies can be taken through a number of variations to tell you what is going on within a particular character – thoughts or feelings etc…
-    -	Are the melodies easy to hum, or are they “angular” and more difficult? If a melody is associated with sth positive within the film world, then it would be a bit easier to hum, smoother. More angular, harder, then on the dangerous/less desirable side. This "rule" is quite generalized...
+**Melody or Theme**
+-	Considered the most “recognizable” music element for western ears.
+-	Do characters, objects or situations have a particular melody associated with them?
+-	German Opera composer Richard Wagner – Leitmotive.
+-	Melodies can be taken through a number of variations to tell you what is going on within a particular character – thoughts or feelings etc…
+-	Are the melodies easy to hum, or are they “angular” and more difficult? If a melody is associated with sth positive within the film world, then it would be a bit easier to hum, smoother. More angular, harder, then on the dangerous/less desirable side. This "rule" is quite generalized...
 
-2. Tempo or Pulse: how fast does the music unfold, how quick is the beat?
-    -	How does the speed of the music influence the “tempo” of the narrative?
-    -	On-screen action, framing, editing, sound design.
+**Tempo or Pulse**: how fast does the music unfold, how quick is the beat?
+-	How does the speed of the music influence the “tempo” of the narrative?
+-	On-screen action, framing, editing, sound design.
+
+Example:  The Return of the King (2004) Composer: Howard Shore   
+{% include video.html path="/video/LOTR.mp4" %}
+
+**Harmony**: vertically
+-	Difficult to describe without musical training.
+-	Consonant or dissonant? Orderly or Chaotic?
+-	The major / minor scale.
+
+Examples:
+- Highly Consonant: *Main Theme* from Cider House Rules (1999) Composer: Rachael Portman
+- Blend of Consonant and Dissonant: *Yes* from Meet Joe Black (1998) Composer: Thomas Newman
+- Dissonant: *Bishop’s Countdown* from Aliens (1986) Composer: James Horner
+
+# Lecture 3
+Technical Details, How It’s Done
+
+## Basic Timetable
+of Film Production
+1.	Preproduction: planning phase, preparation: script / financing / casting / costume and set design / location scouting
+2.	Production:
+    -	finalization of script and production design
+    -	principle photography (主体拍摄): filming the actors, shooting various scenes.
+3.	Postproduction:
+    -	assembling and editing the “takes”
+    -	completion and addition of visual and audio effects
+    -	composition and addition of music
+    -	normally, an original film score is one of the final elements to be created and added to the film.
+    -	historically, schedule for the composition and recording of a score: 5 to 8 weeks on average. Although often still the case, effects-driven films often have longer post-production periods.
+
+Composer’s involvement varies based on working style and specifics of a given project.
+
+**Scripts**:
+    - can give composers a “head-start”
+    - research for “ethnic” or “historical” influences. Example: Hans Zimmer; The Last Samuri (2003)
+    - production of important source music is done at this point
+    - in general, composing the score cannot be done on the basis of a script – why?
+    - scripts can change significantly
+    - only words, no clear timing or pace for the composer to work with.
+
+**Screenings**:
+    - several different opportunities to see the film
+    - rushes: film shot that day
+    - assembly cut: significantly longer than finished film
+    - rough cut: closer to finished film, but still undergoing significant editing
+    - fine or locked cut: most if not all editing completed. This is what the composer is really waiting for, because rough cut might not be accurate in time. Basic timings will not change.
+    - most composers begin serious work at the fine cut phase
+    - concern that repeated viewings will alter the composer’s reaction
+    - timing of scenes
+
+**Spotting Session and Cue Sheets**: director, composer, music editor/music supervisor sit together, watch the films, discuss the placement of music, style of music.  Music editor takes careful notes, produces a "cue sheet"/"spotting notes". Cue: piece of music in the film. For example, music for the fight scene is a cue. In the cue sheet, we have cue number. Final category, notes, description for what the music is for, where the music goes.
+
+![there should be a image...](https://soundclass.weebly.com/uploads/2/5/7/5/25752611/8204474_orig.jpg)
+
+Pic from [https://soundclass.weebly.com/6-spotting-for-sound-design.html](https://soundclass.weebly.com/6-spotting-for-sound-design.html)
+
+**[Temp Tracks](https://www.masterclass.com/articles/what-is-temp-music-in-film#what-is-temp-music-in-film)**:
+- “temporary” music added to film while still in production or early editing.
+- gives more “finished” feeling to work in progress.
+- often taken from other film scores, or “classical” music.
+
+Composers are deeply divided on their view of temp tracks
+- offer insight into director’s thinking process.
+- BUT can influence the composer’s initial response.
+- director’s familiarity with temp track can be an obstacle.
+
+**Composing**:
+- 5 to 8 weeks until “delivery” of finished score
+- short timeline due to fixed release date
+- frequently exacerbated by production phase running overtime
+
+Generally, composers don't have time to write every note for every individual instruments. So they have *orchestrators* to help them – skilled in composition, music theory, and knowledge of the orchestra. Before going to the studio recording, we have synthesizer demonstrations. Send a paper with all different instruments written on one page to *copyist*, who produces final individual parts for musicians. *Music librarians* organize parts for recording sessions. Finally, we get conductors and studio musicians (good sight readers).
+
+Examples: Thomas Newman – [Wall-E](http://www.youtube.com/watch?v=sg7dzJgljqY&list=RD0YGbcfXF1Gs). John Williams – [The Phantom Menace](https://www.youtube.com/watch?v=EYE-mhJOm5g)
+
+## Western Classical Music History
+Check [music 254](/music/254), [music 255](/music/255), [music 256](/music/256).
+
+Baroque Period (1600-1750)
+- Key Composers: Vivaldi, Handel, Bach.
+- Development of “Common Practice” – major/minor system of music theory.
+- Musical structures most important.
+- Even tempos, consistent textures, terraced dynamics.
+- Example: J.S. Bach, “Brandenburg Concerto No. 6” 3rd Movement (1721)
+
+Classical Period (1730-1820)
+- Key Composers: Mozart, Hayden, Beethoven.
+- Greater focus on melody and emotion.
+- Expanding variety of tempo, texture and dynamics.
+- Example: W.A. Mozart, “Symphony No. 40” 1st Movement. (1788)
+
+Romantic Period (1800-1910)
+- Key Composers: Wagner, Tchaikovsky, Strauss.
+- Expression of emotion was most important.
+- Even greater range of tempo, texture and dynamics in service of emotion and narrative.
+- Example: R. Wagner, “The Magic Fire Music” from *Die Walkure* (1870)
+
+
+
+1870 is only 25 years away from the birth of motion pictures. Not surprisingly, all composers in film industry have grown up listening to people like Wagner. Indeed the birth of film music.
+
+Melodramas. In modern usage, a melodrama is a dramatic work wherein the plot, which is typically sensational and designed to appeal strongly to the emotions, takes precedence over detailed characterization (from wiki). It has a lot of music, quite unlike plays. Like early version of accompaniment for narrative film.  
+
+## The Silent Era
+1895 - 1927
+
+The Persistence of Vision. See the detailed treatment on [wiki](https://en.wikipedia.org/wiki/Persistence_of_vision). We can see continuous images. One toy: The [Zoopraxiscope](https://en.wikipedia.org/wiki/Zoopraxiscope) (1879) – project several images to present the illusion of movement.
+
+Thomas Edison:
+- The Kinetoscope (1891) Peephole viewer with a continuous loop of film. No sound.
+- The Kinetophone (1895) A kinetoscope with a phonograph installed in the box.
+- Problem with synchronization: the current technology does not line up the sound and visual image. So recording would be appropriate.
+
+First Projected Films: The Lumiere Brothers, Paris December 28<sup>th</sup>, 1895.
+“[The Arrival of a Train](https://youtu.be/1dgLEDdFddk)”
+
+Reasons for musical accompaniment:
+1. Pragmatic: mechanical noise / mechanical problems
+2. Psychoanalytic: Audience disturbed by ghost like images
+3. Continuity of Tradition: Long history of musical accompaniment for visual presentation.
+
+During the Silent Era:
+Three general approaches to music: originally composed, adaptations of classical music, arrangements of popular songs.
+
+Venues:
+- Vaudeville Theatres
+- Musical accompaniment provided by vaudeville orchestra
