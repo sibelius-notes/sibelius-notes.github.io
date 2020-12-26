@@ -250,6 +250,57 @@ Reasons for musical accompaniment:
 During the Silent Era:
 Three general approaches to music: originally composed, adaptations of classical music, arrangements of popular songs.
 
-Venues:
-- Vaudeville Theatres
-- Musical accompaniment provided by vaudeville orchestra
+**Venues**: Vaudeville Theatres. Live variety shows played in theatres. In the intermission, photoplays: short fragment in real life like one from the Lumiere Brothers. When the photoplays are on. Musical accompaniment provided by vaudeville orchestra: accompany for the show, and continue playing for the photoplays.  Very quickly, photoplays became the most popular part.
+
+1905 “Nickelodeons”, solely showed the movie.
+Music provided by piano, player piano, small ensemble or gramophone. Rarely the music has anything to do with the thing on screen.  It's very popular. 1907 – 3,000; 1910 – Over 10,000.
+
+## The Shift To Narrative
+George Melies: early experimenter with camera effects, [A Trip to the Moon](https://www.youtube.com/watch?v=kFtR9bQupak) (1902), Not the first narrative, but over ten minutes in length, multiple scenes, sets, costumes etc. early model for narrative film to come. This youtube link is colored, but colored movies didn't exist yet. George Méliès has a team, primarily women, who hand-paint each frame.
+
+1905-1910:
+- Narrative films become most important element - films become longer - plots become more complex.
+- Change in musical aesthetic from entertaining the audience to “playing the picture.” Music can support the drama and helping the audience to follow the plot. “Fitting” the picture or “Synchronizing”: align the music up.
+
+1910 – 1920s: film industry matures. The rise of Hollywood. Films become longer, more sophisticated. First of the “Movie Palaces” built, 1912. Larger Orchestras (under the stage, orchestra pit like opera) and Theatre Organs: massive electric organ, many sound effects.
+
+Some early attempts at creating original scores, but standard practice is either compilation of classical or popular music, or improvisation. 1909 – First attempt at “standardizing” musical accompaniment: Edison Film Company releases “musical suggestions” with each film. These were the first “Cue Sheets” with general scene-by-scene suggestions for musical accompaniment.
+In 1912, Max Winkler (Carl Fischer Music) suggests specific pieces of music, with timings.
+Films would be shipped with the cue sheets, might also include music.
+But problems with parts getting lost, lots of musicians involved might not like/know the pieces suggested etc. Thus this not work quite well.
+
+Sam Fox Moving Picture Music (Vol 1, 1913) J.S.Zamenik. Contain contents, which suggests music for particular scenes. [Music for Duels](https://www.youtube.com/watch?v=pupCeh1zqbo), [music for storms](https://www.youtube.com/watch?v=i5s--9Zh58Q). This hopefully makes it more consistent from theatres to theatres.
+
+Trade papers: Motion Picture World, Moving Picture World
+- articles and columns on musical accompaniment
+- musical accompaniment should be continuous. Once the film starts, music should play all way through.
+- source music. For example, if the scene is dancing, the band should play appropriate music like waltz.
+- use of themes. How theme can represent a character or setting. Thematic transformation and letimotive from Wagner.
+- “good music” (classical music) to the masses
+
+By mid 1920s – no real change:
+- vast range of performing forces and skills
+- rural (local piano teachers/record players) or urban (see (semi)professional musicians playing music)
+- missing cue sheets and scores
+- issues of “control”
+- thus completely not standardized
+
+An example: Birth of a Nation (1915). Composer/Adaptor: Joseph Carl Breil
+- remarkable influential film, becomes the norm of Hollywood films for decades in various aspects. Financial success. It is horribly racist even in 1915, huge controversy. About civil war.
+- D.W Griffith: Hollywood’s first “great” director
+- Carli Elinor – a music “fitter”
+- Breil, American born, European trained musician and composer
+- assembles a continuous score 2/3s similar to Elinor, but 1/3 original material written for the film.
+- Debut in March of 1915
+
+[EXAMPLE ONE](https://youtu.be/N_yU8rRQKoA?t=1980): Small ensemble of strings, woodwinds, brass and piano (Start 33:00)
+
+[EXAMPLE TWO](https://youtu.be/o72nGVh3t3Q?t=1920): Big orchestra (Start 32:00)
+
+First, two completely different music to the same scene result in different perceptions. Second, if in local theatre, both accompaniment would be exceptionally good for the time.
+
+[EXAMPLE THREE](https://www.dailymotion.com/video/x22m4wv): The really painful example…  (Start 29:30)
+
+This was the problem: music can be powerful for the film presentation, help the audience interpret  the film. No conceivable way to standardize the musical performance. So someone must come up with a way to record the sound and visual together, and play them back.
+
+# Lecture 4
