@@ -50,7 +50,7 @@ courses = []
 df = pd.read_csv('courses.csv',
                 names=["subject","cournum","term","audit","name", "other"],
                 delimiter=",")
-
+# now audit means: true => tex, false => md
 for index, row in df.iterrows():
     courses.append(Course(row['subject'], row['cournum'],
                     row['term'], row['audit'], row['name'], row['other']))
@@ -118,11 +118,17 @@ for c in courses:
     if not_overwrite and (course_filename in old_posts):
         continue
     f = open(course_filename, 'w')
+    notess = ""
+    if c.audit:
+        notess = "latex: /pdfs/{}/{}.pdf".format(c.term, c.file_name())
+    else:
+        notess = "md: /md/{}/{}/".format(c.term, c.file_name())
     write_str = """---\nlayout: post
 title: {}
 term: {}
 subject: {}
 hide: {}
+{}
 redirect_from:
     - /{}/{}
     - /{}/{}/
@@ -132,7 +138,7 @@ feature_image: "https://picsum.photos/2560/600?image=875"
 feature_text: |
     <h2 style="color:white;"> {} </h2>
 ---
-""".format(c.get_course_name(), c.term, c.subject, str(c.audit).lower(),
+""".format(c.get_course_name(), c.term, c.subject, "true", notess
             c.subject, str(c.num), c.subject, str(c.num), c.subject.upper(), str(c.num), c.subject.upper(), str(c.num),
             c.name) # by default, hide the audit courses
     if not (c.other == 'me'):
