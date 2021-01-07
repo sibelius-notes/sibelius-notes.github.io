@@ -304,3 +304,4 @@ First, two completely different music to the same scene result in different perc
 This was the problem: music can be powerful for the film presentation, help the audience interpret  the film. No conceivable way to standardize the musical performance. So someone must come up with a way to record the sound and visual together, and play them back.
 
 # Lecture 4
+## Transition to Sound
