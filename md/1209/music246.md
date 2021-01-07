@@ -305,3 +305,30 @@ This was the problem: music can be powerful for the film presentation, help the 
 
 # Lecture 4
 ## Transition to Sound
+Solution to the problems of musical accompaniment – recorded and synchronized sound.
+
+In fact, almost a decade for the transition, late 1920s, early 1930s, sound and silent films existed together. Why big time lag? Economics. Expansive for the equipment, small theatres can't afford. It may be weird that there were a lot of people who didn't like sound films, sound films were a fad, novelty, they didn't get used to it. 1920s, driven by progress in recording technology. Demonstrations of sound films as early as 1922.
+
+Several competing systems emerge - the two primary approaches are:
+1. Sound On Film (Phonofilm, Movietone). Photograph of sound waves on the edge of the film
+    - excellent synchronization. Because both the visual image and the sound were being recorded on the single piece of media, the film strip.
+    - poor audio quality. 1920s, new experimental way of recording sound.
+2. Sound on Disk (Warner Brothers' Vitaphone). The sound on giant records. By 1920s, records has been around for a couple of decades. Audio recording on a phonograph disk, synchronized with the film projector - excellent audio quality, poor synchronization. Vitaphone requites two devices, projector and record players. Also, disks are fragile.
+
+As we moved to mid 1920s, Vitaphone became popular: the audio quality is much better. In 1926, Warner Bros releases a feature length motion picture: Don Juan.
+- Recorded score primarily by William Axt, performed by the New York Philharmonic Orchestra.
+- Vitaphone – recorded music and some generalized sound effects. No dialog, still a silent film.
+- Also had a second score composed for “live” performance, because very few theatres have Vitaphone systems.
+- Even though no recorded dialogue, still big hit.
+
+The Jazz Singer (1927), first talking  motion picture.
+- primarily silent, with several minutes of synchronized sound through Vitaphone.
+- most of the score is compiled or adapted.
+
+{% include video.html path="/video/The Jazz Singer.mp4" %}
+
+Quite astonishing for the audience at that time. Big gap before the dialogue, and after, which is because the projectionist needs to switch the records. Also notice how stilted the dialogue is. No script writers, the actor is improvising, sound films do not exist. Barely no camera motion: cameras were noisy. Also, the actor cannot move very far because of the position of the mic. Moreover, the actor is not really playing the piano.
+
+Thus still conventionally silent film. Nevertheless, a financial hit. It signaled the “beginning of the end” of the silent era. Sound on Disk has the early lead, but Sound on Film will become the standard by the early 1930s. Sound on Film has surpassed the audio quality of Vitaphone.
+
+Now we enter the transition era, 1927 <span>&#92;(\to &#92;)</span> 1931 or 1932.
