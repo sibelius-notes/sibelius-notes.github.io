@@ -332,3 +332,20 @@ Quite astonishing for the audience at that time. Big gap before the dialogue, an
 Thus still conventionally silent film. Nevertheless, a financial hit. It signaled the “beginning of the end” of the silent era. Sound on Disk has the early lead, but Sound on Film will become the standard by the early 1930s. Sound on Film has surpassed the audio quality of Vitaphone.
 
 Now we enter the transition era, 1927 <span>&#92;(\to &#92;)</span> 1931 or 1932.
+Let's talk about how the change to sound alters the approach to make motion pictures.
+1. **Aesthetics**. E.g., how does one act in the featured films. In silent films, one attempted to be overly dramatic with facial expressions or gestures, because no lines. Now they can say lines, so these old ways of acting look silly. Issue for industry: actors need to retool their acting skill. Another issue is the voices: decent voice is not necessary for silent films. In sound films, some of their voices are completely inappropriate. Also, a debate: Many worried about using none-diegetic music: “Where does the music come from?”
+2. **Making films**.
+    - all sound had to be recorded in real time. Postproduction does not happen straightaway.
+    - musicians on set – balance of sound music and dialog. When actor is playing, musicians have to play the music.
+    - cameras in large soundproof booths (because it is loud) – no movement.
+    - “sound stages” (expensive) are built to reduce/isolate outside noises
+3. **Showing Films**. Exhibition.
+    - Too many contesting sound systems. Vitaphone competes with sound on film system.
+    - Small number of the 20,000 theaters equipped for sound.
+    - end of 1929 almost 1000 theatres equipped for sound.
+    - by 1935 the transition is complete.
+    - See examples from *Singin' In The Rain* which describes issues with filming and exhibition.
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OTFCctdiS04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YMzV96LV6Cc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+4. **Industry Reorganization**. The costs become higher for sound films so film industries are looking for ways to save money: All aspects of production are departmentalized – directors, actors, and musicians are put under contract – Leads to the STUDIO SYSTEM. Cost and control. Conglomeration: larger companies buy smaller. *The "Big" Five*: MGM, Paramount, Warner Brothers, 20<sup>th</sup> Century Fox (1935), and RKO. *The “Little” 3* – Universal, Colombia, and United Artists. Both of them have bought everything they need to produce a film, but the "big" five owns distribution network and exhibition locations. Issue: monopoly when controlling all three: production, distribution, exhibition.
