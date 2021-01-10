@@ -359,10 +359,36 @@ Let's talk about how the change to sound alters the approach to make motion pict
 - one of his teachers was Gustav Mahler
 - wrote operettas, first by age 17
 - also worked as composer and conductor of music for stage in England.
-- facing deportation because of WWI Comes to US in 1914
-    - worked on Broadway for 15 years.
-    - In 1916 Steiner composes a score for a silent film (The Bondman)
-    - Invited to Hollywood in 1929, Rio Rita
-    - problems with actors’ voices - Hollywood turns to Broadway.
-    - 1929 production of musicals and theatrical reviews.
-    - Rio Rita / Broadway Melody
+- facing deportation because of WWI Comes to US in 1914. In WWI, England was on one side, Austria was on the other and Max is Austrian.
+
+He worked on Broadway for 15 years.
+In 1916 Steiner composes a score for a silent film (The Bondman)
+Invited to Hollywood in 1929, Rio Rita.
+Problems with actors’ voices - Hollywood turns to Broadway. Broadway is full of great actors with great voices. Recall many actors in Hollywood don't have good voices, so Hollywood starts raiding Broadway for acting talent. Hollywood also needs to figure out how to write scripts. Then massive number of films are based on Broadway musicals.
+Broadway Melody is a successful film based on Broadway musical. On its poster: talking/singing/dancing.
+By 1930, little music in dramatic films – “where does it come from?” non-diegetic music will confuse the audience.
+Cimarron (1931) Score by Max Steiner. Quite a bit source music in the film. Innovative ways of approaching the music.
+David Selznick, producer at RKO recognized that more music might be good.
+(1932) *Symphony of 6 Million*, and *Bird of Paradise*. Continuous orchestral music, music well received by audience.
+
+The turning point (1933): King Kong. Selling point, on the highest building. Early test audiences: The special effects look terrible, laughing instead of screaming. Still little music in the film. Afraid of losing money, the director convinced  the studio to let Max Steiner write a lot of music. He wrote the score in 2 weeks. With his music this time, the audience screams.
+
+**VE4 King Kong – The Fog**
+
+{% include video.html path="/video/King Kong-The Fog.mp4" %}
+
+between consonant and dissonant, mystery. Music used to indicate a transition from the normal world to the realm of the supernatural. Arrives at island, music shifts: view of the beach – Kong’s theme in an early distant form – lack of distinction between diegetic and none-diegetic music.
+
+**VE5 King Kong – The Dance**
+
+{% include video.html path="/video/King Kong - The Dance.mp4" %}
+
+Music for the ceremonial dance uses a full orchestra, yet only drums are visible on film. Broadway influence to Max Steiner in this scene. Also, we see “[mickey mousing](https://en.wikipedia.org/wiki/Mickey_Mousing)” with the chief’s walk down the steps, tuba and low basses perfectly synchronized.
+
+Another example of Max Steiner. **VE6: The Informer – Opening**
+
+{% include video.html path="/video/The Informer - Opening.mp4" %}
+
+Folk-influenced theme for Gypo. Jazz-Influenced theme for Katie. Musical quotes – ‘Rule Britannia’. Won Academy award for “Best Original Score”.
+
+Then he moved to Warner Brothers. 300+ film scores.
