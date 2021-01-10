@@ -1,3 +1,4 @@
+{% if include.style %}
 <style>
     .embed-container {
       position: relative;
@@ -6,7 +7,7 @@
       overflow: hidden;
       max-width: 100%;
     }
-    
+
     .embed-container video, .embed-container object, .embed-container embed {
       position: absolute;
       top: 0;
@@ -15,7 +16,7 @@
       height: 100%;
     }
 </style>
-
+{% endif %}
 
 <div class="embed-container">
 <video width="700" height="480" controls>

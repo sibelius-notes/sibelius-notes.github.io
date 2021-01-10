@@ -13,7 +13,7 @@ And I’ll see you again in Part B.
 ## Part B: Our First Scene
 This is the music written specifically for the scene. The film has already been chopped and the composer was writing music while watching the film on fold. The composer has synchronized the music they have written to what goes on within the scene. Watch the scene with the sound off. Then listen to the music with the sound on. VIDEO EXAMPLE 1-Apollo 13.
 
-{% include video.html path="/video/Video Example 1-Apollo 13.mp4" %}
+{% include video.html style="true" path="/video/Video Example 1-Apollo 13.mp4" %}
 
 The first part shows the wife of one of the astronauts in a hotel. She is nervous cause her husband is going to the moon. She's scared that he's never come back. While she's in the shower, the wedding ring slides off her finger and goes down the drain. It manifests the wife's fear of losing her husband. No music during shower scene. Why?
 - Small, intimate scene. Music would risk over-dramatizing.
@@ -346,6 +346,23 @@ Let's talk about how the change to sound alters the approach to make motion pict
     - by 1935 the transition is complete.
     - See examples from *Singin' In The Rain* which describes issues with filming and exhibition.
     <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OTFCctdiS04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YMzV96LV6Cc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="700" height="480" src="https://www.youtube.com/embed/OTFCctdiS04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="700" height="480" src="https://www.youtube.com/embed/YMzV96LV6Cc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 4. **Industry Reorganization**. The costs become higher for sound films so film industries are looking for ways to save money: All aspects of production are departmentalized – directors, actors, and musicians are put under contract – Leads to the STUDIO SYSTEM. Cost and control. Conglomeration: larger companies buy smaller. *The "Big" Five*: MGM, Paramount, Warner Brothers, 20<sup>th</sup> Century Fox (1935), and RKO. *The “Little” 3* – Universal, Colombia, and United Artists. Both of them have bought everything they need to produce a film, but the "big" five owns distribution network and exhibition locations. Issue: monopoly when controlling all three: production, distribution, exhibition.
+
+## Max Steiner
+1888 - 1971
+- 1888: still at the end/height European romantic era
+- born in Vienna (center of European classical music, the city of musicians), middle class, father owned a theatre
+- formally trained in the tradition of European classical music.
+- child prodigy – conducting in theatre by 12 – touring as a conductor by 16
+- one of his teachers was Gustav Mahler
+- wrote operettas, first by age 17
+- also worked as composer and conductor of music for stage in England.
+- facing deportation because of WWI Comes to US in 1914
+    - worked on Broadway for 15 years.
+    - In 1916 Steiner composes a score for a silent film (The Bondman)
+    - Invited to Hollywood in 1929, Rio Rita
+    - problems with actors’ voices - Hollywood turns to Broadway.
+    - 1929 production of musicals and theatrical reviews.
+    - Rio Rita / Broadway Melody
