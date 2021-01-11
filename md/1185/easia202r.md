@@ -84,7 +84,7 @@ The Political System of China
 - Up: China National-Level Political Power Structure as Described in Chapter 3 of the 1982 State Constitution
 - Down: China’s Political Structure as Implemented: The Communist Party sits atop China’s political power structure, controls all political institutions, and commands the military
 
-## Chinese History & Civilization
+# Chinese History & Civilization
 In which regions of the world did the early civilizations begin?
 1.    The Nile River Valley Civilization (Egypt; 3500BC)
 2.    The Tigris/Euphrates Rivers Valley Civilization (Mesopotamia; 3500BC)
