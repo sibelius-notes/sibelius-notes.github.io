@@ -48,8 +48,8 @@ paginate_path: crs/page:num
 navigation_header:
 - title: Home
   url: /
-- title: All-Crs
-  url: /crs/
+# - title: All-Crs
+#   url: /crs/
 - title: Subject
   url: /subject/
 - title: Term
