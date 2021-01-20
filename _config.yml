@@ -1,76 +1,17 @@
-# Set theme
-remote_theme: daviddarnes/alembic
-
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-- markdown/my-layout/page.html
-- markdown/*/*.md
-#- *.bak
-#- google*
-
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jemoji
-- jekyll-remote-theme
-#- custom_permalink
-
-# Site settings
-url: 'https://notes.sibeliusp.com' # now just assume it won't change. This is for sitemap.xml
-baseurl: ''
-title: 'Sibelius Peng'
-description: 'Lecture Notes'
-#permalink: pretty
-permalink: /:short_year-:month/:title/
-logo: "/logo-350.jpg"
-email: "plc1101@163.com"
+name: Lecture Notes
 author: Sibelius Peng
+url: "https://notes.sibeliusp.com"
+baseurl: ""
+plugins:
+    - jekyll-paginate
+    - jekyll-sitemap
+permalink: /:title
+paginate: 12
+paginate_path: "/page/:num/"
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+highlighter: rouge
+markdown: kramdown
 
-contact:
-  email:      plc1101@163.com
-  github:     https://github.com/Sibelius-6
-  linkedin:   https://www.linkedin.com/in/sibelius-peng-595b27163/
-
-# Pagination
-paginate: 5
-paginate_path: crs/page:num
-
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-# - title: All-Crs
-#   url: /crs/
-- title: Subject
-  url: /subject/
-- title: Term
-  url: /term/
-- title: Search
-  url: /search/
-- title: Other
-  url: /other/
-- title: Contact
-  url: /contact/
-
-
-# Footer nav
-navigation_footer:
-- title: Back to home
-  url: "/"
-
-
-
-
-# Collections
 collections:
   posts:
     title: Posts
@@ -83,10 +24,6 @@ collections:
     title: Subjects
     output: true
 
-
-
-
-
 defaults:
   - scope:
       path: ""
@@ -98,19 +35,3 @@ defaults:
       type: "subject"
     values:
       layout: subjectsss
-
-
-
-
-# Site favicons
-# favicons:
-#   16: '/favicon.png'
-#   32: '/favicon.png'
-#   48: '/favicon.png'
-#   64: '/favicon.png'
-#   96: '/favicon.png'
-#   120: '/favicon.png'
-#   144: '/favicon.png'
-#   180: '/favicon.png'
-#   512: '/favicon.png'
-#   1024: '/favicon.png'
