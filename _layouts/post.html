@@ -24,7 +24,6 @@ layout: default
             {% else %}
             {% assign random = site.time | date: "%s%N" | plus: page.title.size | modulo: site.data.quotes.size %}
             &ldquo;{{ site.data.quotes[random].quote }}&rdquo; <br> &mdash;  <cite>{{ site.data.quotes[random].author }}</cite>
-            no table of contents...
             {% endif %}
         </div>
 
