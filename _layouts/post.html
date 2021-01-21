@@ -16,16 +16,18 @@ layout: default
 </article>
 <div class="main-container">
     <div class="post-container">
-        
+
         <div class="navigation" id="navigation">
             {% if page.toc %}
             <h1>Contents</h1>
             <ul class="nav sidenav"></ul>
             {% else %}
+            {% assign random = site.time | date: "%s%N" | plus: page.title.size | modulo: site.data.quotes.size %}
+            &ldquo;{{ site.data.quotes[random].quote }}&rdquo; <br> &mdash;  <cite>{{ site.data.quotes[random].author }}</cite>
             no table of contents...
             {% endif %}
         </div>
-        
+
         <article class="post-content">
             {% if page.latex %}
             <p><i class="far fa-hand-point-right" style="font-style: normal;"></i> <a href="{{ page.latex }}" style="background-image:none" target="_blank"><i class="fas fa-file-pdf" style="font-style: normal;"></i> notes</a></p>
