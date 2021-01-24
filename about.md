@@ -16,7 +16,7 @@ Also, check my [blogs](https://blog.sibeliusp.com) and check my [home page](http
 
 Most of these notes are written in their entirety by me, [Sibelius Peng](https://sibeliusp.com), while attending lectures at the University of Waterloo. I have no intentions of violating any UW policies and will gladly honour takedown notices produced by an authorized UW representative. They are by no means authoritative so use at your own peril.
 
-The course thumbnails are either from learn site, which the instructor uploads for the course, or from internet.
+The course thumbnails are either from learn site, which the instructor uploads for the course, or from the internet.
 ## Miscellaneous
 [Courses dependency graph](/courses_dependency/) (currently unavailable).
 
