@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Contact me
+redirect_from: /contact/
 nodate: true
 ---
 <style type="text/css">

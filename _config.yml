@@ -5,6 +5,7 @@ baseurl: ""
 plugins:
     - jekyll-paginate
     - jekyll-sitemap
+    - jekyll-redirect-from
 permalink: /:title
 paginate: 12
 paginate_path: "/page/:num/"
