@@ -10,7 +10,11 @@ toc: True
 ## About
 This website contains Lecture Notes only, as well as my thoughts regarding the courses. To get started, either take a walk on the homepage or check the top nav bar.
 
+Note that the lecture notes of some courses are quite incomplete because they just serve to give you a taste what the course is about.
+
 Also, check my [blogs](https://blog.sibeliusp.com) and check my [home page](https://sibeliusp.com).
+
+
 
 ## Disclaimer
 

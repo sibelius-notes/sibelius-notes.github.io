@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign subs = site.posts | map: "subject" | uniq | sort %}
+<div class="main-content archive-page clearfix">
+    <div class="categorys-item">
+        <div class="post-lists">
+            <div class="post-lists-body">
+                {% for s in subs %}
+                <div class="post-list-item">
+                    <div class="post-list-item-container">
+                        <div class="item-label">
+                            <div class="item-title"><a href="/subject/{{ s }}">{{ s | upcase }}</a></div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
