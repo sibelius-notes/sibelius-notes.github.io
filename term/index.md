@@ -1,5 +1,4 @@
 ---
-title: Term
 layout: default
 title: Sort by terms
 ---
