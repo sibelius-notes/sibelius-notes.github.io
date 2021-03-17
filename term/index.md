@@ -125,6 +125,14 @@ title: Sort by terms
       flex-grow: initial;
     }
 
+    .active-crs:hover {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ffb238' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+      background-position: 0 100%;
+      background-size: auto 6px;
+      background-repeat: repeat-x;
+      text-decoration: none;
+    }
+
 </style>
 
 <div class="main-content archive-page clearfix">
@@ -137,7 +145,7 @@ title: Sort by terms
     {% for c in courses %}
         <div class="item-title search-item">
         {% assign num = c.title | split: " - " | first %}
-        <a href="{{ c.url }}">{{ num }}</a>
+        <a href="{{ c.url }}" {% if c.active %}class="active-crs"{% endif %}>{{ num }}</a>
         </div>
     {% endfor %}
     </div>
