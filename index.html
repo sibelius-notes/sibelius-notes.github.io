@@ -22,7 +22,8 @@ layout: default
                         <div class="post-data"><a href="{{ post.term | prepend: '/term/' | prepend: site.baseurl }}">{% include term_fun.html ttt=post.term %}</a></div>
                         </div>
                         <div class="item-meta clearfix">
-                            <div class="item-meta-ico {% if post.icon %}bg-ico-{{ post.icon }}{% else %}bg-ico-book{% endif %}" style="background: url({{ '/style/image/bg-ico.png' | prepend: site.baseurl }}) no-repeat;background-size: 40px auto;"></div>
+                            <!--div class="item-meta-ico {% if post.icon %}bg-ico-{{ post.icon }}{% else %}bg-ico-book{% endif %}" style="background: url({{ '/style/image/bg-ico.png' | prepend: site.baseurl }}) no-repeat;background-size: 40px auto;"></div-->
+                            <div class="item-meta-ico" style="background: url('/style/image/icons/{{ post.subject }}.png') no-repeat;background-size: 40px auto;"></div>
                             <div class="item-meta-cat">
                                 <a href="{{ post.subject | prepend: '/subject/' | prepend: site.baseurl }}">{{ post.subject | upcase }}</a>
                             </div>
