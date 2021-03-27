@@ -1,6 +1,6 @@
 ---
 subject: rec
-title: REC
+title: Recreation and Leisure Studies
 redirect_from:
     - /subject/rec/
     - /rec

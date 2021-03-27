@@ -1,6 +1,6 @@
 ---
 subject: integ
-title: INTEG
+title: Knowledge Integration
 redirect_from:
     - /subject/integ/
     - /integ

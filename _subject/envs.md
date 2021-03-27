@@ -1,6 +1,6 @@
 ---
 subject: envs
-title: ENVS
+title: Environmental Studies
 redirect_from:
     - /subject/envs/
     - /envs

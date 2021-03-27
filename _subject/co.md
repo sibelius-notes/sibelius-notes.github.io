@@ -1,6 +1,6 @@
 ---
 subject: co
-title: CO
+title: Combinatorics and Optimization
 redirect_from:
     - /subject/co/
     - /co

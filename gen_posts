@@ -57,22 +57,22 @@ subjects = set(list(df['subject']))
 
 
 
-for subject in subjects:
-    subject_filename = '_subject/' + subject + '.md'
-    f = open(subject_filename, 'w')
-    write_str = """---\nsubject: {}
-title: {}
-redirect_from:
-    - /subject/{}/
-    - /{}
-    - /{}/
-    - /{}
-    - /{}/
----
-""".format(subject, subject.upper(), subject,
-            subject, subject, subject.upper(), subject.upper())
-    f.write(write_str)
-    f.close()
+# for subject in subjects:
+#     subject_filename = '_subject/' + subject + '.md'
+#     f = open(subject_filename, 'w')
+#     write_str = """---\nsubject: {}
+# title: {}
+# redirect_from:
+#     - /subject/{}/
+#     - /{}
+#     - /{}/
+#     - /{}
+#     - /{}/
+# ---
+# """.format(subject, subject.upper(), subject,
+#             subject, subject, subject.upper(), subject.upper())
+#     f.write(write_str)
+#     f.close()
 
 old_posts = glob.glob('_posts/*.md')
 
@@ -96,8 +96,8 @@ icon: chat
 {}
 thumbnail: "https://picsum.photos/2560/600?image=875"
 ---
-""".format(c.get_course_name() + " - " + c.name, 
-            c.term, c.subject, notess) 
+""".format(c.get_course_name() + " - " + c.name,
+            c.term, c.subject, notess)
     f.write(write_str)
     f.close()
     print(i, ', NEW: ', c.get_course_name())

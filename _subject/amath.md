@@ -1,6 +1,6 @@
 ---
 subject: amath
-title: AMATH
+title: Applied Mathematics
 redirect_from:
     - /subject/amath/
     - /amath

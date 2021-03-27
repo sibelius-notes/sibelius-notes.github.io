@@ -3,6 +3,7 @@ layout: default
 title: Sort by subjects
 ---
 {% assign subs = site.posts | map: "subject" | uniq | sort %}
+{% assign subs = site.subject %}
 <div class="main-content archive-page clearfix">
     <div class="categorys-item">
         <div class="post-lists">
@@ -11,7 +12,10 @@ title: Sort by subjects
                 <div class="post-list-item">
                     <div class="post-list-item-container">
                         <div class="item-label">
-                            <div class="item-title"><a href="/subject/{{ s }}">{{ s | upcase }}</a></div>
+                            <div class="item-title"><a href="/subject/{{ s.subject }}">{{ s.subject | upcase }}</a></div>
+                            <div class="item-meta clearfix">
+                                <div class="item-meta-date"> {{ s.title }} </div>
+                            </div>
                         </div>
                     </div>
                 </div>

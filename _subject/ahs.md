@@ -1,6 +1,6 @@
 ---
 subject: ahs
-title: AHS
+title: Applied Health Sciences
 redirect_from:
     - /subject/ahs/
     - /ahs

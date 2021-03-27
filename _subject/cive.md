@@ -1,6 +1,6 @@
 ---
 subject: cive
-title: CIVE
+title: Civil Engineering
 redirect_from:
     - /subject/cive/
     - /cive

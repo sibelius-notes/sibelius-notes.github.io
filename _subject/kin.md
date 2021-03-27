@@ -1,6 +1,6 @@
 ---
 subject: kin
-title: KIN
+title: Kinesiology
 redirect_from:
     - /subject/kin/
     - /kin

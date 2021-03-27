@@ -1,6 +1,6 @@
 ---
 subject: cs
-title: CS
+title: Computer Science
 redirect_from:
     - /subject/cs/
     - /cs

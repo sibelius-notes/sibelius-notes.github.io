@@ -1,6 +1,6 @@
 ---
 subject: psych
-title: PSYCH
+title: Psychology
 redirect_from:
     - /subject/psych/
     - /psych
