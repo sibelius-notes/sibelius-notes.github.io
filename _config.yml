@@ -9,7 +9,7 @@ plugins:
 permalink: /:title
 paginate: 12
 paginate_path: "/page/:num/"
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'LICENSE', 'update', 'gen_posts', 'courses.csv']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'LICENSE', 'update', 'gen_posts', 'courses.csv', '*.py']
 highlighter: rouge
 markdown: kramdown
 

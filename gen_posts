@@ -63,12 +63,13 @@ for subject in subjects:
     write_str = """---\nsubject: {}
 title: {}
 redirect_from:
+    - /subject/{}/
     - /{}
     - /{}/
     - /{}
     - /{}/
 ---
-""".format(subject, subject.upper(), 
+""".format(subject, subject.upper(), subject,
             subject, subject, subject.upper(), subject.upper())
     f.write(write_str)
     f.close()
