@@ -1,6 +1,6 @@
 ---
 subject: geog
-title: Geography and Environmental Management
+title: Geography & Environmental Management
 redirect_from:
     - /subject/geog/
     - /geog
