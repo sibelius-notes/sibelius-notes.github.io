@@ -26,7 +26,6 @@ nodate: true
 	width: 100px;
 	font-weight: bold;
 	float: left;
-	padding-top: 8px;
 	padding-right: 5px;
 }
 .form-style-2 span.required{

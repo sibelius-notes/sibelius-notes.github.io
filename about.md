@@ -2,6 +2,7 @@
 layout: post
 title: About site
 nodate: true
+redirect_from: /about/
 toc: True
 ---
 * content
@@ -28,7 +29,7 @@ Cute color icons for each subject are taken from
 
  <a href="/pdf" style="background-image:none" target="_blank"><i class="fas fa-file-pdf" style="font-style: normal;"></i></a>
      and  <a href="/mdf" style="background-image:none" target="_blank"><i class="fab fa-markdown" style="font-style: normal;"></i></a> contain the
-    collections of pdf notes and markdown notes respectively. Also, check my [LaTeX tricks](https://latex.sibeliusp.com).
+    collections of pdf notes and markdown notes respectively. My [LaTeX tricks](https://latex.sibeliusp.com).
 
 Some other notes you might find useful: <a href="http://www.iris-jiang.com//////////////lec-notes" target="_blank">I. Jiang</a>.
 
