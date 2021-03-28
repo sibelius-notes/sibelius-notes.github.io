@@ -8,7 +8,7 @@ nodate: true
 .form-style-2{
 	max-width: 500px;
 	padding: 20px 12px 10px 20px;
-	font: 13px Arial, Helvetica, sans-serif;
+	font-size: 13px;
 }
 .form-style-2-heading{
 	font-weight: bold;
@@ -37,11 +37,11 @@ nodate: true
 	text-align: center;
 }
 .form-style-2 input.input-field, .form-style-2 .select-field{
-	width: 48%;	
+	width: 48%;
 }
-.form-style-2 input.input-field, 
-.form-style-2 .tel-number-field, 
-.form-style-2 .textarea-field, 
+.form-style-2 input.input-field,
+.form-style-2 .tel-number-field,
+.form-style-2 .textarea-field,
  .form-style-2 .select-field{
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -56,8 +56,8 @@ nodate: true
 	padding: 7px;
 	outline: none;
 }
-.form-style-2 .input-field:focus, 
-.form-style-2 .tel-number-field:focus, 
+.form-style-2 .input-field:focus,
+.form-style-2 .tel-number-field:focus,
 .form-style-2 .textarea-field:focus,  
 .form-style-2 .select-field:focus{
 	border: 1px solid #0C0;
@@ -98,6 +98,10 @@ nodate: true
   <label for="field5">
     <span>Message <span class="required">*</span></span>
     <textarea name="message"  class="textarea-field"></textarea>
+  </label>
+  <label for="field6">
+    <span>File</span>
+    <input type="file" name="upload">
   </label>
 
   <!-- your other form fields go here -->
