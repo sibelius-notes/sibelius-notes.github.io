@@ -98,13 +98,6 @@ nodate: true
     <span>Message <span class="required">*</span></span>
     <textarea name="message"  class="textarea-field"></textarea>
   </label>
-  <label for="field6">
-    <span>File</span>
-    <input type="file" name="upload">
-  </label>
-
-  <!-- your other form fields go here -->
-
   <label><span> </span><input type="submit" value="Submit" /></label>
 </form>
 </div>
