@@ -143,15 +143,17 @@ title: Sort by terms
     {% assign courses = site.posts | where: "term", t.term %}
     <div class="search-container">
     {% for c in courses %}
+        {% unless c.hide %}
         <div class="item-title search-item">
         {% assign num = c.title | split: " - " | first %}
         <a href="{{ c.url }}" {% if c.active %}class="active-crs"{% endif %}>{{ num }}</a>
         </div>
+        {% endunless %}
     {% endfor %}
     </div>
 
     <div style="text-align:right;position: absolute;bottom: 0; right: 0; font-size:80%; padding-right:1em;">
-    <a href="{{ t.url }}" class="post-tag">more details</a>
+    <a href="{{ t.url }}" class="post-tag">more courses</a>
     </div>
     </div>
     {% unless t.term == 1179 %}
