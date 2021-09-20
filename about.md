@@ -31,8 +31,9 @@ Cute color icons for each subject are taken from
      and  <a href="/mdf" style="background-image:none" target="_blank"><i class="fab fa-markdown" style="font-style: normal;"></i></a> contain the
     collections of pdf notes and markdown notes respectively. My [LaTeX tricks](https://latex.sibeliusp.com).
 
-Some other notes you might find useful: 
+Some other notes you might find useful:
 - <a href="http://david-duan.me/course-notes/" target="_blank">David Duan</a>
+- <a href="https://hextical.github.io/university-notes/" target="_blank">Cameron's Notes</a>
 - <a href="http://www.iris-jiang.com//////////////lec-notes" target="_blank">I. Jiang</a>
 
 Last updated: {% include ts.html %}
