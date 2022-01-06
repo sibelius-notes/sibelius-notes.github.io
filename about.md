@@ -34,6 +34,6 @@ Cute color icons for each subject are taken from
 Some other notes you might find useful:
 - <a href="http://david-duan.me/course-notes/" target="_blank">David Duan</a>
 - <a href="https://hextical.github.io/university-notes/" target="_blank">Cameron's Notes</a>
-- <a href="http://www.iris-jiang.com//////////////lec-notes" target="_blank">I. Jiang</a>
+
 
 Last updated: {% include ts.html %}
