@@ -17,6 +17,14 @@ toc: True
 
 &ldquo;Woah... Your CS 479 notes have some nice diagrams.<br> &mdash;  <cite>[Cameron](https://hextical.github.io/)</cite>
 
+&ldquo;I read through some of your notes (particularly the CS 146 one) and I thought that they're really well made!<br> &mdash;  <cite>[Laith](https://aquabeam.me/)</cite>
+
+&ldquo;Your CO 456 notes have been very helpful.<br> &mdash;  <cite>Samka</cite>
+
+&ldquo;Your CO 466 notes are a lifesaver.<br> &mdash;  <cite>Victor</cite>
+
+&ldquo;Your notes is super detailed, containing every word in the lecture, especially for CS 350 and CS 482.<br> &mdash;  <cite>Wakeup</cite>
+
 ## About
 This website contains Lecture Notes only, as well as my thoughts regarding the courses. To get started, either take a walk on the homepage or check the top nav bar.
 
