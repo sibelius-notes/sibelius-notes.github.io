@@ -8,7 +8,12 @@ toc: True
 * content
 {:toc}
 
-![cover](/cover.png)
+## Reviews
+&ldquo;Your notes are super useful, especially for CO 331 and CO 487.&rdquo; <br> &mdash;  <cite>Iris Jiang</cite>
+
+&ldquo;When I don't have time to watch MUSIC 140 lectures, I just read through your notes.&rdquo; <br> &mdash;  <cite>Bella Liu</cite>
+
+&ldquo;Someone buy this man a beer!&rdquo; <br> &mdash;  <cite>[Tomáš Vávra](http://kmlinux.fjfi.cvut.cz/~vavrato5/)</cite>
 
 ## About
 This website contains Lecture Notes only, as well as my thoughts regarding the courses. To get started, either take a walk on the homepage or check the top nav bar.
