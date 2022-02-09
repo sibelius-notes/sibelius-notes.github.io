@@ -13,7 +13,9 @@ toc: True
 
 &ldquo;When I don't have time to watch MUSIC 140 lectures, I just read through your notes.&rdquo; <br> &mdash;  <cite>Bella Liu</cite>
 
-&ldquo;Someone buy this man a beer!&rdquo; <br> &mdash;  <cite>[Tomáš Vávra](http://kmlinux.fjfi.cvut.cz/~vavrato5/)</cite>
+&ldquo;Someone buy this man a beer!&rdquo; from PMATH 334 piazza <br> &mdash;  <cite>[Tomáš Vávra](http://kmlinux.fjfi.cvut.cz/~vavrato5/)</cite>
+
+&ldquo;Woah... Your CS 479 notes have some nice diagrams.<br> &mdash;  <cite>[Cameron](https://hextical.github.io/)</cite>
 
 ## About
 This website contains Lecture Notes only, as well as my thoughts regarding the courses. To get started, either take a walk on the homepage or check the top nav bar.
