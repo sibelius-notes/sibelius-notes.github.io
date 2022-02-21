@@ -15,7 +15,7 @@ toc: True
 
 &ldquo;Someone buy this man a beer!&rdquo; from PMATH 334 piazza <br> &mdash;  <cite>[Tomáš Vávra](http://kmlinux.fjfi.cvut.cz/~vavrato5/)</cite>
 
-&ldquo;Woah... Your CS 479 notes have some nice diagrams.<br> &mdash;  <cite>[Cameron](https://hextical.github.io/)</cite>
+&ldquo;Woah... Your CS 479 notes have some nice diagrams.&rdquo;<br> &mdash;  <cite>[Cameron](https://hextical.github.io/)</cite>
 
 &ldquo;I read through some of your notes (particularly the CS 146 one) and I thought that they're really well made!&rdquo;<br> &mdash;  <cite>[Laith](https://aquabeam.me/)</cite>
 
