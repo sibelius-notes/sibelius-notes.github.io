@@ -9,9 +9,9 @@ toc: True
 {:toc}
 
 ## Reviews
-&ldquo;Your notes are super useful, especially for CO 331 and CO 487.&rdquo; <br> &mdash;  <cite>Iris Jiang</cite>
+&ldquo;Your notes are super useful, especially for CO 331 and CO 487.&rdquo; <br> &mdash;  <cite>Iris</cite>
 
-&ldquo;When I don't have time to watch MUSIC 140 lectures, I just read through your notes.&rdquo; <br> &mdash;  <cite>Bella Liu</cite>
+&ldquo;When I don't have time to watch MUSIC 140 lectures, I just read through your notes.&rdquo; <br> &mdash;  <cite>Bella</cite>
 
 &ldquo;Someone buy this man a beer!&rdquo; from PMATH 334 piazza <br> &mdash;  <cite>[Tomáš Vávra](http://kmlinux.fjfi.cvut.cz/~vavrato5/)</cite>
 
@@ -24,6 +24,8 @@ toc: True
 &ldquo;Your CO 466 notes are a lifesaver.&rdquo;<br> &mdash;  <cite>Victor</cite>
 
 &ldquo;Your notes is super detailed, containing every word in the lecture, especially for CS 350 and CS 482.&rdquo;<br> &mdash;  <cite>Wakeup</cite>
+
+&ldquo;I just wanted to thank you for the wealth of lecture notes you have posted on your site! They are a lifesaver for CS 146, the whole class is using them.&rdquo;<br> &mdash;  <cite>Nolan</cite>
 
 ## About
 This website contains Lecture Notes only, as well as my thoughts regarding the courses. To get started, either take a walk on the homepage or check the top nav bar.
