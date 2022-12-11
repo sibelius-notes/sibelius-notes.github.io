@@ -33,7 +33,7 @@ title: Sort by terms
     .contner {
       margin: 5vh 2.5vw;
       padding: 15vh 0;
-      background: #f7f7f7;
+      background: rgb(255, 225, 224);
       border-radius: 5px;
       display: flex;
       flex-direction: column;
