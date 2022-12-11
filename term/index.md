@@ -43,7 +43,7 @@ title: Sort by terms
       height: 5rem;
     }
     .contner svg line {
-      stroke: #5f39dd;
+      stroke: #7883c0;
       stroke-width: 3px;
       stroke-linecap: round;
       stroke-dasharray: 2px 20px;
